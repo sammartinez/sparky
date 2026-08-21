@@ -56,23 +56,17 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v7
+
       - name: Install, build, and upload your site
         uses: withastro/action@v6
-
-      - name: Build site
-        run: npm run build
+        with:
+          node-version: 22.18.0
         env:
           SITE: https://sammartinez.github.io
           BASE: /sparky
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: dist
-
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
