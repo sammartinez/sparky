@@ -9,6 +9,7 @@ const SITE = process.env.SITE ?? "https://sammartinez.github.io";
 const BASE = process.env.BASE ?? "/sparky";
 
 export default defineConfig({
+  output: "static",
   site: SITE,
   base: BASE,
   trailingSlash: "ignore",
