@@ -1,0 +1,64 @@
+---
+import Base from "../layouts/Base.astro";
+import DawnRule from "../components/DawnRule.astro";
+import Story from "../components/Story.astro";
+import { allDigests, formatDate, href } from "../lib/brief";
+
+const digests = await allDigests();
+const today = digests[0];
+const previous = digests[1];
+
+// One clock for the whole page so the ages agree with each other.
+const now = today ? new Date(today.data.generatedAt).getTime() : Date.now();
+---
+
+<Base
+  title="Sparky — today's AI brief"
+  standfirst={today ? formatDate(today.data.date) : "No brief yet"}
+>
+  {
+    !today && (
+      <section class="border-rule border-t py-16">
+        <p class="text-muted text-lg">
+          Nothing here yet. Run <code class="font-mono text-sm">npm run digest</code> to
+          build the first brief, or trigger the Daily brief workflow from the Actions
+          tab.
+        </p>
+      </section>
+    )
+  }
+
+  {
+    today && (
+      <>
+        <DawnRule
+          stories={today.data.stories}
+          generatedAt={today.data.generatedAt}
+        />
+
+        {today.data.stories.length === 0 ? (
+          <p class="text-muted border-rule border-t py-12">
+            Quiet morning — nothing cleared the bar.
+          </p>
+        ) : (
+          <section class="border-rule border-t">
+            {today.data.stories.map((story, i) => (
+              <Story rank={i + 1} now={now} {...story} />
+            ))}
+          </section>
+        )}
+
+        <nav class="mt-10 flex items-center justify-between font-mono text-xs">
+          {previous ? (
+            <a href={href(`archive/${previous.id}`)} class="hover:text-pine">
+              ← {previous.data.date}
+            </a>
+          ) : (
+            <span />
+          )}
+          <a href={href("archive")} class="hover:text-pine">All briefs →</a>
+        </nav>
+      </>
+    )
+  }
+</Base>

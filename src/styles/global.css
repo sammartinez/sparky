@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+/*
+  Direction: a 5am instrument readout, not a newspaper.
+  Palette is cool oat paper and pine ink — deliberately off the warm-cream axis.
+  Saffron appears in exactly one place: the traction bar. It is the only heat
+  on the page, so where it shows up carries meaning.
+*/
+@theme {
+  --color-paper: #edefe8;
+  --color-panel: #e5e8de;
+  --color-ink: #15181a;
+  --color-muted: #5f6862;
+  --color-rule: #d2d6cb;
+  --color-pine: #22463a;
+  --color-saffron: #d98e04;
+  --color-clay: #8c4a3b;
+
+  --font-display: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Newsreader", ui-serif, Georgia, serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-paper: #12150f;
+    --color-panel: #1a1e17;
+    --color-ink: #e6e9df;
+    --color-muted: #8b948a;
+    --color-rule: #2c322a;
+    --color-pine: #8fc4a8;
+    --color-saffron: #e6a72e;
+    --color-clay: #d08a75;
+  }
+}
+
+html {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-size: 1.0625rem;
+  line-height: 1.55;
+}
+
+a {
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-saffron);
+  outline-offset: 3px;
+  border-radius: 1px;
+}
+
+/* Small caps utility label — used for eyebrows and metadata throughout. */
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

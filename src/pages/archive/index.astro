@@ -1,0 +1,37 @@
+---
+import Base from "../../layouts/Base.astro";
+import { allDigests, formatDate, href } from "../../lib/brief";
+
+const digests = await allDigests();
+---
+
+<Base title="Archive — Sparky" standfirst={`${digests.length} ${digests.length === 1 ? "brief" : "briefs"}`}>
+  <section class="border-rule border-t">
+    {
+      digests.map((d) => (
+        <a
+          href={href(`archive/${d.id}`)}
+          class="border-rule hover:bg-panel block border-b px-2 py-5 no-underline transition-colors"
+        >
+          <div class="flex items-baseline justify-between gap-4">
+            <span class="font-display text-lg font-medium">{formatDate(d.data.date)}</span>
+            <span class="text-muted font-mono text-xs whitespace-nowrap">
+              {d.data.stories.length} stories
+            </span>
+          </div>
+          {d.data.stories[0] && (
+            <p class="text-muted mt-1 truncate text-sm">
+              Led with: {d.data.stories[0].title}
+            </p>
+          )}
+        </a>
+      ))
+    }
+  </section>
+
+  {
+    digests.length === 0 && (
+      <p class="text-muted border-rule border-t py-12">No briefs archived yet.</p>
+    )
+  }
+</Base>

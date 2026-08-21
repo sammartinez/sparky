@@ -1,0 +1,319 @@
+{
+  "date": "2026-08-21",
+  "generatedAt": "2026-08-21T14:11:44.525Z",
+  "stories": [
+    {
+      "id": "e42b7af4138c",
+      "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+      "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+      "canonicalUrl": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games",
+      "domain": "deepmind.google",
+      "createdAt": "2026-08-21T11:59:48.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Google DeepMind",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.945,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "cb481993e0b2",
+      "title": "DeepSeek-v4-flash-vision-exp",
+      "url": "https://api-docs.deepseek.com/guides/vision/",
+      "canonicalUrl": "https://api-docs.deepseek.com/guides/vision",
+      "domain": "api-docs.deepseek.com",
+      "createdAt": "2026-08-21T10:33:56.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 261,
+          "comments": 66,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49386163"
+        }
+      ],
+      "normalized": 0.821,
+      "score": 0.915,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "ad7b51a78de0",
+      "title": "AI companies destroy physical books – let's scan rare books before it's too late",
+      "url": "https://annas-archive.pk/blog/physical-destruction.html",
+      "canonicalUrl": "https://annas-archive.pk/blog/physical-destruction.html",
+      "domain": "annas-archive.pk",
+      "createdAt": "2026-08-21T02:37:47.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 308,
+          "comments": 227,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49385994"
+        }
+      ],
+      "normalized": 0.874,
+      "score": 0.2,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "2f7b33868b15",
+      "title": "Ox Alpha",
+      "url": "https://openrouter.ai/stealth/ox-alpha",
+      "canonicalUrl": "https://openrouter.ai/stealth/ox-alpha",
+      "domain": "openrouter.ai",
+      "createdAt": "2026-08-20T23:56:35.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 201,
+          "comments": 157,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49381896"
+        }
+      ],
+      "normalized": 0.779,
+      "score": 0.129,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "ad9e90903af4",
+      "title": "Copyright does not protect AI-generated content in EU",
+      "url": "https://mathstodon.xyz/@maxpool/117128107757895678",
+      "canonicalUrl": "https://mathstodon.xyz/@maxpool/117128107757895678",
+      "domain": "mathstodon.xyz",
+      "createdAt": "2026-08-21T00:15:12.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 181,
+          "comments": 196,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49382041"
+        }
+      ],
+      "normalized": 0.747,
+      "score": 0.128,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "1130499a9347",
+      "title": "I'm Becoming AI-Blind",
+      "url": "https://cymerys.com/w/im-becoming-ai-blind",
+      "canonicalUrl": "https://cymerys.com/w/im-becoming-ai-blind",
+      "domain": "cymerys.com",
+      "createdAt": "2026-08-21T11:48:05.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 29,
+          "comments": 15,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49386699"
+        }
+      ],
+      "normalized": 0.063,
+      "score": 0.11,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "c146019457b7",
+      "title": "Show HN: Huzzah – a novel approach to coding with AI",
+      "url": "https://www.danielvaughn.dev/posts/huzzah/",
+      "canonicalUrl": "https://danielvaughn.dev/posts/huzzah",
+      "domain": "danielvaughn.dev",
+      "createdAt": "2026-08-20T19:05:36.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 345,
+          "comments": 197,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49378768"
+        }
+      ],
+      "normalized": 0.905,
+      "score": 0.093,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "1900a54ebcdf",
+      "title": "Seed: Minimal, self-modifying agent harness",
+      "url": "https://github.com/vivekhaldar/seed",
+      "canonicalUrl": "https://github.com/vivekhaldar/seed",
+      "domain": "github.com",
+      "createdAt": "2026-08-21T05:20:50.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 49,
+          "comments": 16,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49384113"
+        }
+      ],
+      "normalized": 0.263,
+      "score": 0.09,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "68e9fb1705e1",
+      "title": "Measuring benchmark optimization in speech recognition",
+      "url": "https://huggingface.co/blog/asr-benchmark-optimization",
+      "canonicalUrl": "https://huggingface.co/blog/asr-benchmark-optimization",
+      "domain": "huggingface.co",
+      "createdAt": "2026-08-21T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.083,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "0ac0123bfb33",
+      "title": "Vomit: Clean up Claude 5's token output with a separate LLM",
+      "url": "https://github.com/zachahn/vomit",
+      "canonicalUrl": "https://github.com/zachahn/vomit",
+      "domain": "github.com",
+      "createdAt": "2026-08-20T15:26:02.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 281,
+          "comments": 279,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49375996"
+        }
+      ],
+      "normalized": 0.842,
+      "score": 0.065,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "1e445dd08467",
+      "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
+      "url": "https://simedw.com/2026/08/20/midi-autocomplete/",
+      "canonicalUrl": "https://simedw.com/2026/08/20/midi-autocomplete",
+      "domain": "simedw.com",
+      "createdAt": "2026-08-20T12:04:38.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 561,
+          "comments": 113,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49373456"
+        }
+      ],
+      "normalized": 0.947,
+      "score": 0.059,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "157e2ca74123",
+      "title": "Anti-AI fonts are useless and harmful",
+      "url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/",
+      "canonicalUrl": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful",
+      "domain": "blog.yaros.ae",
+      "createdAt": "2026-08-20T15:06:53.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 187,
+          "comments": 148,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49375719"
+        }
+      ],
+      "normalized": 0.758,
+      "score": 0.058,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "3ca1d6eea3dc",
+      "title": "Don't paste the AI, please",
+      "url": "https://dontpastetheai.com/",
+      "canonicalUrl": "https://dontpastetheai.com/",
+      "domain": "dontpastetheai.com",
+      "createdAt": "2026-08-20T08:20:44.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 1021,
+          "comments": 568,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49371857"
+        }
+      ],
+      "normalized": 0.979,
+      "score": 0.048,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "e513c7dedb69",
+      "title": "Hacking with Claude on a $27 smart watch",
+      "url": "https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html",
+      "canonicalUrl": "https://mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html",
+      "domain": "mikekasberg.com",
+      "createdAt": "2026-08-20T14:08:09.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 101,
+          "comments": 55,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49374772"
+        }
+      ],
+      "normalized": 0.611,
+      "score": 0.043,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "2bf314b17c2a",
+      "title": "Every Model Cheats",
+      "url": "https://dreadnode.io/research/every-model-cheats-prompt-level-mitigation-of-cheating-on-offensive-cyber-tasks/",
+      "canonicalUrl": "https://dreadnode.io/research/every-model-cheats-prompt-level-mitigation-of-cheating-on-offensive-cyber-tasks",
+      "domain": "dreadnode.io",
+      "createdAt": "2026-08-20T13:56:59.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 106,
+          "comments": 87,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49374635"
+        }
+      ],
+      "normalized": 0.621,
+      "score": 0.043,
+      "aiScore": 5,
+      "why": ""
+    }
+  ]
+}

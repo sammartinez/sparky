@@ -1,0 +1,61 @@
+---
+import type { GetStaticPaths } from "astro";
+import Base from "../../layouts/Base.astro";
+import DawnRule from "../../components/DawnRule.astro";
+import Story from "../../components/Story.astro";
+import { allDigests, formatDate, href } from "../../lib/brief";
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const digests = await allDigests();
+  return digests.map((entry, i) => ({
+    params: { date: entry.id },
+    props: {
+      entry,
+      newer: digests[i - 1] ?? null,
+      older: digests[i + 1] ?? null,
+    },
+  }));
+};
+
+const { entry, newer, older } = Astro.props;
+const now = new Date(entry.data.generatedAt).getTime();
+---
+
+<Base
+  title={`${entry.data.date} — Sparky`}
+  standfirst={formatDate(entry.data.date)}
+>
+  <DawnRule stories={entry.data.stories} generatedAt={entry.data.generatedAt} />
+
+  <section class="border-rule border-t">
+    {
+      entry.data.stories.map((story, i) => (
+        <Story rank={i + 1} now={now} {...story} />
+      ))
+    }
+  </section>
+
+  {
+    entry.data.stories.length === 0 && (
+      <p class="text-muted py-12">Quiet morning — nothing cleared the bar.</p>
+    )
+  }
+
+  <nav class="mt-10 flex items-center justify-between font-mono text-xs">
+    {
+      older ? (
+        <a href={href(`archive/${older.id}`)} class="hover:text-pine">← {older.id}</a>
+      ) : (
+        <span />
+      )
+    }
+    <a href={href("archive")} class="hover:text-pine">All briefs</a>
+    {
+      newer ? (
+        <a href={href(`archive/${newer.id}`)} class="hover:text-pine">{newer.id} →</a>
+      ) : (
+        <span />
+      )
+    }
+  </nav>
+</Base>
