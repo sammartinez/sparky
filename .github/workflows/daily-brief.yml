@@ -30,8 +30,8 @@ jobs:
 
       - name: Build daily brief
         run: npm run digest
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        # env:
+        #   ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       - name: Commit daily brief
         run: |
@@ -56,22 +56,11 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Check out latest main
-        uses: actions/checkout@v4
-        with:
-          ref: main
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22.18.0
-          cache: npm
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
+      steps:
+      - name: Checkout your repository using git
+        uses: actions/checkout@v7
+      - name: Install, build, and upload your site
+        uses: withastro/action@v6
 
       - name: Build site
         run: npm run build
