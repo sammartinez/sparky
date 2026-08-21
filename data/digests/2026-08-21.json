@@ -1,5 +1,320 @@
 {
   "date": "2026-08-21",
-  "generatedAt": "2026-08-21T14:34:08.944Z",
-  "stories": []
+  "generatedAt": "2026-08-21T14:44:53.364Z",
+  "stories": [
+    {
+      "id": "551c2101be10",
+      "title": "Kagi added a setting for removing paywalled links from search results",
+      "url": "https://kagi.com/changelog#11296",
+      "canonicalUrl": "https://kagi.com/changelog",
+      "domain": "kagi.com",
+      "createdAt": "2026-08-21T13:56:37.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 147,
+          "comments": 60,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49388154"
+        }
+      ],
+      "normalized": 0.694,
+      "score": 2.711,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "0dcbd3102493",
+      "title": "Grand jury declines to indict Ohio man charged with destroying Flock camera",
+      "url": "https://san.com/cc/grand-jury-declines-to-indict-ohio-man-charged-with-destroying-flock-camera/",
+      "canonicalUrl": "https://san.com/cc/grand-jury-declines-to-indict-ohio-man-charged-with-destroying-flock-camera",
+      "domain": "san.com",
+      "createdAt": "2026-08-21T13:04:31.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 207,
+          "comments": 82,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49387497"
+        }
+      ],
+      "normalized": 0.776,
+      "score": 1.864,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "7d4b1652b245",
+      "title": "US debt has hit $40tn - Will that be a wake-up call?",
+      "url": "https://www.bbc.com/news/articles/c9d8z72nn02o",
+      "canonicalUrl": "https://bbc.com/news/articles/c9d8z72nn02o",
+      "domain": "bbc.com",
+      "createdAt": "2026-08-21T13:51:07.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 45,
+          "comments": 73,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49388067"
+        }
+      ],
+      "normalized": 0.235,
+      "score": 0.865,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "cb481993e0b2",
+      "title": "DeepSeek-v4-flash-vision-exp",
+      "url": "https://api-docs.deepseek.com/guides/vision/",
+      "canonicalUrl": "https://api-docs.deepseek.com/guides/vision",
+      "domain": "api-docs.deepseek.com",
+      "createdAt": "2026-08-21T10:33:56.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 280,
+          "comments": 85,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49386163"
+        }
+      ],
+      "normalized": 0.837,
+      "score": 0.788,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "e42b7af4138c",
+      "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+      "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+      "canonicalUrl": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games",
+      "domain": "deepmind.google",
+      "createdAt": "2026-08-21T11:59:48.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Google DeepMind",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.756,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "7f05bfbbca65",
+      "title": "TigerBeetle Core System Architecture: Deconstructing Performance Engineering",
+      "url": "https://ixuvo.com/blog/tigerbeetle-core-system-architecture-performance-engineering",
+      "canonicalUrl": "https://ixuvo.com/blog/tigerbeetle-core-system-architecture-performance-engineering",
+      "domain": "ixuvo.com",
+      "createdAt": "2026-08-21T11:43:38.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 84,
+          "comments": 32,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49386659"
+        }
+      ],
+      "normalized": 0.541,
+      "score": 0.741,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "373e52152d04",
+      "title": "Small, native web tricks worth remembering",
+      "url": "https://htmlcat.net/",
+      "canonicalUrl": "https://htmlcat.net/",
+      "domain": "htmlcat.net",
+      "createdAt": "2026-08-21T09:45:14.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 153,
+          "comments": 36,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49385860"
+        }
+      ],
+      "normalized": 0.704,
+      "score": 0.531,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "1130499a9347",
+      "title": "I'm Becoming AI-Blind",
+      "url": "https://cymerys.com/w/im-becoming-ai-blind",
+      "canonicalUrl": "https://cymerys.com/w/im-becoming-ai-blind",
+      "domain": "cymerys.com",
+      "createdAt": "2026-08-21T11:48:05.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 56,
+          "comments": 50,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49386699"
+        }
+      ],
+      "normalized": 0.347,
+      "score": 0.488,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "eb3e78de32d0",
+      "title": "Nvidia AVO scores 100% on the ARC-AGI-3 interactive reasoning benchmark",
+      "url": "https://twitter.com/NVIDIAAI/status/2090786258981466231",
+      "canonicalUrl": "https://twitter.com/NVIDIAAI/status/2090786258981466231",
+      "domain": "twitter.com",
+      "createdAt": "2026-08-21T13:26:03.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 36,
+          "comments": 16,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49387755"
+        }
+      ],
+      "normalized": 0.122,
+      "score": 0.354,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "7294eb6d685c",
+      "title": "Felony charges for citizen deleting phone data at US Border",
+      "url": "https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html",
+      "canonicalUrl": "https://nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html",
+      "domain": "nytimes.com",
+      "createdAt": "2026-08-21T12:10:13.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 43,
+          "comments": 98,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49386895"
+        }
+      ],
+      "normalized": 0.214,
+      "score": 0.346,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "902bbc266341",
+      "title": "The Lost Treasure of Sid Meier's Pirates",
+      "url": "https://remapradio.com/articles/the-lost-treasure-of-sid-meiers-pirates/",
+      "canonicalUrl": "https://remapradio.com/articles/the-lost-treasure-of-sid-meiers-pirates",
+      "domain": "remapradio.com",
+      "createdAt": "2026-08-21T07:23:27.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 192,
+          "comments": 111,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49384896"
+        }
+      ],
+      "normalized": 0.755,
+      "score": 0.337,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "4e291b29108a",
+      "title": "Japan tried to build an operating system for the world, the US intervened",
+      "url": "https://www.xda-developers.com/japan-tried-build-operating-system-entire-world-us-government-intervened/",
+      "canonicalUrl": "https://xda-developers.com/japan-tried-build-operating-system-entire-world-us-government-intervened",
+      "domain": "xda-developers.com",
+      "createdAt": "2026-08-21T05:31:34.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 304,
+          "comments": 173,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49384180"
+        }
+      ],
+      "normalized": 0.867,
+      "score": 0.279,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "d66551714677",
+      "title": "We Rebuilt the Linux MicroVM Stack on Apple Silicon",
+      "url": "https://encore.dev/blog/firecracker-apple-silicon",
+      "canonicalUrl": "https://encore.dev/blog/firecracker-apple-silicon",
+      "domain": "encore.dev",
+      "createdAt": "2026-08-21T06:59:40.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 124,
+          "comments": 68,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49384716"
+        }
+      ],
+      "normalized": 0.663,
+      "score": 0.275,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "09d5ecd76f33",
+      "title": "Emacs 31.1 will release on 8/24",
+      "url": "https://github.com/emacs-mirror/emacs/blob/062dcd2aead00c3b47c14ff5b6c40313f7a775f5/etc/HISTORY",
+      "canonicalUrl": "https://github.com/emacs-mirror/emacs/blob/062dcd2aead00c3b47c14ff5b6c40313f7a775f5/etc/HISTORY",
+      "domain": "github.com",
+      "createdAt": "2026-08-21T08:19:48.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 58,
+          "comments": 15,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49385296"
+        }
+      ],
+      "normalized": 0.388,
+      "score": 0.209,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "ad7b51a78de0",
+      "title": "AI companies destroy physical books – let's scan rare books before it's too late",
+      "url": "https://annas-archive.pk/blog/physical-destruction.html",
+      "canonicalUrl": "https://annas-archive.pk/blog/physical-destruction.html",
+      "domain": "annas-archive.pk",
+      "createdAt": "2026-08-21T02:37:47.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 378,
+          "comments": 272,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49385994"
+        }
+      ],
+      "normalized": 0.929,
+      "score": 0.198,
+      "aiScore": 5,
+      "why": ""
+    }
+  ]
 }

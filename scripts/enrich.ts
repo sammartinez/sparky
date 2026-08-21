@@ -12,6 +12,7 @@ const HINTS =
   /\b(ai|a\.i\.|llm|llms|gpt|claude|gemini|grok|llama|mistral|deepseek|qwen|openai|anthropic|deepmind|hugging ?face|nvidia|transformer|diffusion|neural|machine learning|deep learning|inference|fine.?tun|embedding|rag|agent|agentic|prompt|token|benchmark|dataset|model|chatbot|copilot|autonomous|robotics|gpu|tpu|cuda|alignment|superintelligence|agi)\b/i;
 
 export function prefilter(stories: Story[], limit: number): Story[] {
+  if (!API_KEY) return stories.slice(0, limit);
   const hits = stories.filter((s) => HINTS.test(s.title) || HINTS.test(s.domain));
   return hits.slice(0, limit);
 }

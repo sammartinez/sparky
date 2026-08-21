@@ -31,6 +31,14 @@ function briefDate(): string {
   }).format(new Date());
 }
 
+async function loadDigest(date: string): Promise<Digest | null> {
+  try {
+    return JSON.parse(await readFile(join(DIGEST_DIR, `${date}.json`), "utf8")) as Digest;
+  } catch {
+    return null;
+  }
+}
+
 async function loadSeen(): Promise<Seen> {
   try {
     return JSON.parse(await readFile(SEEN_PATH, "utf8")) as Seen;
@@ -50,6 +58,11 @@ async function main() {
   const date = briefDate();
   console.log(`Building brief for ${date}\n`);
 
+  if (await loadDigest(date)) {
+    console.log(`A brief for ${date} already exists; keeping it until tomorrow.`);
+    return;
+  }
+
   const raw = await fetchAll();
   console.log(`\n${raw.length} raw items`);
   if (raw.length === 0) {
@@ -61,6 +74,16 @@ async function main() {
   console.log(`${ranked.length} after dedupe`);
 
   const seen = pruneSeen(await loadSeen());
+  const previousDate = new Intl.DateTimeFormat("en-CA", {
+    timeZone: process.env.BRIEF_TZ ?? "America/Boise",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(new Date(Date.now() - 86_400_000));
+  const previousDigest = await loadDigest(previousDate);
+  for (const story of previousDigest?.stories ?? []) {
+    seen[story.id] = new Date().toISOString();
+  }
   const fresh = ranked.filter((s) => !seen[s.id]);
   console.log(`${fresh.length} not featured in the last ${SEEN_DAYS} days`);
 
@@ -87,8 +110,6 @@ async function main() {
 
   await mkdir(DIGEST_DIR, { recursive: true });
   await writeFile(join(DIGEST_DIR, `${date}.json`), JSON.stringify(digest, null, 2) + "\n");
-
-  for (const s of stories) seen[s.id] = new Date().toISOString();
   await writeFile(SEEN_PATH, JSON.stringify(seen, null, 2) + "\n");
 
   for (const [i, s] of stories.entries()) {
