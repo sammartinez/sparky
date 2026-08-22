@@ -1,0 +1,321 @@
+{
+  "date": "2026-08-22",
+  "generatedAt": "2026-08-22T12:22:29.360Z",
+  "stories": [
+    {
+      "id": "6f1639a0459b",
+      "title": "Canada suspends trade negotiations with USA and match tariffs dollar for dollar",
+      "url": "https://www.pm.gc.ca/en/news/statements/2026/08/21/statement-prime-minister-carney-canada-us-trade-negotiations",
+      "canonicalUrl": "https://pm.gc.ca/en/news/statements/2026/08/21/statement-prime-minister-carney-canada-us-trade-negotiations",
+      "domain": "pm.gc.ca",
+      "createdAt": "2026-08-22T10:26:09.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 292,
+          "comments": 163,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49398304"
+        }
+      ],
+      "normalized": 0.863,
+      "score": 1.829,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "877472073b00",
+      "title": "Robot comment classifier",
+      "url": "https://entropicthoughts.com/ai-comment-classifier",
+      "canonicalUrl": "https://entropicthoughts.com/ai-comment-classifier",
+      "domain": "entropicthoughts.com",
+      "createdAt": "2026-08-22T10:18:39.546Z",
+      "appearances": [
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 1,
+          "comments": 0,
+          "discussionUrl": "https://lobste.rs/s/ilfiqa/robot_comment_classifier"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 1.002,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "93b991f0f95e",
+      "title": "Munder Difflin – Agent harness to run an office of your clones",
+      "url": "https://munderdiffl.in/",
+      "canonicalUrl": "https://munderdiffl.in/",
+      "domain": "munderdiffl.in",
+      "createdAt": "2026-08-22T09:49:14.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 42,
+          "comments": 17,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49398152"
+        }
+      ],
+      "normalized": 0.232,
+      "score": 0.378,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "51701e1a5ae3",
+      "title": "Canada will match US tariffs 'dollar for dollar' as trade talks break down",
+      "url": "https://www.bbc.com/news/articles/cvgvyy4x2mvo",
+      "canonicalUrl": "https://bbc.com/news/articles/cvgvyy4x2mvo",
+      "domain": "bbc.com",
+      "createdAt": "2026-08-22T06:16:57.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 104,
+          "comments": 69,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49397074"
+        }
+      ],
+      "normalized": 0.589,
+      "score": 0.342,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "d665bad47448",
+      "title": "There's no reason for software to be slow anymore",
+      "url": "https://danluu.com/perf-opt/",
+      "canonicalUrl": "https://danluu.com/perf-opt",
+      "domain": "danluu.com",
+      "createdAt": "2026-08-22T01:06:17.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 469,
+          "comments": 335,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49395628"
+        }
+      ],
+      "normalized": 0.905,
+      "score": 0.215,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "c302d2d33537",
+      "title": "GPT 5.6 Sol 20% price reduction",
+      "url": "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
+      "canonicalUrl": "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
+      "domain": "developers.openai.com",
+      "createdAt": "2026-08-22T04:33:06.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 75,
+          "comments": 62,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49396590"
+        }
+      ],
+      "normalized": 0.474,
+      "score": 0.194,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "5d9a1ebcc719",
+      "title": "Initial focus for our partnership with Motorola is a regular non-folding device",
+      "url": "https://grapheneos.social/@GrapheneOS/117136278553665985",
+      "canonicalUrl": "https://grapheneos.social/@GrapheneOS/117136278553665985",
+      "domain": "grapheneos.social",
+      "createdAt": "2026-08-22T01:02:09.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 124,
+          "comments": 47,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49395605"
+        }
+      ],
+      "normalized": 0.684,
+      "score": 0.162,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "d05c14e49fa8",
+      "title": "Three important steps in my maturation process",
+      "url": "https://thomasdullien.github.io/posts/2026-08-21-three-important-steps-in-my-maturation-process/",
+      "canonicalUrl": "https://thomasdullien.github.io/posts/2026-08-21-three-important-steps-in-my-maturation-process",
+      "domain": "thomasdullien.github.io",
+      "createdAt": "2026-08-21T22:29:00.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 163,
+          "comments": 74,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49394496"
+        }
+      ],
+      "normalized": 0.768,
+      "score": 0.132,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "56e0f315df6b",
+      "title": "Rust Glancer: Rust LSP using 100x less RAM",
+      "url": "https://rust-glancer.github.io/blog/hello-world/",
+      "canonicalUrl": "https://rust-glancer.github.io/blog/hello-world",
+      "domain": "rust-glancer.github.io",
+      "createdAt": "2026-08-21T19:51:54.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 291,
+          "comments": 55,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49393052"
+        }
+      ],
+      "normalized": 0.853,
+      "score": 0.112,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "3d2d0c4b98d7",
+      "title": "Ask HN: Just saw a YC25 job posting front page that looks like a 7-day work week",
+      "url": "https://news.ycombinator.com/item?id=49395700",
+      "canonicalUrl": "https://news.ycombinator.com/item?id=49395700",
+      "domain": "news.ycombinator.com",
+      "createdAt": "2026-08-22T01:26:05.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 67,
+          "comments": 48,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49395700"
+        }
+      ],
+      "normalized": 0.379,
+      "score": 0.095,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "4e1e55b3bd8c",
+      "title": "Scientists release biggest 2D map of the universe",
+      "url": "https://newscenter.lbl.gov/2026/08/10/scientists-release-biggest-2d-map-of-the-universe/",
+      "canonicalUrl": "https://newscenter.lbl.gov/2026/08/10/scientists-release-biggest-2d-map-of-the-universe",
+      "domain": "newscenter.lbl.gov",
+      "createdAt": "2026-08-21T18:36:34.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 217,
+          "comments": 57,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49392200"
+        }
+      ],
+      "normalized": 0.811,
+      "score": 0.094,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "897bec22ae04",
+      "title": "Kobo can run apps now",
+      "url": "https://bandarlabs.github.io/Cobalt/",
+      "canonicalUrl": "https://bandarlabs.github.io/Cobalt",
+      "domain": "bandarlabs.github.io",
+      "createdAt": "2026-08-21T16:25:25.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 577,
+          "comments": 191,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49390427"
+        }
+      ],
+      "normalized": 0.947,
+      "score": 0.091,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "5b5a67383da0",
+      "title": "Felony Bench",
+      "url": "https://www.felonybench.com/",
+      "canonicalUrl": "https://felonybench.com/",
+      "domain": "felonybench.com",
+      "createdAt": "2026-08-21T15:17:04.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 750,
+          "comments": 280,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49389430"
+        }
+      ],
+      "normalized": 0.968,
+      "score": 0.085,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "83979182a263",
+      "title": "'Ghost job' ads are getting so bad that lawmakers want to ban them",
+      "url": "https://www.wsj.com/lifestyle/careers/ghost-job-ads-are-getting-so-bad-that-lawmakers-want-to-ban-them-2580bc3e",
+      "canonicalUrl": "https://wsj.com/lifestyle/careers/ghost-job-ads-are-getting-so-bad-that-lawmakers-want-to-ban-them-2580bc3e",
+      "domain": "wsj.com",
+      "createdAt": "2026-08-21T22:15:46.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 85,
+          "comments": 47,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49394373"
+        }
+      ],
+      "normalized": 0.505,
+      "score": 0.085,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "6b83fdd665f3",
+      "title": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
+      "url": "https://ozbrain.com",
+      "canonicalUrl": "https://ozbrain.com/",
+      "domain": "ozbrain.com",
+      "createdAt": "2026-08-21T23:09:06.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 71,
+          "comments": 44,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49394827"
+        }
+      ],
+      "normalized": 0.442,
+      "score": 0.082,
+      "aiScore": 5,
+      "why": ""
+    }
+  ]
+}
