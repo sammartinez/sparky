@@ -1,0 +1,321 @@
+{
+  "date": "2026-08-23",
+  "generatedAt": "2026-08-23T12:22:57.241Z",
+  "stories": [
+    {
+      "id": "b7db760d2e60",
+      "title": "Tragically, as many as 9625 out of every 10k individuals may be neurotypical",
+      "url": "https://erikengdahl.se/autism/isnt/",
+      "canonicalUrl": "https://erikengdahl.se/autism/isnt",
+      "domain": "erikengdahl.se",
+      "createdAt": "2026-08-23T08:48:34.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 75,
+          "comments": 87,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49407143"
+        }
+      ],
+      "normalized": 0.473,
+      "score": 0.536,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "e84c39b9fbb2",
+      "title": "I gave Qwen 3.8 27B a reverse-engineering job and it finished in 30 minutes",
+      "url": "https://www.xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model/",
+      "canonicalUrl": "https://xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model",
+      "domain": "xda-developers.com",
+      "createdAt": "2026-08-23T10:02:51.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 40,
+          "comments": 8,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49407507"
+        }
+      ],
+      "normalized": 0.236,
+      "score": 0.422,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "fcf3e7f711e9",
+      "title": "Wi-Fi 8 is the first wireless upgrade in years that isn't chasing speed",
+      "url": "https://www.xda-developers.com/wi-fi-8-first-wireless-upgrade-years-isnt-chasing-speed-home-networks-need-it/",
+      "canonicalUrl": "https://xda-developers.com/wi-fi-8-first-wireless-upgrade-years-isnt-chasing-speed-home-networks-need-it",
+      "domain": "xda-developers.com",
+      "createdAt": "2026-08-23T06:41:51.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 131,
+          "comments": 97,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49406539"
+        }
+      ],
+      "normalized": 0.655,
+      "score": 0.416,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "536c7ff4c36c",
+      "title": "The Sloppification of Peptides",
+      "url": "https://henryaj.substack.com/p/the-sloppification-of-peptides",
+      "canonicalUrl": "https://henryaj.substack.com/p/the-sloppification-of-peptides",
+      "domain": "henryaj.substack.com",
+      "createdAt": "2026-08-23T09:32:54.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 44,
+          "comments": 15,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49407341"
+        }
+      ],
+      "normalized": 0.273,
+      "score": 0.4,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "d1a4b705cf6b",
+      "title": "The End of an Athlon",
+      "url": "http://www.os2museum.com/wp/the-end-of-an-athlon/",
+      "canonicalUrl": "https://os2museum.com/wp/the-end-of-an-athlon",
+      "domain": "os2museum.com",
+      "createdAt": "2026-08-23T05:51:01.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 123,
+          "comments": 38,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49406333"
+        }
+      ],
+      "normalized": 0.636,
+      "score": 0.336,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "fe7d89a05510",
+      "title": "JIT Compiling Code in 5μs",
+      "url": "https://malisper.me/jit-compiling-code-in-5-us/",
+      "canonicalUrl": "https://malisper.me/jit-compiling-code-in-5-us",
+      "domain": "malisper.me",
+      "createdAt": "2026-08-23T06:04:51.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 86,
+          "comments": 50,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49406387"
+        }
+      ],
+      "normalized": 0.527,
+      "score": 0.292,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "e9b03c1ca8c4",
+      "title": "To become a better writer, read as much as you can",
+      "url": "https://nappertime.com/the-golden-rule-of-becoming-a-better-writer/",
+      "canonicalUrl": "https://nappertime.com/the-golden-rule-of-becoming-a-better-writer",
+      "domain": "nappertime.com",
+      "createdAt": "2026-08-23T03:32:25.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 221,
+          "comments": 142,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49405870"
+        }
+      ],
+      "normalized": 0.836,
+      "score": 0.286,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "99609a67b1b6",
+      "title": "MartyPC is a cross-platform emulator of early PCs written in Rust",
+      "url": "https://martypc.net/",
+      "canonicalUrl": "https://martypc.net/",
+      "domain": "martypc.net",
+      "createdAt": "2026-08-23T03:13:16.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 131,
+          "comments": 43,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49405816"
+        }
+      ],
+      "normalized": 0.655,
+      "score": 0.213,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "9a171ab3f606",
+      "title": "Fast and Hard Code",
+      "url": "https://lucumr.pocoo.org/2026/8/22/fast-hard-code/",
+      "canonicalUrl": "https://lucumr.pocoo.org/2026/8/22/fast-hard-code",
+      "domain": "lucumr.pocoo.org",
+      "createdAt": "2026-08-23T05:39:06.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 53,
+          "comments": 16,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49406285"
+        }
+      ],
+      "normalized": 0.327,
+      "score": 0.166,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "6aef68807135",
+      "title": "I Dream of Quieter Computing",
+      "url": "https://henry.codes/writing/i-dream-of-quieter-computing/",
+      "canonicalUrl": "https://henry.codes/writing/i-dream-of-quieter-computing",
+      "domain": "henry.codes",
+      "createdAt": "2026-08-23T02:33:22.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 84,
+          "comments": 82,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49405682"
+        }
+      ],
+      "normalized": 0.509,
+      "score": 0.149,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "89c42c2b1d57",
+      "title": "The Art and Beauty of Blade Runner (2015)",
+      "url": "https://nappertime.com/the-art-of-and-beauty-of-blade-runner/",
+      "canonicalUrl": "https://nappertime.com/the-art-of-and-beauty-of-blade-runner",
+      "domain": "nappertime.com",
+      "createdAt": "2026-08-23T00:56:03.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 103,
+          "comments": 44,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49405331"
+        }
+      ],
+      "normalized": 0.564,
+      "score": 0.131,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "216d31ff2ee8",
+      "title": "Four Years Ago, a Crypto Boss Went Missing. Now His Successor Has",
+      "url": "https://www.nytimes.com/2026/08/23/world/europe/poland-estonia-cryptocurrency.html",
+      "canonicalUrl": "https://nytimes.com/2026/08/23/world/europe/poland-estonia-cryptocurrency.html",
+      "domain": "nytimes.com",
+      "createdAt": "2026-08-23T04:28:18.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 50,
+          "comments": 16,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49406069"
+        }
+      ],
+      "normalized": 0.309,
+      "score": 0.124,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "c0f9d10986f5",
+      "title": "Why your local LLM feels dumber than it is",
+      "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+      "canonicalUrl": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+      "domain": "forum.level1techs.com",
+      "createdAt": "2026-08-22T18:14:16.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 384,
+          "comments": 146,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49402232"
+        }
+      ],
+      "normalized": 0.927,
+      "score": 0.104,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "e3fab2832e65",
+      "title": "NanoGPT Speedrun Frontier",
+      "url": "https://www.primeintellect.ai/research/nanogpt-speedrun",
+      "canonicalUrl": "https://primeintellect.ai/research/nanogpt-speedrun",
+      "domain": "primeintellect.ai",
+      "createdAt": "2026-08-22T22:14:27.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 114,
+          "comments": 28,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49404380"
+        }
+      ],
+      "normalized": 0.618,
+      "score": 0.103,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "0cbbcd53f19c",
+      "title": "Scrap (2006)",
+      "url": "https://twitter.com/moxie/status/2091218652133732491",
+      "canonicalUrl": "https://twitter.com/moxie/status/2091218652133732491",
+      "domain": "twitter.com",
+      "createdAt": "2026-08-22T18:08:56.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 382,
+          "comments": 200,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49402189"
+        }
+      ],
+      "normalized": 0.909,
+      "score": 0.101,
+      "aiScore": 5,
+      "why": ""
+    }
+  ]
+}
