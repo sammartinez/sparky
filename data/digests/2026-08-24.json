@@ -1,0 +1,276 @@
+{
+  "date": "2026-08-24",
+  "generatedAt": "2026-08-24T12:32:00.139Z",
+  "stories": [
+    {
+      "id": "b809feda75e8",
+      "title": "Your executable is a SQLite database",
+      "url": "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/",
+      "canonicalUrl": "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database",
+      "domain": "simonwillison.net",
+      "createdAt": "2026-08-24T11:38:15.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Simon Willison",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 1.844,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "1de56f78e523",
+      "title": "AI Chip Architectures",
+      "url": "https://www.jepeake.com/ai-chip-architectures",
+      "canonicalUrl": "https://jepeake.com/ai-chip-architectures",
+      "domain": "jepeake.com",
+      "createdAt": "2026-08-24T01:37:10.494Z",
+      "appearances": [
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 0,
+          "comments": 0,
+          "discussionUrl": "https://lobste.rs/s/ebpnyk/ai_chip_architectures"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.125,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "d6c0f7eda20e",
+      "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
+      "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
+      "canonicalUrl": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t",
+      "domain": "simonwillison.net",
+      "createdAt": "2026-08-23T20:24:52.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Simon Willison",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.068,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "02dbe79386a6",
+      "title": "Quoting Drew Breunig",
+      "url": "https://simonwillison.net/2026/Aug/23/drew-breunig/",
+      "canonicalUrl": "https://simonwillison.net/2026/Aug/23/drew-breunig",
+      "domain": "simonwillison.net",
+      "createdAt": "2026-08-23T19:55:30.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Simon Willison",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.065,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "0cc58d109536",
+      "title": "Malware infects Android-based automotive head unit firmware",
+      "url": "https://securelist.com/android-head-unit-malware/121106/",
+      "canonicalUrl": "https://securelist.com/android-head-unit-malware/121106",
+      "domain": "securelist.com",
+      "createdAt": "2026-08-23T13:05:38.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 87,
+          "comments": 40,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49408550"
+        }
+      ],
+      "normalized": 0.476,
+      "score": 0.035,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "318aec448536",
+      "title": "Sydney Marathon medal mistakenly depicts Munich stadium",
+      "url": "https://www.bbc.com/news/articles/cvg92y1wzn8o",
+      "canonicalUrl": "https://bbc.com/news/articles/cvg92y1wzn8o",
+      "domain": "bbc.com",
+      "createdAt": "2026-08-23T10:14:48.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 90,
+          "comments": 59,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49407576"
+        }
+      ],
+      "normalized": 0.571,
+      "score": 0.035,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "544d4e6a75e9",
+      "title": "Iranian hackers shut down UK power plant for 4 days",
+      "url": "https://www.telegraph.co.uk/news/2026/08/22/iranian-hackers-shut-down-uk-power-plant/",
+      "canonicalUrl": "https://telegraph.co.uk/news/2026/08/22/iranian-hackers-shut-down-uk-power-plant",
+      "domain": "telegraph.co.uk",
+      "createdAt": "2026-08-23T10:03:01.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 56,
+          "comments": 34,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49407509"
+        }
+      ],
+      "normalized": 0.333,
+      "score": 0.02,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "8149cce46384",
+      "title": "My favorite nonfiction books about cults, scams, and schemes",
+      "url": "https://bookdna.com/best-books/nonfiction-about-cults-scams-and-schemes",
+      "canonicalUrl": "https://bookdna.com/best-books/nonfiction-about-cults-scams-and-schemes",
+      "domain": "bookdna.com",
+      "createdAt": "2026-08-23T13:51:10.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 48,
+          "comments": 13,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49408858"
+        }
+      ],
+      "normalized": 0.238,
+      "score": 0.018,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "59a17a6a341b",
+      "title": "Show HN: Live 3D satellite tracker and the declassified Pentagon UFO archive",
+      "url": "https://skylens.yantraai.app/",
+      "canonicalUrl": "https://skylens.yantraai.app/",
+      "domain": "skylens.yantraai.app",
+      "createdAt": "2026-08-23T09:27:40.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 36,
+          "comments": 17,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49407309"
+        }
+      ],
+      "normalized": 0.19,
+      "score": 0.011,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "8c62ea260640",
+      "title": "'AI refuser' quit her dream job, and hopes others follow",
+      "url": "https://www.smh.com.au/technology/this-ai-refuser-quit-her-dream-job-and-hopes-others-follow-20260818-p60pdu.html",
+      "canonicalUrl": "https://smh.com.au/technology/this-ai-refuser-quit-her-dream-job-and-hopes-others-follow-20260818-p60pdu.html",
+      "domain": "smh.com.au",
+      "createdAt": "2026-08-23T10:54:35.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 34,
+          "comments": 39,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49407785"
+        }
+      ],
+      "normalized": 0.095,
+      "score": 0.006,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "bee8ef22d952",
+      "title": "Steve French (SMB3/CIFSFS Linux kernel maintainer) has died",
+      "url": "https://www.phoronix.com/news/SMB3-CIFS-Maintainer-Change",
+      "canonicalUrl": "https://phoronix.com/news/SMB3-CIFS-Maintainer-Change",
+      "domain": "phoronix.com",
+      "createdAt": "2026-08-23T07:27:51.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 34,
+          "comments": 0,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49406751"
+        }
+      ],
+      "normalized": 0.095,
+      "score": 0.005,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "d344f04e2be7",
+      "title": "What Is a Harness?",
+      "url": "https://earendil.com/posts/what-is-a-harness/",
+      "canonicalUrl": "https://earendil.com/posts/what-is-a-harness",
+      "domain": "earendil.com",
+      "createdAt": "2026-08-23T14:24:21.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 27,
+          "comments": 15,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49409092"
+        }
+      ],
+      "normalized": 0.048,
+      "score": 0.004,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "582ba17eb9f9",
+      "title": "Why can AI generate Super Mario but not a wedge ramp for my robot vacuum?",
+      "url": "https://news.ycombinator.com/item?id=49405520",
+      "canonicalUrl": "https://news.ycombinator.com/item?id=49405520",
+      "domain": "news.ycombinator.com",
+      "createdAt": "2026-08-23T01:45:17.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 11,
+          "comments": 5,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49405520"
+        }
+      ],
+      "normalized": 0,
+      "score": 0,
+      "aiScore": 5,
+      "why": ""
+    }
+  ]
+}
