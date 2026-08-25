@@ -1,0 +1,320 @@
+{
+  "date": "2026-08-25",
+  "generatedAt": "2026-08-25T12:31:53.928Z",
+  "stories": [
+    {
+      "id": "f6b26e55a489",
+      "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "canonicalUrl": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "domain": "huggingface.co",
+      "createdAt": "2026-08-25T11:39:24.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 1.868,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "f0b98bff51af",
+      "title": "Credit Card Rewards Became a $9.2B Wealth Transfer",
+      "url": "https://www.library.hbs.edu/working-knowledge/how-credit-card-rewards-became-multibillion-dollar-wealth-transfer",
+      "canonicalUrl": "https://library.hbs.edu/working-knowledge/how-credit-card-rewards-became-multibillion-dollar-wealth-transfer",
+      "domain": "library.hbs.edu",
+      "createdAt": "2026-08-25T11:37:24.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 76,
+          "comments": 86,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49432201"
+        }
+      ],
+      "normalized": 0.48,
+      "score": 1.758,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "23b60740f97f",
+      "title": "Why some US restaurants are banning tips",
+      "url": "https://www.bbc.com/news/articles/c4g36yze692o",
+      "canonicalUrl": "https://bbc.com/news/articles/c4g36yze692o",
+      "domain": "bbc.com",
+      "createdAt": "2026-08-25T10:09:47.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 153,
+          "comments": 274,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49431364"
+        }
+      ],
+      "normalized": 0.725,
+      "score": 1.276,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "e10f803834f4",
+      "title": "Quantum battery upends the rules of charging",
+      "url": "https://www.bbc.com/future/article/20260824-this-quantum-battery-charges-faster-the-larger-it-gets",
+      "canonicalUrl": "https://bbc.com/future/article/20260824-this-quantum-battery-charges-faster-the-larger-it-gets",
+      "domain": "bbc.com",
+      "createdAt": "2026-08-25T10:34:12.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 42,
+          "comments": 36,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49431560"
+        }
+      ],
+      "normalized": 0.157,
+      "score": 0.329,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "0fa164e73d21",
+      "title": "Screen viewing time from age 1 to 8 years and subsequent academic performance",
+      "url": "https://link.springer.com/article/10.1007/s12519-026-01046-1",
+      "canonicalUrl": "https://link.springer.com/article/10.1007/s12519-026-01046-1",
+      "domain": "link.springer.com",
+      "createdAt": "2026-08-25T09:17:33.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 47,
+          "comments": 44,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49431024"
+        }
+      ],
+      "normalized": 0.186,
+      "score": 0.236,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "11ca185ec6be",
+      "title": "Headlong: A Microharness for Persistent Agents",
+      "url": "https://www.laude.org/updates/headlong-a-microharness-for-persistent-agents",
+      "canonicalUrl": "https://laude.org/updates/headlong-a-microharness-for-persistent-agents",
+      "domain": "laude.org",
+      "createdAt": "2026-08-25T03:54:19.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 85,
+          "comments": 34,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49428882"
+        }
+      ],
+      "normalized": 0.539,
+      "score": 0.192,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "c75e015ff81a",
+      "title": "How Universities Should Prepare Founders",
+      "url": "https://paulgraham.com/prepare.html",
+      "canonicalUrl": "https://paulgraham.com/prepare.html",
+      "domain": "paulgraham.com",
+      "createdAt": "2026-08-25T01:40:39.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 162,
+          "comments": 189,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49428121"
+        }
+      ],
+      "normalized": 0.745,
+      "score": 0.188,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "7215b98e82ad",
+      "title": "Thomson Reuters Launches Its Own Frontier Model",
+      "url": "https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model",
+      "canonicalUrl": "https://thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model",
+      "domain": "thomsonreuters.com",
+      "createdAt": "2026-08-25T02:11:39.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 124,
+          "comments": 51,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49428318"
+        }
+      ],
+      "normalized": 0.676,
+      "score": 0.184,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "19799d74ce3d",
+      "title": "iCloud+ Hide My Email addresses will remain on icloud.com",
+      "url": "https://developer.apple.com/news/?id=1ptvdtcm",
+      "canonicalUrl": "https://developer.apple.com/news?id=1ptvdtcm",
+      "domain": "developer.apple.com",
+      "createdAt": "2026-08-24T22:13:40.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 508,
+          "comments": 153,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49426564"
+        }
+      ],
+      "normalized": 0.912,
+      "score": 0.15,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "e38c5341d116",
+      "title": "Was modern art a CIA psy-op? (2020)",
+      "url": "https://daily.jstor.org/was-modern-art-really-a-cia-psy-op/",
+      "canonicalUrl": "https://daily.jstor.org/was-modern-art-really-a-cia-psy-op",
+      "domain": "daily.jstor.org",
+      "createdAt": "2026-08-25T01:35:00.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 102,
+          "comments": 175,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49428080"
+        }
+      ],
+      "normalized": 0.578,
+      "score": 0.144,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "affac886fad1",
+      "title": "SiFive's First Server Platform",
+      "url": "https://chipsandcheese.com/p/sifives-first-server-platform",
+      "canonicalUrl": "https://chipsandcheese.com/p/sifives-first-server-platform",
+      "domain": "chipsandcheese.com",
+      "createdAt": "2026-08-25T03:06:26.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 75,
+          "comments": 18,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49428638"
+        }
+      ],
+      "normalized": 0.461,
+      "score": 0.144,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "92549c4317a6",
+      "title": "Moon (2024)",
+      "url": "https://ciechanow.ski/moon/",
+      "canonicalUrl": "https://ciechanow.ski/moon",
+      "domain": "ciechanow.ski",
+      "createdAt": "2026-08-24T22:06:02.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 214,
+          "comments": 37,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49426466"
+        }
+      ],
+      "normalized": 0.843,
+      "score": 0.137,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "253e0ace2429",
+      "title": "Oceans hit highest temperature on record",
+      "url": "https://www.bbc.com/news/articles/c62m4gpnp78o",
+      "canonicalUrl": "https://bbc.com/news/articles/c62m4gpnp78o",
+      "domain": "bbc.com",
+      "createdAt": "2026-08-24T19:19:08.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 616,
+          "comments": 481,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49424606"
+        }
+      ],
+      "normalized": 0.951,
+      "score": 0.116,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "45187fa65327",
+      "title": "Bookshelf – Self-hosted eBook library that runs on object storage",
+      "url": "https://github.com/murerkinn/bookshelf",
+      "canonicalUrl": "https://github.com/murerkinn/bookshelf",
+      "domain": "github.com",
+      "createdAt": "2026-08-24T23:00:37.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 119,
+          "comments": 45,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49427001"
+        }
+      ],
+      "normalized": 0.637,
+      "score": 0.115,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "733ed2d863e2",
+      "title": "One corner of China’s internet is insisting that the Tang Dynasty never existed",
+      "url": "https://www.cnn.com/2026/08/19/style/china-tang-dynasty-never-existed-hoax-intl-hnk",
+      "canonicalUrl": "https://cnn.com/2026/08/19/style/china-tang-dynasty-never-existed-hoax-intl-hnk",
+      "domain": "cnn.com",
+      "createdAt": "2026-08-24T21:03:06.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 169,
+          "comments": 152,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49425819"
+        }
+      ],
+      "normalized": 0.765,
+      "score": 0.111,
+      "aiScore": 5,
+      "why": ""
+    }
+  ]
+}
