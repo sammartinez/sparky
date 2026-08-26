@@ -1,0 +1,320 @@
+{
+  "date": "2026-08-26",
+  "generatedAt": "2026-08-26T12:35:08.240Z",
+  "stories": [
+    {
+      "id": "c803358a9ade",
+      "title": "Omarchy is full of security holes",
+      "url": "https://blog.happyfellow.dev/merchants-of-insecurity/",
+      "canonicalUrl": "https://blog.happyfellow.dev/merchants-of-insecurity",
+      "domain": "blog.happyfellow.dev",
+      "createdAt": "2026-08-26T12:17:43.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 81,
+          "comments": 30,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49447682"
+        }
+      ],
+      "normalized": 0.505,
+      "score": 2.84,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "c3f78245c447",
+      "title": "U.S. gov't moves to suppress pushback on data centers",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/u-s-govt-moves-to-suppress-pushback-on-data-centers-by-removing-requirements-for-public-input-on-pollution-epa-change-would-allow-air-pollution-permits-without-publicizing-them",
+      "canonicalUrl": "https://tomshardware.com/tech-industry/data-centers/u-s-govt-moves-to-suppress-pushback-on-data-centers-by-removing-requirements-for-public-input-on-pollution-epa-change-would-allow-air-pollution-permits-without-publicizing-them",
+      "domain": "tomshardware.com",
+      "createdAt": "2026-08-26T10:44:40.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 96,
+          "comments": 91,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49446748"
+        }
+      ],
+      "normalized": 0.584,
+      "score": 1.296,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "50c057f19e4b",
+      "title": "Z.ai confirms Ox Alpha is a new GLM-series model and will release its weights",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek",
+      "canonicalUrl": "https://bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek",
+      "domain": "bloomberg.com",
+      "createdAt": "2026-08-26T10:04:55.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 184,
+          "comments": 74,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49446422"
+        }
+      ],
+      "normalized": 0.772,
+      "score": 1.286,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "28a246d447de",
+      "title": "RAG Is Simpler Than You Think",
+      "url": "https://www.lighthousenewsletter.com/p/rag-is-simpler-than-you-think",
+      "canonicalUrl": "https://lighthousenewsletter.com/p/rag-is-simpler-than-you-think",
+      "domain": "lighthousenewsletter.com",
+      "createdAt": "2026-08-26T08:39:17.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 158,
+          "comments": 75,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49445727"
+        }
+      ],
+      "normalized": 0.723,
+      "score": 0.733,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "881c0b24ee1c",
+      "title": "XCancel and Nitter are receiving C&D letters from XCorp",
+      "url": "https://news.ycombinator.com/item?id=49446210",
+      "canonicalUrl": "https://news.ycombinator.com/item?id=49446210",
+      "domain": "news.ycombinator.com",
+      "createdAt": "2026-08-26T09:34:38.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 78,
+          "comments": 27,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49446210"
+        }
+      ],
+      "normalized": 0.485,
+      "score": 0.667,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "ab9b93fc3dea",
+      "title": "Oldinsurancemaps.net is now a Charter Project",
+      "url": "https://openstreetmap.us/news/2026/08/oim-charter-project/",
+      "canonicalUrl": "https://openstreetmap.us/news/2026/08/oim-charter-project",
+      "domain": "openstreetmap.us",
+      "createdAt": "2026-08-26T08:57:46.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 89,
+          "comments": 13,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49445873"
+        }
+      ],
+      "normalized": 0.525,
+      "score": 0.586,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "05aa57b51803",
+      "title": "The End of Programming",
+      "url": "https://pauldix.com/the-end-of-programming",
+      "canonicalUrl": "https://pauldix.com/the-end-of-programming",
+      "domain": "pauldix.com",
+      "createdAt": "2026-08-26T08:37:59.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 68,
+          "comments": 108,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49445717"
+        }
+      ],
+      "normalized": 0.436,
+      "score": 0.439,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "a9eff291fe40",
+      "title": "Quoting Paul Dix",
+      "url": "https://simonwillison.net/2026/Aug/26/paul-dix/",
+      "canonicalUrl": "https://simonwillison.net/2026/Aug/26/paul-dix",
+      "domain": "simonwillison.net",
+      "createdAt": "2026-08-26T08:07:55.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Simon Willison",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.436,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "462c6af55f77",
+      "title": "It's Not the End of Programming",
+      "url": "https://mathstodon.xyz/@abuseofnotation/117161292083848755",
+      "canonicalUrl": "https://mathstodon.xyz/@abuseofnotation/117161292083848755",
+      "domain": "mathstodon.xyz",
+      "createdAt": "2026-08-26T10:25:33.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 41,
+          "comments": 59,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49446597"
+        }
+      ],
+      "normalized": 0.208,
+      "score": 0.4,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "da55f7d7bd9d",
+      "title": "Disrupting a new covert influence campaign from Russia",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia/",
+      "canonicalUrl": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "domain": "openai.com",
+      "createdAt": "2026-08-26T07:31:31.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 76,
+          "comments": 60,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49445252"
+        }
+      ],
+      "normalized": 0.465,
+      "score": 0.345,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "d203047a7094",
+      "title": "More than half of adults in U.S. say they lack basic statistical understanding",
+      "url": "https://www.psu.edu/news/research/story/more-half-adults-us-say-they-lack-basic-statistical-understanding",
+      "canonicalUrl": "https://psu.edu/news/research/story/more-half-adults-us-say-they-lack-basic-statistical-understanding",
+      "domain": "psu.edu",
+      "createdAt": "2026-08-26T05:49:20.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 117,
+          "comments": 175,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49444514"
+        }
+      ],
+      "normalized": 0.624,
+      "score": 0.314,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "4498571ea0d7",
+      "title": "Show HN: Buslens – where can I get to by bus? (UK)",
+      "url": "https://rupertlinacre.com/buslens/",
+      "canonicalUrl": "https://rupertlinacre.com/buslens",
+      "domain": "rupertlinacre.com",
+      "createdAt": "2026-08-26T07:36:52.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 61,
+          "comments": 39,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49445286"
+        }
+      ],
+      "normalized": 0.396,
+      "score": 0.3,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "fef7b090f752",
+      "title": "Value Classes Still Need Compiler Sympathy",
+      "url": "https://johan-sjolen.github.io/post/compiler-sympathy/compiler-sympathy/",
+      "canonicalUrl": "https://johan-sjolen.github.io/post/compiler-sympathy/compiler-sympathy",
+      "domain": "johan-sjolen.github.io",
+      "createdAt": "2026-08-26T08:59:15.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 45,
+          "comments": 19,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49445884"
+        }
+      ],
+      "normalized": 0.248,
+      "score": 0.279,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "089a88c7a5ae",
+      "title": "Queryable Executables",
+      "url": "https://fzakaria.com/2026/08/24/actually-queryable-executables",
+      "canonicalUrl": "https://fzakaria.com/2026/08/24/actually-queryable-executables",
+      "domain": "fzakaria.com",
+      "createdAt": "2026-08-26T00:20:49.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 240,
+          "comments": 66,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49442589"
+        }
+      ],
+      "normalized": 0.822,
+      "score": 0.172,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "a98bfd776837",
+      "title": "Social media use on the rise among Australian under-16s after ban: data",
+      "url": "https://www.france24.com/en/live-news/20260826-social-media-use-on-the-rise-among-australian-under-16s-after-ban-data",
+      "canonicalUrl": "https://france24.com/en/live-news/20260826-social-media-use-on-the-rise-among-australian-under-16s-after-ban-data",
+      "domain": "france24.com",
+      "createdAt": "2026-08-26T09:35:58.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 35,
+          "comments": 36,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49446221"
+        }
+      ],
+      "normalized": 0.119,
+      "score": 0.165,
+      "aiScore": 5,
+      "why": ""
+    }
+  ]
+}
