@@ -1,0 +1,320 @@
+{
+  "date": "2026-08-27",
+  "generatedAt": "2026-08-27T21:29:52.072Z",
+  "stories": [
+    {
+      "id": "3fa0dd1ab78c",
+      "title": "Silicon Valley is in denial in face of widespread backlash",
+      "url": "https://www.bloodinthemachine.com/p/with-the-backlash-to-data-centers",
+      "canonicalUrl": "https://bloodinthemachine.com/p/with-the-backlash-to-data-centers",
+      "domain": "bloodinthemachine.com",
+      "createdAt": "2026-08-27T19:59:00.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 73,
+          "comments": 71,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49470380"
+        }
+      ],
+      "normalized": 0.444,
+      "score": 1.155,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "01d416ecd1b8",
+      "title": "Saving 100 terabytes of memory by optimizing 1.1.1.1's DNS cache",
+      "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
+      "canonicalUrl": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111",
+      "domain": "blog.cloudflare.com",
+      "createdAt": "2026-08-27T17:17:57.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 331,
+          "comments": 91,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49468083"
+        }
+      ],
+      "normalized": 0.869,
+      "score": 0.814,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "42ea49da448b",
+      "title": "Two German airport workers die of malaria after 'mosquito arrives on plane'",
+      "url": "https://www.bbc.com/news/articles/cz6zwgg9y8go",
+      "canonicalUrl": "https://bbc.com/news/articles/cz6zwgg9y8go",
+      "domain": "bbc.com",
+      "createdAt": "2026-08-27T17:33:13.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 146,
+          "comments": 82,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49468315"
+        }
+      ],
+      "normalized": 0.662,
+      "score": 0.669,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "48e514bec26b",
+      "title": "Nvidia Starts Pac as AI Chip Maker Builds DC Influence Force",
+      "url": "https://news.bgov.com/bloomberg-government-news/nvidia-starts-a-pac-as-ai-chip-maker-buids-influence-force-in-dc",
+      "canonicalUrl": "https://news.bgov.com/bloomberg-government-news/nvidia-starts-a-pac-as-ai-chip-maker-buids-influence-force-in-dc",
+      "domain": "news.bgov.com",
+      "createdAt": "2026-08-27T18:34:40.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 79,
+          "comments": 34,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49469249"
+        }
+      ],
+      "normalized": 0.45,
+      "score": 0.639,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "1594dec735b1",
+      "title": "We found a division by zero bug in FFmpeg with a vibecoded fuzzer",
+      "url": "https://code.ffmpeg.org/FFmpeg/FFmpeg/issues/24290",
+      "canonicalUrl": "https://code.ffmpeg.org/FFmpeg/FFmpeg/issues/24290",
+      "domain": "code.ffmpeg.org",
+      "createdAt": "2026-08-27T17:53:40.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 105,
+          "comments": 80,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49468642"
+        }
+      ],
+      "normalized": 0.569,
+      "score": 0.639,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "9411c1d36bb5",
+      "title": "Gemini Omni 1.1 Flash",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+      "canonicalUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash",
+      "domain": "blog.google",
+      "createdAt": "2026-08-27T17:06:32.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 150,
+          "comments": 91,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49467922"
+        }
+      ],
+      "normalized": 0.669,
+      "score": 0.594,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "f609f1af6c8b",
+      "title": "Small Models Have Arrived",
+      "url": "https://calv.info/small-models-have-arrived",
+      "canonicalUrl": "https://calv.info/small-models-have-arrived",
+      "domain": "calv.info",
+      "createdAt": "2026-08-27T15:56:58.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 314,
+          "comments": 138,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49466917"
+        }
+      ],
+      "normalized": 0.85,
+      "score": 0.559,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "7216fae9df84",
+      "title": "Autism mutations drive neurodevelopmental pathology",
+      "url": "https://www.science.org/doi/10.1126/science.ady4523",
+      "canonicalUrl": "https://science.org/doi/10.1126/science.ady4523",
+      "domain": "science.org",
+      "createdAt": "2026-08-27T18:23:43.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 62,
+          "comments": 62,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49469098"
+        }
+      ],
+      "normalized": 0.394,
+      "score": 0.524,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "0a2f8f3c2855",
+      "title": "Flock CEO gets his house blurred out on Google Maps and Zillow",
+      "url": "https://twitter.com/LocumRex/status/2092993787605717176",
+      "canonicalUrl": "https://twitter.com/LocumRex/status/2092993787605717176",
+      "domain": "twitter.com",
+      "createdAt": "2026-08-27T16:53:01.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 135,
+          "comments": 38,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49467750"
+        }
+      ],
+      "normalized": 0.619,
+      "score": 0.516,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "8e4131a44335",
+      "title": "M5Stack Launches PaperMono",
+      "url": "https://shop.m5stack.com/blogs/news/m5stack-launches-papermono-a-compact-e-ink-development-terminal-for-connected-projects",
+      "canonicalUrl": "https://shop.m5stack.com/blogs/news/m5stack-launches-papermono-a-compact-e-ink-development-terminal-for-connected-projects",
+      "domain": "shop.m5stack.com",
+      "createdAt": "2026-08-27T17:50:57.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 63,
+          "comments": 22,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49468593"
+        }
+      ],
+      "normalized": 0.406,
+      "score": 0.45,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "feb514fb1402",
+      "title": "Suica, Japan's First IC Transit Card",
+      "url": "https://www.tokyodev.com/articles/the-story-of-suica",
+      "canonicalUrl": "https://tokyodev.com/articles/the-story-of-suica",
+      "domain": "tokyodev.com",
+      "createdAt": "2026-08-27T15:55:12.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 138,
+          "comments": 105,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49466894"
+        }
+      ],
+      "normalized": 0.637,
+      "score": 0.416,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "298520e4f6ef",
+      "title": "507 Mechanical Movements",
+      "url": "https://507movements.com/",
+      "canonicalUrl": "https://507movements.com/",
+      "domain": "507movements.com",
+      "createdAt": "2026-08-27T14:08:18.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 404,
+          "comments": 60,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49465169"
+        }
+      ],
+      "normalized": 0.887,
+      "score": 0.396,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "b1b946cff50a",
+      "title": "Trade (and Tariffs)",
+      "url": "https://xkcd.com/3290/",
+      "canonicalUrl": "https://xkcd.com/3290",
+      "domain": "xkcd.com",
+      "createdAt": "2026-08-27T13:49:29.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 411,
+          "comments": 182,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49464896"
+        }
+      ],
+      "normalized": 0.894,
+      "score": 0.376,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "5b132fba12b8",
+      "title": "Gemini Omni 1.1 Flash lets you build with more control",
+      "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+      "canonicalUrl": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control",
+      "domain": "deepmind.google",
+      "createdAt": "2026-08-27T16:11:32.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Google DeepMind",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.348,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "21bd70b35c2e",
+      "title": "Decompiling a Nintendo 64 game in 84 days",
+      "url": "https://blog.chrislewis.au/decompiling-a-nintendo-64-game-in-84-days/",
+      "canonicalUrl": "https://blog.chrislewis.au/decompiling-a-nintendo-64-game-in-84-days",
+      "domain": "blog.chrislewis.au",
+      "createdAt": "2026-08-27T15:01:11.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 140,
+          "comments": 65,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49466006"
+        }
+      ],
+      "normalized": 0.65,
+      "score": 0.347,
+      "aiScore": 5,
+      "why": ""
+    }
+  ]
+}
