@@ -57,6 +57,7 @@ const age = relativeAge(createdAt, now);
         <h3 class="font-display text-[1.05rem] leading-snug font-medium">
           <a
             href={url}
+            target="_blank"
             rel="noopener noreferrer"
             class="decoration-rule hover:decoration-accent underline decoration-1 underline-offset-[3px] transition-colors"
           >
@@ -71,6 +72,7 @@ const age = relativeAge(createdAt, now);
           {badges.map((a) => (
             <a
               href={a.discussionUrl ?? url}
+              target="_blank"
               rel="noopener noreferrer"
               class="border-rule text-muted hover:border-accent hover:text-accent inline-flex items-center gap-1 border px-1.5 py-0.5 no-underline transition-colors"
             >
@@ -106,6 +108,7 @@ const age = relativeAge(createdAt, now);
       >
         <a
           href={url}
+          target="_blank"
           rel="noopener noreferrer"
           class="decoration-rule hover:decoration-accent underline decoration-1 underline-offset-[4px] transition-colors"
         >
@@ -118,6 +121,7 @@ const age = relativeAge(createdAt, now);
         {badges.map((a) => (
           <a
             href={a.discussionUrl ?? url}
+            target="_blank"
             rel="noopener noreferrer"
             class="border-rule text-muted hover:border-accent hover:text-accent inline-flex items-center gap-1.5 border px-1.5 py-0.5 no-underline transition-colors"
           >
