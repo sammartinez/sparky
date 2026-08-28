@@ -8,10 +8,6 @@ on:
 permissions:
   contents: write
 
-concurrency:
-  group: pages
-  cancel-in-progress: false
-
 jobs:
   digest:
     runs-on: ubuntu-latest
@@ -44,29 +40,5 @@ jobs:
             git commit -m "chore: publish daily brief"
             git push
           fi
-
-  deploy:
-    needs: digest
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Checkout your repository using git
-        uses: actions/checkout@v7
-
-      - name: Install, build, and upload your site
-        uses: withastro/action@v6
-        with:
-          node-version: 22.18.0
-        env:
-          SITE: https://sammartinez.github.io
-          BASE: /sparky
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v5
+        # Pushing here triggers deploy.yml on main, which builds and
+        # publishes the site — no separate deploy job needed in this workflow.
