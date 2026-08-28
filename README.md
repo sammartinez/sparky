@@ -1,4 +1,4 @@
-# Sparky
+# Sparky News
 
 A personal daily AI brief. A GitHub Action wakes up each morning, pulls from
 Hacker News, Reddit, Lobsters, Hugging Face and a short list of feeds, ranks

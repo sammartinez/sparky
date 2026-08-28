@@ -14,13 +14,13 @@ export const GET: APIRoute = async (context) => {
   const digests = await allDigests();
 
   return rss({
-    title: "Sparky",
+    title: "Sparky News",
     description: "A daily read on what the AI world is actually talking about.",
     site: context.site ?? "http://localhost:4321",
     // One item per morning: the whole brief arrives as a single entry rather
     // than fifteen separate ones cluttering the reader.
     items: digests.slice(0, 60).map((d) => ({
-      title: `Sparky — ${formatDate(d.data.date)}`,
+      title: `Sparky News — ${formatDate(d.data.date)}`,
       // @astrojs/rss joins this onto `site`, which does not include `base`.
       link: href(`archive/${d.id}`),
       pubDate: new Date(d.data.generatedAt),

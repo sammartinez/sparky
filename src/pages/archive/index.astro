@@ -5,7 +5,7 @@ import { allDigests, formatDate, href } from "../../lib/brief";
 const digests = await allDigests();
 ---
 
-<Base title="Archive: Sparky" standfirst={`${digests.length} ${digests.length === 1 ? "brief" : "briefs"}`}>
+<Base title="Archive: Sparky News" standfirst={`${digests.length} ${digests.length === 1 ? "brief" : "briefs"}`}>
   <section class="border-rule border-t">
     {
       digests.map((d) => (
