@@ -1,0 +1,321 @@
+{
+  "date": "2026-08-28",
+  "generatedAt": "2026-08-28T13:34:12.679Z",
+  "stories": [
+    {
+      "id": "ccad92065568",
+      "title": "Pentagon's blacklisting of Anthropic was unlawful, US judge rules",
+      "url": "https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28/",
+      "canonicalUrl": "https://reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28",
+      "domain": "reuters.com",
+      "createdAt": "2026-08-28T11:25:30.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 141,
+          "comments": 40,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49477055"
+        }
+      ],
+      "normalized": 0.73,
+      "score": 1.411,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "a8673fb7f148",
+      "title": "OpenAI: Migrating to HTTPX2",
+      "url": "https://github.com/openai/openai-python/blob/main/httpx2.md",
+      "canonicalUrl": "https://github.com/openai/openai-python/blob/main/httpx2.md",
+      "domain": "github.com",
+      "createdAt": "2026-08-28T11:51:20.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 56,
+          "comments": 21,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49477212"
+        }
+      ],
+      "normalized": 0.36,
+      "score": 0.849,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "15a21800e001",
+      "title": "Hilariously Fast Volume Computation with the Divergence Theorem",
+      "url": "https://alyssarosenzweig.ca/blog/hilariously-fast-volume-computation-with-the-divergence-theorem.html",
+      "canonicalUrl": "https://alyssarosenzweig.ca/blog/hilariously-fast-volume-computation-with-the-divergence-theorem.html",
+      "domain": "alyssarosenzweig.ca",
+      "createdAt": "2026-08-28T09:00:46.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 137,
+          "comments": 30,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49476143"
+        }
+      ],
+      "normalized": 0.712,
+      "score": 0.603,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "0dd6870f05bb",
+      "title": "Sovereign Tech Agency invests €500k in Flatpak",
+      "url": "https://modal.cx/blog/announcing-flatpak-sta/",
+      "canonicalUrl": "https://modal.cx/blog/announcing-flatpak-sta",
+      "domain": "modal.cx",
+      "createdAt": "2026-08-28T05:42:47.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 203,
+          "comments": 115,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49474786"
+        }
+      ],
+      "normalized": 0.847,
+      "score": 0.344,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "f2ec69083fc5",
+      "title": "Luanti removed from Google Play due to baseless AI copyright notice",
+      "url": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/",
+      "canonicalUrl": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai",
+      "domain": "blog.luanti.org",
+      "createdAt": "2026-08-28T06:33:57.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 125,
+          "comments": 35,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49475079"
+        }
+      ],
+      "normalized": 0.667,
+      "score": 0.319,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "9c40662a5cf2",
+      "title": "AI Agent Has Root",
+      "url": "https://infernalcode.com/posts/your-ai-agent-has-root/",
+      "canonicalUrl": "https://infernalcode.com/posts/your-ai-agent-has-root",
+      "domain": "infernalcode.com",
+      "createdAt": "2026-08-28T12:03:09.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 33,
+          "comments": 52,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49477311"
+        }
+      ],
+      "normalized": 0.117,
+      "score": 0.304,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "6a8782ca4cda",
+      "title": "Climate change is strengthening El Niño, coral records suggest",
+      "url": "https://www.science.org/content/article/climate-change-strengthening-el-ni%C3%B1o-coral-records-suggest",
+      "canonicalUrl": "https://science.org/content/article/climate-change-strengthening-el-ni%C3%B1o-coral-records-suggest",
+      "domain": "science.org",
+      "createdAt": "2026-08-28T07:19:16.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 99,
+          "comments": 83,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49475404"
+        }
+      ],
+      "normalized": 0.505,
+      "score": 0.283,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "612cef22e6e8",
+      "title": "Interactive Warhammer 40k Galaxy Map – Cartographia Imperialis",
+      "url": "https://cartographia40k.com/",
+      "canonicalUrl": "https://cartographia40k.com/",
+      "domain": "cartographia40k.com",
+      "createdAt": "2026-08-28T08:35:07.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 51,
+          "comments": 12,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49475979"
+        }
+      ],
+      "normalized": 0.333,
+      "score": 0.252,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "bc4e85f2709a",
+      "title": "Please stop flooding our projects with AI slop to furnish your CV",
+      "url": "https://neilalexander.dev/2026/06/30/flooding-contributions",
+      "canonicalUrl": "https://neilalexander.dev/2026/06/30/flooding-contributions",
+      "domain": "neilalexander.dev",
+      "createdAt": "2026-08-28T03:49:33.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 191,
+          "comments": 124,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49474143"
+        }
+      ],
+      "normalized": 0.811,
+      "score": 0.24,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "b28f4f94401c",
+      "title": "That's a Lot of YAML",
+      "url": "https://noyaml.com/",
+      "canonicalUrl": "https://noyaml.com/",
+      "domain": "noyaml.com",
+      "createdAt": "2026-08-28T07:03:53.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 64,
+          "comments": 68,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49475301"
+        }
+      ],
+      "normalized": 0.396,
+      "score": 0.21,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "6aa90f46a973",
+      "title": "Judge Rules Trump Administration’s Blacklisting of Anthropic Was Illegal",
+      "url": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
+      "canonicalUrl": "https://nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
+      "domain": "nytimes.com",
+      "createdAt": "2026-08-28T02:03:38.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 259,
+          "comments": 124,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49473522"
+        }
+      ],
+      "normalized": 0.874,
+      "score": 0.202,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "a599662a9131",
+      "title": "My Business Is Dying",
+      "url": "https://bankstatementconverter.com/blog/posts/2026-08-28-business-is-dying/",
+      "canonicalUrl": "https://bankstatementconverter.com/blog/posts/2026-08-28-business-is-dying",
+      "domain": "bankstatementconverter.com",
+      "createdAt": "2026-08-28T05:41:03.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 82,
+          "comments": 77,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49474776"
+        }
+      ],
+      "normalized": 0.441,
+      "score": 0.178,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "e5252d28e92e",
+      "title": "Stripe said to abandon $50B pursuit of PayPal",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-28/advent-stripe-consortium-is-said-to-drop-pursuit-of-paypal",
+      "canonicalUrl": "https://bloomberg.com/news/articles/2026-08-28/advent-stripe-consortium-is-said-to-drop-pursuit-of-paypal",
+      "domain": "bloomberg.com",
+      "createdAt": "2026-08-28T01:57:26.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 173,
+          "comments": 230,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49473483"
+        }
+      ],
+      "normalized": 0.784,
+      "score": 0.178,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "2e552b616d3e",
+      "title": "Doctors are finally learning to manage antidepressant withdrawal",
+      "url": "https://www.newscientist.com/article/2584861-antidepressant-withdrawal-symptoms-are-prompting-a-radical-rethink-of-how-we-treat-depression/",
+      "canonicalUrl": "https://newscientist.com/article/2584861-antidepressant-withdrawal-symptoms-are-prompting-a-radical-rethink-of-how-we-treat-depression",
+      "domain": "newscientist.com",
+      "createdAt": "2026-08-27T22:26:04.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 198,
+          "comments": 212,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49472090"
+        }
+      ],
+      "normalized": 0.838,
+      "score": 0.126,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "f8a99c0423c2",
+      "title": "USDA recalls 30k pounds of Argentine beef sold in Texas and Florida",
+      "url": "https://cbsaustin.com/news/local/usda-recalls-30000-pounds-of-argentine-beef-sold-in-texas-and-florida",
+      "canonicalUrl": "https://cbsaustin.com/news/local/usda-recalls-30000-pounds-of-argentine-beef-sold-in-texas-and-florida",
+      "domain": "cbsaustin.com",
+      "createdAt": "2026-08-28T02:05:57.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 105,
+          "comments": 66,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49473536"
+        }
+      ],
+      "normalized": 0.541,
+      "score": 0.125,
+      "aiScore": 5,
+      "why": ""
+    }
+  ]
+}
