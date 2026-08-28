@@ -1,0 +1,137 @@
+---
+import { orderedAppearances, relativeAge } from "../lib/brief";
+
+interface Appearance {
+  source: string;
+  label: string;
+  points: number | null;
+  comments: number | null;
+  discussionUrl?: string;
+}
+
+interface Props {
+  rank: number;
+  title: string;
+  url: string;
+  domain: string;
+  createdAt: string;
+  why: string;
+  normalized: number;
+  appearances: Appearance[];
+  /** Freeze "now" so every card on a page agrees. */
+  now?: number;
+  /** feature = full-width lead card, grid = half-width card, compact = "Also today" row. */
+  variant?: "feature" | "grid" | "compact";
+}
+
+const {
+  rank,
+  title,
+  url,
+  domain,
+  createdAt,
+  why,
+  normalized,
+  appearances,
+  now = Date.now(),
+  variant = "grid",
+} = Astro.props;
+
+const badges = orderedAppearances(appearances);
+const corroborated = badges.length > 1;
+const barWidth = Math.max(4, Math.round(normalized * 100));
+const rankLabel = String(rank).padStart(2, "0");
+const age = relativeAge(createdAt, now);
+---
+
+{
+  variant === "compact" ? (
+    <div class="border-rule bg-panel grid grid-cols-[2.5rem_1fr] gap-x-4 rounded-xl border p-5">
+      <div class="text-muted font-mono text-xs tabular-nums">
+        {rankLabel}
+        <span class="bg-rule mt-1.5 block h-[2px] w-full overflow-hidden">
+          <span class="bg-accent block h-full" style={`width:${barWidth}%`} />
+        </span>
+      </div>
+      <div class="min-w-0">
+        <h3 class="font-display text-[1.05rem] leading-snug font-medium">
+          <a
+            href={url}
+            rel="noopener noreferrer"
+            class="decoration-rule hover:decoration-accent underline decoration-1 underline-offset-[3px] transition-colors"
+          >
+            {title}
+          </a>
+        </h3>
+        {why && (
+          <p class="text-muted mt-1.5 text-[0.85rem] leading-relaxed italic">{why}</p>
+        )}
+        <div class="mt-2 flex flex-wrap items-center gap-x-2 gap-y-1.5 font-mono text-[0.64rem]">
+          <span class="text-muted">{domain}</span>
+          {badges.map((a) => (
+            <a
+              href={a.discussionUrl ?? url}
+              rel="noopener noreferrer"
+              class="border-rule text-muted hover:border-accent hover:text-accent inline-flex items-center gap-1 border px-1.5 py-0.5 no-underline transition-colors"
+            >
+              <span>{a.label}</span>
+              {a.points !== null && <span class="tabular-nums opacity-70">{a.points}</span>}
+            </a>
+          ))}
+          {corroborated && (
+            <span class="text-accent2" title="Picked up by more than one community">
+              ×{badges.length} sources
+            </span>
+          )}
+          <span class="text-muted ml-auto">{age}</span>
+        </div>
+      </div>
+    </div>
+  ) : (
+    <article
+      class={`border-rule bg-panel relative rounded-xl border ${
+        variant === "feature" ? "col-span-6 px-7 py-8" : "col-span-6 px-6 py-6 sm:col-span-3"
+      }`}
+    >
+      <span class="bg-accent text-paper absolute -top-3.5 left-4 px-2.5 py-1 font-mono text-xs tabular-nums">
+        {rankLabel}
+      </span>
+      <span class="bg-rule mt-2 block h-[3px] w-full overflow-hidden rounded-full">
+        <span class="bg-accent block h-full" style={`width:${barWidth}%`} />
+      </span>
+      <h2
+        class={`font-display font-medium leading-tight ${
+          variant === "feature" ? "mt-4 text-3xl sm:text-[2.1rem]" : "mt-4 text-xl sm:text-2xl"
+        }`}
+      >
+        <a
+          href={url}
+          rel="noopener noreferrer"
+          class="decoration-rule hover:decoration-accent underline decoration-1 underline-offset-[4px] transition-colors"
+        >
+          {title}
+        </a>
+      </h2>
+      {why && <p class="text-muted mt-2.5 text-[0.94rem] leading-relaxed italic">{why}</p>}
+      <div class="border-rule mt-4 flex flex-wrap items-center gap-x-2 gap-y-2 border-t pt-3.5 font-mono text-[0.66rem]">
+        <span class="text-muted">{domain}</span>
+        {badges.map((a) => (
+          <a
+            href={a.discussionUrl ?? url}
+            rel="noopener noreferrer"
+            class="border-rule text-muted hover:border-accent hover:text-accent inline-flex items-center gap-1.5 border px-1.5 py-0.5 no-underline transition-colors"
+          >
+            <span>{a.label}</span>
+            {a.points !== null && <span class="tabular-nums opacity-70">{a.points}</span>}
+          </a>
+        ))}
+        {corroborated && (
+          <span class="text-accent2" title="Picked up by more than one community">
+            ×{badges.length} sources
+          </span>
+        )}
+        <span class="text-muted ml-auto">{age}</span>
+      </div>
+    </article>
+  )
+}

@@ -49,8 +49,8 @@ const hourMarks = [windowHours, 24, 12, 0].filter((h) => h <= windowHours);
     {
       ticks.map((t) => (
         <span
-          class={`absolute bottom-0 w-[2px] ${t.hot ? "bg-saffron" : "bg-pine"}`}
-          style={`left:${t.left}%; height:${t.height}px; opacity:${t.hot ? 1 : 0.55};`}
+          class={`absolute bottom-0 w-[3px] rounded-t-[2px] ${t.hot ? "bg-accent2" : "bg-accent"}`}
+          style={`left:${t.left}%; height:${t.height}px; opacity:${t.hot ? 1 : 0.45};`}
           title={t.title}
         />
       ))

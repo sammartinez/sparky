@@ -1,36 +1,34 @@
 @import "tailwindcss";
 
 /*
-  Direction: a 5am instrument readout, not a newspaper.
-  Palette is cool oat paper and pine ink — deliberately off the warm-cream axis.
-  Saffron appears in exactly one place: the traction bar. It is the only heat
-  on the page, so where it shows up carries meaning.
+  Direction: Field Notes — an index-card catalog, not a wire feed.
+  Near-white paper with soft neutral-grey panels and rules. One cobalt accent
+  carries rank and traction; a quiet pine green is reserved for the
+  corroboration signal ("×N sources"), so it always means the same thing.
 */
 @theme {
-  --color-paper: #f7f9fa;
-  --color-panel: #e5e8de;
-  --color-ink: #15181a;
-  --color-muted: #5f6862;
-  --color-rule: #d2d6cb;
-  --color-pine: #22463a;
-  --color-saffron: #d98e04;
-  --color-clay: #8c4a3b;
+  --color-paper: #fcfcfb;
+  --color-panel: #f7f7f5;
+  --color-ink: #23241f;
+  --color-muted: #6d6d65;
+  --color-rule: #e2e2dc;
+  --color-accent: #2f5aa8;
+  --color-accent2: #3f6b4f;
 
-  --font-display: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
-  --font-body: "Newsreader", ui-serif, Georgia, serif;
-  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-display: "Frank Ruhl Libre", Georgia, serif;
+  --font-body: "Literata", Georgia, "Times New Roman", serif;
+  --font-mono: "Spline Sans Mono", ui-monospace, SFMono-Regular, monospace;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-paper: #12150f;
-    --color-panel: #1a1e17;
-    --color-ink: #e6e9df;
-    --color-muted: #8b948a;
-    --color-rule: #2c322a;
-    --color-pine: #8fc4a8;
-    --color-saffron: #e6a72e;
-    --color-clay: #d08a75;
+    --color-paper: #16170f;
+    --color-panel: #1e2016;
+    --color-ink: #eceae0;
+    --color-muted: #a8a89c;
+    --color-rule: #34362a;
+    --color-accent: #7fa3df;
+    --color-accent2: #74a687;
   }
 }
 
@@ -52,7 +50,7 @@ a {
 }
 
 :focus-visible {
-  outline: 2px solid var(--color-saffron);
+  outline: 2px solid var(--color-accent);
   outline-offset: 3px;
   border-radius: 1px;
 }

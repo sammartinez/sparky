@@ -1,7 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import DawnRule from "../components/DawnRule.astro";
-import Story from "../components/Story.astro";
+import StoryCard from "../components/StoryCard.astro";
 import { allDigests, formatDate, href } from "../lib/brief";
 
 const digests = await allDigests();
@@ -10,6 +10,11 @@ const previous = digests[1];
 
 // One clock for the whole page so the ages agree with each other.
 const now = today ? new Date(today.data.generatedAt).getTime() : Date.now();
+
+// Lead story full-width, next four as a 2x2 grid, the rest as a compact list.
+const [feature, ...rest] = today?.data.stories ?? [];
+const gridStories = rest.slice(0, 4);
+const compactStories = rest.slice(4);
 ---
 
 <Base
@@ -41,22 +46,38 @@ const now = today ? new Date(today.data.generatedAt).getTime() : Date.now();
             Quiet morning — nothing cleared the bar.
           </p>
         ) : (
-          <section class="border-rule border-t">
-            {today.data.stories.map((story, i) => (
-              <Story rank={i + 1} now={now} {...story} />
+          <div class="grid grid-cols-6 gap-x-[1.1rem] gap-y-9">
+            {feature && <StoryCard rank={1} now={now} variant="feature" {...feature} />}
+            {gridStories.map((story, i) => (
+              <StoryCard rank={i + 2} now={now} variant="grid" {...story} />
             ))}
-          </section>
+            {compactStories.length > 0 && (
+              <div class="col-span-6">
+                <h3 class="eyebrow mt-1 mb-2.5">Also today</h3>
+                <div class="flex flex-col gap-[0.9rem]">
+                  {compactStories.map((story, i) => (
+                    <StoryCard
+                      rank={i + gridStories.length + 2}
+                      now={now}
+                      variant="compact"
+                      {...story}
+                    />
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
         )}
 
         <nav class="mt-10 flex items-center justify-between font-mono text-xs">
           {previous ? (
-            <a href={href(`archive/${previous.id}`)} class="hover:text-pine">
+            <a href={href(`archive/${previous.id}`)} class="hover:text-accent">
               ← {previous.data.date}
             </a>
           ) : (
             <span />
           )}
-          <a href={href("archive")} class="hover:text-pine">All briefs →</a>
+          <a href={href("archive")} class="hover:text-accent">All briefs →</a>
         </nav>
       </>
     )

@@ -38,7 +38,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? "http://localhost");
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;700&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;1,7..72,400;1,7..72,500&family=Spline+Sans+Mono:wght@400;500&display=swap"
     />
   </head>
 
@@ -46,10 +46,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? "http://localhost");
     <div class="mx-auto max-w-3xl px-5 sm:px-8">
       <header class="pt-10 pb-6 sm:pt-16">
         <a href={href("/")} class="inline-block no-underline">
-          <h1
-            class="font-display text-[2.6rem] leading-[0.95] font-semibold tracking-tight sm:text-6xl"
-            style="font-stretch: 92%;"
-          >
+          <h1 class="font-display text-[2.3rem] leading-[0.95] font-medium sm:text-5xl">
             Sparky News
           </h1>
         </a>
@@ -69,9 +66,9 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? "http://localhost");
           source, weighted for cross-posting, decayed by age.
         </p>
         <p class="mt-3 flex flex-wrap gap-x-4 gap-y-1">
-          <a href={href("/")} class="hover:text-pine">Today</a>
-          <a href={href("archive")} class="hover:text-pine">Archive</a>
-          <a href={href("rss.xml")} class="hover:text-pine">RSS</a>
+          <a href={href("/")} class="hover:text-accent">Today</a>
+          <a href={href("archive")} class="hover:text-accent">Archive</a>
+          <a href={href("rss.xml")} class="hover:text-accent">RSS</a>
         </p>
       </footer>
     </div>
