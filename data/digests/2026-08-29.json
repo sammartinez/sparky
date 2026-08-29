@@ -1,0 +1,334 @@
+{
+  "date": "2026-08-29",
+  "generatedAt": "2026-08-29T15:59:06.219Z",
+  "stories": [
+    {
+      "id": "9b2727cbce15",
+      "title": "Debian votes to allow \"responsible use of generative AI\"",
+      "url": "https://lwn.net/Articles/1091231/",
+      "canonicalUrl": "https://lwn.net/Articles/1091231",
+      "domain": "lwn.net",
+      "createdAt": "2026-08-29T14:02:10.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 216,
+          "comments": 154,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49489982"
+        }
+      ],
+      "normalized": 0.783,
+      "score": 1.652,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "27baa2e452c7",
+      "title": "Iceland votes on whether to restart talks on joining EU",
+      "url": "https://www.bbc.com/news/articles/cn45vdxyvvlo",
+      "canonicalUrl": "https://bbc.com/news/articles/cn45vdxyvvlo",
+      "domain": "bbc.com",
+      "createdAt": "2026-08-29T11:39:38.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 259,
+          "comments": 305,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49489057"
+        }
+      ],
+      "normalized": 0.819,
+      "score": 0.741,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "f9e56a6817a0",
+      "title": "You Know GDPR Is Good Based on Who Hates It",
+      "url": "https://matduggan.com/you-know-gdpr-is-good-based-on-who-hates-it/",
+      "canonicalUrl": "https://matduggan.com/you-know-gdpr-is-good-based-on-who-hates-it",
+      "domain": "matduggan.com",
+      "createdAt": "2026-08-29T09:19:22.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 127,
+          "comments": 140,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49488282"
+        }
+      ],
+      "normalized": 0.59,
+      "score": 0.303,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "e287e9396e84",
+      "title": "Samsung's Processing-in-Memory (PIM)",
+      "url": "https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing",
+      "canonicalUrl": "https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing",
+      "domain": "chipsandcheese.com",
+      "createdAt": "2026-08-29T06:06:51.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 181,
+          "comments": 64,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49487341"
+        }
+      ],
+      "normalized": 0.711,
+      "score": 0.207,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "e7a42638fe0e",
+      "title": "Autistici/inventati: Manifesto – who we are and what do we want (2002)",
+      "url": "https://www.inventati.org/who/manifesto",
+      "canonicalUrl": "https://inventati.org/who/manifesto",
+      "domain": "inventati.org",
+      "createdAt": "2026-08-29T07:38:31.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 78,
+          "comments": 49,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49487786"
+        }
+      ],
+      "normalized": 0.422,
+      "score": 0.157,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "c7ae024cae0f",
+      "title": "Just the rumour of a bug is enough to find an exploit these days",
+      "url": "https://anil.recoil.org/notes/rumour-is-the-exploit",
+      "canonicalUrl": "https://anil.recoil.org/notes/rumour-is-the-exploit",
+      "domain": "anil.recoil.org",
+      "createdAt": "2026-08-28T15:58:46.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 359,
+          "comments": 115,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49480466"
+        },
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 26,
+          "comments": 9,
+          "discussionUrl": "https://lobste.rs/s/t73wqi/just_rumour_bug_is_enough_find_security"
+        },
+        {
+          "source": "rss",
+          "label": "Simon Willison",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.88,
+      "score": 0.125,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "05e1cd622476",
+      "title": "TurboKV: Insanely fast Rust key-value store",
+      "url": "https://github.com/kingroryg/turbokv",
+      "canonicalUrl": "https://github.com/kingroryg/turbokv",
+      "domain": "github.com",
+      "createdAt": "2026-08-29T02:23:37.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 147,
+          "comments": 71,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49486334"
+        }
+      ],
+      "normalized": 0.651,
+      "score": 0.116,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "0110e72feee3",
+      "title": "StemDeck, a free, open-source and local AI stem separator",
+      "url": "https://github.com/stemdeckapp/stemdeck",
+      "canonicalUrl": "https://github.com/stemdeckapp/stemdeck",
+      "domain": "github.com",
+      "createdAt": "2026-08-29T01:24:13.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 166,
+          "comments": 45,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49486081"
+        }
+      ],
+      "normalized": 0.687,
+      "score": 0.11,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "58021e8b5c67",
+      "title": "Boot a Virtual iPhone via Apple's Virtualization.framework",
+      "url": "https://github.com/Lakr233/vphone-cli",
+      "canonicalUrl": "https://github.com/Lakr233/vphone-cli",
+      "domain": "github.com",
+      "createdAt": "2026-08-28T23:02:21.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 342,
+          "comments": 88,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49485267"
+        }
+      ],
+      "normalized": 0.867,
+      "score": 0.109,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "6f0715608976",
+      "title": "I accidentally turned LLM memory into program analysis",
+      "url": "https://pwning.systems/posts/llm-memory-program-analysis/",
+      "canonicalUrl": "https://pwning.systems/posts/llm-memory-program-analysis",
+      "domain": "pwning.systems",
+      "createdAt": "2026-08-28T23:27:45.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 216,
+          "comments": 64,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49485416"
+        }
+      ],
+      "normalized": 0.783,
+      "score": 0.102,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "02c2eb33ba74",
+      "title": "9th Circuit sides with states in Kalshi gambling fight",
+      "url": "https://azmirror.com/2026/08/28/9th-circuit-sides-with-states-in-kalshi-gambling-fight-potentially-reviving-arizonas-prosecution/",
+      "canonicalUrl": "https://azmirror.com/2026/08/28/9th-circuit-sides-with-states-in-kalshi-gambling-fight-potentially-reviving-arizonas-prosecution",
+      "domain": "azmirror.com",
+      "createdAt": "2026-08-28T23:32:22.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 154,
+          "comments": 138,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49485452"
+        }
+      ],
+      "normalized": 0.663,
+      "score": 0.087,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "47b994028199",
+      "title": "Does the Sumerian King List Align with Paleoclimate Events?",
+      "url": "https://www.vectorian.be/articles/2026-06-07/sumerian-king-list-paleoclimate-alignment-explorer/",
+      "canonicalUrl": "https://vectorian.be/articles/2026-06-07/sumerian-king-list-paleoclimate-alignment-explorer",
+      "domain": "vectorian.be",
+      "createdAt": "2026-08-28T23:46:10.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 120,
+          "comments": 72,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49485532"
+        }
+      ],
+      "normalized": 0.554,
+      "score": 0.074,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "7550fe84dc6e",
+      "title": "Stopping the smart TV from being used against you",
+      "url": "https://www.s-config.com/stopping-a-smart-tv-from-being-used-against-you/",
+      "canonicalUrl": "https://s-config.com/stopping-a-smart-tv-from-being-used-against-you",
+      "domain": "s-config.com",
+      "createdAt": "2026-08-28T20:27:57.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 187,
+          "comments": 146,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49483816"
+        }
+      ],
+      "normalized": 0.747,
+      "score": 0.074,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "0f84e6c94a3e",
+      "title": "Chicken products recalled in five states due to “false marks of inspection”",
+      "url": "https://www.thehealthy.com/news/chicken-recall-fsis-august-2026/",
+      "canonicalUrl": "https://thehealthy.com/news/chicken-recall-fsis-august-2026",
+      "domain": "thehealthy.com",
+      "createdAt": "2026-08-28T19:30:15.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 194,
+          "comments": 161,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49483182"
+        }
+      ],
+      "normalized": 0.759,
+      "score": 0.07,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "b66a26257c9c",
+      "title": "GUIs should be fully keyboard-driven",
+      "url": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
+      "canonicalUrl": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
+      "domain": "ckardaris.com",
+      "createdAt": "2026-08-28T15:17:09.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 941,
+          "comments": 463,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49479837"
+        }
+      ],
+      "normalized": 0.988,
+      "score": 0.067,
+      "aiScore": 5,
+      "why": ""
+    }
+  ]
+}
