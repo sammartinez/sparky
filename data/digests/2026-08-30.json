@@ -1,0 +1,321 @@
+{
+  "date": "2026-08-30",
+  "generatedAt": "2026-08-30T15:47:18.197Z",
+  "stories": [
+    {
+      "id": "34828da1c8e0",
+      "title": "No AI Fridays",
+      "url": "https://noaifridays.com/",
+      "canonicalUrl": "https://noaifridays.com/",
+      "domain": "noaifridays.com",
+      "createdAt": "2026-08-30T12:31:05.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 157,
+          "comments": 70,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49498095"
+        }
+      ],
+      "normalized": 0.708,
+      "score": 0.888,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "773e61521fea",
+      "title": "Claude Session URL appended to commit messages and PR descriptions by default",
+      "url": "https://github.com/anthropics/claude-code/issues/66504",
+      "canonicalUrl": "https://github.com/anthropics/claude-code/issues/66504",
+      "domain": "github.com",
+      "createdAt": "2026-08-30T12:50:54.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 95,
+          "comments": 124,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49498201"
+        }
+      ],
+      "normalized": 0.523,
+      "score": 0.738,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "97f66b359104",
+      "title": "Europe's summer drought is so extreme that desertification is a growing threat",
+      "url": "https://fortune.com/2026/08/29/europe-summer-drought-desertification-threat-rivers-fish/",
+      "canonicalUrl": "https://fortune.com/2026/08/29/europe-summer-drought-desertification-threat-rivers-fish",
+      "domain": "fortune.com",
+      "createdAt": "2026-08-30T14:29:25.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 44,
+          "comments": 32,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49498978"
+        }
+      ],
+      "normalized": 0.246,
+      "score": 0.718,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "42b23c432d2a",
+      "title": "Hacking IKEA Furniture",
+      "url": "https://greenlightning.eu/diy/hacking-ikea-furniture/",
+      "canonicalUrl": "https://greenlightning.eu/diy/hacking-ikea-furniture",
+      "domain": "greenlightning.eu",
+      "createdAt": "2026-08-30T11:39:43.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 121,
+          "comments": 62,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49497810"
+        }
+      ],
+      "normalized": 0.615,
+      "score": 0.589,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "1d92eeb27f4d",
+      "title": "Brits would quite like their private messages to stay private",
+      "url": "https://www.theregister.com/security/2026/08/30/turns-out-brits-would-quite-like-their-private-messages-to-stay-private/5292994",
+      "canonicalUrl": "https://theregister.com/security/2026/08/30/turns-out-brits-would-quite-like-their-private-messages-to-stay-private/5292994",
+      "domain": "theregister.com",
+      "createdAt": "2026-08-30T09:26:08.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 278,
+          "comments": 204,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49497063"
+        }
+      ],
+      "normalized": 0.831,
+      "score": 0.455,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "dad71723152a",
+      "title": "Arbitrary code execution in QubesOS via copy-to-VM error reporting backchannel",
+      "url": "https://www.qubes-os.org/news/2026/08/29/qsb-118/",
+      "canonicalUrl": "https://qubes-os.org/news/2026/08/29/qsb-118",
+      "domain": "qubes-os.org",
+      "createdAt": "2026-08-30T08:51:39.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 137,
+          "comments": 53,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49496918"
+        }
+      ],
+      "normalized": 0.646,
+      "score": 0.314,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "a651615e7911",
+      "title": "Longest Straight Line Paths on Water or Land on the Earth (2018)",
+      "url": "https://arxiv.org/abs/1804.07389",
+      "canonicalUrl": "https://arxiv.org/abs/1804.07389",
+      "domain": "arxiv.org",
+      "createdAt": "2026-08-30T08:23:26.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 152,
+          "comments": 43,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49496782"
+        }
+      ],
+      "normalized": 0.677,
+      "score": 0.3,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "7c0dc4c06e47",
+      "title": "Everyone Should Build Their Own Network Stack",
+      "url": "https://blog.lyc8503.net/en/post/dn42-2-dnet/",
+      "canonicalUrl": "https://blog.lyc8503.net/en/post/dn42-2-dnet",
+      "domain": "blog.lyc8503.net",
+      "createdAt": "2026-08-30T09:52:15.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 63,
+          "comments": 56,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49497200"
+        }
+      ],
+      "normalized": 0.431,
+      "score": 0.26,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "0715f326f49e",
+      "title": "Fair Work Commission condemns 'plain wrong' AI legal advice",
+      "url": "https://www.abc.net.au/news/2026-08-29/fair-work-commission-condemns-ai-legal-advice/107089766",
+      "canonicalUrl": "https://abc.net.au/news/2026-08-29/fair-work-commission-condemns-ai-legal-advice/107089766",
+      "domain": "abc.net.au",
+      "createdAt": "2026-08-30T10:20:11.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 50,
+          "comments": 22,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49497357"
+        }
+      ],
+      "normalized": 0.323,
+      "score": 0.217,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "e9779c545a7a",
+      "title": "One Nix flake to rule them all",
+      "url": "https://fzakaria.com/2026/08/28/one-flake-to-rule-them-all",
+      "canonicalUrl": "https://fzakaria.com/2026/08/28/one-flake-to-rule-them-all",
+      "domain": "fzakaria.com",
+      "createdAt": "2026-08-30T11:22:04.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 43,
+          "comments": 4,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49497712"
+        }
+      ],
+      "normalized": 0.231,
+      "score": 0.203,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "fb76a2bff832",
+      "title": "California lawmakers unanimously pass Linux exemption from age-verification law",
+      "url": "https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt",
+      "canonicalUrl": "https://tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt",
+      "domain": "tomshardware.com",
+      "createdAt": "2026-08-30T03:15:36.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 531,
+          "comments": 236,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49495372"
+        }
+      ],
+      "normalized": 0.985,
+      "score": 0.199,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "5bbdaad9e17f",
+      "title": "Zoom activated my mic and played \"recording in progress\" at 4AM",
+      "url": "https://imgur.com/a/0NQ0rFk",
+      "canonicalUrl": "https://imgur.com/a/0NQ0rFk",
+      "domain": "imgur.com",
+      "createdAt": "2026-08-30T13:04:36.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 35,
+          "comments": 7,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49498296"
+        }
+      ],
+      "normalized": 0.123,
+      "score": 0.189,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "9f6a5b5cc880",
+      "title": "Spark: Sparklines in your shell",
+      "url": "https://git.zx2c4.com/spark/about/",
+      "canonicalUrl": "https://git.zx2c4.com/spark/about",
+      "domain": "git.zx2c4.com",
+      "createdAt": "2026-08-30T10:02:16.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 47,
+          "comments": 12,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49497265"
+        }
+      ],
+      "normalized": 0.292,
+      "score": 0.183,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "03a464e0a5ce",
+      "title": "Automating Immersive Reading",
+      "url": "https://smoores.dev/post/automating_immersive_reading/",
+      "canonicalUrl": "https://smoores.dev/post/automating_immersive_reading",
+      "domain": "smoores.dev",
+      "createdAt": "2026-08-30T11:46:23.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 41,
+          "comments": 14,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49497854"
+        }
+      ],
+      "normalized": 0.169,
+      "score": 0.168,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "80d464859708",
+      "title": "Iceland rejects reopening talks on EU entry",
+      "url": "https://www.ft.com/content/53b5abd8-2919-4dc6-8dd6-81fc054e8b6f",
+      "canonicalUrl": "https://ft.com/content/53b5abd8-2919-4dc6-8dd6-81fc054e8b6f",
+      "domain": "ft.com",
+      "createdAt": "2026-08-30T08:07:29.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 48,
+          "comments": 67,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49496707"
+        }
+      ],
+      "normalized": 0.308,
+      "score": 0.13,
+      "aiScore": 5,
+      "why": ""
+    }
+  ]
+}
