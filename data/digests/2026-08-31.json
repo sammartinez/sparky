@@ -1,0 +1,327 @@
+{
+  "date": "2026-08-31",
+  "generatedAt": "2026-08-31T14:51:22.551Z",
+  "stories": [
+    {
+      "id": "9a5f1851944b",
+      "title": "Apple Caught Off Guard by AI Demand for Mac Mini and Mac Studio",
+      "url": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/",
+      "canonicalUrl": "https://macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand",
+      "domain": "macrumors.com",
+      "createdAt": "2026-08-31T12:41:22.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 58,
+          "comments": 72,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49508982"
+        }
+      ],
+      "normalized": 0.453,
+      "score": 0.869,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "4b9b70d102f7",
+      "title": "A CVE Dispute",
+      "url": "https://daniel.haxx.se/blog/2026/06/24/a-cve-dispute/",
+      "canonicalUrl": "https://daniel.haxx.se/blog/2026/06/24/a-cve-dispute",
+      "domain": "daniel.haxx.se",
+      "createdAt": "2026-08-31T11:13:17.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 120,
+          "comments": 22,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49508290"
+        }
+      ],
+      "normalized": 0.674,
+      "score": 0.75,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "91244fb51e21",
+      "title": "OpenShot 4.0: Record, Edit, and Color Like Never Before",
+      "url": "https://www.openshot.org/blog/2026/08/30/openshot-40-record-edit-color-like-never-before/",
+      "canonicalUrl": "https://openshot.org/blog/2026/08/30/openshot-40-record-edit-color-like-never-before",
+      "domain": "openshot.org",
+      "createdAt": "2026-08-31T09:59:05.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 328,
+          "comments": 85,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49507822"
+        }
+      ],
+      "normalized": 0.907,
+      "score": 0.706,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "5f1b1e310168",
+      "title": "I Think the Military Commissary's Freezers Were Hacked",
+      "url": "https://signalandsilence.substack.com/p/i-think-someone-hacked-the-commissary",
+      "canonicalUrl": "https://signalandsilence.substack.com/p/i-think-someone-hacked-the-commissary",
+      "domain": "signalandsilence.substack.com",
+      "createdAt": "2026-08-31T11:45:48.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 68,
+          "comments": 48,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49508506"
+        }
+      ],
+      "normalized": 0.523,
+      "score": 0.699,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "8f2ed9fd803c",
+      "title": "Agent Memory as a File Format",
+      "url": "https://calpaterson.com/memoryfields.html",
+      "canonicalUrl": "https://calpaterson.com/memoryfields.html",
+      "domain": "calpaterson.com",
+      "createdAt": "2026-08-31T11:17:25.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 83,
+          "comments": 43,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49508317"
+        }
+      ],
+      "normalized": 0.558,
+      "score": 0.635,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "7b150ac3e460",
+      "title": "AI-Written Code Is Still *Your* Code. Are You OK with That?",
+      "url": "https://martiansoftware.com/articles/ai-written-code-is-still-yours",
+      "canonicalUrl": "https://martiansoftware.com/articles/ai-written-code-is-still-yours",
+      "domain": "martiansoftware.com",
+      "createdAt": "2026-08-31T12:08:25.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 50,
+          "comments": 77,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49508664"
+        }
+      ],
+      "normalized": 0.349,
+      "score": 0.535,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "0620f79b66d9",
+      "title": "Breaking Claude Code Opus 5 Auto Mode",
+      "url": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/",
+      "canonicalUrl": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode",
+      "domain": "embracethered.com",
+      "createdAt": "2026-08-31T07:49:18.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 225,
+          "comments": 72,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49506819"
+        }
+      ],
+      "normalized": 0.826,
+      "score": 0.393,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "ac5ababfb0d0",
+      "title": "A 12TB Steam \"teraleak\" spills more than a decade of lost PC gaming history",
+      "url": "https://arstechnica.com/gaming/2026/08/a-12tb-steam-teraleak-spills-more-than-a-decade-of-lost-pc-gaming-history/",
+      "canonicalUrl": "https://arstechnica.com/gaming/2026/08/a-12tb-steam-teraleak-spills-more-than-a-decade-of-lost-pc-gaming-history",
+      "domain": "arstechnica.com",
+      "createdAt": "2026-08-31T06:10:44.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 272,
+          "comments": 45,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49506182"
+        }
+      ],
+      "normalized": 0.872,
+      "score": 0.307,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "0dae312cd58a",
+      "title": "ReactOS 0.4.16",
+      "url": "https://reactos.org/project-news/reactos-0416-released/",
+      "canonicalUrl": "https://reactos.org/project-news/reactos-0416-released",
+      "domain": "reactos.org",
+      "createdAt": "2026-08-31T08:13:37.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 77,
+          "comments": 16,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49506978"
+        }
+      ],
+      "normalized": 0.547,
+      "score": 0.282,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "863321d343d8",
+      "title": "Malleable software = solid bases and custom code",
+      "url": "https://www.mdubakov.me/malleable-software-solid-bases-custom-code/",
+      "canonicalUrl": "https://mdubakov.me/malleable-software-solid-bases-custom-code",
+      "domain": "mdubakov.me",
+      "createdAt": "2026-08-31T10:36:43.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 47,
+          "comments": 11,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49508059"
+        }
+      ],
+      "normalized": 0.302,
+      "score": 0.28,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "c7361bcae3b5",
+      "title": "uv: Deduplicate all files in the wheel cache",
+      "url": "https://github.com/astral-sh/uv/pull/21327",
+      "canonicalUrl": "https://github.com/astral-sh/uv/pull/21327",
+      "domain": "github.com",
+      "createdAt": "2026-08-31T06:03:02.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 140,
+          "comments": 57,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49506142"
+        }
+      ],
+      "normalized": 0.733,
+      "score": 0.253,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "75d498a9397f",
+      "title": "Omarchy: 1Password and 37signals become Distinguished Corporate Patrons",
+      "url": "https://omarchy.org/news/2026/08/1password-and-37signals-become-distinguished-corporate-patrons/",
+      "canonicalUrl": "https://omarchy.org/news/2026/08/1password-and-37signals-become-distinguished-corporate-patrons",
+      "domain": "omarchy.org",
+      "createdAt": "2026-08-31T13:56:12.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 29,
+          "comments": 30,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49509876"
+        }
+      ],
+      "normalized": 0.058,
+      "score": 0.211,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "d20b99a49a7d",
+      "title": "Understanding ChatGPT Work",
+      "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
+      "canonicalUrl": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work",
+      "domain": "simonwillison.net",
+      "createdAt": "2026-08-30T23:59:47.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 265,
+          "comments": 140,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49504625"
+        },
+        {
+          "source": "rss",
+          "label": "Simon Willison",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.86,
+      "score": 0.2,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "21b15ed115fb",
+      "title": "Meta Security Researcher's AI Agent Accidentally Deleted Her Emails",
+      "url": "https://au.pcmag.com/ai/116091/meta-security-researchers-ai-agent-accidentally-deleted-her-emails",
+      "canonicalUrl": "https://au.pcmag.com/ai/116091/meta-security-researchers-ai-agent-accidentally-deleted-her-emails",
+      "domain": "au.pcmag.com",
+      "createdAt": "2026-08-31T07:23:47.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 56,
+          "comments": 52,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49506655"
+        }
+      ],
+      "normalized": 0.43,
+      "score": 0.189,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "4dc119bd96eb",
+      "title": "P99 0 ms* autocomplete for 240M domain names",
+      "url": "https://ruurtjan.com/articles/p99-0ms-autocomplete-for-240-million-domain-names",
+      "canonicalUrl": "https://ruurtjan.com/articles/p99-0ms-autocomplete-for-240-million-domain-names",
+      "domain": "ruurtjan.com",
+      "createdAt": "2026-08-31T03:20:33.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 188,
+          "comments": 72,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49505219"
+        }
+      ],
+      "normalized": 0.791,
+      "score": 0.182,
+      "aiScore": 5,
+      "why": ""
+    }
+  ]
+}
