@@ -1,0 +1,321 @@
+{
+  "date": "2026-09-01",
+  "generatedAt": "2026-09-01T13:57:16.013Z",
+  "stories": [
+    {
+      "id": "5d08341518be",
+      "title": "Tim Cook Sold Out Steve Jobs",
+      "url": "https://www.anildash.com/2025/09/09/how-tim-cook-sold-out-steve-jobs/",
+      "canonicalUrl": "https://anildash.com/2025/09/09/how-tim-cook-sold-out-steve-jobs",
+      "domain": "anildash.com",
+      "createdAt": "2026-09-01T12:12:30.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 122,
+          "comments": 142,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49520896"
+        }
+      ],
+      "normalized": 0.702,
+      "score": 1.629,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "51cd5ec3c09f",
+      "title": "EFF to Courts: Don't Rewrite Copyright over AI Hype",
+      "url": "https://www.eff.org/deeplinks/2026/08/eff-courts-dont-rewrite-copyright-over-ai-hype",
+      "canonicalUrl": "https://eff.org/deeplinks/2026/08/eff-courts-dont-rewrite-copyright-over-ai-hype",
+      "domain": "eff.org",
+      "createdAt": "2026-09-01T12:53:51.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 64,
+          "comments": 43,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49521315"
+        }
+      ],
+      "normalized": 0.462,
+      "score": 1.544,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "cb2a71b21583",
+      "title": "AnkiDroid: Google Play no longer allowing Open Collective donation link",
+      "url": "https://github.com/ankidroid/Anki-Android/issues/21656",
+      "canonicalUrl": "https://github.com/ankidroid/Anki-Android/issues/21656",
+      "domain": "github.com",
+      "createdAt": "2026-09-01T10:11:02.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 366,
+          "comments": 77,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49520022"
+        }
+      ],
+      "normalized": 0.904,
+      "score": 0.964,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "44526c1223b0",
+      "title": "44% on ARC-AGI-1 in 67 cents",
+      "url": "https://mvakde.github.io/blog/44-on-arc-1/",
+      "canonicalUrl": "https://mvakde.github.io/blog/44-on-arc-1",
+      "domain": "mvakde.github.io",
+      "createdAt": "2026-09-01T09:52:45.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 167,
+          "comments": 40,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49519939"
+        }
+      ],
+      "normalized": 0.769,
+      "score": 0.748,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "a827ac04a771",
+      "title": "Lake Ontario (\"Lake America\")",
+      "url": "https://community.openstreetmap.org/t/lake-ontario-lake-america/146975",
+      "canonicalUrl": "https://community.openstreetmap.org/t/lake-ontario-lake-america/146975",
+      "domain": "community.openstreetmap.org",
+      "createdAt": "2026-09-01T10:56:03.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 43,
+          "comments": 69,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49520270"
+        }
+      ],
+      "normalized": 0.298,
+      "score": 0.408,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "373b6bdf4215",
+      "title": "NASA: Fill in a name, and you can have an exclusive coordinate in the universe",
+      "url": "https://science.nasa.gov/mission/roman-space-telescope/adopt-a-pixel/",
+      "canonicalUrl": "https://science.nasa.gov/mission/roman-space-telescope/adopt-a-pixel",
+      "domain": "science.nasa.gov",
+      "createdAt": "2026-09-01T09:46:39.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 50,
+          "comments": 46,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49519902"
+        }
+      ],
+      "normalized": 0.365,
+      "score": 0.344,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "699e4199353d",
+      "title": "AI Can Make You Suck Faster Too",
+      "url": "https://www.hermit-tech.com/blog/ai-can-make-you-suck-faster-too",
+      "canonicalUrl": "https://hermit-tech.com/blog/ai-can-make-you-suck-faster-too",
+      "domain": "hermit-tech.com",
+      "createdAt": "2026-09-01T05:32:56.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 111,
+          "comments": 116,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49518316"
+        }
+      ],
+      "normalized": 0.692,
+      "score": 0.255,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "810b752f868b",
+      "title": "Fastpotify",
+      "url": "https://fastpotify.rocks/",
+      "canonicalUrl": "https://fastpotify.rocks/",
+      "domain": "fastpotify.rocks",
+      "createdAt": "2026-09-01T02:52:14.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 580,
+          "comments": 351,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49517448"
+        }
+      ],
+      "normalized": 0.971,
+      "score": 0.237,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "bae421f067cd",
+      "title": "GPU World",
+      "url": "https://www.gpuworld.org/",
+      "canonicalUrl": "https://gpuworld.org/",
+      "domain": "gpuworld.org",
+      "createdAt": "2026-09-01T03:16:36.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 307,
+          "comments": 179,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49517584"
+        }
+      ],
+      "normalized": 0.885,
+      "score": 0.229,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "0f48a2318453",
+      "title": "Restroom Archive",
+      "url": "https://restroomarchive.com",
+      "canonicalUrl": "https://restroomarchive.com/",
+      "domain": "restroomarchive.com",
+      "createdAt": "2026-09-01T03:23:48.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 202,
+          "comments": 47,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49517624"
+        }
+      ],
+      "normalized": 0.808,
+      "score": 0.212,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "02e3f36427f0",
+      "title": "RotaryCell: Making an unmodified rotary phone work over LTE with an ESP32-S3",
+      "url": "https://github.com/fregacmols/RotaryCell",
+      "canonicalUrl": "https://github.com/fregacmols/RotaryCell",
+      "domain": "github.com",
+      "createdAt": "2026-09-01T02:29:23.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 106,
+          "comments": 22,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49517297"
+        }
+      ],
+      "normalized": 0.663,
+      "score": 0.154,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "cfba8dcfbe67",
+      "title": "Evidence of Fraud in an Influential Study About Procrastination",
+      "url": "https://datacolada.org/138",
+      "canonicalUrl": "https://datacolada.org/138",
+      "domain": "datacolada.org",
+      "createdAt": "2026-08-31T23:45:56.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 296,
+          "comments": 207,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49516199"
+        }
+      ],
+      "normalized": 0.875,
+      "score": 0.146,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "38ed6144b823",
+      "title": "Ex-Crips leader found guilty in 1996 murder of rapper Tupac Shakur",
+      "url": "https://www.bbc.com/news/articles/c24j5192j7jo",
+      "canonicalUrl": "https://bbc.com/news/articles/c24j5192j7jo",
+      "domain": "bbc.com",
+      "createdAt": "2026-09-01T02:40:13.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 86,
+          "comments": 35,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49517377"
+        }
+      ],
+      "normalized": 0.587,
+      "score": 0.14,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "54e0ca16c4e4",
+      "title": "Google Antigravity introduces Boost deep reasoning (/boost)",
+      "url": "https://antigravity.google/docs/boost/",
+      "canonicalUrl": "https://antigravity.google/docs/boost",
+      "domain": "antigravity.google",
+      "createdAt": "2026-09-01T03:05:55.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 76,
+          "comments": 52,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49517537"
+        }
+      ],
+      "normalized": 0.548,
+      "score": 0.138,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "9f2fb3bf2800",
+      "title": "2004 RuneScape fit a multiplayer RPG into 56k dial-up",
+      "url": "https://jkm.dev/posts/how-2004-runescape-fit-a-multiplayer-rpg-into-56k-dialup/",
+      "canonicalUrl": "https://jkm.dev/posts/how-2004-runescape-fit-a-multiplayer-rpg-into-56k-dialup",
+      "domain": "jkm.dev",
+      "createdAt": "2026-09-01T01:01:08.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 124,
+          "comments": 73,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49516699"
+        }
+      ],
+      "normalized": 0.712,
+      "score": 0.137,
+      "aiScore": 5,
+      "why": ""
+    }
+  ]
+}
