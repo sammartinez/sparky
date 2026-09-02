@@ -1,0 +1,319 @@
+{
+  "date": "2026-09-02",
+  "generatedAt": "2026-09-02T15:42:54.444Z",
+  "stories": [
+    {
+      "id": "aca19a64dc0f",
+      "title": "A Note from LWN",
+      "url": "https://lwn.net/Articles/1090585/",
+      "canonicalUrl": "https://lwn.net/Articles/1090585",
+      "domain": "lwn.net",
+      "createdAt": "2026-09-02T13:17:12.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 387,
+          "comments": 76,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49535752"
+        }
+      ],
+      "normalized": 0.908,
+      "score": 1.559,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "164af9b86142",
+      "title": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them",
+      "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
+      "canonicalUrl": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations",
+      "domain": "trellner.com",
+      "createdAt": "2026-09-02T13:59:59.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 111,
+          "comments": 58,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49536375"
+        }
+      ],
+      "normalized": 0.612,
+      "score": 1.442,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "90dd84f8470f",
+      "title": "Gemini 3.8 Flash",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-8-flash/",
+      "canonicalUrl": "https://deepmind.google/models/model-cards/gemini-3-8-flash",
+      "domain": "deepmind.google",
+      "createdAt": "2026-09-02T15:12:40.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 48,
+          "comments": 20,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49537553"
+        }
+      ],
+      "normalized": 0.296,
+      "score": 1.418,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "7c32fbb7723e",
+      "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
+      "url": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
+      "canonicalUrl": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt",
+      "domain": "simonwillison.net",
+      "createdAt": "2026-09-02T14:16:42.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Simon Willison",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 1.355,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "22915ca8a273",
+      "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
+      "url": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
+      "canonicalUrl": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
+      "domain": "huggingface.co",
+      "createdAt": "2026-09-02T13:49:14.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 1.082,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "06dfa3058b1a",
+      "title": "GrapheneOS says Pixel 11 has MTE support after all",
+      "url": "https://grapheneos.social/@GrapheneOS/117194007157499435",
+      "canonicalUrl": "https://grapheneos.social/@GrapheneOS/117194007157499435",
+      "domain": "grapheneos.social",
+      "createdAt": "2026-09-02T14:00:28.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 68,
+          "comments": 49,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49536384"
+        }
+      ],
+      "normalized": 0.449,
+      "score": 1.061,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "f409e799968b",
+      "title": "Biggest dark matter detector spots a single weird particle",
+      "url": "https://www.science.org/content/article/world-s-biggest-dark-matter-detector-spots-single-weird-particle",
+      "canonicalUrl": "https://science.org/content/article/world-s-biggest-dark-matter-detector-spots-single-weird-particle",
+      "domain": "science.org",
+      "createdAt": "2026-09-02T13:40:29.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 84,
+          "comments": 10,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49536079"
+        }
+      ],
+      "normalized": 0.51,
+      "score": 1.033,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "cf155639f674",
+      "title": "Six curl CVEs after OpenAI and Anthropic came back with zero",
+      "url": "https://aisle.com/blog/aisle-discovered-six-curl-cves-after-openai-and-anthropic-found-zero",
+      "canonicalUrl": "https://aisle.com/blog/aisle-discovered-six-curl-cves-after-openai-and-anthropic-found-zero",
+      "domain": "aisle.com",
+      "createdAt": "2026-09-02T13:43:14.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 71,
+          "comments": 23,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49536114"
+        }
+      ],
+      "normalized": 0.49,
+      "score": 1.012,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "bae21da978fc",
+      "title": "Dutch central bank moves share of gold from U.S., Canada to London",
+      "url": "https://nltimes.nl/2026/09/02/dutch-central-bank-moves-share-gold-us-canada-london-cites-instability",
+      "canonicalUrl": "https://nltimes.nl/2026/09/02/dutch-central-bank-moves-share-gold-us-canada-london-cites-instability",
+      "domain": "nltimes.nl",
+      "createdAt": "2026-09-02T12:55:40.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 140,
+          "comments": 117,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49535526"
+        }
+      ],
+      "normalized": 0.673,
+      "score": 1.005,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "7e1d4b435312",
+      "title": "Just Bury Your Trash",
+      "url": "https://www.worksinprogress.news/p/just-bury-your-trash",
+      "canonicalUrl": "https://worksinprogress.news/p/just-bury-your-trash",
+      "domain": "worksinprogress.news",
+      "createdAt": "2026-09-02T13:22:29.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 89,
+          "comments": 135,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49535835"
+        }
+      ],
+      "normalized": 0.531,
+      "score": 0.945,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "441ed5a219b2",
+      "title": "Mistral now trains on user input by default, except on enterprise tier",
+      "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
+      "canonicalUrl": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
+      "domain": "help.mistral.ai",
+      "createdAt": "2026-09-02T12:30:39.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 127,
+          "comments": 69,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49535284"
+        }
+      ],
+      "normalized": 0.663,
+      "score": 0.852,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "b45316071de9",
+      "title": "Poisson Disk Sampling",
+      "url": "https://stripeacross.com/posts/poisson-disk-sampling/",
+      "canonicalUrl": "https://stripeacross.com/posts/poisson-disk-sampling",
+      "domain": "stripeacross.com",
+      "createdAt": "2026-09-02T13:47:49.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 48,
+          "comments": 5,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49536177"
+        }
+      ],
+      "normalized": 0.296,
+      "score": 0.633,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "49c13dde39f2",
+      "title": "Aging Brains Blend Memories Together Instead of Just Forgetting Them",
+      "url": "https://studyfinds.com/aging-brains-blend-memories-together-instead-of-forgetting-them-study-finds/",
+      "canonicalUrl": "https://studyfinds.com/aging-brains-blend-memories-together-instead-of-forgetting-them-study-finds",
+      "domain": "studyfinds.com",
+      "createdAt": "2026-09-02T12:59:09.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 57,
+          "comments": 20,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49535548"
+        }
+      ],
+      "normalized": 0.378,
+      "score": 0.576,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "315893d3f9f7",
+      "title": "Bye Bye Perspective API: Lessons for Measurement Infrastructure in NLP, CSS and LLM Evaluation",
+      "url": "https://arxiv.org/abs/2604.25580",
+      "canonicalUrl": "https://arxiv.org/abs/2604.25580",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-02T11:52:23.425Z",
+      "appearances": [
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://lobste.rs/s/us078z/bye_bye_perspective_api_lessons_for"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.521,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "b47c11d25c24",
+      "title": "Exit the Cave",
+      "url": "https://turtlespace.blog/p/exit-the-cave",
+      "canonicalUrl": "https://turtlespace.blog/p/exit-the-cave",
+      "domain": "turtlespace.blog",
+      "createdAt": "2026-09-02T14:16:45.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 35,
+          "comments": 6,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49536606"
+        }
+      ],
+      "normalized": 0.173,
+      "score": 0.47,
+      "aiScore": 5,
+      "why": ""
+    }
+  ]
+}
