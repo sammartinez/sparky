@@ -1,0 +1,319 @@
+{
+  "date": "2026-09-03",
+  "generatedAt": "2026-09-03T15:32:58.625Z",
+  "stories": [
+    {
+      "id": "8e5f728a9828",
+      "title": "ChatGPT Is Throwing 404",
+      "url": "https://chatgpt.com/",
+      "canonicalUrl": "https://chatgpt.com/",
+      "domain": "chatgpt.com",
+      "createdAt": "2026-09-03T14:46:47.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 262,
+          "comments": 191,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49550614"
+        }
+      ],
+      "normalized": 0.852,
+      "score": 3.403,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "d75554c78e0f",
+      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "canonicalUrl": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model",
+      "domain": "deepmind.google",
+      "createdAt": "2026-09-03T15:02:08.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Google DeepMind",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 2.378,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "8fb2d67d0e5f",
+      "title": "ChatGPT and Codex Is Down",
+      "url": "https://chatgpt.com/codex/",
+      "canonicalUrl": "https://chatgpt.com/codex",
+      "domain": "chatgpt.com",
+      "createdAt": "2026-09-03T14:48:03.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 90,
+          "comments": 214,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49550640"
+        }
+      ],
+      "normalized": 0.583,
+      "score": 2.363,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "d5e1a58a2193",
+      "title": "Mom Gets 6-Mo Suspended Sentence for Letting 5-Year-Old Walk to the Pond",
+      "url": "https://reason.com/2026/09/02/virginia-mom-gets-6-month-suspended-jail-sentence-for-letting-5-year-old-walk-to-the-pond/",
+      "canonicalUrl": "https://reason.com/2026/09/02/virginia-mom-gets-6-month-suspended-jail-sentence-for-letting-5-year-old-walk-to-the-pond",
+      "domain": "reason.com",
+      "createdAt": "2026-09-03T14:12:19.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 152,
+          "comments": 134,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49550174"
+        }
+      ],
+      "normalized": 0.731,
+      "score": 2.082,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "5e07bff71778",
+      "title": "Codex Is Down",
+      "url": "https://github.com/openai/codex/issues/28756",
+      "canonicalUrl": "https://github.com/openai/codex/issues/28756",
+      "domain": "github.com",
+      "createdAt": "2026-09-03T14:54:31.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 60,
+          "comments": 30,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49550769"
+        }
+      ],
+      "normalized": 0.389,
+      "score": 1.693,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "0750acc53b96",
+      "title": "Elevated Errors for Multiple Models",
+      "url": "https://status.claude.com/incidents/461yvfrzpwtt",
+      "canonicalUrl": "https://status.claude.com/incidents/461yvfrzpwtt",
+      "domain": "status.claude.com",
+      "createdAt": "2026-09-03T13:29:12.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 158,
+          "comments": 133,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49549676"
+        }
+      ],
+      "normalized": 0.75,
+      "score": 1.504,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "59106843dc3b",
+      "title": "LLMs and self-referentiality",
+      "url": "https://scottaaronson.blog/?p=10046",
+      "canonicalUrl": "https://scottaaronson.blog/?p=10046",
+      "domain": "scottaaronson.blog",
+      "createdAt": "2026-09-03T13:39:13.344Z",
+      "appearances": [
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 1,
+          "comments": 0,
+          "discussionUrl": "https://lobste.rs/s/jato3y/llms_self_referentiality"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 1.081,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "384fd886f496",
+      "title": "ICE Has a $2M Contract for Spyware That Can Hack Phones Without a Click",
+      "url": "https://www.military.com/ice-has-a-2-million-contract-for-spyware-that-can-hack-phones-without-a-click",
+      "canonicalUrl": "https://military.com/ice-has-a-2-million-contract-for-spyware-that-can-hack-phones-without-a-click",
+      "domain": "military.com",
+      "createdAt": "2026-09-03T13:36:04.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 70,
+          "comments": 39,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49549762"
+        }
+      ],
+      "normalized": 0.444,
+      "score": 0.938,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "7f85661884a2",
+      "title": "Nvidia to Acquire Hugging Face",
+      "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+      "canonicalUrl": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face",
+      "domain": "blogs.nvidia.com",
+      "createdAt": "2026-09-03T12:10:33.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 153,
+          "comments": 44,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49548952"
+        }
+      ],
+      "normalized": 0.741,
+      "score": 0.898,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "96a3500c5a4b",
+      "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+      "url": "https://huggingface.co/blog/Hcompany/neomme",
+      "canonicalUrl": "https://huggingface.co/blog/Hcompany/neomme",
+      "domain": "huggingface.co",
+      "createdAt": "2026-09-03T13:13:48.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.898,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "d75e0275a801",
+      "title": "Audacity 4.0",
+      "url": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0",
+      "canonicalUrl": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0",
+      "domain": "github.com",
+      "createdAt": "2026-09-03T10:53:08.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 626,
+          "comments": 149,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49548395"
+        }
+      ],
+      "normalized": 0.963,
+      "score": 0.792,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "1ee0c3f42107",
+      "title": "Fuck Off as a Service (Foaas)",
+      "url": "https://foaas.io/",
+      "canonicalUrl": "https://foaas.io/",
+      "domain": "foaas.io",
+      "createdAt": "2026-09-03T13:47:22.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 49,
+          "comments": 7,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49549873"
+        }
+      ],
+      "normalized": 0.287,
+      "score": 0.661,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "f9e11e325fe9",
+      "title": "Google Antigravity TOS: 3rd party usage can get Google account suspended",
+      "url": "https://twitter.com/GergelyOrosz/status/2095453567955968398",
+      "canonicalUrl": "https://twitter.com/GergelyOrosz/status/2095453567955968398",
+      "domain": "twitter.com",
+      "createdAt": "2026-09-03T11:01:04.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 100,
+          "comments": 67,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49548452"
+        }
+      ],
+      "normalized": 0.62,
+      "score": 0.529,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "bb4524683f50",
+      "title": "Pre-Release of Polars 2.0",
+      "url": "https://pola.rs/posts/announcing-polars-2/",
+      "canonicalUrl": "https://pola.rs/posts/announcing-polars-2",
+      "domain": "pola.rs",
+      "createdAt": "2026-09-03T06:59:08.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 305,
+          "comments": 100,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49546753"
+        }
+      ],
+      "normalized": 0.889,
+      "score": 0.319,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "c075aae18ad3",
+      "title": "Japan halves speed limit to 30km/h on all narrow city streets",
+      "url": "https://www.theguardian.com/world/2026/sep/02/japan-new-speed-limit-30kmh-narrow-city-streets",
+      "canonicalUrl": "https://theguardian.com/world/2026/sep/02/japan-new-speed-limit-30kmh-narrow-city-streets",
+      "domain": "theguardian.com",
+      "createdAt": "2026-09-03T09:21:53.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 78,
+          "comments": 78,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49547763"
+        }
+      ],
+      "normalized": 0.537,
+      "score": 0.305,
+      "aiScore": 5,
+      "why": ""
+    }
+  ]
+}
