@@ -1,0 +1,321 @@
+{
+  "date": "2026-09-04",
+  "generatedAt": "2026-09-04T15:30:53.763Z",
+  "stories": [
+    {
+      "id": "72b4a4e091d2",
+      "title": "Using machine learning on my Guitar Hero Controller",
+      "url": "https://p0ly.com/ml_strummer.html",
+      "canonicalUrl": "https://p0ly.com/ml_strummer.html",
+      "domain": "p0ly.com",
+      "createdAt": "2026-09-04T15:23:26.707Z",
+      "appearances": [
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 1,
+          "comments": 0,
+          "discussionUrl": "https://lobste.rs/s/hhogjo/using_machine_learning_on_my_guitar_hero"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 3.221,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "95ddce175ff4",
+      "title": "Burnt out on a three-day week",
+      "url": "https://jennywanger.com/articles/burnt-out-on-a-three-day-week/",
+      "canonicalUrl": "https://jennywanger.com/articles/burnt-out-on-a-three-day-week",
+      "domain": "jennywanger.com",
+      "createdAt": "2026-09-04T14:14:05.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 56,
+          "comments": 49,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49564960"
+        }
+      ],
+      "normalized": 0.4,
+      "score": 1.179,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "be38a4d63ee6",
+      "title": "'People are going to get screwed' Pennsylvania voters unite against data centres",
+      "url": "http://www.ft.com/content/8252d574-ae2a-4403-9cf9-031295ba67f5",
+      "canonicalUrl": "https://ft.com/content/8252d574-ae2a-4403-9cf9-031295ba67f5",
+      "domain": "ft.com",
+      "createdAt": "2026-09-04T13:33:01.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 83,
+          "comments": 112,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49564397"
+        }
+      ],
+      "normalized": 0.516,
+      "score": 1.081,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "41f6aa329ebf",
+      "title": "Discovery of a new OpenAI agent message board",
+      "url": "https://collusion.wiki/",
+      "canonicalUrl": "https://collusion.wiki/",
+      "domain": "collusion.wiki",
+      "createdAt": "2026-09-04T11:54:53.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 602,
+          "comments": 416,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49563355"
+        }
+      ],
+      "normalized": 0.937,
+      "score": 1.054,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "f982aefc7be4",
+      "title": "IBM Bob",
+      "url": "https://bob.ibm.com/",
+      "canonicalUrl": "https://bob.ibm.com/",
+      "domain": "bob.ibm.com",
+      "createdAt": "2026-09-04T12:50:29.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 93,
+          "comments": 89,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49563851"
+        }
+      ],
+      "normalized": 0.589,
+      "score": 0.918,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "e64d2393f5c4",
+      "title": "Nearly impossible? How Fairphone built the ethical, repairable Fairphone Gen 6+",
+      "url": "https://arstechnica.com/gadgets/2026/09/nearly-impossible-how-fairphone-built-the-ethical-repairable-fairphone-gen-6/",
+      "canonicalUrl": "https://arstechnica.com/gadgets/2026/09/nearly-impossible-how-fairphone-built-the-ethical-repairable-fairphone-gen-6",
+      "domain": "arstechnica.com",
+      "createdAt": "2026-09-04T12:43:49.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 88,
+          "comments": 72,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49563784"
+        }
+      ],
+      "normalized": 0.568,
+      "score": 0.849,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "959aa5be4bcd",
+      "title": "Google AI Mode shows same products 21.6% more expensive than traditional search",
+      "url": "https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products",
+      "canonicalUrl": "https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products",
+      "domain": "productrise.app",
+      "createdAt": "2026-09-04T11:59:15.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 163,
+          "comments": 25,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49563386"
+        }
+      ],
+      "normalized": 0.726,
+      "score": 0.837,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "ac9c340a05e7",
+      "title": "Top Pentagon Official Contracted Personal Lawyer to Handle Minerals Deal",
+      "url": "https://prospect.org/2026/08/21/pentagon-minerals-deal-department-defense-cerberus-capital-alan-waldenberg-stephen-feinberg/",
+      "canonicalUrl": "https://prospect.org/2026/08/21/pentagon-minerals-deal-department-defense-cerberus-capital-alan-waldenberg-stephen-feinberg",
+      "domain": "prospect.org",
+      "createdAt": "2026-09-04T13:54:26.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 45,
+          "comments": 3,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49564714"
+        }
+      ],
+      "normalized": 0.295,
+      "score": 0.732,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "e40c5272657e",
+      "title": "Ok, but Does It Scale?",
+      "url": "https://spacetimedb.com/blog/how-does-spacetime-scale",
+      "canonicalUrl": "https://spacetimedb.com/blog/how-does-spacetime-scale",
+      "domain": "spacetimedb.com",
+      "createdAt": "2026-09-04T12:42:08.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 55,
+          "comments": 26,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49563772"
+        }
+      ],
+      "normalized": 0.389,
+      "score": 0.576,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "f5f4a0efb994",
+      "title": "Solving the Jane Street Reverse Engineering Challenge",
+      "url": "https://jestoph.com/2026/09/04/jane-street-challenge.html",
+      "canonicalUrl": "https://jestoph.com/2026/09/04/jane-street-challenge.html",
+      "domain": "jestoph.com",
+      "createdAt": "2026-09-04T10:17:01.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 220,
+          "comments": 58,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49562657"
+        }
+      ],
+      "normalized": 0.779,
+      "score": 0.553,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "504dd1ec9508",
+      "title": "The Hugging Face incident and the road ahead",
+      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+      "canonicalUrl": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+      "domain": "openai.com",
+      "createdAt": "2026-09-04T11:06:19.133Z",
+      "appearances": [
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 1,
+          "comments": 1,
+          "discussionUrl": "https://lobste.rs/s/r8a3w9/hugging_face_incident_road_ahead"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.441,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "e0e0ae744c49",
+      "title": "O&O ShutUp10 – The antispy tool for Windows 10 and 11",
+      "url": "https://www.oo-software.com/en/shutup10",
+      "canonicalUrl": "https://oo-software.com/en/shutup10",
+      "domain": "oo-software.com",
+      "createdAt": "2026-09-04T10:56:07.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 78,
+          "comments": 76,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49562895"
+        }
+      ],
+      "normalized": 0.505,
+      "score": 0.425,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "971684560585",
+      "title": "OpenAI agents hijacked German website in previously undisclosed AI breakout",
+      "url": "https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/",
+      "canonicalUrl": "https://reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04",
+      "domain": "reuters.com",
+      "createdAt": "2026-09-04T10:30:57.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 83,
+          "comments": 67,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49562744"
+        }
+      ],
+      "normalized": 0.516,
+      "score": 0.389,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "04317caef207",
+      "title": "Restoring 5 GHz Wi-Fi on an LG C5 by changing its webOS region",
+      "url": "https://github.com/hawshemi/lg-c5-webos25-region-change",
+      "canonicalUrl": "https://github.com/hawshemi/lg-c5-webos25-region-change",
+      "domain": "github.com",
+      "createdAt": "2026-09-04T12:49:44.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 35,
+          "comments": 41,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49563839"
+        }
+      ],
+      "normalized": 0.211,
+      "score": 0.327,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "5324fd594604",
+      "title": "Hackers Had a Live Feed of Every ID Verification Company Scanned for over a Year",
+      "url": "http://www.techdirt.com/2026/09/03/hackers-had-a-live-feed-of-every-id-this-verification-company-scanned-for-over-a-year/",
+      "canonicalUrl": "https://techdirt.com/2026/09/03/hackers-had-a-live-feed-of-every-id-this-verification-company-scanned-for-over-a-year",
+      "domain": "techdirt.com",
+      "createdAt": "2026-09-04T06:47:51.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 400,
+          "comments": 169,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49561320"
+        }
+      ],
+      "normalized": 0.926,
+      "score": 0.324,
+      "aiScore": 5,
+      "why": ""
+    }
+  ]
+}
