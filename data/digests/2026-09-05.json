@@ -1,0 +1,321 @@
+{
+  "date": "2026-09-05",
+  "generatedAt": "2026-09-05T14:18:40.158Z",
+  "stories": [
+    {
+      "id": "f32f7bf92816",
+      "title": "Pentagon rescinds new testosterone screening policy without explanation",
+      "url": "https://arstechnica.com/health/2026/09/pentagon-releases-then-quickly-removes-testosterone-screening-policy/",
+      "canonicalUrl": "https://arstechnica.com/health/2026/09/pentagon-releases-then-quickly-removes-testosterone-screening-policy",
+      "domain": "arstechnica.com",
+      "createdAt": "2026-09-05T13:11:14.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 59,
+          "comments": 37,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49576196"
+        }
+      ],
+      "normalized": 0.366,
+      "score": 1.177,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "7bfdde3fe979",
+      "title": "Netherlands pulls gold out of the US for fears of 'geopolitical unrest'",
+      "url": "https://www.abc.net.au/news/2026-09-04/why-the-netherlands-moved-its-gold-from-us-and-canada/107111990",
+      "canonicalUrl": "https://abc.net.au/news/2026-09-04/why-the-netherlands-moved-its-gold-from-us-and-canada/107111990",
+      "domain": "abc.net.au",
+      "createdAt": "2026-09-05T10:14:28.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 167,
+          "comments": 103,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49575034"
+        }
+      ],
+      "normalized": 0.707,
+      "score": 0.688,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "ff327903fc76",
+      "title": "AI handles incidents, engineers lose touch with their systems",
+      "url": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems",
+      "canonicalUrl": "https://sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems",
+      "domain": "sylvainkalache.com",
+      "createdAt": "2026-09-05T07:52:50.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 244,
+          "comments": 209,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49574167"
+        }
+      ],
+      "normalized": 0.793,
+      "score": 0.427,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "aaafcecdd919",
+      "title": "The \"$60 Gaming PC\" – AMD BC-250 (2025)",
+      "url": "https://devquasar.com/hardware/the-60-gaming-pc-amd-bc-250/",
+      "canonicalUrl": "https://devquasar.com/hardware/the-60-gaming-pc-amd-bc-250",
+      "domain": "devquasar.com",
+      "createdAt": "2026-09-05T13:36:38.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 28,
+          "comments": 8,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49576386"
+        }
+      ],
+      "normalized": 0.073,
+      "score": 0.306,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "e27eccfc804c",
+      "title": "Git hosting that never leaves Europe",
+      "url": "https://pushin.eu",
+      "canonicalUrl": "https://pushin.eu/",
+      "domain": "pushin.eu",
+      "createdAt": "2026-09-05T06:31:49.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 148,
+          "comments": 86,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49573680"
+        }
+      ],
+      "normalized": 0.659,
+      "score": 0.272,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "3dd7972a6e21",
+      "title": "Why are European countries moving their gold out of North America?",
+      "url": "https://www.bbc.com/news/articles/cvgyn8q8gqxo",
+      "canonicalUrl": "https://bbc.com/news/articles/cvgyn8q8gqxo",
+      "domain": "bbc.com",
+      "createdAt": "2026-09-05T05:52:09.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 172,
+          "comments": 251,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49573455"
+        }
+      ],
+      "normalized": 0.72,
+      "score": 0.264,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "f541ae83479e",
+      "title": "Nitter has more working instances than before the takedowns",
+      "url": "https://codeberg.org/mv12star/shitter/wiki/Instances",
+      "canonicalUrl": "https://codeberg.org/mv12star/shitter/wiki/Instances",
+      "domain": "codeberg.org",
+      "createdAt": "2026-09-05T00:04:16.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 383,
+          "comments": 147,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49571634"
+        }
+      ],
+      "normalized": 0.89,
+      "score": 0.147,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "485e5212d702",
+      "title": "LG TVs aren't the only ones spying on you [video]",
+      "url": "https://www.youtube.com/watch?v=IvFu343KNek",
+      "canonicalUrl": "https://youtube.com/watch?v=IvFu343KNek",
+      "domain": "youtube.com",
+      "createdAt": "2026-09-05T10:36:14.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 33,
+          "comments": 5,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49575176"
+        }
+      ],
+      "normalized": 0.134,
+      "score": 0.146,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "0bd764270a92",
+      "title": "Actively exploited sandbox RCE in all Chromium versions",
+      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-85046",
+      "canonicalUrl": "https://nvd.nist.gov/vuln/detail/cve-2026-85046",
+      "domain": "nvd.nist.gov",
+      "createdAt": "2026-09-04T21:52:01.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 615,
+          "comments": 340,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49570669"
+        }
+      ],
+      "normalized": 0.963,
+      "score": 0.127,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "c1f5b000ff91",
+      "title": "Record-High 89% in U.S. Say Government Corruption Widespread",
+      "url": "https://news.gallup.com/poll/713933/record-high-say-government-corruption-widespread.aspx",
+      "canonicalUrl": "https://news.gallup.com/poll/713933/record-high-say-government-corruption-widespread.aspx",
+      "domain": "news.gallup.com",
+      "createdAt": "2026-09-04T22:03:16.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 505,
+          "comments": 415,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49570772"
+        }
+      ],
+      "normalized": 0.939,
+      "score": 0.126,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "44a6c9acd9ce",
+      "title": "Portal by Spotify cut my Claude Code token usage by 90%",
+      "url": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90",
+      "canonicalUrl": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90",
+      "domain": "engineering.atspotify.com",
+      "createdAt": "2026-09-04T23:38:50.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 184,
+          "comments": 92,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49571465"
+        }
+      ],
+      "normalized": 0.732,
+      "score": 0.116,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "2d1aff01ef67",
+      "title": "Artificial Analysis Intelligence Index v4.2",
+      "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v4-2",
+      "canonicalUrl": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v4-2",
+      "domain": "artificialanalysis.ai",
+      "createdAt": "2026-09-05T00:04:14.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 131,
+          "comments": 54,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49571632"
+        }
+      ],
+      "normalized": 0.634,
+      "score": 0.105,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "e63a150c0ab4",
+      "title": "GPT-6 Astra in code review: Gains, privacy, and cost",
+      "url": "https://www.coderabbit.ai/blog/gpt-6-astra-code-review-evaluation",
+      "canonicalUrl": "https://coderabbit.ai/blog/gpt-6-astra-code-review-evaluation",
+      "domain": "coderabbit.ai",
+      "createdAt": "2026-09-05T03:38:56.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 66,
+          "comments": 57,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49572875"
+        }
+      ],
+      "normalized": 0.402,
+      "score": 0.104,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "3a1a5311d298",
+      "title": "GPT-6 Astra on OpenRouter",
+      "url": "https://openrouter.ai/openai/gpt-6-astra",
+      "canonicalUrl": "https://openrouter.ai/openai/gpt-6-astra",
+      "domain": "openrouter.ai",
+      "createdAt": "2026-09-04T21:39:19.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 260,
+          "comments": 167,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49570545"
+        }
+      ],
+      "normalized": 0.805,
+      "score": 0.104,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "b1524059422a",
+      "title": "Statichost.eu – European static site hosting",
+      "url": "https://www.statichost.eu/",
+      "canonicalUrl": "https://statichost.eu/",
+      "domain": "statichost.eu",
+      "createdAt": "2026-09-04T20:34:49.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 354,
+          "comments": 157,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49569896"
+        }
+      ],
+      "normalized": 0.866,
+      "score": 0.101,
+      "aiScore": 5,
+      "why": ""
+    }
+  ]
+}
