@@ -1,0 +1,319 @@
+{
+  "date": "2026-09-06",
+  "generatedAt": "2026-09-06T14:41:59.008Z",
+  "stories": [
+    {
+      "id": "07a080969bec",
+      "title": "The purpose of DNS is to spread scams",
+      "url": "https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/",
+      "canonicalUrl": "https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams",
+      "domain": "simonwillison.net",
+      "createdAt": "2026-09-06T14:40:07.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Simon Willison",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 3.491,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "0c4cbb7ffcc5",
+      "title": "Intellectual Fly Is Open (2025)",
+      "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/",
+      "canonicalUrl": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open",
+      "domain": "bcantrill.dtrace.org",
+      "createdAt": "2026-09-06T11:56:43.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 193,
+          "comments": 108,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49585644"
+        }
+      ],
+      "normalized": 0.682,
+      "score": 1.03,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "b2298b008e38",
+      "title": "Doomscrolling Ourselves to Death",
+      "url": "https://www.edwest.co.uk/p/doomscrolling-ourselves-to-death",
+      "canonicalUrl": "https://edwest.co.uk/p/doomscrolling-ourselves-to-death",
+      "domain": "edwest.co.uk",
+      "createdAt": "2026-09-06T11:53:40.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 135,
+          "comments": 74,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49585627"
+        }
+      ],
+      "normalized": 0.606,
+      "score": 0.898,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "6e2b5b86816b",
+      "title": "I Changed My License",
+      "url": "https://bergie.iki.fi/blog/eupl/",
+      "canonicalUrl": "https://bergie.iki.fi/blog/eupl",
+      "domain": "bergie.iki.fi",
+      "createdAt": "2026-09-06T10:39:44.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 108,
+          "comments": 122,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49585161"
+        }
+      ],
+      "normalized": 0.561,
+      "score": 0.551,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "4a7a95d25583",
+      "title": "You Don't Have a Right to Safe Drinking Water, US Court Rules",
+      "url": "https://www.motherjones.com/politics/2026/09/drinking-water-mississippi-lawsuit/",
+      "canonicalUrl": "https://motherjones.com/politics/2026/09/drinking-water-mississippi-lawsuit",
+      "domain": "motherjones.com",
+      "createdAt": "2026-09-06T09:14:22.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 206,
+          "comments": 147,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49584637"
+        }
+      ],
+      "normalized": 0.727,
+      "score": 0.488,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "2b97fcb19707",
+      "title": "Isar Aerospace reaches orbit and deploys payloads on second flight",
+      "url": "https://isaraerospace.com/press/history-for-european-spaceflight-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flight",
+      "canonicalUrl": "https://isaraerospace.com/press/history-for-european-spaceflight-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flight",
+      "domain": "isaraerospace.com",
+      "createdAt": "2026-09-06T07:21:06.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 361,
+          "comments": 105,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49584083"
+        }
+      ],
+      "normalized": 0.848,
+      "score": 0.38,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "f67cb640bea9",
+      "title": "'Old Person Smell'",
+      "url": "https://www.theguardian.com/wellness/2026/sep/03/old-person-smell",
+      "canonicalUrl": "https://theguardian.com/wellness/2026/sep/03/old-person-smell",
+      "domain": "theguardian.com",
+      "createdAt": "2026-09-06T11:37:27.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 43,
+          "comments": 21,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49585520"
+        }
+      ],
+      "normalized": 0.227,
+      "score": 0.305,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "b0e2d5854a26",
+      "title": "Quoting Zach Kehs",
+      "url": "https://simonwillison.net/2026/Sep/6/zach-kehs/",
+      "canonicalUrl": "https://simonwillison.net/2026/Sep/6/zach-kehs",
+      "domain": "simonwillison.net",
+      "createdAt": "2026-09-06T08:42:49.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Simon Willison",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.297,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "a1fb0c130af4",
+      "title": "Don't Use a gmail.com Address",
+      "url": "https://crookedtimber.org/2026/09/03/dont-use-a-gmail-com-address/",
+      "canonicalUrl": "https://crookedtimber.org/2026/09/03/dont-use-a-gmail-com-address",
+      "domain": "crookedtimber.org",
+      "createdAt": "2026-09-06T11:50:24.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 40,
+          "comments": 20,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49585594"
+        }
+      ],
+      "normalized": 0.197,
+      "score": 0.286,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "826679545639",
+      "title": "Terence Tao on “prematurely solving [a maths] problem by purely AI-powered methods”",
+      "url": "https://mathstodon.xyz/@tao/117207856734787448",
+      "canonicalUrl": "https://mathstodon.xyz/@tao/117207856734787448",
+      "domain": "mathstodon.xyz",
+      "createdAt": "2026-09-06T07:45:24.038Z",
+      "appearances": [
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 21,
+          "comments": 0,
+          "discussionUrl": "https://lobste.rs/s/nohdoj/terence_tao_on_prematurely_solving_maths"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.242,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "e287b988098c",
+      "title": "Play GTA Vice City in the Browser",
+      "url": "https://quenq.com/apps/vice-city-online/",
+      "canonicalUrl": "https://quenq.com/apps/vice-city-online",
+      "domain": "quenq.com",
+      "createdAt": "2026-09-06T07:33:17.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 75,
+          "comments": 34,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49584123"
+        }
+      ],
+      "normalized": 0.439,
+      "score": 0.204,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "0f76542ee243",
+      "title": "Site Is Closed on Sundays",
+      "url": "https://v7.robweychert.com/",
+      "canonicalUrl": "https://v7.robweychert.com/",
+      "domain": "v7.robweychert.com",
+      "createdAt": "2026-09-06T06:23:05.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 94,
+          "comments": 119,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49583842"
+        }
+      ],
+      "normalized": 0.47,
+      "score": 0.176,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "fbaa403a36b2",
+      "title": "Cloud in a Bottle: making self-hosting accessible to everyone",
+      "url": "https://cloudinabottle.org/blog/launch-post",
+      "canonicalUrl": "https://cloudinabottle.org/blog/launch-post",
+      "domain": "cloudinabottle.org",
+      "createdAt": "2026-09-06T00:03:29.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 508,
+          "comments": 256,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49582000"
+        }
+      ],
+      "normalized": 0.97,
+      "score": 0.153,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "ae0c2e3335c6",
+      "title": "GPT-6 Astra on robot arms",
+      "url": "https://openai.robocurve.org/gpt-6-astra/",
+      "canonicalUrl": "https://openai.robocurve.org/gpt-6-astra",
+      "domain": "openai.robocurve.org",
+      "createdAt": "2026-09-06T01:52:45.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 213,
+          "comments": 171,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49582582"
+        }
+      ],
+      "normalized": 0.742,
+      "score": 0.145,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "5a28257a7646",
+      "title": "Chrome again exempts Google from user site data settings",
+      "url": "https://lapcatsoftware.com/articles/2026/9/1.html",
+      "canonicalUrl": "https://lapcatsoftware.com/articles/2026/9/1.html",
+      "domain": "lapcatsoftware.com",
+      "createdAt": "2026-09-05T23:39:47.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 500,
+          "comments": 88,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49581870"
+        }
+      ],
+      "normalized": 0.955,
+      "score": 0.145,
+      "aiScore": 5,
+      "why": ""
+    }
+  ]
+}
