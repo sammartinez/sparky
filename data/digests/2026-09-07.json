@@ -1,0 +1,321 @@
+{
+  "date": "2026-09-07",
+  "generatedAt": "2026-09-07T16:56:23.566Z",
+  "stories": [
+    {
+      "id": "f640cbd417db",
+      "title": "bzip3",
+      "url": "https://github.com/iczelia/bzip3",
+      "canonicalUrl": "https://github.com/iczelia/bzip3",
+      "domain": "github.com",
+      "createdAt": "2026-09-07T13:35:13.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 167,
+          "comments": 53,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49598291"
+        }
+      ],
+      "normalized": 0.739,
+      "score": 0.901,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "0b5ef84ae511",
+      "title": "De-Brainrot Vacations",
+      "url": "https://devz.cl/posts/i-spent-my-vacations-de-brainrotting/",
+      "canonicalUrl": "https://devz.cl/posts/i-spent-my-vacations-de-brainrotting",
+      "domain": "devz.cl",
+      "createdAt": "2026-09-07T13:00:48.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 348,
+          "comments": 140,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49597907"
+        }
+      ],
+      "normalized": 0.864,
+      "score": 0.877,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "d8a34bc7cc4f",
+      "title": "Splash-free urinals (2025)",
+      "url": "https://academic.oup.com/pnasnexus/article/4/4/pgaf087/8098745?login=false",
+      "canonicalUrl": "https://academic.oup.com/pnasnexus/article/4/4/pgaf087/8098745?login=false",
+      "domain": "academic.oup.com",
+      "createdAt": "2026-09-07T12:58:57.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 163,
+          "comments": 89,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49597895"
+        }
+      ],
+      "normalized": 0.727,
+      "score": 0.732,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "1444d34605ce",
+      "title": "Smartphone makers don't bother to comply with EU repairability requirements",
+      "url": "https://www.theregister.com/personal-tech/2026/09/07/smartphone-makers-dont-bother-to-comply-with-eu-repairability-requirements/5294532",
+      "canonicalUrl": "https://theregister.com/personal-tech/2026/09/07/smartphone-makers-dont-bother-to-comply-with-eu-repairability-requirements/5294532",
+      "domain": "theregister.com",
+      "createdAt": "2026-09-07T11:46:37.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 194,
+          "comments": 111,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49597189"
+        }
+      ],
+      "normalized": 0.761,
+      "score": 0.55,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "60e372c20cb5",
+      "title": "Bill Gates tries to install MovieMaker",
+      "url": "https://www.techemails.com/p/bill-gates-tries-to-install-movie-maker",
+      "canonicalUrl": "https://techemails.com/p/bill-gates-tries-to-install-movie-maker",
+      "domain": "techemails.com",
+      "createdAt": "2026-09-07T15:27:03.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 43,
+          "comments": 20,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49599481"
+        }
+      ],
+      "normalized": 0.193,
+      "score": 0.509,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "c7bb1162481f",
+      "title": "Tiny $70 Xteink X3 e-reader",
+      "url": "https://www.theatlantic.com/technology/2026/09/xteink-e-reader-best-technology-years/688539/",
+      "canonicalUrl": "https://theatlantic.com/technology/2026/09/xteink-e-reader-best-technology-years/688539",
+      "domain": "theatlantic.com",
+      "createdAt": "2026-09-07T10:41:29.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 148,
+          "comments": 149,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49596629"
+        }
+      ],
+      "normalized": 0.693,
+      "score": 0.389,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "ccd03e9e655f",
+      "title": "'You Can See Everything' Review: Nathan Fielder's Doc About Elizabeth Holmes",
+      "url": "https://variety.com/2026/film/reviews/nathan-fielder-surprise-film-telluride-elizabeth-holmes-1236853513/",
+      "canonicalUrl": "https://variety.com/2026/film/reviews/nathan-fielder-surprise-film-telluride-elizabeth-holmes-1236853513",
+      "domain": "variety.com",
+      "createdAt": "2026-09-07T09:33:39.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 260,
+          "comments": 181,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49596119"
+        }
+      ],
+      "normalized": 0.807,
+      "score": 0.359,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "5788240768d4",
+      "title": "Apparently CodePen 2.0 sends data to their servers as you type",
+      "url": "https://news.ycombinator.com/item?id=49596976",
+      "canonicalUrl": "https://news.ycombinator.com/item?id=49596976",
+      "domain": "news.ycombinator.com",
+      "createdAt": "2026-09-07T11:22:40.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 84,
+          "comments": 39,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49596976"
+        }
+      ],
+      "normalized": 0.455,
+      "score": 0.298,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "38c2ab651ad7",
+      "title": "Caltech Mathathon – first hackathon ever devoted to research level mathematics",
+      "url": "https://mathathonchallenge.com/index.html",
+      "canonicalUrl": "https://mathathonchallenge.com/index.html",
+      "domain": "mathathonchallenge.com",
+      "createdAt": "2026-09-07T09:26:53.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 140,
+          "comments": 29,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49596055"
+        }
+      ],
+      "normalized": 0.659,
+      "score": 0.287,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "bbac755a04bf",
+      "title": "LG smart TVs caught logging audio with screen off and snooping on local devices",
+      "url": "https://www.notebookcheck.net/LG-smart-TVs-caught-logging-audio-with-screen-off-and-snooping-on-local-devices.1391214.0.html",
+      "canonicalUrl": "https://notebookcheck.net/LG-smart-TVs-caught-logging-audio-with-screen-off-and-snooping-on-local-devices.1391214.0.html",
+      "domain": "notebookcheck.net",
+      "createdAt": "2026-09-07T07:03:20.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 857,
+          "comments": 421,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49594878"
+        }
+      ],
+      "normalized": 0.966,
+      "score": 0.281,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "35c215c31886",
+      "title": "Live map of public transport in Belgium",
+      "url": "https://openbaarvervoerbelgie.be/",
+      "canonicalUrl": "https://openbaarvervoerbelgie.be/",
+      "domain": "openbaarvervoerbelgie.be",
+      "createdAt": "2026-09-07T09:02:47.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 137,
+          "comments": 61,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49595865"
+        }
+      ],
+      "normalized": 0.648,
+      "score": 0.262,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "9a9274f192ec",
+      "title": "Programming is Art",
+      "url": "https://orchidfiles.com/programming-is-art/",
+      "canonicalUrl": "https://orchidfiles.com/programming-is-art",
+      "domain": "orchidfiles.com",
+      "createdAt": "2026-09-07T08:05:00.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 168,
+          "comments": 173,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49595360"
+        }
+      ],
+      "normalized": 0.75,
+      "score": 0.256,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "fea5219ec8f8",
+      "title": "US refuses payout for soldiers who died in Iran 'because it isn't a war'",
+      "url": "https://www.telegraph.co.uk/world-news/2026/09/06/pentagon-refused-payout-soldiers-died-in-iran-war/",
+      "canonicalUrl": "https://telegraph.co.uk/world-news/2026/09/06/pentagon-refused-payout-soldiers-died-in-iran-war",
+      "domain": "telegraph.co.uk",
+      "createdAt": "2026-09-07T11:20:23.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 74,
+          "comments": 40,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49596955"
+        }
+      ],
+      "normalized": 0.386,
+      "score": 0.251,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "bdafc00e492a",
+      "title": "VMware migration reduces Tottenham Hotspur's licensing fees by 85 percent",
+      "url": "https://arstechnica.com/information-technology/2026/09/vmware-migration-reduces-tottenham-hotspurs-licensing-fees-by-85-percent/",
+      "canonicalUrl": "https://arstechnica.com/information-technology/2026/09/vmware-migration-reduces-tottenham-hotspurs-licensing-fees-by-85-percent",
+      "domain": "arstechnica.com",
+      "createdAt": "2026-09-07T11:01:06.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 74,
+          "comments": 35,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49596797"
+        }
+      ],
+      "normalized": 0.386,
+      "score": 0.233,
+      "aiScore": 5,
+      "why": ""
+    },
+    {
+      "id": "3408e0841621",
+      "title": "Bing Wallpaper showing Ad for Harry Potter and Fantastic beasts box set",
+      "url": "https://www.thurrott.com/forums/microsoft/windows/thread/bing-wallpaper-showing-ad-for-harry-potter-and-fantastic-beasts-box-set",
+      "canonicalUrl": "https://thurrott.com/forums/microsoft/windows/thread/bing-wallpaper-showing-ad-for-harry-potter-and-fantastic-beasts-box-set",
+      "domain": "thurrott.com",
+      "createdAt": "2026-09-07T15:50:37.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 31,
+          "comments": 21,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49599719"
+        }
+      ],
+      "normalized": 0.068,
+      "score": 0.223,
+      "aiScore": 5,
+      "why": ""
+    }
+  ]
+}
