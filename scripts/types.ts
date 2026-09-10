@@ -1,4 +1,4 @@
-// Shared shapes for the fetch -> rank -> enrich pipeline.
+// Shared shapes for the fetch -> rank -> filter pipeline.
 // Kept to interfaces and type aliases only: these files run under Node's
 // native type stripping, which does not support enums or namespaces.
 
@@ -29,7 +29,7 @@ export interface Appearance {
   discussionUrl?: string;
 }
 
-/** A story after dedupe, normalization, ranking, and enrichment. */
+/** A story after dedupe, normalization, and ranking. */
 export interface Story {
   id: string;
   title: string;
@@ -42,14 +42,12 @@ export interface Story {
   normalized: number;
   /** Final rank score. Higher is hotter. */
   score: number;
-  /** 0..10 from the enrichment pass. 5 when enrichment is skipped. */
-  aiScore: number;
-  /** One sentence on why it matters. Empty when enrichment is skipped. */
-  why: string;
 }
 
 export interface Digest {
   date: string;
   generatedAt: string;
+  /** How far back sources were pulled. The timeline uses it as its left edge. */
+  windowHours: number;
   stories: Story[];
 }

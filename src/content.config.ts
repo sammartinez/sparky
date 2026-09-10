@@ -22,8 +22,6 @@ const story = z.object({
   appearances: z.array(appearance),
   normalized: z.number(),
   score: z.number(),
-  aiScore: z.number(),
-  why: z.string(),
 });
 
 const digests = defineCollection({
@@ -31,6 +29,8 @@ const digests = defineCollection({
   schema: z.object({
     date: z.string(),
     generatedAt: z.string(),
+    // Older briefs predate this field and were all pulled at 36h.
+    windowHours: z.number().default(36),
     stories: z.array(story),
   }),
 });

@@ -34,6 +34,7 @@ const now = today ? new Date(today.data.generatedAt).getTime() : Date.now();
           stories={today.data.stories}
           generatedAt={today.data.generatedAt}
           now={now}
+          windowHours={today.data.windowHours}
         />
 
         <nav class="mt-10 flex items-center justify-between font-mono text-xs">

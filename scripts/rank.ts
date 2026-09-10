@@ -184,7 +184,8 @@ export function rank(items: RawItem[]): Story[] {
   >();
 
   for (const item of items) {
-    if (!item.url) continue;
+    // Feeds can hand back anything in <link>; only web URLs belong in an href.
+    if (!/^https?:\/\//i.test(item.url)) continue;
     const canonicalUrl = canonicalize(item.url);
     const norm = percentile(table.get(item.source), item.points ?? 0);
     const existing = byUrl.get(canonicalUrl);
@@ -235,6 +236,7 @@ export function rank(items: RawItem[]): Story[] {
       kept.push(entry);
       continue;
     }
+    twin.title = bestTitle(twin.title, entry.title);
     twin.createdAt = Math.min(twin.createdAt, entry.createdAt);
     for (const [i, appearance] of entry.appearances.entries()) {
       if (twin.appearances.some((a) => a.label === appearance.label)) continue;
@@ -265,8 +267,6 @@ export function rank(items: RawItem[]): Story[] {
         appearances: entry.appearances,
         normalized: Number(normalized.toFixed(3)),
         score: Number(score.toFixed(3)),
-        aiScore: 5,
-        why: "",
       };
     })
     .sort((a, b) => b.score - a.score);

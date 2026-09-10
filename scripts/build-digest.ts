@@ -1,10 +1,10 @@
 import chalk from "chalk";
 import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
-import { fetchAll } from "./sources.ts";
+import { fetchAll, WINDOW_HOURS } from "./sources.ts";
 import { rank, redecay } from "./rank.ts";
-import { enrich, prefilter } from "./enrich.ts";
-import type { Digest, Story } from "./types.ts";
+import { prefilter } from "./filter.ts";
+import type { Digest } from "./types.ts";
 
 const DATA_DIR = "data";
 const DIGEST_DIR = join(DATA_DIR, "digests");
@@ -12,10 +12,6 @@ const SEEN_PATH = join(DATA_DIR, "seen.json");
 
 /** Stories to keep in the published brief. */
 const KEEP = Number(process.env.BRIEF_SIZE ?? 15);
-/** How many candidates get the model pass. Costs pennies; keep it generous. */
-const CANDIDATES = Number(process.env.CANDIDATE_POOL ?? 45);
-/** Below this AI score, a story is not about AI. */
-const AI_FLOOR = Number(process.env.AI_FLOOR ?? 5);
 /** Days a story stays suppressed after it has been featured. */
 const SEEN_DAYS = Number(process.env.SEEN_DAYS ?? 5);
 
@@ -80,17 +76,6 @@ async function markRecentlyFeatured(seen: Seen, today: string): Promise<void> {
   }
 }
 
-/** Fold AI relevance into the score. Squaring makes the penalty steep: a 6/10
- * keeps about a third of its traction score, a 3/10 keeps under a tenth. */
-function scoreStories(candidates: Story[]): Story[] {
-  return candidates
-    .filter((s) => s.aiScore >= AI_FLOOR)
-    .map((s) => ({
-      ...s,
-      score: Number((s.score * (s.aiScore / 10) ** 2).toFixed(3)),
-    }));
-}
-
 async function main() {
   const date = briefDate();
   console.log(chalk.bold.cyan(`Building brief for ${date}`) + "\n");
@@ -146,10 +131,8 @@ async function main() {
     return;
   }
 
-  const candidates = prefilter(fresh, CANDIDATES);
-  console.log(chalk.dim(`${candidates.length} candidates to the model pass`));
-
-  await enrich(candidates);
+  const candidates = prefilter(fresh);
+  console.log(chalk.dim(`${candidates.length} pass the keyword filter`));
 
   // Stories carried over from an earlier run today were scored on that run's
   // clock. Age them forward so they compete fairly with the new candidates.
@@ -160,7 +143,7 @@ async function main() {
       )
     : [];
 
-  const stories = [...carried, ...scoreStories(candidates)]
+  const stories = [...carried, ...candidates]
     .sort((a, b) => b.score - a.score)
     .slice(0, KEEP);
 
@@ -179,6 +162,7 @@ async function main() {
   const digest: Digest = {
     date,
     generatedAt: new Date().toISOString(),
+    windowHours: WINDOW_HOURS,
     stories,
   };
 

@@ -8,9 +8,11 @@ interface Props {
   generatedAt: string;
   /** Freeze "now" so every card on the page agrees. */
   now: number;
+  /** Width of the collection window the timeline should span. */
+  windowHours?: number;
 }
 
-const { stories, generatedAt, now } = Astro.props;
+const { stories, generatedAt, now, windowHours } = Astro.props;
 
 // Lead story full-width, next four as a 2x2 grid, the rest as a compact list.
 const [feature, ...rest] = stories;
@@ -18,7 +20,7 @@ const gridStories = rest.slice(0, 4);
 const compactStories = rest.slice(4);
 ---
 
-<DawnRule stories={stories} generatedAt={generatedAt} />
+<DawnRule stories={stories} generatedAt={generatedAt} windowHours={windowHours} />
 
 {
   stories.length === 0 ? (

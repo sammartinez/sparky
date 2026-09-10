@@ -31,10 +31,9 @@ export const GET: APIRoute = async (context) => {
       content: d.data.stories
         .map((s, i) => {
           const where = s.appearances.map((a) => escape(a.label)).join(", ");
-          const why = s.why ? `<br><em>${escape(s.why)}</em>` : "";
           return (
             `<p><strong>${i + 1}. <a href="${escape(s.url)}">${escape(s.title)}</a></strong>` +
-            `${why}<br><small>${escape(s.domain)} — ${where}</small></p>`
+            `<br><small>${escape(s.domain)} — ${where}</small></p>`
           );
         })
         .join("\n"),

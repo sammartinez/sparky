@@ -8,10 +8,10 @@ static site from those files and GitHub Pages serves it.
 No server, no database, no host beyond GitHub. The backend is a cron job.
 
 ```
-Actions cron ──▶ fetch ──▶ dedupe ──▶ rank ──▶ keyword filter ──▶ Claude filter ──▶ data/digests/YYYY-MM-DD.json
-                                                                                            │
-                                                                                            ▼
-                                                                            Astro build ──▶ Pages
+Actions cron ──▶ fetch ──▶ dedupe ──▶ rank ──▶ keyword filter ──▶ data/digests/YYYY-MM-DD.json
+                                                                            │
+                                                                            ▼
+                                                            Astro build ──▶ Pages
 ```
 
 Committing the JSON rather than fetching at build time means the archive comes
@@ -37,12 +37,7 @@ Then, to put it online:
    The config file is what local builds use; the workflow's `env` is what
    production uses.
 2. **Enable Pages.** Repo Settings → Pages → Source: **GitHub Actions**.
-3. **Add the API key.** Settings → Secrets and variables → Actions → New
-   repository secret, named `ANTHROPIC_API_KEY`, then uncomment the `env` block
-   on the "Build daily brief" step in `.github/workflows/daily-brief.yml`.
-   Without it the pipeline still runs on the keyword filter alone: no model
-   relevance score and no one-line summaries.
-4. **Run it once by hand.** Actions tab → Daily brief → Run workflow.
+3. **Run it once by hand.** Actions tab → Daily brief → Run workflow.
 
 ## How the ranking works
 
@@ -66,17 +61,12 @@ on the wider web", so it multiplies rather than adds.
 score = (normalized × 100 × corroboration) / (ageHours + 2)^1.8
 ```
 
-**Then a keyword pass.** A deliberately loose regex (`ai`, `llm`, `model`,
-`gpu`, vendor names, and so on) against title and domain trims the pool to
-stories that might be about AI. This runs every time, key or no key.
-
-**Finally, relevance.** The top candidates go to Claude Haiku in one batched
-call, which scores each 0–10 on whether it's actually about AI and writes a
-one-sentence "why this matters". The AI score folds back in squared, so a 6/10
-keeps about a third of its traction score and a 3/10 keeps under a tenth. This
-is what kills the false positives keyword matching drags in — "Apple
-Intelligence" versus "apple orchard startup adds AI". Costs pennies a day and
-it's the whole difference between a brief and an RSS dump.
+**Finally, a keyword pass.** A deliberately loose regex (`ai`, `llm`, `model`,
+`gpu`, vendor names, and so on) against title and domain keeps only stories
+that are plausibly about AI. It errs toward letting a stray "model railway"
+story through rather than missing a release; the regex lives at the top of
+`scripts/filter.ts` if you want to tighten it. There is no LLM in the loop, so
+the whole pipeline runs with no keys and no spend.
 
 **Repeats are suppressed** for five days. Every run re-reads the last five
 digest files and stamps their story ids into `data/seen.json`, so a skipped run
@@ -91,25 +81,25 @@ morning lineup doesn't hold its seats on a stale score.
 Everything is an environment variable, so you can experiment without editing
 code:
 
-| Variable          | Default                     | What it does                                |
-| ----------------- | --------------------------- | ------------------------------------------- |
-| `BRIEF_SIZE`      | `15`                        | Stories in the published brief              |
-| `AI_FLOOR`        | `5`                         | Minimum AI score to make the cut            |
-| `GRAVITY`         | `1.8`                       | Higher decays old stories faster            |
-| `WINDOW_HOURS`    | `36`                        | How far back sources are pulled             |
-| `HN_MIN_POINTS`   | `25`                        | Points bar for the broad HN sweep           |
-| `TITLE_THRESHOLD` | `0.6`                       | Title similarity that counts as a duplicate |
-| `SEEN_DAYS`       | `5`                         | Days a featured story stays suppressed      |
-| `CANDIDATE_POOL`  | `45`                        | Candidates sent to the model pass           |
-| `BRIEF_TZ`        | `America/Boise`             | Which day the brief is filed under          |
-| `BRIEF_MODEL`     | `claude-haiku-4-5-20251001` | Model for the relevance pass                |
+| Variable          | Default         | What it does                                |
+| ----------------- | --------------- | ------------------------------------------- |
+| `BRIEF_SIZE`      | `15`            | Stories in the published brief              |
+| `GRAVITY`         | `1.8`           | Higher decays old stories faster            |
+| `WINDOW_HOURS`    | `36`            | How far back sources are pulled             |
+| `HN_MIN_POINTS`   | `25`            | Points bar for the broad HN sweep           |
+| `TITLE_THRESHOLD` | `0.6`           | Title similarity that counts as a duplicate |
+| `SEEN_DAYS`       | `5`             | Days a featured story stays suppressed      |
+| `BRIEF_TZ`        | `America/Boise` | Which day the brief is filed under          |
 
 Sources live at the top of `scripts/sources.ts` — `FEEDS` is a plain array,
 edit freely.
 
 ```bash
-BRIEF_SIZE=25 AI_FLOOR=7 npm run digest
+BRIEF_SIZE=25 WINDOW_HOURS=48 npm run digest
 ```
+
+`WINDOW_HOURS` is recorded in each digest, so the timeline on the page spans
+whatever window that brief was actually pulled with.
 
 ## Things that will bite you eventually
 
@@ -151,7 +141,7 @@ node_modules/.astro` and rebuild. CI is unaffected — `npm ci` starts clean.
 scripts/
   sources.ts        fetchers, one per source, each independently failable
   rank.ts           canonicalize, dedupe, normalize, score
-  enrich.ts         Claude relevance pass + one-line rationale
+  filter.ts         keyword pass: is this plausibly about AI
   build-digest.ts   orchestrator; writes the day's JSON
 data/
   digests/          one JSON file per morning — this is the archive
@@ -162,7 +152,7 @@ src/
   components/       SparkMark, BriefGrid, StoryCard, DawnRule
 tests/
   scripts/          rank.test.ts — canonicalization, dedupe, scoring, redecay
-                    enrich.test.ts — keyword prefilter
+                    filter.test.ts — keyword filter
   components/       SparkMark, BriefGrid, StoryCard, DawnRule
 ```
 

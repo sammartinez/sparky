@@ -2,7 +2,7 @@ import chalk from "chalk";
 import { XMLParser } from "fast-xml-parser";
 import type { RawItem } from "./types.ts";
 
-const WINDOW_HOURS = Number(process.env.WINDOW_HOURS ?? 36);
+export const WINDOW_HOURS = Number(process.env.WINDOW_HOURS ?? 36);
 const SINCE_MS = Date.now() - WINDOW_HOURS * 3_600_000;
 const SINCE_SEC = Math.floor(SINCE_MS / 1000);
 

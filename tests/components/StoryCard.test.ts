@@ -11,7 +11,6 @@ function baseProps(overrides: Record<string, unknown> = {}) {
     url: "https://example.com/story",
     domain: "example.com",
     createdAt: "2026-01-15T10:00:00.000Z",
-    why: "It matters because reasons.",
     normalized: 0.6,
     appearances: [{ source: "hn", label: "HN", points: 150, comments: 40 }],
     now: NOW,
@@ -66,11 +65,6 @@ test("multiple appearances show the corroboration count", async () => {
     }),
   );
   expect(html).toContain("×2 sources");
-});
-
-test("omits the why paragraph when there is no rationale", async () => {
-  const html = await render(baseProps({ why: "" }));
-  expect(html).not.toContain("italic");
 });
 
 test("a badge without a discussion url falls back to the story url", async () => {

@@ -26,7 +26,12 @@ const now = new Date(entry.data.generatedAt).getTime();
   title={`${entry.data.date} — Sparky News`}
   standfirst={formatDate(entry.data.date)}
 >
-  <BriefGrid stories={entry.data.stories} generatedAt={entry.data.generatedAt} now={now} />
+  <BriefGrid
+    stories={entry.data.stories}
+    generatedAt={entry.data.generatedAt}
+    now={now}
+    windowHours={entry.data.windowHours}
+  />
 
   <nav class="mt-10 flex items-center justify-between font-mono text-xs">
     {

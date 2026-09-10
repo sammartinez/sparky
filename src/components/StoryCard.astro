@@ -15,7 +15,6 @@ interface Props {
   url: string;
   domain: string;
   createdAt: string;
-  why: string;
   normalized: number;
   appearances: Appearance[];
   /** Freeze "now" so every card on a page agrees. */
@@ -30,7 +29,6 @@ const {
   url,
   domain,
   createdAt,
-  why,
   normalized,
   appearances,
   now = Date.now(),
@@ -65,9 +63,6 @@ const age = relativeAge(createdAt, now);
             <span class="sr-only">(opens in new tab)</span>
           </a>
         </h3>
-        {why && (
-          <p class="text-muted mt-1.5 text-[0.85rem] leading-relaxed italic">{why}</p>
-        )}
         <div class="mt-2 flex flex-wrap items-center gap-x-2 gap-y-1.5 font-mono text-[0.64rem]">
           <span class="text-muted">{domain}</span>
           {badges.map((a) => (
@@ -118,7 +113,6 @@ const age = relativeAge(createdAt, now);
           <span class="sr-only">(opens in new tab)</span>
         </a>
       </h2>
-      {why && <p class="text-muted mt-2.5 text-[0.94rem] leading-relaxed italic">{why}</p>}
       <div class="border-rule mt-4 flex flex-wrap items-center gap-x-2 gap-y-2 border-t pt-3.5 font-mono text-[0.66rem]">
         <span class="text-muted">{domain}</span>
         {badges.map((a) => (

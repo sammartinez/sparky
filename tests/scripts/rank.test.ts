@@ -69,11 +69,23 @@ test("merges near-identical titles across outlets", () => {
     item({
       source: "reddit",
       label: "r/OpenAI",
-      title: "OpenAI Releases GPT-6 to All Users",
+      title: "OpenAI Releases GPT-6 to All Users Today",
       url: "https://techcrunch.com/b",
     }),
   ]);
   expect(out.length).toBe(1);
+  // The shorter, less editorialized title wins the merge.
+  expect(out[0].title).toBe("OpenAI releases GPT-6 to all users");
+});
+
+test("drops items whose url is not a web URL", () => {
+  const out = rank([
+    item({ url: "javascript:alert(1)", title: "bad link" }),
+    item({ url: "ftp://files.example.com/x", title: "old protocol" }),
+    item({ url: "", title: "no link" }),
+    item({ url: "https://good.com/x", title: "fine" }),
+  ]);
+  expect(out.map((s) => s.title)).toEqual(["fine"]);
 });
 
 test("cross-source corroboration beats a lone higher score", () => {
@@ -132,8 +144,6 @@ function story(overrides: Partial<Story> = {}): Story {
     appearances: [],
     normalized: 0.5,
     score: 10,
-    aiScore: 5,
-    why: "",
     ...overrides,
   };
 }

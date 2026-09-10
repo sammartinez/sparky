@@ -16,8 +16,6 @@ function story(i: number, overrides: Record<string, unknown> = {}) {
     appearances: [{ source: "hn", label: "HN", points: 100, comments: 10 }],
     normalized: 0.5,
     score: 1,
-    aiScore: 8,
-    why: `Why ${i} matters`,
     ...overrides,
   };
 }
@@ -66,4 +64,16 @@ test("more than five stories spill into the Also today compact list", async () =
 test("passes the digest's story count through to the DawnRule timeline", async () => {
   const html = await render([story(1), story(2), story(3)]);
   expect(html).toContain("Timeline showing when each of the 3 stories");
+});
+
+test("passes the digest's window through to the timeline, defaulting to 36h", async () => {
+  const container = await AstroContainer.create();
+  const base = { stories: [story(1)], generatedAt: GENERATED_AT, now: NOW };
+  const wide = await container.renderToString(BriefGrid, {
+    props: { ...base, windowHours: 48 },
+  });
+  const plain = await container.renderToString(BriefGrid, { props: base });
+  expect(wide).toContain(">−48h<");
+  expect(plain).toContain(">−36h<");
+  expect(plain).not.toContain(">−48h<");
 });

@@ -10,6 +10,12 @@ permissions:
   contents: write
   actions: write
 
+# A manual dispatch overlapping a scheduled run would race to push the same
+# digest file. Queue them instead.
+concurrency:
+  group: daily-brief
+  cancel-in-progress: false
+
 jobs:
   digest:
     runs-on: ubuntu-latest
@@ -28,8 +34,6 @@ jobs:
 
       - name: Build daily brief
         run: npm run digest
-        # env:
-        #   ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       - name: Commit daily brief
         id: commit
@@ -42,6 +46,9 @@ jobs:
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "chore: publish daily brief"
+            # Anything pushed to main since checkout (a human commit, say)
+            # would otherwise make this push fail and lose the brief.
+            git pull --rebase origin main
             git push
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
