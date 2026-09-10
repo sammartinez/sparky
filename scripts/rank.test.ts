@@ -8,7 +8,10 @@ test("canonicalize strips decoration", () => {
     canonicalize("https://www.Example.com/post/?utm_source=x&b=2#top"),
     "https://example.com/post?b=2",
   );
-  assert.equal(canonicalize("http://m.example.com/a/b/"), "https://example.com/a/b");
+  assert.equal(
+    canonicalize("http://m.example.com/a/b/"),
+    "https://example.com/a/b",
+  );
 });
 
 test("canonicalize normalizes arxiv", () => {
@@ -40,14 +43,22 @@ function item(overrides: Partial<RawItem> = {}): RawItem {
 /** Enough peers per source that percentile() stops returning its neutral prior. */
 function filler(domain: string, n = 8): RawItem[] {
   return Array.from({ length: n }, (_, i) =>
-    item({ url: `https://${domain}/${i}`, title: `filler ${i}`, points: i * 20 }),
+    item({
+      url: `https://${domain}/${i}`,
+      title: `filler ${i}`,
+      points: i * 20,
+    }),
   );
 }
 
 test("merges the same URL seen on different sources", () => {
   const out = rank([
     item({ url: "https://a.com/1?utm_source=hn" }),
-    item({ source: "reddit", label: "r/LocalLLaMA", url: "https://www.a.com/1" }),
+    item({
+      source: "reddit",
+      label: "r/LocalLLaMA",
+      url: "https://www.a.com/1",
+    }),
     item({ url: "https://b.com/2", title: "unrelated story" }),
   ]);
   assert.equal(out.length, 2);
@@ -56,7 +67,10 @@ test("merges the same URL seen on different sources", () => {
 
 test("merges near-identical titles across outlets", () => {
   const out = rank([
-    item({ title: "OpenAI releases GPT-6 to all users", url: "https://verge.com/a" }),
+    item({
+      title: "OpenAI releases GPT-6 to all users",
+      url: "https://verge.com/a",
+    }),
     item({
       source: "reddit",
       label: "r/OpenAI",
@@ -71,7 +85,11 @@ test("cross-source corroboration beats a lone higher score", () => {
   const out = rank([
     ...filler("filler.com"),
     item({ url: "https://solo.com/x", title: "solo story", points: 200 }),
-    item({ url: "https://both.com/y", title: "corroborated story", points: 140 }),
+    item({
+      url: "https://both.com/y",
+      title: "corroborated story",
+      points: 140,
+    }),
     item({
       source: "reddit",
       label: "r/ML",
@@ -103,6 +121,8 @@ test("age decays score", () => {
 });
 
 test("sources with no points get a neutral prior, not a zero", () => {
-  const out = rank([item({ source: "rss", label: "Simon Willison", points: null })]);
+  const out = rank([
+    item({ source: "rss", label: "Simon Willison", points: null }),
+  ]);
   assert.equal(out[0].normalized, 0.5);
 });

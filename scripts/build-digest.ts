@@ -33,7 +33,9 @@ function briefDate(): string {
 
 async function loadDigest(date: string): Promise<Digest | null> {
   try {
-    return JSON.parse(await readFile(join(DIGEST_DIR, `${date}.json`), "utf8")) as Digest;
+    return JSON.parse(
+      await readFile(join(DIGEST_DIR, `${date}.json`), "utf8"),
+    ) as Digest;
   } catch {
     return null;
   }
@@ -59,14 +61,18 @@ async function main() {
   console.log(`Building brief for ${date}\n`);
 
   if (await loadDigest(date)) {
-    console.log(`A brief for ${date} already exists; keeping it until tomorrow.`);
+    console.log(
+      `A brief for ${date} already exists; keeping it until tomorrow.`,
+    );
     return;
   }
 
   const raw = await fetchAll();
   console.log(`\n${raw.length} raw items`);
   if (raw.length === 0) {
-    console.error("No items from any source. Refusing to write an empty brief.");
+    console.error(
+      "No items from any source. Refusing to write an empty brief.",
+    );
     process.exit(1);
   }
 
@@ -96,7 +102,10 @@ async function main() {
   // keeps about a third of its traction score, a 3/10 keeps under a tenth.
   const stories: Story[] = candidates
     .filter((s) => s.aiScore >= AI_FLOOR)
-    .map((s) => ({ ...s, score: Number((s.score * (s.aiScore / 10) ** 2).toFixed(3)) }))
+    .map((s) => ({
+      ...s,
+      score: Number((s.score * (s.aiScore / 10) ** 2).toFixed(3)),
+    }))
     .sort((a, b) => b.score - a.score)
     .slice(0, KEEP);
 
@@ -109,12 +118,17 @@ async function main() {
   };
 
   await mkdir(DIGEST_DIR, { recursive: true });
-  await writeFile(join(DIGEST_DIR, `${date}.json`), JSON.stringify(digest, null, 2) + "\n");
+  await writeFile(
+    join(DIGEST_DIR, `${date}.json`),
+    JSON.stringify(digest, null, 2) + "\n",
+  );
   await writeFile(SEEN_PATH, JSON.stringify(seen, null, 2) + "\n");
 
   for (const [i, s] of stories.entries()) {
     const where = s.appearances.map((a) => a.label).join(", ");
-    console.log(`  ${String(i + 1).padStart(2)}. [${s.score.toFixed(1)}] ${s.title}  (${where})`);
+    console.log(
+      `  ${String(i + 1).padStart(2)}. [${s.score.toFixed(1)}] ${s.title}  (${where})`,
+    );
   }
 }
 

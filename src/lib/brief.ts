@@ -18,7 +18,9 @@ export async function allDigests(): Promise<DigestEntry[]> {
 const SOURCE_ORDER = ["hn", "reddit", "lobsters", "hf", "rss"];
 
 /** Sort appearances so the badge order is stable across stories. */
-export function orderedAppearances<T extends { source: string }>(items: T[]): T[] {
+export function orderedAppearances<T extends { source: string }>(
+  items: T[],
+): T[] {
   return [...items].sort(
     (a, b) => SOURCE_ORDER.indexOf(a.source) - SOURCE_ORDER.indexOf(b.source),
   );

@@ -6,9 +6,21 @@ const GRAVITY = Number(process.env.GRAVITY ?? 1.8);
 const TITLE_THRESHOLD = Number(process.env.TITLE_THRESHOLD ?? 0.6);
 
 const TRACKING_PARAMS = [
-  /^utm_/i, /^fbclid$/i, /^gclid$/i, /^mc_(cid|eid)$/i, /^igshid$/i,
-  /^ref$/i, /^ref_src$/i, /^referrer$/i, /^source$/i, /^_hs(enc|mi)$/i,
-  /^spm$/i, /^cmpid$/i, /^ncid$/i, /^at_medium$/i, /^at_campaign$/i,
+  /^utm_/i,
+  /^fbclid$/i,
+  /^gclid$/i,
+  /^mc_(cid|eid)$/i,
+  /^igshid$/i,
+  /^ref$/i,
+  /^ref_src$/i,
+  /^referrer$/i,
+  /^source$/i,
+  /^_hs(enc|mi)$/i,
+  /^spm$/i,
+  /^cmpid$/i,
+  /^ncid$/i,
+  /^at_medium$/i,
+  /^at_campaign$/i,
 ];
 
 // ---------------------------------------------------------------------------
@@ -64,8 +76,27 @@ export function domainOf(url: string): string {
 // ---------------------------------------------------------------------------
 
 const STOPWORDS = new Set([
-  "the", "a", "an", "and", "or", "but", "of", "to", "in", "on", "for",
-  "with", "is", "are", "how", "why", "what", "new", "show", "hn", "ask",
+  "the",
+  "a",
+  "an",
+  "and",
+  "or",
+  "but",
+  "of",
+  "to",
+  "in",
+  "on",
+  "for",
+  "with",
+  "is",
+  "are",
+  "how",
+  "why",
+  "what",
+  "new",
+  "show",
+  "hn",
+  "ask",
 ]);
 
 function normalizeTitle(title: string): string {
@@ -140,7 +171,17 @@ export function rank(items: RawItem[]): Story[] {
   const table = percentileTable(items);
 
   // Pass 1: merge on canonical URL.
-  const byUrl = new Map<string, { title: string; url: string; canonicalUrl: string; createdAt: number; appearances: Appearance[]; norms: number[] }>();
+  const byUrl = new Map<
+    string,
+    {
+      title: string;
+      url: string;
+      canonicalUrl: string;
+      createdAt: number;
+      appearances: Appearance[];
+      norms: number[];
+    }
+  >();
 
   for (const item of items) {
     if (!item.url) continue;
@@ -162,7 +203,8 @@ export function rank(items: RawItem[]): Story[] {
       // but keeps the higher-traction appearance.
       const dupe = existing.appearances.find((a) => a.label === item.label);
       if (dupe) {
-        if ((item.points ?? 0) > (dupe.points ?? 0)) Object.assign(dupe, appearance);
+        if ((item.points ?? 0) > (dupe.points ?? 0))
+          Object.assign(dupe, appearance);
       } else {
         existing.appearances.push(appearance);
         existing.norms.push(norm);
@@ -180,7 +222,10 @@ export function rank(items: RawItem[]): Story[] {
   }
 
   // Pass 2: merge near-identical titles across different URLs.
-  const merged = [...byUrl.values()].map((e) => ({ ...e, tri: trigrams(normalizeTitle(e.title)) }));
+  const merged = [...byUrl.values()].map((e) => ({
+    ...e,
+    tri: trigrams(normalizeTitle(e.title)),
+  }));
   merged.sort((a, b) => b.appearances.length - a.appearances.length);
 
   const kept: typeof merged = [];

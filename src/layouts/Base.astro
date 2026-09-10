@@ -43,6 +43,12 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? "http://localhost");
   </head>
 
   <body class="bg-paper text-ink">
+    <a
+      href="#main"
+      class="sr-only focus:not-sr-only focus:bg-accent focus:text-paper focus:fixed focus:top-3 focus:left-3 focus:z-10 focus:rounded focus:px-3 focus:py-2"
+    >
+      Skip to content
+    </a>
     <div class="mx-auto max-w-3xl px-5 sm:px-8">
       <header class="pt-10 pb-6 sm:pt-16">
         <a href={href("/")} class="inline-block no-underline">
@@ -55,7 +61,9 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? "http://localhost");
         </p>
       </header>
 
-      <slot />
+      <main id="main">
+        <slot />
+      </main>
 
       <footer
         class="text-muted mt-20 border-t border-rule py-8 font-mono text-xs leading-relaxed"

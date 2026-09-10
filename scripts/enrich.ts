@@ -13,7 +13,9 @@ const HINTS =
 
 export function prefilter(stories: Story[], limit: number): Story[] {
   if (!API_KEY) return stories.slice(0, limit);
-  const hits = stories.filter((s) => HINTS.test(s.title) || HINTS.test(s.domain));
+  const hits = stories.filter(
+    (s) => HINTS.test(s.title) || HINTS.test(s.domain),
+  );
   return hits.slice(0, limit);
 }
 

@@ -13,7 +13,9 @@
     "build": "astro build",
     "preview": "astro preview",
     "check": "astro check",
-    "test": "node --test \"scripts/*.test.ts\""
+    "test": "node --test \"scripts/*.test.ts\"",
+    "format": "prettier --write .",
+    "fullcheck": "npm run check && npm run test && npm run format && npm run build"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.10",

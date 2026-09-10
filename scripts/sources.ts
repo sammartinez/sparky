@@ -18,7 +18,10 @@ const SUBREDDITS = [
 
 /** High-precision feeds with no traction signal of their own. */
 const FEEDS: { label: string; url: string }[] = [
-  { label: "Simon Willison", url: "https://simonwillison.net/atom/everything/" },
+  {
+    label: "Simon Willison",
+    url: "https://simonwillison.net/atom/everything/",
+  },
   { label: "Import AI", url: "https://importai.substack.com/feed" },
   { label: "Anthropic", url: "https://www.anthropic.com/news/rss.xml" },
   { label: "OpenAI", url: "https://openai.com/news/rss.xml" },
@@ -27,7 +30,10 @@ const FEEDS: { label: string; url: string }[] = [
 ];
 
 /** Run a fetcher, log and swallow failures. One dead source must not kill the run. */
-async function safe(name: string, fn: () => Promise<RawItem[]>): Promise<RawItem[]> {
+async function safe(
+  name: string,
+  fn: () => Promise<RawItem[]>,
+): Promise<RawItem[]> {
   try {
     const items = await fn();
     console.log(`  ${name}: ${items.length}`);
@@ -107,7 +113,9 @@ async function reddit(): Promise<RawItem[]> {
           label: `r/${sub}`,
           title: post.title,
           // Self posts link back to themselves; use the thread as the URL.
-          url: post.is_self ? discussionUrl : post.url_overridden_by_dest || post.url,
+          url: post.is_self
+            ? discussionUrl
+            : post.url_overridden_by_dest || post.url,
           discussionUrl,
           points: post.score ?? 0,
           comments: post.num_comments ?? 0,
@@ -156,13 +164,17 @@ async function lobsters(): Promise<RawItem[]> {
 // ---------------------------------------------------------------------------
 
 async function huggingface(): Promise<RawItem[]> {
-  const data = await getJSON("https://huggingface.co/api/daily_papers?limit=40");
+  const data = await getJSON(
+    "https://huggingface.co/api/daily_papers?limit=40",
+  );
   const items: RawItem[] = [];
   for (const entry of data ?? []) {
     const paper = entry.paper ?? entry;
     const id = paper.id;
     if (!id) continue;
-    const createdAt = new Date(entry.publishedAt ?? paper.publishedAt ?? Date.now()).getTime();
+    const createdAt = new Date(
+      entry.publishedAt ?? paper.publishedAt ?? Date.now(),
+    ).getTime();
     if (createdAt < SINCE_MS) continue;
     items.push({
       source: "hf",
@@ -183,7 +195,10 @@ async function huggingface(): Promise<RawItem[]> {
 // and get a neutral prior in the ranker.
 // ---------------------------------------------------------------------------
 
-const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: "@_" });
+const parser = new XMLParser({
+  ignoreAttributes: false,
+  attributeNamePrefix: "@_",
+});
 
 function asArray<T>(v: T | T[] | undefined): T[] {
   if (v === undefined) return [];
@@ -203,7 +218,9 @@ async function feeds(): Promise<RawItem[]> {
 
       // RSS 2.0
       for (const item of asArray(xml?.rss?.channel?.item)) {
-        const createdAt = new Date(item.pubDate ?? item["dc:date"] ?? 0).getTime();
+        const createdAt = new Date(
+          item.pubDate ?? item["dc:date"] ?? 0,
+        ).getTime();
         if (!createdAt || createdAt < SINCE_MS) continue;
         items.push({
           source: "rss",
@@ -218,7 +235,9 @@ async function feeds(): Promise<RawItem[]> {
 
       // Atom
       for (const entry of asArray(xml?.feed?.entry)) {
-        const createdAt = new Date(entry.updated ?? entry.published ?? 0).getTime();
+        const createdAt = new Date(
+          entry.updated ?? entry.published ?? 0,
+        ).getTime();
         if (!createdAt || createdAt < SINCE_MS) continue;
         const link = asArray(entry.link).find(
           (l: any) => !l["@_rel"] || l["@_rel"] === "alternate",
@@ -238,7 +257,9 @@ async function feeds(): Promise<RawItem[]> {
 
   for (const [i, r] of results.entries()) {
     if (r.status === "rejected") {
-      console.warn(`    ${FEEDS[i].label} failed: ${r.reason?.message ?? r.reason}`);
+      console.warn(
+        `    ${FEEDS[i].label} failed: ${r.reason?.message ?? r.reason}`,
+      );
     }
   }
   return items.filter((i) => i.title && i.url);

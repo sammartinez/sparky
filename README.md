@@ -79,18 +79,18 @@ top story doesn't lead again this morning.
 Everything is an environment variable, so you can experiment without editing
 code:
 
-| Variable | Default | What it does |
-|---|---|---|
-| `BRIEF_SIZE` | `15` | Stories in the published brief |
-| `AI_FLOOR` | `5` | Minimum AI score to make the cut |
-| `GRAVITY` | `1.8` | Higher decays old stories faster |
-| `WINDOW_HOURS` | `36` | How far back sources are pulled |
-| `HN_MIN_POINTS` | `25` | Points bar for the broad HN sweep |
-| `TITLE_THRESHOLD` | `0.6` | Title similarity that counts as a duplicate |
-| `SEEN_DAYS` | `5` | Days a featured story stays suppressed |
-| `CANDIDATE_POOL` | `45` | Candidates sent to the model pass |
-| `BRIEF_TZ` | `America/Boise` | Which day the brief is filed under |
-| `BRIEF_MODEL` | `claude-haiku-4-5-20251001` | Model for the relevance pass |
+| Variable          | Default                     | What it does                                |
+| ----------------- | --------------------------- | ------------------------------------------- |
+| `BRIEF_SIZE`      | `15`                        | Stories in the published brief              |
+| `AI_FLOOR`        | `5`                         | Minimum AI score to make the cut            |
+| `GRAVITY`         | `1.8`                       | Higher decays old stories faster            |
+| `WINDOW_HOURS`    | `36`                        | How far back sources are pulled             |
+| `HN_MIN_POINTS`   | `25`                        | Points bar for the broad HN sweep           |
+| `TITLE_THRESHOLD` | `0.6`                       | Title similarity that counts as a duplicate |
+| `SEEN_DAYS`       | `5`                         | Days a featured story stays suppressed      |
+| `CANDIDATE_POOL`  | `45`                        | Candidates sent to the model pass           |
+| `BRIEF_TZ`        | `America/Boise`             | Which day the brief is filed under          |
+| `BRIEF_MODEL`     | `claude-haiku-4-5-20251001` | Model for the relevance pass                |
 
 Sources live at the top of `scripts/sources.ts` — `SUBREDDITS` and `FEEDS` are
 plain arrays, edit freely.
@@ -113,11 +113,11 @@ BRIEF_SIZE=25 AI_FLOOR=7 npm run digest
 - **Reddit 403s** requests with a default User-Agent, and rate-limits
   unauthenticated bursts. There's a deliberate 1.2s pause between subreddits.
 - **A dead source doesn't kill the run.** Each fetcher is wrapped; failures log
-  and return empty. The run only aborts if *every* source fails, which prevents
+  and return empty. The run only aborts if _every_ source fails, which prevents
   committing an empty brief over a good one.
 - **Astro's content layer caches deleted entries** in `node_modules/.astro`. If
   you delete a digest file locally and it still shows up, `rm -rf
-  node_modules/.astro` and rebuild. CI is unaffected — `npm ci` starts clean.
+node_modules/.astro` and rebuild. CI is unaffected — `npm ci` starts clean.
 - **Astro 7 uses a Rust compiler that no longer fixes invalid HTML for you.**
   Unclosed tags are now hard errors, and bad nesting (a `<div>` inside a `<p>`)
   is passed through instead of silently restructured — which can change layout
