@@ -7,11 +7,10 @@ async function render(props: Record<string, unknown> = {}) {
   return container.renderToString(SparkMark, { props });
 }
 
-test("renders the shared spark glyph", () => {
-  return render().then((html) => {
-    expect(html).toContain('viewBox="0 0 100 100"');
-    expect(html).toContain('points="62,3 20,55 46,55 38,97 88,38 56,38"');
-  });
+test("renders the shared spark glyph", async () => {
+  const html = await render();
+  expect(html).toContain('viewBox="0 0 100 100"');
+  expect(html).toContain('points="62,3 20,55 46,55 38,97 88,38 56,38"');
 });
 
 test("passes the class prop through to the svg", async () => {

@@ -6,16 +6,8 @@ const WINDOW_HOURS = Number(process.env.WINDOW_HOURS ?? 36);
 const SINCE_MS = Date.now() - WINDOW_HOURS * 3_600_000;
 const SINCE_SEC = Math.floor(SINCE_MS / 1000);
 
-// Reddit and Hugging Face both reject requests with a default or empty UA.
+// Hugging Face rejects requests with a default or empty UA.
 const UA = "sparky/1.0 (personal daily digest; +https://github.com)";
-
-const SUBREDDITS = [
-  "LocalLLaMA",
-  "MachineLearning",
-  "singularity",
-  "OpenAI",
-  "artificial",
-];
 
 /** High-precision feeds with no traction signal of their own. */
 const FEEDS: { label: string; url: string }[] = [
@@ -24,7 +16,8 @@ const FEEDS: { label: string; url: string }[] = [
     url: "https://simonwillison.net/atom/everything/",
   },
   { label: "Import AI", url: "https://importai.substack.com/feed" },
-  { label: "Anthropic", url: "https://www.anthropic.com/news/rss.xml" },
+  // anthropic.com publishes no RSS feed (every /news/rss.xml-style path 404s);
+  // its announcements reach the brief via HN and Simon Willison instead.
   { label: "OpenAI", url: "https://openai.com/news/rss.xml" },
   { label: "Google DeepMind", url: "https://deepmind.google/blog/rss.xml" },
   { label: "Hugging Face", url: "https://huggingface.co/blog/feed.xml" },
@@ -67,9 +60,14 @@ async function hn(): Promise<RawItem[]> {
     // Everything that cleared the points bar in the window, regardless of topic.
     `https://hn.algolia.com/api/v1/search_by_date?tags=story&hitsPerPage=200` +
       `&numericFilters=created_at_i>${SINCE_SEC},points>${minPoints}`,
-    // Plus a lower bar for explicitly AI-tagged discussion, which often lags.
-    `https://hn.algolia.com/api/v1/search?query=AI%20OR%20LLM%20OR%20model&tags=story&hitsPerPage=100` +
-      `&numericFilters=created_at_i>${SINCE_SEC},points>10`,
+    // Plus a lower bar for explicitly AI discussion, which often lags. Algolia
+    // ANDs every word in a query (there is no OR operator), so each term is
+    // its own request; a single "AI OR LLM" query returns nothing.
+    ...["AI", "LLM"].map(
+      (term) =>
+        `https://hn.algolia.com/api/v1/search?query=${term}&tags=story&hitsPerPage=100` +
+        `&numericFilters=created_at_i>${SINCE_SEC},points>10`,
+    ),
   ];
 
   const items: RawItem[] = [];
@@ -91,47 +89,6 @@ async function hn(): Promise<RawItem[]> {
         createdAt: hit.created_at_i * 1000,
       });
     }
-  }
-  return items;
-}
-
-// ---------------------------------------------------------------------------
-// Reddit. Public .json endpoints, no auth, but strict about User-Agent.
-// ---------------------------------------------------------------------------
-
-async function reddit(): Promise<RawItem[]> {
-  const items: RawItem[] = [];
-  for (const sub of SUBREDDITS) {
-    try {
-      const data = await getJSON(
-        `https://www.reddit.com/r/${sub}/top.json?t=day&limit=50`,
-      );
-      for (const { data: post } of data?.data?.children ?? []) {
-        if (post.stickied || post.over_18) continue;
-        const createdAt = post.created_utc * 1000;
-        if (createdAt < SINCE_MS) continue;
-        const discussionUrl = `https://www.reddit.com${post.permalink}`;
-        items.push({
-          source: "reddit",
-          label: `r/${sub}`,
-          title: post.title,
-          // Self posts link back to themselves; use the thread as the URL.
-          url: post.is_self
-            ? discussionUrl
-            : post.url_overridden_by_dest || post.url,
-          discussionUrl,
-          points: post.score ?? 0,
-          comments: post.num_comments ?? 0,
-          createdAt,
-        });
-      }
-    } catch (err) {
-      console.warn(
-        chalk.yellow(`    r/${sub} failed: ${(err as Error).message}`),
-      );
-    }
-    // Reddit rate-limits hard on unauthenticated bursts.
-    await new Promise((r) => setTimeout(r, 1200));
   }
   return items;
 }
@@ -177,8 +134,14 @@ async function huggingface(): Promise<RawItem[]> {
     const paper = entry.paper ?? entry;
     const id = paper.id;
     if (!id) continue;
+    // `publishedAt` is the arXiv date, which is usually days old by the time a
+    // paper is featured. `submittedOnDailyAt` is when it hit the daily list,
+    // which is the event we actually care about.
     const createdAt = new Date(
-      entry.publishedAt ?? paper.publishedAt ?? Date.now(),
+      paper.submittedOnDailyAt ??
+        entry.publishedAt ??
+        paper.publishedAt ??
+        Date.now(),
     ).getTime();
     if (createdAt < SINCE_MS) continue;
     items.push({
@@ -277,7 +240,6 @@ export async function fetchAll(): Promise<RawItem[]> {
   console.log(chalk.bold.cyan(`Fetching sources (last ${WINDOW_HOURS}h)…`));
   const batches = await Promise.all([
     safe("hacker news", hn),
-    safe("reddit", reddit),
     safe("lobsters", lobsters),
     safe("hugging face", huggingface),
     safe("feeds", feeds),

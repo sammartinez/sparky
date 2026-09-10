@@ -1,17 +1,17 @@
 # Sparky News
 
-A personal daily AI brief. A GitHub Action wakes up each morning, pulls from
-Hacker News, Reddit, Lobsters, Hugging Face and a short list of feeds, ranks
-what's actually getting traction, and commits the result as JSON. Astro builds
-a static site from those files and GitHub Pages serves it.
+A personal daily AI brief. A GitHub Action wakes up twice a day, pulls from
+Hacker News, Lobsters, Hugging Face and a short list of feeds, ranks what's
+actually getting traction, and commits the result as JSON. Astro builds a
+static site from those files and GitHub Pages serves it.
 
 No server, no database, no host beyond GitHub. The backend is a cron job.
 
 ```
-Actions cron ──▶ fetch ──▶ dedupe ──▶ rank ──▶ Claude filter ──▶ data/digests/YYYY-MM-DD.json
-                                                                          │
-                                                                          ▼
-                                                          Astro build ──▶ Pages
+Actions cron ──▶ fetch ──▶ dedupe ──▶ rank ──▶ keyword filter ──▶ Claude filter ──▶ data/digests/YYYY-MM-DD.json
+                                                                                            │
+                                                                                            ▼
+                                                                            Astro build ──▶ Pages
 ```
 
 Committing the JSON rather than fetching at build time means the archive comes
@@ -32,18 +32,21 @@ npm run dev       # http://localhost:4321
 Then, to put it online:
 
 1. **Set your URLs.** In `astro.config.mjs`, change `SITE` to
-   `https://<your-username>.github.io` and `BASE` to `/<your-repo-name>`. The
-   workflow overrides both from the Pages config at deploy time, so this only
-   matters for local builds.
+   `https://<your-username>.github.io` and `BASE` to `/<your-repo-name>`, and
+   set the same two values in the `env` block of `.github/workflows/deploy.yml`.
+   The config file is what local builds use; the workflow's `env` is what
+   production uses.
 2. **Enable Pages.** Repo Settings → Pages → Source: **GitHub Actions**.
 3. **Add the API key.** Settings → Secrets and variables → Actions → New
-   repository secret, named `ANTHROPIC_API_KEY`. Without it the pipeline still
-   runs, it just skips the relevance filter and the one-line summaries.
+   repository secret, named `ANTHROPIC_API_KEY`, then uncomment the `env` block
+   on the "Build daily brief" step in `.github/workflows/daily-brief.yml`.
+   Without it the pipeline still runs on the keyword filter alone: no model
+   relevance score and no one-line summaries.
 4. **Run it once by hand.** Actions tab → Daily brief → Run workflow.
 
 ## How the ranking works
 
-**Normalize within source first.** 400 HN points and 400 Reddit upvotes mean
+**Normalize within source first.** 400 HN points and 40 Lobsters upvotes mean
 completely different things, so each item is scored as a percentile against
 other items from the same source in the same batch. Feeds with no vote signal
 get a neutral 0.5 — they're on the list for precision, not traction.
@@ -63,6 +66,10 @@ on the wider web", so it multiplies rather than adds.
 score = (normalized × 100 × corroboration) / (ageHours + 2)^1.8
 ```
 
+**Then a keyword pass.** A deliberately loose regex (`ai`, `llm`, `model`,
+`gpu`, vendor names, and so on) against title and domain trims the pool to
+stories that might be about AI. This runs every time, key or no key.
+
 **Finally, relevance.** The top candidates go to Claude Haiku in one batched
 call, which scores each 0–10 on whether it's actually about AI and writes a
 one-sentence "why this matters". The AI score folds back in squared, so a 6/10
@@ -71,8 +78,13 @@ is what kills the false positives keyword matching drags in — "Apple
 Intelligence" versus "apple orchard startup adds AI". Costs pennies a day and
 it's the whole difference between a brief and an RSS dump.
 
-**Repeats are suppressed** for five days via `data/seen.json`, so yesterday's
-top story doesn't lead again this morning.
+**Repeats are suppressed** for five days. Every run re-reads the last five
+digest files and stamps their story ids into `data/seen.json`, so a skipped run
+can't let a story from two days ago resurface.
+
+**Second runs age the morning forward.** The evening run re-applies gravity to
+the stories already in today's brief before merging in new candidates, so the
+morning lineup doesn't hold its seats on a stale score.
 
 ## Tuning
 
@@ -92,8 +104,8 @@ code:
 | `BRIEF_TZ`        | `America/Boise`             | Which day the brief is filed under          |
 | `BRIEF_MODEL`     | `claude-haiku-4-5-20251001` | Model for the relevance pass                |
 
-Sources live at the top of `scripts/sources.ts` — `SUBREDDITS` and `FEEDS` are
-plain arrays, edit freely.
+Sources live at the top of `scripts/sources.ts` — `FEEDS` is a plain array,
+edit freely.
 
 ```bash
 BRIEF_SIZE=25 AI_FLOOR=7 npm run digest
@@ -108,10 +120,15 @@ BRIEF_SIZE=25 AI_FLOOR=7 npm run digest
   Action's own commits count as activity, so this only bites if the workflow is
   already broken. Worth knowing before you wonder why it went quiet in October.
 - **Pushes made with `GITHUB_TOKEN` don't trigger other workflows.** That's why
-  deploy is a dependent job in the same workflow rather than a separate
-  push-triggered one.
-- **Reddit 403s** requests with a default User-Agent, and rate-limits
-  unauthenticated bursts. There's a deliberate 1.2s pause between subreddits.
+  the digest workflow dispatches `deploy.yml` explicitly with `gh workflow run`
+  after it commits, rather than relying on deploy's `push` trigger.
+- **Reddit is not a source.** Its public `.json` endpoints return 403 to
+  unauthenticated requests from cloud IPs, GitHub runners included. Adding it
+  back means an OAuth app and the official API.
+- **Algolia has no `OR` operator.** Every word in an HN search query is ANDed,
+  so the low-bar AI sweep runs one request per term.
+- **Hugging Face `publishedAt` is the arXiv date**, usually days old. The
+  fetcher keys on `submittedOnDailyAt`, the day a paper hit the daily list.
 - **A dead source doesn't kill the run.** Each fetcher is wrapped; failures log
   and return empty. The run only aborts if _every_ source fails, which prevents
   committing an empty brief over a good one.
@@ -144,7 +161,8 @@ src/
   pages/            index, archive, [date], rss.xml
   components/       SparkMark, BriefGrid, StoryCard, DawnRule
 tests/
-  scripts/          rank.test.ts — canonicalization, dedupe, scoring
+  scripts/          rank.test.ts — canonicalization, dedupe, scoring, redecay
+                    enrich.test.ts — keyword prefilter
   components/       SparkMark, BriefGrid, StoryCard, DawnRule
 ```
 
@@ -158,7 +176,7 @@ render real markup rather than asserting on logic in isolation.
 
 ```bash
 npm test                  # rank tests + component tests
-npx tsc --noEmit          # types across scripts and .astro frontmatter
+npm run check             # astro check: types across scripts and .astro frontmatter
 npm run build             # Astro build; fails loudly on invalid markup in v7
 ```
 

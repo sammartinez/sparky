@@ -1,6 +1,6 @@
 import { test, expect } from "vitest";
-import { canonicalize, rank } from "../../scripts/rank.ts";
-import type { RawItem } from "../../scripts/types.ts";
+import { canonicalize, rank, redecay } from "../../scripts/rank.ts";
+import type { RawItem, Story } from "../../scripts/types.ts";
 
 test("canonicalize strips decoration", () => {
   expect(
@@ -119,4 +119,39 @@ test("sources with no points get a neutral prior, not a zero", () => {
     item({ source: "rss", label: "Simon Willison", points: null }),
   ]);
   expect(out[0].normalized).toBe(0.5);
+});
+
+function story(overrides: Partial<Story> = {}): Story {
+  return {
+    id: "abc",
+    title: "t",
+    url: "https://a.com/1",
+    canonicalUrl: "https://a.com/1",
+    domain: "a.com",
+    createdAt: new Date(NOW - 2 * 3_600_000).toISOString(),
+    appearances: [],
+    normalized: 0.5,
+    score: 10,
+    aiScore: 5,
+    why: "",
+    ...overrides,
+  };
+}
+
+test("redecay ages a carried-over score forward to the new clock", () => {
+  const scoredAt = NOW;
+  const later = NOW + 12 * 3_600_000;
+  const aged = redecay(story(), scoredAt, later);
+  // Same formula the ranker uses: (age+2)^gravity, so moving from 2h to 14h
+  // old should shrink the score by (4/16)^1.8.
+  expect(aged.score).toBeCloseTo(10 * Math.pow(4 / 16, 1.8), 3);
+  expect(aged.score).toBeLessThan(10);
+});
+
+test("redecay is a no-op when no time has passed", () => {
+  expect(redecay(story(), NOW, NOW).score).toBe(10);
+});
+
+test("redecay never inflates a score if the clock runs backwards", () => {
+  expect(redecay(story(), NOW, NOW - 3_600_000).score).toBe(10);
 });

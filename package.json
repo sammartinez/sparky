@@ -2,11 +2,10 @@
   "name": "sparky",
   "version": "1.0.0",
   "private": true,
-  "description": "A AI Newsletter",
+  "description": "A personal daily AI news brief",
   "license": "MIT",
   "author": "Sam Martinez",
   "type": "module",
-  "main": "index.js",
   "scripts": {
     "digest": "node scripts/build-digest.ts",
     "dev": "astro dev",
@@ -18,15 +17,15 @@
     "fullcheck": "npm run check && npm run test && npm run format && npm run build"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.10",
     "@astrojs/rss": "^4.0.19",
     "@astrojs/sitemap": "^3.7.3",
     "astro": "^7.2.4",
-    "chalk": "^6.0.0"
+    "chalk": "^6.0.0",
+    "fast-xml-parser": "^5.2.0"
   },
   "devDependencies": {
+    "@astrojs/check": "^0.9.10",
     "@tailwindcss/vite": "^4.3.3",
-    "fast-xml-parser": "^5.2.0",
     "tailwindcss": "^4.3.3",
     "typescript": "^5.9.3",
     "vitest": "^4.1.11"

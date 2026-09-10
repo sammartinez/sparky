@@ -1,8 +1,8 @@
 import chalk from "chalk";
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { fetchAll } from "./sources.ts";
-import { rank } from "./rank.ts";
+import { rank, redecay } from "./rank.ts";
 import { enrich, prefilter } from "./enrich.ts";
 import type { Digest, Story } from "./types.ts";
 
@@ -57,6 +57,29 @@ function pruneSeen(seen: Seen): Seen {
   );
 }
 
+/**
+ * Stamp every story from the last SEEN_DAYS of published briefs, keyed by the
+ * date it ran. Reading the digest files rather than just yesterday's means a
+ * skipped or failed run can't let a story from two days ago resurface.
+ */
+async function markRecentlyFeatured(seen: Seen, today: string): Promise<void> {
+  const cutoff = Date.now() - SEEN_DAYS * 86_400_000;
+  let files: string[];
+  try {
+    files = await readdir(DIGEST_DIR);
+  } catch {
+    return;
+  }
+  for (const file of files) {
+    const date = file.match(/^(\d{4}-\d{2}-\d{2})\.json$/)?.[1];
+    if (!date || date >= today) continue;
+    const ranAt = `${date}T00:00:00.000Z`;
+    if (new Date(ranAt).getTime() < cutoff) continue;
+    const digest = await loadDigest(date);
+    for (const story of digest?.stories ?? []) seen[story.id] = ranAt;
+  }
+}
+
 /** Fold AI relevance into the score. Squaring makes the penalty steep: a 6/10
  * keeps about a third of its traction score, a 3/10 keeps under a tenth. */
 function scoreStories(candidates: Story[]): Story[] {
@@ -102,16 +125,7 @@ async function main() {
   console.log(chalk.dim(`${ranked.length} after dedupe`));
 
   const seen = pruneSeen(await loadSeen());
-  const previousDate = new Intl.DateTimeFormat("en-CA", {
-    timeZone: process.env.BRIEF_TZ ?? "America/Boise",
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-  }).format(new Date(Date.now() - 86_400_000));
-  const previousDigest = await loadDigest(previousDate);
-  for (const story of previousDigest?.stories ?? []) {
-    seen[story.id] = new Date().toISOString();
-  }
+  await markRecentlyFeatured(seen, date);
 
   // Exclude stories already sitting in today's brief so a second run only
   // brings in what's genuinely new, not a re-scored copy of the same story.
@@ -137,7 +151,16 @@ async function main() {
 
   await enrich(candidates);
 
-  const stories = [...(existing?.stories ?? []), ...scoreStories(candidates)]
+  // Stories carried over from an earlier run today were scored on that run's
+  // clock. Age them forward so they compete fairly with the new candidates.
+  const now = Date.now();
+  const carried = existing
+    ? existing.stories.map((s) =>
+        redecay(s, new Date(existing.generatedAt).getTime(), now),
+      )
+    : [];
+
+  const stories = [...carried, ...scoreStories(candidates)]
     .sort((a, b) => b.score - a.score)
     .slice(0, KEEP);
 

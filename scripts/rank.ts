@@ -271,3 +271,20 @@ export function rank(items: RawItem[]): Story[] {
     })
     .sort((a, b) => b.score - a.score);
 }
+
+/**
+ * Move a story's age decay forward from when it was scored to `now`, so a
+ * story carried over from an earlier run today competes on the same clock as
+ * the new candidates instead of keeping its fresher morning score.
+ */
+export function redecay(
+  story: Story,
+  scoredAt: number,
+  now = Date.now(),
+): Story {
+  const created = new Date(story.createdAt).getTime();
+  const before = Math.max(0, (scoredAt - created) / 3_600_000);
+  const after = Math.max(before, (now - created) / 3_600_000);
+  const factor = Math.pow((before + 2) / (after + 2), GRAVITY);
+  return { ...story, score: Number((story.score * factor).toFixed(3)) };
+}

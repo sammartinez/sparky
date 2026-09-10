@@ -7,12 +7,14 @@ const API_KEY = process.env.ANTHROPIC_API_KEY;
  * Cheap keyword prefilter. Deliberately loose: its job is to cut the candidate
  * pool before the model pass, not to decide anything. The model handles the
  * false positives this drags in ("apple orchard AI startup").
+ *
+ * This runs whether or not the model pass does. Without an API key it is the
+ * only thing standing between the brief and a generic HN front page.
  */
 const HINTS =
   /\b(ai|a\.i\.|llm|llms|gpt|claude|gemini|grok|llama|mistral|deepseek|qwen|openai|anthropic|deepmind|hugging ?face|nvidia|transformer|diffusion|neural|machine learning|deep learning|inference|fine.?tun|embedding|rag|agent|agentic|prompt|token|benchmark|dataset|model|chatbot|copilot|autonomous|robotics|gpu|tpu|cuda|alignment|superintelligence|agi)\b/i;
 
 export function prefilter(stories: Story[], limit: number): Story[] {
-  if (!API_KEY) return stories.slice(0, limit);
   const hits = stories.filter(
     (s) => HINTS.test(s.title) || HINTS.test(s.domain),
   );
