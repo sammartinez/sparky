@@ -1,8 +1,64 @@
 {
   "date": "2026-09-10",
-  "generatedAt": "2026-09-10T13:08:59.340Z",
+  "generatedAt": "2026-09-10T15:35:02.394Z",
   "windowHours": 36,
   "stories": [
+    {
+      "id": "4d4e7920d8a7",
+      "title": "Now everyone can put data to work",
+      "url": "https://openai.com/index/put-data-to-work",
+      "canonicalUrl": "https://openai.com/index/put-data-to-work",
+      "domain": "openai.com",
+      "createdAt": "2026-09-10T15:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 9.054
+    },
+    {
+      "id": "56ccc6af62e9",
+      "title": "Tell HN: OpenAI keeps re-enabling the 'allow training' setting",
+      "url": "https://news.ycombinator.com/item?id=49643556",
+      "canonicalUrl": "https://news.ycombinator.com/item?id=49643556",
+      "domain": "news.ycombinator.com",
+      "createdAt": "2026-09-10T13:39:53.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 281,
+          "comments": 103,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49643556"
+        }
+      ],
+      "normalized": 0.849,
+      "score": 7.261
+    },
+    {
+      "id": "0d5b414e99a7",
+      "title": "Another researcher says OpenAI trained on conversations, then claimed breakthrou",
+      "url": "https://bsky.app/profile/did:plc:ckaz32jwl6t2cno6fmuw2nhn/post/3mv4mt4ikss2d",
+      "canonicalUrl": "https://bsky.app/profile/did:plc:ckaz32jwl6t2cno6fmuw2nhn/post/3mv4mt4ikss2d",
+      "domain": "bsky.app",
+      "createdAt": "2026-09-10T13:07:14.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 215,
+          "comments": 98,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49643112"
+        }
+      ],
+      "normalized": 0.763,
+      "score": 5.167
+    },
     {
       "id": "f77366f3c61d",
       "title": "Mathematicians want proof OpenAI didn't use their work",
@@ -20,7 +76,7 @@
         }
       ],
       "normalized": 0.342,
-      "score": 3.047
+      "score": 1.258
     },
     {
       "id": "c599ab837d38",
@@ -39,7 +95,7 @@
         }
       ],
       "normalized": 0.966,
-      "score": 1.865
+      "score": 1.21
     },
     {
       "id": "dd00e65b9013",
@@ -58,7 +114,44 @@
         }
       ],
       "normalized": 0.846,
-      "score": 1.163
+      "score": 0.807
+    },
+    {
+      "id": "1ef5285e671d",
+      "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+      "url": "https://openai.com/index/expanding-ai-access-us-government",
+      "canonicalUrl": "https://openai.com/index/expanding-ai-access-us-government",
+      "domain": "openai.com",
+      "createdAt": "2026-09-10T07:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.715
+    },
+    {
+      "id": "5e91daf3e9d8",
+      "title": "AI Doomlord Jacob Coxon's Media Tour Has Begun",
+      "url": "https://gizmodo.com/ai-doomlord-jacob-coxons-media-tour-has-begun-2000809720",
+      "canonicalUrl": "https://gizmodo.com/ai-doomlord-jacob-coxons-media-tour-has-begun-2000809720",
+      "domain": "gizmodo.com",
+      "createdAt": "2026-09-10T13:21:50.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 20,
+          "comments": 15,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49643299"
+        }
+      ],
+      "normalized": 0.079,
+      "score": 0.591
     },
     {
       "id": "06078bcf1a85",
@@ -77,7 +170,7 @@
         }
       ],
       "normalized": 0.557,
-      "score": 0.864
+      "score": 0.586
     },
     {
       "id": "237d53432c29",
@@ -96,7 +189,7 @@
         }
       ],
       "normalized": 0.962,
-      "score": 0.721
+      "score": 0.551
     },
     {
       "id": "6572f7849d15",
@@ -115,7 +208,7 @@
         }
       ],
       "normalized": 0.923,
-      "score": 0.693
+      "score": 0.53
     },
     {
       "id": "0f95e7fdab23",
@@ -134,7 +227,7 @@
         }
       ],
       "normalized": 0.885,
-      "score": 0.664
+      "score": 0.508
     },
     {
       "id": "90ccc71664bd",
@@ -153,7 +246,7 @@
         }
       ],
       "normalized": 0.846,
-      "score": 0.635
+      "score": 0.486
     },
     {
       "id": "cf374b609ab6",
@@ -172,7 +265,7 @@
         }
       ],
       "normalized": 0.644,
-      "score": 0.63
+      "score": 0.463
     },
     {
       "id": "2ddfc065a5f5",
@@ -191,102 +284,7 @@
         }
       ],
       "normalized": 0.808,
-      "score": 0.606
-    },
-    {
-      "id": "55ec6ae1cfe6",
-      "title": "A Stupid Idea for AI Alignment We Came with by Looking at Specification Gaming",
-      "url": "https://slimemoldtimemold.com/2026/08/05/a-stupid-idea-for-ai-alignment-we-came-up-with-by-looking-at-the-list-of-specification-gaming-behaviours/",
-      "canonicalUrl": "https://slimemoldtimemold.com/2026/08/05/a-stupid-idea-for-ai-alignment-we-came-up-with-by-looking-at-the-list-of-specification-gaming-behaviours",
-      "domain": "slimemoldtimemold.com",
-      "createdAt": "2026-09-10T01:59:51.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 83,
-          "comments": 55,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49637395"
-        }
-      ],
-      "normalized": 0.597,
-      "score": 0.578
-    },
-    {
-      "id": "72fd1947132b",
-      "title": "SAEScientist-Bench: Can AI Agents Conduct Autonomous SAE Interpretability Research?",
-      "url": "https://arxiv.org/abs/2609.09113",
-      "canonicalUrl": "https://arxiv.org/abs/2609.09113",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-10T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 15,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.09113"
-        }
-      ],
-      "normalized": 0.769,
-      "score": 0.577
-    },
-    {
-      "id": "083b4aa3461b",
-      "title": "Muse, the band, lost its social media handles to Muse, Meta's new AI agent",
-      "url": "https://www.engadget.com/2254419/muse-the-band-lost-its-social-media-handles-to-muse-meta-s-new-ai-agent/",
-      "canonicalUrl": "https://engadget.com/2254419/muse-the-band-lost-its-social-media-handles-to-muse-meta-s-new-ai-agent",
-      "domain": "engadget.com",
-      "createdAt": "2026-09-09T23:57:29.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 183,
-          "comments": 7,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49636345"
-        }
-      ],
-      "normalized": 0.758,
-      "score": 0.566
-    },
-    {
-      "id": "26c6544828a1",
-      "title": "Scores Alone Do Not Prove Discovery: The Discovery Certification Protocol for Auditing AI Research Agents",
-      "url": "https://arxiv.org/abs/2609.09219",
-      "canonicalUrl": "https://arxiv.org/abs/2609.09219",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-10T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 13,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.09219"
-        }
-      ],
-      "normalized": 0.731,
-      "score": 0.548
-    },
-    {
-      "id": "a849f209f042",
-      "title": "DianShi-RxnDB: A Large-Scale, Fine-Grained Organic Reaction Data Platform Built via a Fully Automated Pipeline for Researchers and AI Agents",
-      "url": "https://arxiv.org/abs/2609.06703",
-      "canonicalUrl": "https://arxiv.org/abs/2609.06703",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-10T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 8,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.06703"
-        }
-      ],
-      "normalized": 0.654,
-      "score": 0.491
+      "score": 0.463
     }
   ]
 }
