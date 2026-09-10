@@ -1,6 +1,6 @@
 import { test, expect } from "vitest";
 import { experimental_AstroContainer as AstroContainer } from "astro/container";
-import SparkMark from "./SparkMark.astro";
+import SparkMark from "../../src/components/SparkMark.astro";
 
 async function render(props: Record<string, unknown> = {}) {
   const container = await AstroContainer.create();

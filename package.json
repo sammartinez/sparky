@@ -13,9 +13,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "check": "astro check",
-    "test:rank": "node --test \"scripts/*.test.ts\"",
-    "test:components": "vitest run",
-    "test": "npm run test:rank && npm run test:components",
+    "test": "vitest run",
     "format": "prettier --write .",
     "fullcheck": "npm run check && npm run test && npm run format && npm run build"
   },

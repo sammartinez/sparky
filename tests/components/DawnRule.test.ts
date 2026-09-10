@@ -1,6 +1,6 @@
 import { test, expect } from "vitest";
 import { experimental_AstroContainer as AstroContainer } from "astro/container";
-import DawnRule from "./DawnRule.astro";
+import DawnRule from "../../src/components/DawnRule.astro";
 
 const GENERATED_AT = "2026-01-15T12:00:00.000Z";
 const END = new Date(GENERATED_AT).getTime();

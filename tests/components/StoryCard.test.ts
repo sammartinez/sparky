@@ -1,6 +1,6 @@
 import { test, expect } from "vitest";
 import { experimental_AstroContainer as AstroContainer } from "astro/container";
-import StoryCard from "./StoryCard.astro";
+import StoryCard from "../../src/components/StoryCard.astro";
 
 const NOW = new Date("2026-01-15T12:00:00.000Z").getTime();
 

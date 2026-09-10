@@ -1,6 +1,6 @@
 import { test, expect } from "vitest";
 import { experimental_AstroContainer as AstroContainer } from "astro/container";
-import BriefGrid from "./BriefGrid.astro";
+import BriefGrid from "../../src/components/BriefGrid.astro";
 
 const GENERATED_AT = "2026-01-15T12:00:00.000Z";
 const NOW = new Date(GENERATED_AT).getTime();

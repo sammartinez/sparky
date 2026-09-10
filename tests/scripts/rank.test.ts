@@ -1,26 +1,21 @@
-import { test } from "node:test";
-import assert from "node:assert/strict";
-import { canonicalize, rank } from "./rank.ts";
-import type { RawItem } from "./types.ts";
+import { test, expect } from "vitest";
+import { canonicalize, rank } from "../../scripts/rank.ts";
+import type { RawItem } from "../../scripts/types.ts";
 
 test("canonicalize strips decoration", () => {
-  assert.equal(
+  expect(
     canonicalize("https://www.Example.com/post/?utm_source=x&b=2#top"),
-    "https://example.com/post?b=2",
-  );
-  assert.equal(
-    canonicalize("http://m.example.com/a/b/"),
+  ).toBe("https://example.com/post?b=2");
+  expect(canonicalize("http://m.example.com/a/b/")).toBe(
     "https://example.com/a/b",
   );
 });
 
 test("canonicalize normalizes arxiv", () => {
-  assert.equal(
-    canonicalize("https://arxiv.org/pdf/2501.12345v3.pdf"),
+  expect(canonicalize("https://arxiv.org/pdf/2501.12345v3.pdf")).toBe(
     "https://arxiv.org/abs/2501.12345",
   );
-  assert.equal(
-    canonicalize("https://arxiv.org/abs/2501.12345"),
+  expect(canonicalize("https://arxiv.org/abs/2501.12345")).toBe(
     "https://arxiv.org/abs/2501.12345",
   );
 });
@@ -61,8 +56,8 @@ test("merges the same URL seen on different sources", () => {
     }),
     item({ url: "https://b.com/2", title: "unrelated story" }),
   ]);
-  assert.equal(out.length, 2);
-  assert.equal(out.find((s) => s.domain === "a.com")!.appearances.length, 2);
+  expect(out.length).toBe(2);
+  expect(out.find((s) => s.domain === "a.com")!.appearances.length).toBe(2);
 });
 
 test("merges near-identical titles across outlets", () => {
@@ -78,7 +73,7 @@ test("merges near-identical titles across outlets", () => {
       url: "https://techcrunch.com/b",
     }),
   ]);
-  assert.equal(out.length, 1);
+  expect(out.length).toBe(1);
 });
 
 test("cross-source corroboration beats a lone higher score", () => {
@@ -100,7 +95,7 @@ test("cross-source corroboration beats a lone higher score", () => {
   ]);
   const solo = out.find((s) => s.domain === "solo.com")!;
   const both = out.find((s) => s.domain === "both.com")!;
-  assert.ok(both.score > solo.score, `${both.score} should beat ${solo.score}`);
+  expect(both.score).toBeGreaterThan(solo.score);
 });
 
 test("age decays score", () => {
@@ -114,9 +109,8 @@ test("age decays score", () => {
       createdAt: NOW - 30 * 3_600_000,
     }),
   ]);
-  assert.ok(
-    out.find((s) => s.domain === "fresh.com")!.score >
-      out.find((s) => s.domain === "old.com")!.score,
+  expect(out.find((s) => s.domain === "fresh.com")!.score).toBeGreaterThan(
+    out.find((s) => s.domain === "old.com")!.score,
   );
 });
 
@@ -124,5 +118,5 @@ test("sources with no points get a neutral prior, not a zero", () => {
   const out = rank([
     item({ source: "rss", label: "Simon Willison", points: null }),
   ]);
-  assert.equal(out[0].normalized, 0.5);
+  expect(out[0].normalized).toBe(0.5);
 });

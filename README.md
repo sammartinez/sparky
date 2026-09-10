@@ -136,23 +136,23 @@ scripts/
   rank.ts           canonicalize, dedupe, normalize, score
   enrich.ts         Claude relevance pass + one-line rationale
   build-digest.ts   orchestrator; writes the day's JSON
-  rank.test.ts      node --test
 data/
   digests/          one JSON file per morning — this is the archive
   seen.json         rolling repeat-suppression memory
 src/
   content.config.ts collection over data/digests
   pages/            index, archive, [date], rss.xml
-  components/       SparkMark, BriefGrid, StoryCard, DawnRule (+ *.test.ts)
+  components/       SparkMark, BriefGrid, StoryCard, DawnRule
+tests/
+  scripts/          rank.test.ts — canonicalization, dedupe, scoring
+  components/       SparkMark, BriefGrid, StoryCard, DawnRule
 ```
 
-`npm test` runs both suites: `test:rank` (node's built-in test runner, over
-`scripts/*.test.ts` — canonicalization, dedupe, scoring, the part most likely
-to drift as you tune thresholds) and `test:components` (Vitest, over
-`src/**/*.test.ts`). Component tests render real `.astro` output through
-Astro's Container API (`astro/container`) — plain `node --test` can't parse
-`.astro` files at all, which is why they're on a separate runner wired to
-Astro's own Vite config (`vitest.config.ts`).
+`npm test` runs the whole suite through Vitest (`vitest.config.ts`, wired to
+Astro's own Vite config via `getViteConfig` so it can render real `.astro`
+output through Astro's Container API — `astro/container`). The rank tests are
+the part most likely to drift as you tune thresholds; the component tests
+render real markup rather than asserting on logic in isolation.
 
 ## Validating a change
 
