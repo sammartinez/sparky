@@ -1,0 +1,26 @@
+---
+/*
+  The mark also lives (independently) in public/favicon.svg — a static file
+  browser chrome loads outside the page, so it can't see --color-accent and
+  has to hardcode its own light/dark hex pair instead of using this component.
+*/
+interface Props {
+  class?: string;
+}
+
+const { class: className } = Astro.props;
+const gradientId = `spark-${Math.random().toString(36).slice(2, 9)}`;
+---
+
+<svg viewBox="0 0 100 100" class={className} aria-hidden="true">
+  <defs>
+    <linearGradient id={gradientId} x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color: var(--color-accent)" />
+      <stop
+        offset="100%"
+        style="stop-color: color-mix(in srgb, var(--color-accent) 35%, white)"
+      />
+    </linearGradient>
+  </defs>
+  <polygon points="62,3 20,55 46,55 38,97 88,38 56,38" fill={`url(#${gradientId})`} />
+</svg>

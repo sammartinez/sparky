@@ -1,6 +1,7 @@
 ---
 import "../styles/global.css";
 import { href } from "../lib/brief";
+import SparkMark from "../components/SparkMark.astro";
 
 interface Props {
   title: string;
@@ -27,6 +28,10 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? "http://localhost");
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical.href} />
     <meta name="color-scheme" content="light dark" />
+    <link rel="icon" href={href("favicon.svg")} type="image/svg+xml" />
+    <link rel="icon" href={href("favicon-32.png")} sizes="32x32" type="image/png" />
+    <link rel="icon" href={href("favicon-16.png")} sizes="16x16" type="image/png" />
+    <link rel="apple-touch-icon" href={href("apple-touch-icon.png")} />
     <link
       rel="alternate"
       type="application/rss+xml"
@@ -51,7 +56,8 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? "http://localhost");
     </a>
     <div class="mx-auto max-w-3xl px-5 sm:px-8">
       <header class="pt-10 pb-6 sm:pt-16">
-        <a href={href("/")} class="inline-block no-underline">
+        <a href={href("/")} class="inline-flex items-center gap-3 no-underline">
+          <SparkMark class="h-9 w-9 shrink-0 sm:h-12 sm:w-12" />
           <h1 class="font-display text-[2.3rem] leading-[0.95] font-medium sm:text-5xl">
             Sparky News
           </h1>

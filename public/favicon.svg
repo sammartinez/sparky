@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="spark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2f5aa8" />
+      <stop offset="100%" stop-color="#aebedc" />
+    </linearGradient>
+    <linearGradient id="spark-dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7fa3df" />
+      <stop offset="100%" stop-color="#c3d5ee" />
+    </linearGradient>
+  </defs>
+  <style>
+    .mark { fill: url(#spark); }
+    @media (prefers-color-scheme: dark) {
+      .mark { fill: url(#spark-dark); }
+    }
+  </style>
+  <polygon class="mark" points="62,3 20,55 46,55 38,97 88,38 56,38" />
+</svg>
