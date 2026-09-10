@@ -1,0 +1,51 @@
+---
+import type { CollectionEntry } from "astro:content";
+import DawnRule from "./DawnRule.astro";
+import StoryCard from "./StoryCard.astro";
+
+interface Props {
+  stories: CollectionEntry<"digests">["data"]["stories"];
+  generatedAt: string;
+  /** Freeze "now" so every card on the page agrees. */
+  now: number;
+}
+
+const { stories, generatedAt, now } = Astro.props;
+
+// Lead story full-width, next four as a 2x2 grid, the rest as a compact list.
+const [feature, ...rest] = stories;
+const gridStories = rest.slice(0, 4);
+const compactStories = rest.slice(4);
+---
+
+<DawnRule stories={stories} generatedAt={generatedAt} />
+
+{
+  stories.length === 0 ? (
+    <p class="text-muted border-rule border-t py-12">
+      Quiet morning — nothing cleared the bar.
+    </p>
+  ) : (
+    <div class="grid grid-cols-6 gap-x-[1.1rem] gap-y-9">
+      {feature && <StoryCard rank={1} now={now} variant="feature" {...feature} />}
+      {gridStories.map((story, i) => (
+        <StoryCard rank={i + 2} now={now} variant="grid" {...story} />
+      ))}
+      {compactStories.length > 0 && (
+        <div class="col-span-6">
+          <h3 class="eyebrow mt-1 mb-2.5">Also today</h3>
+          <div class="flex flex-col gap-[0.9rem]">
+            {compactStories.map((story, i) => (
+              <StoryCard
+                rank={i + gridStories.length + 2}
+                now={now}
+                variant="compact"
+                {...story}
+              />
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  )
+}

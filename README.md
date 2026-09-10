@@ -143,16 +143,21 @@ data/
 src/
   content.config.ts collection over data/digests
   pages/            index, archive, [date], rss.xml
-  components/       Story, DawnRule
+  components/       SparkMark, BriefGrid, StoryCard, DawnRule (+ *.test.ts)
 ```
 
-`npm test` runs the ranking tests. That's the part most likely to drift as you
-tune thresholds.
+`npm test` runs both suites: `test:rank` (node's built-in test runner, over
+`scripts/*.test.ts` — canonicalization, dedupe, scoring, the part most likely
+to drift as you tune thresholds) and `test:components` (Vitest, over
+`src/**/*.test.ts`). Component tests render real `.astro` output through
+Astro's Container API (`astro/container`) — plain `node --test` can't parse
+`.astro` files at all, which is why they're on a separate runner wired to
+Astro's own Vite config (`vitest.config.ts`).
 
 ## Validating a change
 
 ```bash
-npm test                  # ranking: canonicalization, dedupe, scoring
+npm test                  # rank tests + component tests
 npx tsc --noEmit          # types across scripts and .astro frontmatter
 npm run build             # Astro build; fails loudly on invalid markup in v7
 ```

@@ -13,7 +13,9 @@
     "build": "astro build",
     "preview": "astro preview",
     "check": "astro check",
-    "test": "node --test \"scripts/*.test.ts\"",
+    "test:rank": "node --test \"scripts/*.test.ts\"",
+    "test:components": "vitest run",
+    "test": "npm run test:rank && npm run test:components",
     "format": "prettier --write .",
     "fullcheck": "npm run check && npm run test && npm run format && npm run build"
   },
@@ -27,7 +29,8 @@
     "@tailwindcss/vite": "^4.3.3",
     "fast-xml-parser": "^5.2.0",
     "tailwindcss": "^4.3.3",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.11"
   },
   "engines": {
     "node": ">=22.18"
