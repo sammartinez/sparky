@@ -56,20 +56,35 @@ function pruneSeen(seen: Seen): Seen {
   );
 }
 
+/** Fold AI relevance into the score. Squaring makes the penalty steep: a 6/10
+ * keeps about a third of its traction score, a 3/10 keeps under a tenth. */
+function scoreStories(candidates: Story[]): Story[] {
+  return candidates
+    .filter((s) => s.aiScore >= AI_FLOOR)
+    .map((s) => ({
+      ...s,
+      score: Number((s.score * (s.aiScore / 10) ** 2).toFixed(3)),
+    }));
+}
+
 async function main() {
   const date = briefDate();
   console.log(`Building brief for ${date}\n`);
 
-  if (await loadDigest(date)) {
+  const existing = await loadDigest(date);
+  if (existing) {
     console.log(
-      `A brief for ${date} already exists; keeping it until tomorrow.`,
+      `A brief for ${date} already exists with ${existing.stories.length} stories; checking for updates.`,
     );
-    return;
   }
 
   const raw = await fetchAll();
   console.log(`\n${raw.length} raw items`);
   if (raw.length === 0) {
+    if (existing) {
+      console.log("No items from any source this run; leaving today's brief as is.");
+      return;
+    }
     console.error(
       "No items from any source. Refusing to write an empty brief.",
     );
@@ -90,24 +105,33 @@ async function main() {
   for (const story of previousDigest?.stories ?? []) {
     seen[story.id] = new Date().toISOString();
   }
-  const fresh = ranked.filter((s) => !seen[s.id]);
-  console.log(`${fresh.length} not featured in the last ${SEEN_DAYS} days`);
+
+  // Exclude stories already sitting in today's brief so a second run only
+  // brings in what's genuinely new, not a re-scored copy of the same story.
+  const alreadyToday = new Set((existing?.stories ?? []).map((s) => s.id));
+  const fresh = ranked.filter((s) => !seen[s.id] && !alreadyToday.has(s.id));
+  console.log(
+    `${fresh.length} new since the last run, not featured in the last ${SEEN_DAYS} days`,
+  );
+
+  if (fresh.length === 0 && existing) {
+    console.log("Nothing new since the last run; leaving today's brief as is.");
+    return;
+  }
 
   const candidates = prefilter(fresh, CANDIDATES);
   console.log(`${candidates.length} candidates to the model pass`);
 
   await enrich(candidates);
 
-  // Fold AI relevance into the score. Squaring makes the penalty steep: a 6/10
-  // keeps about a third of its traction score, a 3/10 keeps under a tenth.
-  const stories: Story[] = candidates
-    .filter((s) => s.aiScore >= AI_FLOOR)
-    .map((s) => ({
-      ...s,
-      score: Number((s.score * (s.aiScore / 10) ** 2).toFixed(3)),
-    }))
+  const stories = [...(existing?.stories ?? []), ...scoreStories(candidates)]
     .sort((a, b) => b.score - a.score)
     .slice(0, KEEP);
+
+  if (existing && stories.map((s) => s.id).join() === existing.stories.map((s) => s.id).join()) {
+    console.log("\nNo change to today's lineup; nothing to publish.");
+    return;
+  }
 
   console.log(`\n${stories.length} stories in the brief`);
 
