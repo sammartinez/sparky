@@ -1,3 +1,4 @@
+import chalk from "chalk";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { fetchAll } from "./sources.ts";
@@ -69,30 +70,36 @@ function scoreStories(candidates: Story[]): Story[] {
 
 async function main() {
   const date = briefDate();
-  console.log(`Building brief for ${date}\n`);
+  console.log(chalk.bold.cyan(`Building brief for ${date}`) + "\n");
 
   const existing = await loadDigest(date);
   if (existing) {
     console.log(
-      `A brief for ${date} already exists with ${existing.stories.length} stories; checking for updates.`,
+      chalk.yellow(
+        `A brief for ${date} already exists with ${existing.stories.length} stories; checking for updates.`,
+      ),
     );
   }
 
   const raw = await fetchAll();
-  console.log(`\n${raw.length} raw items`);
+  console.log(chalk.dim(`\n${raw.length} raw items`));
   if (raw.length === 0) {
     if (existing) {
-      console.log("No items from any source this run; leaving today's brief as is.");
+      console.log(
+        chalk.yellow(
+          "No items from any source this run; leaving today's brief as is.",
+        ),
+      );
       return;
     }
     console.error(
-      "No items from any source. Refusing to write an empty brief.",
+      chalk.red("No items from any source. Refusing to write an empty brief."),
     );
     process.exit(1);
   }
 
   const ranked = rank(raw);
-  console.log(`${ranked.length} after dedupe`);
+  console.log(chalk.dim(`${ranked.length} after dedupe`));
 
   const seen = pruneSeen(await loadSeen());
   const previousDate = new Intl.DateTimeFormat("en-CA", {
@@ -111,16 +118,22 @@ async function main() {
   const alreadyToday = new Set((existing?.stories ?? []).map((s) => s.id));
   const fresh = ranked.filter((s) => !seen[s.id] && !alreadyToday.has(s.id));
   console.log(
-    `${fresh.length} new since the last run, not featured in the last ${SEEN_DAYS} days`,
+    chalk.dim(
+      `${fresh.length} new since the last run, not featured in the last ${SEEN_DAYS} days`,
+    ),
   );
 
   if (fresh.length === 0 && existing) {
-    console.log("Nothing new since the last run; leaving today's brief as is.");
+    console.log(
+      chalk.yellow(
+        "Nothing new since the last run; leaving today's brief as is.",
+      ),
+    );
     return;
   }
 
   const candidates = prefilter(fresh, CANDIDATES);
-  console.log(`${candidates.length} candidates to the model pass`);
+  console.log(chalk.dim(`${candidates.length} candidates to the model pass`));
 
   await enrich(candidates);
 
@@ -128,12 +141,17 @@ async function main() {
     .sort((a, b) => b.score - a.score)
     .slice(0, KEEP);
 
-  if (existing && stories.map((s) => s.id).join() === existing.stories.map((s) => s.id).join()) {
-    console.log("\nNo change to today's lineup; nothing to publish.");
+  if (
+    existing &&
+    stories.map((s) => s.id).join() === existing.stories.map((s) => s.id).join()
+  ) {
+    console.log(
+      chalk.yellow("\nNo change to today's lineup; nothing to publish."),
+    );
     return;
   }
 
-  console.log(`\n${stories.length} stories in the brief`);
+  console.log(chalk.bold.green(`\n${stories.length} stories in the brief`));
 
   const digest: Digest = {
     date,
@@ -151,7 +169,8 @@ async function main() {
   for (const [i, s] of stories.entries()) {
     const where = s.appearances.map((a) => a.label).join(", ");
     console.log(
-      `  ${String(i + 1).padStart(2)}. [${s.score.toFixed(1)}] ${s.title}  (${where})`,
+      `  ${chalk.dim(String(i + 1).padStart(2) + ".")} ` +
+        `${chalk.green(`[${s.score.toFixed(1)}]`)} ${s.title}  ${chalk.dim(`(${where})`)}`,
     );
   }
 }

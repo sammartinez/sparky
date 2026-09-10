@@ -21,7 +21,8 @@
     "@astrojs/check": "^0.9.10",
     "@astrojs/rss": "^4.0.19",
     "@astrojs/sitemap": "^3.7.3",
-    "astro": "^7.2.4"
+    "astro": "^7.2.4",
+    "chalk": "^6.0.0"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.3.3",

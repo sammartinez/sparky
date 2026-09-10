@@ -1,3 +1,4 @@
+import chalk from "chalk";
 import { XMLParser } from "fast-xml-parser";
 import type { RawItem } from "./types.ts";
 
@@ -36,10 +37,12 @@ async function safe(
 ): Promise<RawItem[]> {
   try {
     const items = await fn();
-    console.log(`  ${name}: ${items.length}`);
+    console.log(`  ${name}: ${chalk.green(items.length)}`);
     return items;
   } catch (err) {
-    console.warn(`  ${name}: FAILED — ${(err as Error).message}`);
+    console.warn(
+      `  ${chalk.yellow(`${name}: FAILED — ${(err as Error).message}`)}`,
+    );
     return [];
   }
 }
@@ -123,7 +126,9 @@ async function reddit(): Promise<RawItem[]> {
         });
       }
     } catch (err) {
-      console.warn(`    r/${sub} failed: ${(err as Error).message}`);
+      console.warn(
+        chalk.yellow(`    r/${sub} failed: ${(err as Error).message}`),
+      );
     }
     // Reddit rate-limits hard on unauthenticated bursts.
     await new Promise((r) => setTimeout(r, 1200));
@@ -258,7 +263,9 @@ async function feeds(): Promise<RawItem[]> {
   for (const [i, r] of results.entries()) {
     if (r.status === "rejected") {
       console.warn(
-        `    ${FEEDS[i].label} failed: ${r.reason?.message ?? r.reason}`,
+        chalk.yellow(
+          `    ${FEEDS[i].label} failed: ${r.reason?.message ?? r.reason}`,
+        ),
       );
     }
   }
@@ -267,7 +274,7 @@ async function feeds(): Promise<RawItem[]> {
 
 /** Fetch every source in parallel. Returns whatever succeeded. */
 export async function fetchAll(): Promise<RawItem[]> {
-  console.log(`Fetching sources (last ${WINDOW_HOURS}h)…`);
+  console.log(chalk.bold.cyan(`Fetching sources (last ${WINDOW_HOURS}h)…`));
   const batches = await Promise.all([
     safe("hacker news", hn),
     safe("reddit", reddit),
