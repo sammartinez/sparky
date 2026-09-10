@@ -1,11 +1,11 @@
 ---
-import type { GetStaticPaths } from "astro";
+import type { GetStaticPaths, InferGetStaticPropsType } from "astro";
 import Base from "../../layouts/Base.astro";
 import DawnRule from "../../components/DawnRule.astro";
 import StoryCard from "../../components/StoryCard.astro";
 import { allDigests, formatDate, href } from "../../lib/brief";
 
-export const getStaticPaths: GetStaticPaths = async () => {
+export const getStaticPaths = (async () => {
   const digests = await allDigests();
   return digests.map((entry, i) => ({
     params: { date: entry.id },
@@ -15,9 +15,11 @@ export const getStaticPaths: GetStaticPaths = async () => {
       older: digests[i + 1] ?? null,
     },
   }));
-};
+}) satisfies GetStaticPaths;
 
-const { entry, newer, older } = Astro.props;
+type Props = InferGetStaticPropsType<typeof getStaticPaths>;
+
+const { entry, newer, older } = Astro.props as Props;
 const now = new Date(entry.data.generatedAt).getTime();
 
 // Lead story full-width, next four as a 2x2 grid, the rest as a compact list.

@@ -8,6 +8,10 @@
     "rewriteRelativeImportExtensions": true,
     "verbatimModuleSyntax": true,
     "erasableSyntaxOnly": true,
+
+    // used for the baseUrl and paths options, which are deprecated in TypeScript 6.0
+    "ignoreDeprecations": "6.0",
+
     "baseUrl": ".",
     "paths": { "@/*": ["src/*"] }
   }

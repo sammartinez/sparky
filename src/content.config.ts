@@ -1,5 +1,6 @@
-import { defineCollection, z } from "astro:content";
+import { defineCollection } from "astro:content";
 import { glob } from "astro/loaders";
+import { z } from "astro/zod";
 
 // Each morning's run commits one JSON file here, so the archive is just the
 // git history made browsable. Entry ids come from the filename: "2026-08-20".
