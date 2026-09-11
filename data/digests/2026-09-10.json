@@ -1,25 +1,102 @@
 {
   "date": "2026-09-10",
-  "generatedAt": "2026-09-10T15:35:02.394Z",
+  "generatedAt": "2026-09-11T03:00:51.469Z",
   "windowHours": 36,
   "stories": [
     {
-      "id": "4d4e7920d8a7",
-      "title": "Now everyone can put data to work",
-      "url": "https://openai.com/index/put-data-to-work",
-      "canonicalUrl": "https://openai.com/index/put-data-to-work",
-      "domain": "openai.com",
-      "createdAt": "2026-09-10T15:00:00.000Z",
+      "id": "d94726091094",
+      "title": "OpenAI’s Navier-Stokes release included a Lean 4 formal proof",
+      "url": "https://www.johndcook.com/blog/2026/09/09/formal-method-revolution/",
+      "canonicalUrl": "https://johndcook.com/blog/2026/09/09/formal-method-revolution",
+      "domain": "johndcook.com",
+      "createdAt": "2026-09-10T21:22:59.000Z",
       "appearances": [
         {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
+          "source": "hn",
+          "label": "HN",
+          "points": 143,
+          "comments": 143,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49650326"
         }
       ],
-      "normalized": 0.5,
-      "score": 9.054
+      "normalized": 0.733,
+      "score": 1.891
+    },
+    {
+      "id": "9da9989ecc0c",
+      "title": "Thelio Mira AI Linux Workstation: 192 GB GPU Memory",
+      "url": "https://system76.com/workstations/thelio-mira-ai",
+      "canonicalUrl": "https://system76.com/workstations/thelio-mira-ai",
+      "domain": "system76.com",
+      "createdAt": "2026-09-10T23:10:06.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 47,
+          "comments": 27,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49651372"
+        }
+      ],
+      "normalized": 0.376,
+      "score": 1.565
+    },
+    {
+      "id": "cf1d2b81fef8",
+      "title": "OpenAI Agents API",
+      "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
+      "canonicalUrl": "https://developers.openai.com/api/docs/guides/agents-api/overview",
+      "domain": "developers.openai.com",
+      "createdAt": "2026-09-10T19:43:22.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 157,
+          "comments": 99,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49649213"
+        }
+      ],
+      "normalized": 0.745,
+      "score": 1.349
+    },
+    {
+      "id": "69669daef825",
+      "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
+      "url": "https://cognition.com/blog/swe-2",
+      "canonicalUrl": "https://cognition.com/blog/swe-2",
+      "domain": "cognition.com",
+      "createdAt": "2026-09-10T15:29:47.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 361,
+          "comments": 152,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49645443"
+        }
+      ],
+      "normalized": 0.885,
+      "score": 0.815
+    },
+    {
+      "id": "62bef34aa8f3",
+      "title": "Detecting and countering misuse of AI: September 2026",
+      "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+      "canonicalUrl": "https://anthropic.com/threat-intelligence-report-september-2026",
+      "domain": "anthropic.com",
+      "createdAt": "2026-09-10T17:23:42.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 91,
+          "comments": 163,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49647300"
+        }
+      ],
+      "normalized": 0.63,
+      "score": 0.762
     },
     {
       "id": "56ccc6af62e9",
@@ -38,7 +115,26 @@
         }
       ],
       "normalized": 0.849,
-      "score": 7.261
+      "score": 0.622
+    },
+    {
+      "id": "3ec577877ef1",
+      "title": "Anthropic says it blocked possible efforts to build biological weapons",
+      "url": "https://www.nytimes.com/2026/09/10/us/politics/anthropic-ai-biological-weapons.html",
+      "canonicalUrl": "https://nytimes.com/2026/09/10/us/politics/anthropic-ai-biological-weapons.html",
+      "domain": "nytimes.com",
+      "createdAt": "2026-09-10T17:04:34.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 66,
+          "comments": 1,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49646988"
+        }
+      ],
+      "normalized": 0.539,
+      "score": 0.621
     },
     {
       "id": "0d5b414e99a7",
@@ -57,26 +153,119 @@
         }
       ],
       "normalized": 0.763,
-      "score": 5.167
+      "score": 0.525
     },
     {
-      "id": "f77366f3c61d",
-      "title": "Mathematicians want proof OpenAI didn't use their work",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
-      "canonicalUrl": "https://theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
-      "domain": "theverge.com",
-      "createdAt": "2026-09-10T11:18:58.000Z",
+      "id": "ec2eba81aa5c",
+      "title": "Cognition's SWE-2 achieves 92.8 on Terminal-Bench 2.1",
+      "url": "https://tokenstead.ai/models/swe-2",
+      "canonicalUrl": "https://tokenstead.ai/models/swe-2",
+      "domain": "tokenstead.ai",
+      "createdAt": "2026-09-10T16:52:11.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 53,
-          "comments": 66,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49641792"
+          "points": 58,
+          "comments": 25,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49646778"
         }
       ],
-      "normalized": 0.342,
-      "score": 1.258
+      "normalized": 0.467,
+      "score": 0.521
+    },
+    {
+      "id": "014159943e4d",
+      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+      "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+      "canonicalUrl": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+      "domain": "openai.com",
+      "createdAt": "2026-09-10T16:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.493
+    },
+    {
+      "id": "4d4e7920d8a7",
+      "title": "Now everyone can put data to work",
+      "url": "https://openai.com/index/put-data-to-work",
+      "canonicalUrl": "https://openai.com/index/put-data-to-work",
+      "domain": "openai.com",
+      "createdAt": "2026-09-10T15:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.432
+    },
+    {
+      "id": "7cd2a818144f",
+      "title": "Anthropic CEOs wife once asked Epstein to fund porn venture – now steers Claude",
+      "url": "https://nypost.com/2026/08/14/business/anthropic-ceos-wife-once-asked-jeffrey-epstein-to-fund-porn-venture-now-she-helps-steer-the-claude-ai-empire/",
+      "canonicalUrl": "https://nypost.com/2026/08/14/business/anthropic-ceos-wife-once-asked-jeffrey-epstein-to-fund-porn-venture-now-she-helps-steer-the-claude-ai-empire",
+      "domain": "nypost.com",
+      "createdAt": "2026-09-10T22:38:00.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 27,
+          "comments": 1,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49651084"
+        }
+      ],
+      "normalized": 0.121,
+      "score": 0.431
+    },
+    {
+      "id": "9a794a67f5e3",
+      "title": "AI Is Breaking This Thing We Call Trust",
+      "url": "https://terriblesoftware.org/2026/09/10/ai-is-breaking-this-thing-we-call-trust/",
+      "canonicalUrl": "https://terriblesoftware.org/2026/09/10/ai-is-breaking-this-thing-we-call-trust",
+      "domain": "terriblesoftware.org",
+      "createdAt": "2026-09-10T14:21:20.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 65,
+          "comments": 18,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49644179"
+        }
+      ],
+      "normalized": 0.527,
+      "score": 0.42
+    },
+    {
+      "id": "782d6bbf2b52",
+      "title": "More questions about whether researchers can trust OpenAI with unpublished math",
+      "url": "https://mathstodon.xyz/@andreasthom/117240535270608201",
+      "canonicalUrl": "https://mathstodon.xyz/@andreasthom/117240535270608201",
+      "domain": "mathstodon.xyz",
+      "createdAt": "2026-09-10T06:49:43.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 714,
+          "comments": 652,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49639408"
+        }
+      ],
+      "normalized": 0.97,
+      "score": 0.366
     },
     {
       "id": "c599ab837d38",
@@ -95,196 +284,7 @@
         }
       ],
       "normalized": 0.966,
-      "score": 1.21
-    },
-    {
-      "id": "dd00e65b9013",
-      "title": "OpenAI might have stolen another major proof",
-      "url": "https://twitter.com/ValerioCapraro/status/2097791836269977996",
-      "canonicalUrl": "https://twitter.com/ValerioCapraro/status/2097791836269977996",
-      "domain": "twitter.com",
-      "createdAt": "2026-09-10T04:19:48.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 257,
-          "comments": 146,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49638353"
-        }
-      ],
-      "normalized": 0.846,
-      "score": 0.807
-    },
-    {
-      "id": "1ef5285e671d",
-      "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
-      "url": "https://openai.com/index/expanding-ai-access-us-government",
-      "canonicalUrl": "https://openai.com/index/expanding-ai-access-us-government",
-      "domain": "openai.com",
-      "createdAt": "2026-09-10T07:00:00.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 0.715
-    },
-    {
-      "id": "5e91daf3e9d8",
-      "title": "AI Doomlord Jacob Coxon's Media Tour Has Begun",
-      "url": "https://gizmodo.com/ai-doomlord-jacob-coxons-media-tour-has-begun-2000809720",
-      "canonicalUrl": "https://gizmodo.com/ai-doomlord-jacob-coxons-media-tour-has-begun-2000809720",
-      "domain": "gizmodo.com",
-      "createdAt": "2026-09-10T13:21:50.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 20,
-          "comments": 15,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49643299"
-        }
-      ],
-      "normalized": 0.079,
-      "score": 0.591
-    },
-    {
-      "id": "06078bcf1a85",
-      "title": "OpenAI have no mathematicians capable of understanding what they put out",
-      "url": "https://mastodon.social/@tristanbuckmaster/117237555794407063",
-      "canonicalUrl": "https://mastodon.social/@tristanbuckmaster/117237555794407063",
-      "domain": "mastodon.social",
-      "createdAt": "2026-09-10T05:01:50.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 79,
-          "comments": 39,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49638622"
-        }
-      ],
-      "normalized": 0.557,
-      "score": 0.586
-    },
-    {
-      "id": "237d53432c29",
-      "title": "Show-Harness: Just a VLM Agent Can Play Robots",
-      "url": "https://arxiv.org/abs/2609.10522",
-      "canonicalUrl": "https://arxiv.org/abs/2609.10522",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-10T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 54,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.10522"
-        }
-      ],
-      "normalized": 0.962,
-      "score": 0.551
-    },
-    {
-      "id": "6572f7849d15",
-      "title": "Programmable World Model",
-      "url": "https://arxiv.org/abs/2609.10540",
-      "canonicalUrl": "https://arxiv.org/abs/2609.10540",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-10T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 40,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.10540"
-        }
-      ],
-      "normalized": 0.923,
-      "score": 0.53
-    },
-    {
-      "id": "0f95e7fdab23",
-      "title": "AgentGrad: Intervention-guided Prompt Optimization for Multi Agent Systems",
-      "url": "https://arxiv.org/abs/2609.08572",
-      "canonicalUrl": "https://arxiv.org/abs/2609.08572",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-10T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 27,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.08572"
-        }
-      ],
-      "normalized": 0.885,
-      "score": 0.508
-    },
-    {
-      "id": "90ccc71664bd",
-      "title": "WearableQA: A Benchmark for Health Reasoning over Real-World Wearable Data",
-      "url": "https://arxiv.org/abs/2609.05405",
-      "canonicalUrl": "https://arxiv.org/abs/2609.05405",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-10T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 26,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.05405"
-        }
-      ],
-      "normalized": 0.846,
-      "score": 0.486
-    },
-    {
-      "id": "cf374b609ab6",
-      "title": "Training a 3.8B LLM to 0.384 CORE for $998",
-      "url": "https://hugovergnes.github.io/little-lm-3-8b/",
-      "canonicalUrl": "https://hugovergnes.github.io/little-lm-3-8b",
-      "domain": "hugovergnes.github.io",
-      "createdAt": "2026-09-10T02:04:11.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 100,
-          "comments": 15,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49637435"
-        }
-      ],
-      "normalized": 0.644,
-      "score": 0.463
-    },
-    {
-      "id": "2ddfc065a5f5",
-      "title": "SWE-Bench Pro Verified: A Reliable Benchmark for Software Engineering Agents",
-      "url": "https://arxiv.org/abs/2609.08149",
-      "canonicalUrl": "https://arxiv.org/abs/2609.08149",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-10T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 17,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.08149"
-        }
-      ],
-      "normalized": 0.808,
-      "score": 0.463
+      "score": 0.347
     }
   ]
 }
