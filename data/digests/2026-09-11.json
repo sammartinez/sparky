@@ -1,0 +1,292 @@
+{
+  "date": "2026-09-11",
+  "generatedAt": "2026-09-11T15:00:10.125Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "9af4424a05ab",
+      "title": "Ask HN: Can we please limit the AI news flood?",
+      "url": "https://news.ycombinator.com/item?id=49657850",
+      "canonicalUrl": "https://news.ycombinator.com/item?id=49657850",
+      "domain": "news.ycombinator.com",
+      "createdAt": "2026-09-11T13:11:04.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 383,
+          "comments": 209,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49657850"
+        }
+      ],
+      "normalized": 0.891,
+      "score": 7.993
+    },
+    {
+      "id": "aadadfed43e1",
+      "title": "The Waymo effect: how AI is quietly making research less collaborative",
+      "url": "https://www.researchagenda.news/articles/the-waymo-effect.html",
+      "canonicalUrl": "https://researchagenda.news/articles/the-waymo-effect.html",
+      "domain": "researchagenda.news",
+      "createdAt": "2026-09-11T11:17:50.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 240,
+          "comments": 191,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49656496"
+        }
+      ],
+      "normalized": 0.783,
+      "score": 3.407
+    },
+    {
+      "id": "8e10c98735ba",
+      "title": "Claude is no longer available for minors",
+      "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
+      "canonicalUrl": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
+      "domain": "support.claude.com",
+      "createdAt": "2026-09-11T10:48:00.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 249,
+          "comments": 332,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49656225"
+        }
+      ],
+      "normalized": 0.806,
+      "score": 3.018
+    },
+    {
+      "id": "b19b71063ad7",
+      "title": "RTK reports token savings, but our cost benchmarks disagree",
+      "url": "https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/",
+      "canonicalUrl": "https://quesma.com/blog/does-rtk-make-ai-coding-cheaper",
+      "domain": "quesma.com",
+      "createdAt": "2026-09-11T11:15:13.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 76,
+          "comments": 45,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49656471"
+        }
+      ],
+      "normalized": 0.535,
+      "score": 2.296
+    },
+    {
+      "id": "72f0aa59f1a5",
+      "title": "Resist \"AI\"",
+      "url": "https://ronjeffries.com/articles/-v026/x/t/",
+      "canonicalUrl": "https://ronjeffries.com/articles/-v026/x/t",
+      "domain": "ronjeffries.com",
+      "createdAt": "2026-09-11T10:19:59.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 58,
+          "comments": 148,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49656033"
+        }
+      ],
+      "normalized": 0.442,
+      "score": 1.452
+    },
+    {
+      "id": "da668dee4252",
+      "title": "Moonshot serves Claude instead of Kimi and collects exchanges for model training",
+      "url": "https://twitter.com/DavidAgranovich/status/2098168522862215449",
+      "canonicalUrl": "https://twitter.com/DavidAgranovich/status/2098168522862215449",
+      "domain": "twitter.com",
+      "createdAt": "2026-09-11T11:36:24.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 44,
+          "comments": 44,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49656698"
+        }
+      ],
+      "normalized": 0.279,
+      "score": 1.343
+    },
+    {
+      "id": "81b2539a814e",
+      "title": "EvoSafeHarness: Evolving Model- and Domain-Specific Harnesses for Securing Agents",
+      "url": "https://arxiv.org/abs/2609.05903",
+      "canonicalUrl": "https://arxiv.org/abs/2609.05903",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-11T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 35,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.05903"
+        }
+      ],
+      "normalized": 0.789,
+      "score": 0.481
+    },
+    {
+      "id": "4e410dad70fb",
+      "title": "GPT‑Live‑1 in the API",
+      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
+      "canonicalUrl": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "domain": "openai.com",
+      "createdAt": "2026-09-11T05:45:19.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 51,
+          "comments": 51,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49653985"
+        }
+      ],
+      "normalized": 0.364,
+      "score": 0.467
+    },
+    {
+      "id": "9fc3fc8f9f67",
+      "title": "Mi-Ripple: Restoring Images Degraded by Iterative AI Editing",
+      "url": "https://arxiv.org/abs/2609.11317",
+      "canonicalUrl": "https://arxiv.org/abs/2609.11317",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-11T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 18,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.11317"
+        }
+      ],
+      "normalized": 0.737,
+      "score": 0.449
+    },
+    {
+      "id": "e3ce0c5d8f67",
+      "title": "The Gemini app is now available for Windows",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/",
+      "canonicalUrl": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows",
+      "domain": "blog.google",
+      "createdAt": "2026-09-11T04:52:20.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 53,
+          "comments": 42,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49653699"
+        }
+      ],
+      "normalized": 0.388,
+      "score": 0.434
+    },
+    {
+      "id": "1d97ae14cc50",
+      "title": "X-AuT: Progressive Audio-Encoder Compression for Speech LLMs with Cross-Scale Distillation",
+      "url": "https://arxiv.org/abs/2609.11412",
+      "canonicalUrl": "https://arxiv.org/abs/2609.11412",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-11T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 12,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.11412"
+        }
+      ],
+      "normalized": 0.684,
+      "score": 0.417
+    },
+    {
+      "id": "aaedeeafef03",
+      "title": "TempCloze: Can Video-LLMs Identify the Missing Middle?",
+      "url": "https://arxiv.org/abs/2609.01515",
+      "canonicalUrl": "https://arxiv.org/abs/2609.01515",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-11T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 6,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.01515"
+        }
+      ],
+      "normalized": 0.579,
+      "score": 0.353
+    },
+    {
+      "id": "f564d1b52ffc",
+      "title": "FreeFlow: A Bias-free Hierarchical Transformer for Optical Flow Estimation",
+      "url": "https://arxiv.org/abs/2609.11486",
+      "canonicalUrl": "https://arxiv.org/abs/2609.11486",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-11T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 5,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.11486"
+        }
+      ],
+      "normalized": 0.474,
+      "score": 0.289
+    },
+    {
+      "id": "2fd09dfe90b0",
+      "title": "We Replaced MMAP with Io_uring in Our Rust Query Engine. It Got Slower",
+      "url": "https://www.conviva.ai/resource/we-replaced-mmap-with-io_uring-in-our-rust-query-engine-it-got-slower/",
+      "canonicalUrl": "https://conviva.ai/resource/we-replaced-mmap-with-io_uring-in-our-rust-query-engine-it-got-slower",
+      "domain": "conviva.ai",
+      "createdAt": "2026-09-11T05:26:58.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 40,
+          "comments": 22,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49653882"
+        }
+      ],
+      "normalized": 0.209,
+      "score": 0.256
+    },
+    {
+      "id": "3ac6d38c56e7",
+      "title": "Anthropic Says Iran Used Its American AI Model to Target U.S. Navy Warships",
+      "url": "https://www.wsj.com/politics/national-security/anthropic-says-iran-used-its-american-ai-model-to-target-u-s-navy-warships-67583e05",
+      "canonicalUrl": "https://wsj.com/politics/national-security/anthropic-says-iran-used-its-american-ai-model-to-target-u-s-navy-warships-67583e05",
+      "domain": "wsj.com",
+      "createdAt": "2026-09-11T14:07:51.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 13,
+          "comments": 3,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49658682"
+        }
+      ],
+      "normalized": 0.016,
+      "score": 0.232
+    }
+  ]
+}
