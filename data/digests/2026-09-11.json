@@ -1,8 +1,209 @@
 {
   "date": "2026-09-11",
-  "generatedAt": "2026-09-11T15:36:48.529Z",
+  "generatedAt": "2026-09-12T03:07:59.027Z",
   "windowHours": 36,
   "stories": [
+    {
+      "id": "12e9dd685180",
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "canonicalUrl": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "domain": "openai.com",
+      "createdAt": "2026-09-14T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 14.359
+    },
+    {
+      "id": "bca45802c685",
+      "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
+      "url": "https://www.rubyhack.ai/",
+      "canonicalUrl": "https://rubyhack.ai/",
+      "domain": "rubyhack.ai",
+      "createdAt": "2026-09-11T23:17:42.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 407,
+          "comments": 238,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49666735"
+        },
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 26,
+          "comments": 3,
+          "discussionUrl": "https://lobste.rs/s/wajtsa/openai_agents_carried_out_undisclosed"
+        }
+      ],
+      "normalized": 0.926,
+      "score": 5.799
+    },
+    {
+      "id": "6481e999f333",
+      "title": "OpenAI agents attacked RubyGems back in May",
+      "url": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
+      "canonicalUrl": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems",
+      "domain": "simonwillison.net",
+      "createdAt": "2026-09-12T00:42:25.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Simon Willison",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 3.437
+    },
+    {
+      "id": "2d9c7158e6f8",
+      "title": "Feeling Sad about AI",
+      "url": "https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai/",
+      "canonicalUrl": "https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai",
+      "domain": "artificialworlds.net",
+      "createdAt": "2026-09-11T16:50:51.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 168,
+          "comments": 275,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49661506"
+        },
+        {
+          "source": "rss",
+          "label": "Simon Willison",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.747,
+      "score": 1.226
+    },
+    {
+      "id": "3f3cc1b7224e",
+      "title": "A misalignment of AI in mathematics",
+      "url": "https://mathandai.org/",
+      "canonicalUrl": "https://mathandai.org/",
+      "domain": "mathandai.org",
+      "createdAt": "2026-09-11T17:30:26.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 701,
+          "comments": 733,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49662371"
+        }
+      ],
+      "normalized": 0.963,
+      "score": 1.164
+    },
+    {
+      "id": "3d98c72f4ee4",
+      "title": "AI researchers debate how close we are to recursive self-improvement",
+      "url": "https://www.dwarkesh.com/p/john-beren-charlie",
+      "canonicalUrl": "https://dwarkesh.com/p/john-beren-charlie",
+      "domain": "dwarkesh.com",
+      "createdAt": "2026-09-11T21:35:29.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 58,
+          "comments": 39,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49665711"
+        }
+      ],
+      "normalized": 0.42,
+      "score": 1.105
+    },
+    {
+      "id": "f175196c5389",
+      "title": "How to Build an AI Software Factory: Agents That Open, Review, and Merge PRs",
+      "url": "https://www.firecrawl.dev/blog/ai-software-factory",
+      "canonicalUrl": "https://firecrawl.dev/blog/ai-software-factory",
+      "domain": "firecrawl.dev",
+      "createdAt": "2026-09-11T23:43:53.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 29,
+          "comments": 8,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49666960"
+        }
+      ],
+      "normalized": 0.179,
+      "score": 0.86
+    },
+    {
+      "id": "ba5e419a3910",
+      "title": "Top mathematicians are outraged by OpenAI's methods",
+      "url": "https://www.economist.com/science-and-technology/2026/09/11/top-mathematicians-are-outraged-by-openais-methods",
+      "canonicalUrl": "https://economist.com/science-and-technology/2026/09/11/top-mathematicians-are-outraged-by-openais-methods",
+      "domain": "economist.com",
+      "createdAt": "2026-09-11T18:07:08.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 90,
+          "comments": 20,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49662698"
+        }
+      ],
+      "normalized": 0.574,
+      "score": 0.765
+    },
+    {
+      "id": "7faa08912873",
+      "title": "Show HN: Hacker News, Without AI",
+      "url": "https://www.unslop.news/",
+      "canonicalUrl": "https://unslop.news/",
+      "domain": "unslop.news",
+      "createdAt": "2026-09-11T15:01:19.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 175,
+          "comments": 75,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49660783"
+        }
+      ],
+      "normalized": 0.778,
+      "score": 0.663
+    },
+    {
+      "id": "c9efb3dfa17c",
+      "title": "Bernie's AI bill proposes to sentence AI developers to 20 years in prison",
+      "url": "https://twitter.com/venturetwins/status/2098456905526211026",
+      "canonicalUrl": "https://twitter.com/venturetwins/status/2098456905526211026",
+      "domain": "twitter.com",
+      "createdAt": "2026-09-12T00:24:36.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 23,
+          "comments": 4,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49667253"
+        }
+      ],
+      "normalized": 0.105,
+      "score": 0.642
+    },
     {
       "id": "9af4424a05ab",
       "title": "Ask HN: Can we please limit the AI news flood?",
@@ -20,273 +221,82 @@
         }
       ],
       "normalized": 0.891,
-      "score": 6.12
+      "score": 0.61
     },
     {
-      "id": "8a5049d98b35",
-      "title": "HuggingFace: Security.txt",
-      "url": "https://huggingface.co/security.txt",
-      "canonicalUrl": "https://huggingface.co/security.txt",
-      "domain": "huggingface.co",
-      "createdAt": "2026-09-11T14:38:13.000Z",
+      "id": "b2e24dfd6d96",
+      "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
+      "url": "https://eiln.github.io/posts/ane.html",
+      "canonicalUrl": "https://eiln.github.io/posts/ane.html",
+      "domain": "eiln.github.io",
+      "createdAt": "2026-09-11T17:23:45.395Z",
       "appearances": [
         {
-          "source": "hn",
-          "label": "HN",
-          "points": 48,
-          "comments": 2,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49659245"
-        }
-      ],
-      "normalized": 0.318,
-      "score": 4.462
-    },
-    {
-      "id": "aadadfed43e1",
-      "title": "The Waymo effect: how AI is quietly making research less collaborative",
-      "url": "https://www.researchagenda.news/articles/the-waymo-effect.html",
-      "canonicalUrl": "https://researchagenda.news/articles/the-waymo-effect.html",
-      "domain": "researchagenda.news",
-      "createdAt": "2026-09-11T11:17:50.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 240,
-          "comments": 191,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49656496"
-        }
-      ],
-      "normalized": 0.783,
-      "score": 2.837
-    },
-    {
-      "id": "8e10c98735ba",
-      "title": "Claude is no longer available for minors",
-      "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
-      "canonicalUrl": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
-      "domain": "support.claude.com",
-      "createdAt": "2026-09-11T10:48:00.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 249,
-          "comments": 332,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49656225"
-        }
-      ],
-      "normalized": 0.806,
-      "score": 2.549
-    },
-    {
-      "id": "b19b71063ad7",
-      "title": "RTK reports token savings, but our cost benchmarks disagree",
-      "url": "https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/",
-      "canonicalUrl": "https://quesma.com/blog/does-rtk-make-ai-coding-cheaper",
-      "domain": "quesma.com",
-      "createdAt": "2026-09-11T11:15:13.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 76,
-          "comments": 45,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49656471"
-        }
-      ],
-      "normalized": 0.535,
-      "score": 1.915
-    },
-    {
-      "id": "72f0aa59f1a5",
-      "title": "Resist \"AI\"",
-      "url": "https://ronjeffries.com/articles/-v026/x/t/",
-      "canonicalUrl": "https://ronjeffries.com/articles/-v026/x/t",
-      "domain": "ronjeffries.com",
-      "createdAt": "2026-09-11T10:19:59.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 58,
-          "comments": 148,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49656033"
-        }
-      ],
-      "normalized": 0.442,
-      "score": 1.24
-    },
-    {
-      "id": "da668dee4252",
-      "title": "Moonshot serves Claude instead of Kimi and collects exchanges for model training",
-      "url": "https://twitter.com/DavidAgranovich/status/2098168522862215449",
-      "canonicalUrl": "https://twitter.com/DavidAgranovich/status/2098168522862215449",
-      "domain": "twitter.com",
-      "createdAt": "2026-09-11T11:36:24.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 44,
-          "comments": 44,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49656698"
-        }
-      ],
-      "normalized": 0.279,
-      "score": 1.107
-    },
-    {
-      "id": "81b2539a814e",
-      "title": "EvoSafeHarness: Evolving Model- and Domain-Specific Harnesses for Securing Agents",
-      "url": "https://arxiv.org/abs/2609.05903",
-      "canonicalUrl": "https://arxiv.org/abs/2609.05903",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-11T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 35,
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 3,
           "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.05903"
+          "discussionUrl": "https://lobste.rs/s/mzgtjg/retrospectively_reverse_engineering"
         }
       ],
-      "normalized": 0.789,
-      "score": 0.451
+      "normalized": 0.5,
+      "score": 0.594
     },
     {
-      "id": "4e410dad70fb",
-      "title": "GPT‑Live‑1 in the API",
-      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
-      "canonicalUrl": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "id": "b04c96053a96",
+      "title": "Hacker News with reduced priority for AI driven content",
+      "url": "https://sprinklz.io/public/pdwt4dve5uai",
+      "canonicalUrl": "https://sprinklz.io/public/pdwt4dve5uai",
+      "domain": "sprinklz.io",
+      "createdAt": "2026-09-11T15:52:49.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 111,
+          "comments": 54,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49660482"
+        }
+      ],
+      "normalized": 0.617,
+      "score": 0.589
+    },
+    {
+      "id": "c3aa33826442",
+      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+      "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+      "canonicalUrl": "https://openai.com/index/cognition-devin-testing-with-astra",
       "domain": "openai.com",
-      "createdAt": "2026-09-11T05:45:19.000Z",
+      "createdAt": "2026-09-11T16:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.485
+    },
+    {
+      "id": "cb8bebc1f85b",
+      "title": "Houthis used Anthropic to develop guided weapons",
+      "url": "https://www.washingtonpost.com/technology/2026/09/11/rebels-used-anthropics-ai-bot-develop-guided-weapons-report-says/",
+      "canonicalUrl": "https://washingtonpost.com/technology/2026/09/11/rebels-used-anthropics-ai-bot-develop-guided-weapons-report-says",
+      "domain": "washingtonpost.com",
+      "createdAt": "2026-09-11T22:44:03.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 51,
-          "comments": 51,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49653985"
+          "points": 27,
+          "comments": 7,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49666425"
         }
       ],
-      "normalized": 0.364,
-      "score": 0.425
-    },
-    {
-      "id": "9fc3fc8f9f67",
-      "title": "Mi-Ripple: Restoring Images Degraded by Iterative AI Editing",
-      "url": "https://arxiv.org/abs/2609.11317",
-      "canonicalUrl": "https://arxiv.org/abs/2609.11317",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-11T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 18,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.11317"
-        }
-      ],
-      "normalized": 0.737,
-      "score": 0.421
-    },
-    {
-      "id": "e3ce0c5d8f67",
-      "title": "The Gemini app is now available for Windows",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/",
-      "canonicalUrl": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows",
-      "domain": "blog.google",
-      "createdAt": "2026-09-11T04:52:20.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 53,
-          "comments": 42,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49653699"
-        }
-      ],
-      "normalized": 0.388,
-      "score": 0.397
-    },
-    {
-      "id": "1d97ae14cc50",
-      "title": "X-AuT: Progressive Audio-Encoder Compression for Speech LLMs with Cross-Scale Distillation",
-      "url": "https://arxiv.org/abs/2609.11412",
-      "canonicalUrl": "https://arxiv.org/abs/2609.11412",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-11T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 12,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.11412"
-        }
-      ],
-      "normalized": 0.684,
-      "score": 0.391
-    },
-    {
-      "id": "aaedeeafef03",
-      "title": "TempCloze: Can Video-LLMs Identify the Missing Middle?",
-      "url": "https://arxiv.org/abs/2609.01515",
-      "canonicalUrl": "https://arxiv.org/abs/2609.01515",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-11T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 6,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.01515"
-        }
-      ],
-      "normalized": 0.579,
-      "score": 0.331
-    },
-    {
-      "id": "f564d1b52ffc",
-      "title": "FreeFlow: A Bias-free Hierarchical Transformer for Optical Flow Estimation",
-      "url": "https://arxiv.org/abs/2609.11486",
-      "canonicalUrl": "https://arxiv.org/abs/2609.11486",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-11T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 5,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.11486"
-        }
-      ],
-      "normalized": 0.474,
-      "score": 0.271
-    },
-    {
-      "id": "2fd09dfe90b0",
-      "title": "We Replaced MMAP with Io_uring in Our Rust Query Engine. It Got Slower",
-      "url": "https://www.conviva.ai/resource/we-replaced-mmap-with-io_uring-in-our-rust-query-engine-it-got-slower/",
-      "canonicalUrl": "https://conviva.ai/resource/we-replaced-mmap-with-io_uring-in-our-rust-query-engine-it-got-slower",
-      "domain": "conviva.ai",
-      "createdAt": "2026-09-11T05:26:58.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 40,
-          "comments": 22,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49653882"
-        }
-      ],
-      "normalized": 0.209,
-      "score": 0.233
+      "normalized": 0.136,
+      "score": 0.481
     }
   ]
 }
