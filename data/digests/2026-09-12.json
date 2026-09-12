@@ -1,0 +1,297 @@
+{
+  "date": "2026-09-12",
+  "generatedAt": "2026-09-12T14:42:59.275Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "872f6ccc38a0",
+      "title": "The Worst Spam Emails: Inside iLands' AI Agent Hustle",
+      "url": "https://tedium.co/2026/09/11/ilands-agents-email-spam-kaixin-tang/",
+      "canonicalUrl": "https://tedium.co/2026/09/11/ilands-agents-email-spam-kaixin-tang",
+      "domain": "tedium.co",
+      "createdAt": "2026-09-12T11:13:38.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 57,
+          "comments": 26,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49671159"
+        }
+      ],
+      "normalized": 0.376,
+      "score": 1.754
+    },
+    {
+      "id": "eb0a77ad9716",
+      "title": "Altman tells staff OpenAI is open to slowing AI development",
+      "url": "https://www.reuters.com/business/altman-tells-staff-openai-is-open-slowing-ai-development-bloomberg-news-reports-2026-09-11/",
+      "canonicalUrl": "https://reuters.com/business/altman-tells-staff-openai-is-open-slowing-ai-development-bloomberg-news-reports-2026-09-11",
+      "domain": "reuters.com",
+      "createdAt": "2026-09-12T11:33:02.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 21,
+          "comments": 53,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49671274"
+        }
+      ],
+      "normalized": 0.113,
+      "score": 0.587
+    },
+    {
+      "id": "78d50da3d66b",
+      "title": "Google stole open source code without crediting the authors (Artemis/Minitap)",
+      "url": "https://www.minitap.ai/blog/i-expected-better-from-google",
+      "canonicalUrl": "https://minitap.ai/blog/i-expected-better-from-google",
+      "domain": "minitap.ai",
+      "createdAt": "2026-09-12T02:39:39.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 129,
+          "comments": 25,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49668181"
+        }
+      ],
+      "normalized": 0.669,
+      "score": 0.575
+    },
+    {
+      "id": "888e0f9f8bc7",
+      "title": "AI Is Powerful Enough to Crack Our Hardest Math Problems–and Kill Us All",
+      "url": "https://www.wsj.com/tech/ai/ai-math-millennium-prize-safety-openai-anthropic-05179825",
+      "canonicalUrl": "https://wsj.com/tech/ai/ai-math-millennium-prize-safety-openai-anthropic-05179825",
+      "domain": "wsj.com",
+      "createdAt": "2026-09-12T10:49:22.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 18,
+          "comments": 42,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49671043"
+        }
+      ],
+      "normalized": 0.09,
+      "score": 0.37
+    },
+    {
+      "id": "8a5049d98b35",
+      "title": "HuggingFace: Security.txt",
+      "url": "https://huggingface.co/security.txt",
+      "canonicalUrl": "https://huggingface.co/security.txt",
+      "domain": "huggingface.co",
+      "createdAt": "2026-09-11T14:38:13.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 266,
+          "comments": 68,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49659245"
+        },
+        {
+          "source": "rss",
+          "label": "Simon Willison",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.857,
+      "score": 0.363
+    },
+    {
+      "id": "8e10c98735ba",
+      "title": "Claude is only available to people over 18 years",
+      "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
+      "canonicalUrl": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
+      "domain": "support.claude.com",
+      "createdAt": "2026-09-11T10:48:00.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 656,
+          "comments": 633,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49656225"
+        }
+      ],
+      "normalized": 0.94,
+      "score": 0.207
+    },
+    {
+      "id": "aadadfed43e1",
+      "title": "The Waymo effect: how AI is quietly making research less collaborative",
+      "url": "https://www.researchagenda.news/articles/the-waymo-effect.html",
+      "canonicalUrl": "https://researchagenda.news/articles/the-waymo-effect.html",
+      "domain": "researchagenda.news",
+      "createdAt": "2026-09-11T11:17:50.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 327,
+          "comments": 299,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49656496"
+        }
+      ],
+      "normalized": 0.887,
+      "score": 0.202
+    },
+    {
+      "id": "b19b71063ad7",
+      "title": "RTK reports token savings, but our cost benchmarks disagree",
+      "url": "https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/",
+      "canonicalUrl": "https://quesma.com/blog/does-rtk-make-ai-coding-cheaper",
+      "domain": "quesma.com",
+      "createdAt": "2026-09-11T11:15:13.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 165,
+          "comments": 82,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49656471"
+        }
+      ],
+      "normalized": 0.752,
+      "score": 0.17
+    },
+    {
+      "id": "9aa53884c484",
+      "title": "At this point I feel like AI companies selling Fear",
+      "url": "https://news.ycombinator.com/item?id=49670907",
+      "canonicalUrl": "https://news.ycombinator.com/item?id=49670907",
+      "domain": "news.ycombinator.com",
+      "createdAt": "2026-09-12T10:26:40.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 13,
+          "comments": 6,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49670907"
+        }
+      ],
+      "normalized": 0.03,
+      "score": 0.11
+    },
+    {
+      "id": "c7d3c8aeae42",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "canonicalUrl": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "domain": "openai.com",
+      "createdAt": "2026-09-11T10:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.105
+    },
+    {
+      "id": "da668dee4252",
+      "title": "Moonshot serves Claude instead of Kimi and collects exchanges for model training",
+      "url": "https://twitter.com/DavidAgranovich/status/2098168522862215449",
+      "canonicalUrl": "https://twitter.com/DavidAgranovich/status/2098168522862215449",
+      "domain": "twitter.com",
+      "createdAt": "2026-09-11T11:36:24.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 60,
+          "comments": 67,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49656698"
+        }
+      ],
+      "normalized": 0.436,
+      "score": 0.101
+    },
+    {
+      "id": "72f0aa59f1a5",
+      "title": "Resist \"AI\"",
+      "url": "https://ronjeffries.com/articles/-v026/x/t/",
+      "canonicalUrl": "https://ronjeffries.com/articles/-v026/x/t",
+      "domain": "ronjeffries.com",
+      "createdAt": "2026-09-11T10:19:59.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 65,
+          "comments": 179,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49656033"
+        }
+      ],
+      "normalized": 0.466,
+      "score": 0.1
+    },
+    {
+      "id": "55dc4500d0ae",
+      "title": "They do think AI might kill everyone",
+      "url": "https://www.seangoedecke.com/they-really-do-think-ai-might-kill-everyone/",
+      "canonicalUrl": "https://seangoedecke.com/they-really-do-think-ai-might-kill-everyone",
+      "domain": "seangoedecke.com",
+      "createdAt": "2026-09-11T22:30:09.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 30,
+          "comments": 1,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49666267"
+        }
+      ],
+      "normalized": 0.18,
+      "score": 0.097
+    },
+    {
+      "id": "b1809f648cc9",
+      "title": "Ask HN: Did Google kill its enterprise workhorse model?",
+      "url": "https://news.ycombinator.com/item?id=49668196",
+      "canonicalUrl": "https://news.ycombinator.com/item?id=49668196",
+      "domain": "news.ycombinator.com",
+      "createdAt": "2026-09-12T02:41:49.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 19,
+          "comments": 10,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49668196"
+        }
+      ],
+      "normalized": 0.105,
+      "score": 0.091
+    },
+    {
+      "id": "f2dbaca85791",
+      "title": "GPT-6 built this earth exploration site in 5 prompts",
+      "url": "https://earth.ethanplus.ai/",
+      "canonicalUrl": "https://earth.ethanplus.ai/",
+      "domain": "earth.ethanplus.ai",
+      "createdAt": "2026-09-11T21:39:52.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 29,
+          "comments": 41,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49665756"
+        }
+      ],
+      "normalized": 0.158,
+      "score": 0.078
+    }
+  ]
+}
