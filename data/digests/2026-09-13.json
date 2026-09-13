@@ -1,0 +1,292 @@
+{
+  "date": "2026-09-13",
+  "generatedAt": "2026-09-13T15:22:48.546Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "4efa155e3cc9",
+      "title": "Astra and Fable still hack on simple variants of alignment evals from 2025",
+      "url": "https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment",
+      "canonicalUrl": "https://lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment",
+      "domain": "lesswrong.com",
+      "createdAt": "2026-09-13T14:28:36.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 32,
+          "comments": 4,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49684393"
+        }
+      ],
+      "normalized": 0.231,
+      "score": 3.388
+    },
+    {
+      "id": "3438201b9c6d",
+      "title": "AI models don't kill people – people kill people",
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/09/ai-models-dont-kill-people-people-kill-people/5295368",
+      "canonicalUrl": "https://theregister.com/ai-and-ml/2026/09/09/ai-models-dont-kill-people-people-kill-people/5295368",
+      "domain": "theregister.com",
+      "createdAt": "2026-09-13T13:33:34.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 33,
+          "comments": 47,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49683834"
+        }
+      ],
+      "normalized": 0.248,
+      "score": 2.22
+    },
+    {
+      "id": "d573bd571337",
+      "title": "Nvidia dismisses \"circular financing\", says every $1 it invests brings back $100",
+      "url": "https://invezz.com/news/2026/09/11/nvidia-says-every-1-it-invests-brings-back-100-so-why-does-the-stock-keep-falling/",
+      "canonicalUrl": "https://invezz.com/news/2026/09/11/nvidia-says-every-1-it-invests-brings-back-100-so-why-does-the-stock-keep-falling",
+      "domain": "invezz.com",
+      "createdAt": "2026-09-13T10:29:18.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 113,
+          "comments": 156,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49682319"
+        }
+      ],
+      "normalized": 0.709,
+      "score": 2.197
+    },
+    {
+      "id": "0bf7f2023fe1",
+      "title": "U.S. in Highest-Risk Category for Civil War, Coup, or Collapse in CIA Model",
+      "url": "https://cmarmitage.substack.com/p/scored-on-the-cias-instability-model",
+      "canonicalUrl": "https://cmarmitage.substack.com/p/scored-on-the-cias-instability-model",
+      "domain": "cmarmitage.substack.com",
+      "createdAt": "2026-09-13T11:26:48.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 38,
+          "comments": 30,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49682752"
+        }
+      ],
+      "normalized": 0.325,
+      "score": 1.317
+    },
+    {
+      "id": "702eef61acce",
+      "title": "Dramatic insider warnings over AI fall flat with some in Silicon Valley",
+      "url": "https://www.bbc.co.uk/news/articles/cq635037g18o",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cq635037g18o",
+      "domain": "bbc.co.uk",
+      "createdAt": "2026-09-13T08:07:36.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 28,
+          "comments": 65,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49681276"
+        }
+      ],
+      "normalized": 0.171,
+      "score": 0.312
+    },
+    {
+      "id": "508f5be49a33",
+      "title": "Anthropic CEO says AI swarm could 'take over the Internet' in 6-12 months",
+      "url": "https://venturebeat.com/security/anthropic-ceo-says-ai-swarm-could-take-over-the-entire-internet-in-6-12-months-commits-to-ai-slowdown-plan",
+      "canonicalUrl": "https://venturebeat.com/security/anthropic-ceo-says-ai-swarm-could-take-over-the-entire-internet-in-6-12-months-commits-to-ai-slowdown-plan",
+      "domain": "venturebeat.com",
+      "createdAt": "2026-09-13T03:25:32.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 39,
+          "comments": 29,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49679685"
+        }
+      ],
+      "normalized": 0.35,
+      "score": 0.305
+    },
+    {
+      "id": "13539bb38ca2",
+      "title": "Norton Neo Browser",
+      "url": "https://neobrowser.ai/",
+      "canonicalUrl": "https://neobrowser.ai/",
+      "domain": "neobrowser.ai",
+      "createdAt": "2026-09-13T09:07:59.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 25,
+          "comments": 46,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49681724"
+        }
+      ],
+      "normalized": 0.12,
+      "score": 0.268
+    },
+    {
+      "id": "872f6ccc38a0",
+      "title": "The worst spam emails: iLands AI agent hustle",
+      "url": "https://tedium.co/2026/09/11/ilands-agents-email-spam-kaixin-tang/",
+      "canonicalUrl": "https://tedium.co/2026/09/11/ilands-agents-email-spam-kaixin-tang",
+      "domain": "tedium.co",
+      "createdAt": "2026-09-12T11:13:38.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 116,
+          "comments": 55,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49671159"
+        }
+      ],
+      "normalized": 0.718,
+      "score": 0.156
+    },
+    {
+      "id": "d4adc7539c6b",
+      "title": "Why So Many AI Researchers Think the Machines Could Kill Everyone",
+      "url": "https://www.wired.com/story/why-so-many-ai-researchers-think-the-machines-could-kill-everyone/",
+      "canonicalUrl": "https://wired.com/story/why-so-many-ai-researchers-think-the-machines-could-kill-everyone",
+      "domain": "wired.com",
+      "createdAt": "2026-09-13T07:02:40.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 19,
+          "comments": 29,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49680858"
+        }
+      ],
+      "normalized": 0.085,
+      "score": 0.128
+    },
+    {
+      "id": "30714609d4e2",
+      "title": "Terrence Tao: AI Is Teaching Us Something Uncomfortable About Our Own Minds [video]",
+      "url": "https://www.youtube.com/watch?v=DRDoABHToEo",
+      "canonicalUrl": "https://youtube.com/watch?v=DRDoABHToEo",
+      "domain": "youtube.com",
+      "createdAt": "2026-09-13T04:41:13.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 16,
+          "comments": 6,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49680084"
+        }
+      ],
+      "normalized": 0.051,
+      "score": 0.053
+    },
+    {
+      "id": "5bf86a7f08d1",
+      "title": "Claude AIs tricked into unescapable conversation [beginning: Ctrl^F to \"AI 1\"]",
+      "url": "https://www.thisamericanlife.org/896/transcript",
+      "canonicalUrl": "https://thisamericanlife.org/896/transcript",
+      "domain": "thisamericanlife.org",
+      "createdAt": "2026-09-13T04:52:16.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 15,
+          "comments": 2,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49680142"
+        }
+      ],
+      "normalized": 0.043,
+      "score": 0.045
+    },
+    {
+      "id": "2bc30d4c50c7",
+      "title": "Void Linux Maintainer Orphans 100 Packages over AI Policy Dispute",
+      "url": "https://www.phoronix.com/news/Void-Linux-AI-Policy-Orphan",
+      "canonicalUrl": "https://phoronix.com/news/Void-Linux-AI-Policy-Orphan",
+      "domain": "phoronix.com",
+      "createdAt": "2026-09-12T19:49:12.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 20,
+          "comments": 16,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49676506"
+        }
+      ],
+      "normalized": 0.094,
+      "score": 0.037
+    },
+    {
+      "id": "06d5b87b5199",
+      "title": "Nobody wrote the Matrix and AI code-writing will be dead by 2036",
+      "url": "https://lufzle.dev/write/nobody-wrote-the-matrix/",
+      "canonicalUrl": "https://lufzle.dev/write/nobody-wrote-the-matrix",
+      "domain": "lufzle.dev",
+      "createdAt": "2026-09-12T23:59:22.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 16,
+          "comments": 7,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49678510"
+        }
+      ],
+      "normalized": 0.051,
+      "score": 0.03
+    },
+    {
+      "id": "eb0a77ad9716",
+      "title": "Altman tells staff OpenAI is open to slowing AI development",
+      "url": "https://www.reuters.com/business/altman-tells-staff-openai-is-open-slowing-ai-development-bloomberg-news-reports-2026-09-11/",
+      "canonicalUrl": "https://reuters.com/business/altman-tells-staff-openai-is-open-slowing-ai-development-bloomberg-news-reports-2026-09-11",
+      "domain": "reuters.com",
+      "createdAt": "2026-09-12T11:33:02.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 26,
+          "comments": 62,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49671274"
+        }
+      ],
+      "normalized": 0.128,
+      "score": 0.028
+    },
+    {
+      "id": "888e0f9f8bc7",
+      "title": "AI Is Powerful Enough to Crack Our Hardest Math Problems–and Kill Us All",
+      "url": "https://www.wsj.com/tech/ai/ai-math-millennium-prize-safety-openai-anthropic-05179825",
+      "canonicalUrl": "https://wsj.com/tech/ai/ai-math-millennium-prize-safety-openai-anthropic-05179825",
+      "domain": "wsj.com",
+      "createdAt": "2026-09-12T10:49:22.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 23,
+          "comments": 41,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49671043"
+        }
+      ],
+      "normalized": 0.111,
+      "score": 0.024
+    }
+  ]
+}
