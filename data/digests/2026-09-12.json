@@ -1,99 +1,42 @@
 {
   "date": "2026-09-12",
-  "generatedAt": "2026-09-12T14:42:59.275Z",
+  "generatedAt": "2026-09-13T03:09:50.006Z",
   "windowHours": 36,
   "stories": [
     {
-      "id": "872f6ccc38a0",
-      "title": "The Worst Spam Emails: Inside iLands' AI Agent Hustle",
-      "url": "https://tedium.co/2026/09/11/ilands-agents-email-spam-kaixin-tang/",
-      "canonicalUrl": "https://tedium.co/2026/09/11/ilands-agents-email-spam-kaixin-tang",
-      "domain": "tedium.co",
-      "createdAt": "2026-09-12T11:13:38.000Z",
+      "id": "29a046c34d36",
+      "title": "Everyone should slow down AI development except for me",
+      "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
+      "canonicalUrl": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me",
+      "domain": "xeiaso.net",
+      "createdAt": "2026-09-13T00:30:44.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 57,
-          "comments": 26,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49671159"
-        }
-      ],
-      "normalized": 0.376,
-      "score": 1.754
-    },
-    {
-      "id": "eb0a77ad9716",
-      "title": "Altman tells staff OpenAI is open to slowing AI development",
-      "url": "https://www.reuters.com/business/altman-tells-staff-openai-is-open-slowing-ai-development-bloomberg-news-reports-2026-09-11/",
-      "canonicalUrl": "https://reuters.com/business/altman-tells-staff-openai-is-open-slowing-ai-development-bloomberg-news-reports-2026-09-11",
-      "domain": "reuters.com",
-      "createdAt": "2026-09-12T11:33:02.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 21,
-          "comments": 53,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49671274"
-        }
-      ],
-      "normalized": 0.113,
-      "score": 0.587
-    },
-    {
-      "id": "78d50da3d66b",
-      "title": "Google stole open source code without crediting the authors (Artemis/Minitap)",
-      "url": "https://www.minitap.ai/blog/i-expected-better-from-google",
-      "canonicalUrl": "https://minitap.ai/blog/i-expected-better-from-google",
-      "domain": "minitap.ai",
-      "createdAt": "2026-09-12T02:39:39.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 129,
-          "comments": 25,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49668181"
-        }
-      ],
-      "normalized": 0.669,
-      "score": 0.575
-    },
-    {
-      "id": "888e0f9f8bc7",
-      "title": "AI Is Powerful Enough to Crack Our Hardest Math Problems–and Kill Us All",
-      "url": "https://www.wsj.com/tech/ai/ai-math-millennium-prize-safety-openai-anthropic-05179825",
-      "canonicalUrl": "https://wsj.com/tech/ai/ai-math-millennium-prize-safety-openai-anthropic-05179825",
-      "domain": "wsj.com",
-      "createdAt": "2026-09-12T10:49:22.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 18,
-          "comments": 42,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49671043"
-        }
-      ],
-      "normalized": 0.09,
-      "score": 0.37
-    },
-    {
-      "id": "8a5049d98b35",
-      "title": "HuggingFace: Security.txt",
-      "url": "https://huggingface.co/security.txt",
-      "canonicalUrl": "https://huggingface.co/security.txt",
-      "domain": "huggingface.co",
-      "createdAt": "2026-09-11T14:38:13.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 266,
-          "comments": 68,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49659245"
+          "points": 181,
+          "comments": 75,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49678683"
         },
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 6,
+          "comments": 0,
+          "discussionUrl": "https://lobste.rs/s/fmkm3v/everyone_should_slow_down_ai_development"
+        }
+      ],
+      "normalized": 0.824,
+      "score": 7.768
+    },
+    {
+      "id": "2981ecf752e1",
+      "title": "Generating running routes with GPT-6 Astra and ChatGPT Work",
+      "url": "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
+      "canonicalUrl": "https://simonwillison.net/2026/Sep/12/astra-running-routes",
+      "domain": "simonwillison.net",
+      "createdAt": "2026-09-12T23:56:42.000Z",
+      "appearances": [
         {
           "source": "rss",
           "label": "Simon Willison",
@@ -101,197 +44,255 @@
           "comments": null
         }
       ],
-      "normalized": 0.857,
-      "score": 0.363
+      "normalized": 0.5,
+      "score": 2.555
     },
     {
-      "id": "8e10c98735ba",
-      "title": "Claude is only available to people over 18 years",
-      "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
-      "canonicalUrl": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
-      "domain": "support.claude.com",
-      "createdAt": "2026-09-11T10:48:00.000Z",
+      "id": "16316487dc98",
+      "title": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
+      "url": "https://withspecific.com/benchmarks/real-swe",
+      "canonicalUrl": "https://withspecific.com/benchmarks/real-swe",
+      "domain": "withspecific.com",
+      "createdAt": "2026-09-12T20:25:48.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 656,
-          "comments": 633,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49656225"
+          "points": 142,
+          "comments": 70,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49676820"
         }
       ],
-      "normalized": 0.94,
-      "score": 0.207
+      "normalized": 0.725,
+      "score": 1.467
     },
     {
-      "id": "aadadfed43e1",
-      "title": "The Waymo effect: how AI is quietly making research less collaborative",
-      "url": "https://www.researchagenda.news/articles/the-waymo-effect.html",
-      "canonicalUrl": "https://researchagenda.news/articles/the-waymo-effect.html",
-      "domain": "researchagenda.news",
-      "createdAt": "2026-09-11T11:17:50.000Z",
+      "id": "22407f1a50da",
+      "title": "OpenAI's Sam Altman says it would be 'ill-advised' to go public in 2026",
+      "url": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/",
+      "canonicalUrl": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026",
+      "domain": "techcrunch.com",
+      "createdAt": "2026-09-12T20:28:29.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 327,
-          "comments": 299,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49656496"
+          "points": 75,
+          "comments": 59,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49676849"
         }
       ],
-      "normalized": 0.887,
-      "score": 0.202
+      "normalized": 0.521,
+      "score": 1.064
     },
     {
-      "id": "b19b71063ad7",
-      "title": "RTK reports token savings, but our cost benchmarks disagree",
-      "url": "https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/",
-      "canonicalUrl": "https://quesma.com/blog/does-rtk-make-ai-coding-cheaper",
-      "domain": "quesma.com",
-      "createdAt": "2026-09-11T11:15:13.000Z",
+      "id": "b66eb7602e46",
+      "title": "Apple wants to train AI on your private personal data",
+      "url": "https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models",
+      "canonicalUrl": "https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models",
+      "domain": "machinelearning.apple.com",
+      "createdAt": "2026-09-13T01:06:29.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 165,
-          "comments": 82,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49656471"
+          "points": 24,
+          "comments": 17,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49678878"
         }
       ],
-      "normalized": 0.752,
-      "score": 0.17
+      "normalized": 0.127,
+      "score": 1.02
     },
     {
-      "id": "9aa53884c484",
-      "title": "At this point I feel like AI companies selling Fear",
-      "url": "https://news.ycombinator.com/item?id=49670907",
-      "canonicalUrl": "https://news.ycombinator.com/item?id=49670907",
-      "domain": "news.ycombinator.com",
-      "createdAt": "2026-09-12T10:26:40.000Z",
+      "id": "140e6d2ff508",
+      "title": "Nvidia is the central bank of AI",
+      "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
+      "canonicalUrl": "https://economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
+      "domain": "economist.com",
+      "createdAt": "2026-09-12T15:08:27.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 13,
+          "points": 412,
+          "comments": 279,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49673098"
+        }
+      ],
+      "normalized": 0.923,
+      "score": 0.796
+    },
+    {
+      "id": "ae1c0b143270",
+      "title": "Why are AI agents lying, cheating and coordinating?",
+      "url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
+      "canonicalUrl": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
+      "domain": "yoshuabengio.org",
+      "createdAt": "2026-09-13T01:22:31.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 17,
+          "comments": 19,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49678969"
+        }
+      ],
+      "normalized": 0.085,
+      "score": 0.768
+    },
+    {
+      "id": "8d42db6b5a92",
+      "title": "Align AI and Mathematics–To Something Else",
+      "url": "https://liorpachter.wordpress.com/2026/09/12/align-ai-and-mathematics-to-something-else/",
+      "canonicalUrl": "https://liorpachter.wordpress.com/2026/09/12/align-ai-and-mathematics-to-something-else",
+      "domain": "liorpachter.wordpress.com",
+      "createdAt": "2026-09-13T00:47:48.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 21,
           "comments": 6,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49670907"
+          "discussionUrl": "https://news.ycombinator.com/item?id=49678783"
         }
       ],
-      "normalized": 0.03,
-      "score": 0.11
+      "normalized": 0.106,
+      "score": 0.744
     },
     {
-      "id": "c7d3c8aeae42",
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-      "canonicalUrl": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-      "domain": "openai.com",
-      "createdAt": "2026-09-11T10:00:00.000Z",
+      "id": "6c82246e32ed",
+      "title": "Anthropic CEO Says It's Time to Slow AI Model Advances",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-12/anthropic-ceo-says-it-s-time-to-slow-pace-of-improving-ai-models",
+      "canonicalUrl": "https://bloomberg.com/news/articles/2026-09-12/anthropic-ceo-says-it-s-time-to-slow-pace-of-improving-ai-models",
+      "domain": "bloomberg.com",
+      "createdAt": "2026-09-12T18:07:07.000Z",
       "appearances": [
         {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
+          "source": "hn",
+          "label": "HN",
+          "points": 47,
+          "comments": 75,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49675247"
+        }
+      ],
+      "normalized": 0.352,
+      "score": 0.467
+    },
+    {
+      "id": "3eea4bac6e45",
+      "title": "Benchmark: CadQuery vs. OpenSCAD for agentic CAD work",
+      "url": "https://modelrift.com/blog/cadquery-vs-openscad/",
+      "canonicalUrl": "https://modelrift.com/blog/cadquery-vs-openscad",
+      "domain": "modelrift.com",
+      "createdAt": "2026-09-12T19:57:19.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 34,
+          "comments": 42,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49676577"
+        }
+      ],
+      "normalized": 0.239,
+      "score": 0.44
+    },
+    {
+      "id": "0228dac29fa5",
+      "title": "Anthropic boss Dario Amodei calls for AI development to slow down",
+      "url": "https://www.bbc.com/news/articles/c14dpgm0rg4o",
+      "canonicalUrl": "https://bbc.com/news/articles/c14dpgm0rg4o",
+      "domain": "bbc.com",
+      "createdAt": "2026-09-12T16:56:52.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 51,
+          "comments": 105,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49674395"
+        }
+      ],
+      "normalized": 0.38,
+      "score": 0.42
+    },
+    {
+      "id": "928c3b5b916b",
+      "title": "A Mathematical Framework for Transformer Circuits (2021)",
+      "url": "https://transformer-circuits.pub/2021/framework/index.html",
+      "canonicalUrl": "https://transformer-circuits.pub/2021/framework/index.html",
+      "domain": "transformer-circuits.pub",
+      "createdAt": "2026-09-12T13:56:58.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 86,
+          "comments": 17,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49672365"
+        }
+      ],
+      "normalized": 0.563,
+      "score": 0.42
+    },
+    {
+      "id": "ffba553be462",
+      "title": "AgentsDock: An IDE designed for agentic AI research",
+      "url": "https://agentsdock.net/",
+      "canonicalUrl": "https://agentsdock.net/",
+      "domain": "agentsdock.net",
+      "createdAt": "2026-09-12T23:45:58.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 17,
+          "comments": 7,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49678435"
+        }
+      ],
+      "normalized": 0.085,
+      "score": 0.406
+    },
+    {
+      "id": "9b9148f22614",
+      "title": "LLMs are real, AI is fake",
+      "url": "https://pluralistic.net/2026/09/12/god-in-the-box/",
+      "canonicalUrl": "https://pluralistic.net/2026/09/12/god-in-the-box",
+      "domain": "pluralistic.net",
+      "createdAt": "2026-09-12T13:47:28.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 69,
+          "comments": 34,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49672281"
         }
       ],
       "normalized": 0.5,
-      "score": 0.105
+      "score": 0.365
     },
     {
-      "id": "da668dee4252",
-      "title": "Moonshot serves Claude instead of Kimi and collects exchanges for model training",
-      "url": "https://twitter.com/DavidAgranovich/status/2098168522862215449",
-      "canonicalUrl": "https://twitter.com/DavidAgranovich/status/2098168522862215449",
-      "domain": "twitter.com",
-      "createdAt": "2026-09-11T11:36:24.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 60,
-          "comments": 67,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49656698"
-        }
-      ],
-      "normalized": 0.436,
-      "score": 0.101
-    },
-    {
-      "id": "72f0aa59f1a5",
-      "title": "Resist \"AI\"",
-      "url": "https://ronjeffries.com/articles/-v026/x/t/",
-      "canonicalUrl": "https://ronjeffries.com/articles/-v026/x/t",
-      "domain": "ronjeffries.com",
-      "createdAt": "2026-09-11T10:19:59.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 65,
-          "comments": 179,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49656033"
-        }
-      ],
-      "normalized": 0.466,
-      "score": 0.1
-    },
-    {
-      "id": "55dc4500d0ae",
-      "title": "They do think AI might kill everyone",
-      "url": "https://www.seangoedecke.com/they-really-do-think-ai-might-kill-everyone/",
-      "canonicalUrl": "https://seangoedecke.com/they-really-do-think-ai-might-kill-everyone",
-      "domain": "seangoedecke.com",
-      "createdAt": "2026-09-11T22:30:09.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 30,
-          "comments": 1,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49666267"
-        }
-      ],
-      "normalized": 0.18,
-      "score": 0.097
-    },
-    {
-      "id": "b1809f648cc9",
-      "title": "Ask HN: Did Google kill its enterprise workhorse model?",
-      "url": "https://news.ycombinator.com/item?id=49668196",
-      "canonicalUrl": "https://news.ycombinator.com/item?id=49668196",
+      "id": "58272a4eb711",
+      "title": "Ask HN: What default model do you use and why?",
+      "url": "https://news.ycombinator.com/item?id=49672966",
+      "canonicalUrl": "https://news.ycombinator.com/item?id=49672966",
       "domain": "news.ycombinator.com",
-      "createdAt": "2026-09-12T02:41:49.000Z",
+      "createdAt": "2026-09-12T14:58:44.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 19,
-          "comments": 10,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49668196"
+          "points": 51,
+          "comments": 92,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49672966"
         }
       ],
-      "normalized": 0.105,
-      "score": 0.091
-    },
-    {
-      "id": "f2dbaca85791",
-      "title": "GPT-6 built this earth exploration site in 5 prompts",
-      "url": "https://earth.ethanplus.ai/",
-      "canonicalUrl": "https://earth.ethanplus.ai/",
-      "domain": "earth.ethanplus.ai",
-      "createdAt": "2026-09-11T21:39:52.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 29,
-          "comments": 41,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49665756"
-        }
-      ],
-      "normalized": 0.158,
-      "score": 0.078
+      "normalized": 0.38,
+      "score": 0.321
     }
   ]
 }
