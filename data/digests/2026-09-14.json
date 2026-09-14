@@ -1,45 +1,121 @@
 {
   "date": "2026-09-14",
-  "generatedAt": "2026-09-14T15:40:31.743Z",
+  "generatedAt": "2026-09-14T17:19:28.067Z",
   "windowHours": 36,
   "stories": [
     {
-      "id": "b27a5f35810c",
-      "title": "The AI job market in 2026",
-      "url": "https://www.ilinmaks.com/blog/en/ai-jobs-market-2026",
-      "canonicalUrl": "https://ilinmaks.com/blog/en/ai-jobs-market-2026",
-      "domain": "ilinmaks.com",
-      "createdAt": "2026-09-14T13:49:57.000Z",
+      "id": "8d67450b7e3e",
+      "title": "For AI leaders Doom is a form of hype",
+      "url": "https://erkansaka.net/2026/09/10/ai-doom-rhetoric-safety-hype/",
+      "canonicalUrl": "https://erkansaka.net/2026/09/10/ai-doom-rhetoric-safety-hype",
+      "domain": "erkansaka.net",
+      "createdAt": "2026-09-14T16:15:05.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 49,
-          "comments": 29,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49696867"
+          "points": 104,
+          "comments": 99,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49699384"
         }
       ],
-      "normalized": 0.456,
-      "score": 4.04
+      "normalized": 0.707,
+      "score": 9.366
     },
     {
-      "id": "dce815e05e9f",
-      "title": "What a time to be alive – rouge AI agents attack RubyGems.org",
-      "url": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/",
-      "canonicalUrl": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive",
-      "domain": "tenderlovemaking.com",
-      "createdAt": "2026-09-14T12:40:57.000Z",
+      "id": "733dec4c0876",
+      "title": "Claude is a Contrarian",
+      "url": "https://medium.com/@rdsubhas/claude-is-a-contrarian-dbce4de5cada",
+      "canonicalUrl": "https://medium.com/@rdsubhas/claude-is-a-contrarian-dbce4de5cada",
+      "domain": "medium.com",
+      "createdAt": "2026-09-14T16:14:24.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 94,
-          "comments": 128,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49695876"
+          "points": 56,
+          "comments": 51,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49699373"
         }
       ],
-      "normalized": 0.667,
-      "score": 3.689
+      "normalized": 0.509,
+      "score": 6.702
+    },
+    {
+      "id": "eae28ca795bf",
+      "title": "Anthropic tells investors it will be profitable for second straight quarter",
+      "url": "https://www.reuters.com/business/retail-consumer/anthropic-tells-investors-it-will-be-profitable-second-straight-quarter-ft-2026-09-13/",
+      "canonicalUrl": "https://reuters.com/business/retail-consumer/anthropic-tells-investors-it-will-be-profitable-second-straight-quarter-ft-2026-09-13",
+      "domain": "reuters.com",
+      "createdAt": "2026-09-14T15:47:29.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 43,
+          "comments": 55,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49698936"
+        }
+      ],
+      "normalized": 0.413,
+      "score": 4.26
+    },
+    {
+      "id": "d1c66e6e7b63",
+      "title": "China's Regulators Take Aim at \"AI Boyfriends\"",
+      "url": "https://spectrum.ieee.org/china-ai-chatbot-regulation",
+      "canonicalUrl": "https://spectrum.ieee.org/china-ai-chatbot-regulation",
+      "domain": "spectrum.ieee.org",
+      "createdAt": "2026-09-14T15:30:56.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 41,
+          "comments": 19,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49698664"
+        }
+      ],
+      "normalized": 0.377,
+      "score": 3.398
+    },
+    {
+      "id": "24959a7aef2f",
+      "title": "RubyGems Open Source Supply Chain Security and OpenAI",
+      "url": "https://rietta.com/blog/rubygems-supply-chain-openai/",
+      "canonicalUrl": "https://rietta.com/blog/rubygems-supply-chain-openai",
+      "domain": "rietta.com",
+      "createdAt": "2026-09-14T14:39:01.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 43,
+          "comments": 6,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49697666"
+        }
+      ],
+      "normalized": 0.413,
+      "score": 2.574
+    },
+    {
+      "id": "f1418371d4fa",
+      "title": "Foundation Model Engineering: From Theory to Production",
+      "url": "https://sungeuns.github.io/foundation-model-engineering/",
+      "canonicalUrl": "https://sungeuns.github.io/foundation-model-engineering",
+      "domain": "sungeuns.github.io",
+      "createdAt": "2026-09-14T15:27:48.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 35,
+          "comments": 3,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49698603"
+        }
+      ],
+      "normalized": 0.281,
+      "score": 2.473
     },
     {
       "id": "111e01d83a0d",
@@ -58,7 +134,64 @@
         }
       ],
       "normalized": 0.803,
-      "score": 3.555
+      "score": 2.242
+    },
+    {
+      "id": "dce815e05e9f",
+      "title": "What a time to be alive – rouge AI agents attack RubyGems.org",
+      "url": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/",
+      "canonicalUrl": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive",
+      "domain": "tenderlovemaking.com",
+      "createdAt": "2026-09-14T12:40:57.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 94,
+          "comments": 128,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49695876"
+        }
+      ],
+      "normalized": 0.667,
+      "score": 2.207
+    },
+    {
+      "id": "b27a5f35810c",
+      "title": "The AI job market in 2026",
+      "url": "https://www.ilinmaks.com/blog/en/ai-jobs-market-2026",
+      "canonicalUrl": "https://ilinmaks.com/blog/en/ai-jobs-market-2026",
+      "domain": "ilinmaks.com",
+      "createdAt": "2026-09-14T13:49:57.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 49,
+          "comments": 29,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49696867"
+        }
+      ],
+      "normalized": 0.456,
+      "score": 2.125
+    },
+    {
+      "id": "b00d39266ae9",
+      "title": "Hacking AI customer service agents",
+      "url": "https://www.intigriti.com/researchers/blog/hacking-tools/hacking-ai-customer-service-agents",
+      "canonicalUrl": "https://intigriti.com/researchers/blog/hacking-tools/hacking-ai-customer-service-agents",
+      "domain": "intigriti.com",
+      "createdAt": "2026-09-14T16:26:03.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 28,
+          "comments": 2,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49699526"
+        }
+      ],
+      "normalized": 0.132,
+      "score": 1.95
     },
     {
       "id": "98cab947ad65",
@@ -77,7 +210,44 @@
         }
       ],
       "normalized": 0.66,
-      "score": 2.922
+      "score": 1.843
+    },
+    {
+      "id": "e6d8c9e05318",
+      "title": "MIT creates method to force AI to comply with safety rules",
+      "url": "https://theframenews.org/en/hardflow-safety-critical-ai/",
+      "canonicalUrl": "https://theframenews.org/en/hardflow-safety-critical-ai",
+      "domain": "theframenews.org",
+      "createdAt": "2026-09-14T16:18:17.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 24,
+          "comments": 26,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49699434"
+        }
+      ],
+      "normalized": 0.108,
+      "score": 1.474
+    },
+    {
+      "id": "296d33defd03",
+      "title": "How Fyxer built an AI executive assistant people trust",
+      "url": "https://openai.com/index/fyxer",
+      "canonicalUrl": "https://openai.com/index/fyxer",
+      "domain": "openai.com",
+      "createdAt": "2026-09-14T12:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 1.388
     },
     {
       "id": "316b908f991a",
@@ -96,7 +266,7 @@
         }
       ],
       "normalized": 0.646,
-      "score": 1.85
+      "score": 1.276
     },
     {
       "id": "b401eeebb1cd",
@@ -115,178 +285,7 @@
         }
       ],
       "normalized": 0.714,
-      "score": 1.184
-    },
-    {
-      "id": "8d71a44d80d1",
-      "title": "Watch AI materials-science and bioscience abilities closely",
-      "url": "https://www.lesswrong.com/posts/SCtkSz4nQ9icLZ4uq/watch-ai-materials-science-and-bioscience-abilities-closely",
-      "canonicalUrl": "https://lesswrong.com/posts/SCtkSz4nQ9icLZ4uq/watch-ai-materials-science-and-bioscience-abilities-closely",
-      "domain": "lesswrong.com",
-      "createdAt": "2026-09-14T11:01:00.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 38,
-          "comments": 45,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49694871"
-        }
-      ],
-      "normalized": 0.34,
-      "score": 1.121
-    },
-    {
-      "id": "ea4e0ef977c9",
-      "title": "Who gets to define the rules for AI?",
-      "url": "https://cohere.com/blog/who-gets-to-define-the-rules-for-ai",
-      "canonicalUrl": "https://cohere.com/blog/who-gets-to-define-the-rules-for-ai",
-      "domain": "cohere.com",
-      "createdAt": "2026-09-14T04:49:51.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 46,
-          "comments": 36,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49692118"
-        }
-      ],
-      "normalized": 0.429,
-      "score": 0.433
-    },
-    {
-      "id": "a603eee034a1",
-      "title": "Adversarial Fashion Makes a Statement on AI Panopticon",
-      "url": "https://spectrum.ieee.org/adversarial-fashion",
-      "canonicalUrl": "https://spectrum.ieee.org/adversarial-fashion",
-      "domain": "spectrum.ieee.org",
-      "createdAt": "2026-09-14T14:04:53.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 16,
-          "comments": 2,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49697094"
-        }
-      ],
-      "normalized": 0.041,
-      "score": 0.408
-    },
-    {
-      "id": "ad2406c3ae0d",
-      "title": "Online Learning with LLM Experts from Limited Feedback",
-      "url": "https://arxiv.org/abs/2609.05820",
-      "canonicalUrl": "https://arxiv.org/abs/2609.05820",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-14T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 3,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.05820"
-        }
-      ],
-      "normalized": 0.444,
-      "score": 0.253
-    },
-    {
-      "id": "4efa155e3cc9",
-      "title": "Astra and Fable still hack on simple variants of alignment evals from 2025",
-      "url": "https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment",
-      "canonicalUrl": "https://lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment",
-      "domain": "lesswrong.com",
-      "createdAt": "2026-09-13T14:28:36.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 456,
-          "comments": 213,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49684393"
-        }
-      ],
-      "normalized": 0.959,
-      "score": 0.251
-    },
-    {
-      "id": "efe3d9dc5fdb",
-      "title": "AI Robots – When will they be in our homes",
-      "url": "https://spectrum.ieee.org/ai-robots",
-      "canonicalUrl": "https://spectrum.ieee.org/ai-robots",
-      "domain": "spectrum.ieee.org",
-      "createdAt": "2026-09-14T00:44:23.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 42,
-          "comments": 44,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49690411"
-        }
-      ],
-      "normalized": 0.395,
-      "score": 0.242
-    },
-    {
-      "id": "279516a4d7a5",
-      "title": "Beyond Top-k Skill Retrieval: Diversity-Aware Skill Routing for LLM Agents",
-      "url": "https://arxiv.org/abs/2609.05824",
-      "canonicalUrl": "https://arxiv.org/abs/2609.05824",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-14T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 2,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.05824"
-        }
-      ],
-      "normalized": 0.389,
-      "score": 0.221
-    },
-    {
-      "id": "adc99b3ca65a",
-      "title": "“Chilling” warning or overreaction? AI bioweapons report divides experts",
-      "url": "https://www.science.org/content/article/chilling-warning-or-overreaction-ai-bioweapons-report-divides-experts",
-      "canonicalUrl": "https://science.org/content/article/chilling-warning-or-overreaction-ai-bioweapons-report-divides-experts",
-      "domain": "science.org",
-      "createdAt": "2026-09-14T00:07:09.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 33,
-          "comments": 23,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49690139"
-        }
-      ],
-      "normalized": 0.259,
-      "score": 0.149
-    },
-    {
-      "id": "3438201b9c6d",
-      "title": "AI models don't kill people – people kill people",
-      "url": "https://www.theregister.com/ai-and-ml/2026/09/09/ai-models-dont-kill-people-people-kill-people/5295368",
-      "canonicalUrl": "https://theregister.com/ai-and-ml/2026/09/09/ai-models-dont-kill-people-people-kill-people/5295368",
-      "domain": "theregister.com",
-      "createdAt": "2026-09-13T13:33:34.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 50,
-          "comments": 69,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49683834"
-        }
-      ],
-      "normalized": 0.469,
-      "score": 0.116
+      "score": 0.894
     }
   ]
 }
