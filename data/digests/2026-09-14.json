@@ -1,8 +1,205 @@
 {
   "date": "2026-09-14",
-  "generatedAt": "2026-09-14T17:19:28.067Z",
+  "generatedAt": "2026-09-15T03:24:35.873Z",
   "windowHours": 36,
   "stories": [
+    {
+      "id": "78982575bcde",
+      "title": "Show HN: Sunk Cost – How long until a local LLM rig pays for itself?",
+      "url": "https://sunkcost.ai/",
+      "canonicalUrl": "https://sunkcost.ai/",
+      "domain": "sunkcost.ai",
+      "createdAt": "2026-09-15T01:37:43.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 38,
+          "comments": 68,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49706656"
+        }
+      ],
+      "normalized": 0.298,
+      "score": 2.719
+    },
+    {
+      "id": "de40f0fb83e3",
+      "title": "BVB: Benchmarking Agentic Video Understanding via Programmatic Reconstruction in Blender",
+      "url": "https://arxiv.org/abs/2609.15478",
+      "canonicalUrl": "https://arxiv.org/abs/2609.15478",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-15T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 7,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.15478"
+        }
+      ],
+      "normalized": 0.543,
+      "score": 2.6
+    },
+    {
+      "id": "6c819594980a",
+      "title": "Ex-FTC boss Khan: break out the handcuffs for AI CEOs, citing 1934 precedent",
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urges-uncle-sam-to-break-out-the-handcuffs-for-ai-ceos-citing-1934-precedent/5296325",
+      "canonicalUrl": "https://theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urges-uncle-sam-to-break-out-the-handcuffs-for-ai-ceos-citing-1934-precedent/5296325",
+      "domain": "theregister.com",
+      "createdAt": "2026-09-15T00:40:14.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 49,
+          "comments": 24,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49706223"
+        }
+      ],
+      "normalized": 0.424,
+      "score": 2.578
+    },
+    {
+      "id": "f9d6ba692805",
+      "title": "LLaDA-UI: Bringing Block-wise Diffusion to Vision-Language GUI Agents",
+      "url": "https://arxiv.org/abs/2609.13287",
+      "canonicalUrl": "https://arxiv.org/abs/2609.13287",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-15T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 5,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.13287"
+        }
+      ],
+      "normalized": 0.457,
+      "score": 2.189
+    },
+    {
+      "id": "c351e2f4c8b4",
+      "title": "Not All Prompts Are Equal: Exploration-Guided Prompt Scaffolding for Multimodal Reinforcement Post-Training",
+      "url": "https://arxiv.org/abs/2609.15051",
+      "canonicalUrl": "https://arxiv.org/abs/2609.15051",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-15T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 4,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.15051"
+        }
+      ],
+      "normalized": 0.429,
+      "score": 2.052
+    },
+    {
+      "id": "f35b9f6efb68",
+      "title": "A single firm is behind OpenAI, Anthropic, and Meta hacking scandals",
+      "url": "https://www.effort.news/irregular",
+      "canonicalUrl": "https://effort.news/irregular",
+      "domain": "effort.news",
+      "createdAt": "2026-09-14T21:15:01.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 91,
+          "comments": 33,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49704132"
+        }
+      ],
+      "normalized": 0.646,
+      "score": 1.478
+    },
+    {
+      "id": "82404ffdc91b",
+      "title": "GPT-5.6 Luna vs. GPT-6 Astra: Is a $1.20 Model Good Enough for Code Review?",
+      "url": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review",
+      "canonicalUrl": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review",
+      "domain": "entelligence.ai",
+      "createdAt": "2026-09-14T19:56:20.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 120,
+          "comments": 114,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49703003"
+        }
+      ],
+      "normalized": 0.753,
+      "score": 1.315
+    },
+    {
+      "id": "b93a7fb305d9",
+      "title": "Why don't machine learning research agents overfit?",
+      "url": "https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit",
+      "canonicalUrl": "https://amazon.science/blog/why-dont-machine-learning-research-agents-overfit",
+      "domain": "amazon.science",
+      "createdAt": "2026-09-14T16:32:23.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 111,
+          "comments": 61,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49699648"
+        },
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 0,
+          "comments": 0,
+          "discussionUrl": "https://lobste.rs/s/qv2enu/why_don_t_machine_learning_research"
+        }
+      ],
+      "normalized": 0.707,
+      "score": 1.067
+    },
+    {
+      "id": "310d4fd0496b",
+      "title": "Pion, an agent designed to run any company autonomously",
+      "url": "https://andonlabs.com/blog/why-we-built-pion",
+      "canonicalUrl": "https://andonlabs.com/blog/why-we-built-pion",
+      "domain": "andonlabs.com",
+      "createdAt": "2026-09-14T17:16:06.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 310,
+          "comments": 344,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49700477"
+        }
+      ],
+      "normalized": 0.914,
+      "score": 1.022
+    },
+    {
+      "id": "c51ed2920583",
+      "title": "Anthropic is in regulatory-capture financial loop",
+      "url": "https://twitter.com/kevinnbass/status/2099626156660043891",
+      "canonicalUrl": "https://twitter.com/kevinnbass/status/2099626156660043891",
+      "domain": "twitter.com",
+      "createdAt": "2026-09-14T23:23:46.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 34,
+          "comments": 8,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49705630"
+        }
+      ],
+      "normalized": 0.247,
+      "score": 0.98
+    },
     {
       "id": "8d67450b7e3e",
       "title": "For AI leaders Doom is a form of hype",
@@ -20,7 +217,64 @@
         }
       ],
       "normalized": 0.707,
-      "score": 9.366
+      "score": 0.683
+    },
+    {
+      "id": "f55afdd97887",
+      "title": "A Letter from a Machine Learning Engineer",
+      "url": "https://nemin.hu/llm-letter/index.html",
+      "canonicalUrl": "https://nemin.hu/llm-letter/index.html",
+      "domain": "nemin.hu",
+      "createdAt": "2026-09-14T17:58:22.527Z",
+      "appearances": [
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 7,
+          "comments": 0,
+          "discussionUrl": "https://lobste.rs/s/ta2ojd/letter_from_machine_learning_engineer"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.622
+    },
+    {
+      "id": "fd5457b4321c",
+      "title": "NEO Emacs – GPU-Accelerated Emacs Powered by Rust",
+      "url": "https://neomacs.org/",
+      "canonicalUrl": "https://neomacs.org/",
+      "domain": "neomacs.org",
+      "createdAt": "2026-09-14T19:42:22.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 44,
+          "comments": 56,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49702779"
+        }
+      ],
+      "normalized": 0.369,
+      "score": 0.617
+    },
+    {
+      "id": "85dba6e1f5c9",
+      "title": "Backprop Alternative: Augmented Lagrangian Predictive Coding",
+      "url": "https://pub.sakana.ai/pc-alm/",
+      "canonicalUrl": "https://pub.sakana.ai/pc-alm",
+      "domain": "pub.sakana.ai",
+      "createdAt": "2026-09-14T18:03:12.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 51,
+          "comments": 11,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49701182"
+        }
+      ],
+      "normalized": 0.449,
+      "score": 0.567
     },
     {
       "id": "733dec4c0876",
@@ -39,253 +293,7 @@
         }
       ],
       "normalized": 0.509,
-      "score": 6.702
-    },
-    {
-      "id": "eae28ca795bf",
-      "title": "Anthropic tells investors it will be profitable for second straight quarter",
-      "url": "https://www.reuters.com/business/retail-consumer/anthropic-tells-investors-it-will-be-profitable-second-straight-quarter-ft-2026-09-13/",
-      "canonicalUrl": "https://reuters.com/business/retail-consumer/anthropic-tells-investors-it-will-be-profitable-second-straight-quarter-ft-2026-09-13",
-      "domain": "reuters.com",
-      "createdAt": "2026-09-14T15:47:29.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 43,
-          "comments": 55,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49698936"
-        }
-      ],
-      "normalized": 0.413,
-      "score": 4.26
-    },
-    {
-      "id": "d1c66e6e7b63",
-      "title": "China's Regulators Take Aim at \"AI Boyfriends\"",
-      "url": "https://spectrum.ieee.org/china-ai-chatbot-regulation",
-      "canonicalUrl": "https://spectrum.ieee.org/china-ai-chatbot-regulation",
-      "domain": "spectrum.ieee.org",
-      "createdAt": "2026-09-14T15:30:56.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 41,
-          "comments": 19,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49698664"
-        }
-      ],
-      "normalized": 0.377,
-      "score": 3.398
-    },
-    {
-      "id": "24959a7aef2f",
-      "title": "RubyGems Open Source Supply Chain Security and OpenAI",
-      "url": "https://rietta.com/blog/rubygems-supply-chain-openai/",
-      "canonicalUrl": "https://rietta.com/blog/rubygems-supply-chain-openai",
-      "domain": "rietta.com",
-      "createdAt": "2026-09-14T14:39:01.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 43,
-          "comments": 6,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49697666"
-        }
-      ],
-      "normalized": 0.413,
-      "score": 2.574
-    },
-    {
-      "id": "f1418371d4fa",
-      "title": "Foundation Model Engineering: From Theory to Production",
-      "url": "https://sungeuns.github.io/foundation-model-engineering/",
-      "canonicalUrl": "https://sungeuns.github.io/foundation-model-engineering",
-      "domain": "sungeuns.github.io",
-      "createdAt": "2026-09-14T15:27:48.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 35,
-          "comments": 3,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49698603"
-        }
-      ],
-      "normalized": 0.281,
-      "score": 2.473
-    },
-    {
-      "id": "111e01d83a0d",
-      "title": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows",
-      "url": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/",
-      "canonicalUrl": "https://macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude",
-      "domain": "macrumors.com",
-      "createdAt": "2026-09-14T12:01:32.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 169,
-          "comments": 90,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49695409"
-        }
-      ],
-      "normalized": 0.803,
-      "score": 2.242
-    },
-    {
-      "id": "dce815e05e9f",
-      "title": "What a time to be alive – rouge AI agents attack RubyGems.org",
-      "url": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/",
-      "canonicalUrl": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive",
-      "domain": "tenderlovemaking.com",
-      "createdAt": "2026-09-14T12:40:57.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 94,
-          "comments": 128,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49695876"
-        }
-      ],
-      "normalized": 0.667,
-      "score": 2.207
-    },
-    {
-      "id": "b27a5f35810c",
-      "title": "The AI job market in 2026",
-      "url": "https://www.ilinmaks.com/blog/en/ai-jobs-market-2026",
-      "canonicalUrl": "https://ilinmaks.com/blog/en/ai-jobs-market-2026",
-      "domain": "ilinmaks.com",
-      "createdAt": "2026-09-14T13:49:57.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 49,
-          "comments": 29,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49696867"
-        }
-      ],
-      "normalized": 0.456,
-      "score": 2.125
-    },
-    {
-      "id": "b00d39266ae9",
-      "title": "Hacking AI customer service agents",
-      "url": "https://www.intigriti.com/researchers/blog/hacking-tools/hacking-ai-customer-service-agents",
-      "canonicalUrl": "https://intigriti.com/researchers/blog/hacking-tools/hacking-ai-customer-service-agents",
-      "domain": "intigriti.com",
-      "createdAt": "2026-09-14T16:26:03.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 28,
-          "comments": 2,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49699526"
-        }
-      ],
-      "normalized": 0.132,
-      "score": 1.95
-    },
-    {
-      "id": "98cab947ad65",
-      "title": "Show HN: Kinesis – Control your Mac with the Meta Neural Band",
-      "url": "https://github.com/callbacked/kinesis",
-      "canonicalUrl": "https://github.com/callbacked/kinesis",
-      "domain": "github.com",
-      "createdAt": "2026-09-14T12:01:31.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 86,
-          "comments": 26,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49695408"
-        }
-      ],
-      "normalized": 0.66,
-      "score": 1.843
-    },
-    {
-      "id": "e6d8c9e05318",
-      "title": "MIT creates method to force AI to comply with safety rules",
-      "url": "https://theframenews.org/en/hardflow-safety-critical-ai/",
-      "canonicalUrl": "https://theframenews.org/en/hardflow-safety-critical-ai",
-      "domain": "theframenews.org",
-      "createdAt": "2026-09-14T16:18:17.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 24,
-          "comments": 26,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49699434"
-        }
-      ],
-      "normalized": 0.108,
-      "score": 1.474
-    },
-    {
-      "id": "296d33defd03",
-      "title": "How Fyxer built an AI executive assistant people trust",
-      "url": "https://openai.com/index/fyxer",
-      "canonicalUrl": "https://openai.com/index/fyxer",
-      "domain": "openai.com",
-      "createdAt": "2026-09-14T12:00:00.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 1.388
-    },
-    {
-      "id": "316b908f991a",
-      "title": "Big AI sets out its terms for regulatory capture",
-      "url": "https://www.theregister.com/ai-and-ml/2026/09/14/big-ai-sets-out-its-terms-for-regulatory-capture-and-calls-it-pace-the-frontier/5296067",
-      "canonicalUrl": "https://theregister.com/ai-and-ml/2026/09/14/big-ai-sets-out-its-terms-for-regulatory-capture-and-calls-it-pace-the-frontier/5296067",
-      "domain": "theregister.com",
-      "createdAt": "2026-09-14T10:28:28.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 82,
-          "comments": 49,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49694596"
-        }
-      ],
-      "normalized": 0.646,
-      "score": 1.276
-    },
-    {
-      "id": "b401eeebb1cd",
-      "title": "OpenArch – PyTorch implementations of modern LLM architectures",
-      "url": "https://github.com/anuj0456/OpenArch",
-      "canonicalUrl": "https://github.com/anuj0456/OpenArch",
-      "domain": "github.com",
-      "createdAt": "2026-09-14T07:55:19.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 109,
-          "comments": 25,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49693384"
-        }
-      ],
-      "normalized": 0.714,
-      "score": 0.894
+      "score": 0.491
     }
   ]
 }
