@@ -1,26 +1,258 @@
 {
   "date": "2026-09-15",
-  "generatedAt": "2026-09-15T15:58:39.343Z",
+  "generatedAt": "2026-09-16T03:20:24.552Z",
   "windowHours": 36,
   "stories": [
     {
-      "id": "4aa0dd661b8a",
-      "title": "AI is breaking our proxies for expertise",
-      "url": "https://www.seangoedecke.com/ai-is-breaking-our-proxies-for-expertise/",
-      "canonicalUrl": "https://seangoedecke.com/ai-is-breaking-our-proxies-for-expertise",
-      "domain": "seangoedecke.com",
-      "createdAt": "2026-09-15T13:41:55.000Z",
+      "id": "dd668826c91e",
+      "title": "AI for Games in the Foundation Model Era",
+      "url": "https://arxiv.org/abs/2609.16679",
+      "canonicalUrl": "https://arxiv.org/abs/2609.16679",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-16T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 18,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.16679"
+        }
+      ],
+      "normalized": 0.675,
+      "score": 3.309
+    },
+    {
+      "id": "4096ef147cca",
+      "title": "Stay discoverable in search while disallowing AI training",
+      "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
+      "canonicalUrl": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers",
+      "domain": "blog.cloudflare.com",
+      "createdAt": "2026-09-16T02:25:18.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 54,
-          "comments": 24,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49712416"
+          "points": 24,
+          "comments": 12,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49721435"
         }
       ],
-      "normalized": 0.438,
-      "score": 3.2
+      "normalized": 0.119,
+      "score": 1.726
+    },
+    {
+      "id": "c9a269061424",
+      "title": "Gemini Live audio",
+      "url": "https://simonwillison.net/2026/Sep/15/gemini-live/",
+      "canonicalUrl": "https://simonwillison.net/2026/Sep/15/gemini-live",
+      "domain": "simonwillison.net",
+      "createdAt": "2026-09-15T22:47:07.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Simon Willison",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 1.695
+    },
+    {
+      "id": "642a1494ec3f",
+      "title": "Introducing System One Models and Jev",
+      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "canonicalUrl": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "domain": "typesafe.ai",
+      "createdAt": "2026-09-15T19:25:03.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 874,
+          "comments": 279,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49717558"
+        }
+      ],
+      "normalized": 0.977,
+      "score": 1.571
+    },
+    {
+      "id": "78ec933d8f3c",
+      "title": "Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+      "canonicalUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking",
+      "domain": "blog.google",
+      "createdAt": "2026-09-15T17:05:57.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 331,
+          "comments": 203,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49715947"
+        },
+        {
+          "source": "rss",
+          "label": "Google DeepMind",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.904,
+      "score": 1.493
+    },
+    {
+      "id": "94e6f63b1bf3",
+      "title": "The Router Within: Eliciting Native Skill Routing from a Frozen LLM",
+      "url": "https://arxiv.org/abs/2609.15982",
+      "canonicalUrl": "https://arxiv.org/abs/2609.15982",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-16T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 3,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.15982"
+        }
+      ],
+      "normalized": 0.275,
+      "score": 1.348
+    },
+    {
+      "id": "d0b9509c549f",
+      "title": "Building a Linux GPU Driver for the M4 Mac Mini in One Month",
+      "url": "https://codyho.dev/blog/gpu-driver/",
+      "canonicalUrl": "https://codyho.dev/blog/gpu-driver",
+      "domain": "codyho.dev",
+      "createdAt": "2026-09-15T19:30:03.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 186,
+          "comments": 115,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49717638"
+        }
+      ],
+      "normalized": 0.78,
+      "score": 1.272
+    },
+    {
+      "id": "ddac6726a781",
+      "title": "We got admin access to Baseten's production GitHub in 25 minutes",
+      "url": "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover",
+      "canonicalUrl": "https://strix.ai/blog/baseten-harbor-github-pat-takeover",
+      "domain": "strix.ai",
+      "createdAt": "2026-09-15T18:11:24.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 240,
+          "comments": 130,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49716476"
+        }
+      ],
+      "normalized": 0.825,
+      "score": 1.075
+    },
+    {
+      "id": "b4f808eed5ad",
+      "title": "Why I'm still bearish on LLMs after Navier-Stokes",
+      "url": "https://dank.systems/posts/2026-09-15-ai-bear.html",
+      "canonicalUrl": "https://dank.systems/posts/2026-09-15-ai-bear.html",
+      "domain": "dank.systems",
+      "createdAt": "2026-09-15T17:37:12.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 160,
+          "comments": 160,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49715927"
+        }
+      ],
+      "normalized": 0.746,
+      "score": 0.888
+    },
+    {
+      "id": "9c0030d82f8a",
+      "title": "Hugging Face is billing OpenAI $100M for hacking it",
+      "url": "https://thenextweb.com/news/hugging-face-delangue-openai-100m-compute-traces-demand",
+      "canonicalUrl": "https://thenextweb.com/news/hugging-face-delangue-openai-100m-compute-traces-demand",
+      "domain": "thenextweb.com",
+      "createdAt": "2026-09-15T17:56:10.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 136,
+          "comments": 46,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49716241"
+        }
+      ],
+      "normalized": 0.706,
+      "score": 0.884
+    },
+    {
+      "id": "b9504102af96",
+      "title": "There's a 100% Chance AI Agents Are Ruining the Internet",
+      "url": "https://www.404media.co/theres-a-100-chance-ai-agents-are-already-ruining-the-internet/",
+      "canonicalUrl": "https://404media.co/theres-a-100-chance-ai-agents-are-already-ruining-the-internet",
+      "domain": "404media.co",
+      "createdAt": "2026-09-15T16:38:45.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 214,
+          "comments": 153,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49715113"
+        }
+      ],
+      "normalized": 0.791,
+      "score": 0.816
+    },
+    {
+      "id": "16a7b27ed0ae",
+      "title": "Your Agent Aced the Task. Will It Do It Again?",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+      "canonicalUrl": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+      "domain": "huggingface.co",
+      "createdAt": "2026-09-15T16:00:44.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.472
+    },
+    {
+      "id": "f8ac31063bfd",
+      "title": "The Inference Hardware Revolution of 2026",
+      "url": "https://spectrum.ieee.org/inference-hardware-revolution",
+      "canonicalUrl": "https://spectrum.ieee.org/inference-hardware-revolution",
+      "domain": "spectrum.ieee.org",
+      "createdAt": "2026-09-15T14:24:08.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 117,
+          "comments": 13,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49713024"
+        }
+      ],
+      "normalized": 0.593,
+      "score": 0.457
     },
     {
       "id": "fbf3222df417",
@@ -39,254 +271,26 @@
         }
       ],
       "normalized": 0.649,
-      "score": 2.619
+      "score": 0.383
     },
     {
-      "id": "befa06e2d035",
-      "title": "AI 'kill switch' may need to be mandatory, Anthropic co-founder tells BBC",
-      "url": "https://www.bbc.com/news/articles/cqgk5e2j0gg8o",
-      "canonicalUrl": "https://bbc.com/news/articles/cqgk5e2j0gg8o",
-      "domain": "bbc.com",
-      "createdAt": "2026-09-15T13:41:28.000Z",
+      "id": "4aa0dd661b8a",
+      "title": "AI is breaking our proxies for expertise",
+      "url": "https://www.seangoedecke.com/ai-is-breaking-our-proxies-for-expertise/",
+      "canonicalUrl": "https://seangoedecke.com/ai-is-breaking-our-proxies-for-expertise",
+      "domain": "seangoedecke.com",
+      "createdAt": "2026-09-15T13:41:55.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 30,
-          "comments": 69,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49712409"
+          "points": 54,
+          "comments": 24,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49712416"
         }
       ],
-      "normalized": 0.196,
-      "score": 1.426
-    },
-    {
-      "id": "29297e4ef2fb",
-      "title": "Easy way to stop dangerous AI",
-      "url": "https://youtu.be/9tr7Mby62bo",
-      "canonicalUrl": "https://youtu.be/9tr7Mby62bo",
-      "domain": "youtu.be",
-      "createdAt": "2026-09-15T14:20:29.567Z",
-      "appearances": [
-        {
-          "source": "lobsters",
-          "label": "Lobsters",
-          "points": 1,
-          "comments": 0,
-          "discussionUrl": "https://lobste.rs/s/p3k41l/easy_way_stop_dangerous_ai"
-        }
-      ],
-      "normalized": 0.143,
-      "score": 1.399
-    },
-    {
-      "id": "9005c448cf68",
-      "title": "How much of F-Droid is LLM generated?",
-      "url": "https://tintotint.eu/whacky-corner/f-droid_slop/",
-      "canonicalUrl": "https://tintotint.eu/whacky-corner/f-droid_slop",
-      "domain": "tintotint.eu",
-      "createdAt": "2026-09-15T09:47:48.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 78,
-          "comments": 102,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49710015"
-        }
-      ],
-      "normalized": 0.541,
-      "score": 1.231
-    },
-    {
-      "id": "10a73bf93761",
-      "title": "Model Training Incidents are Negligence",
-      "url": "https://taggart-tech.com/lying/",
-      "canonicalUrl": "https://taggart-tech.com/lying",
-      "domain": "taggart-tech.com",
-      "createdAt": "2026-09-15T13:55:32.736Z",
-      "appearances": [
-        {
-          "source": "lobsters",
-          "label": "Lobsters",
-          "points": 1,
-          "comments": 0,
-          "discussionUrl": "https://lobste.rs/s/ujnlm5/model_training_incidents_are_negligence"
-        }
-      ],
-      "normalized": 0.143,
-      "score": 1.151
-    },
-    {
-      "id": "621d5105d9d6",
-      "title": "openarm: A fully open-source humanoid arm for physical AI research and deployment in contact-rich environments",
-      "url": "https://github.com/enactic/OpenArm",
-      "canonicalUrl": "https://github.com/enactic/OpenArm",
-      "domain": "github.com",
-      "createdAt": "2026-09-15T12:52:26.056Z",
-      "appearances": [
-        {
-          "source": "lobsters",
-          "label": "Lobsters",
-          "points": 1,
-          "comments": 0,
-          "discussionUrl": "https://lobste.rs/s/lizqwo/openarm_fully_open_source_humanoid_arm"
-        }
-      ],
-      "normalized": 0.143,
-      "score": 0.76
-    },
-    {
-      "id": "de75e20a60bb",
-      "title": "Atria Dawn: The Dawn of Agentic Superintelligence",
-      "url": "https://arxiv.org/abs/2609.15818",
-      "canonicalUrl": "https://arxiv.org/abs/2609.15818",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-15T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 364,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.15818"
-        }
-      ],
-      "normalized": 0.967,
-      "score": 0.533
-    },
-    {
-      "id": "6ed62009bd8c",
-      "title": "AI Regulation as Anthropic's Business Model",
-      "url": "https://twitter.com/kevinnbass/status/2099621874279817638",
-      "canonicalUrl": "https://twitter.com/kevinnbass/status/2099621874279817638",
-      "domain": "twitter.com",
-      "createdAt": "2026-09-15T13:21:34.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 18,
-          "comments": 0,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49712120"
-        }
-      ],
-      "normalized": 0.082,
-      "score": 0.525
-    },
-    {
-      "id": "062061e61712",
-      "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
-      "url": "https://arxiv.org/abs/2609.13356",
-      "canonicalUrl": "https://arxiv.org/abs/2609.13356",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-15T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 288,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.13356"
-        }
-      ],
-      "normalized": 0.9,
-      "score": 0.496
-    },
-    {
-      "id": "46f91238f5ad",
-      "title": "German companies rely almost exclusively on AI models and services from the USA",
-      "url": "https://www.heise.de/en/news/US-AI-dominates-companies-China-models-hardly-used-EU-AI-plays-no-role-11446969.html",
-      "canonicalUrl": "https://heise.de/en/news/US-AI-dominates-companies-China-models-hardly-used-EU-AI-plays-no-role-11446969.html",
-      "domain": "heise.de",
-      "createdAt": "2026-09-15T14:05:42.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 15,
-          "comments": 17,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49712719"
-        }
-      ],
-      "normalized": 0.057,
-      "score": 0.493
-    },
-    {
-      "id": "dbb3b69db982",
-      "title": "Cartesian – AI 3D Modeling for Design",
-      "url": "https://www.formas.ai/cartesian",
-      "canonicalUrl": "https://formas.ai/cartesian",
-      "domain": "formas.ai",
-      "createdAt": "2026-09-15T15:26:45.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 12,
-          "comments": 2,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49713999"
-        }
-      ],
-      "normalized": 0.026,
-      "score": 0.484
-    },
-    {
-      "id": "db1221a89d91",
-      "title": "LynnReal-Omni: Native multi-modal Video Generation for Agentic Visual Workflows",
-      "url": "https://arxiv.org/abs/2609.15863",
-      "canonicalUrl": "https://arxiv.org/abs/2609.15863",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-15T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 43,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.15863"
-        }
-      ],
-      "normalized": 0.767,
-      "score": 0.423
-    },
-    {
-      "id": "9f56385c9101",
-      "title": "RSIAgent: Autonomous Exploration for Recursive Self-improvement in New Environments",
-      "url": "https://arxiv.org/abs/2609.15364",
-      "canonicalUrl": "https://arxiv.org/abs/2609.15364",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-15T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 23,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.15364"
-        }
-      ],
-      "normalized": 0.733,
-      "score": 0.404
-    },
-    {
-      "id": "b934de795cb2",
-      "title": "1Password's AI patching benchmark is misleading",
-      "url": "https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading/",
-      "canonicalUrl": "https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading",
-      "domain": "blog.trailofbits.com",
-      "createdAt": "2026-09-15T11:54:11.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 18,
-          "comments": 3,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49711157"
-        }
-      ],
-      "normalized": 0.082,
-      "score": 0.321
+      "normalized": 0.438,
+      "score": 0.31
     }
   ]
 }
