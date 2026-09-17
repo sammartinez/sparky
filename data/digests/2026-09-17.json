@@ -1,0 +1,292 @@
+{
+  "date": "2026-09-17",
+  "generatedAt": "2026-09-17T15:57:05.022Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "bd4ec752fcc1",
+      "title": "I Don't Like LLMs",
+      "url": "https://martinfowler.com/articles/2026-dont-like-llms.html",
+      "canonicalUrl": "https://martinfowler.com/articles/2026-dont-like-llms.html",
+      "domain": "martinfowler.com",
+      "createdAt": "2026-09-17T13:57:07.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 98,
+          "comments": 133,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49740834"
+        }
+      ],
+      "normalized": 0.608,
+      "score": 5.019
+    },
+    {
+      "id": "727b4038bd97",
+      "title": "I had Gemini train its own replacement for $9",
+      "url": "https://www.petervijeh.com/projects/reddit-ner",
+      "canonicalUrl": "https://petervijeh.com/projects/reddit-ner",
+      "domain": "petervijeh.com",
+      "createdAt": "2026-09-17T13:17:16.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 81,
+          "comments": 35,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49740330"
+        }
+      ],
+      "normalized": 0.545,
+      "score": 3.412
+    },
+    {
+      "id": "3f594670663f",
+      "title": "Show HN: Share your AI Setup, Learn from others",
+      "url": "https://mysetup.ai/",
+      "canonicalUrl": "https://mysetup.ai/",
+      "domain": "mysetup.ai",
+      "createdAt": "2026-09-17T13:01:44.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 36,
+          "comments": 17,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49740105"
+        }
+      ],
+      "normalized": 0.28,
+      "score": 1.588
+    },
+    {
+      "id": "96e95b323f03",
+      "title": "GLM Built Its Own Inference Infrastructure",
+      "url": "https://z.ai/blog/glm-built-its-inference-infrastructure",
+      "canonicalUrl": "https://z.ai/blog/glm-built-its-inference-infrastructure",
+      "domain": "z.ai",
+      "createdAt": "2026-09-17T08:27:09.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 224,
+          "comments": 176,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49737922"
+        }
+      ],
+      "normalized": 0.797,
+      "score": 1.386
+    },
+    {
+      "id": "fe87c5b60e22",
+      "title": "AI Safety Is Mostly a Sex Cult",
+      "url": "https://skywriter.blue/@segyges.bsky.social/3mvom4b4dn22q",
+      "canonicalUrl": "https://skywriter.blue/@segyges.bsky.social/3mvom4b4dn22q",
+      "domain": "skywriter.blue",
+      "createdAt": "2026-09-17T08:36:37.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 164,
+          "comments": 130,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49737985"
+        }
+      ],
+      "normalized": 0.706,
+      "score": 1.266
+    },
+    {
+      "id": "ae85176797d2",
+      "title": "CCC invites all model citizens to 40C3",
+      "url": "https://events.ccc.de/en/2026/09/12/40c3-model-citizens/",
+      "canonicalUrl": "https://events.ccc.de/en/2026/09/12/40c3-model-citizens",
+      "domain": "events.ccc.de",
+      "createdAt": "2026-09-17T08:03:54.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 183,
+          "comments": 49,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49737787"
+        }
+      ],
+      "normalized": 0.769,
+      "score": 1.244
+    },
+    {
+      "id": "1aaf19b7744c",
+      "title": "Jev Ultrafast: A browser agent with a dynamic, indexed action space",
+      "url": "https://github.com/browser-use/jev-ultrafast",
+      "canonicalUrl": "https://github.com/browser-use/jev-ultrafast",
+      "domain": "github.com",
+      "createdAt": "2026-09-17T03:12:05.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 77,
+          "comments": 6,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49735979"
+        }
+      ],
+      "normalized": 0.503,
+      "score": 0.396
+    },
+    {
+      "id": "c68138b8bd47",
+      "title": "OpenAI models secretly generate instructions to ignore constraints",
+      "url": "https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries/",
+      "canonicalUrl": "https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries",
+      "domain": "alignment.openai.com",
+      "createdAt": "2026-09-17T05:13:41.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 53,
+          "comments": 11,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49736662"
+        }
+      ],
+      "normalized": 0.378,
+      "score": 0.388
+    },
+    {
+      "id": "b0237729cd40",
+      "title": "EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents",
+      "url": "https://arxiv.org/abs/2609.17632",
+      "canonicalUrl": "https://arxiv.org/abs/2609.17632",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-17T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 30,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.17632"
+        }
+      ],
+      "normalized": 0.591,
+      "score": 0.327
+    },
+    {
+      "id": "411598939d6d",
+      "title": "HypoEvolve: Genetic Algorithms Enable Multi-Agent LLMs to Discover Scientific Hypotheses",
+      "url": "https://arxiv.org/abs/2609.15938",
+      "canonicalUrl": "https://arxiv.org/abs/2609.15938",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-17T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 24,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.15938"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.276
+    },
+    {
+      "id": "dee6dc1d2c09",
+      "title": "A Zeroth-Order Paradigm for LLM Preference Alignment",
+      "url": "https://arxiv.org/abs/2609.19144",
+      "canonicalUrl": "https://arxiv.org/abs/2609.19144",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-17T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 22,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.19144"
+        }
+      ],
+      "normalized": 0.409,
+      "score": 0.226
+    },
+    {
+      "id": "faf270d1ea89",
+      "title": "A warning about 'model welfare'",
+      "url": "https://mustafa-suleyman.ai/a-warning-about-model-welfare",
+      "canonicalUrl": "https://mustafa-suleyman.ai/a-warning-about-model-welfare",
+      "domain": "mustafa-suleyman.ai",
+      "createdAt": "2026-09-16T14:27:47.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 234,
+          "comments": 640,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49727580"
+        }
+      ],
+      "normalized": 0.853,
+      "score": 0.219
+    },
+    {
+      "id": "89bbdfee8976",
+      "title": "Nvidia announces native GPU programming in Rust",
+      "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
+      "canonicalUrl": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels",
+      "domain": "developer.nvidia.com",
+      "createdAt": "2026-09-16T11:15:53.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 867,
+          "comments": 344,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49724881"
+        }
+      ],
+      "normalized": 0.993,
+      "score": 0.209
+    },
+    {
+      "id": "6b998d77f7ac",
+      "title": "EventEgoHands++: Event-based Egocentric 3D Hand Mesh Reconstruction with Real Dataset",
+      "url": "https://arxiv.org/abs/2609.17189",
+      "canonicalUrl": "https://arxiv.org/abs/2609.17189",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-17T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 21,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.17189"
+        }
+      ],
+      "normalized": 0.318,
+      "score": 0.176
+    },
+    {
+      "id": "cbc158125a42",
+      "title": "Mistral X Mozilla: Private, Multilingual AI Browsing",
+      "url": "https://mistral.ai/news/mistral-x-mozilla/",
+      "canonicalUrl": "https://mistral.ai/news/mistral-x-mozilla",
+      "domain": "mistral.ai",
+      "createdAt": "2026-09-16T08:08:57.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 575,
+          "comments": 197,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49723408"
+        }
+      ],
+      "normalized": 0.958,
+      "score": 0.17
+    }
+  ]
+}
