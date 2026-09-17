@@ -1,25 +1,222 @@
 {
   "date": "2026-09-16",
-  "generatedAt": "2026-09-16T15:50:51.955Z",
+  "generatedAt": "2026-09-17T03:26:17.139Z",
   "windowHours": 36,
   "stories": [
     {
-      "id": "027811ca1632",
-      "title": "Helping older adults use AI in everyday life",
-      "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-      "canonicalUrl": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-      "domain": "openai.com",
-      "createdAt": "2026-09-16T16:00:00.000Z",
+      "id": "08d64feaf108",
+      "title": "ScienceIDE: Turning World's Scientific Codebase into Agent Learnable Environments",
+      "url": "https://arxiv.org/abs/2609.19134",
+      "canonicalUrl": "https://arxiv.org/abs/2609.19134",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-17T00:00:00.000Z",
       "appearances": [
         {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 26,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.19134"
+        }
+      ],
+      "normalized": 0.774,
+      "score": 3.673
+    },
+    {
+      "id": "9a6da122e11f",
+      "title": "OpenAI Discloses Six New Incidents of ‘Concerning’ A.I. Behavior",
+      "url": "https://www.nytimes.com/2026/09/16/technology/openai-model-safety-guardrails.html",
+      "canonicalUrl": "https://nytimes.com/2026/09/16/technology/openai-model-safety-guardrails.html",
+      "domain": "nytimes.com",
+      "createdAt": "2026-09-17T01:02:13.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 52,
+          "comments": 51,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49735180"
+        }
+      ],
+      "normalized": 0.378,
+      "score": 2.627
+    },
+    {
+      "id": "57dd0cc73353",
+      "title": "DeepSeek-v4.1 Flash: Pushing the Limits of KV Cache Compression",
+      "url": "https://zartbot.github.io/blog/model_arch/dsv41flash_arch/en.html",
+      "canonicalUrl": "https://zartbot.github.io/blog/model_arch/dsv41flash_arch/en.html",
+      "domain": "zartbot.github.io",
+      "createdAt": "2026-09-17T01:39:47.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 31,
+          "comments": 1,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49735410"
+        }
+      ],
+      "normalized": 0.223,
+      "score": 2.041
+    },
+    {
+      "id": "f7533cfa40f3",
+      "title": "OpenSpec – A lightweight and configurable AI spec framework",
+      "url": "https://openspec.dev/",
+      "canonicalUrl": "https://openspec.dev/",
+      "domain": "openspec.dev",
+      "createdAt": "2026-09-16T23:06:39.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 88,
+          "comments": 35,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49734264"
+        }
+      ],
+      "normalized": 0.527,
+      "score": 1.904
+    },
+    {
+      "id": "6c3aabdc873f",
+      "title": "Breaking the 1.58-bit Barrier for Ternary LLMs",
+      "url": "https://arxiv.org/abs/2609.16338",
+      "canonicalUrl": "https://arxiv.org/abs/2609.16338",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-16T20:59:24.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 152,
+          "comments": 21,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49732931"
+        }
+      ],
+      "normalized": 0.662,
+      "score": 1.422
+    },
+    {
+      "id": "2a70d59635a9",
+      "title": "Training a 4B model to produce 81% faster query plans than Postgres",
+      "url": "https://rohanbansal.com/qorl",
+      "canonicalUrl": "https://rohanbansal.com/qorl",
+      "domain": "rohanbansal.com",
+      "createdAt": "2026-09-16T18:50:00.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 433,
+          "comments": 88,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49731285"
+        }
+      ],
+      "normalized": 0.905,
+      "score": 1.291
+    },
+    {
+      "id": "b121f3ccdf2a",
+      "title": "Claude Cowork and chat are now one Claude",
+      "url": "https://claude.com/blog/cowork-is-now-claude",
+      "canonicalUrl": "https://claude.com/blog/cowork-is-now-claude",
+      "domain": "claude.com",
+      "createdAt": "2026-09-16T16:26:25.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 206,
+          "comments": 212,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49729412"
+        },
+        {
           "source": "rss",
-          "label": "OpenAI",
+          "label": "Simon Willison",
           "points": null,
           "comments": null
         }
       ],
-      "normalized": 0.5,
-      "score": 14.359
+      "normalized": 0.757,
+      "score": 1.122
+    },
+    {
+      "id": "b2896eff72f7",
+      "title": "Reverse-engineered Jev-like model",
+      "url": "https://github.com/vinnylarouge/jevlike",
+      "canonicalUrl": "https://github.com/vinnylarouge/jevlike",
+      "domain": "github.com",
+      "createdAt": "2026-09-16T18:49:57.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 89,
+          "comments": 13,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49731282"
+        }
+      ],
+      "normalized": 0.541,
+      "score": 0.771
+    },
+    {
+      "id": "ea611caa3afd",
+      "title": "Michael Burry slams OpenAI, Anthropic for 'self-serving' calls to slow AI",
+      "url": "https://nypost.com/2026/09/14/business/big-short-trader-michael-burry-slams-openai-anthropic-for-self-serving-calls-to-slow-ai/",
+      "canonicalUrl": "https://nypost.com/2026/09/14/business/big-short-trader-michael-burry-slams-openai-anthropic-for-self-serving-calls-to-slow-ai",
+      "domain": "nypost.com",
+      "createdAt": "2026-09-17T01:30:49.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 15,
+          "comments": 0,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49735351"
+        }
+      ],
+      "normalized": 0.088,
+      "score": 0.75
+    },
+    {
+      "id": "db600446b4c1",
+      "title": "A coffee shop owner used AI to make a menu poster. Then came the angry DMs",
+      "url": "https://www.businessinsider.com/coffee-shop-owner-ai-menu-backlash-2026-9",
+      "canonicalUrl": "https://businessinsider.com/coffee-shop-owner-ai-menu-backlash-2026-9",
+      "domain": "businessinsider.com",
+      "createdAt": "2026-09-16T18:59:42.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 70,
+          "comments": 249,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49731395"
+        }
+      ],
+      "normalized": 0.439,
+      "score": 0.644
+    },
+    {
+      "id": "350b20717b63",
+      "title": "What's Scarier Than Agents Taking over Internet? CEO Cartel Trying Take over AI",
+      "url": "https://fractalsofchange.substack.com/p/q-whats-scarier-than-a-swarm-of-ai",
+      "canonicalUrl": "https://fractalsofchange.substack.com/p/q-whats-scarier-than-a-swarm-of-ai",
+      "domain": "fractalsofchange.substack.com",
+      "createdAt": "2026-09-17T00:44:51.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 16,
+          "comments": 1,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49735049"
+        }
+      ],
+      "normalized": 0.101,
+      "score": 0.628
     },
     {
       "id": "e47937a64c99",
@@ -38,26 +235,44 @@
         }
       ],
       "normalized": 0.745,
-      "score": 8.506
+      "score": 0.574
     },
     {
-      "id": "faf270d1ea89",
-      "title": "A warning about 'model welfare'",
-      "url": "https://mustafa-suleyman.ai/a-warning-about-model-welfare",
-      "canonicalUrl": "https://mustafa-suleyman.ai/a-warning-about-model-welfare",
-      "domain": "mustafa-suleyman.ai",
-      "createdAt": "2026-09-16T14:27:47.000Z",
+      "id": "bbe6c30a33c9",
+      "title": "Our framework for reporting model misalignment",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "canonicalUrl": "https://openai.com/index/model-misalignment-reporting-framework",
+      "domain": "openai.com",
+      "createdAt": "2026-09-16T17:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.535
+    },
+    {
+      "id": "7b209e90369c",
+      "title": "The DeepMind Institute",
+      "url": "https://institute.deepmind.com/",
+      "canonicalUrl": "https://institute.deepmind.com/",
+      "domain": "institute.deepmind.com",
+      "createdAt": "2026-09-16T14:32:11.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 82,
-          "comments": 134,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49727580"
+          "points": 155,
+          "comments": 50,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49727659"
         }
       ],
-      "normalized": 0.454,
-      "score": 5.056
+      "normalized": 0.689,
+      "score": 0.533
     },
     {
       "id": "52752974efc0",
@@ -82,216 +297,7 @@
         }
       ],
       "normalized": 0.504,
-      "score": 4.407
-    },
-    {
-      "id": "9217d7a4e10e",
-      "title": "DeepSeek v4.1 Flash Is Now Our Best Hacking Model",
-      "url": "https://enclave.ai/blog/deepseek-v41-flash-is-now-our-best-hacking-model",
-      "canonicalUrl": "https://enclave.ai/blog/deepseek-v41-flash-is-now-our-best-hacking-model",
-      "domain": "enclave.ai",
-      "createdAt": "2026-09-16T12:19:55.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 80,
-          "comments": 18,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49725800"
-        }
-      ],
-      "normalized": 0.44,
-      "score": 2.034
-    },
-    {
-      "id": "8c5ec2370a60",
-      "title": "Microsoft says AI rival Anthropic could have 'disastrous impact' on humanity",
-      "url": "https://www.bbc.co.uk/news/articles/c6n07ypqz8kzo",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c6n07ypqz8kzo",
-      "domain": "bbc.co.uk",
-      "createdAt": "2026-09-16T14:32:15.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 27,
-          "comments": 23,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49727661"
-        }
-      ],
-      "normalized": 0.163,
-      "score": 1.891
-    },
-    {
-      "id": "1192be1c273e",
-      "title": "Scaling Golang CI by Replacing actions/setup-go",
-      "url": "https://www.cloudx.ai/posts/setup-go",
-      "canonicalUrl": "https://cloudx.ai/posts/setup-go",
-      "domain": "cloudx.ai",
-      "createdAt": "2026-09-16T13:02:14.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 38,
-          "comments": 3,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49726350"
-        }
-      ],
-      "normalized": 0.298,
-      "score": 1.762
-    },
-    {
-      "id": "59db4bf11ea9",
-      "title": "Learning Programming in an Age of LLMs",
-      "url": "https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms/",
-      "canonicalUrl": "https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms",
-      "domain": "blog.ploeh.dk",
-      "createdAt": "2026-09-16T09:12:34.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 162,
-          "comments": 108,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49723873"
-        }
-      ],
-      "normalized": 0.681,
-      "score": 1.404
-    },
-    {
-      "id": "cbc158125a42",
-      "title": "Mistral X Mozilla: Private, Multilingual AI Browsing",
-      "url": "https://mistral.ai/news/mistral-x-mozilla/",
-      "canonicalUrl": "https://mistral.ai/news/mistral-x-mozilla",
-      "domain": "mistral.ai",
-      "createdAt": "2026-09-16T08:08:57.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 310,
-          "comments": 100,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49723408"
-        }
-      ],
-      "normalized": 0.83,
-      "score": 1.39
-    },
-    {
-      "id": "5fbfcc62cdc3",
-      "title": "ImpactGate: A merge gate that scores the structural decay AI adds",
-      "url": "https://github.com/officefloor/ImpactGate",
-      "canonicalUrl": "https://github.com/officefloor/ImpactGate",
-      "domain": "github.com",
-      "createdAt": "2026-09-16T13:01:09.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 34,
-          "comments": 39,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49726329"
-        }
-      ],
-      "normalized": 0.22,
-      "score": 1.292
-    },
-    {
-      "id": "dbc9010b4eab",
-      "title": "Show HN: How Stale Is Your AI? Release age and training cutoff for 20 models",
-      "url": "https://stale.jock.pl/",
-      "canonicalUrl": "https://stale.jock.pl/",
-      "domain": "stale.jock.pl",
-      "createdAt": "2026-09-16T13:01:52.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 23,
-          "comments": 17,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49726343"
-        }
-      ],
-      "normalized": 0.121,
-      "score": 0.712
-    },
-    {
-      "id": "5a5abb9570dc",
-      "title": "Show HN: Give your AI agents access to WhatsApp",
-      "url": "https://news.ycombinator.com/item?id=49728159",
-      "canonicalUrl": "https://news.ycombinator.com/item?id=49728159",
-      "domain": "news.ycombinator.com",
-      "createdAt": "2026-09-16T15:04:08.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 13,
-          "comments": 16,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49728159"
-        }
-      ],
-      "normalized": 0.043,
-      "score": 0.676
-    },
-    {
-      "id": "183821e3af99",
-      "title": "The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement",
-      "url": "https://arxiv.org/abs/2609.11873",
-      "canonicalUrl": "https://arxiv.org/abs/2609.11873",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-16T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 86,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.11873"
-        }
-      ],
-      "normalized": 0.8,
-      "score": 0.447
-    },
-    {
-      "id": "002139654ea3",
-      "title": "Uncanny and unappetizing: appetites spoil as AI images take over food menus",
-      "url": "https://www.theguardian.com/technology/2026/sep/06/ai-food-menu-images",
-      "canonicalUrl": "https://theguardian.com/technology/2026/sep/06/ai-food-menu-images",
-      "domain": "theguardian.com",
-      "createdAt": "2026-09-16T11:38:57.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 19,
-          "comments": 10,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49725197"
-        }
-      ],
-      "normalized": 0.099,
-      "score": 0.372
-    },
-    {
-      "id": "0f67af4401c8",
-      "title": "Datamimic – don't let your coding agent invent its own test world",
-      "url": "https://github.com/rapiddweller/datamimic",
-      "canonicalUrl": "https://github.com/rapiddweller/datamimic",
-      "domain": "github.com",
-      "createdAt": "2026-09-16T04:58:36.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 54,
-          "comments": 8,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49722276"
-        }
-      ],
-      "normalized": 0.362,
-      "score": 0.364
+      "score": 0.489
     }
   ]
 }
