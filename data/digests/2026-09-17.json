@@ -1,8 +1,241 @@
 {
   "date": "2026-09-17",
-  "generatedAt": "2026-09-17T15:57:05.022Z",
+  "generatedAt": "2026-09-18T03:12:12.702Z",
   "windowHours": 36,
   "stories": [
+    {
+      "id": "47dcebeb104b",
+      "title": "AI made me doubt everything about programming by Felienne Hermans - DDD Europe 2026",
+      "url": "https://youtube.com/watch?v=0-6-f94n_9M",
+      "canonicalUrl": "https://youtube.com/watch?v=0-6-f94n_9M",
+      "domain": "youtube.com",
+      "createdAt": "2026-09-18T00:55:26.500Z",
+      "appearances": [
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 1,
+          "comments": 0,
+          "discussionUrl": "https://lobste.rs/s/secbwf/ai_made_me_doubt_everything_about"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 3.651
+    },
+    {
+      "id": "f948f027a4af",
+      "title": "RiskChainBench: A Benchmark for Obfuscated Platform Message Restoration and Evidence-Grounded Web Investigation",
+      "url": "https://arxiv.org/abs/2609.16900",
+      "canonicalUrl": "https://arxiv.org/abs/2609.16900",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-18T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 13,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.16900"
+        }
+      ],
+      "normalized": 0.514,
+      "score": 2.638
+    },
+    {
+      "id": "da2138201611",
+      "title": "How to Write with an LLM",
+      "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+      "canonicalUrl": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm",
+      "domain": "sockpuppet.org",
+      "createdAt": "2026-09-17T21:48:38.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 61,
+          "comments": 54,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49747070"
+        },
+        {
+          "source": "rss",
+          "label": "Simon Willison",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 2.047
+    },
+    {
+      "id": "47c17a5e18ef",
+      "title": "SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness",
+      "url": "https://arxiv.org/abs/2609.20519",
+      "canonicalUrl": "https://arxiv.org/abs/2609.20519",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-18T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 7,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.20519"
+        }
+      ],
+      "normalized": 0.378,
+      "score": 1.944
+    },
+    {
+      "id": "c34963e03a4a",
+      "title": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU",
+      "url": "https://bend-lang.com/",
+      "canonicalUrl": "https://bend-lang.com/",
+      "domain": "bend-lang.com",
+      "createdAt": "2026-09-17T20:36:13.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 326,
+          "comments": 168,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49746163"
+        }
+      ],
+      "normalized": 0.92,
+      "score": 1.912
+    },
+    {
+      "id": "3195ca010f5c",
+      "title": "Alibaba releases Qwen 3.8 Omni Flash",
+      "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+      "canonicalUrl": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+      "domain": "qwen.ai",
+      "createdAt": "2026-09-17T23:05:48.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 51,
+          "comments": 10,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49747925"
+        }
+      ],
+      "normalized": 0.389,
+      "score": 1.497
+    },
+    {
+      "id": "91d86beee9d1",
+      "title": "RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2609.20784",
+      "canonicalUrl": "https://arxiv.org/abs/2609.20784",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-18T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 3,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.20784"
+        }
+      ],
+      "normalized": 0.243,
+      "score": 1.249
+    },
+    {
+      "id": "e5c37e0d8fd1",
+      "title": "Self-generated prompt injections in compaction summaries",
+      "url": "https://simonwillison.net/2026/Sep/17/compaction-summaries/",
+      "canonicalUrl": "https://simonwillison.net/2026/Sep/17/compaction-summaries",
+      "domain": "simonwillison.net",
+      "createdAt": "2026-09-17T20:57:55.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Simon Willison",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 1.123
+    },
+    {
+      "id": "bc4d9876dccc",
+      "title": "Infinite-Parameter LLMs: Generating and Adapting Weights from Live Data",
+      "url": "https://arxiv.org/abs/2609.18842",
+      "canonicalUrl": "https://arxiv.org/abs/2609.18842",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-17T16:55:14.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 120,
+          "comments": 35,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49743483"
+        }
+      ],
+      "normalized": 0.66,
+      "score": 0.723
+    },
+    {
+      "id": "b7f5a5016213",
+      "title": "Economic policy for AGI",
+      "url": "https://institute.deepmind.com/essays/economic-policy-for-agi/",
+      "canonicalUrl": "https://institute.deepmind.com/essays/economic-policy-for-agi",
+      "domain": "institute.deepmind.com",
+      "createdAt": "2026-09-17T17:12:51.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 59,
+          "comments": 66,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49743685"
+        }
+      ],
+      "normalized": 0.469,
+      "score": 0.536
+    },
+    {
+      "id": "0939869a8e41",
+      "title": "LLM Classification Is Feature Engineering",
+      "url": "https://minimallysufficient.com/posts/llm-classification-is-feature-extraction/",
+      "canonicalUrl": "https://minimallysufficient.com/posts/llm-classification-is-feature-extraction",
+      "domain": "minimallysufficient.com",
+      "createdAt": "2026-09-17T15:40:17.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 92,
+          "comments": 19,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49742437"
+        }
+      ],
+      "normalized": 0.58,
+      "score": 0.534
+    },
+    {
+      "id": "a59b8440a154",
+      "title": "Microsoft, OpenAI lose fight to hide internal docs admitting scraping is theft",
+      "url": "https://arstechnica.com/tech-policy/2026/09/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history/",
+      "canonicalUrl": "https://arstechnica.com/tech-policy/2026/09/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history",
+      "domain": "arstechnica.com",
+      "createdAt": "2026-09-17T20:16:52.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 34,
+          "comments": 6,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49745932"
+        }
+      ],
+      "normalized": 0.247,
+      "score": 0.48
+    },
     {
       "id": "bd4ec752fcc1",
       "title": "I Don't Like LLMs",
@@ -20,7 +253,26 @@
         }
       ],
       "normalized": 0.608,
-      "score": 5.019
+      "score": 0.451
+    },
+    {
+      "id": "38dbd647cb49",
+      "title": "Launch HN: Skillsync (YC W26) – AI chat sessions made portable across agents",
+      "url": "https://news.ycombinator.com/item?id=49743049",
+      "canonicalUrl": "https://news.ycombinator.com/item?id=49743049",
+      "domain": "news.ycombinator.com",
+      "createdAt": "2026-09-17T16:22:15.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 52,
+          "comments": 51,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49743049"
+        }
+      ],
+      "normalized": 0.401,
+      "score": 0.406
     },
     {
       "id": "727b4038bd97",
@@ -39,254 +291,7 @@
         }
       ],
       "normalized": 0.545,
-      "score": 3.412
-    },
-    {
-      "id": "3f594670663f",
-      "title": "Show HN: Share your AI Setup, Learn from others",
-      "url": "https://mysetup.ai/",
-      "canonicalUrl": "https://mysetup.ai/",
-      "domain": "mysetup.ai",
-      "createdAt": "2026-09-17T13:01:44.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 36,
-          "comments": 17,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49740105"
-        }
-      ],
-      "normalized": 0.28,
-      "score": 1.588
-    },
-    {
-      "id": "96e95b323f03",
-      "title": "GLM Built Its Own Inference Infrastructure",
-      "url": "https://z.ai/blog/glm-built-its-inference-infrastructure",
-      "canonicalUrl": "https://z.ai/blog/glm-built-its-inference-infrastructure",
-      "domain": "z.ai",
-      "createdAt": "2026-09-17T08:27:09.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 224,
-          "comments": 176,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49737922"
-        }
-      ],
-      "normalized": 0.797,
-      "score": 1.386
-    },
-    {
-      "id": "fe87c5b60e22",
-      "title": "AI Safety Is Mostly a Sex Cult",
-      "url": "https://skywriter.blue/@segyges.bsky.social/3mvom4b4dn22q",
-      "canonicalUrl": "https://skywriter.blue/@segyges.bsky.social/3mvom4b4dn22q",
-      "domain": "skywriter.blue",
-      "createdAt": "2026-09-17T08:36:37.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 164,
-          "comments": 130,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49737985"
-        }
-      ],
-      "normalized": 0.706,
-      "score": 1.266
-    },
-    {
-      "id": "ae85176797d2",
-      "title": "CCC invites all model citizens to 40C3",
-      "url": "https://events.ccc.de/en/2026/09/12/40c3-model-citizens/",
-      "canonicalUrl": "https://events.ccc.de/en/2026/09/12/40c3-model-citizens",
-      "domain": "events.ccc.de",
-      "createdAt": "2026-09-17T08:03:54.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 183,
-          "comments": 49,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49737787"
-        }
-      ],
-      "normalized": 0.769,
-      "score": 1.244
-    },
-    {
-      "id": "1aaf19b7744c",
-      "title": "Jev Ultrafast: A browser agent with a dynamic, indexed action space",
-      "url": "https://github.com/browser-use/jev-ultrafast",
-      "canonicalUrl": "https://github.com/browser-use/jev-ultrafast",
-      "domain": "github.com",
-      "createdAt": "2026-09-17T03:12:05.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 77,
-          "comments": 6,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49735979"
-        }
-      ],
-      "normalized": 0.503,
-      "score": 0.396
-    },
-    {
-      "id": "c68138b8bd47",
-      "title": "OpenAI models secretly generate instructions to ignore constraints",
-      "url": "https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries/",
-      "canonicalUrl": "https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries",
-      "domain": "alignment.openai.com",
-      "createdAt": "2026-09-17T05:13:41.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 53,
-          "comments": 11,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49736662"
-        }
-      ],
-      "normalized": 0.378,
-      "score": 0.388
-    },
-    {
-      "id": "b0237729cd40",
-      "title": "EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents",
-      "url": "https://arxiv.org/abs/2609.17632",
-      "canonicalUrl": "https://arxiv.org/abs/2609.17632",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-17T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 30,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.17632"
-        }
-      ],
-      "normalized": 0.591,
-      "score": 0.327
-    },
-    {
-      "id": "411598939d6d",
-      "title": "HypoEvolve: Genetic Algorithms Enable Multi-Agent LLMs to Discover Scientific Hypotheses",
-      "url": "https://arxiv.org/abs/2609.15938",
-      "canonicalUrl": "https://arxiv.org/abs/2609.15938",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-17T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 24,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.15938"
-        }
-      ],
-      "normalized": 0.5,
-      "score": 0.276
-    },
-    {
-      "id": "dee6dc1d2c09",
-      "title": "A Zeroth-Order Paradigm for LLM Preference Alignment",
-      "url": "https://arxiv.org/abs/2609.19144",
-      "canonicalUrl": "https://arxiv.org/abs/2609.19144",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-17T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 22,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.19144"
-        }
-      ],
-      "normalized": 0.409,
-      "score": 0.226
-    },
-    {
-      "id": "faf270d1ea89",
-      "title": "A warning about 'model welfare'",
-      "url": "https://mustafa-suleyman.ai/a-warning-about-model-welfare",
-      "canonicalUrl": "https://mustafa-suleyman.ai/a-warning-about-model-welfare",
-      "domain": "mustafa-suleyman.ai",
-      "createdAt": "2026-09-16T14:27:47.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 234,
-          "comments": 640,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49727580"
-        }
-      ],
-      "normalized": 0.853,
-      "score": 0.219
-    },
-    {
-      "id": "89bbdfee8976",
-      "title": "Nvidia announces native GPU programming in Rust",
-      "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
-      "canonicalUrl": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels",
-      "domain": "developer.nvidia.com",
-      "createdAt": "2026-09-16T11:15:53.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 867,
-          "comments": 344,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49724881"
-        }
-      ],
-      "normalized": 0.993,
-      "score": 0.209
-    },
-    {
-      "id": "6b998d77f7ac",
-      "title": "EventEgoHands++: Event-based Egocentric 3D Hand Mesh Reconstruction with Real Dataset",
-      "url": "https://arxiv.org/abs/2609.17189",
-      "canonicalUrl": "https://arxiv.org/abs/2609.17189",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-17T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 21,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.17189"
-        }
-      ],
-      "normalized": 0.318,
-      "score": 0.176
-    },
-    {
-      "id": "cbc158125a42",
-      "title": "Mistral X Mozilla: Private, Multilingual AI Browsing",
-      "url": "https://mistral.ai/news/mistral-x-mozilla/",
-      "canonicalUrl": "https://mistral.ai/news/mistral-x-mozilla",
-      "domain": "mistral.ai",
-      "createdAt": "2026-09-16T08:08:57.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 575,
-          "comments": 197,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49723408"
-        }
-      ],
-      "normalized": 0.958,
-      "score": 0.17
+      "score": 0.374
     }
   ]
 }
