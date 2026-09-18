@@ -1,0 +1,292 @@
+{
+  "date": "2026-09-18",
+  "generatedAt": "2026-09-18T15:31:57.078Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "418912adaa92",
+      "title": "AI Protest in Montreal",
+      "url": "https://montrealgazette.com/news/photos-anti-ai-protest-in-montreal/",
+      "canonicalUrl": "https://montrealgazette.com/news/photos-anti-ai-protest-in-montreal",
+      "domain": "montrealgazette.com",
+      "createdAt": "2026-09-18T14:45:41.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 41,
+          "comments": 36,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49755162"
+        }
+      ],
+      "normalized": 0.283,
+      "score": 4.512
+    },
+    {
+      "id": "dc10dc41d0ea",
+      "title": "AI chatbots becoming experts at changing people's minds. What's their secret?",
+      "url": "https://www.science.org/content/article/ai-chatbots-are-becoming-experts-changing-people-s-minds-what-s-their-secret",
+      "canonicalUrl": "https://science.org/content/article/ai-chatbots-are-becoming-experts-changing-people-s-minds-what-s-their-secret",
+      "domain": "science.org",
+      "createdAt": "2026-09-18T13:39:27.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 42,
+          "comments": 66,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49754250"
+        }
+      ],
+      "normalized": 0.297,
+      "score": 2.594
+    },
+    {
+      "id": "b3566f385089",
+      "title": "ZCode, the GLM coding agent, silently uploads your Git history",
+      "url": "https://tokenstead.ai/guides/zcode-silent-git-history-upload",
+      "canonicalUrl": "https://tokenstead.ai/guides/zcode-silent-git-history-upload",
+      "domain": "tokenstead.ai",
+      "createdAt": "2026-09-18T10:35:28.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 226,
+          "comments": 51,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49752422"
+        }
+      ],
+      "normalized": 0.732,
+      "score": 2.238
+    },
+    {
+      "id": "eeec8c483953",
+      "title": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
+      "url": "https://www.hacktron.ai/blog/hacking-openai",
+      "canonicalUrl": "https://hacktron.ai/blog/hacking-openai",
+      "domain": "hacktron.ai",
+      "createdAt": "2026-09-18T02:47:24.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 406,
+          "comments": 174,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49749656"
+        }
+      ],
+      "normalized": 0.935,
+      "score": 0.737
+    },
+    {
+      "id": "5ff94f8b654c",
+      "title": "Microsoft exec called AI scraping 'the largest theft of labor in human",
+      "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
+      "canonicalUrl": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
+      "domain": "techcrunch.com",
+      "createdAt": "2026-09-18T00:07:08.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 609,
+          "comments": 506,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49752056"
+        }
+      ],
+      "normalized": 0.978,
+      "score": 0.571
+    },
+    {
+      "id": "aaaa4ab812e6",
+      "title": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
+      "url": "https://arxiv.org/abs/2609.19969",
+      "canonicalUrl": "https://arxiv.org/abs/2609.19969",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-18T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 51,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.19969"
+        }
+      ],
+      "normalized": 0.952,
+      "score": 0.549
+    },
+    {
+      "id": "d066f171a4ad",
+      "title": "Can MiniMax-H3 Reason About the Physical World? An Evaluation of Omni-Modal Generative Model",
+      "url": "https://arxiv.org/abs/2609.18323",
+      "canonicalUrl": "https://arxiv.org/abs/2609.18323",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-18T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 21,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.18323"
+        }
+      ],
+      "normalized": 0.762,
+      "score": 0.44
+    },
+    {
+      "id": "363bbead77de",
+      "title": "Astra for Law",
+      "url": "https://openai.com/index/astra-for-law/",
+      "canonicalUrl": "https://openai.com/index/astra-for-law",
+      "domain": "openai.com",
+      "createdAt": "2026-09-17T20:17:48.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 550,
+          "comments": 647,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49745940"
+        }
+      ],
+      "normalized": 0.957,
+      "score": 0.391
+    },
+    {
+      "id": "cb412b091653",
+      "title": "Shapelearn Qwen 3.8 27B (13.1 GB VRAM)",
+      "url": "https://byteshape.com/blogs/Qwen3.8-27B/",
+      "canonicalUrl": "https://byteshape.com/blogs/Qwen3.8-27B",
+      "domain": "byteshape.com",
+      "createdAt": "2026-09-18T02:04:19.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 91,
+          "comments": 27,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49749393"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.362
+    },
+    {
+      "id": "4ca2b6c78216",
+      "title": "UFO: Chain-of-Evaluation for Omni-Condition Alignment in Multi-Modal Image Generation",
+      "url": "https://arxiv.org/abs/2609.12397",
+      "canonicalUrl": "https://arxiv.org/abs/2609.12397",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-18T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 4,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.12397"
+        }
+      ],
+      "normalized": 0.333,
+      "score": 0.192
+    },
+    {
+      "id": "3f594670663f",
+      "title": "Show HN: Share your AI Setup, Learn from others",
+      "url": "https://mysetup.ai/",
+      "canonicalUrl": "https://mysetup.ai/",
+      "domain": "mysetup.ai",
+      "createdAt": "2026-09-17T13:01:44.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 228,
+          "comments": 126,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49740105"
+        }
+      ],
+      "normalized": 0.768,
+      "score": 0.185
+    },
+    {
+      "id": "96e95b323f03",
+      "title": "How GLM built its own inference infrastructure",
+      "url": "https://z.ai/blog/glm-built-its-inference-infrastructure",
+      "canonicalUrl": "https://z.ai/blog/glm-built-its-inference-infrastructure",
+      "domain": "z.ai",
+      "createdAt": "2026-09-17T08:27:09.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 399,
+          "comments": 277,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49737922"
+        }
+      ],
+      "normalized": 0.913,
+      "score": 0.168
+    },
+    {
+      "id": "ae85176797d2",
+      "title": "CCC invites all model citizens to 40C3",
+      "url": "https://events.ccc.de/en/2026/09/12/40c3-model-citizens/",
+      "canonicalUrl": "https://events.ccc.de/en/2026/09/12/40c3-model-citizens",
+      "domain": "events.ccc.de",
+      "createdAt": "2026-09-17T08:03:54.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 365,
+          "comments": 216,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49737787"
+        }
+      ],
+      "normalized": 0.899,
+      "score": 0.162
+    },
+    {
+      "id": "fe87c5b60e22",
+      "title": "AI safety is mostly a sex cult",
+      "url": "https://skywriter.blue/@segyges.bsky.social/3mvom4b4dn22q",
+      "canonicalUrl": "https://skywriter.blue/@segyges.bsky.social/3mvom4b4dn22q",
+      "domain": "skywriter.blue",
+      "createdAt": "2026-09-17T08:36:37.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 305,
+          "comments": 247,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49737985"
+        }
+      ],
+      "normalized": 0.848,
+      "score": 0.157
+    },
+    {
+      "id": "4e5bd47d62f1",
+      "title": "Sex, AI, and the Apocalypse",
+      "url": "https://www.iankduncan.com/personal/2026-09-16-sex-ai-and-the-apocalypse/",
+      "canonicalUrl": "https://iankduncan.com/personal/2026-09-16-sex-ai-and-the-apocalypse",
+      "domain": "iankduncan.com",
+      "createdAt": "2026-09-17T09:43:19.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 214,
+          "comments": 232,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49746654"
+        }
+      ],
+      "normalized": 0.71,
+      "score": 0.14
+    }
+  ]
+}
