@@ -1,45 +1,203 @@
 {
   "date": "2026-09-18",
-  "generatedAt": "2026-09-18T15:31:57.078Z",
+  "generatedAt": "2026-09-19T03:08:48.667Z",
   "windowHours": 36,
   "stories": [
     {
-      "id": "418912adaa92",
-      "title": "AI Protest in Montreal",
-      "url": "https://montrealgazette.com/news/photos-anti-ai-protest-in-montreal/",
-      "canonicalUrl": "https://montrealgazette.com/news/photos-anti-ai-protest-in-montreal",
-      "domain": "montrealgazette.com",
-      "createdAt": "2026-09-18T14:45:41.000Z",
+      "id": "78dc829328ef",
+      "title": "Gemini Hacked Three Companies in First Known Breakout by Google's AI",
+      "url": "https://www.wsj.com/tech/ai/gemini-hacked-three-companies-in-first-known-breakout-by-googles-ai-5c0baba2",
+      "canonicalUrl": "https://wsj.com/tech/ai/gemini-hacked-three-companies-in-first-known-breakout-by-googles-ai-5c0baba2",
+      "domain": "wsj.com",
+      "createdAt": "2026-09-18T22:17:19.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 41,
-          "comments": 36,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49755162"
+          "points": 31,
+          "comments": 23,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49760988"
+        },
+        {
+          "source": "rss",
+          "label": "Simon Willison",
+          "points": null,
+          "comments": null
         }
       ],
-      "normalized": 0.283,
-      "score": 4.512
+      "normalized": 0.5,
+      "score": 2.344
     },
     {
-      "id": "dc10dc41d0ea",
-      "title": "AI chatbots becoming experts at changing people's minds. What's their secret?",
-      "url": "https://www.science.org/content/article/ai-chatbots-are-becoming-experts-changing-people-s-minds-what-s-their-secret",
-      "canonicalUrl": "https://science.org/content/article/ai-chatbots-are-becoming-experts-changing-people-s-minds-what-s-their-secret",
-      "domain": "science.org",
-      "createdAt": "2026-09-18T13:39:27.000Z",
+      "id": "9b0bea9a8f22",
+      "title": "Claude Code now reads AGENTS.md if there is no Claude.md",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "canonicalUrl": "https://code.claude.com/docs/en/changelog",
+      "domain": "code.claude.com",
+      "createdAt": "2026-09-18T21:00:32.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 42,
-          "comments": 66,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49754250"
+          "points": 541,
+          "comments": 196,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49760187"
         }
       ],
-      "normalized": 0.297,
-      "score": 2.594
+      "normalized": 0.925,
+      "score": 2.123
+    },
+    {
+      "id": "64adcb8eecb3",
+      "title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
+      "url": "https://spectrum.ieee.org/llms-for-chip-design",
+      "canonicalUrl": "https://spectrum.ieee.org/llms-for-chip-design",
+      "domain": "spectrum.ieee.org",
+      "createdAt": "2026-09-18T23:04:17.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 65,
+          "comments": 61,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49761432"
+        }
+      ],
+      "normalized": 0.453,
+      "score": 1.76
+    },
+    {
+      "id": "3c2fb59646fe",
+      "title": "Alibaba open-sources AI model that can detect cancer and nearly 150 conditions",
+      "url": "https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions",
+      "canonicalUrl": "https://scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions",
+      "domain": "scmp.com",
+      "createdAt": "2026-09-18T23:54:42.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 44,
+          "comments": 6,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49761840"
+        }
+      ],
+      "normalized": 0.27,
+      "score": 1.374
+    },
+    {
+      "id": "38b05854d8bb",
+      "title": "US Military had close call after using AI for hallucinated intelligence report",
+      "url": "https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship",
+      "canonicalUrl": "https://cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship",
+      "domain": "cnn.com",
+      "createdAt": "2026-09-18T17:28:01.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 410,
+          "comments": 317,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49757520"
+        }
+      ],
+      "normalized": 0.887,
+      "score": 1.063
+    },
+    {
+      "id": "6496bc270219",
+      "title": "Cache-to-Cache: Direct Semantic Communication Between LLMs (2025)",
+      "url": "https://arxiv.org/abs/2510.03215",
+      "canonicalUrl": "https://arxiv.org/abs/2510.03215",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-18T18:55:35.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 69,
+          "comments": 12,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49758615"
+        }
+      ],
+      "normalized": 0.465,
+      "score": 0.709
+    },
+    {
+      "id": "048f23776205",
+      "title": "The Implications of Linguistic Illegibility for LLM Security",
+      "url": "https://arxiv.org/abs/2609.02852",
+      "canonicalUrl": "https://arxiv.org/abs/2609.02852",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-18T19:00:06.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 54,
+          "comments": 20,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49758689"
+        }
+      ],
+      "normalized": 0.39,
+      "score": 0.602
+    },
+    {
+      "id": "1658d72d7580",
+      "title": "AI is an elite crime spree",
+      "url": "https://www.thebignewsletter.com/p/ai-is-an-elite-crime-spree",
+      "canonicalUrl": "https://thebignewsletter.com/p/ai-is-an-elite-crime-spree",
+      "domain": "thebignewsletter.com",
+      "createdAt": "2026-09-18T15:15:33.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 116,
+          "comments": 39,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49755590"
+        }
+      ],
+      "normalized": 0.585,
+      "score": 0.513
+    },
+    {
+      "id": "1ff6e8ad6fa3",
+      "title": "Two parallel neural ectoderm progenitors contribute to the developing brain",
+      "url": "https://www.newscientist.com/article/2589739-our-brain-evolved-from-two-primitive-nervous-systems-that-merged/",
+      "canonicalUrl": "https://newscientist.com/article/2589739-our-brain-evolved-from-two-primitive-nervous-systems-that-merged",
+      "domain": "newscientist.com",
+      "createdAt": "2026-09-18T15:12:07.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 106,
+          "comments": 59,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49755533"
+        }
+      ],
+      "normalized": 0.547,
+      "score": 0.477
+    },
+    {
+      "id": "9aeec529df07",
+      "title": "We made Playwright 2x faster and 80% more token efficient",
+      "url": "https://github.com/browserbase/stagehand",
+      "canonicalUrl": "https://github.com/browserbase/stagehand",
+      "domain": "github.com",
+      "createdAt": "2026-09-18T16:25:23.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 61,
+          "comments": 15,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49756671"
+        }
+      ],
+      "normalized": 0.415,
+      "score": 0.426
     },
     {
       "id": "b3566f385089",
@@ -58,7 +216,26 @@
         }
       ],
       "normalized": 0.732,
-      "score": 2.238
+      "score": 0.381
+    },
+    {
+      "id": "715747f3f71a",
+      "title": "Anthropic finally adds AGENTS.md support to Claude Code",
+      "url": "https://twitter.com/trq212/status/2101009392611278961",
+      "canonicalUrl": "https://twitter.com/trq212/status/2101009392611278961",
+      "domain": "twitter.com",
+      "createdAt": "2026-09-18T18:26:34.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 44,
+          "comments": 10,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49758250"
+        }
+      ],
+      "normalized": 0.27,
+      "score": 0.379
     },
     {
       "id": "eeec8c483953",
@@ -77,7 +254,26 @@
         }
       ],
       "normalized": 0.935,
-      "score": 0.737
+      "score": 0.259
+    },
+    {
+      "id": "418912adaa92",
+      "title": "AI Protest in Montreal",
+      "url": "https://montrealgazette.com/news/photos-anti-ai-protest-in-montreal/",
+      "canonicalUrl": "https://montrealgazette.com/news/photos-anti-ai-protest-in-montreal",
+      "domain": "montrealgazette.com",
+      "createdAt": "2026-09-18T14:45:41.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 41,
+          "comments": 36,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49755162"
+        }
+      ],
+      "normalized": 0.283,
+      "score": 0.233
     },
     {
       "id": "5ff94f8b654c",
@@ -96,197 +292,7 @@
         }
       ],
       "normalized": 0.978,
-      "score": 0.571
-    },
-    {
-      "id": "aaaa4ab812e6",
-      "title": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
-      "url": "https://arxiv.org/abs/2609.19969",
-      "canonicalUrl": "https://arxiv.org/abs/2609.19969",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-18T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 51,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.19969"
-        }
-      ],
-      "normalized": 0.952,
-      "score": 0.549
-    },
-    {
-      "id": "d066f171a4ad",
-      "title": "Can MiniMax-H3 Reason About the Physical World? An Evaluation of Omni-Modal Generative Model",
-      "url": "https://arxiv.org/abs/2609.18323",
-      "canonicalUrl": "https://arxiv.org/abs/2609.18323",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-18T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 21,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.18323"
-        }
-      ],
-      "normalized": 0.762,
-      "score": 0.44
-    },
-    {
-      "id": "363bbead77de",
-      "title": "Astra for Law",
-      "url": "https://openai.com/index/astra-for-law/",
-      "canonicalUrl": "https://openai.com/index/astra-for-law",
-      "domain": "openai.com",
-      "createdAt": "2026-09-17T20:17:48.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 550,
-          "comments": 647,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49745940"
-        }
-      ],
-      "normalized": 0.957,
-      "score": 0.391
-    },
-    {
-      "id": "cb412b091653",
-      "title": "Shapelearn Qwen 3.8 27B (13.1 GB VRAM)",
-      "url": "https://byteshape.com/blogs/Qwen3.8-27B/",
-      "canonicalUrl": "https://byteshape.com/blogs/Qwen3.8-27B",
-      "domain": "byteshape.com",
-      "createdAt": "2026-09-18T02:04:19.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 91,
-          "comments": 27,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49749393"
-        }
-      ],
-      "normalized": 0.5,
-      "score": 0.362
-    },
-    {
-      "id": "4ca2b6c78216",
-      "title": "UFO: Chain-of-Evaluation for Omni-Condition Alignment in Multi-Modal Image Generation",
-      "url": "https://arxiv.org/abs/2609.12397",
-      "canonicalUrl": "https://arxiv.org/abs/2609.12397",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-18T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 4,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.12397"
-        }
-      ],
-      "normalized": 0.333,
-      "score": 0.192
-    },
-    {
-      "id": "3f594670663f",
-      "title": "Show HN: Share your AI Setup, Learn from others",
-      "url": "https://mysetup.ai/",
-      "canonicalUrl": "https://mysetup.ai/",
-      "domain": "mysetup.ai",
-      "createdAt": "2026-09-17T13:01:44.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 228,
-          "comments": 126,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49740105"
-        }
-      ],
-      "normalized": 0.768,
-      "score": 0.185
-    },
-    {
-      "id": "96e95b323f03",
-      "title": "How GLM built its own inference infrastructure",
-      "url": "https://z.ai/blog/glm-built-its-inference-infrastructure",
-      "canonicalUrl": "https://z.ai/blog/glm-built-its-inference-infrastructure",
-      "domain": "z.ai",
-      "createdAt": "2026-09-17T08:27:09.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 399,
-          "comments": 277,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49737922"
-        }
-      ],
-      "normalized": 0.913,
-      "score": 0.168
-    },
-    {
-      "id": "ae85176797d2",
-      "title": "CCC invites all model citizens to 40C3",
-      "url": "https://events.ccc.de/en/2026/09/12/40c3-model-citizens/",
-      "canonicalUrl": "https://events.ccc.de/en/2026/09/12/40c3-model-citizens",
-      "domain": "events.ccc.de",
-      "createdAt": "2026-09-17T08:03:54.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 365,
-          "comments": 216,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49737787"
-        }
-      ],
-      "normalized": 0.899,
-      "score": 0.162
-    },
-    {
-      "id": "fe87c5b60e22",
-      "title": "AI safety is mostly a sex cult",
-      "url": "https://skywriter.blue/@segyges.bsky.social/3mvom4b4dn22q",
-      "canonicalUrl": "https://skywriter.blue/@segyges.bsky.social/3mvom4b4dn22q",
-      "domain": "skywriter.blue",
-      "createdAt": "2026-09-17T08:36:37.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 305,
-          "comments": 247,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49737985"
-        }
-      ],
-      "normalized": 0.848,
-      "score": 0.157
-    },
-    {
-      "id": "4e5bd47d62f1",
-      "title": "Sex, AI, and the Apocalypse",
-      "url": "https://www.iankduncan.com/personal/2026-09-16-sex-ai-and-the-apocalypse/",
-      "canonicalUrl": "https://iankduncan.com/personal/2026-09-16-sex-ai-and-the-apocalypse",
-      "domain": "iankduncan.com",
-      "createdAt": "2026-09-17T09:43:19.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 214,
-          "comments": 232,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49746654"
-        }
-      ],
-      "normalized": 0.71,
-      "score": 0.14
+      "score": 0.228
     }
   ]
 }
