@@ -1,0 +1,297 @@
+{
+  "date": "2026-09-19",
+  "generatedAt": "2026-09-19T15:06:36.304Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "d25e3d9749cf",
+      "title": "kicking the tires on jev (TypeSafe's System One model) with 2048",
+      "url": "https://gist.github.com/cablehead/bdf9ad946ceb26d9008976e49c9bfbbb",
+      "canonicalUrl": "https://gist.github.com/cablehead/bdf9ad946ceb26d9008976e49c9bfbbb",
+      "domain": "gist.github.com",
+      "createdAt": "2026-09-19T12:38:11.952Z",
+      "appearances": [
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 5,
+          "comments": 2,
+          "discussionUrl": "https://lobste.rs/s/hmkk2c/kicking_tires_on_jev_typesafe_s_system_one"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 3.371
+    },
+    {
+      "id": "643a84217e15",
+      "title": "AI-generated posters don’t have to be horrible",
+      "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
+      "canonicalUrl": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
+      "domain": "john.hartnup.uk",
+      "createdAt": "2026-09-19T09:20:58.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 592,
+          "comments": 356,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49764791"
+        }
+      ],
+      "normalized": 0.924,
+      "score": 2.312
+    },
+    {
+      "id": "24b02845241c",
+      "title": "AI Safety Is Mostly a Sex Cult",
+      "url": "https://bsky.app/profile/segyges.bsky.social/post/3mvom4b4dn22q",
+      "canonicalUrl": "https://bsky.app/profile/segyges.bsky.social/post/3mvom4b4dn22q",
+      "domain": "bsky.app",
+      "createdAt": "2026-09-19T14:36:28.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 15,
+          "comments": 2,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49766911"
+        }
+      ],
+      "normalized": 0.109,
+      "score": 2.096
+    },
+    {
+      "id": "56aef8f25d59",
+      "title": "GPT-6 Astra Solves a WWI German Radio Cipher",
+      "url": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
+      "canonicalUrl": "https://prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
+      "domain": "prinzai.com",
+      "createdAt": "2026-09-19T06:41:44.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 220,
+          "comments": 120,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49763987"
+        }
+      ],
+      "normalized": 0.782,
+      "score": 1.151
+    },
+    {
+      "id": "b46e96d73712",
+      "title": "Dear Customer, Fuck You",
+      "url": "https://fuck-off.ai",
+      "canonicalUrl": "https://fuck-off.ai/",
+      "domain": "fuck-off.ai",
+      "createdAt": "2026-09-19T08:58:34.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 35,
+          "comments": 11,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49764686"
+        }
+      ],
+      "normalized": 0.328,
+      "score": 0.753
+    },
+    {
+      "id": "87c74f1ab470",
+      "title": "NASA-IBM Lunar Foundation open-Source Geospatial AI Model",
+      "url": "https://newsroom.usra.edu/usra-contributes-planetary-science-expertise-to-nasa-ibm-lunar-foundation-model/",
+      "canonicalUrl": "https://newsroom.usra.edu/usra-contributes-planetary-science-expertise-to-nasa-ibm-lunar-foundation-model",
+      "domain": "newsroom.usra.edu",
+      "createdAt": "2026-09-19T04:44:35.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 47,
+          "comments": 5,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49763379"
+        }
+      ],
+      "normalized": 0.403,
+      "score": 0.436
+    },
+    {
+      "id": "95f7cd70ead9",
+      "title": "Gemini hacked three companies in first known breakout by Google's AI",
+      "url": "https://www.reuters.com/business/gemini-hacked-three-companies-first-known-breakout-by-google-ai-wsj-reports-2026-09-18/",
+      "canonicalUrl": "https://reuters.com/business/gemini-hacked-three-companies-first-known-breakout-by-google-ai-wsj-reports-2026-09-18",
+      "domain": "reuters.com",
+      "createdAt": "2026-09-18T22:17:19.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 66,
+          "comments": 65,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49762493"
+        },
+        {
+          "source": "rss",
+          "label": "Simon Willison",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.504,
+      "score": 0.384
+    },
+    {
+      "id": "62496201643c",
+      "title": "How come AI-related posts get so many points on HN?",
+      "url": "https://news.ycombinator.com/item?id=49764057",
+      "canonicalUrl": "https://news.ycombinator.com/item?id=49764057",
+      "domain": "news.ycombinator.com",
+      "createdAt": "2026-09-19T06:57:50.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 23,
+          "comments": 22,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49764057"
+        }
+      ],
+      "normalized": 0.143,
+      "score": 0.221
+    },
+    {
+      "id": "b12f4df50381",
+      "title": "AI hallucination nearly triggers US Military operation",
+      "url": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
+      "canonicalUrl": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation",
+      "domain": "techcrunch.com",
+      "createdAt": "2026-09-19T08:07:08.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 15,
+          "comments": 4,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49764435"
+        }
+      ],
+      "normalized": 0.109,
+      "score": 0.21
+    },
+    {
+      "id": "c9b4eeec3ee2",
+      "title": "The Case of Elias Thorne, Imaginary Man AI Chatbots Are Obsessed With",
+      "url": "https://www.vice.com/en/article/the-strange-case-of-elias-thorne-the-imaginary-man-ai-chatbots-are-obsessed-with/",
+      "canonicalUrl": "https://vice.com/en/article/the-strange-case-of-elias-thorne-the-imaginary-man-ai-chatbots-are-obsessed-with",
+      "domain": "vice.com",
+      "createdAt": "2026-09-19T07:13:10.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 16,
+          "comments": 6,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49764141"
+        }
+      ],
+      "normalized": 0.126,
+      "score": 0.204
+    },
+    {
+      "id": "1091ae21c2cd",
+      "title": "Google's Gemini AI hacked three companies in security test",
+      "url": "https://www.bbc.co.uk/news/articles/c607l0k72rlvo",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c607l0k72rlvo",
+      "domain": "bbc.co.uk",
+      "createdAt": "2026-09-19T06:09:23.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 23,
+          "comments": 10,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49763822"
+        }
+      ],
+      "normalized": 0.143,
+      "score": 0.192
+    },
+    {
+      "id": "dc10dc41d0ea",
+      "title": "AI chatbots are becoming experts at changing people's minds",
+      "url": "https://www.science.org/content/article/ai-chatbots-are-becoming-experts-changing-people-s-minds-what-s-their-secret",
+      "canonicalUrl": "https://science.org/content/article/ai-chatbots-are-becoming-experts-changing-people-s-minds-what-s-their-secret",
+      "domain": "science.org",
+      "createdAt": "2026-09-18T13:39:27.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 111,
+          "comments": 99,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49754250"
+        }
+      ],
+      "normalized": 0.605,
+      "score": 0.156
+    },
+    {
+      "id": "7e0f74980520",
+      "title": "Stepfun Step 5 Preview (LLM): On AA Pareto frontier",
+      "url": "https://artificialanalysis.ai/models/step-5",
+      "canonicalUrl": "https://artificialanalysis.ai/models/step-5",
+      "domain": "artificialanalysis.ai",
+      "createdAt": "2026-09-19T05:42:31.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 14,
+          "comments": 2,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49763660"
+        }
+      ],
+      "normalized": 0.092,
+      "score": 0.116
+    },
+    {
+      "id": "559b0cf11197",
+      "title": "Introducing the Australian Youth Safety Blueprint",
+      "url": "https://openai.com/index/australian-youth-safety-blueprint",
+      "canonicalUrl": "https://openai.com/index/australian-youth-safety-blueprint",
+      "domain": "openai.com",
+      "createdAt": "2026-09-18T12:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.116
+    },
+    {
+      "id": "601ec39486a7",
+      "title": "GrassLobster: AI Agentic Generation of Parametric Geometry Workflows",
+      "url": "https://www.miro.vision/index.php/2026/09/17/grasslobbster/",
+      "canonicalUrl": "https://miro.vision/index.php/2026/09/17/grasslobbster",
+      "domain": "miro.vision",
+      "createdAt": "2026-09-18T15:04:54.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 29,
+          "comments": 5,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49755431"
+        }
+      ],
+      "normalized": 0.235,
+      "score": 0.067
+    }
+  ]
+}
