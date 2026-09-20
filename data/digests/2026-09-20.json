@@ -1,0 +1,292 @@
+{
+  "date": "2026-09-20",
+  "generatedAt": "2026-09-20T15:10:09.165Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "fc9a8f12e485",
+      "title": "Qwen-Image-2.1: Compact, efficient, and unified image creation",
+      "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+      "canonicalUrl": "https://qwen.ai/blog?id=qwen-image-2.1",
+      "domain": "qwen.ai",
+      "createdAt": "2026-09-20T13:09:25.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 135,
+          "comments": 51,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49775499"
+        }
+      ],
+      "normalized": 0.775,
+      "score": 6.356
+    },
+    {
+      "id": "2214a3c68b22",
+      "title": "If AI coding is lowering your code quality, you're not managing quality right",
+      "url": "https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code",
+      "canonicalUrl": "https://i-kh.net/p/if-ai-coding-is-lowering-your-code",
+      "domain": "i-kh.net",
+      "createdAt": "2026-09-20T11:37:10.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 57,
+          "comments": 95,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49774795"
+        }
+      ],
+      "normalized": 0.575,
+      "score": 2.63
+    },
+    {
+      "id": "3aa4531a9db1",
+      "title": "AI and the Destruction of the Creative Commons",
+      "url": "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/",
+      "canonicalUrl": "https://chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons",
+      "domain": "chesterwisniewski.com",
+      "createdAt": "2026-09-20T10:07:51.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 195,
+          "comments": 219,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49774329"
+        }
+      ],
+      "normalized": 0.85,
+      "score": 2.535
+    },
+    {
+      "id": "51e7581e90f5",
+      "title": "I'm Tired of the AI Tone",
+      "url": "https://sagivo.com/blog/im-tired-of-the-ai-tone",
+      "canonicalUrl": "https://sagivo.com/blog/im-tired-of-the-ai-tone",
+      "domain": "sagivo.com",
+      "createdAt": "2026-09-20T11:18:26.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 40,
+          "comments": 51,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49774665"
+        }
+      ],
+      "normalized": 0.392,
+      "score": 1.623
+    },
+    {
+      "id": "691bbe7b9301",
+      "title": "Microsoft agentically ports Copilot runtime to Rust for $120K",
+      "url": "https://www.theregister.com/devops/2026/09/18/microsoft-agentically-ports-copilot-runtime-to-rust-for-120k/5297549",
+      "canonicalUrl": "https://theregister.com/devops/2026/09/18/microsoft-agentically-ports-copilot-runtime-to-rust-for-120k/5297549",
+      "domain": "theregister.com",
+      "createdAt": "2026-09-20T09:08:52.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 41,
+          "comments": 54,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49773998"
+        }
+      ],
+      "normalized": 0.417,
+      "score": 0.982
+    },
+    {
+      "id": "7adc6705dbbd",
+      "title": "Big Tech uses guarantees to keep $300B AI exposure off balance sheets",
+      "url": "https://www.ft.com/content/7f11afae-c4e3-4054-a65b-873f3647f563",
+      "canonicalUrl": "https://ft.com/content/7f11afae-c4e3-4054-a65b-873f3647f563",
+      "domain": "ft.com",
+      "createdAt": "2026-09-20T12:07:10.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 24,
+          "comments": 18,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49774991"
+        }
+      ],
+      "normalized": 0.133,
+      "score": 0.723
+    },
+    {
+      "id": "f6d562334264",
+      "title": "KDE turns 30 and someone's brought an AI-native desktop proposal",
+      "url": "https://www.theregister.com/software/2026/09/18/kde-turns-30-and-someones-brought-an-ai-native-desktop-proposal/5297282",
+      "canonicalUrl": "https://theregister.com/software/2026/09/18/kde-turns-30-and-someones-brought-an-ai-native-desktop-proposal/5297282",
+      "domain": "theregister.com",
+      "createdAt": "2026-09-20T07:38:37.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 38,
+          "comments": 50,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49773439"
+        }
+      ],
+      "normalized": 0.35,
+      "score": 0.605
+    },
+    {
+      "id": "70df14160046",
+      "title": "Google AI Studio fakes data deletion. VRP auto-banned me in 60s for reporting it",
+      "url": "https://medium.com/@istokovicsgyorgy79/google-ai-studio-fakes-data-deletion-vrp-auto-banned-me-in-60s-for-reporting-it-ea68e06f9bc2",
+      "canonicalUrl": "https://medium.com/@istokovicsgyorgy79/google-ai-studio-fakes-data-deletion-vrp-auto-banned-me-in-60s-for-reporting-it-ea68e06f9bc2",
+      "domain": "medium.com",
+      "createdAt": "2026-09-20T04:39:12.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 50,
+          "comments": 40,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49772544"
+        }
+      ],
+      "normalized": 0.483,
+      "score": 0.511
+    },
+    {
+      "id": "88903c86c3c9",
+      "title": "Every Nvidia GPU has 10 to 30 RISC-V cores inside it",
+      "url": "https://www.xda-developers.com/your-nvidia-gpu-dozens-risc-v-cores-one-took-over-graphics-driver/",
+      "canonicalUrl": "https://xda-developers.com/your-nvidia-gpu-dozens-risc-v-cores-one-took-over-graphics-driver",
+      "domain": "xda-developers.com",
+      "createdAt": "2026-09-20T07:50:58.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 33,
+          "comments": 0,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49773511"
+        }
+      ],
+      "normalized": 0.267,
+      "score": 0.48
+    },
+    {
+      "id": "9d6783aa96df",
+      "title": "OpenAI and Microsoft knew they were starting a 'doom loop' for the web",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
+      "canonicalUrl": "https://theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
+      "domain": "theverge.com",
+      "createdAt": "2026-09-20T08:07:08.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 27,
+          "comments": 1,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49773624"
+        }
+      ],
+      "normalized": 0.15,
+      "score": 0.285
+    },
+    {
+      "id": "24b02845241c",
+      "title": "AI Safety Is Mostly a Sex Cult",
+      "url": "https://bsky.app/profile/segyges.bsky.social/post/3mvom4b4dn22q",
+      "canonicalUrl": "https://bsky.app/profile/segyges.bsky.social/post/3mvom4b4dn22q",
+      "domain": "bsky.app",
+      "createdAt": "2026-09-19T14:36:28.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 72,
+          "comments": 43,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49766911"
+        }
+      ],
+      "normalized": 0.625,
+      "score": 0.171
+    },
+    {
+      "id": "239a0abdd24d",
+      "title": "Two parallel neural ectoderm progenitors contribute to the developing brain",
+      "url": "https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html",
+      "canonicalUrl": "https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html",
+      "domain": "med.stanford.edu",
+      "createdAt": "2026-09-19T05:48:50.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 633,
+          "comments": 249,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49763697"
+        }
+      ],
+      "normalized": 0.967,
+      "score": 0.158
+    },
+    {
+      "id": "87c74f1ab470",
+      "title": "NASA-IBM Lunar Foundation open-Source Geospatial AI Model",
+      "url": "https://newsroom.usra.edu/usra-contributes-planetary-science-expertise-to-nasa-ibm-lunar-foundation-model/",
+      "canonicalUrl": "https://newsroom.usra.edu/usra-contributes-planetary-science-expertise-to-nasa-ibm-lunar-foundation-model",
+      "domain": "newsroom.usra.edu",
+      "createdAt": "2026-09-19T04:44:35.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 53,
+          "comments": 6,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49763379"
+        }
+      ],
+      "normalized": 0.55,
+      "score": 0.085
+    },
+    {
+      "id": "b46e96d73712",
+      "title": "Dear Customer, Fuck You",
+      "url": "https://fuck-off.ai",
+      "canonicalUrl": "https://fuck-off.ai/",
+      "domain": "fuck-off.ai",
+      "createdAt": "2026-09-19T08:58:34.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 45,
+          "comments": 11,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49764686"
+        }
+      ],
+      "normalized": 0.425,
+      "score": 0.082
+    },
+    {
+      "id": "9fc2908fee26",
+      "title": "Lawsuit: Illegal Agreement of Anthropic, OpenAI, SpaceXAI, Google on AI Slowdown",
+      "url": "https://www.independent.co.uk/news/lawsuit-anthropic-google-openai-lawyers-b3052942.html",
+      "canonicalUrl": "https://independent.co.uk/news/lawsuit-anthropic-google-openai-lawyers-b3052942.html",
+      "domain": "independent.co.uk",
+      "createdAt": "2026-09-19T16:51:41.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 18,
+          "comments": 1,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49768108"
+        }
+      ],
+      "normalized": 0.092,
+      "score": 0.029
+    }
+  ]
+}
