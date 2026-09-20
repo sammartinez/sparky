@@ -1,26 +1,159 @@
 {
   "date": "2026-09-19",
-  "generatedAt": "2026-09-19T15:06:36.304Z",
+  "generatedAt": "2026-09-20T03:25:10.876Z",
   "windowHours": 36,
   "stories": [
     {
-      "id": "d25e3d9749cf",
-      "title": "kicking the tires on jev (TypeSafe's System One model) with 2048",
-      "url": "https://gist.github.com/cablehead/bdf9ad946ceb26d9008976e49c9bfbbb",
-      "canonicalUrl": "https://gist.github.com/cablehead/bdf9ad946ceb26d9008976e49c9bfbbb",
-      "domain": "gist.github.com",
-      "createdAt": "2026-09-19T12:38:11.952Z",
+      "id": "1bcdc6d0dde0",
+      "title": "Can you tell which images are AI-generated?",
+      "url": "https://slop-sense.labtoagi.com/games/is-this-image-ai/",
+      "canonicalUrl": "https://slop-sense.labtoagi.com/games/is-this-image-ai",
+      "domain": "slop-sense.labtoagi.com",
+      "createdAt": "2026-09-19T23:02:34.000Z",
       "appearances": [
         {
-          "source": "lobsters",
-          "label": "Lobsters",
-          "points": 5,
-          "comments": 2,
-          "discussionUrl": "https://lobste.rs/s/hmkk2c/kicking_tires_on_jev_typesafe_s_system_one"
+          "source": "hn",
+          "label": "HN",
+          "points": 52,
+          "comments": 54,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49770847"
         }
       ],
       "normalized": 0.5,
-      "score": 3.371
+      "score": 1.781
+    },
+    {
+      "id": "3f804090f020",
+      "title": "The Hugging Face Hack Wasn't What It Was Cracked Up to Be",
+      "url": "https://www.wsj.com/opinion/the-hugging-face-hack-wasnt-what-it-was-cracked-up-to-be-e00cf3fa",
+      "canonicalUrl": "https://wsj.com/opinion/the-hugging-face-hack-wasnt-what-it-was-cracked-up-to-be-e00cf3fa",
+      "domain": "wsj.com",
+      "createdAt": "2026-09-20T00:10:00.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 32,
+          "comments": 15,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49771266"
+        }
+      ],
+      "normalized": 0.277,
+      "score": 1.398
+    },
+    {
+      "id": "4e988b15bf54",
+      "title": "Measure internet censorship. Contribute to the largest open dataset",
+      "url": "https://ooni.org/install",
+      "canonicalUrl": "https://ooni.org/install",
+      "domain": "ooni.org",
+      "createdAt": "2026-09-19T20:00:59.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 110,
+          "comments": 76,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49769676"
+        }
+      ],
+      "normalized": 0.692,
+      "score": 1.226
+    },
+    {
+      "id": "5dea5bcb21a9",
+      "title": "Microsoft director: AI scraping 'the largest theft of labor in human history'",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
+      "canonicalUrl": "https://tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
+      "domain": "tomshardware.com",
+      "createdAt": "2026-09-19T18:21:30.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 139,
+          "comments": 42,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49768921"
+        }
+      ],
+      "normalized": 0.738,
+      "score": 0.976
+    },
+    {
+      "id": "35721eb82dbc",
+      "title": "I think you should almost never use AI to write",
+      "url": "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai",
+      "canonicalUrl": "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai",
+      "domain": "erichgrunewald.substack.com",
+      "createdAt": "2026-09-19T16:35:24.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 253,
+          "comments": 131,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49767937"
+        }
+      ],
+      "normalized": 0.877,
+      "score": 0.888
+    },
+    {
+      "id": "31c51e0ca61b",
+      "title": "Lawsuit says Anthropic, OpenAI and others made illegal agreement on AI slowdown",
+      "url": "https://apnews.com/article/antitrust-lawsuit-ai-slowdown-anthropic-openai-spacexai-google-960af4308161eaf4ed13c383b0ce1c1b",
+      "canonicalUrl": "https://apnews.com/article/antitrust-lawsuit-ai-slowdown-anthropic-openai-spacexai-google-960af4308161eaf4ed13c383b0ce1c1b",
+      "domain": "apnews.com",
+      "createdAt": "2026-09-19T18:36:44.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 46,
+          "comments": 17,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49769050"
+        }
+      ],
+      "normalized": 0.462,
+      "score": 0.636
+    },
+    {
+      "id": "6e56d47a5511",
+      "title": "OpenAI and Anthropic oversold AI security breaches",
+      "url": "https://nypost.com/2026/09/19/us-news/openai-anthropic-oversold-security-breaches-to-pressure-feds-into-protecting-turf-insiders/",
+      "canonicalUrl": "https://nypost.com/2026/09/19/us-news/openai-anthropic-oversold-security-breaches-to-pressure-feds-into-protecting-turf-insiders",
+      "domain": "nypost.com",
+      "createdAt": "2026-09-19T19:59:28.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 34,
+          "comments": 21,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49769668"
+        }
+      ],
+      "normalized": 0.338,
+      "score": 0.596
+    },
+    {
+      "id": "1c712cad4f64",
+      "title": "Show HN: CUA-S1 – A System One Model for Computer Use",
+      "url": "https://github.com/trycua/cua",
+      "canonicalUrl": "https://github.com/trycua/cua",
+      "domain": "github.com",
+      "createdAt": "2026-09-19T15:52:51.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 68,
+          "comments": 8,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49767564"
+        }
+      ],
+      "normalized": 0.585,
+      "score": 0.537
     },
     {
       "id": "643a84217e15",
@@ -39,26 +172,64 @@
         }
       ],
       "normalized": 0.924,
-      "score": 2.312
+      "score": 0.418
     },
     {
-      "id": "24b02845241c",
-      "title": "AI Safety Is Mostly a Sex Cult",
-      "url": "https://bsky.app/profile/segyges.bsky.social/post/3mvom4b4dn22q",
-      "canonicalUrl": "https://bsky.app/profile/segyges.bsky.social/post/3mvom4b4dn22q",
-      "domain": "bsky.app",
-      "createdAt": "2026-09-19T14:36:28.000Z",
+      "id": "05476318d5e4",
+      "title": "AI in schools – The choice we keep making",
+      "url": "https://friendsschoolboulder.org/the-choice-we-keep-making/",
+      "canonicalUrl": "https://friendsschoolboulder.org/the-choice-we-keep-making",
+      "domain": "friendsschoolboulder.org",
+      "createdAt": "2026-09-19T22:55:39.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 15,
+          "points": 18,
           "comments": 2,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49766911"
+          "discussionUrl": "https://news.ycombinator.com/item?id=49770807"
         }
       ],
-      "normalized": 0.109,
-      "score": 2.096
+      "normalized": 0.115,
+      "score": 0.398
+    },
+    {
+      "id": "0b2124b4ab24",
+      "title": "Ask HN: How do you interview devs in a post-AI world?",
+      "url": "https://news.ycombinator.com/item?id=49768826",
+      "canonicalUrl": "https://news.ycombinator.com/item?id=49768826",
+      "domain": "news.ycombinator.com",
+      "createdAt": "2026-09-19T18:10:34.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 31,
+          "comments": 22,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49768826"
+        }
+      ],
+      "normalized": 0.246,
+      "score": 0.316
+    },
+    {
+      "id": "d25e3d9749cf",
+      "title": "kicking the tires on jev (TypeSafe's System One model) with 2048",
+      "url": "https://gist.github.com/cablehead/bdf9ad946ceb26d9008976e49c9bfbbb",
+      "canonicalUrl": "https://gist.github.com/cablehead/bdf9ad946ceb26d9008976e49c9bfbbb",
+      "domain": "gist.github.com",
+      "createdAt": "2026-09-19T12:38:11.952Z",
+      "appearances": [
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 5,
+          "comments": 2,
+          "discussionUrl": "https://lobste.rs/s/hmkk2c/kicking_tires_on_jev_typesafe_s_system_one"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.312
     },
     {
       "id": "56aef8f25d59",
@@ -77,221 +248,45 @@
         }
       ],
       "normalized": 0.782,
-      "score": 1.151
+      "score": 0.283
     },
     {
-      "id": "b46e96d73712",
-      "title": "Dear Customer, Fuck You",
-      "url": "https://fuck-off.ai",
-      "canonicalUrl": "https://fuck-off.ai/",
-      "domain": "fuck-off.ai",
-      "createdAt": "2026-09-19T08:58:34.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 35,
-          "comments": 11,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49764686"
-        }
-      ],
-      "normalized": 0.328,
-      "score": 0.753
-    },
-    {
-      "id": "87c74f1ab470",
-      "title": "NASA-IBM Lunar Foundation open-Source Geospatial AI Model",
-      "url": "https://newsroom.usra.edu/usra-contributes-planetary-science-expertise-to-nasa-ibm-lunar-foundation-model/",
-      "canonicalUrl": "https://newsroom.usra.edu/usra-contributes-planetary-science-expertise-to-nasa-ibm-lunar-foundation-model",
-      "domain": "newsroom.usra.edu",
-      "createdAt": "2026-09-19T04:44:35.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 47,
-          "comments": 5,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49763379"
-        }
-      ],
-      "normalized": 0.403,
-      "score": 0.436
-    },
-    {
-      "id": "95f7cd70ead9",
-      "title": "Gemini hacked three companies in first known breakout by Google's AI",
-      "url": "https://www.reuters.com/business/gemini-hacked-three-companies-first-known-breakout-by-google-ai-wsj-reports-2026-09-18/",
-      "canonicalUrl": "https://reuters.com/business/gemini-hacked-three-companies-first-known-breakout-by-google-ai-wsj-reports-2026-09-18",
-      "domain": "reuters.com",
-      "createdAt": "2026-09-18T22:17:19.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 66,
-          "comments": 65,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49762493"
-        },
-        {
-          "source": "rss",
-          "label": "Simon Willison",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.504,
-      "score": 0.384
-    },
-    {
-      "id": "62496201643c",
-      "title": "How come AI-related posts get so many points on HN?",
-      "url": "https://news.ycombinator.com/item?id=49764057",
-      "canonicalUrl": "https://news.ycombinator.com/item?id=49764057",
-      "domain": "news.ycombinator.com",
-      "createdAt": "2026-09-19T06:57:50.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 23,
-          "comments": 22,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49764057"
-        }
-      ],
-      "normalized": 0.143,
-      "score": 0.221
-    },
-    {
-      "id": "b12f4df50381",
-      "title": "AI hallucination nearly triggers US Military operation",
-      "url": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
-      "canonicalUrl": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation",
-      "domain": "techcrunch.com",
-      "createdAt": "2026-09-19T08:07:08.000Z",
+      "id": "0549bb2252e1",
+      "title": "Why AI Cannot Save an Enterprise That Doesn't Understand Its Data",
+      "url": "https://architectureintel.com/why-ai-cannot-save-an-enterprise-that-doesnt-understand-its-data-83613f209317",
+      "canonicalUrl": "https://architectureintel.com/why-ai-cannot-save-an-enterprise-that-doesnt-understand-its-data-83613f209317",
+      "domain": "architectureintel.com",
+      "createdAt": "2026-09-19T22:22:28.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
           "points": 15,
-          "comments": 4,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49764435"
+          "comments": 7,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49770580"
         }
       ],
-      "normalized": 0.109,
-      "score": 0.21
+      "normalized": 0.092,
+      "score": 0.275
     },
     {
-      "id": "c9b4eeec3ee2",
-      "title": "The Case of Elias Thorne, Imaginary Man AI Chatbots Are Obsessed With",
-      "url": "https://www.vice.com/en/article/the-strange-case-of-elias-thorne-the-imaginary-man-ai-chatbots-are-obsessed-with/",
-      "canonicalUrl": "https://vice.com/en/article/the-strange-case-of-elias-thorne-the-imaginary-man-ai-chatbots-are-obsessed-with",
-      "domain": "vice.com",
-      "createdAt": "2026-09-19T07:13:10.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 16,
-          "comments": 6,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49764141"
-        }
-      ],
-      "normalized": 0.126,
-      "score": 0.204
-    },
-    {
-      "id": "1091ae21c2cd",
-      "title": "Google's Gemini AI hacked three companies in security test",
-      "url": "https://www.bbc.co.uk/news/articles/c607l0k72rlvo",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c607l0k72rlvo",
-      "domain": "bbc.co.uk",
-      "createdAt": "2026-09-19T06:09:23.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 23,
-          "comments": 10,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49763822"
-        }
-      ],
-      "normalized": 0.143,
-      "score": 0.192
-    },
-    {
-      "id": "dc10dc41d0ea",
-      "title": "AI chatbots are becoming experts at changing people's minds",
-      "url": "https://www.science.org/content/article/ai-chatbots-are-becoming-experts-changing-people-s-minds-what-s-their-secret",
-      "canonicalUrl": "https://science.org/content/article/ai-chatbots-are-becoming-experts-changing-people-s-minds-what-s-their-secret",
-      "domain": "science.org",
-      "createdAt": "2026-09-18T13:39:27.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 111,
-          "comments": 99,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49754250"
-        }
-      ],
-      "normalized": 0.605,
-      "score": 0.156
-    },
-    {
-      "id": "7e0f74980520",
-      "title": "Stepfun Step 5 Preview (LLM): On AA Pareto frontier",
-      "url": "https://artificialanalysis.ai/models/step-5",
-      "canonicalUrl": "https://artificialanalysis.ai/models/step-5",
-      "domain": "artificialanalysis.ai",
-      "createdAt": "2026-09-19T05:42:31.000Z",
+      "id": "2e3bdb14fda2",
+      "title": "Show HN: I created an open source locally usable full fledged AI platform",
+      "url": "https://github.com/theguysudo/ENZO",
+      "canonicalUrl": "https://github.com/theguysudo/ENZO",
+      "domain": "github.com",
+      "createdAt": "2026-09-19T23:47:35.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
           "points": 14,
-          "comments": 2,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49763660"
+          "comments": 11,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49771118"
         }
       ],
-      "normalized": 0.092,
-      "score": 0.116
-    },
-    {
-      "id": "559b0cf11197",
-      "title": "Introducing the Australian Youth Safety Blueprint",
-      "url": "https://openai.com/index/australian-youth-safety-blueprint",
-      "canonicalUrl": "https://openai.com/index/australian-youth-safety-blueprint",
-      "domain": "openai.com",
-      "createdAt": "2026-09-18T12:00:00.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 0.116
-    },
-    {
-      "id": "601ec39486a7",
-      "title": "GrassLobster: AI Agentic Generation of Parametric Geometry Workflows",
-      "url": "https://www.miro.vision/index.php/2026/09/17/grasslobbster/",
-      "canonicalUrl": "https://miro.vision/index.php/2026/09/17/grasslobbster",
-      "domain": "miro.vision",
-      "createdAt": "2026-09-18T15:04:54.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 29,
-          "comments": 5,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49755431"
-        }
-      ],
-      "normalized": 0.235,
-      "score": 0.067
+      "normalized": 0.054,
+      "score": 0.24
     }
   ]
 }
