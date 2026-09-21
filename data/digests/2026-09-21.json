@@ -1,0 +1,294 @@
+{
+  "date": "2026-09-21",
+  "generatedAt": "2026-09-21T17:32:11.120Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "81104d8861cf",
+      "title": "Grok 4.7",
+      "url": "https://x.ai/news/grok-4-7",
+      "canonicalUrl": "https://x.ai/news/grok-4-7",
+      "domain": "x.ai",
+      "createdAt": "2026-09-21T15:50:15.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 190,
+          "comments": 130,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49788838"
+        }
+      ],
+      "normalized": 0.741,
+      "score": 7.033
+    },
+    {
+      "id": "c0ce65334154",
+      "title": "macOS 27: Workaround to avoid downloading AI models and save storage",
+      "url": "https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and/",
+      "canonicalUrl": "https://reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and",
+      "domain": "reddit.com",
+      "createdAt": "2026-09-21T14:10:49.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 118,
+          "comments": 43,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49787535"
+        }
+      ],
+      "normalized": 0.578,
+      "score": 2.817
+    },
+    {
+      "id": "53398a68537d",
+      "title": "The Claude Delusion",
+      "url": "https://pluralistic.net/2026/09/21/sunsetting/",
+      "canonicalUrl": "https://pluralistic.net/2026/09/21/sunsetting",
+      "domain": "pluralistic.net",
+      "createdAt": "2026-09-21T14:30:24.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 82,
+          "comments": 77,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49787765"
+        }
+      ],
+      "normalized": 0.452,
+      "score": 2.467
+    },
+    {
+      "id": "c701b57089c5",
+      "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+      "canonicalUrl": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+      "domain": "huggingface.co",
+      "createdAt": "2026-09-21T13:44:34.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 2.117
+    },
+    {
+      "id": "1737e5af7dda",
+      "title": "Amazon Blocks Meta's New Muse AI Agent from Shopping on Amazon.com",
+      "url": "https://www.forbes.com/sites/jonmarkman/2026/09/21/amazon-blocks-metas-new-muse-ai-agent-from-shopping-on-amazoncom/",
+      "canonicalUrl": "https://forbes.com/sites/jonmarkman/2026/09/21/amazon-blocks-metas-new-muse-ai-agent-from-shopping-on-amazoncom",
+      "domain": "forbes.com",
+      "createdAt": "2026-09-21T17:00:23.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 21,
+          "comments": 1,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49789982"
+        }
+      ],
+      "normalized": 0.089,
+      "score": 1.672
+    },
+    {
+      "id": "08be31d1d2d2",
+      "title": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM",
+      "url": "https://github.com/volotat/mini-AGI/",
+      "canonicalUrl": "https://github.com/volotat/mini-AGI",
+      "domain": "github.com",
+      "createdAt": "2026-09-21T04:42:37.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 224,
+          "comments": 44,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49783133"
+        },
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 1,
+          "comments": 0,
+          "discussionUrl": "https://lobste.rs/s/gxjhqo/continual_learning_model_trained_from"
+        }
+      ],
+      "normalized": 0.778,
+      "score": 0.91
+    },
+    {
+      "id": "2c9792fbb14a",
+      "title": "Building standards for the next phase of AI",
+      "url": "https://openai.com/index/building-standards-next-phase-ai",
+      "canonicalUrl": "https://openai.com/index/building-standards-next-phase-ai",
+      "domain": "openai.com",
+      "createdAt": "2026-09-21T10:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.863
+    },
+    {
+      "id": "b3a6ebf575f9",
+      "title": "Show HN: Lossless-memory – a personal AI memory that never summarizes",
+      "url": "https://github.com/aru-labs/lossless-memory",
+      "canonicalUrl": "https://github.com/aru-labs/lossless-memory",
+      "domain": "github.com",
+      "createdAt": "2026-09-21T12:28:17.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 41,
+          "comments": 12,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49786419"
+        }
+      ],
+      "normalized": 0.281,
+      "score": 0.834
+    },
+    {
+      "id": "f8a26a5a5b56",
+      "title": "Don't Use AI to Write",
+      "url": "https://paulbakker.io/writing/no-ai-for-writing/",
+      "canonicalUrl": "https://paulbakker.io/writing/no-ai-for-writing",
+      "domain": "paulbakker.io",
+      "createdAt": "2026-09-21T08:54:44.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 114,
+          "comments": 66,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49784816"
+        }
+      ],
+      "normalized": 0.541,
+      "score": 0.769
+    },
+    {
+      "id": "530db518a73a",
+      "title": "Expanding OpenAI Academy with new learning paths",
+      "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+      "canonicalUrl": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+      "domain": "openai.com",
+      "createdAt": "2026-09-21T07:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.528
+    },
+    {
+      "id": "a3b06b0aa698",
+      "title": "AI chatbots give wrong answers to financial queries 'most of the time'",
+      "url": "https://www.ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666",
+      "canonicalUrl": "https://ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666",
+      "domain": "ft.com",
+      "createdAt": "2026-09-21T04:28:44.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 143,
+          "comments": 79,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49783062"
+        }
+      ],
+      "normalized": 0.637,
+      "score": 0.483
+    },
+    {
+      "id": "752842484d49",
+      "title": "Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design",
+      "url": "https://arxiv.org/abs/2609.22086",
+      "canonicalUrl": "https://arxiv.org/abs/2609.22086",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-21T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 12,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.22086"
+        }
+      ],
+      "normalized": 0.69,
+      "score": 0.327
+    },
+    {
+      "id": "adacf0cc758f",
+      "title": "BI-Agent and BI-Bench: Towards Automating End-to-End Business Intelligence",
+      "url": "https://arxiv.org/abs/2609.20886",
+      "canonicalUrl": "https://arxiv.org/abs/2609.20886",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-21T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 6,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.20886"
+        }
+      ],
+      "normalized": 0.552,
+      "score": 0.262
+    },
+    {
+      "id": "d1749ba76a98",
+      "title": "How V7 gives AI agents institutional memory",
+      "url": "https://openai.com/index/v7",
+      "canonicalUrl": "https://openai.com/index/v7",
+      "domain": "openai.com",
+      "createdAt": "2026-09-21T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.237
+    },
+    {
+      "id": "eb792e0fc342",
+      "title": "tokenizers v1: encode, decode and scaling, measured",
+      "url": "https://huggingface.co/blog/tokenizers-v1",
+      "canonicalUrl": "https://huggingface.co/blog/tokenizers-v1",
+      "domain": "huggingface.co",
+      "createdAt": "2026-09-21T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.237
+    }
+  ]
+}
