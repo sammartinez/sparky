@@ -1,0 +1,287 @@
+{
+  "date": "2026-09-23",
+  "generatedAt": "2026-09-23T15:51:15.040Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "9d02eeb8cef1",
+      "title": "Two years of OpenAI Academy",
+      "url": "https://openai.com/index/two-years-of-openai-academy",
+      "canonicalUrl": "https://openai.com/index/two-years-of-openai-academy",
+      "domain": "openai.com",
+      "createdAt": "2026-09-23T16:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 14.359
+    },
+    {
+      "id": "914ed32ad555",
+      "title": "Gemini 3.8 text-to-speech says hello",
+      "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+      "canonicalUrl": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech",
+      "domain": "deepmind.google",
+      "createdAt": "2026-09-23T15:25:14.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Google DeepMind",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 10.086
+    },
+    {
+      "id": "a877a4ca2131",
+      "title": "Claude Code reads AGENTS.md only when telemetry is on [fixed]",
+      "url": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/",
+      "canonicalUrl": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on",
+      "domain": "blog.szypowi.cz",
+      "createdAt": "2026-09-23T12:15:33.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 335,
+          "comments": 181,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49814947"
+        }
+      ],
+      "normalized": 0.887,
+      "score": 3.997
+    },
+    {
+      "id": "762cf4d7418e",
+      "title": "OpenAI is enlisting an influencer army to make it look 'good for the world'",
+      "url": "https://www.businessinsider.com/inside-open-ai-influencer-marketing-strategy-chatgpt-ads-sponsorships-instagram-2026-9",
+      "canonicalUrl": "https://businessinsider.com/inside-open-ai-influencer-marketing-strategy-chatgpt-ads-sponsorships-instagram-2026-9",
+      "domain": "businessinsider.com",
+      "createdAt": "2026-09-23T12:32:00.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 180,
+          "comments": 174,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49815127"
+        }
+      ],
+      "normalized": 0.773,
+      "score": 3.816
+    },
+    {
+      "id": "18c511d8742e",
+      "title": "GPT-6 Astra has gained the ability to drive a car",
+      "url": "https://drivingbench.com/",
+      "canonicalUrl": "https://drivingbench.com/",
+      "domain": "drivingbench.com",
+      "createdAt": "2026-09-23T15:14:22.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 34,
+          "comments": 18,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49817404"
+        }
+      ],
+      "normalized": 0.207,
+      "score": 3.664
+    },
+    {
+      "id": "3186e672f1e7",
+      "title": "Stripe's Knowledge AI Platform",
+      "url": "https://stripe.dev/blog/meet-stripes-knowledge-ai-platform",
+      "canonicalUrl": "https://stripe.dev/blog/meet-stripes-knowledge-ai-platform",
+      "domain": "stripe.dev",
+      "createdAt": "2026-09-23T13:38:00.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 70,
+          "comments": 34,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49815982"
+        }
+      ],
+      "normalized": 0.48,
+      "score": 3.594
+    },
+    {
+      "id": "a4dec25709f4",
+      "title": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
+      "canonicalUrl": "https://huggingface.co/blog/nvidia/nemotron-diarization",
+      "domain": "huggingface.co",
+      "createdAt": "2026-09-23T13:17:01.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 3.244
+    },
+    {
+      "id": "1d77064cbebb",
+      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "canonicalUrl": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "domain": "openai.com",
+      "createdAt": "2026-09-23T13:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 2.91
+    },
+    {
+      "id": "de6694d3498c",
+      "title": "Jev in 25 Lines of Python",
+      "url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
+      "canonicalUrl": "https://nobodywho.ai/posts/jev-in-25-lines",
+      "domain": "nobodywho.ai",
+      "createdAt": "2026-09-23T07:26:23.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 451,
+          "comments": 138,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49812769"
+        }
+      ],
+      "normalized": 0.933,
+      "score": 1.375
+    },
+    {
+      "id": "0e8aacec61b2",
+      "title": "Jev in practice: typed decisions, scoped authority",
+      "url": "https://tenuo.ai/blog/jev-scoped-authority",
+      "canonicalUrl": "https://tenuo.ai/blog/jev-scoped-authority",
+      "domain": "tenuo.ai",
+      "createdAt": "2026-09-23T14:11:14.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 25,
+          "comments": 5,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49816487"
+        }
+      ],
+      "normalized": 0.12,
+      "score": 1.157
+    },
+    {
+      "id": "896a55a7a50c",
+      "title": "The Download: why AI's latest breakthroughs and fears may be more hype than rea",
+      "url": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
+      "canonicalUrl": "https://technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype",
+      "domain": "technologyreview.com",
+      "createdAt": "2026-09-23T11:01:50.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 44,
+          "comments": 100,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49814211"
+        }
+      ],
+      "normalized": 0.28,
+      "score": 0.883
+    },
+    {
+      "id": "1b4e48996d9a",
+      "title": "The Tasteful Agent: Measuring and Improving Taste in Long-Horizon Tasks",
+      "url": "https://arxiv.org/abs/2609.25804",
+      "canonicalUrl": "https://arxiv.org/abs/2609.25804",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 110,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.25804"
+        }
+      ],
+      "normalized": 0.957,
+      "score": 0.534
+    },
+    {
+      "id": "c04bd89073f6",
+      "title": "Show HN: RxFilm Studio–Create and edit your product videos with AI agent",
+      "url": "https://filmstudio.rxlab.app",
+      "canonicalUrl": "https://filmstudio.rxlab.app/",
+      "domain": "filmstudio.rxlab.app",
+      "createdAt": "2026-09-23T12:28:40.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 18,
+          "comments": 9,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49815095"
+        }
+      ],
+      "normalized": 0.087,
+      "score": 0.42
+    },
+    {
+      "id": "2c82660149d2",
+      "title": "Lean Pool: An AI-Maintained Archive of Formalized Mathematics",
+      "url": "https://arxiv.org/abs/2609.25199",
+      "canonicalUrl": "https://arxiv.org/abs/2609.25199",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 10,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.25199"
+        }
+      ],
+      "normalized": 0.522,
+      "score": 0.291
+    },
+    {
+      "id": "09a0c6dbf1c6",
+      "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+      "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+      "canonicalUrl": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+      "domain": "openai.com",
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.279
+    }
+  ]
+}
