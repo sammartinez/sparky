@@ -1,292 +1,295 @@
 {
   "date": "2026-09-22",
-  "generatedAt": "2026-09-22T16:00:57.759Z",
+  "generatedAt": "2026-09-23T03:20:16.483Z",
   "windowHours": 36,
   "stories": [
     {
-      "id": "18dcc1c8f6f4",
-      "title": "OpenAI is about to eat Jev's lunch – Arcturus Labs",
-      "url": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
-      "canonicalUrl": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch",
-      "domain": "arcturus-labs.com",
-      "createdAt": "2026-09-22T14:42:59.000Z",
+      "id": "50fdf1ad73b0",
+      "title": "SF October 14th: A Birds of a Feather Session on Agentic Engineering",
+      "url": "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/",
+      "canonicalUrl": "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering",
+      "domain": "simonwillison.net",
+      "createdAt": "2026-09-23T02:53:19.000Z",
       "appearances": [
         {
-          "source": "hn",
-          "label": "HN",
-          "points": 82,
-          "comments": 64,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49802161"
+          "source": "rss",
+          "label": "Simon Willison",
+          "points": null,
+          "comments": null
         }
       ],
-      "normalized": 0.545,
-      "score": 6.361
+      "normalized": 0.5,
+      "score": 9.97
     },
     {
-      "id": "48d8b4b4e766",
-      "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
-      "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
-      "canonicalUrl": "https://cryptocellar.org/bgac/the-mvueh-break.html",
-      "domain": "cryptocellar.org",
-      "createdAt": "2026-09-22T13:52:15.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 217,
-          "comments": 220,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49801324"
-        }
-      ],
-      "normalized": 0.766,
-      "score": 5.926
-    },
-    {
-      "id": "e051d8454776",
-      "title": "AI Has No Wisdom and Neither Will You",
-      "url": "https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you/",
-      "canonicalUrl": "https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you",
-      "domain": "alexn.org",
-      "createdAt": "2026-09-22T12:11:09.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 308,
-          "comments": 432,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49799965"
-        }
-      ],
-      "normalized": 0.877,
-      "score": 3.669
-    },
-    {
-      "id": "69fdbffa6eb2",
-      "title": "Stanford R&DE Uses AI to Race Swap Students for Advertising",
-      "url": "https://stanfordreview.org/stanford-r-de-uses-ai-to-race-swap-students-for-advertising/",
-      "canonicalUrl": "https://stanfordreview.org/stanford-r-de-uses-ai-to-race-swap-students-for-advertising",
-      "domain": "stanfordreview.org",
-      "createdAt": "2026-09-22T13:52:56.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 66,
-          "comments": 49,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49801330"
-        }
-      ],
-      "normalized": 0.461,
-      "score": 3.583
-    },
-    {
-      "id": "5dc131998993",
-      "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
-      "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
-      "canonicalUrl": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day",
-      "domain": "arstechnica.com",
-      "createdAt": "2026-09-22T14:35:15.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 38,
-          "comments": 13,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49802030"
-        }
-      ],
-      "normalized": 0.221,
-      "score": 2.403
-    },
-    {
-      "id": "58ee3c212509",
-      "title": "People Training OpenAI's AI Fired for Using AI to Train the AI",
-      "url": "https://www.404media.co/people-training-openais-ai-fired-for-using-ai-to-train-the-ai/",
-      "canonicalUrl": "https://404media.co/people-training-openais-ai-fired-for-using-ai-to-train-the-ai",
-      "domain": "404media.co",
-      "createdAt": "2026-09-22T13:27:29.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 55,
-          "comments": 39,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49800953"
-        }
-      ],
-      "normalized": 0.357,
-      "score": 2.328
-    },
-    {
-      "id": "83a7e2c1b36f",
-      "title": "JetBrains Air: A System of Products for Agentic Software Development",
-      "url": "https://blog.jetbrains.com/blog/2026/09/22/introducing-jetbrains-air/",
-      "canonicalUrl": "https://blog.jetbrains.com/blog/2026/09/22/introducing-jetbrains-air",
-      "domain": "blog.jetbrains.com",
-      "createdAt": "2026-09-22T11:00:58.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 62,
-          "comments": 96,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49799287"
-        }
-      ],
-      "normalized": 0.409,
-      "score": 1.232
-    },
-    {
-      "id": "66deb2c0d677",
-      "title": "Can gzip be a language model?",
-      "url": "https://nathan.rs/posts/gzip-lm/",
-      "canonicalUrl": "https://nathan.rs/posts/gzip-lm",
-      "domain": "nathan.rs",
-      "createdAt": "2026-09-22T06:08:39.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 307,
-          "comments": 119,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49797323"
-        }
-      ],
-      "normalized": 0.864,
-      "score": 1.005
-    },
-    {
-      "id": "c90fa4548e63",
-      "title": "Study: Young users (9 to 18Y) ditch Google for AI, with unknown consequences",
-      "url": "https://norwegianscitechnews.com/2026/09/young-users-ditch-google-for-ai-with-unknown-consequences/",
-      "canonicalUrl": "https://norwegianscitechnews.com/2026/09/young-users-ditch-google-for-ai-with-unknown-consequences",
-      "domain": "norwegianscitechnews.com",
-      "createdAt": "2026-09-22T09:18:54.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 60,
-          "comments": 107,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49798451"
-        }
-      ],
-      "normalized": 0.396,
-      "score": 0.806
-    },
-    {
-      "id": "f31294d894f0",
-      "title": "MiMo-v2.6-Pro: Intelligence, Performance and Price Analysis",
-      "url": "https://artificialanalysis.ai/models/mimo-v2-6-pro",
-      "canonicalUrl": "https://artificialanalysis.ai/models/mimo-v2-6-pro",
-      "domain": "artificialanalysis.ai",
-      "createdAt": "2026-09-22T04:02:09.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 130,
-          "comments": 51,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49796660"
-        }
-      ],
-      "normalized": 0.604,
-      "score": 0.524
-    },
-    {
-      "id": "93f2f2b4146b",
-      "title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
-      "url": "https://arxiv.org/abs/2609.24984",
-      "canonicalUrl": "https://arxiv.org/abs/2609.24984",
+      "id": "755e3dc914b2",
+      "title": "DeepSeek Elastic Compute (DSec): Sandbox Infrastructure for Effective Agentic Training at Scale",
+      "url": "https://arxiv.org/abs/2609.22978",
+      "canonicalUrl": "https://arxiv.org/abs/2609.22978",
       "domain": "arxiv.org",
-      "createdAt": "2026-09-22T00:00:00.000Z",
+      "createdAt": "2026-09-23T00:51:04.767Z",
+      "appearances": [
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://lobste.rs/s/3hbty3/deepseek_elastic_compute_dsec_sandbox"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 3.354
+    },
+    {
+      "id": "e605a8717313",
+      "title": "Circuit Hypernetworks for Quantum-Augmented Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2609.24657",
+      "canonicalUrl": "https://arxiv.org/abs/2609.24657",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-23T00:00:00.000Z",
       "appearances": [
         {
           "source": "hf",
           "label": "HF Papers",
-          "points": 105,
+          "points": 11,
           "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.24984"
+          "discussionUrl": "https://huggingface.co/papers/2609.24657"
         }
       ],
-      "normalized": 0.931,
-      "score": 0.511
+      "normalized": 0.55,
+      "score": 2.698
     },
     {
-      "id": "888fef2772e5",
-      "title": "Tell HN: Claude Code just accepted and signed a contract for me. Without asking",
-      "url": "https://news.ycombinator.com/item?id=49798257",
-      "canonicalUrl": "https://news.ycombinator.com/item?id=49798257",
-      "domain": "news.ycombinator.com",
-      "createdAt": "2026-09-22T08:49:13.000Z",
+      "id": "4a34b417a079",
+      "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+      "canonicalUrl": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna",
+      "domain": "simonwillison.net",
+      "createdAt": "2026-09-22T23:46:41.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Simon Willison",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 2.28
+    },
+    {
+      "id": "a367e3394feb",
+      "title": "Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs",
+      "url": "https://arxiv.org/abs/2609.26796",
+      "canonicalUrl": "https://arxiv.org/abs/2609.26796",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 7,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.26796"
+        }
+      ],
+      "normalized": 0.45,
+      "score": 2.208
+    },
+    {
+      "id": "3d48e529ad7a",
+      "title": "GPT-6 Sol and Luna",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "canonicalUrl": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "domain": "openai.com",
+      "createdAt": "2026-09-22T18:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 1258,
+          "comments": 632,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49805509"
+        },
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.988,
+      "score": 1.874
+    },
+    {
+      "id": "a154d7e70c54",
+      "title": "Ovis-Embedding: Pushing the Frontiers of Universal Omni-Modal Embeddings",
+      "url": "https://arxiv.org/abs/2609.25165",
+      "canonicalUrl": "https://arxiv.org/abs/2609.25165",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 5,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.25165"
+        }
+      ],
+      "normalized": 0.3,
+      "score": 1.472
+    },
+    {
+      "id": "0c1f08af0fbd",
+      "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
+      "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
+      "canonicalUrl": "https://bloomberg.com/graphics/2026-iran-school-attack",
+      "domain": "bloomberg.com",
+      "createdAt": "2026-09-22T19:03:38.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 475,
+          "comments": 243,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49806430"
+        }
+      ],
+      "normalized": 0.924,
+      "score": 1.395
+    },
+    {
+      "id": "85e7eb6a16eb",
+      "title": "LLM Ass Bench",
+      "url": "https://www.assbench.com/",
+      "canonicalUrl": "https://assbench.com/",
+      "domain": "assbench.com",
+      "createdAt": "2026-09-22T20:34:19.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 141,
+          "comments": 40,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49807688"
+        }
+      ],
+      "normalized": 0.674,
+      "score": 1.355
+    },
+    {
+      "id": "18606ed72436",
+      "title": "How to talk about \"AI\" without adding to the anthropomorphization",
+      "url": "https://buttondown.com/maiht3k/archive/how-to-talk-about-ai-without-adding-to-the/",
+      "canonicalUrl": "https://buttondown.com/maiht3k/archive/how-to-talk-about-ai-without-adding-to-the",
+      "domain": "buttondown.com",
+      "createdAt": "2026-09-22T21:45:11.788Z",
+      "appearances": [
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 5,
+          "comments": 1,
+          "discussionUrl": "https://lobste.rs/s/oqipmz/how_talk_about_ai_without_adding"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 1.303
+    },
+    {
+      "id": "6aa088071e3c",
+      "title": "The new CC, an AI agent built for families",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups/",
+      "canonicalUrl": "https://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups",
+      "domain": "blog.google",
+      "createdAt": "2026-09-22T23:46:07.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
           "points": 39,
-          "comments": 83,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49798257"
+          "comments": 46,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49809806"
         }
       ],
-      "normalized": 0.247,
-      "score": 0.455
+      "normalized": 0.244,
+      "score": 1.11
     },
     {
-      "id": "aa45dc0ea176",
-      "title": "VideoGen-Agent: Reinforcing Video Generation Agents",
-      "url": "https://arxiv.org/abs/2609.24997",
-      "canonicalUrl": "https://arxiv.org/abs/2609.24997",
+      "id": "b6b1e4118cdb",
+      "title": "Better prompt caching for GPT-6",
+      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+      "canonicalUrl": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+      "domain": "openai.com",
+      "createdAt": "2026-09-22T21:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 1.099
+    },
+    {
+      "id": "9b44d7e44f1c",
+      "title": "The current balance of power in open models",
+      "url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
+      "canonicalUrl": "https://interconnects.ai/p/the-current-balance-of-power-in-open",
+      "domain": "interconnects.ai",
+      "createdAt": "2026-09-22T22:03:46.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 55,
+          "comments": 19,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49808816"
+        }
+      ],
+      "normalized": 0.384,
+      "score": 1.078
+    },
+    {
+      "id": "dfd20da099fc",
+      "title": "Claude Opus 5.5",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "canonicalUrl": "https://anthropic.com/claude-opus-5-5",
+      "domain": "anthropic.com",
+      "createdAt": "2026-09-22T16:27:30.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 1279,
+          "comments": 851,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49803892"
+        }
+      ],
+      "normalized": 0.994,
+      "score": 0.999
+    },
+    {
+      "id": "31b5509c1c89",
+      "title": "Recursive self-improvement of AI research agents",
+      "url": "https://arxiv.org/abs/2609.26457",
+      "canonicalUrl": "https://arxiv.org/abs/2609.26457",
       "domain": "arxiv.org",
-      "createdAt": "2026-09-22T00:00:00.000Z",
+      "createdAt": "2026-09-23T00:00:00.000Z",
       "appearances": [
         {
           "source": "hf",
           "label": "HF Papers",
-          "points": 29,
+          "points": 4,
           "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.24997"
+          "discussionUrl": "https://huggingface.co/papers/2609.26457"
         }
       ],
-      "normalized": 0.759,
-      "score": 0.417
-    },
-    {
-      "id": "09bf1ff1e5ad",
-      "title": "onPanda: Efficient Annotation of On-Policy Alignment Data for LLMs and Agents via Token-Level Correction",
-      "url": "https://arxiv.org/abs/2609.24983",
-      "canonicalUrl": "https://arxiv.org/abs/2609.24983",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-22T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 23,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.24983"
-        }
-      ],
-      "normalized": 0.724,
-      "score": 0.398
-    },
-    {
-      "id": "15e452e7bfab",
-      "title": "Grounded Action Model: 3D Grounding as a Foundation for Robotics",
-      "url": "https://arxiv.org/abs/2609.23863",
-      "canonicalUrl": "https://arxiv.org/abs/2609.23863",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-22T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 18,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.23863"
-        }
-      ],
-      "normalized": 0.69,
-      "score": 0.379
+      "normalized": 0.2,
+      "score": 0.981
     }
   ]
 }
