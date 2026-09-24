@@ -1,34 +1,258 @@
 {
   "date": "2026-09-23",
-  "generatedAt": "2026-09-23T15:51:15.040Z",
+  "generatedAt": "2026-09-24T03:09:46.380Z",
   "windowHours": 36,
   "stories": [
     {
-      "id": "9d02eeb8cef1",
-      "title": "Two years of OpenAI Academy",
-      "url": "https://openai.com/index/two-years-of-openai-academy",
-      "canonicalUrl": "https://openai.com/index/two-years-of-openai-academy",
-      "domain": "openai.com",
-      "createdAt": "2026-09-23T16:00:00.000Z",
+      "id": "39b34f2c4cfd",
+      "title": "FLAWED's Flaws and What This Means for Industry Research",
+      "url": "https://suhacker.ai/p/flaweds-flaws-and-what-this-means-for-industry-research/",
+      "canonicalUrl": "https://suhacker.ai/p/flaweds-flaws-and-what-this-means-for-industry-research",
+      "domain": "suhacker.ai",
+      "createdAt": "2026-09-24T01:16:33.000Z",
       "appearances": [
         {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
+          "source": "hn",
+          "label": "HN",
+          "points": 11,
+          "comments": 1,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49824969"
+        },
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://lobste.rs/s/3yywjl/flawed_s_flaws_what_this_means_for"
         }
       ],
       "normalized": 0.5,
-      "score": 14.359
+      "score": 6.512
     },
     {
-      "id": "914ed32ad555",
-      "title": "Gemini 3.8 text-to-speech says hello",
-      "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-      "canonicalUrl": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech",
-      "domain": "deepmind.google",
+      "id": "1cd9fcc3d224",
+      "title": "Feds Target AI Critics as \"Foreign Agents\"",
+      "url": "https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign",
+      "canonicalUrl": "https://kenklippenstein.com/p/feds-think-ai-critics-are-foreign",
+      "domain": "kenklippenstein.com",
+      "createdAt": "2026-09-24T00:41:31.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 66,
+          "comments": 42,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49824686"
+        }
+      ],
+      "normalized": 0.497,
+      "score": 3.354
+    },
+    {
+      "id": "236307a27097",
+      "title": "Schrödinger's Code Repository: Have LLMs Learned SWE-bench or Memorized It?",
+      "url": "https://arxiv.org/abs/2609.27891",
+      "canonicalUrl": "https://arxiv.org/abs/2609.27891",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-24T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 10,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.27891"
+        }
+      ],
+      "normalized": 0.529,
+      "score": 2.758
+    },
+    {
+      "id": "466523d2dd9d",
+      "title": "PACT: From Credit Assignment to Critic Alignment",
+      "url": "https://arxiv.org/abs/2609.26355",
+      "canonicalUrl": "https://arxiv.org/abs/2609.26355",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-24T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 9,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.26355"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 2.605
+    },
+    {
+      "id": "c05ffc14cdfd",
+      "title": "WhatWorkedBench: Benchmarking Experimental Understanding in AI Agents",
+      "url": "https://arxiv.org/abs/2609.27490",
+      "canonicalUrl": "https://arxiv.org/abs/2609.27490",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-24T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 6,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.27490"
+        }
+      ],
+      "normalized": 0.382,
+      "score": 1.992
+    },
+    {
+      "id": "48bc23b1e9fe",
+      "title": "OpenAI breaches Medicare, Albanese reveals",
+      "url": "https://www.smh.com.au/politics/federal/openai-breaches-medicare-albanese-reveals-20260924-p6100u.html",
+      "canonicalUrl": "https://smh.com.au/politics/federal/openai-breaches-medicare-albanese-reveals-20260924-p6100u.html",
+      "domain": "smh.com.au",
+      "createdAt": "2026-09-23T21:01:48.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 149,
+          "comments": 103,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49822556"
+        }
+      ],
+      "normalized": 0.673,
+      "score": 1.547
+    },
+    {
+      "id": "7d4fad8cb26b",
+      "title": "VSCode's SSH Agent Is Bananas (2025)",
+      "url": "https://fly.io/blog/vscode-ssh-wtf/",
+      "canonicalUrl": "https://fly.io/blog/vscode-ssh-wtf",
+      "domain": "fly.io",
+      "createdAt": "2026-09-23T21:01:48.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 143,
+          "comments": 93,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49822555"
+        }
+      ],
+      "normalized": 0.66,
+      "score": 1.518
+    },
+    {
+      "id": "7a788f6aa57a",
+      "title": "Claude's Load-Bearing Seams",
+      "url": "https://madradavid.com/claudes-load-bearing-seams/",
+      "canonicalUrl": "https://madradavid.com/claudes-load-bearing-seams",
+      "domain": "madradavid.com",
+      "createdAt": "2026-09-23T21:31:04.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 105,
+          "comments": 44,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49822864"
+        }
+      ],
+      "normalized": 0.585,
+      "score": 1.503
+    },
+    {
+      "id": "9c2f631dad34",
+      "title": "Mercury 2.5 LLM hits 770 tokens per second",
+      "url": "https://artificialanalysis.ai/models/mercury-2-5",
+      "canonicalUrl": "https://artificialanalysis.ai/models/mercury-2-5",
+      "domain": "artificialanalysis.ai",
+      "createdAt": "2026-09-23T22:16:19.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 61,
+          "comments": 29,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49823348"
+        }
+      ],
+      "normalized": 0.459,
+      "score": 1.422
+    },
+    {
+      "id": "06510d09e130",
+      "title": "Australia says OpenAI agent hacked into government website",
+      "url": "https://www.channelnewsasia.com/world/australia-openai-agent-breach-government-portal-6406411",
+      "canonicalUrl": "https://channelnewsasia.com/world/australia-openai-agent-breach-government-portal-6406411",
+      "domain": "channelnewsasia.com",
+      "createdAt": "2026-09-24T01:24:00.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 28,
+          "comments": 16,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49825024"
+        }
+      ],
+      "normalized": 0.138,
+      "score": 1.274
+    },
+    {
+      "id": "8c50fe1c6153",
+      "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "canonicalUrl": "https://anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "domain": "anthropic.com",
+      "createdAt": "2026-09-23T18:06:47.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 538,
+          "comments": 564,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49820134"
+        }
+      ],
+      "normalized": 0.943,
+      "score": 1.249
+    },
+    {
+      "id": "7d998d11cb8b",
+      "title": "Once Claude can measure something, it can make it faster",
+      "url": "https://claude.dev/blog/how-we-made-claude-ai-faster/",
+      "canonicalUrl": "https://claude.dev/blog/how-we-made-claude-ai-faster",
+      "domain": "claude.dev",
+      "createdAt": "2026-09-23T19:23:40.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 183,
+          "comments": 124,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49821196"
+        }
+      ],
+      "normalized": 0.717,
+      "score": 1.185
+    },
+    {
+      "id": "f6fab29d9844",
+      "title": "Gemini 3.8 text-to-speech",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
+      "canonicalUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech",
+      "domain": "blog.google",
       "createdAt": "2026-09-23T15:25:14.000Z",
       "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 262,
+          "comments": 124,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49817615"
+        },
         {
           "source": "rss",
           "label": "Google DeepMind",
@@ -36,92 +260,35 @@
           "comments": null
         }
       ],
-      "normalized": 0.5,
-      "score": 10.086
+      "normalized": 0.824,
+      "score": 1.105
     },
     {
-      "id": "a877a4ca2131",
-      "title": "Claude Code reads AGENTS.md only when telemetry is on [fixed]",
-      "url": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/",
-      "canonicalUrl": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on",
-      "domain": "blog.szypowi.cz",
-      "createdAt": "2026-09-23T12:15:33.000Z",
+      "id": "a1eadd8dc28f",
+      "title": "OpenAI agents hacked Australian Medicare system",
+      "url": "https://www.reuters.com/world/asia-pacific/australia-pm-albanese-says-openai-breached-medicare-sydney-morning-herald-2026-09-23/",
+      "canonicalUrl": "https://reuters.com/world/asia-pacific/australia-pm-albanese-says-openai-breached-medicare-sydney-morning-herald-2026-09-23",
+      "domain": "reuters.com",
+      "createdAt": "2026-09-23T21:08:52.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 335,
-          "comments": 181,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49814947"
+          "points": 41,
+          "comments": 11,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49822654"
         }
       ],
-      "normalized": 0.887,
-      "score": 3.997
+      "normalized": 0.327,
+      "score": 0.772
     },
     {
-      "id": "762cf4d7418e",
-      "title": "OpenAI is enlisting an influencer army to make it look 'good for the world'",
-      "url": "https://www.businessinsider.com/inside-open-ai-influencer-marketing-strategy-chatgpt-ads-sponsorships-instagram-2026-9",
-      "canonicalUrl": "https://businessinsider.com/inside-open-ai-influencer-marketing-strategy-chatgpt-ads-sponsorships-instagram-2026-9",
-      "domain": "businessinsider.com",
-      "createdAt": "2026-09-23T12:32:00.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 180,
-          "comments": 174,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49815127"
-        }
-      ],
-      "normalized": 0.773,
-      "score": 3.816
-    },
-    {
-      "id": "18c511d8742e",
-      "title": "GPT-6 Astra has gained the ability to drive a car",
-      "url": "https://drivingbench.com/",
-      "canonicalUrl": "https://drivingbench.com/",
-      "domain": "drivingbench.com",
-      "createdAt": "2026-09-23T15:14:22.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 34,
-          "comments": 18,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49817404"
-        }
-      ],
-      "normalized": 0.207,
-      "score": 3.664
-    },
-    {
-      "id": "3186e672f1e7",
-      "title": "Stripe's Knowledge AI Platform",
-      "url": "https://stripe.dev/blog/meet-stripes-knowledge-ai-platform",
-      "canonicalUrl": "https://stripe.dev/blog/meet-stripes-knowledge-ai-platform",
-      "domain": "stripe.dev",
-      "createdAt": "2026-09-23T13:38:00.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 70,
-          "comments": 34,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49815982"
-        }
-      ],
-      "normalized": 0.48,
-      "score": 3.594
-    },
-    {
-      "id": "a4dec25709f4",
-      "title": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
-      "canonicalUrl": "https://huggingface.co/blog/nvidia/nemotron-diarization",
+      "id": "a70f8ac64edf",
+      "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+      "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+      "canonicalUrl": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
       "domain": "huggingface.co",
-      "createdAt": "2026-09-23T13:17:01.000Z",
+      "createdAt": "2026-09-23T18:41:40.000Z",
       "appearances": [
         {
           "source": "rss",
@@ -131,157 +298,7 @@
         }
       ],
       "normalized": 0.5,
-      "score": 3.244
-    },
-    {
-      "id": "1d77064cbebb",
-      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
-      "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-      "canonicalUrl": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-      "domain": "openai.com",
-      "createdAt": "2026-09-23T13:00:00.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 2.91
-    },
-    {
-      "id": "de6694d3498c",
-      "title": "Jev in 25 Lines of Python",
-      "url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
-      "canonicalUrl": "https://nobodywho.ai/posts/jev-in-25-lines",
-      "domain": "nobodywho.ai",
-      "createdAt": "2026-09-23T07:26:23.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 451,
-          "comments": 138,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49812769"
-        }
-      ],
-      "normalized": 0.933,
-      "score": 1.375
-    },
-    {
-      "id": "0e8aacec61b2",
-      "title": "Jev in practice: typed decisions, scoped authority",
-      "url": "https://tenuo.ai/blog/jev-scoped-authority",
-      "canonicalUrl": "https://tenuo.ai/blog/jev-scoped-authority",
-      "domain": "tenuo.ai",
-      "createdAt": "2026-09-23T14:11:14.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 25,
-          "comments": 5,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49816487"
-        }
-      ],
-      "normalized": 0.12,
-      "score": 1.157
-    },
-    {
-      "id": "896a55a7a50c",
-      "title": "The Download: why AI's latest breakthroughs and fears may be more hype than rea",
-      "url": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
-      "canonicalUrl": "https://technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype",
-      "domain": "technologyreview.com",
-      "createdAt": "2026-09-23T11:01:50.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 44,
-          "comments": 100,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49814211"
-        }
-      ],
-      "normalized": 0.28,
-      "score": 0.883
-    },
-    {
-      "id": "1b4e48996d9a",
-      "title": "The Tasteful Agent: Measuring and Improving Taste in Long-Horizon Tasks",
-      "url": "https://arxiv.org/abs/2609.25804",
-      "canonicalUrl": "https://arxiv.org/abs/2609.25804",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-23T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 110,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.25804"
-        }
-      ],
-      "normalized": 0.957,
-      "score": 0.534
-    },
-    {
-      "id": "c04bd89073f6",
-      "title": "Show HN: RxFilm Studio–Create and edit your product videos with AI agent",
-      "url": "https://filmstudio.rxlab.app",
-      "canonicalUrl": "https://filmstudio.rxlab.app/",
-      "domain": "filmstudio.rxlab.app",
-      "createdAt": "2026-09-23T12:28:40.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 18,
-          "comments": 9,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49815095"
-        }
-      ],
-      "normalized": 0.087,
-      "score": 0.42
-    },
-    {
-      "id": "2c82660149d2",
-      "title": "Lean Pool: An AI-Maintained Archive of Formalized Mathematics",
-      "url": "https://arxiv.org/abs/2609.25199",
-      "canonicalUrl": "https://arxiv.org/abs/2609.25199",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-23T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 10,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.25199"
-        }
-      ],
-      "normalized": 0.522,
-      "score": 0.291
-    },
-    {
-      "id": "09a0c6dbf1c6",
-      "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
-      "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
-      "canonicalUrl": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
-      "domain": "openai.com",
-      "createdAt": "2026-09-23T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 0.279
+      "score": 0.73
     }
   ]
 }
