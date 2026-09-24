@@ -1,0 +1,291 @@
+{
+  "date": "2026-09-24",
+  "generatedAt": "2026-09-24T16:13:07.225Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "5bd0bd4954bf",
+      "title": "Best LLM for every budget, updated daily",
+      "url": "https://bestmodelforyourbudget.terrydjony.com/",
+      "canonicalUrl": "https://bestmodelforyourbudget.terrydjony.com/",
+      "domain": "bestmodelforyourbudget.terrydjony.com",
+      "createdAt": "2026-09-24T14:09:57.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 113,
+          "comments": 71,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49830866"
+        }
+      ],
+      "normalized": 0.532,
+      "score": 4.288
+    },
+    {
+      "id": "c2a53f233272",
+      "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "canonicalUrl": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "domain": "huggingface.co",
+      "createdAt": "2026-09-24T14:08:57.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 3.998
+    },
+    {
+      "id": "32030eeb1f0b",
+      "title": "Combining Machine Learning and Homomorphic Encryption in the Apple Ecosystem",
+      "url": "https://machinelearning.apple.com/research/homomorphic-encryption",
+      "canonicalUrl": "https://machinelearning.apple.com/research/homomorphic-encryption",
+      "domain": "machinelearning.apple.com",
+      "createdAt": "2026-09-24T13:27:42.590Z",
+      "appearances": [
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://lobste.rs/s/7ekwll/combining_machine_learning_homomorphic"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 3.019
+    },
+    {
+      "id": "1e0af95cc497",
+      "title": "'That's so AI ' What gen Alpha's biggest insult tells us",
+      "url": "https://www.theguardian.com/society/2026/sep/24/thats-so-ai-what-gen-alphas-biggest-insult-tells-us",
+      "canonicalUrl": "https://theguardian.com/society/2026/sep/24/thats-so-ai-what-gen-alphas-biggest-insult-tells-us",
+      "domain": "theguardian.com",
+      "createdAt": "2026-09-24T12:23:41.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 88,
+          "comments": 129,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49829650"
+        }
+      ],
+      "normalized": 0.511,
+      "score": 2.142
+    },
+    {
+      "id": "733f60d0c466",
+      "title": "Tutoring company tells parents to save their money and 'use AI instead'",
+      "url": "https://www.afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r",
+      "canonicalUrl": "https://afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r",
+      "domain": "afr.com",
+      "createdAt": "2026-09-24T15:09:38.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 32,
+          "comments": 34,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49831690"
+        }
+      ],
+      "normalized": 0.144,
+      "score": 1.924
+    },
+    {
+      "id": "225478237654",
+      "title": "Hackers influence ChatGPT and Gemini to direct users to scam centers",
+      "url": "https://medium.com/@arielsimon/dark-sourcery-how-hackers-manipulate-ai-to-scam-you-88df434d2073",
+      "canonicalUrl": "https://medium.com/@arielsimon/dark-sourcery-how-hackers-manipulate-ai-to-scam-you-88df434d2073",
+      "domain": "medium.com",
+      "createdAt": "2026-09-24T11:54:38.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 85,
+          "comments": 26,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49829387"
+        }
+      ],
+      "normalized": 0.489,
+      "score": 1.777
+    },
+    {
+      "id": "07762c6dcbee",
+      "title": "Meta takes down a critical video about meta AI Glasses after filming at Meta",
+      "url": "https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai/",
+      "canonicalUrl": "https://reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai",
+      "domain": "reddit.com",
+      "createdAt": "2026-09-24T08:23:03.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 518,
+          "comments": 309,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49827794"
+        }
+      ],
+      "normalized": 0.942,
+      "score": 1.539
+    },
+    {
+      "id": "e82bf04022f6",
+      "title": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
+      "url": "https://transluce.org/agent-activity",
+      "canonicalUrl": "https://transluce.org/agent-activity",
+      "domain": "transluce.org",
+      "createdAt": "2026-09-24T05:21:10.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 199,
+          "comments": 187,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49826565"
+        }
+      ],
+      "normalized": 0.719,
+      "score": 0.724
+    },
+    {
+      "id": "37add643e133",
+      "title": "AI has no intent and no motivation",
+      "url": "https://www.i-programmer.info/news/245-view-point/19164-ai-has-no-motivation.html",
+      "canonicalUrl": "https://i-programmer.info/news/245-view-point/19164-ai-has-no-motivation.html",
+      "domain": "i-programmer.info",
+      "createdAt": "2026-09-24T09:13:25.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 43,
+          "comments": 56,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49828133"
+        }
+      ],
+      "normalized": 0.266,
+      "score": 0.51
+    },
+    {
+      "id": "c92638ec2f58",
+      "title": "OpenAI agent hacked Australian government website, PM says",
+      "url": "https://www.bbc.com/news/live/cvgl73pxgndwt",
+      "canonicalUrl": "https://bbc.com/news/live/cvgl73pxgndwt",
+      "domain": "bbc.com",
+      "createdAt": "2026-09-24T01:24:00.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 236,
+          "comments": 166,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49825580"
+        }
+      ],
+      "normalized": 0.784,
+      "score": 0.488
+    },
+    {
+      "id": "ffe434e74195",
+      "title": "Just-in-Time Memory: Learning to Curate Task-Adaptive Memory for LLM Agents",
+      "url": "https://arxiv.org/abs/2609.27334",
+      "canonicalUrl": "https://arxiv.org/abs/2609.27334",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-24T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 23,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.27334"
+        }
+      ],
+      "normalized": 0.828,
+      "score": 0.446
+    },
+    {
+      "id": "415d0f35c647",
+      "title": "AI Safety Is Mostly a Sex Cult in Berkeley",
+      "url": "https://www.verysane.ai/p/ai-safety-is-mostly-a-sex-cult-in",
+      "canonicalUrl": "https://verysane.ai/p/ai-safety-is-mostly-a-sex-cult-in",
+      "domain": "verysane.ai",
+      "createdAt": "2026-09-24T14:38:31.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 17,
+          "comments": 0,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49831269"
+        }
+      ],
+      "normalized": 0.043,
+      "score": 0.435
+    },
+    {
+      "id": "6554ff698370",
+      "title": "What Is RLCD? The Secret Behind Jev",
+      "url": "https://di-zhang-llm.github.io/blog/what-is-rlcd-the-secret-behind-jev/",
+      "canonicalUrl": "https://di-zhang-llm.github.io/blog/what-is-rlcd-the-secret-behind-jev",
+      "domain": "di-zhang-llm.github.io",
+      "createdAt": "2026-09-24T12:21:16.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 20,
+          "comments": 1,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49829625"
+        }
+      ],
+      "normalized": 0.086,
+      "score": 0.358
+    },
+    {
+      "id": "3f642246397e",
+      "title": "Virtio-nvgpu: Near-native Nvidia GPU access inside a KVM guest",
+      "url": "https://github.com/nestrilabs/virtio-nvgpu",
+      "canonicalUrl": "https://github.com/nestrilabs/virtio-nvgpu",
+      "domain": "github.com",
+      "createdAt": "2026-09-24T01:02:23.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 140,
+          "comments": 56,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49824864"
+        }
+      ],
+      "normalized": 0.59,
+      "score": 0.353
+    },
+    {
+      "id": "35357d679065",
+      "title": "GeoPair: Geometry-Preserving Cross-Layer Factorization for Training-Free Transformer Compression",
+      "url": "https://arxiv.org/abs/2609.25963",
+      "canonicalUrl": "https://arxiv.org/abs/2609.25963",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-24T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 9,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.25963"
+        }
+      ],
+      "normalized": 0.621,
+      "score": 0.334
+    }
+  ]
+}
