@@ -1,0 +1,291 @@
+{
+  "date": "2026-09-25",
+  "generatedAt": "2026-09-25T16:13:34.123Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "d2d497e5eee4",
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "url": "https://openai.com/index/proaction",
+      "canonicalUrl": "https://openai.com/index/proaction",
+      "domain": "openai.com",
+      "createdAt": "2026-09-25T19:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 14.359
+    },
+    {
+      "id": "dd48f8c31e9f",
+      "title": "Classified Estimates Show the NSA Is Paying Billions to Test AI Models",
+      "url": "https://www.washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models",
+      "canonicalUrl": "https://washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models",
+      "domain": "washingtonsun.com",
+      "createdAt": "2026-09-25T15:27:35.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 52,
+          "comments": 28,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49845952"
+        }
+      ],
+      "normalized": 0.37,
+      "score": 5.932
+    },
+    {
+      "id": "cb028b10481e",
+      "title": "Microsoft Abandons Personal AI Chatbot Race with Copilot Reboot",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot",
+      "canonicalUrl": "https://bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot",
+      "domain": "bloomberg.com",
+      "createdAt": "2026-09-25T14:07:08.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 24,
+          "comments": 15,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49844896"
+        }
+      ],
+      "normalized": 0.126,
+      "score": 0.99
+    },
+    {
+      "id": "ffb2d527f036",
+      "title": "Special Projects (2016)",
+      "url": "https://openai.com/index/special-projects/",
+      "canonicalUrl": "https://openai.com/index/special-projects",
+      "domain": "openai.com",
+      "createdAt": "2026-09-25T08:55:43.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 62,
+          "comments": 36,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49841893"
+        }
+      ],
+      "normalized": 0.407,
+      "score": 0.736
+    },
+    {
+      "id": "211e4b315ce7",
+      "title": "Uproar in France over award-winning author accused of using AI",
+      "url": "https://www.bbc.com/news/articles/ck7v4y45893go",
+      "canonicalUrl": "https://bbc.com/news/articles/ck7v4y45893go",
+      "domain": "bbc.com",
+      "createdAt": "2026-09-25T10:48:32.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 31,
+          "comments": 74,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49842707"
+        }
+      ],
+      "normalized": 0.215,
+      "score": 0.583
+    },
+    {
+      "id": "5113d08fbfb8",
+      "title": "Your Transformer Can Hold Two Thoughts at Once: Evidence of Linear Superposition in LLMs",
+      "url": "https://arxiv.org/abs/2609.29845",
+      "canonicalUrl": "https://arxiv.org/abs/2609.29845",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-25T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 35,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.29845"
+        }
+      ],
+      "normalized": 0.9,
+      "score": 0.484
+    },
+    {
+      "id": "bef01355a464",
+      "title": "Show HN: Agentic CUDA Kernel Optimizer",
+      "url": "https://github.com/bertaye/agentic-cuda-optimizer",
+      "canonicalUrl": "https://github.com/bertaye/agentic-cuda-optimizer",
+      "domain": "github.com",
+      "createdAt": "2026-09-25T10:32:58.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 29,
+          "comments": 6,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49842596"
+        }
+      ],
+      "normalized": 0.185,
+      "score": 0.472
+    },
+    {
+      "id": "e4ec8a4be7ef",
+      "title": "Anthropic: The Situation Report",
+      "url": "https://www.anthropic.com/features/ebola-response",
+      "canonicalUrl": "https://anthropic.com/features/ebola-response",
+      "domain": "anthropic.com",
+      "createdAt": "2026-09-25T10:59:08.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 27,
+          "comments": 11,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49842788"
+        }
+      ],
+      "normalized": 0.148,
+      "score": 0.42
+    },
+    {
+      "id": "cc63b4dbef4f",
+      "title": "Neural Spectral Capacity: Measuring and Designing Architectures from Network Specification Alone",
+      "url": "https://arxiv.org/abs/2609.23087",
+      "canonicalUrl": "https://arxiv.org/abs/2609.23087",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-25T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 4,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.23087"
+        }
+      ],
+      "normalized": 0.45,
+      "score": 0.242
+    },
+    {
+      "id": "40040a962c4b",
+      "title": "Show HN: The last day of the dinosaurs, as an interactive painting",
+      "url": "https://www.echohive.ai/experiments/dinosaurs",
+      "canonicalUrl": "https://echohive.ai/experiments/dinosaurs",
+      "domain": "echohive.ai",
+      "createdAt": "2026-09-25T08:58:13.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 17,
+          "comments": 13,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49841912"
+        }
+      ],
+      "normalized": 0.104,
+      "score": 0.189
+    },
+    {
+      "id": "733f60d0c466",
+      "title": "Tutoring company tells parents to save their money and 'use AI instead'",
+      "url": "https://www.afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r",
+      "canonicalUrl": "https://afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r",
+      "domain": "afr.com",
+      "createdAt": "2026-09-24T15:09:38.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 129,
+          "comments": 200,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49831690"
+        }
+      ],
+      "normalized": 0.652,
+      "score": 0.172
+    },
+    {
+      "id": "415d0f35c647",
+      "title": "AI safety is mostly a sex cult in Berkeley",
+      "url": "https://www.verysane.ai/p/ai-safety-is-mostly-a-sex-cult-in",
+      "canonicalUrl": "https://verysane.ai/p/ai-safety-is-mostly-a-sex-cult-in",
+      "domain": "verysane.ai",
+      "createdAt": "2026-09-24T14:38:31.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 119,
+          "comments": 30,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49831269"
+        }
+      ],
+      "normalized": 0.622,
+      "score": 0.159
+    },
+    {
+      "id": "e82bf04022f6",
+      "title": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
+      "url": "https://transluce.org/agent-activity",
+      "canonicalUrl": "https://transluce.org/agent-activity",
+      "domain": "transluce.org",
+      "createdAt": "2026-09-24T05:21:10.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 262,
+          "comments": 297,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49826565"
+        }
+      ],
+      "normalized": 0.889,
+      "score": 0.135
+    },
+    {
+      "id": "b933aecb3995",
+      "title": "Rufus-Air: An Open LLM Post-Training Recipe",
+      "url": "https://arxiv.org/abs/2609.29421",
+      "canonicalUrl": "https://arxiv.org/abs/2609.29421",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-25T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 3,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.29421"
+        }
+      ],
+      "normalized": 0.25,
+      "score": 0.134
+    },
+    {
+      "id": "355d00453619",
+      "title": "World Action Agent: Harnessing VLMs for Robot Manipulation via World Action Rehearsal",
+      "url": "https://arxiv.org/abs/2609.29964",
+      "canonicalUrl": "https://arxiv.org/abs/2609.29964",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-25T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 3,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.29964"
+        }
+      ],
+      "normalized": 0.25,
+      "score": 0.134
+    }
+  ]
+}
