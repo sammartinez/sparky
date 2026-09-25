@@ -1,8 +1,102 @@
 {
   "date": "2026-09-24",
-  "generatedAt": "2026-09-24T16:13:07.225Z",
+  "generatedAt": "2026-09-25T03:26:37.799Z",
   "windowHours": 36,
   "stories": [
+    {
+      "id": "a1a143a058ab",
+      "title": "Agent-Editing World Model: Rethinking World Modeling for LLM Agents",
+      "url": "https://arxiv.org/abs/2609.28416",
+      "canonicalUrl": "https://arxiv.org/abs/2609.28416",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-25T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 8,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.28416"
+        }
+      ],
+      "normalized": 0.6,
+      "score": 2.841
+    },
+    {
+      "id": "cdeaed2091f1",
+      "title": "Qwen-Planner-Agent: A Closed-Loop AI-for-AI Framework for Real-World Mobile Planner Agents",
+      "url": "https://arxiv.org/abs/2609.29892",
+      "canonicalUrl": "https://arxiv.org/abs/2609.29892",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-25T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 4,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.29892"
+        }
+      ],
+      "normalized": 0.425,
+      "score": 2.013
+    },
+    {
+      "id": "841100dba2d4",
+      "title": "AgentKernel: The Trust-Native Agentic Operating System",
+      "url": "https://arxiv.org/abs/2609.29647",
+      "canonicalUrl": "https://arxiv.org/abs/2609.29647",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-25T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.29647"
+        }
+      ],
+      "normalized": 0.2,
+      "score": 0.947
+    },
+    {
+      "id": "b28faeb337e6",
+      "title": "Using LLMs to trace alchemical knowledge and decode 17th century letters",
+      "url": "https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical",
+      "canonicalUrl": "https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical",
+      "domain": "resobscura.substack.com",
+      "createdAt": "2026-09-24T19:14:27.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 91,
+          "comments": 14,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49835531"
+        }
+      ],
+      "normalized": 0.516,
+      "score": 0.788
+    },
+    {
+      "id": "91625e27c986",
+      "title": "Introducing Gemini 3.8 Live with Live Avatar",
+      "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+      "canonicalUrl": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar",
+      "domain": "deepmind.google",
+      "createdAt": "2026-09-24T16:20:39.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Google DeepMind",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.487
+    },
     {
       "id": "5bd0bd4954bf",
       "title": "Best LLM for every budget, updated daily",
@@ -20,101 +114,7 @@
         }
       ],
       "normalized": 0.532,
-      "score": 4.288
-    },
-    {
-      "id": "c2a53f233272",
-      "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
-      "canonicalUrl": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
-      "domain": "huggingface.co",
-      "createdAt": "2026-09-24T14:08:57.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "Hugging Face",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 3.998
-    },
-    {
-      "id": "32030eeb1f0b",
-      "title": "Combining Machine Learning and Homomorphic Encryption in the Apple Ecosystem",
-      "url": "https://machinelearning.apple.com/research/homomorphic-encryption",
-      "canonicalUrl": "https://machinelearning.apple.com/research/homomorphic-encryption",
-      "domain": "machinelearning.apple.com",
-      "createdAt": "2026-09-24T13:27:42.590Z",
-      "appearances": [
-        {
-          "source": "lobsters",
-          "label": "Lobsters",
-          "points": 2,
-          "comments": 0,
-          "discussionUrl": "https://lobste.rs/s/7ekwll/combining_machine_learning_homomorphic"
-        }
-      ],
-      "normalized": 0.5,
-      "score": 3.019
-    },
-    {
-      "id": "1e0af95cc497",
-      "title": "'That's so AI ' What gen Alpha's biggest insult tells us",
-      "url": "https://www.theguardian.com/society/2026/sep/24/thats-so-ai-what-gen-alphas-biggest-insult-tells-us",
-      "canonicalUrl": "https://theguardian.com/society/2026/sep/24/thats-so-ai-what-gen-alphas-biggest-insult-tells-us",
-      "domain": "theguardian.com",
-      "createdAt": "2026-09-24T12:23:41.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 88,
-          "comments": 129,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49829650"
-        }
-      ],
-      "normalized": 0.511,
-      "score": 2.142
-    },
-    {
-      "id": "733f60d0c466",
-      "title": "Tutoring company tells parents to save their money and 'use AI instead'",
-      "url": "https://www.afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r",
-      "canonicalUrl": "https://afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r",
-      "domain": "afr.com",
-      "createdAt": "2026-09-24T15:09:38.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 32,
-          "comments": 34,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49831690"
-        }
-      ],
-      "normalized": 0.144,
-      "score": 1.924
-    },
-    {
-      "id": "225478237654",
-      "title": "Hackers influence ChatGPT and Gemini to direct users to scam centers",
-      "url": "https://medium.com/@arielsimon/dark-sourcery-how-hackers-manipulate-ai-to-scam-you-88df434d2073",
-      "canonicalUrl": "https://medium.com/@arielsimon/dark-sourcery-how-hackers-manipulate-ai-to-scam-you-88df434d2073",
-      "domain": "medium.com",
-      "createdAt": "2026-09-24T11:54:38.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 85,
-          "comments": 26,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49829387"
-        }
-      ],
-      "normalized": 0.489,
-      "score": 1.777
+      "score": 0.393
     },
     {
       "id": "07762c6dcbee",
@@ -133,159 +133,158 @@
         }
       ],
       "normalized": 0.942,
-      "score": 1.539
+      "score": 0.391
     },
     {
-      "id": "e82bf04022f6",
-      "title": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
-      "url": "https://transluce.org/agent-activity",
-      "canonicalUrl": "https://transluce.org/agent-activity",
-      "domain": "transluce.org",
-      "createdAt": "2026-09-24T05:21:10.000Z",
+      "id": "c2a53f233272",
+      "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "canonicalUrl": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "domain": "huggingface.co",
+      "createdAt": "2026-09-24T14:08:57.000Z",
       "appearances": [
         {
-          "source": "hn",
-          "label": "HN",
-          "points": 199,
-          "comments": 187,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49826565"
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
         }
       ],
-      "normalized": 0.719,
-      "score": 0.724
+      "normalized": 0.5,
+      "score": 0.369
     },
     {
-      "id": "37add643e133",
-      "title": "AI has no intent and no motivation",
-      "url": "https://www.i-programmer.info/news/245-view-point/19164-ai-has-no-motivation.html",
-      "canonicalUrl": "https://i-programmer.info/news/245-view-point/19164-ai-has-no-motivation.html",
-      "domain": "i-programmer.info",
-      "createdAt": "2026-09-24T09:13:25.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 43,
-          "comments": 56,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49828133"
-        }
-      ],
-      "normalized": 0.266,
-      "score": 0.51
-    },
-    {
-      "id": "c92638ec2f58",
-      "title": "OpenAI agent hacked Australian government website, PM says",
-      "url": "https://www.bbc.com/news/live/cvgl73pxgndwt",
-      "canonicalUrl": "https://bbc.com/news/live/cvgl73pxgndwt",
-      "domain": "bbc.com",
-      "createdAt": "2026-09-24T01:24:00.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 236,
-          "comments": 166,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49825580"
-        }
-      ],
-      "normalized": 0.784,
-      "score": 0.488
-    },
-    {
-      "id": "ffe434e74195",
-      "title": "Just-in-Time Memory: Learning to Curate Task-Adaptive Memory for LLM Agents",
-      "url": "https://arxiv.org/abs/2609.27334",
-      "canonicalUrl": "https://arxiv.org/abs/2609.27334",
+      "id": "54b6fda7afe3",
+      "title": "PUBG Ally: A Conversational Embodied Agent as an AI Teammate",
+      "url": "https://arxiv.org/abs/2609.29837",
+      "canonicalUrl": "https://arxiv.org/abs/2609.29837",
       "domain": "arxiv.org",
-      "createdAt": "2026-09-24T00:00:00.000Z",
+      "createdAt": "2026-09-25T00:00:00.000Z",
       "appearances": [
         {
           "source": "hf",
           "label": "HF Papers",
-          "points": 23,
+          "points": 1,
           "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.27334"
+          "discussionUrl": "https://huggingface.co/papers/2609.29837"
         }
       ],
-      "normalized": 0.828,
-      "score": 0.446
+      "normalized": 0.075,
+      "score": 0.355
     },
     {
-      "id": "415d0f35c647",
-      "title": "AI Safety Is Mostly a Sex Cult in Berkeley",
-      "url": "https://www.verysane.ai/p/ai-safety-is-mostly-a-sex-cult-in",
-      "canonicalUrl": "https://verysane.ai/p/ai-safety-is-mostly-a-sex-cult-in",
-      "domain": "verysane.ai",
-      "createdAt": "2026-09-24T14:38:31.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 17,
-          "comments": 0,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49831269"
-        }
-      ],
-      "normalized": 0.043,
-      "score": 0.435
-    },
-    {
-      "id": "6554ff698370",
-      "title": "What Is RLCD? The Secret Behind Jev",
-      "url": "https://di-zhang-llm.github.io/blog/what-is-rlcd-the-secret-behind-jev/",
-      "canonicalUrl": "https://di-zhang-llm.github.io/blog/what-is-rlcd-the-secret-behind-jev",
-      "domain": "di-zhang-llm.github.io",
-      "createdAt": "2026-09-24T12:21:16.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 20,
-          "comments": 1,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49829625"
-        }
-      ],
-      "normalized": 0.086,
-      "score": 0.358
-    },
-    {
-      "id": "3f642246397e",
-      "title": "Virtio-nvgpu: Near-native Nvidia GPU access inside a KVM guest",
-      "url": "https://github.com/nestrilabs/virtio-nvgpu",
-      "canonicalUrl": "https://github.com/nestrilabs/virtio-nvgpu",
-      "domain": "github.com",
-      "createdAt": "2026-09-24T01:02:23.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 140,
-          "comments": 56,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49824864"
-        }
-      ],
-      "normalized": 0.59,
-      "score": 0.353
-    },
-    {
-      "id": "35357d679065",
-      "title": "GeoPair: Geometry-Preserving Cross-Layer Factorization for Training-Free Transformer Compression",
-      "url": "https://arxiv.org/abs/2609.25963",
-      "canonicalUrl": "https://arxiv.org/abs/2609.25963",
+      "id": "cf98509f3e46",
+      "title": "WanPE: Towards Cinematic Prompt Enhancement for Modern Text-to-Video Generation",
+      "url": "https://arxiv.org/abs/2609.30221",
+      "canonicalUrl": "https://arxiv.org/abs/2609.30221",
       "domain": "arxiv.org",
-      "createdAt": "2026-09-24T00:00:00.000Z",
+      "createdAt": "2026-09-25T00:00:00.000Z",
       "appearances": [
         {
           "source": "hf",
           "label": "HF Papers",
-          "points": 9,
+          "points": 1,
           "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.25963"
+          "discussionUrl": "https://huggingface.co/papers/2609.30221"
         }
       ],
-      "normalized": 0.621,
-      "score": 0.334
+      "normalized": 0.075,
+      "score": 0.355
+    },
+    {
+      "id": "c17c3706ff6b",
+      "title": "ExplorationBench: Measuring AI Systems' Exploration in Verifiable Alien Worlds",
+      "url": "https://arxiv.org/abs/2609.30199",
+      "canonicalUrl": "https://arxiv.org/abs/2609.30199",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-25T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 1,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.30199"
+        }
+      ],
+      "normalized": 0.075,
+      "score": 0.355
+    },
+    {
+      "id": "32030eeb1f0b",
+      "title": "Combining Machine Learning and Homomorphic Encryption in the Apple Ecosystem",
+      "url": "https://machinelearning.apple.com/research/homomorphic-encryption",
+      "canonicalUrl": "https://machinelearning.apple.com/research/homomorphic-encryption",
+      "domain": "machinelearning.apple.com",
+      "createdAt": "2026-09-24T13:27:42.590Z",
+      "appearances": [
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://lobste.rs/s/7ekwll/combining_machine_learning_homomorphic"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.341
+    },
+    {
+      "id": "1e0af95cc497",
+      "title": "'That's so AI ' What gen Alpha's biggest insult tells us",
+      "url": "https://www.theguardian.com/society/2026/sep/24/thats-so-ai-what-gen-alphas-biggest-insult-tells-us",
+      "canonicalUrl": "https://theguardian.com/society/2026/sep/24/thats-so-ai-what-gen-alphas-biggest-insult-tells-us",
+      "domain": "theguardian.com",
+      "createdAt": "2026-09-24T12:23:41.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 88,
+          "comments": 129,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49829650"
+        }
+      ],
+      "normalized": 0.511,
+      "score": 0.31
+    },
+    {
+      "id": "225478237654",
+      "title": "Hackers influence ChatGPT and Gemini to direct users to scam centers",
+      "url": "https://medium.com/@arielsimon/dark-sourcery-how-hackers-manipulate-ai-to-scam-you-88df434d2073",
+      "canonicalUrl": "https://medium.com/@arielsimon/dark-sourcery-how-hackers-manipulate-ai-to-scam-you-88df434d2073",
+      "domain": "medium.com",
+      "createdAt": "2026-09-24T11:54:38.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 85,
+          "comments": 26,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49829387"
+        }
+      ],
+      "normalized": 0.489,
+      "score": 0.282
+    },
+    {
+      "id": "02991fe663be",
+      "title": "I Have a Confession: I Built This Site with AI – Please Forgive Me",
+      "url": "https://dynamicallytyped.org/blog/i-have-a-confession-i-built-this-site-with-ai",
+      "canonicalUrl": "https://dynamicallytyped.org/blog/i-have-a-confession-i-built-this-site-with-ai",
+      "domain": "dynamicallytyped.org",
+      "createdAt": "2026-09-24T15:54:23.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 42,
+          "comments": 45,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49832491"
+        }
+      ],
+      "normalized": 0.28,
+      "score": 0.257
     }
   ]
 }
