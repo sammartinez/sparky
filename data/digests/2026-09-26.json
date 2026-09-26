@@ -1,0 +1,292 @@
+{
+  "date": "2026-09-26",
+  "generatedAt": "2026-09-26T15:27:13.421Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "d5155e3c50f4",
+      "title": "CEO of Mistral: AI is software. It can be controlled",
+      "url": "https://www.lemonde.fr/en/economy/article/2026/09/24/arthur-mensch-ceo-of-french-start-up-mistral-ai-ai-is-software-it-can-be-controlled_6757890_19.html",
+      "canonicalUrl": "https://lemonde.fr/en/economy/article/2026/09/24/arthur-mensch-ceo-of-french-start-up-mistral-ai-ai-is-software-it-can-be-controlled_6757890_19.html",
+      "domain": "lemonde.fr",
+      "createdAt": "2026-09-26T12:52:04.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 77,
+          "comments": 123,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49856034"
+        }
+      ],
+      "normalized": 0.487,
+      "score": 3.141
+    },
+    {
+      "id": "bfae75b2877b",
+      "title": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
+      "url": "https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior",
+      "canonicalUrl": "https://lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior",
+      "domain": "lasso.security",
+      "createdAt": "2026-09-26T13:05:36.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 54,
+          "comments": 48,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49856149"
+        }
+      ],
+      "normalized": 0.282,
+      "score": 1.992
+    },
+    {
+      "id": "ab6a90f5d123",
+      "title": "One Month Without AI",
+      "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+      "canonicalUrl": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+      "domain": "blog.bustikiller.com",
+      "createdAt": "2026-09-26T10:08:21.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 138,
+          "comments": 144,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49855018"
+        }
+      ],
+      "normalized": 0.701,
+      "score": 1.95
+    },
+    {
+      "id": "53c6959c1870",
+      "title": "How to keep enjoying programming in a world of LLMs",
+      "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
+      "canonicalUrl": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
+      "domain": "discourse.haskell.org",
+      "createdAt": "2026-09-26T09:41:58.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 72,
+          "comments": 127,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49854875"
+        }
+      ],
+      "normalized": 0.436,
+      "score": 1.092
+    },
+    {
+      "id": "855a3e699838",
+      "title": "The Copilot+ PC brand is dead",
+      "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
+      "canonicalUrl": "https://windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
+      "domain": "windowscentral.com",
+      "createdAt": "2026-09-26T09:55:38.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 57,
+          "comments": 31,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49854945"
+        }
+      ],
+      "normalized": 0.325,
+      "score": 0.858
+    },
+    {
+      "id": "d9992d6332e0",
+      "title": "A single function Jev-like wrapper for LLMs, including vision models",
+      "url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
+      "canonicalUrl": "https://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
+      "domain": "allanrbo.blogspot.com",
+      "createdAt": "2026-09-26T04:20:58.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 110,
+          "comments": 30,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49853175"
+        }
+      ],
+      "normalized": 0.598,
+      "score": 0.583
+    },
+    {
+      "id": "cb028b10481e",
+      "title": "Microsoft abandons personal AI chatbot race with Copilot reboot",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot",
+      "canonicalUrl": "https://bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot",
+      "domain": "bloomberg.com",
+      "createdAt": "2026-09-25T14:07:08.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 130,
+          "comments": 125,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49844896"
+        }
+      ],
+      "normalized": 0.667,
+      "score": 0.173
+    },
+    {
+      "id": "ffb2d527f036",
+      "title": "Special Projects (2016)",
+      "url": "https://openai.com/index/special-projects/",
+      "canonicalUrl": "https://openai.com/index/special-projects",
+      "domain": "openai.com",
+      "createdAt": "2026-09-25T08:55:43.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 69,
+          "comments": 42,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49841893"
+        }
+      ],
+      "normalized": 0.427,
+      "score": 0.081
+    },
+    {
+      "id": "d5966dd31fdc",
+      "title": "Can AI Shopping Agents Be Trusted?",
+      "url": "https://www.f-secure.com/en/partners/insights/can-ai-shopping-agents-be-trusted-we-built-one-to-find-out",
+      "canonicalUrl": "https://f-secure.com/en/partners/insights/can-ai-shopping-agents-be-trusted-we-built-one-to-find-out",
+      "domain": "f-secure.com",
+      "createdAt": "2026-09-26T05:36:46.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 15,
+          "comments": 28,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49853522"
+        }
+      ],
+      "normalized": 0.068,
+      "score": 0.08
+    },
+    {
+      "id": "c1b1d3fc3bbc",
+      "title": "US DOE will give $5.25B to upgrade the grid for AI datacenters",
+      "url": "https://www.theregister.com/systems/2026/09/25/uncle-sam-coughs-up-19b-for-grid-upgrades-as-datacenters-hit-a-power-wall/5299276",
+      "canonicalUrl": "https://theregister.com/systems/2026/09/25/uncle-sam-coughs-up-19b-for-grid-upgrades-as-datacenters-hit-a-power-wall/5299276",
+      "domain": "theregister.com",
+      "createdAt": "2026-09-26T06:15:37.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 14,
+          "comments": 0,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49853726"
+        }
+      ],
+      "normalized": 0.043,
+      "score": 0.055
+    },
+    {
+      "id": "211e4b315ce7",
+      "title": "Uproar in France over award-winning author accused of using AI",
+      "url": "https://www.bbc.com/news/articles/ck7v4y45893go",
+      "canonicalUrl": "https://bbc.com/news/articles/ck7v4y45893go",
+      "domain": "bbc.com",
+      "createdAt": "2026-09-25T10:48:32.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 35,
+          "comments": 83,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49842707"
+        }
+      ],
+      "normalized": 0.179,
+      "score": 0.038
+    },
+    {
+      "id": "bef01355a464",
+      "title": "Show HN: Agentic CUDA Kernel Optimizer",
+      "url": "https://github.com/bertaye/agentic-cuda-optimizer",
+      "canonicalUrl": "https://github.com/bertaye/agentic-cuda-optimizer",
+      "domain": "github.com",
+      "createdAt": "2026-09-25T10:32:58.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 34,
+          "comments": 11,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49842596"
+        }
+      ],
+      "normalized": 0.162,
+      "score": 0.034
+    },
+    {
+      "id": "e4ec8a4be7ef",
+      "title": "Anthropic: The Situation Report",
+      "url": "https://www.anthropic.com/features/ebola-response",
+      "canonicalUrl": "https://anthropic.com/features/ebola-response",
+      "domain": "anthropic.com",
+      "createdAt": "2026-09-25T10:59:08.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 29,
+          "comments": 12,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49842788"
+        }
+      ],
+      "normalized": 0.137,
+      "score": 0.029
+    },
+    {
+      "id": "f8ae3a56a69c",
+      "title": "Tell HN: OpenAI $500 ProMax plan listed in API",
+      "url": "https://news.ycombinator.com/item?id=49841605",
+      "canonicalUrl": "https://news.ycombinator.com/item?id=49841605",
+      "domain": "news.ycombinator.com",
+      "createdAt": "2026-09-25T08:12:24.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 26,
+          "comments": 41,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49841605"
+        }
+      ],
+      "normalized": 0.111,
+      "score": 0.02
+    },
+    {
+      "id": "edb5238c129a",
+      "title": "Israel weaponises AI for West Bank demolitions",
+      "url": "https://www.aljazeera.com/news/2026/9/17/israel-weaponises-ai-for-west-bank-demolitions",
+      "canonicalUrl": "https://aljazeera.com/news/2026/9/17/israel-weaponises-ai-for-west-bank-demolitions",
+      "domain": "aljazeera.com",
+      "createdAt": "2026-09-25T14:23:12.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 15,
+          "comments": 6,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49845109"
+        }
+      ],
+      "normalized": 0.068,
+      "score": 0.018
+    }
+  ]
+}
