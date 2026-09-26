@@ -1,8 +1,103 @@
 {
   "date": "2026-09-25",
-  "generatedAt": "2026-09-25T16:13:34.123Z",
+  "generatedAt": "2026-09-26T03:32:14.954Z",
   "windowHours": 36,
   "stories": [
+    {
+      "id": "893cb7d78a9c",
+      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+      "url": "https://swarmtraces.org/",
+      "canonicalUrl": "https://swarmtraces.org/",
+      "domain": "swarmtraces.org",
+      "createdAt": "2026-09-25T21:09:27.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 272,
+          "comments": 162,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49849985"
+        }
+      ],
+      "normalized": 0.891,
+      "score": 1.94
+    },
+    {
+      "id": "3a9d213a3cc2",
+      "title": "Too AI; Didn't Read",
+      "url": "https://www.tai-dr.com/",
+      "canonicalUrl": "https://tai-dr.com/",
+      "domain": "tai-dr.com",
+      "createdAt": "2026-09-25T20:37:56.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 106,
+          "comments": 102,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49849625"
+        }
+      ],
+      "normalized": 0.606,
+      "score": 1.183
+    },
+    {
+      "id": "5e83e0d22a04",
+      "title": "Meta's Muse appears to use an OpenAI model labeled muse-special",
+      "url": "https://mouse.dev/blog/muse-special/",
+      "canonicalUrl": "https://mouse.dev/blog/muse-special",
+      "domain": "mouse.dev",
+      "createdAt": "2026-09-25T18:18:06.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 119,
+          "comments": 46,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49848095"
+        }
+      ],
+      "normalized": 0.679,
+      "score": 0.872
+    },
+    {
+      "id": "b005ba80ec50",
+      "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
+      "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+      "canonicalUrl": "https://cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+      "domain": "cnbc.com",
+      "createdAt": "2026-09-25T15:29:25.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 407,
+          "comments": 717,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49845977"
+        }
+      ],
+      "normalized": 0.964,
+      "score": 0.828
+    },
+    {
+      "id": "e8b59ccb0418",
+      "title": "Yes, Claude can do nine loops",
+      "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+      "canonicalUrl": "https://anthropic.com/research/yes-claude-can-do-nine-loops",
+      "domain": "anthropic.com",
+      "createdAt": "2026-09-25T18:11:48.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 102,
+          "comments": 57,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49848033"
+        }
+      ],
+      "normalized": 0.599,
+      "score": 0.756
+    },
     {
       "id": "d2d497e5eee4",
       "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
@@ -19,7 +114,102 @@
         }
       ],
       "normalized": 0.5,
-      "score": 14.359
+      "score": 0.721
+    },
+    {
+      "id": "742c4a510c92",
+      "title": "FTC chair suggests AI developers should be liable for conduct of agents",
+      "url": "https://www.reuters.com/business/ftc-chair-pushes-back-treating-ai-agents-independent-actors-2026-09-25/",
+      "canonicalUrl": "https://reuters.com/business/ftc-chair-pushes-back-treating-ai-agents-independent-actors-2026-09-25",
+      "domain": "reuters.com",
+      "createdAt": "2026-09-25T22:49:41.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 28,
+          "comments": 7,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49850999"
+        }
+      ],
+      "normalized": 0.182,
+      "score": 0.593
+    },
+    {
+      "id": "72c8ad90d138",
+      "title": "Issues with Codex – Identified – Full Outage",
+      "url": "https://status.openai.com/incidents/01M3DCNWMW57HYK8FJ5FBFPA39",
+      "canonicalUrl": "https://status.openai.com/incidents/01M3DCNWMW57HYK8FJ5FBFPA39",
+      "domain": "status.openai.com",
+      "createdAt": "2026-09-25T23:04:25.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 27,
+          "comments": 1,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49851169"
+        }
+      ],
+      "normalized": 0.168,
+      "score": 0.584
+    },
+    {
+      "id": "a4f7b654711c",
+      "title": "OpenAI’s Systems Went Rogue and Meddled With U.S. Government Websites",
+      "url": "https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html",
+      "canonicalUrl": "https://nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html",
+      "domain": "nytimes.com",
+      "createdAt": "2026-09-25T23:22:18.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 23,
+          "comments": 5,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49851355"
+        }
+      ],
+      "normalized": 0.131,
+      "score": 0.497
+    },
+    {
+      "id": "4bfe8fc05d07",
+      "title": "Show HN: Doom or Bloom, map your AI worldview",
+      "url": "https://www.doom-or-bloom.com",
+      "canonicalUrl": "https://doom-or-bloom.com/",
+      "domain": "doom-or-bloom.com",
+      "createdAt": "2026-09-25T16:51:28.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 55,
+          "comments": 43,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49846953"
+        }
+      ],
+      "normalized": 0.431,
+      "score": 0.445
+    },
+    {
+      "id": "80053acc608c",
+      "title": "Jevmem – automatic project memory for Claude Code, built on Jev",
+      "url": "https://github.com/Avinash-jetwani/jevmem",
+      "canonicalUrl": "https://github.com/Avinash-jetwani/jevmem",
+      "domain": "github.com",
+      "createdAt": "2026-09-25T16:04:04.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 61,
+          "comments": 40,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49846391"
+        }
+      ],
+      "normalized": 0.46,
+      "score": 0.426
     },
     {
       "id": "dd48f8c31e9f",
@@ -38,64 +228,45 @@
         }
       ],
       "normalized": 0.37,
-      "score": 5.932
+      "score": 0.317
     },
     {
-      "id": "cb028b10481e",
-      "title": "Microsoft Abandons Personal AI Chatbot Race with Copilot Reboot",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot",
-      "canonicalUrl": "https://bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot",
-      "domain": "bloomberg.com",
-      "createdAt": "2026-09-25T14:07:08.000Z",
+      "id": "c4b6346e9bb5",
+      "title": "\"Someone just sent me an ad that features an AI version of me. What do I do?\"",
+      "url": "https://bsky.app/profile/lebassett.bsky.social/post/3mwel345jr22s",
+      "canonicalUrl": "https://bsky.app/profile/lebassett.bsky.social/post/3mwel345jr22s",
+      "domain": "bsky.app",
+      "createdAt": "2026-09-25T21:15:55.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 24,
-          "comments": 15,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49844896"
+          "points": 21,
+          "comments": 9,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49850042"
         }
       ],
-      "normalized": 0.126,
-      "score": 0.99
+      "normalized": 0.124,
+      "score": 0.277
     },
     {
-      "id": "ffb2d527f036",
-      "title": "Special Projects (2016)",
-      "url": "https://openai.com/index/special-projects/",
-      "canonicalUrl": "https://openai.com/index/special-projects",
-      "domain": "openai.com",
-      "createdAt": "2026-09-25T08:55:43.000Z",
+      "id": "d6b716bd53b9",
+      "title": "Pope: AI must serve humans not become tool of domination",
+      "url": "https://www.euronews.com/2026/09/25/ai-must-serve-humans-rather-than-become-an-instrument-of-domination-and-injustice-pope-war",
+      "canonicalUrl": "https://euronews.com/2026/09/25/ai-must-serve-humans-rather-than-become-an-instrument-of-domination-and-injustice-pope-war",
+      "domain": "euronews.com",
+      "createdAt": "2026-09-25T19:18:05.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 62,
-          "comments": 36,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49841893"
+          "points": 26,
+          "comments": 7,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49848734"
         }
       ],
-      "normalized": 0.407,
-      "score": 0.736
-    },
-    {
-      "id": "211e4b315ce7",
-      "title": "Uproar in France over award-winning author accused of using AI",
-      "url": "https://www.bbc.com/news/articles/ck7v4y45893go",
-      "canonicalUrl": "https://bbc.com/news/articles/ck7v4y45893go",
-      "domain": "bbc.com",
-      "createdAt": "2026-09-25T10:48:32.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 31,
-          "comments": 74,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49842707"
-        }
-      ],
-      "normalized": 0.215,
-      "score": 0.583
+      "normalized": 0.146,
+      "score": 0.222
     },
     {
       "id": "5113d08fbfb8",
@@ -114,178 +285,7 @@
         }
       ],
       "normalized": 0.9,
-      "score": 0.484
-    },
-    {
-      "id": "bef01355a464",
-      "title": "Show HN: Agentic CUDA Kernel Optimizer",
-      "url": "https://github.com/bertaye/agentic-cuda-optimizer",
-      "canonicalUrl": "https://github.com/bertaye/agentic-cuda-optimizer",
-      "domain": "github.com",
-      "createdAt": "2026-09-25T10:32:58.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 29,
-          "comments": 6,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49842596"
-        }
-      ],
-      "normalized": 0.185,
-      "score": 0.472
-    },
-    {
-      "id": "e4ec8a4be7ef",
-      "title": "Anthropic: The Situation Report",
-      "url": "https://www.anthropic.com/features/ebola-response",
-      "canonicalUrl": "https://anthropic.com/features/ebola-response",
-      "domain": "anthropic.com",
-      "createdAt": "2026-09-25T10:59:08.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 27,
-          "comments": 11,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49842788"
-        }
-      ],
-      "normalized": 0.148,
-      "score": 0.42
-    },
-    {
-      "id": "cc63b4dbef4f",
-      "title": "Neural Spectral Capacity: Measuring and Designing Architectures from Network Specification Alone",
-      "url": "https://arxiv.org/abs/2609.23087",
-      "canonicalUrl": "https://arxiv.org/abs/2609.23087",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-25T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 4,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.23087"
-        }
-      ],
-      "normalized": 0.45,
-      "score": 0.242
-    },
-    {
-      "id": "40040a962c4b",
-      "title": "Show HN: The last day of the dinosaurs, as an interactive painting",
-      "url": "https://www.echohive.ai/experiments/dinosaurs",
-      "canonicalUrl": "https://echohive.ai/experiments/dinosaurs",
-      "domain": "echohive.ai",
-      "createdAt": "2026-09-25T08:58:13.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 17,
-          "comments": 13,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49841912"
-        }
-      ],
-      "normalized": 0.104,
-      "score": 0.189
-    },
-    {
-      "id": "733f60d0c466",
-      "title": "Tutoring company tells parents to save their money and 'use AI instead'",
-      "url": "https://www.afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r",
-      "canonicalUrl": "https://afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r",
-      "domain": "afr.com",
-      "createdAt": "2026-09-24T15:09:38.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 129,
-          "comments": 200,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49831690"
-        }
-      ],
-      "normalized": 0.652,
-      "score": 0.172
-    },
-    {
-      "id": "415d0f35c647",
-      "title": "AI safety is mostly a sex cult in Berkeley",
-      "url": "https://www.verysane.ai/p/ai-safety-is-mostly-a-sex-cult-in",
-      "canonicalUrl": "https://verysane.ai/p/ai-safety-is-mostly-a-sex-cult-in",
-      "domain": "verysane.ai",
-      "createdAt": "2026-09-24T14:38:31.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 119,
-          "comments": 30,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49831269"
-        }
-      ],
-      "normalized": 0.622,
-      "score": 0.159
-    },
-    {
-      "id": "e82bf04022f6",
-      "title": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
-      "url": "https://transluce.org/agent-activity",
-      "canonicalUrl": "https://transluce.org/agent-activity",
-      "domain": "transluce.org",
-      "createdAt": "2026-09-24T05:21:10.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 262,
-          "comments": 297,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49826565"
-        }
-      ],
-      "normalized": 0.889,
-      "score": 0.135
-    },
-    {
-      "id": "b933aecb3995",
-      "title": "Rufus-Air: An Open LLM Post-Training Recipe",
-      "url": "https://arxiv.org/abs/2609.29421",
-      "canonicalUrl": "https://arxiv.org/abs/2609.29421",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-25T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 3,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.29421"
-        }
-      ],
-      "normalized": 0.25,
-      "score": 0.134
-    },
-    {
-      "id": "355d00453619",
-      "title": "World Action Agent: Harnessing VLMs for Robot Manipulation via World Action Rehearsal",
-      "url": "https://arxiv.org/abs/2609.29964",
-      "canonicalUrl": "https://arxiv.org/abs/2609.29964",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-25T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 3,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.29964"
-        }
-      ],
-      "normalized": 0.25,
-      "score": 0.134
+      "score": 0.203
     }
   ]
 }
