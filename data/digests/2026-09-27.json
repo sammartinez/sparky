@@ -1,0 +1,254 @@
+{
+  "date": "2026-09-27",
+  "generatedAt": "2026-09-27T16:07:07.135Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "71ac5a164a1d",
+      "title": "\"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
+      "url": "https://arxiv.org/abs/2609.25021",
+      "canonicalUrl": "https://arxiv.org/abs/2609.25021",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-27T10:26:25.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 83,
+          "comments": 90,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49865343"
+        }
+      ],
+      "normalized": 0.506,
+      "score": 1.291
+    },
+    {
+      "id": "9fe0a063f817",
+      "title": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
+      "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
+      "canonicalUrl": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal",
+      "domain": "authorsguild.org",
+      "createdAt": "2026-09-27T06:19:33.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 538,
+          "comments": 476,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49863864"
+        }
+      ],
+      "normalized": 0.963,
+      "score": 1.134
+    },
+    {
+      "id": "efa67a455fc9",
+      "title": "OpenAI agents tried to bruteforce a UN website's API fields",
+      "url": "https://swarmcha.se/posts/openai-unctad",
+      "canonicalUrl": "https://swarmcha.se/posts/openai-unctad",
+      "domain": "swarmcha.se",
+      "createdAt": "2026-09-27T01:08:07.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 80,
+          "comments": 74,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49862299"
+        }
+      ],
+      "normalized": 0.481,
+      "score": 0.294
+    },
+    {
+      "id": "855a3e699838",
+      "title": "The Copilot+ PC brand is dead",
+      "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
+      "canonicalUrl": "https://windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
+      "domain": "windowscentral.com",
+      "createdAt": "2026-09-26T09:55:38.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 104,
+          "comments": 67,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49854945"
+        }
+      ],
+      "normalized": 0.593,
+      "score": 0.115
+    },
+    {
+      "id": "d9992d6332e0",
+      "title": "A single function Jev-like wrapper for LLMs, including vision models",
+      "url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
+      "canonicalUrl": "https://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
+      "domain": "allanrbo.blogspot.com",
+      "createdAt": "2026-09-26T04:20:58.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 148,
+          "comments": 44,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49853175"
+        }
+      ],
+      "normalized": 0.716,
+      "score": 0.104
+    },
+    {
+      "id": "a922caa29d65",
+      "title": "An agent used DNS to reach an external chatbot",
+      "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
+      "canonicalUrl": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot",
+      "domain": "alignment.openai.com",
+      "createdAt": "2026-09-26T04:14:11.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 141,
+          "comments": 141,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49853137"
+        }
+      ],
+      "normalized": 0.691,
+      "score": 0.1
+    },
+    {
+      "id": "681d5f406eb0",
+      "title": "OpenAI pauses training of latest models after agents probed US Government sites",
+      "url": "https://apnews.com/article/ai-openai-anthropic-agents-rogue-hack-2f8a2b9024d4f06793bcca12f8089d20",
+      "canonicalUrl": "https://apnews.com/article/ai-openai-anthropic-agents-rogue-hack-2f8a2b9024d4f06793bcca12f8089d20",
+      "domain": "apnews.com",
+      "createdAt": "2026-09-27T09:07:03.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 15,
+          "comments": 1,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49864790"
+        }
+      ],
+      "normalized": 0.049,
+      "score": 0.095
+    },
+    {
+      "id": "c1b1d3fc3bbc",
+      "title": "US DOE will give $5.25B to upgrade the grid for AI datacenters",
+      "url": "https://www.theregister.com/systems/2026/09/25/uncle-sam-coughs-up-19b-for-grid-upgrades-as-datacenters-hit-a-power-wall/5299276",
+      "canonicalUrl": "https://theregister.com/systems/2026/09/25/uncle-sam-coughs-up-19b-for-grid-upgrades-as-datacenters-hit-a-power-wall/5299276",
+      "domain": "theregister.com",
+      "createdAt": "2026-09-26T06:15:37.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 17,
+          "comments": 1,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49853726"
+        }
+      ],
+      "normalized": 0.099,
+      "score": 0.016
+    },
+    {
+      "id": "12200be07367",
+      "title": "The AI Bubble Explained",
+      "url": "https://hughhowey.com/the-ai-bubble-explained/",
+      "canonicalUrl": "https://hughhowey.com/the-ai-bubble-explained",
+      "domain": "hughhowey.com",
+      "createdAt": "2026-09-26T15:55:36.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 15,
+          "comments": 9,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49857723"
+        }
+      ],
+      "normalized": 0.049,
+      "score": 0.014
+    },
+    {
+      "id": "e6f2eebb259b",
+      "title": "42x faster prompt lookup drafting in llama.cpp",
+      "url": "https://jadidbourbaki.github.io/blog/prompt-lookup-llama-cpp/",
+      "canonicalUrl": "https://jadidbourbaki.github.io/blog/prompt-lookup-llama-cpp",
+      "domain": "jadidbourbaki.github.io",
+      "createdAt": "2026-09-26T19:57:24.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 13,
+          "comments": 2,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49859982"
+        }
+      ],
+      "normalized": 0.037,
+      "score": 0.014
+    },
+    {
+      "id": "d5966dd31fdc",
+      "title": "Can AI Shopping Agents Be Trusted?",
+      "url": "https://www.f-secure.com/en/partners/insights/can-ai-shopping-agents-be-trusted-we-built-one-to-find-out",
+      "canonicalUrl": "https://f-secure.com/en/partners/insights/can-ai-shopping-agents-be-trusted-we-built-one-to-find-out",
+      "domain": "f-secure.com",
+      "createdAt": "2026-09-26T05:36:46.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 15,
+          "comments": 28,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49853522"
+        }
+      ],
+      "normalized": 0.049,
+      "score": 0.008
+    },
+    {
+      "id": "722ac5604123",
+      "title": "\"can't a guy walk down the street anymore without being harassed by AI\" [video]",
+      "url": "https://bsky.app/profile/cabel.panic.com/post/3mwgo5kml3r2z",
+      "canonicalUrl": "https://bsky.app/profile/cabel.panic.com/post/3mwgo5kml3r2z",
+      "domain": "bsky.app",
+      "createdAt": "2026-09-26T23:57:41.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 12,
+          "comments": 1,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49861804"
+        }
+      ],
+      "normalized": 0.012,
+      "score": 0.007
+    },
+    {
+      "id": "6fe8ff823f55",
+      "title": "Trump admin using AI to deny medical care for seniors in disastrous experiment",
+      "url": "https://arstechnica.com/health/2026/09/trump-admin-using-ai-to-deny-medical-care-for-seniors-in-disastrous-experiment/",
+      "canonicalUrl": "https://arstechnica.com/health/2026/09/trump-admin-using-ai-to-deny-medical-care-for-seniors-in-disastrous-experiment",
+      "domain": "arstechnica.com",
+      "createdAt": "2026-09-26T08:52:57.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 11,
+          "comments": 3,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49854528"
+        }
+      ],
+      "normalized": 0,
+      "score": 0
+    }
+  ]
+}
