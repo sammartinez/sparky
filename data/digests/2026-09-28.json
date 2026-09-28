@@ -1,0 +1,290 @@
+{
+  "date": "2026-09-28",
+  "generatedAt": "2026-09-28T19:01:18.417Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "aecfd421f648",
+      "title": "Claude Sonnet 5.5",
+      "url": "https://www.anthropic.com/claude-sonnet-5-5",
+      "canonicalUrl": "https://anthropic.com/claude-sonnet-5-5",
+      "domain": "anthropic.com",
+      "createdAt": "2026-09-28T17:58:11.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 197,
+          "comments": 139,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49881850"
+        }
+      ],
+      "normalized": 0.82,
+      "score": 10.998
+    },
+    {
+      "id": "aadd1dae2e0b",
+      "title": "The problem is not AI code, but not knowing about system architecture or intent",
+      "url": "https://www.ssp.sh/brain/the-problem-is-not-the-ai-code-but-nobody-knows-anything-anymore/",
+      "canonicalUrl": "https://ssp.sh/brain/the-problem-is-not-the-ai-code-but-nobody-knows-anything-anymore",
+      "domain": "ssp.sh",
+      "createdAt": "2026-09-28T16:11:42.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 289,
+          "comments": 191,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49880312"
+        }
+      ],
+      "normalized": 0.872,
+      "score": 5.129
+    },
+    {
+      "id": "4d987bc13622",
+      "title": "OpenAI still doesn't seem to have a handle on all of its rogue AI activity",
+      "url": "https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/",
+      "canonicalUrl": "https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity",
+      "domain": "techcrunch.com",
+      "createdAt": "2026-09-28T17:33:34.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 56,
+          "comments": 61,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49881484"
+        }
+      ],
+      "normalized": 0.323,
+      "score": 3.457
+    },
+    {
+      "id": "3bf7099b7703",
+      "title": "Jensen Huang says AI distillation is 'competition.'",
+      "url": "https://www.cnbc.com/2026/09/28/nvidias-jensen-huang-ai-distillation-china.html",
+      "canonicalUrl": "https://cnbc.com/2026/09/28/nvidias-jensen-huang-ai-distillation-china.html",
+      "domain": "cnbc.com",
+      "createdAt": "2026-09-28T14:55:34.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 70,
+          "comments": 73,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49879032"
+        }
+      ],
+      "normalized": 0.444,
+      "score": 1.714
+    },
+    {
+      "id": "a37b0826d622",
+      "title": "It’s Time to Investigate the AI Labs",
+      "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
+      "canonicalUrl": "https://calnewport.com/its-time-to-investigate-the-ai-labs",
+      "domain": "calnewport.com",
+      "createdAt": "2026-09-28T13:56:41.713Z",
+      "appearances": [
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 11,
+          "comments": 0,
+          "discussionUrl": "https://lobste.rs/s/ir1emf/it_s_time_investigate_ai_labs"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 1.477
+    },
+    {
+      "id": "ff1c78cd980c",
+      "title": "Cf: The Agentic CLI for the Cloudflare API",
+      "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
+      "canonicalUrl": "https://blog.cloudflare.com/cloudflare-cf-cli-launch",
+      "domain": "blog.cloudflare.com",
+      "createdAt": "2026-09-28T15:28:13.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 40,
+          "comments": 17,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49879577"
+        }
+      ],
+      "normalized": 0.241,
+      "score": 1.1
+    },
+    {
+      "id": "f7393ebacf7b",
+      "title": "Nvidia wants to put a watchdog chip next to every AI agent",
+      "url": "https://madrobot.blog/2026/09/28/nvidia-open-agent-safety-platform-openshell-sentry-rogue-ai-agents/",
+      "canonicalUrl": "https://madrobot.blog/2026/09/28/nvidia-open-agent-safety-platform-openshell-sentry-rogue-ai-agents",
+      "domain": "madrobot.blog",
+      "createdAt": "2026-09-28T15:46:36.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 37,
+          "comments": 67,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49879883"
+        }
+      ],
+      "normalized": 0.211,
+      "score": 1.066
+    },
+    {
+      "id": "db3e760e700f",
+      "title": "AI companies in race to demonstrate their model most threatening to humanity",
+      "url": "https://thecivilian.co.nz/2026/09/27/ai-companies-in-fierce-arms-race-to-demonstrate-their-model-is-the-most-existentially-threatening-to-humanity/",
+      "canonicalUrl": "https://thecivilian.co.nz/2026/09/27/ai-companies-in-fierce-arms-race-to-demonstrate-their-model-is-the-most-existentially-threatening-to-humanity",
+      "domain": "thecivilian.co.nz",
+      "createdAt": "2026-09-28T08:35:40.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 415,
+          "comments": 372,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49875148"
+        }
+      ],
+      "normalized": 0.947,
+      "score": 1.015
+    },
+    {
+      "id": "529cc606ad9a",
+      "title": "GPU Glossary",
+      "url": "https://modal.com/gpu-glossary",
+      "canonicalUrl": "https://modal.com/gpu-glossary",
+      "domain": "modal.com",
+      "createdAt": "2026-09-28T11:43:38.827Z",
+      "appearances": [
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://lobste.rs/s/8aztzt/gpu_glossary"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.904
+    },
+    {
+      "id": "8c79cd7d02d1",
+      "title": "What Would a Serious AI Product Look Like?",
+      "url": "https://blog.glyph.im/2026/09/serious-ai-product.html",
+      "canonicalUrl": "https://blog.glyph.im/2026/09/serious-ai-product.html",
+      "domain": "blog.glyph.im",
+      "createdAt": "2026-09-28T11:02:12.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 78,
+          "comments": 25,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49876148"
+        }
+      ],
+      "normalized": 0.534,
+      "score": 0.848
+    },
+    {
+      "id": "9f284effa55e",
+      "title": "Prompting Claude Opus 5.5",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5",
+      "canonicalUrl": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5",
+      "domain": "platform.claude.com",
+      "createdAt": "2026-09-28T07:33:29.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 188,
+          "comments": 215,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49874728"
+        }
+      ],
+      "normalized": 0.805,
+      "score": 0.747
+    },
+    {
+      "id": "9552195c964d",
+      "title": "Holo4: powering generalist computer-use agents",
+      "url": "https://huggingface.co/blog/Hcompany/holo4",
+      "canonicalUrl": "https://huggingface.co/blog/Hcompany/holo4",
+      "domain": "huggingface.co",
+      "createdAt": "2026-09-28T09:44:05.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.637
+    },
+    {
+      "id": "5a63fa8d69c3",
+      "title": "How Pew Research Center is – and is not – using AI in our work",
+      "url": "https://www.pewresearch.org/decoded/2026/09/28/how-pew-research-center-is-and-is-not-using-ai-in-our-work-2/",
+      "canonicalUrl": "https://pewresearch.org/decoded/2026/09/28/how-pew-research-center-is-and-is-not-using-ai-in-our-work-2",
+      "domain": "pewresearch.org",
+      "createdAt": "2026-09-28T17:08:06.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 15,
+          "comments": 3,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49881135"
+        }
+      ],
+      "normalized": 0.053,
+      "score": 0.457
+    },
+    {
+      "id": "216d56bba26c",
+      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+      "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+      "canonicalUrl": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+      "domain": "openai.com",
+      "createdAt": "2026-09-28T07:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.431
+    },
+    {
+      "id": "f1d69bd4c806",
+      "title": "Thinking fast and slow in AI: The role of metacognition (2021)",
+      "url": "https://arxiv.org/abs/2110.01834",
+      "canonicalUrl": "https://arxiv.org/abs/2110.01834",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-28T03:23:53.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 166,
+          "comments": 71,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49873241"
+        }
+      ],
+      "normalized": 0.752,
+      "score": 0.43
+    }
+  ]
+}
