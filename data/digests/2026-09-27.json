@@ -1,26 +1,177 @@
 {
   "date": "2026-09-27",
-  "generatedAt": "2026-09-27T16:07:07.135Z",
+  "generatedAt": "2026-09-28T03:39:40.928Z",
   "windowHours": 36,
   "stories": [
     {
-      "id": "71ac5a164a1d",
-      "title": "\"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
-      "url": "https://arxiv.org/abs/2609.25021",
-      "canonicalUrl": "https://arxiv.org/abs/2609.25021",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-27T10:26:25.000Z",
+      "id": "0dc955c86c2b",
+      "title": "Owed a billion dollars in Nvidia stock",
+      "url": "https://colo.to/nvidia-stock-narrative.html",
+      "canonicalUrl": "https://colo.to/nvidia-stock-narrative.html",
+      "domain": "colo.to",
+      "createdAt": "2026-09-28T02:05:13.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 83,
-          "comments": 90,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49865343"
+          "points": 158,
+          "comments": 71,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49872723"
         }
       ],
-      "normalized": 0.506,
-      "score": 1.291
+      "normalized": 0.753,
+      "score": 7.601
+    },
+    {
+      "id": "1132f9363e56",
+      "title": "InternW0-Δ: A World Action Model Bridging Predictive Dynamics and Actions with 20K+ Hours of Open Data",
+      "url": "https://arxiv.org/abs/2609.31394",
+      "canonicalUrl": "https://arxiv.org/abs/2609.31394",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 5,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.31394"
+        }
+      ],
+      "normalized": 0.667,
+      "score": 2.942
+    },
+    {
+      "id": "193eb09a66e5",
+      "title": "2026 in LLMs (so far)",
+      "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
+      "canonicalUrl": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far",
+      "domain": "simonwillison.net",
+      "createdAt": "2026-09-27T23:54:15.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Simon Willison",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 2.141
+    },
+    {
+      "id": "b596fed839bc",
+      "title": "Game Arena: Strategic LLM Evaluation in Competitive Environments",
+      "url": "https://arxiv.org/abs/2609.31473",
+      "canonicalUrl": "https://arxiv.org/abs/2609.31473",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.31473"
+        }
+      ],
+      "normalized": 0.333,
+      "score": 1.471
+    },
+    {
+      "id": "a365d26f319b",
+      "title": "Ember-1",
+      "url": "https://fireworks.ai/blog/ember-1",
+      "canonicalUrl": "https://fireworks.ai/blog/ember-1",
+      "domain": "fireworks.ai",
+      "createdAt": "2026-09-27T17:31:53.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 381,
+          "comments": 191,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49868830"
+        }
+      ],
+      "normalized": 0.925,
+      "score": 1.035
+    },
+    {
+      "id": "cb09c5e6909d",
+      "title": "SNL Weekend Update: Anthropic CEO Dario Amodei on A.I.'S Threat to Humanity [video]",
+      "url": "https://www.youtube.com/watch?v=-Nvne3LzBls",
+      "canonicalUrl": "https://youtube.com/watch?v=-Nvne3LzBls",
+      "domain": "youtube.com",
+      "createdAt": "2026-09-27T17:32:02.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 179,
+          "comments": 90,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49868831"
+        }
+      ],
+      "normalized": 0.796,
+      "score": 0.891
+    },
+    {
+      "id": "4aa8cdc749d3",
+      "title": "There are no \"rogue\" AI agents",
+      "url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
+      "canonicalUrl": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
+      "domain": "eoinhiggins.substack.com",
+      "createdAt": "2026-09-27T16:19:46.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 339,
+          "comments": 247,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49868083"
+        }
+      ],
+      "normalized": 0.882,
+      "score": 0.833
+    },
+    {
+      "id": "6352c31fe11c",
+      "title": "Show HN: TinyAIArena watch AI agents battle it out",
+      "url": "https://tinyaiarena.com/",
+      "canonicalUrl": "https://tinyaiarena.com/",
+      "domain": "tinyaiarena.com",
+      "createdAt": "2026-09-27T15:51:28.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 103,
+          "comments": 40,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49867775"
+        }
+      ],
+      "normalized": 0.624,
+      "score": 0.553
+    },
+    {
+      "id": "9f51eba9f163",
+      "title": "OpenAI halts training of latest models as reports mount of AI agents going rogue",
+      "url": "https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue",
+      "canonicalUrl": "https://theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue",
+      "domain": "theguardian.com",
+      "createdAt": "2026-09-27T16:29:38.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 55,
+          "comments": 110,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49868202"
+        }
+      ],
+      "normalized": 0.366,
+      "score": 0.353
     },
     {
       "id": "9fe0a063f817",
@@ -39,7 +190,64 @@
         }
       ],
       "normalized": 0.963,
-      "score": 1.134
+      "score": 0.332
+    },
+    {
+      "id": "71ac5a164a1d",
+      "title": "\"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
+      "url": "https://arxiv.org/abs/2609.25021",
+      "canonicalUrl": "https://arxiv.org/abs/2609.25021",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-27T10:26:25.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 83,
+          "comments": 90,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49865343"
+        }
+      ],
+      "normalized": 0.506,
+      "score": 0.248
+    },
+    {
+      "id": "b04934350ff5",
+      "title": "Calling the AI bluff: Adding \"Do not guess\" cut made-up claims from 71% to 20%",
+      "url": "https://earnanhonestdollar.com/bench",
+      "canonicalUrl": "https://earnanhonestdollar.com/bench",
+      "domain": "earnanhonestdollar.com",
+      "createdAt": "2026-09-27T17:24:17.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 30,
+          "comments": 6,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49868753"
+        }
+      ],
+      "normalized": 0.14,
+      "score": 0.154
+    },
+    {
+      "id": "f444bec514d9",
+      "title": "George Hotz’s opinion on AI coding",
+      "url": "https://twitter.com/__tinygrad__/status/2044354852663558370",
+      "canonicalUrl": "https://twitter.com/__tinygrad__/status/2044354852663558370",
+      "domain": "twitter.com",
+      "createdAt": "2026-09-27T21:40:54.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 17,
+          "comments": 10,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49871139"
+        }
+      ],
+      "normalized": 0.054,
+      "score": 0.128
     },
     {
       "id": "efa67a455fc9",
@@ -58,7 +266,7 @@
         }
       ],
       "normalized": 0.481,
-      "score": 0.294
+      "score": 0.116
     },
     {
       "id": "855a3e699838",
@@ -77,178 +285,7 @@
         }
       ],
       "normalized": 0.593,
-      "score": 0.115
-    },
-    {
-      "id": "d9992d6332e0",
-      "title": "A single function Jev-like wrapper for LLMs, including vision models",
-      "url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
-      "canonicalUrl": "https://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
-      "domain": "allanrbo.blogspot.com",
-      "createdAt": "2026-09-26T04:20:58.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 148,
-          "comments": 44,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49853175"
-        }
-      ],
-      "normalized": 0.716,
-      "score": 0.104
-    },
-    {
-      "id": "a922caa29d65",
-      "title": "An agent used DNS to reach an external chatbot",
-      "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
-      "canonicalUrl": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot",
-      "domain": "alignment.openai.com",
-      "createdAt": "2026-09-26T04:14:11.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 141,
-          "comments": 141,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49853137"
-        }
-      ],
-      "normalized": 0.691,
-      "score": 0.1
-    },
-    {
-      "id": "681d5f406eb0",
-      "title": "OpenAI pauses training of latest models after agents probed US Government sites",
-      "url": "https://apnews.com/article/ai-openai-anthropic-agents-rogue-hack-2f8a2b9024d4f06793bcca12f8089d20",
-      "canonicalUrl": "https://apnews.com/article/ai-openai-anthropic-agents-rogue-hack-2f8a2b9024d4f06793bcca12f8089d20",
-      "domain": "apnews.com",
-      "createdAt": "2026-09-27T09:07:03.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 15,
-          "comments": 1,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49864790"
-        }
-      ],
-      "normalized": 0.049,
-      "score": 0.095
-    },
-    {
-      "id": "c1b1d3fc3bbc",
-      "title": "US DOE will give $5.25B to upgrade the grid for AI datacenters",
-      "url": "https://www.theregister.com/systems/2026/09/25/uncle-sam-coughs-up-19b-for-grid-upgrades-as-datacenters-hit-a-power-wall/5299276",
-      "canonicalUrl": "https://theregister.com/systems/2026/09/25/uncle-sam-coughs-up-19b-for-grid-upgrades-as-datacenters-hit-a-power-wall/5299276",
-      "domain": "theregister.com",
-      "createdAt": "2026-09-26T06:15:37.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 17,
-          "comments": 1,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49853726"
-        }
-      ],
-      "normalized": 0.099,
-      "score": 0.016
-    },
-    {
-      "id": "12200be07367",
-      "title": "The AI Bubble Explained",
-      "url": "https://hughhowey.com/the-ai-bubble-explained/",
-      "canonicalUrl": "https://hughhowey.com/the-ai-bubble-explained",
-      "domain": "hughhowey.com",
-      "createdAt": "2026-09-26T15:55:36.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 15,
-          "comments": 9,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49857723"
-        }
-      ],
-      "normalized": 0.049,
-      "score": 0.014
-    },
-    {
-      "id": "e6f2eebb259b",
-      "title": "42x faster prompt lookup drafting in llama.cpp",
-      "url": "https://jadidbourbaki.github.io/blog/prompt-lookup-llama-cpp/",
-      "canonicalUrl": "https://jadidbourbaki.github.io/blog/prompt-lookup-llama-cpp",
-      "domain": "jadidbourbaki.github.io",
-      "createdAt": "2026-09-26T19:57:24.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 13,
-          "comments": 2,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49859982"
-        }
-      ],
-      "normalized": 0.037,
-      "score": 0.014
-    },
-    {
-      "id": "d5966dd31fdc",
-      "title": "Can AI Shopping Agents Be Trusted?",
-      "url": "https://www.f-secure.com/en/partners/insights/can-ai-shopping-agents-be-trusted-we-built-one-to-find-out",
-      "canonicalUrl": "https://f-secure.com/en/partners/insights/can-ai-shopping-agents-be-trusted-we-built-one-to-find-out",
-      "domain": "f-secure.com",
-      "createdAt": "2026-09-26T05:36:46.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 15,
-          "comments": 28,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49853522"
-        }
-      ],
-      "normalized": 0.049,
-      "score": 0.008
-    },
-    {
-      "id": "722ac5604123",
-      "title": "\"can't a guy walk down the street anymore without being harassed by AI\" [video]",
-      "url": "https://bsky.app/profile/cabel.panic.com/post/3mwgo5kml3r2z",
-      "canonicalUrl": "https://bsky.app/profile/cabel.panic.com/post/3mwgo5kml3r2z",
-      "domain": "bsky.app",
-      "createdAt": "2026-09-26T23:57:41.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 12,
-          "comments": 1,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49861804"
-        }
-      ],
-      "normalized": 0.012,
-      "score": 0.007
-    },
-    {
-      "id": "6fe8ff823f55",
-      "title": "Trump admin using AI to deny medical care for seniors in disastrous experiment",
-      "url": "https://arstechnica.com/health/2026/09/trump-admin-using-ai-to-deny-medical-care-for-seniors-in-disastrous-experiment/",
-      "canonicalUrl": "https://arstechnica.com/health/2026/09/trump-admin-using-ai-to-deny-medical-care-for-seniors-in-disastrous-experiment",
-      "domain": "arstechnica.com",
-      "createdAt": "2026-09-26T08:52:57.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 11,
-          "comments": 3,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49854528"
-        }
-      ],
-      "normalized": 0,
-      "score": 0
+      "score": 0.066
     }
   ]
 }
