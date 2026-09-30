@@ -1,72 +1,129 @@
 {
   "date": "2026-09-29",
-  "generatedAt": "2026-09-29T17:22:23.460Z",
+  "generatedAt": "2026-09-30T03:59:33.540Z",
   "windowHours": 36,
   "stories": [
     {
-      "id": "dd66acaed2a0",
-      "title": "GPT 6.1 Sol",
-      "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
-      "canonicalUrl": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "domain": "openai.com",
-      "createdAt": "2026-09-29T17:06:45.000Z",
+      "id": "227943afe17f",
+      "title": "Raven: The Harness of Harnesses for Composable Agentic Intelligence",
+      "url": "https://arxiv.org/abs/2609.33439",
+      "canonicalUrl": "https://arxiv.org/abs/2609.33439",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-30T00:00:00.000Z",
       "appearances": [
         {
-          "source": "hn",
-          "label": "HN",
-          "points": 123,
-          "comments": 58,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49896586"
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 31,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.33439"
         }
       ],
-      "normalized": 0.605,
-      "score": 13.938
+      "normalized": 0.95,
+      "score": 3.785
     },
     {
-      "id": "884977ecb800",
-      "title": "Dots",
-      "url": "https://openai.com/index/introducing-dots/",
-      "canonicalUrl": "https://openai.com/index/introducing-dots",
-      "domain": "openai.com",
-      "createdAt": "2026-09-29T17:07:57.000Z",
+      "id": "c311c0504d26",
+      "title": "Think Before You Score: Thinking Reward Model for Visual Generation",
+      "url": "https://arxiv.org/abs/2609.37372",
+      "canonicalUrl": "https://arxiv.org/abs/2609.37372",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-30T00:00:00.000Z",
       "appearances": [
         {
-          "source": "hn",
-          "label": "HN",
-          "points": 61,
-          "comments": 24,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49896604"
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 24,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.37372"
         }
       ],
-      "normalized": 0.382,
-      "score": 8.945
+      "normalized": 0.875,
+      "score": 3.486
     },
     {
-      "id": "858436b0db4b",
-      "title": "DraftKings Is Using AI to Behaviorally Target Chronic Gamblers",
-      "url": "https://www.eff.org/deeplinks/2026/09/draftkings-using-ai-supercharge-harms-online-behavioral-advertising",
-      "canonicalUrl": "https://eff.org/deeplinks/2026/09/draftkings-using-ai-supercharge-harms-online-behavioral-advertising",
-      "domain": "eff.org",
-      "createdAt": "2026-09-29T16:30:48.000Z",
+      "id": "4389c748c0f0",
+      "title": "Learning Beyond What You Sample: Off-Policy-Aware Cross-Model Trajectory Exchange for RLVR",
+      "url": "https://arxiv.org/abs/2609.37868",
+      "canonicalUrl": "https://arxiv.org/abs/2609.37868",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-30T00:00:00.000Z",
       "appearances": [
         {
-          "source": "hn",
-          "label": "HN",
-          "points": 97,
-          "comments": 51,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49896050"
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 18,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.37868"
         }
       ],
-      "normalized": 0.529,
-      "score": 7.976
+      "normalized": 0.825,
+      "score": 3.287
     },
     {
-      "id": "f7665b70e425",
-      "title": "OpenAI DevDay 2026 live blog",
-      "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
-      "canonicalUrl": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog",
+      "id": "2bb9aff4a2b7",
+      "title": "Marathoner: Ultra-Long-Horizon Autonomous Intelligence",
+      "url": "https://arxiv.org/abs/2609.34378",
+      "canonicalUrl": "https://arxiv.org/abs/2609.34378",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-30T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 9,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.34378"
+        }
+      ],
+      "normalized": 0.675,
+      "score": 2.689
+    },
+    {
+      "id": "42d6fe0729bf",
+      "title": "ANTMAN: Adaptive Need Tracking for Multi-Agent Navigation in Large Information Spaces",
+      "url": "https://arxiv.org/abs/2609.33326",
+      "canonicalUrl": "https://arxiv.org/abs/2609.33326",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-30T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 4,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.33326"
+        }
+      ],
+      "normalized": 0.4,
+      "score": 1.593
+    },
+    {
+      "id": "030aee0fde27",
+      "title": "TGRL: Temperature-Grouped Reinforcement Learning for Efficient Exploration in LLMs",
+      "url": "https://arxiv.org/abs/2609.33589",
+      "canonicalUrl": "https://arxiv.org/abs/2609.33589",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-30T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 4,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.33589"
+        }
+      ],
+      "normalized": 0.4,
+      "score": 1.593
+    },
+    {
+      "id": "1e2adcbb126c",
+      "title": "Quoting Anthropic Frontier Red Team",
+      "url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
+      "canonicalUrl": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team",
       "domain": "simonwillison.net",
-      "createdAt": "2026-09-29T15:55:13.000Z",
+      "createdAt": "2026-09-29T22:20:28.000Z",
       "appearances": [
         {
           "source": "rss",
@@ -76,214 +133,158 @@
         }
       ],
       "normalized": 0.5,
-      "score": 5.373
+      "score": 1.283
     },
     {
-      "id": "493cf3fce1b8",
-      "title": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
-      "url": "https://huggingface.co/blog/nvidia/kumo-tabular",
-      "canonicalUrl": "https://huggingface.co/blog/nvidia/kumo-tabular",
-      "domain": "huggingface.co",
-      "createdAt": "2026-09-29T15:30:38.000Z",
+      "id": "61e917bd994a",
+      "title": "Where the Model Changes Its Mind: Hindsight-Divergence Localization for Efficient Reinforcement Learning with Verifiable Rewards",
+      "url": "https://arxiv.org/abs/2609.36864",
+      "canonicalUrl": "https://arxiv.org/abs/2609.36864",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-30T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 3,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.36864"
+        }
+      ],
+      "normalized": 0.3,
+      "score": 1.195
+    },
+    {
+      "id": "5d0568f91b9f",
+      "title": "AI needs $6T in annual revenue to justify data centre boom",
+      "url": "https://www.thenationalnews.com/future/technology/2026/09/29/ai-industry-needs-to-earn-6-trillion-by-2031-to-justify-data-centres/",
+      "canonicalUrl": "https://thenationalnews.com/future/technology/2026/09/29/ai-industry-needs-to-earn-6-trillion-by-2031-to-justify-data-centres",
+      "domain": "thenationalnews.com",
+      "createdAt": "2026-09-29T19:21:25.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 197,
+          "comments": 287,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49898952"
+        }
+      ],
+      "normalized": 0.762,
+      "score": 1.08
+    },
+    {
+      "id": "ee711ecd9dde",
+      "title": "GLM-5.3 and the spread of advanced cyber capabilities",
+      "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+      "canonicalUrl": "https://anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+      "domain": "anthropic.com",
+      "createdAt": "2026-09-29T17:31:26.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 200,
+          "comments": 197,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49897075"
+        }
+      ],
+      "normalized": 0.775,
+      "score": 0.826
+    },
+    {
+      "id": "ccf212c09466",
+      "title": "TabFM: A Zero-Shot Foundation Model for Tabular Data",
+      "url": "https://arxiv.org/abs/2609.37959",
+      "canonicalUrl": "https://arxiv.org/abs/2609.37959",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-30T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.37959"
+        }
+      ],
+      "normalized": 0.2,
+      "score": 0.797
+    },
+    {
+      "id": "d300fd5682b1",
+      "title": "Beyond Selection: Token Parameterization for Extreme Visual Token Compression",
+      "url": "https://arxiv.org/abs/2609.35232",
+      "canonicalUrl": "https://arxiv.org/abs/2609.35232",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-30T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.35232"
+        }
+      ],
+      "normalized": 0.2,
+      "score": 0.797
+    },
+    {
+      "id": "2b6f8c3b80e0",
+      "title": "Adversarial Training for Pixel Diffusion",
+      "url": "https://arxiv.org/abs/2609.38170",
+      "canonicalUrl": "https://arxiv.org/abs/2609.38170",
+      "domain": "arxiv.org",
+      "createdAt": "2026-09-30T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.38170"
+        }
+      ],
+      "normalized": 0.2,
+      "score": 0.797
+    },
+    {
+      "id": "7f3ada3c2a26",
+      "title": "ChatGPT Pro 500",
+      "url": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
+      "canonicalUrl": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
+      "domain": "help.openai.com",
+      "createdAt": "2026-09-29T17:26:27.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 194,
+          "comments": 226,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49896975"
+        }
+      ],
+      "normalized": 0.755,
+      "score": 0.795
+    },
+    {
+      "id": "cab141db60b6",
+      "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+      "url": "https://simonwillison.net/2026/Sep/29/hn-49898129/",
+      "canonicalUrl": "https://simonwillison.net/2026/Sep/29/hn-49898129",
+      "domain": "simonwillison.net",
+      "createdAt": "2026-09-29T18:27:48.000Z",
       "appearances": [
         {
           "source": "rss",
-          "label": "Hugging Face",
+          "label": "Simon Willison",
           "points": null,
           "comments": null
         }
       ],
       "normalized": 0.5,
-      "score": 4.391
-    },
-    {
-      "id": "c51de47a49e7",
-      "title": "Claude partial outage",
-      "url": "https://status.claude.com/incidents/4xvtc2gnq73l",
-      "canonicalUrl": "https://status.claude.com/incidents/4xvtc2gnq73l",
-      "domain": "status.claude.com",
-      "createdAt": "2026-09-29T14:25:41.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 163,
-          "comments": 137,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49893876"
-        }
-      ],
-      "normalized": 0.701,
-      "score": 3.944
-    },
-    {
-      "id": "a45e0f423760",
-      "title": "Unsurprisingly, Meta's new Muse AI agent blatantly ignores users permissions",
-      "url": "https://appleinsider.com/articles/26/09/28/metas-new-ai-agent-blatantly-ignores-users-permissions",
-      "canonicalUrl": "https://appleinsider.com/articles/26/09/28/metas-new-ai-agent-blatantly-ignores-users-permissions",
-      "domain": "appleinsider.com",
-      "createdAt": "2026-09-29T14:15:24.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 141,
-          "comments": 32,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49893709"
-        }
-      ],
-      "normalized": 0.65,
-      "score": 3.44
-    },
-    {
-      "id": "984223f109f3",
-      "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
-      "canonicalUrl": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
-      "domain": "huggingface.co",
-      "createdAt": "2026-09-29T13:07:00.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "Hugging Face",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 1.843
-    },
-    {
-      "id": "c92e39202c4c",
-      "title": "A Privacy Analysis of Web and Mobile Conversational AI Agents [pdf]",
-      "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
-      "canonicalUrl": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
-      "domain": "jorgegarciaherrero.com",
-      "createdAt": "2026-09-29T09:03:41.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 372,
-          "comments": 120,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49890226"
-        }
-      ],
-      "normalized": 0.892,
-      "score": 1.337
-    },
-    {
-      "id": "345bd52aacab",
-      "title": "New Cyber-OSINT model released",
-      "url": "https://twitter.com/0x0SojalSec/status/2104736980768866439",
-      "canonicalUrl": "https://twitter.com/0x0SojalSec/status/2104736980768866439",
-      "domain": "twitter.com",
-      "createdAt": "2026-09-29T10:23:33.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 46,
-          "comments": 15,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49890829"
-        }
-      ],
-      "normalized": 0.318,
       "score": 0.613
-    },
-    {
-      "id": "fcbb9e0934c9",
-      "title": "Show HN: Jevstiller – Distill Jev into a local model, with a disagreement bound",
-      "url": "https://jevstiller.pages.dev/posts/the-guarantee/",
-      "canonicalUrl": "https://jevstiller.pages.dev/posts/the-guarantee",
-      "domain": "jevstiller.pages.dev",
-      "createdAt": "2026-09-29T12:05:07.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 34,
-          "comments": 5,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49891769"
-        }
-      ],
-      "normalized": 0.204,
-      "score": 0.571
-    },
-    {
-      "id": "9198d7944fab",
-      "title": "Groupwise Agentic Grading and Advantage Redistribution for Code Agent RL",
-      "url": "https://arxiv.org/abs/2609.32577",
-      "canonicalUrl": "https://arxiv.org/abs/2609.32577",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-29T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 66,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.32577"
-        }
-      ],
-      "normalized": 0.95,
-      "score": 0.458
-    },
-    {
-      "id": "64489b071b16",
-      "title": "OpenAI: Tomorrow we are re-opening the Pro $200 subscription",
-      "url": "https://twitter.com/thsottiaux/status/2104823812042940713",
-      "canonicalUrl": "https://twitter.com/thsottiaux/status/2104823812042940713",
-      "domain": "twitter.com",
-      "createdAt": "2026-09-29T07:07:53.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 68,
-          "comments": 84,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49889306"
-        }
-      ],
-      "normalized": 0.414,
-      "score": 0.456
-    },
-    {
-      "id": "30d60100a518",
-      "title": "In-Flight KV Cache with Clean Anchors for Faster Autoregressive Video Diffusion",
-      "url": "https://arxiv.org/abs/2609.32540",
-      "canonicalUrl": "https://arxiv.org/abs/2609.32540",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-29T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 18,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.32540"
-        }
-      ],
-      "normalized": 0.825,
-      "score": 0.398
-    },
-    {
-      "id": "9bfee58b71fc",
-      "title": "Structured Residual Connectivity Matters for Diffusion Transformers",
-      "url": "https://arxiv.org/abs/2609.33203",
-      "canonicalUrl": "https://arxiv.org/abs/2609.33203",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-29T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 15,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.33203"
-        }
-      ],
-      "normalized": 0.725,
-      "score": 0.349
     }
   ]
 }
