@@ -1,8 +1,254 @@
 {
   "date": "2026-09-30",
-  "generatedAt": "2026-09-30T17:19:50.339Z",
+  "generatedAt": "2026-10-01T04:10:14.421Z",
   "windowHours": 36,
   "stories": [
+    {
+      "id": "008268b1f2d9",
+      "title": "Learning Meta-Skills for Agent Harness Design in Test-Time AI4AI",
+      "url": "https://arxiv.org/abs/2609.38143",
+      "canonicalUrl": "https://arxiv.org/abs/2609.38143",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-01T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 28,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.38143"
+        }
+      ],
+      "normalized": 0.925,
+      "score": 3.496
+    },
+    {
+      "id": "9fd4a0eba373",
+      "title": "Agent Error Dataset: Scaling 50,000 Error--Diagnosis Pairs for Failure Analysis and Error-Aware Post-Training",
+      "url": "https://arxiv.org/abs/2609.40111",
+      "canonicalUrl": "https://arxiv.org/abs/2609.40111",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-01T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 12,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.40111"
+        }
+      ],
+      "normalized": 0.875,
+      "score": 3.307
+    },
+    {
+      "id": "39815db59b2f",
+      "title": "Systematically Exploring the Capabilities of GPT-6 Astra as Embodied Policies",
+      "url": "https://arxiv.org/abs/2609.38537",
+      "canonicalUrl": "https://arxiv.org/abs/2609.38537",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-01T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 10,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.38537"
+        }
+      ],
+      "normalized": 0.725,
+      "score": 2.74
+    },
+    {
+      "id": "841dee481f7c",
+      "title": "DC-SAE: Deep Compression Semantic Autoencoder for Faster Diffusion Convergence",
+      "url": "https://arxiv.org/abs/2609.39222",
+      "canonicalUrl": "https://arxiv.org/abs/2609.39222",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-01T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 9,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.39222"
+        }
+      ],
+      "normalized": 0.675,
+      "score": 2.551
+    },
+    {
+      "id": "bcdde7cf0706",
+      "title": "AIM: Agentic Idea Management for Automated Research",
+      "url": "https://arxiv.org/abs/2609.38445",
+      "canonicalUrl": "https://arxiv.org/abs/2609.38445",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-01T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 5,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.38445"
+        }
+      ],
+      "normalized": 0.55,
+      "score": 2.079
+    },
+    {
+      "id": "1f159ee3aba4",
+      "title": "RSIGame: Autonomous Agentic Game Development with Recursive Self-improvement",
+      "url": "https://arxiv.org/abs/2609.39045",
+      "canonicalUrl": "https://arxiv.org/abs/2609.39045",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-01T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 5,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.39045"
+        }
+      ],
+      "normalized": 0.55,
+      "score": 2.079
+    },
+    {
+      "id": "9e57e69aee78",
+      "title": "Gemini 4 Argon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "canonicalUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon",
+      "domain": "blog.google",
+      "createdAt": "2026-09-30T20:04:37.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 1107,
+          "comments": 739,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49913571"
+        }
+      ],
+      "normalized": 0.984,
+      "score": 1.533
+    },
+    {
+      "id": "b1c7b06afe25",
+      "title": "Game-Guided Skill Discovery through Self-Play for Playable Agent Control",
+      "url": "https://arxiv.org/abs/2609.40137",
+      "canonicalUrl": "https://arxiv.org/abs/2609.40137",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-01T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.40137"
+        }
+      ],
+      "normalized": 0.35,
+      "score": 1.323
+    },
+    {
+      "id": "6cab452810f7",
+      "title": "Physis-Lang: Self-Evolving Language as a Physical Representation for Video World Model",
+      "url": "https://arxiv.org/abs/2609.40358",
+      "canonicalUrl": "https://arxiv.org/abs/2609.40358",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-01T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.40358"
+        }
+      ],
+      "normalized": 0.35,
+      "score": 1.323
+    },
+    {
+      "id": "4aba897202c0",
+      "title": "Gemini 4 Argon (High): Intelligence, Performance and Price Analysis",
+      "url": "https://artificialanalysis.ai/models/gemini-4-argon",
+      "canonicalUrl": "https://artificialanalysis.ai/models/gemini-4-argon",
+      "domain": "artificialanalysis.ai",
+      "createdAt": "2026-09-30T20:50:28.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 92,
+          "comments": 48,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49914236"
+        }
+      ],
+      "normalized": 0.569,
+      "score": 1.022
+    },
+    {
+      "id": "4f2c29510b4c",
+      "title": "CS240 AI Cheating Retrospective",
+      "url": "https://turkeyland.net/thoughts/ai.php",
+      "canonicalUrl": "https://turkeyland.net/thoughts/ai.php",
+      "domain": "turkeyland.net",
+      "createdAt": "2026-09-30T19:54:29.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 102,
+          "comments": 88,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49913458"
+        }
+      ],
+      "normalized": 0.61,
+      "score": 0.922
+    },
+    {
+      "id": "311e095023e6",
+      "title": "Gemini 4 Argon: our next era of frontier intelligence",
+      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+      "canonicalUrl": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence",
+      "domain": "deepmind.google",
+      "createdAt": "2026-09-30T20:01:45.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Google DeepMind",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.773
+    },
+    {
+      "id": "20b52029e360",
+      "title": "Launch HN: Magnitude (YC S25) – Self-optimizing inference engine for agents",
+      "url": "https://github.com/magnitudedev/magnitude",
+      "canonicalUrl": "https://github.com/magnitudedev/magnitude",
+      "domain": "github.com",
+      "createdAt": "2026-09-30T17:37:40.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 135,
+          "comments": 61,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49911995"
+        }
+      ],
+      "normalized": 0.699,
+      "score": 0.737
+    },
     {
       "id": "fab3b1e4bf18",
       "title": "The AI Race Just Got Awkward",
@@ -20,277 +266,26 @@
         }
       ],
       "normalized": 0.826,
-      "score": 8.693
+      "score": 0.685
     },
     {
-      "id": "396b95f3429c",
-      "title": "Introducing SynthID Bio",
-      "url": "https://deepmind.google/blog/introducing-synthid-bio/",
-      "canonicalUrl": "https://deepmind.google/blog/introducing-synthid-bio",
-      "domain": "deepmind.google",
-      "createdAt": "2026-09-30T15:03:07.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "Google DeepMind",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 3.653
-    },
-    {
-      "id": "af35eb7c9ed9",
-      "title": "SDF vs. MSDF vs. Slug: GPU Text Rendering",
-      "url": "https://alphapixeldev.com/sdf-vs-msdf-vs-slug-vs-rive-gpu-text-rendering/",
-      "canonicalUrl": "https://alphapixeldev.com/sdf-vs-msdf-vs-slug-vs-rive-gpu-text-rendering",
-      "domain": "alphapixeldev.com",
-      "createdAt": "2026-09-30T13:50:50.000Z",
+      "id": "5a7fddad532d",
+      "title": "Anthropic's IPO Prospectus Is a Fucking Doozy",
+      "url": "https://daringfireball.net/linked/2026/09/30/reuters-anthropic-ipo-prospectus",
+      "canonicalUrl": "https://daringfireball.net/linked/2026/09/30/reuters-anthropic-ipo-prospectus",
+      "domain": "daringfireball.net",
+      "createdAt": "2026-09-30T20:44:19.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 71,
-          "comments": 34,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49908962"
+          "points": 52,
+          "comments": 25,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49914149"
         }
       ],
-      "normalized": 0.421,
-      "score": 1.97
-    },
-    {
-      "id": "b5e5e43443d2",
-      "title": "Helping small businesses put AI to work",
-      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
-      "canonicalUrl": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
-      "domain": "openai.com",
-      "createdAt": "2026-09-30T10:00:00.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 0.898
-    },
-    {
-      "id": "3e9b576df994",
-      "title": "GPT-6.1 Sol replaces GPT-6 Sol after just 7 days, with near-Astra intelligence",
-      "url": "https://artificialanalysis.ai/articles/gpt-6-1-sol-replaces-gpt-6-sol-after-just-7-days-with-near-astra-intelligence",
-      "canonicalUrl": "https://artificialanalysis.ai/articles/gpt-6-1-sol-replaces-gpt-6-sol-after-just-7-days-with-near-astra-intelligence",
-      "domain": "artificialanalysis.ai",
-      "createdAt": "2026-09-30T09:59:03.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 76,
-          "comments": 94,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49906669"
-        }
-      ],
-      "normalized": 0.438,
-      "score": 0.784
-    },
-    {
-      "id": "8ea934f20b43",
-      "title": "Omni-IO Skills: Harnessing Your Agent Omni-Native",
-      "url": "https://arxiv.org/abs/2609.31847",
-      "canonicalUrl": "https://arxiv.org/abs/2609.31847",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-30T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 129,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.31847"
-        }
-      ],
-      "normalized": 0.975,
-      "score": 0.472
-    },
-    {
-      "id": "1b7d1525250c",
-      "title": "Beyond Dyadic Memory: Interaction-Aware Multimodal Memory with Adaptive Agentic Retrieval for Multi-Party Spoken Conversations",
-      "url": "https://arxiv.org/abs/2609.32522",
-      "canonicalUrl": "https://arxiv.org/abs/2609.32522",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-30T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 43,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.32522"
-        }
-      ],
-      "normalized": 0.925,
-      "score": 0.448
-    },
-    {
-      "id": "9b2f1d47be51",
-      "title": "Follow the Entities: A Corpus Map for Agentic Search",
-      "url": "https://arxiv.org/abs/2609.37226",
-      "canonicalUrl": "https://arxiv.org/abs/2609.37226",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-30T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 41,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.37226"
-        }
-      ],
-      "normalized": 0.9,
-      "score": 0.436
-    },
-    {
-      "id": "579c19040fa0",
-      "title": "Pledge signed by President Trump and top AI leaders misspells the United States",
-      "url": "https://techcrunch.com/2026/09/30/pledge-signed-by-president-trump-and-top-ai-leaders-misspells-the-united-states/",
-      "canonicalUrl": "https://techcrunch.com/2026/09/30/pledge-signed-by-president-trump-and-top-ai-leaders-misspells-the-united-states",
-      "domain": "techcrunch.com",
-      "createdAt": "2026-09-30T15:04:33.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 25,
-          "comments": 12,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49909966"
-        }
-      ],
-      "normalized": 0.058,
-      "score": 0.427
-    },
-    {
-      "id": "92981bcda1e1",
-      "title": "LLMs are General Asynchronous Agents",
-      "url": "https://arxiv.org/abs/2609.35427",
-      "canonicalUrl": "https://arxiv.org/abs/2609.35427",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-30T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 39,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.35427"
-        }
-      ],
-      "normalized": 0.875,
-      "score": 0.423
-    },
-    {
-      "id": "69f2bccafd0a",
-      "title": "StoryEngine: A State-Grounded Agentic Framework for Video Storytelling",
-      "url": "https://arxiv.org/abs/2609.33627",
-      "canonicalUrl": "https://arxiv.org/abs/2609.33627",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-30T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 11,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.33627"
-        }
-      ],
-      "normalized": 0.7,
-      "score": 0.339
-    },
-    {
-      "id": "836f2086a095",
-      "title": "PSSA: A non-transformer language model written from scratch in Rust",
-      "url": "https://github.com/Sparticle62ops/pssa",
-      "canonicalUrl": "https://github.com/Sparticle62ops/pssa",
-      "domain": "github.com",
-      "createdAt": "2026-09-30T03:19:54.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 84,
-          "comments": 37,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49903993"
-        }
-      ],
-      "normalized": 0.496,
-      "score": 0.337
-    },
-    {
-      "id": "8ebddaaa6559",
-      "title": "AutoRef: Harness Optimization for Agentic Multi-Reference Image Generation",
-      "url": "https://arxiv.org/abs/2609.35530",
-      "canonicalUrl": "https://arxiv.org/abs/2609.35530",
-      "domain": "arxiv.org",
-      "createdAt": "2026-09-30T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 8,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.35530"
-        }
-      ],
-      "normalized": 0.6,
-      "score": 0.29
-    },
-    {
-      "id": "dd66acaed2a0",
-      "title": "Introducing GPT-6.1 Sol",
-      "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
-      "canonicalUrl": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "domain": "openai.com",
-      "createdAt": "2026-09-29T10:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 1033,
-          "comments": 909,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49896586"
-        },
-        {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.992,
-      "score": 0.27
-    },
-    {
-      "id": "884977ecb800",
-      "title": "Dots: Always-on agents",
-      "url": "https://openai.com/index/introducing-dots/",
-      "canonicalUrl": "https://openai.com/index/introducing-dots",
-      "domain": "openai.com",
-      "createdAt": "2026-09-29T17:07:57.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 715,
-          "comments": 599,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49896604"
-        }
-      ],
-      "normalized": 0.959,
-      "score": 0.268
+      "normalized": 0.341,
+      "score": 0.601
     }
   ]
 }
