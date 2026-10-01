@@ -1,0 +1,289 @@
+{
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-01T17:47:14.078Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "7e67b43cf9d0",
+      "title": "The eternal complement",
+      "url": "https://openai.com/index/the-eternal-complement",
+      "canonicalUrl": "https://openai.com/index/the-eternal-complement",
+      "domain": "openai.com",
+      "createdAt": "2026-10-01T17:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 7.901
+    },
+    {
+      "id": "a80484c2d584",
+      "title": "How Albertsons Companies is reimagining retail from the inside out",
+      "url": "https://openai.com/index/albertsons-reimagining-retail",
+      "canonicalUrl": "https://openai.com/index/albertsons-reimagining-retail",
+      "domain": "openai.com",
+      "createdAt": "2026-10-01T16:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 4.55
+    },
+    {
+      "id": "0bf00b70dbd7",
+      "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+      "url": "https://huggingface.co/blog/allenai/olmocore3",
+      "canonicalUrl": "https://huggingface.co/blog/allenai/olmocore3",
+      "domain": "huggingface.co",
+      "createdAt": "2026-10-01T15:01:43.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 3.016
+    },
+    {
+      "id": "daa9a77897d5",
+      "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
+      "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
+      "canonicalUrl": "https://cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
+      "domain": "cnbc.com",
+      "createdAt": "2026-10-01T13:00:55.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 155,
+          "comments": 97,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49921050"
+        }
+      ],
+      "normalized": 0.742,
+      "score": 2.373
+    },
+    {
+      "id": "1f8594458db6",
+      "title": "Identity Management for Agentic AI [pdf] (2025)",
+      "url": "https://openid.net/wp-content/uploads/2025/10/Identity-Management-for-Agentic-AI.pdf",
+      "canonicalUrl": "https://openid.net/wp-content/uploads/2025/10/Identity-Management-for-Agentic-AI.pdf",
+      "domain": "openid.net",
+      "createdAt": "2026-10-01T15:11:10.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 43,
+          "comments": 7,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49922736"
+        }
+      ],
+      "normalized": 0.344,
+      "score": 2.203
+    },
+    {
+      "id": "3356606b95ba",
+      "title": "AI: LLMs, Agents, Work, and Us - Engineers. Personal Thoughts",
+      "url": "https://setevoy.substack.com/p/ai-llms-agents-work-and-us-engineers",
+      "canonicalUrl": "https://setevoy.substack.com/p/ai-llms-agents-work-and-us-engineers",
+      "domain": "setevoy.substack.com",
+      "createdAt": "2026-10-01T13:43:06.242Z",
+      "appearances": [
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 1,
+          "comments": 0,
+          "discussionUrl": "https://lobste.rs/s/ymulrg/ai_llms_agents_work_us_engineers_personal"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 1.947
+    },
+    {
+      "id": "b428389c6f7f",
+      "title": "An AI sovereign wealth fund isn't progressive – it's techno-imperialism",
+      "url": "https://www.ft.com/content/bc178357-793b-45d8-ae3b-d5929159c243",
+      "canonicalUrl": "https://ft.com/content/bc178357-793b-45d8-ae3b-d5929159c243",
+      "domain": "ft.com",
+      "createdAt": "2026-10-01T13:01:02.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 78,
+          "comments": 53,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49921051"
+        }
+      ],
+      "normalized": 0.516,
+      "score": 1.649
+    },
+    {
+      "id": "caab970345b9",
+      "title": "GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
+      "url": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design",
+      "canonicalUrl": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design",
+      "domain": "news.synopsys.com",
+      "createdAt": "2026-10-01T10:21:36.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 135,
+          "comments": 72,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49919910"
+        }
+      ],
+      "normalized": 0.719,
+      "score": 1.267
+    },
+    {
+      "id": "97d646b3a5a8",
+      "title": "OSWorld-Science: A Benchmark of Computer Use Agents for Learning and Using Scientific Software",
+      "url": "https://arxiv.org/abs/2609.39903",
+      "canonicalUrl": "https://arxiv.org/abs/2609.39903",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-01T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 12,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.39903"
+        }
+      ],
+      "normalized": 0.825,
+      "score": 0.383
+    },
+    {
+      "id": "d1375e1968a9",
+      "title": "MILO: Automated Harness Discovery via Orchestrated Multi-Agent Evolution",
+      "url": "https://arxiv.org/abs/2609.38349",
+      "canonicalUrl": "https://arxiv.org/abs/2609.38349",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-01T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 5,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.38349"
+        }
+      ],
+      "normalized": 0.675,
+      "score": 0.313
+    },
+    {
+      "id": "43a856ced2dc",
+      "title": "SlideDP: Scaling Host-Resident LLM Fine-Tuning Across Multiple GPUs",
+      "url": "https://arxiv.org/abs/2609.34162",
+      "canonicalUrl": "https://arxiv.org/abs/2609.34162",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-01T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.34162"
+        }
+      ],
+      "normalized": 0.525,
+      "score": 0.244
+    },
+    {
+      "id": "d66587ff5abe",
+      "title": "Dating the Model: Hidden Dates in System Prompts Affect LLM Evaluation",
+      "url": "https://arxiv.org/abs/2609.36931",
+      "canonicalUrl": "https://arxiv.org/abs/2609.36931",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-01T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.36931"
+        }
+      ],
+      "normalized": 0.525,
+      "score": 0.244
+    },
+    {
+      "id": "f112bbb000f8",
+      "title": "CheatBench: Measuring Reward Gaming in AI Agents",
+      "url": "https://arxiv.org/abs/2609.36308",
+      "canonicalUrl": "https://arxiv.org/abs/2609.36308",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-01T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.36308"
+        }
+      ],
+      "normalized": 0.525,
+      "score": 0.244
+    },
+    {
+      "id": "af35eb7c9ed9",
+      "title": "SDF vs. MSDF vs. Slug: GPU Text Rendering",
+      "url": "https://alphapixeldev.com/sdf-vs-msdf-vs-slug-vs-rive-gpu-text-rendering/",
+      "canonicalUrl": "https://alphapixeldev.com/sdf-vs-msdf-vs-slug-vs-rive-gpu-text-rendering",
+      "domain": "alphapixeldev.com",
+      "createdAt": "2026-09-30T13:50:50.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 170,
+          "comments": 68,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49908962"
+        }
+      ],
+      "normalized": 0.758,
+      "score": 0.167
+    },
+    {
+      "id": "a1dd108cfb7d",
+      "title": "Claude Says",
+      "url": "https://ohhfishal.net/Posts/claude",
+      "canonicalUrl": "https://ohhfishal.net/Posts/claude",
+      "domain": "ohhfishal.net",
+      "createdAt": "2026-09-30T17:32:06.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 75,
+          "comments": 33,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49911928"
+        }
+      ],
+      "normalized": 0.508,
+      "score": 0.142
+    }
+  ]
+}
