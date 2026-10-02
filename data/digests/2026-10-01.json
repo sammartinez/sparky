@@ -1,8 +1,273 @@
 {
   "date": "2026-10-01",
-  "generatedAt": "2026-10-01T17:47:14.078Z",
+  "generatedAt": "2026-10-02T04:03:57.882Z",
   "windowHours": 36,
   "stories": [
+    {
+      "id": "a885ed61f54a",
+      "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "canonicalUrl": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "domain": "huggingface.co",
+      "createdAt": "2026-10-02T04:01:31.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 13.846
+    },
+    {
+      "id": "af01d6384e58",
+      "title": "Hierarchical Continuous Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2610.02193",
+      "canonicalUrl": "https://arxiv.org/abs/2610.02193",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-02T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 38,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.02193"
+        }
+      ],
+      "normalized": 0.975,
+      "score": 3.8
+    },
+    {
+      "id": "ac4b90567b34",
+      "title": "Adaptive Reward Routing: Dynamic Multi-Reward Optimization for Joint Audio-Video Diffusion via Forward-Process RL",
+      "url": "https://arxiv.org/abs/2609.37200",
+      "canonicalUrl": "https://arxiv.org/abs/2609.37200",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-02T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 33,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.37200"
+        }
+      ],
+      "normalized": 0.95,
+      "score": 3.702
+    },
+    {
+      "id": "ef5ece8fb88b",
+      "title": "ActiveSaddler: Automated Curriculum Learning for Agent Harness Optimization",
+      "url": "https://arxiv.org/abs/2610.00906",
+      "canonicalUrl": "https://arxiv.org/abs/2610.00906",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-02T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 22,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.00906"
+        }
+      ],
+      "normalized": 0.9,
+      "score": 3.508
+    },
+    {
+      "id": "4b692b99ba30",
+      "title": "AutoGUIWorld: Image Generators as Visual World Models for GUI Agent",
+      "url": "https://arxiv.org/abs/2610.01215",
+      "canonicalUrl": "https://arxiv.org/abs/2610.01215",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-02T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 22,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.01215"
+        }
+      ],
+      "normalized": 0.9,
+      "score": 3.508
+    },
+    {
+      "id": "76b0b7dc723e",
+      "title": "Agent Priors-guided Policy Learning",
+      "url": "https://arxiv.org/abs/2609.35690",
+      "canonicalUrl": "https://arxiv.org/abs/2609.35690",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-02T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 12,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.35690"
+        }
+      ],
+      "normalized": 0.775,
+      "score": 3.02
+    },
+    {
+      "id": "47d94108acac",
+      "title": "RPTune: Learned Context Curation for LLM Catalog Search",
+      "url": "https://arxiv.org/abs/2610.00964",
+      "canonicalUrl": "https://arxiv.org/abs/2610.00964",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-02T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 7,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.00964"
+        }
+      ],
+      "normalized": 0.575,
+      "score": 2.241
+    },
+    {
+      "id": "fe9e45d02bae",
+      "title": "Do Audio LLMs Listen Before They Act? Diagnosing Acoustic-Context Gating in Voice Agents",
+      "url": "https://arxiv.org/abs/2609.32536",
+      "canonicalUrl": "https://arxiv.org/abs/2609.32536",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-02T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.32536"
+        }
+      ],
+      "normalized": 0.4,
+      "score": 1.559
+    },
+    {
+      "id": "964ae1a9607e",
+      "title": "PixelDense: Dense Prediction as Representation Alignment for Pixel Diffusion",
+      "url": "https://arxiv.org/abs/2610.00483",
+      "canonicalUrl": "https://arxiv.org/abs/2610.00483",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-02T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.00483"
+        }
+      ],
+      "normalized": 0.4,
+      "score": 1.559
+    },
+    {
+      "id": "4a5d11bb6ca6",
+      "title": "Frog and Toad and the Increasingly Capable Machines",
+      "url": "https://www.frogandtoad.ai/",
+      "canonicalUrl": "https://frogandtoad.ai/",
+      "domain": "frogandtoad.ai",
+      "createdAt": "2026-10-01T22:23:38.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 62,
+          "comments": 8,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49927760"
+        }
+      ],
+      "normalized": 0.415,
+      "score": 1.061
+    },
+    {
+      "id": "14ff7162edc9",
+      "title": "Show HN: Janus – Go binary that runs GGUF models via Vulkan on AMD/Intel/Nvidia",
+      "url": "https://github.com/Vibra-Ingenn/Janus",
+      "canonicalUrl": "https://github.com/Vibra-Ingenn/Janus",
+      "domain": "github.com",
+      "createdAt": "2026-10-01T20:36:47.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 57,
+          "comments": 8,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49926773"
+        }
+      ],
+      "normalized": 0.408,
+      "score": 0.716
+    },
+    {
+      "id": "8fe0f43c8e68",
+      "title": "Vote on which of Hacker News' challenges for AI have been met",
+      "url": "https://stoppels.ch/goalposts/",
+      "canonicalUrl": "https://stoppels.ch/goalposts",
+      "domain": "stoppels.ch",
+      "createdAt": "2026-10-01T17:32:43.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 109,
+          "comments": 117,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49924618"
+        }
+      ],
+      "normalized": 0.641,
+      "score": 0.678
+    },
+    {
+      "id": "08a8d93fdc2e",
+      "title": "Don't Be Fooled by this Summer of AI Hype",
+      "url": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
+      "canonicalUrl": "https://technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype",
+      "domain": "technologyreview.com",
+      "createdAt": "2026-10-01T21:34:19.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 37,
+          "comments": 29,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49927331"
+        }
+      ],
+      "normalized": 0.303,
+      "score": 0.644
+    },
+    {
+      "id": "8ae4c4d5a8d9",
+      "title": "Your Big Mac might cost more if McDonald's AI thinks people nearby can afford it",
+      "url": "https://neow.in/NGxhb3d6",
+      "canonicalUrl": "https://neow.in/NGxhb3d6",
+      "domain": "neow.in",
+      "createdAt": "2026-10-01T22:15:57.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 32,
+          "comments": 41,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49927693"
+        }
+      ],
+      "normalized": 0.218,
+      "score": 0.541
+    },
     {
       "id": "7e67b43cf9d0",
       "title": "The eternal complement",
@@ -19,271 +284,7 @@
         }
       ],
       "normalized": 0.5,
-      "score": 7.901
-    },
-    {
-      "id": "a80484c2d584",
-      "title": "How Albertsons Companies is reimagining retail from the inside out",
-      "url": "https://openai.com/index/albertsons-reimagining-retail",
-      "canonicalUrl": "https://openai.com/index/albertsons-reimagining-retail",
-      "domain": "openai.com",
-      "createdAt": "2026-10-01T16:00:00.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 4.55
-    },
-    {
-      "id": "0bf00b70dbd7",
-      "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
-      "url": "https://huggingface.co/blog/allenai/olmocore3",
-      "canonicalUrl": "https://huggingface.co/blog/allenai/olmocore3",
-      "domain": "huggingface.co",
-      "createdAt": "2026-10-01T15:01:43.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "Hugging Face",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 3.016
-    },
-    {
-      "id": "daa9a77897d5",
-      "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
-      "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
-      "canonicalUrl": "https://cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
-      "domain": "cnbc.com",
-      "createdAt": "2026-10-01T13:00:55.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 155,
-          "comments": 97,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49921050"
-        }
-      ],
-      "normalized": 0.742,
-      "score": 2.373
-    },
-    {
-      "id": "1f8594458db6",
-      "title": "Identity Management for Agentic AI [pdf] (2025)",
-      "url": "https://openid.net/wp-content/uploads/2025/10/Identity-Management-for-Agentic-AI.pdf",
-      "canonicalUrl": "https://openid.net/wp-content/uploads/2025/10/Identity-Management-for-Agentic-AI.pdf",
-      "domain": "openid.net",
-      "createdAt": "2026-10-01T15:11:10.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 43,
-          "comments": 7,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49922736"
-        }
-      ],
-      "normalized": 0.344,
-      "score": 2.203
-    },
-    {
-      "id": "3356606b95ba",
-      "title": "AI: LLMs, Agents, Work, and Us - Engineers. Personal Thoughts",
-      "url": "https://setevoy.substack.com/p/ai-llms-agents-work-and-us-engineers",
-      "canonicalUrl": "https://setevoy.substack.com/p/ai-llms-agents-work-and-us-engineers",
-      "domain": "setevoy.substack.com",
-      "createdAt": "2026-10-01T13:43:06.242Z",
-      "appearances": [
-        {
-          "source": "lobsters",
-          "label": "Lobsters",
-          "points": 1,
-          "comments": 0,
-          "discussionUrl": "https://lobste.rs/s/ymulrg/ai_llms_agents_work_us_engineers_personal"
-        }
-      ],
-      "normalized": 0.5,
-      "score": 1.947
-    },
-    {
-      "id": "b428389c6f7f",
-      "title": "An AI sovereign wealth fund isn't progressive – it's techno-imperialism",
-      "url": "https://www.ft.com/content/bc178357-793b-45d8-ae3b-d5929159c243",
-      "canonicalUrl": "https://ft.com/content/bc178357-793b-45d8-ae3b-d5929159c243",
-      "domain": "ft.com",
-      "createdAt": "2026-10-01T13:01:02.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 78,
-          "comments": 53,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49921051"
-        }
-      ],
-      "normalized": 0.516,
-      "score": 1.649
-    },
-    {
-      "id": "caab970345b9",
-      "title": "GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
-      "url": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design",
-      "canonicalUrl": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design",
-      "domain": "news.synopsys.com",
-      "createdAt": "2026-10-01T10:21:36.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 135,
-          "comments": 72,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49919910"
-        }
-      ],
-      "normalized": 0.719,
-      "score": 1.267
-    },
-    {
-      "id": "97d646b3a5a8",
-      "title": "OSWorld-Science: A Benchmark of Computer Use Agents for Learning and Using Scientific Software",
-      "url": "https://arxiv.org/abs/2609.39903",
-      "canonicalUrl": "https://arxiv.org/abs/2609.39903",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-01T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 12,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.39903"
-        }
-      ],
-      "normalized": 0.825,
-      "score": 0.383
-    },
-    {
-      "id": "d1375e1968a9",
-      "title": "MILO: Automated Harness Discovery via Orchestrated Multi-Agent Evolution",
-      "url": "https://arxiv.org/abs/2609.38349",
-      "canonicalUrl": "https://arxiv.org/abs/2609.38349",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-01T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 5,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.38349"
-        }
-      ],
-      "normalized": 0.675,
-      "score": 0.313
-    },
-    {
-      "id": "43a856ced2dc",
-      "title": "SlideDP: Scaling Host-Resident LLM Fine-Tuning Across Multiple GPUs",
-      "url": "https://arxiv.org/abs/2609.34162",
-      "canonicalUrl": "https://arxiv.org/abs/2609.34162",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-01T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 2,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.34162"
-        }
-      ],
-      "normalized": 0.525,
-      "score": 0.244
-    },
-    {
-      "id": "d66587ff5abe",
-      "title": "Dating the Model: Hidden Dates in System Prompts Affect LLM Evaluation",
-      "url": "https://arxiv.org/abs/2609.36931",
-      "canonicalUrl": "https://arxiv.org/abs/2609.36931",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-01T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 2,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.36931"
-        }
-      ],
-      "normalized": 0.525,
-      "score": 0.244
-    },
-    {
-      "id": "f112bbb000f8",
-      "title": "CheatBench: Measuring Reward Gaming in AI Agents",
-      "url": "https://arxiv.org/abs/2609.36308",
-      "canonicalUrl": "https://arxiv.org/abs/2609.36308",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-01T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 2,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.36308"
-        }
-      ],
-      "normalized": 0.525,
-      "score": 0.244
-    },
-    {
-      "id": "af35eb7c9ed9",
-      "title": "SDF vs. MSDF vs. Slug: GPU Text Rendering",
-      "url": "https://alphapixeldev.com/sdf-vs-msdf-vs-slug-vs-rive-gpu-text-rendering/",
-      "canonicalUrl": "https://alphapixeldev.com/sdf-vs-msdf-vs-slug-vs-rive-gpu-text-rendering",
-      "domain": "alphapixeldev.com",
-      "createdAt": "2026-09-30T13:50:50.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 170,
-          "comments": 68,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49908962"
-        }
-      ],
-      "normalized": 0.758,
-      "score": 0.167
-    },
-    {
-      "id": "a1dd108cfb7d",
-      "title": "Claude Says",
-      "url": "https://ohhfishal.net/Posts/claude",
-      "canonicalUrl": "https://ohhfishal.net/Posts/claude",
-      "domain": "ohhfishal.net",
-      "createdAt": "2026-09-30T17:32:06.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 75,
-          "comments": 33,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49911928"
-        }
-      ],
-      "normalized": 0.508,
-      "score": 0.142
+      "score": 0.49
     }
   ]
 }
