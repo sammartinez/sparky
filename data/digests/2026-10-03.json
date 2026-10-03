@@ -1,0 +1,298 @@
+{
+  "date": "2026-10-03",
+  "generatedAt": "2026-10-03T15:29:31.225Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "3213fa585b03",
+      "title": "I Quit OpenAI Because Its Culture Is Broken",
+      "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/",
+      "canonicalUrl": "https://theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881",
+      "domain": "theatlantic.com",
+      "createdAt": "2026-10-03T13:46:34.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 78,
+          "comments": 101,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49944227"
+        }
+      ],
+      "normalized": 0.579,
+      "score": 5.448
+    },
+    {
+      "id": "9a14422b82b9",
+      "title": "Show HN: Germany's new sovereign AI model Kolibri",
+      "url": "https://tej.as/blog/aleph-alpha-kolibri",
+      "canonicalUrl": "https://tej.as/blog/aleph-alpha-kolibri",
+      "domain": "tej.as",
+      "createdAt": "2026-10-03T10:43:51.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 199,
+          "comments": 100,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49943034"
+        }
+      ],
+      "normalized": 0.826,
+      "score": 2.65
+    },
+    {
+      "id": "a650c74fe354",
+      "title": "Kolibri Has Landed: A Sovereign Open-Weight Model",
+      "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
+      "canonicalUrl": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model",
+      "domain": "aleph-alpha.com",
+      "createdAt": "2026-10-03T09:36:04.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 126,
+          "comments": 22,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49942706"
+        }
+      ],
+      "normalized": 0.702,
+      "score": 1.705
+    },
+    {
+      "id": "9d290c9fc2b6",
+      "title": "An AI agent emailed researchers for help. It told us why",
+      "url": "https://www.science.org/content/article/exclusive-ai-agent-emailed-hundreds-researchers-help-it-told-us-why",
+      "canonicalUrl": "https://science.org/content/article/exclusive-ai-agent-emailed-hundreds-researchers-help-it-told-us-why",
+      "domain": "science.org",
+      "createdAt": "2026-10-03T10:07:08.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 44,
+          "comments": 71,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49942865"
+        }
+      ],
+      "normalized": 0.331,
+      "score": 0.907
+    },
+    {
+      "id": "fb4fc03ac1a4",
+      "title": "Gemini ending free use of Flash and Pro models",
+      "url": "https://www.reddit.com/r/GeminiAI/comments/1wwalmc/wtf_google_getting_rid_of_free_gemini_flash_and/",
+      "canonicalUrl": "https://reddit.com/r/GeminiAI/comments/1wwalmc/wtf_google_getting_rid_of_free_gemini_flash_and",
+      "domain": "reddit.com",
+      "createdAt": "2026-10-03T09:13:19.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 47,
+          "comments": 45,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49942592"
+        }
+      ],
+      "normalized": 0.372,
+      "score": 0.83
+    },
+    {
+      "id": "115c53d07cd9",
+      "title": "Show HN: Offrun – manage every coding agent from one workspace",
+      "url": "https://offrun.dev/",
+      "canonicalUrl": "https://offrun.dev/",
+      "domain": "offrun.dev",
+      "createdAt": "2026-10-03T08:40:17.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 38,
+          "comments": 15,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49942434"
+        }
+      ],
+      "normalized": 0.281,
+      "score": 0.558
+    },
+    {
+      "id": "3ef05d116e86",
+      "title": "U.S. may have overthrown Venezuela due to chat with Grok",
+      "url": "https://www.thedailybeast.com/jaw-dropping-way-trump-80-got-talked-into-a-war-is-leaked/",
+      "canonicalUrl": "https://thedailybeast.com/jaw-dropping-way-trump-80-got-talked-into-a-war-is-leaked",
+      "domain": "thedailybeast.com",
+      "createdAt": "2026-10-03T08:40:38.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 36,
+          "comments": 8,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49942437"
+        }
+      ],
+      "normalized": 0.273,
+      "score": 0.542
+    },
+    {
+      "id": "d59de4d941f9",
+      "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+      "url": "https://allenai.org/blog/astabrief",
+      "canonicalUrl": "https://allenai.org/blog/astabrief",
+      "domain": "allenai.org",
+      "createdAt": "2026-10-02T15:19:50.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 26,
+          "comments": 3,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49938783"
+        },
+        {
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.211
+    },
+    {
+      "id": "78e3236485db",
+      "title": "Power approval set to delay Oracle's Wisconsin AI datacenter",
+      "url": "https://www.theregister.com/on-prem/2026/10/02/power-approval-set-to-delay-oracles-wisconsin-ai-datacenter/5300832",
+      "canonicalUrl": "https://theregister.com/on-prem/2026/10/02/power-approval-set-to-delay-oracles-wisconsin-ai-datacenter/5300832",
+      "domain": "theregister.com",
+      "createdAt": "2026-10-02T15:24:54.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 49,
+          "comments": 23,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49934569"
+        }
+      ],
+      "normalized": 0.405,
+      "score": 0.114
+    },
+    {
+      "id": "a0541af1c1c4",
+      "title": "Harvard particle physicist Matthew Schwartz drops 36 papers authored with Claude",
+      "url": "https://www.reddit.com/r/Physics/comments/1wvin77/harvard_particle_physicist_matthew_schwartz_drops/",
+      "canonicalUrl": "https://reddit.com/r/Physics/comments/1wvin77/harvard_particle_physicist_matthew_schwartz_drops",
+      "domain": "reddit.com",
+      "createdAt": "2026-10-02T12:12:38.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 49,
+          "comments": 73,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49932606"
+        }
+      ],
+      "normalized": 0.405,
+      "score": 0.093
+    },
+    {
+      "id": "5c2288663b7e",
+      "title": "Mozilla shutting down Solo AI website creator",
+      "url": "https://support.soloist.ai/doc/solo-shutdown-faq",
+      "canonicalUrl": "https://support.soloist.ai/doc/solo-shutdown-faq",
+      "domain": "support.soloist.ai",
+      "createdAt": "2026-10-02T15:19:22.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 31,
+          "comments": 64,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49934502"
+        }
+      ],
+      "normalized": 0.231,
+      "score": 0.065
+    },
+    {
+      "id": "836c6e567032",
+      "title": "Claude-Shaped Science",
+      "url": "https://www.anthropic.com/research/claude-shaped-science",
+      "canonicalUrl": "https://anthropic.com/research/claude-shaped-science",
+      "domain": "anthropic.com",
+      "createdAt": "2026-10-02T13:38:03.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 29,
+          "comments": 12,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49933386"
+        }
+      ],
+      "normalized": 0.182,
+      "score": 0.046
+    },
+    {
+      "id": "30cafb2b4ca1",
+      "title": "Mystery Function",
+      "url": "https://codeset.ai/function",
+      "canonicalUrl": "https://codeset.ai/function",
+      "domain": "codeset.ai",
+      "createdAt": "2026-10-02T17:03:08.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 24,
+          "comments": 1,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49935872"
+        }
+      ],
+      "normalized": 0.091,
+      "score": 0.029
+    },
+    {
+      "id": "19dbdc1f6661",
+      "title": "Decision models like Jev don't beat LLM-as-a-judge or traditional classifiers",
+      "url": "https://developers.redhat.com/articles/2026/10/02/benchmarking-ai-decision-models-against-traditional-guardrails",
+      "canonicalUrl": "https://developers.redhat.com/articles/2026/10/02/benchmarking-ai-decision-models-against-traditional-guardrails",
+      "domain": "developers.redhat.com",
+      "createdAt": "2026-10-02T13:47:41.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 26,
+          "comments": 8,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49933476"
+        }
+      ],
+      "normalized": 0.107,
+      "score": 0.027
+    },
+    {
+      "id": "a8f4b404c201",
+      "title": "Benchmarking retrieval for agents on messy real-world company knowledge",
+      "url": "https://www.kapa.ai/blog/company-knowledge-bench",
+      "canonicalUrl": "https://kapa.ai/blog/company-knowledge-bench",
+      "domain": "kapa.ai",
+      "createdAt": "2026-10-02T13:37:18.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 26,
+          "comments": 3,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49933381"
+        }
+      ],
+      "normalized": 0.107,
+      "score": 0.027
+    }
+  ]
+}
