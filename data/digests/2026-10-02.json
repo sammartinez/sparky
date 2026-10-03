@@ -1,25 +1,102 @@
 {
   "date": "2026-10-02",
-  "generatedAt": "2026-10-02T17:08:14.957Z",
+  "generatedAt": "2026-10-03T03:48:26.045Z",
   "windowHours": 36,
   "stories": [
     {
-      "id": "8e206c4d9ed6",
-      "title": "A model guide for the GPT-6 family",
-      "url": "https://openai.com/index/practical-guide-building-gpt-6",
-      "canonicalUrl": "https://openai.com/index/practical-guide-building-gpt-6",
-      "domain": "openai.com",
-      "createdAt": "2026-10-02T16:15:00.000Z",
+      "id": "8ae48c8dd8c5",
+      "title": "Every SaaS business will become a harness around a model",
+      "url": "https://blog.sshh.io/p/the-harness-is-the-company",
+      "canonicalUrl": "https://blog.sshh.io/p/the-harness-is-the-company",
+      "domain": "blog.sshh.io",
+      "createdAt": "2026-10-02T21:06:56.000Z",
       "appearances": [
         {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
+          "source": "hn",
+          "label": "HN",
+          "points": 115,
+          "comments": 84,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49938616"
+        }
+      ],
+      "normalized": 0.655,
+      "score": 1.335
+    },
+    {
+      "id": "fad31c0ddfc9",
+      "title": "Muse Gadgets",
+      "url": "https://gadgets.muse.ai",
+      "canonicalUrl": "https://gadgets.muse.ai/",
+      "domain": "gadgets.muse.ai",
+      "createdAt": "2026-10-02T19:26:54.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 152,
+          "comments": 73,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49937504"
+        }
+      ],
+      "normalized": 0.739,
+      "score": 1.1
+    },
+    {
+      "id": "e35138269f8b",
+      "title": "Show HN: Made an open-source Lego AI generator",
+      "url": "https://github.com/anteloc/ldraw-nova",
+      "canonicalUrl": "https://github.com/anteloc/ldraw-nova",
+      "domain": "github.com",
+      "createdAt": "2026-10-02T20:00:15.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 80,
+          "comments": 41,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49937916"
+        }
+      ],
+      "normalized": 0.558,
+      "score": 0.916
+    },
+    {
+      "id": "c307e4722551",
+      "title": "From the creator of Redis; run LLM locally with ds4",
+      "url": "https://dwarfstar.sh/",
+      "canonicalUrl": "https://dwarfstar.sh/",
+      "domain": "dwarfstar.sh",
+      "createdAt": "2026-10-02T18:01:16.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 177,
+          "comments": 45,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49936575"
+        }
+      ],
+      "normalized": 0.764,
+      "score": 0.9
+    },
+    {
+      "id": "8b1e323a2293",
+      "title": "AI ‘godfather’ Yann LeCun has ‘zero concerns’ about human extinction, says Anthropic CEO Dario Amodei is ‘deluded’",
+      "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
+      "canonicalUrl": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded",
+      "domain": "fortune.com",
+      "createdAt": "2026-10-02T18:48:24.643Z",
+      "appearances": [
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 0,
+          "comments": 0,
+          "discussionUrl": "https://lobste.rs/s/r7o4jc/ai_godfather_yann_lecun_has_zero_concerns"
         }
       ],
       "normalized": 0.5,
-      "score": 7.414
+      "score": 0.667
     },
     {
       "id": "b6b70248a0d7",
@@ -38,7 +115,44 @@
         }
       ],
       "normalized": 0.694,
-      "score": 6.167
+      "score": 0.563
+    },
+    {
+      "id": "f52e74133e2d",
+      "title": "With most information hidden, the game Stratego had stumped AI until now",
+      "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+      "canonicalUrl": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget",
+      "domain": "arstechnica.com",
+      "createdAt": "2026-10-02T14:11:24.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 193,
+          "comments": 93,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49933740"
+        }
+      ],
+      "normalized": 0.788,
+      "score": 0.56
+    },
+    {
+      "id": "8e206c4d9ed6",
+      "title": "A model guide for the GPT-6 family",
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "canonicalUrl": "https://openai.com/index/practical-guide-building-gpt-6",
+      "domain": "openai.com",
+      "createdAt": "2026-10-02T16:15:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.458
     },
     {
       "id": "d599f0a282be",
@@ -56,26 +170,7 @@
         }
       ],
       "normalized": 0.5,
-      "score": 4.507
-    },
-    {
-      "id": "e0bdbfcb3f74",
-      "title": "The Four Horsemen of Agentic Coding",
-      "url": "https://distantprovince.substack.com/p/the-four-horsemen-of-agentic-coding",
-      "canonicalUrl": "https://distantprovince.substack.com/p/the-four-horsemen-of-agentic-coding",
-      "domain": "distantprovince.substack.com",
-      "createdAt": "2026-10-02T15:19:56.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 58,
-          "comments": 22,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49934511"
-        }
-      ],
-      "normalized": 0.463,
-      "score": 4.174
+      "score": 0.407
     },
     {
       "id": "2f81b73a6f23",
@@ -94,7 +189,26 @@
         }
       ],
       "normalized": 0.515,
-      "score": 3.265
+      "score": 0.38
+    },
+    {
+      "id": "e0bdbfcb3f74",
+      "title": "The Four Horsemen of Agentic Coding",
+      "url": "https://distantprovince.substack.com/p/the-four-horsemen-of-agentic-coding",
+      "canonicalUrl": "https://distantprovince.substack.com/p/the-four-horsemen-of-agentic-coding",
+      "domain": "distantprovince.substack.com",
+      "createdAt": "2026-10-02T15:19:56.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 58,
+          "comments": 22,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49934511"
+        }
+      ],
+      "normalized": 0.463,
+      "score": 0.377
     },
     {
       "id": "e009d974688d",
@@ -113,26 +227,7 @@
         }
       ],
       "normalized": 0.433,
-      "score": 2.097
-    },
-    {
-      "id": "78e3236485db",
-      "title": "Power approval set to delay Oracle's Wisconsin AI datacenter",
-      "url": "https://www.theregister.com/on-prem/2026/10/02/power-approval-set-to-delay-oracles-wisconsin-ai-datacenter/5300832",
-      "canonicalUrl": "https://theregister.com/on-prem/2026/10/02/power-approval-set-to-delay-oracles-wisconsin-ai-datacenter/5300832",
-      "domain": "theregister.com",
-      "createdAt": "2026-10-02T15:24:54.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 31,
-          "comments": 5,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49934569"
-        }
-      ],
-      "normalized": 0.209,
-      "score": 1.961
+      "score": 0.293
     },
     {
       "id": "7cd043438771",
@@ -151,64 +246,26 @@
         }
       ],
       "normalized": 0.433,
-      "score": 1.824
+      "score": 0.279
     },
     {
-      "id": "5c2288663b7e",
-      "title": "Mozilla shutting down Solo AI website creator",
-      "url": "https://support.soloist.ai/doc/solo-shutdown-faq",
-      "canonicalUrl": "https://support.soloist.ai/doc/solo-shutdown-faq",
-      "domain": "support.soloist.ai",
-      "createdAt": "2026-10-02T15:19:22.000Z",
+      "id": "c6dad17ec35d",
+      "title": "F.02 Decommission",
+      "url": "https://www.figure.ai/news/f-02-decommission",
+      "canonicalUrl": "https://figure.ai/news/f-02-decommission",
+      "domain": "figure.ai",
+      "createdAt": "2026-10-02T10:57:27.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 27,
-          "comments": 53,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49934502"
+          "points": 72,
+          "comments": 28,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49932079"
         }
       ],
-      "normalized": 0.142,
-      "score": 1.274
-    },
-    {
-      "id": "a0541af1c1c4",
-      "title": "Harvard particle physicist Matthew Schwartz drops 36 papers authored with Claude",
-      "url": "https://www.reddit.com/r/Physics/comments/1wvin77/harvard_particle_physicist_matthew_schwartz_drops/",
-      "canonicalUrl": "https://reddit.com/r/Physics/comments/1wvin77/harvard_particle_physicist_matthew_schwartz_drops",
-      "domain": "reddit.com",
-      "createdAt": "2026-10-02T12:12:38.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 44,
-          "comments": 70,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49932606"
-        }
-      ],
-      "normalized": 0.366,
-      "score": 1.122
-    },
-    {
-      "id": "836c6e567032",
-      "title": "Claude-Shaped Science",
-      "url": "https://www.anthropic.com/research/claude-shaped-science",
-      "canonicalUrl": "https://anthropic.com/research/claude-shaped-science",
-      "domain": "anthropic.com",
-      "createdAt": "2026-10-02T13:38:03.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 27,
-          "comments": 12,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49933386"
-        }
-      ],
-      "normalized": 0.142,
-      "score": 0.658
+      "normalized": 0.509,
+      "score": 0.258
     },
     {
       "id": "b72f6b75e1a1",
@@ -227,64 +284,7 @@
         }
       ],
       "normalized": 0.903,
-      "score": 0.618
-    },
-    {
-      "id": "a3f59dc554a6",
-      "title": "E-MoE: Enhanced Mixture-of-Experts for Non-Factorized Diffusion Language Models",
-      "url": "https://arxiv.org/abs/2609.37533",
-      "canonicalUrl": "https://arxiv.org/abs/2609.37533",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-02T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 28,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.37533"
-        }
-      ],
-      "normalized": 0.95,
-      "score": 0.468
-    },
-    {
-      "id": "6312337ed717",
-      "title": "Decentralized Master-Mind: Joint Action Refinement through Iterative Intent Denoising in Multi-Agent Pathfinding",
-      "url": "https://arxiv.org/abs/2609.32019",
-      "canonicalUrl": "https://arxiv.org/abs/2609.32019",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-02T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 21,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2609.32019"
-        }
-      ],
-      "normalized": 0.9,
-      "score": 0.443
-    },
-    {
-      "id": "51cdb687b5fe",
-      "title": "Fewer Tokens, Better Action: GPT-6 Astra Robot Agents with 14% Higher Success Rate but 65% Fewer Tokens",
-      "url": "https://arxiv.org/abs/2610.01939",
-      "canonicalUrl": "https://arxiv.org/abs/2610.01939",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-02T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 14,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.01939"
-        }
-      ],
-      "normalized": 0.85,
-      "score": 0.419
+      "score": 0.246
     }
   ]
 }
