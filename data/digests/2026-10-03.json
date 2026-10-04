@@ -1,26 +1,120 @@
 {
   "date": "2026-10-03",
-  "generatedAt": "2026-10-03T15:29:31.225Z",
+  "generatedAt": "2026-10-04T04:19:18.885Z",
   "windowHours": 36,
   "stories": [
     {
-      "id": "3213fa585b03",
-      "title": "I Quit OpenAI Because Its Culture Is Broken",
-      "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/",
-      "canonicalUrl": "https://theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881",
-      "domain": "theatlantic.com",
-      "createdAt": "2026-10-03T13:46:34.000Z",
+      "id": "14103ec99730",
+      "title": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
+      "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+      "canonicalUrl": "https://theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+      "domain": "theguardian.com",
+      "createdAt": "2026-10-03T22:18:13.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 78,
-          "comments": 101,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49944227"
+          "points": 240,
+          "comments": 197,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49948332"
         }
       ],
-      "normalized": 0.579,
-      "score": 5.448
+      "normalized": 0.856,
+      "score": 2.019
+    },
+    {
+      "id": "89764eae0099",
+      "title": "The Agent Said It Was Done. The Database Disagreed.",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "canonicalUrl": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "domain": "huggingface.co",
+      "createdAt": "2026-10-03T22:56:48.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 1.371
+    },
+    {
+      "id": "fc994d69ad09",
+      "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
+      "url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
+      "canonicalUrl": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5",
+      "domain": "claude.dev",
+      "createdAt": "2026-10-03T18:29:30.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 188,
+          "comments": 130,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49946567"
+        }
+      ],
+      "normalized": 0.784,
+      "score": 0.918
+    },
+    {
+      "id": "7835b7d998de",
+      "title": "Pop!_OS bans AI-generated code from much of its codebase",
+      "url": "https://www.neowin.net/news/system76-bans-ai-generated-code-across-many-of-its-cosmic-codebases/",
+      "canonicalUrl": "https://neowin.net/news/system76-bans-ai-generated-code-across-many-of-its-cosmic-codebases",
+      "domain": "neowin.net",
+      "createdAt": "2026-10-03T17:57:03.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 97,
+          "comments": 150,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49946321"
+        }
+      ],
+      "normalized": 0.577,
+      "score": 0.623
+    },
+    {
+      "id": "523bb995812d",
+      "title": "Our AI Midwife",
+      "url": "https://www.astralcodexten.com/p/our-ai-midwife",
+      "canonicalUrl": "https://astralcodexten.com/p/our-ai-midwife",
+      "domain": "astralcodexten.com",
+      "createdAt": "2026-10-03T19:12:27.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 61,
+          "comments": 54,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49946873"
+        }
+      ],
+      "normalized": 0.414,
+      "score": 0.543
+    },
+    {
+      "id": "6be976947ffd",
+      "title": "Anthropic tried to persuade Pope that AI could be conscious being",
+      "url": "https://www.telegraph.co.uk/business/2026/10/02/anthropic-lobbied-pope-to-argue-ai-conscious-being/",
+      "canonicalUrl": "https://telegraph.co.uk/business/2026/10/02/anthropic-lobbied-pope-to-argue-ai-conscious-being",
+      "domain": "telegraph.co.uk",
+      "createdAt": "2026-10-03T19:33:10.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 48,
+          "comments": 76,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49947050"
+        }
+      ],
+      "normalized": 0.297,
+      "score": 0.412
     },
     {
       "id": "9a14422b82b9",
@@ -39,7 +133,26 @@
         }
       ],
       "normalized": 0.826,
-      "score": 2.65
+      "score": 0.39
+    },
+    {
+      "id": "3213fa585b03",
+      "title": "I Quit OpenAI Because Its Culture Is Broken",
+      "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/",
+      "canonicalUrl": "https://theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881",
+      "domain": "theatlantic.com",
+      "createdAt": "2026-10-03T13:46:34.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 78,
+          "comments": 101,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49944227"
+        }
+      ],
+      "normalized": 0.579,
+      "score": 0.37
     },
     {
       "id": "a650c74fe354",
@@ -58,26 +171,26 @@
         }
       ],
       "normalized": 0.702,
-      "score": 1.705
+      "score": 0.3
     },
     {
-      "id": "9d290c9fc2b6",
-      "title": "An AI agent emailed researchers for help. It told us why",
-      "url": "https://www.science.org/content/article/exclusive-ai-agent-emailed-hundreds-researchers-help-it-told-us-why",
-      "canonicalUrl": "https://science.org/content/article/exclusive-ai-agent-emailed-hundreds-researchers-help-it-told-us-why",
-      "domain": "science.org",
-      "createdAt": "2026-10-03T10:07:08.000Z",
+      "id": "32ff31b64593",
+      "title": "US killer's sentence quashed because of AI video of victim shown in court",
+      "url": "https://www.bbc.com/news/articles/cwgkvygg5nzvo",
+      "canonicalUrl": "https://bbc.com/news/articles/cwgkvygg5nzvo",
+      "domain": "bbc.com",
+      "createdAt": "2026-10-03T13:34:18.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 44,
-          "comments": 71,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49942865"
+          "points": 71,
+          "comments": 60,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49944127"
         }
       ],
-      "normalized": 0.331,
-      "score": 0.907
+      "normalized": 0.468,
+      "score": 0.293
     },
     {
       "id": "fb4fc03ac1a4",
@@ -96,7 +209,26 @@
         }
       ],
       "normalized": 0.372,
-      "score": 0.83
+      "score": 0.154
+    },
+    {
+      "id": "9d290c9fc2b6",
+      "title": "An AI agent emailed researchers for help. It told us why",
+      "url": "https://www.science.org/content/article/exclusive-ai-agent-emailed-hundreds-researchers-help-it-told-us-why",
+      "canonicalUrl": "https://science.org/content/article/exclusive-ai-agent-emailed-hundreds-researchers-help-it-told-us-why",
+      "domain": "science.org",
+      "createdAt": "2026-10-03T10:07:08.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 44,
+          "comments": 71,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49942865"
+        }
+      ],
+      "normalized": 0.331,
+      "score": 0.148
     },
     {
       "id": "115c53d07cd9",
@@ -115,7 +247,7 @@
         }
       ],
       "normalized": 0.281,
-      "score": 0.558
+      "score": 0.111
     },
     {
       "id": "3ef05d116e86",
@@ -134,7 +266,7 @@
         }
       ],
       "normalized": 0.273,
-      "score": 0.542
+      "score": 0.108
     },
     {
       "id": "d59de4d941f9",
@@ -159,140 +291,7 @@
         }
       ],
       "normalized": 0.5,
-      "score": 0.211
-    },
-    {
-      "id": "78e3236485db",
-      "title": "Power approval set to delay Oracle's Wisconsin AI datacenter",
-      "url": "https://www.theregister.com/on-prem/2026/10/02/power-approval-set-to-delay-oracles-wisconsin-ai-datacenter/5300832",
-      "canonicalUrl": "https://theregister.com/on-prem/2026/10/02/power-approval-set-to-delay-oracles-wisconsin-ai-datacenter/5300832",
-      "domain": "theregister.com",
-      "createdAt": "2026-10-02T15:24:54.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 49,
-          "comments": 23,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49934569"
-        }
-      ],
-      "normalized": 0.405,
-      "score": 0.114
-    },
-    {
-      "id": "a0541af1c1c4",
-      "title": "Harvard particle physicist Matthew Schwartz drops 36 papers authored with Claude",
-      "url": "https://www.reddit.com/r/Physics/comments/1wvin77/harvard_particle_physicist_matthew_schwartz_drops/",
-      "canonicalUrl": "https://reddit.com/r/Physics/comments/1wvin77/harvard_particle_physicist_matthew_schwartz_drops",
-      "domain": "reddit.com",
-      "createdAt": "2026-10-02T12:12:38.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 49,
-          "comments": 73,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49932606"
-        }
-      ],
-      "normalized": 0.405,
-      "score": 0.093
-    },
-    {
-      "id": "5c2288663b7e",
-      "title": "Mozilla shutting down Solo AI website creator",
-      "url": "https://support.soloist.ai/doc/solo-shutdown-faq",
-      "canonicalUrl": "https://support.soloist.ai/doc/solo-shutdown-faq",
-      "domain": "support.soloist.ai",
-      "createdAt": "2026-10-02T15:19:22.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 31,
-          "comments": 64,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49934502"
-        }
-      ],
-      "normalized": 0.231,
-      "score": 0.065
-    },
-    {
-      "id": "836c6e567032",
-      "title": "Claude-Shaped Science",
-      "url": "https://www.anthropic.com/research/claude-shaped-science",
-      "canonicalUrl": "https://anthropic.com/research/claude-shaped-science",
-      "domain": "anthropic.com",
-      "createdAt": "2026-10-02T13:38:03.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 29,
-          "comments": 12,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49933386"
-        }
-      ],
-      "normalized": 0.182,
-      "score": 0.046
-    },
-    {
-      "id": "30cafb2b4ca1",
-      "title": "Mystery Function",
-      "url": "https://codeset.ai/function",
-      "canonicalUrl": "https://codeset.ai/function",
-      "domain": "codeset.ai",
-      "createdAt": "2026-10-02T17:03:08.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 24,
-          "comments": 1,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49935872"
-        }
-      ],
-      "normalized": 0.091,
-      "score": 0.029
-    },
-    {
-      "id": "19dbdc1f6661",
-      "title": "Decision models like Jev don't beat LLM-as-a-judge or traditional classifiers",
-      "url": "https://developers.redhat.com/articles/2026/10/02/benchmarking-ai-decision-models-against-traditional-guardrails",
-      "canonicalUrl": "https://developers.redhat.com/articles/2026/10/02/benchmarking-ai-decision-models-against-traditional-guardrails",
-      "domain": "developers.redhat.com",
-      "createdAt": "2026-10-02T13:47:41.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 26,
-          "comments": 8,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49933476"
-        }
-      ],
-      "normalized": 0.107,
-      "score": 0.027
-    },
-    {
-      "id": "a8f4b404c201",
-      "title": "Benchmarking retrieval for agents on messy real-world company knowledge",
-      "url": "https://www.kapa.ai/blog/company-knowledge-bench",
-      "canonicalUrl": "https://kapa.ai/blog/company-knowledge-bench",
-      "domain": "kapa.ai",
-      "createdAt": "2026-10-02T13:37:18.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 26,
-          "comments": 3,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49933381"
-        }
-      ],
-      "normalized": 0.107,
-      "score": 0.027
+      "score": 0.103
     }
   ]
 }
