@@ -1,0 +1,197 @@
+{
+  "date": "2026-10-04",
+  "generatedAt": "2026-10-04T16:13:31.033Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "bca476fd3463",
+      "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+      "url": "https://github.com/Niko1221/Strata",
+      "canonicalUrl": "https://github.com/Niko1221/Strata",
+      "domain": "github.com",
+      "createdAt": "2026-10-04T12:51:53.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 238,
+          "comments": 117,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49953495"
+        }
+      ],
+      "normalized": 0.805,
+      "score": 3.919
+    },
+    {
+      "id": "567a67be4150",
+      "title": "Show HN: AI search for every photo and every frame of video on macOS",
+      "url": "https://github.com/allenv0/SCM",
+      "canonicalUrl": "https://github.com/allenv0/SCM",
+      "domain": "github.com",
+      "createdAt": "2026-10-04T09:24:52.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 58,
+          "comments": 36,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49952111"
+        }
+      ],
+      "normalized": 0.28,
+      "score": 0.558
+    },
+    {
+      "id": "f16653790b52",
+      "title": "Religious scholars met with Anthropic",
+      "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
+      "canonicalUrl": "https://nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
+      "domain": "nytimes.com",
+      "createdAt": "2026-10-04T02:34:22.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 140,
+          "comments": 323,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49950052"
+        }
+      ],
+      "normalized": 0.659,
+      "score": 0.466
+    },
+    {
+      "id": "4aab22cc6d74",
+      "title": "I quit OpenAI because its culture is broken",
+      "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=v5U_UzUTothfWXsPxtvNVAh7esWToMRD6XnbXmc5WgA",
+      "canonicalUrl": "https://theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881?gift=v5U_UzUTothfWXsPxtvNVAh7esWToMRD6XnbXmc5WgA",
+      "domain": "theatlantic.com",
+      "createdAt": "2026-10-03T13:46:34.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 356,
+          "comments": 598,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49944227"
+        }
+      ],
+      "normalized": 0.902,
+      "score": 0.218
+    },
+    {
+      "id": "d3d9339bcf34",
+      "title": "\"Torturing\" LLMs in a Robot Prison Has Triggered the Dumbest Debate in AI Yet",
+      "url": "https://www.404media.co/someone-torturing-llms-in-a-robot-prison-has-triggered-the-dumbest-debate-in-ai-yet/",
+      "canonicalUrl": "https://404media.co/someone-torturing-llms-in-a-robot-prison-has-triggered-the-dumbest-debate-in-ai-yet",
+      "domain": "404media.co",
+      "createdAt": "2026-10-04T08:02:33.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 38,
+          "comments": 94,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49951684"
+        }
+      ],
+      "normalized": 0.134,
+      "score": 0.206
+    },
+    {
+      "id": "e6dc84249acd",
+      "title": "What's the Future for Pure Math Research in the Age of AI?",
+      "url": "https://writings.stephenwolfram.com/2026/09/whats-the-future-for-pure-math-research-in-the-age-of-ai/",
+      "canonicalUrl": "https://writings.stephenwolfram.com/2026/09/whats-the-future-for-pure-math-research-in-the-age-of-ai",
+      "domain": "writings.stephenwolfram.com",
+      "createdAt": "2026-10-04T07:53:45.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 23,
+          "comments": 2,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49951641"
+        }
+      ],
+      "normalized": 0.037,
+      "score": 0.055
+    },
+    {
+      "id": "c8d139d9a2ba",
+      "title": "AI can clone your indie game, but not its soul",
+      "url": "https://twitter.com/robertvaradan/status/2106061989122334778",
+      "canonicalUrl": "https://twitter.com/robertvaradan/status/2106061989122334778",
+      "domain": "twitter.com",
+      "createdAt": "2026-10-04T03:18:55.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 18,
+          "comments": 19,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49950288"
+        }
+      ],
+      "normalized": 0.024,
+      "score": 0.019
+    },
+    {
+      "id": "18b60dfcf247",
+      "title": "I made my iPhone a second GPU for my MacBook-Qwen 3.8 27B prefills 29–44% faster",
+      "url": "https://reddit.com/comments/1wvz1ex/",
+      "canonicalUrl": "https://reddit.com/comments/1wvz1ex",
+      "domain": "reddit.com",
+      "createdAt": "2026-10-03T08:39:06.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 32,
+          "comments": 2,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49942429"
+        }
+      ],
+      "normalized": 0.098,
+      "score": 0.017
+    },
+    {
+      "id": "84820a9d4315",
+      "title": "AI safety is mostly a sex cult in Berkeley, CA [pdf]",
+      "url": "https://ams3.digitaloceanspaces.com/urbits3/sitful-hatred/2026.9.24..22.31.54..beb8.51eb.851e.b851-AI%20Safety%20Is%20Mostly%20A%20Sex%20Cult%20In%20Berkeley%2C%20California.pdf",
+      "canonicalUrl": "https://ams3.digitaloceanspaces.com/urbits3/sitful-hatred/2026.9.24..22.31.54..beb8.51eb.851e.b851-AI%20Safety%20Is%20Mostly%20A%20Sex%20Cult%20In%20Berkeley%2C%20California.pdf",
+      "domain": "ams3.digitaloceanspaces.com",
+      "createdAt": "2026-10-03T17:29:56.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 13,
+          "comments": 4,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49946110"
+        }
+      ],
+      "normalized": 0,
+      "score": 0
+    },
+    {
+      "id": "9431e9df03c2",
+      "title": "Changes to Gemini model access and limits",
+      "url": "https://support.google.com/gemini/answer/17004136?hl=en",
+      "canonicalUrl": "https://support.google.com/gemini/answer/17004136?hl=en",
+      "domain": "support.google.com",
+      "createdAt": "2026-10-03T16:29:12.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 13,
+          "comments": 1,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49945630"
+        }
+      ],
+      "normalized": 0,
+      "score": 0
+    }
+  ]
+}
