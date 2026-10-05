@@ -1,8 +1,160 @@
 {
   "date": "2026-10-04",
-  "generatedAt": "2026-10-04T16:13:31.033Z",
+  "generatedAt": "2026-10-05T04:04:02.383Z",
   "windowHours": 36,
   "stories": [
+    {
+      "id": "b029651a076b",
+      "title": "World Embedding Benchmark",
+      "url": "https://arxiv.org/abs/2610.03632",
+      "canonicalUrl": "https://arxiv.org/abs/2610.03632",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-05T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 11,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.03632"
+        }
+      ],
+      "normalized": 0.938,
+      "score": 3.652
+    },
+    {
+      "id": "38659789573b",
+      "title": "Source Preference in the Wild: How LLM Agents Favor Items by Source, and How to Reduce It",
+      "url": "https://arxiv.org/abs/2610.03195",
+      "canonicalUrl": "https://arxiv.org/abs/2610.03195",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-05T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 8,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.03195"
+        }
+      ],
+      "normalized": 0.75,
+      "score": 2.922
+    },
+    {
+      "id": "b0681d113570",
+      "title": "Science Utopia? Closed-Loop LLM Simulation of Academic Research Ecosystems",
+      "url": "https://arxiv.org/abs/2610.01257",
+      "canonicalUrl": "https://arxiv.org/abs/2610.01257",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-05T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 5,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.01257"
+        }
+      ],
+      "normalized": 0.625,
+      "score": 2.435
+    },
+    {
+      "id": "cd4f35dc10fc",
+      "title": "Diptych: Scoped, AI-Interpreted Comparison for Reference Listening in Music Production",
+      "url": "https://arxiv.org/abs/2609.39963",
+      "canonicalUrl": "https://arxiv.org/abs/2609.39963",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-05T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 4,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.39963"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 1.948
+    },
+    {
+      "id": "1f94155a570b",
+      "title": "Science or Slop?: Benchmarking and Mitigating Scientific Slop in AI-Generated Papers",
+      "url": "https://arxiv.org/abs/2610.00531",
+      "canonicalUrl": "https://arxiv.org/abs/2610.00531",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-05T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 3,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.00531"
+        }
+      ],
+      "normalized": 0.375,
+      "score": 1.461
+    },
+    {
+      "id": "b3f238a0ebe6",
+      "title": "Covert Assistance: Helpful LLM Agents Evade Oversight in Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2609.39050",
+      "canonicalUrl": "https://arxiv.org/abs/2609.39050",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-05T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.39050"
+        }
+      ],
+      "normalized": 0.25,
+      "score": 0.974
+    },
+    {
+      "id": "bcb5ade6ac65",
+      "title": "GTR: Gated Token Recurrence for Efficient Dense Prediction",
+      "url": "https://arxiv.org/abs/2609.26590",
+      "canonicalUrl": "https://arxiv.org/abs/2609.26590",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-05T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.26590"
+        }
+      ],
+      "normalized": 0.25,
+      "score": 0.974
+    },
+    {
+      "id": "794792a4a638",
+      "title": "Homa: The end of TCP for AI clusters [video]",
+      "url": "https://www.youtube.com/watch?v=eZ8WWZzoaR0",
+      "canonicalUrl": "https://youtube.com/watch?v=eZ8WWZzoaR0",
+      "domain": "youtube.com",
+      "createdAt": "2026-10-04T19:42:25.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 62,
+          "comments": 27,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49957117"
+        }
+      ],
+      "normalized": 0.385,
+      "score": 0.572
+    },
     {
       "id": "bca476fd3463",
       "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
@@ -20,26 +172,45 @@
         }
       ],
       "normalized": 0.805,
-      "score": 3.919
+      "score": 0.48
     },
     {
-      "id": "567a67be4150",
-      "title": "Show HN: AI search for every photo and every frame of video on macOS",
-      "url": "https://github.com/allenv0/SCM",
-      "canonicalUrl": "https://github.com/allenv0/SCM",
-      "domain": "github.com",
-      "createdAt": "2026-10-04T09:24:52.000Z",
+      "id": "68bae58be330",
+      "title": "Building a RAG pipeline for semantic code search",
+      "url": "https://blog.jetbrains.com/ai/2026/09/building-a-rag-pipeline-for-semantic-code-search-a-developer-diary-and-field-notes/",
+      "canonicalUrl": "https://blog.jetbrains.com/ai/2026/09/building-a-rag-pipeline-for-semantic-code-search-a-developer-diary-and-field-notes",
+      "domain": "blog.jetbrains.com",
+      "createdAt": "2026-10-04T17:51:48.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 58,
-          "comments": 36,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49952111"
+          "points": 35,
+          "comments": 9,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49956148"
         }
       ],
-      "normalized": 0.28,
-      "score": 0.558
+      "normalized": 0.198,
+      "score": 0.219
+    },
+    {
+      "id": "4cb361ff85a4",
+      "title": "I asked Claude build a physically accurate O'Neill cylinder you can walk around",
+      "url": "https://island-three.gruberbuilds.workers.dev/",
+      "canonicalUrl": "https://island-three.gruberbuilds.workers.dev/",
+      "domain": "island-three.gruberbuilds.workers.dev",
+      "createdAt": "2026-10-04T19:49:12.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 29,
+          "comments": 29,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49957191"
+        }
+      ],
+      "normalized": 0.143,
+      "score": 0.217
     },
     {
       "id": "f16653790b52",
@@ -58,140 +229,64 @@
         }
       ],
       "normalized": 0.659,
-      "score": 0.466
+      "score": 0.169
     },
     {
-      "id": "4aab22cc6d74",
-      "title": "I quit OpenAI because its culture is broken",
-      "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=v5U_UzUTothfWXsPxtvNVAh7esWToMRD6XnbXmc5WgA",
-      "canonicalUrl": "https://theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881?gift=v5U_UzUTothfWXsPxtvNVAh7esWToMRD6XnbXmc5WgA",
-      "domain": "theatlantic.com",
-      "createdAt": "2026-10-03T13:46:34.000Z",
+      "id": "d7beaa53f3fa",
+      "title": "How to scale intent, quality, and artistry with AI [video]",
+      "url": "https://www.youtube.com/watch?v=GLvFTMtw4Jk",
+      "canonicalUrl": "https://youtube.com/watch?v=GLvFTMtw4Jk",
+      "domain": "youtube.com",
+      "createdAt": "2026-10-04T08:41:58.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 356,
-          "comments": 598,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49944227"
+          "points": 61,
+          "comments": 16,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49951891"
         }
       ],
-      "normalized": 0.902,
-      "score": 0.218
+      "normalized": 0.363,
+      "score": 0.147
     },
     {
-      "id": "d3d9339bcf34",
-      "title": "\"Torturing\" LLMs in a Robot Prison Has Triggered the Dumbest Debate in AI Yet",
-      "url": "https://www.404media.co/someone-torturing-llms-in-a-robot-prison-has-triggered-the-dumbest-debate-in-ai-yet/",
-      "canonicalUrl": "https://404media.co/someone-torturing-llms-in-a-robot-prison-has-triggered-the-dumbest-debate-in-ai-yet",
-      "domain": "404media.co",
-      "createdAt": "2026-10-04T08:02:33.000Z",
+      "id": "ca51488c34d4",
+      "title": "AI doesn't need 'superintelligence' or evil intent to start a nuclear war",
+      "url": "https://thebulletin.org/2026/10/ai-doesnt-need-superintelligence-or-evil-intent-to-start-a-nuclear-war/",
+      "canonicalUrl": "https://thebulletin.org/2026/10/ai-doesnt-need-superintelligence-or-evil-intent-to-start-a-nuclear-war",
+      "domain": "thebulletin.org",
+      "createdAt": "2026-10-04T22:03:41.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 38,
-          "comments": 94,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49951684"
+          "points": 15,
+          "comments": 9,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49958358"
         }
       ],
-      "normalized": 0.134,
-      "score": 0.206
+      "normalized": 0.055,
+      "score": 0.13
     },
     {
-      "id": "e6dc84249acd",
-      "title": "What's the Future for Pure Math Research in the Age of AI?",
-      "url": "https://writings.stephenwolfram.com/2026/09/whats-the-future-for-pure-math-research-in-the-age-of-ai/",
-      "canonicalUrl": "https://writings.stephenwolfram.com/2026/09/whats-the-future-for-pure-math-research-in-the-age-of-ai",
-      "domain": "writings.stephenwolfram.com",
-      "createdAt": "2026-10-04T07:53:45.000Z",
+      "id": "567a67be4150",
+      "title": "Show HN: AI search for every photo and every frame of video on macOS",
+      "url": "https://github.com/allenv0/SCM",
+      "canonicalUrl": "https://github.com/allenv0/SCM",
+      "domain": "github.com",
+      "createdAt": "2026-10-04T09:24:52.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 23,
-          "comments": 2,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49951641"
+          "points": 58,
+          "comments": 36,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49952111"
         }
       ],
-      "normalized": 0.037,
-      "score": 0.055
-    },
-    {
-      "id": "c8d139d9a2ba",
-      "title": "AI can clone your indie game, but not its soul",
-      "url": "https://twitter.com/robertvaradan/status/2106061989122334778",
-      "canonicalUrl": "https://twitter.com/robertvaradan/status/2106061989122334778",
-      "domain": "twitter.com",
-      "createdAt": "2026-10-04T03:18:55.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 18,
-          "comments": 19,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49950288"
-        }
-      ],
-      "normalized": 0.024,
-      "score": 0.019
-    },
-    {
-      "id": "18b60dfcf247",
-      "title": "I made my iPhone a second GPU for my MacBook-Qwen 3.8 27B prefills 29–44% faster",
-      "url": "https://reddit.com/comments/1wvz1ex/",
-      "canonicalUrl": "https://reddit.com/comments/1wvz1ex",
-      "domain": "reddit.com",
-      "createdAt": "2026-10-03T08:39:06.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 32,
-          "comments": 2,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49942429"
-        }
-      ],
-      "normalized": 0.098,
-      "score": 0.017
-    },
-    {
-      "id": "84820a9d4315",
-      "title": "AI safety is mostly a sex cult in Berkeley, CA [pdf]",
-      "url": "https://ams3.digitaloceanspaces.com/urbits3/sitful-hatred/2026.9.24..22.31.54..beb8.51eb.851e.b851-AI%20Safety%20Is%20Mostly%20A%20Sex%20Cult%20In%20Berkeley%2C%20California.pdf",
-      "canonicalUrl": "https://ams3.digitaloceanspaces.com/urbits3/sitful-hatred/2026.9.24..22.31.54..beb8.51eb.851e.b851-AI%20Safety%20Is%20Mostly%20A%20Sex%20Cult%20In%20Berkeley%2C%20California.pdf",
-      "domain": "ams3.digitaloceanspaces.com",
-      "createdAt": "2026-10-03T17:29:56.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 13,
-          "comments": 4,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49946110"
-        }
-      ],
-      "normalized": 0,
-      "score": 0
-    },
-    {
-      "id": "9431e9df03c2",
-      "title": "Changes to Gemini model access and limits",
-      "url": "https://support.google.com/gemini/answer/17004136?hl=en",
-      "canonicalUrl": "https://support.google.com/gemini/answer/17004136?hl=en",
-      "domain": "support.google.com",
-      "createdAt": "2026-10-03T16:29:12.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 13,
-          "comments": 1,
-          "discussionUrl": "https://news.ycombinator.com/item?id=49945630"
-        }
-      ],
-      "normalized": 0,
-      "score": 0
+      "normalized": 0.28,
+      "score": 0.12
     }
   ]
 }
