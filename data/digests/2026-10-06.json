@@ -1,0 +1,290 @@
+{
+  "date": "2026-10-06",
+  "generatedAt": "2026-10-06T17:39:52.998Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "dabfa79f68b8",
+      "title": "AI is now capable of developing its own inference hardware",
+      "url": "https://github.com/FeSens/openTPU",
+      "canonicalUrl": "https://github.com/FeSens/openTPU",
+      "domain": "github.com",
+      "createdAt": "2026-10-06T16:23:25.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 91,
+          "comments": 56,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49980715"
+        }
+      ],
+      "normalized": 0.631,
+      "score": 7.459
+    },
+    {
+      "id": "60ef2af305e7",
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "url": "https://openai.com/index/atlassian-partnership",
+      "canonicalUrl": "https://openai.com/index/atlassian-partnership",
+      "domain": "openai.com",
+      "createdAt": "2026-10-06T16:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 4.827
+    },
+    {
+      "id": "820bd24a41c4",
+      "title": "Mistral Large 4",
+      "url": "https://mistral.ai/news/mistral-large-4/",
+      "canonicalUrl": "https://mistral.ai/news/mistral-large-4",
+      "domain": "mistral.ai",
+      "createdAt": "2026-10-06T13:06:16.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 967,
+          "comments": 649,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49977979"
+        }
+      ],
+      "normalized": 0.946,
+      "score": 3.203
+    },
+    {
+      "id": "1d36a32f7817",
+      "title": "Utah to let AI examine patients and prescribe medication without human oversight",
+      "url": "https://www.techspot.com/news/114111-utah-become-first-state-ai-examine-patients-prescribe.html",
+      "canonicalUrl": "https://techspot.com/news/114111-utah-become-first-state-ai-examine-patients-prescribe.html",
+      "domain": "techspot.com",
+      "createdAt": "2026-10-06T17:01:52.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 28,
+          "comments": 29,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49981197"
+        }
+      ],
+      "normalized": 0.074,
+      "score": 1.292
+    },
+    {
+      "id": "ebdbe868a594",
+      "title": "Anthropic Subscriptions Offer 5x+ More Value Than OpenAI",
+      "url": "https://newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x",
+      "canonicalUrl": "https://newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x",
+      "domain": "newsletter.semianalysis.com",
+      "createdAt": "2026-10-06T07:29:50.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 75,
+          "comments": 86,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49975345"
+        }
+      ],
+      "normalized": 0.591,
+      "score": 0.658
+    },
+    {
+      "id": "085f7195b66f",
+      "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+      "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+      "canonicalUrl": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+      "domain": "huggingface.co",
+      "createdAt": "2026-10-06T06:44:39.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.5
+    },
+    {
+      "id": "fb078bf3a608",
+      "title": "LMBuild: Evaluating LLM Agents for Generating Buildable and Functional Structures",
+      "url": "https://arxiv.org/abs/2610.04292",
+      "canonicalUrl": "https://arxiv.org/abs/2610.04292",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-06T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 20,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.04292"
+        }
+      ],
+      "normalized": 0.95,
+      "score": 0.446
+    },
+    {
+      "id": "54cf562ae7e2",
+      "title": "Show HN: OpenChart – OSS TradingView alternative with your own AI agent",
+      "url": "https://github.com/longsurf-ai/openchart",
+      "canonicalUrl": "https://github.com/longsurf-ai/openchart",
+      "domain": "github.com",
+      "createdAt": "2026-10-06T15:16:45.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 27,
+          "comments": 4,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49979793"
+        }
+      ],
+      "normalized": 0.06,
+      "score": 0.422
+    },
+    {
+      "id": "6aebc20e41ef",
+      "title": "Representation-Space MMD for Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2610.06648",
+      "canonicalUrl": "https://arxiv.org/abs/2610.06648",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-06T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 13,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.06648"
+        }
+      ],
+      "normalized": 0.825,
+      "score": 0.387
+    },
+    {
+      "id": "f2c9898c912c",
+      "title": "LibreOffice says 'no AI' is now a software feature",
+      "url": "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature/",
+      "canonicalUrl": "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature",
+      "domain": "techcrunch.com",
+      "createdAt": "2026-10-06T16:40:58.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 15,
+          "comments": 4,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49980933"
+        }
+      ],
+      "normalized": 0.027,
+      "score": 0.376
+    },
+    {
+      "id": "164f08f7ff0c",
+      "title": "SearchJev: A Fast and Calibrated System-1 Model for Search Agents",
+      "url": "https://arxiv.org/abs/2610.05107",
+      "canonicalUrl": "https://arxiv.org/abs/2610.05107",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-06T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 11,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.05107"
+        }
+      ],
+      "normalized": 0.775,
+      "score": 0.364
+    },
+    {
+      "id": "85076897fd03",
+      "title": "UndoBench: Separating Task Competence from Recovery Capability in Tool-Using AI Agents",
+      "url": "https://arxiv.org/abs/2610.05622",
+      "canonicalUrl": "https://arxiv.org/abs/2610.05622",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-06T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 7,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.05622"
+        }
+      ],
+      "normalized": 0.675,
+      "score": 0.317
+    },
+    {
+      "id": "d3cecd08e2f0",
+      "title": "German Bundeswehr Uses AI to Screen Applicants for Right-Wing Extremism",
+      "url": "https://news.osna.fm/german-military-intelligence-uses-ai-to-screen-bundeswehr-applicants-for-right-wing-extremism/",
+      "canonicalUrl": "https://news.osna.fm/german-military-intelligence-uses-ai-to-screen-bundeswehr-applicants-for-right-wing-extremism",
+      "domain": "news.osna.fm",
+      "createdAt": "2026-10-06T07:49:07.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 34,
+          "comments": 52,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49975484"
+        }
+      ],
+      "normalized": 0.215,
+      "score": 0.251
+    },
+    {
+      "id": "e3bc7c70b5bb",
+      "title": "What Gradients Add to Text Leakage in Split Language Models, Counted per Token and per Document",
+      "url": "https://arxiv.org/abs/2610.04128",
+      "canonicalUrl": "https://arxiv.org/abs/2610.04128",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-06T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 5,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.04128"
+        }
+      ],
+      "normalized": 0.525,
+      "score": 0.246
+    },
+    {
+      "id": "d309e4fbcda5",
+      "title": "AI Companies Are Parasites",
+      "url": "https://www.coryd.dev/posts/2026/ai-companies-are-parasites",
+      "canonicalUrl": "https://coryd.dev/posts/2026/ai-companies-are-parasites",
+      "domain": "coryd.dev",
+      "createdAt": "2026-10-05T19:30:10.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 70,
+          "comments": 37,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49969369"
+        }
+      ],
+      "normalized": 0.564,
+      "score": 0.183
+    }
+  ]
+}
