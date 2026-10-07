@@ -1,0 +1,288 @@
+{
+  "date": "2026-10-07",
+  "generatedAt": "2026-10-07T18:12:08.828Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "1d78f09c640d",
+      "title": "Claude Haiku 5.5",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "canonicalUrl": "https://anthropic.com/claude-haiku-5-5",
+      "domain": "anthropic.com",
+      "createdAt": "2026-10-07T18:01:32.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 56,
+          "comments": 16,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49996437"
+        }
+      ],
+      "normalized": 0.413,
+      "score": 10.187
+    },
+    {
+      "id": "0825a4897dea",
+      "title": "Multimodal open d1 decision models for the edge",
+      "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+      "canonicalUrl": "https://huggingface.co/blog/LiquidAI/open-d1",
+      "domain": "huggingface.co",
+      "createdAt": "2026-10-07T16:54:33.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 5.851
+    },
+    {
+      "id": "3316e2b4c519",
+      "title": "Study: Claude, ChatGPT Offer Different Shopping Prices Based on Wealth",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-10-07/study-claude-chatgpt-ai-bots-offer-different-shopping-prices-based-on-wealth",
+      "canonicalUrl": "https://bloomberg.com/news/newsletters/2026-10-07/study-claude-chatgpt-ai-bots-offer-different-shopping-prices-based-on-wealth",
+      "domain": "bloomberg.com",
+      "createdAt": "2026-10-07T16:07:08.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 71,
+          "comments": 18,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49994746"
+        }
+      ],
+      "normalized": 0.503,
+      "score": 3.997
+    },
+    {
+      "id": "5f65c4d68146",
+      "title": "AI-assisted proof of optimal packing for 11 squares",
+      "url": "https://github.com/Queuingtheorydotcom/11SquaresFormalized",
+      "canonicalUrl": "https://github.com/Queuingtheorydotcom/11SquaresFormalized",
+      "domain": "github.com",
+      "createdAt": "2026-10-07T14:10:55.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 77,
+          "comments": 35,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49993121"
+        }
+      ],
+      "normalized": 0.539,
+      "score": 2.129
+    },
+    {
+      "id": "808e4891f6cc",
+      "title": "Best Books/Courses/Channels to Leapfrog on AI/ML Material",
+      "url": "https://lobste.rs/s/xff77a/best_books_courses_channels_leapfrog_on",
+      "canonicalUrl": "https://lobste.rs/s/xff77a/best_books_courses_channels_leapfrog_on",
+      "domain": "lobste.rs",
+      "createdAt": "2026-10-07T14:12:02.815Z",
+      "appearances": [
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 3,
+          "comments": 1,
+          "discussionUrl": "https://lobste.rs/s/xff77a/best_books_courses_channels_leapfrog_on"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 1.986
+    },
+    {
+      "id": "5bdd694c6290",
+      "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+      "canonicalUrl": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+      "domain": "huggingface.co",
+      "createdAt": "2026-10-07T12:45:31.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 1.348
+    },
+    {
+      "id": "40da8b56236e",
+      "title": "AI firm HUMXN offers free plumbing and HVAC service in Minnesota to train robots",
+      "url": "https://humxn.io/humxn-launches-free-home-service-program",
+      "canonicalUrl": "https://humxn.io/humxn-launches-free-home-service-program",
+      "domain": "humxn.io",
+      "createdAt": "2026-10-07T15:28:49.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 31,
+          "comments": 57,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49994206"
+        }
+      ],
+      "normalized": 0.216,
+      "score": 1.319
+    },
+    {
+      "id": "ad4e14640e35",
+      "title": "Helping teens learn, plan, and shape the future of AI",
+      "url": "https://openai.com/index/teens-learn-and-plan",
+      "canonicalUrl": "https://openai.com/index/teens-learn-and-plan",
+      "domain": "openai.com",
+      "createdAt": "2026-10-07T12:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 1.132
+    },
+    {
+      "id": "313907b2dbd8",
+      "title": "Write Like It's 1866: LLMs Relearn Telegraphese",
+      "url": "https://fiveminutesforward.com/post/2026-10-04-telegraph-test/",
+      "canonicalUrl": "https://fiveminutesforward.com/post/2026-10-04-telegraph-test",
+      "domain": "fiveminutesforward.com",
+      "createdAt": "2026-10-07T12:04:36.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 68,
+          "comments": 46,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49991580"
+        }
+      ],
+      "normalized": 0.473,
+      "score": 1.089
+    },
+    {
+      "id": "a3e80c6c0d8c",
+      "title": "Tell HN: Apple not letting removal of AI models on macOS 27 is outrageous",
+      "url": "https://news.ycombinator.com/item?id=49993338",
+      "canonicalUrl": "https://news.ycombinator.com/item?id=49993338",
+      "domain": "news.ycombinator.com",
+      "createdAt": "2026-10-07T14:26:53.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 29,
+          "comments": 22,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49993338"
+        }
+      ],
+      "normalized": 0.162,
+      "score": 0.693
+    },
+    {
+      "id": "fc50d79cd016",
+      "title": "Reasons to Dislike AI Coding",
+      "url": "https://www.sicpers.info/2026/10/reasons-to-dislike-ai-coding/",
+      "canonicalUrl": "https://sicpers.info/2026/10/reasons-to-dislike-ai-coding",
+      "domain": "sicpers.info",
+      "createdAt": "2026-10-07T09:15:00.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 52,
+          "comments": 83,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49990204"
+        }
+      ],
+      "normalized": 0.371,
+      "score": 0.5
+    },
+    {
+      "id": "04e9dc3828b5",
+      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+      "url": "https://openai.com/index/radisson",
+      "canonicalUrl": "https://openai.com/index/radisson",
+      "domain": "openai.com",
+      "createdAt": "2026-10-07T07:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.481
+    },
+    {
+      "id": "104448deeda9",
+      "title": "Forever Junior: The Skills AI Can't Develop for You",
+      "url": "https://tech.criteo.com/blog/human-skills-ai-cant-develop-junior-engineers/",
+      "canonicalUrl": "https://tech.criteo.com/blog/human-skills-ai-cant-develop-junior-engineers",
+      "domain": "tech.criteo.com",
+      "createdAt": "2026-10-07T08:00:06.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 59,
+          "comments": 56,
+          "discussionUrl": "https://news.ycombinator.com/item?id=49989684"
+        }
+      ],
+      "normalized": 0.419,
+      "score": 0.464
+    },
+    {
+      "id": "915dd7372c68",
+      "title": "UNREAL: Unifying Retrieval and Long-Context with a Single Model",
+      "url": "https://arxiv.org/abs/2610.08463",
+      "canonicalUrl": "https://arxiv.org/abs/2610.08463",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-07T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 19,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.08463"
+        }
+      ],
+      "normalized": 0.9,
+      "score": 0.402
+    },
+    {
+      "id": "9b53d5818d23",
+      "title": "AGO AI Quality Gate: Evidence-First Release Decisions for Retrieval-Augmented Generation",
+      "url": "https://arxiv.org/abs/2610.01218",
+      "canonicalUrl": "https://arxiv.org/abs/2610.01218",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-07T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 16,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.01218"
+        }
+      ],
+      "normalized": 0.875,
+      "score": 0.391
+    }
+  ]
+}
