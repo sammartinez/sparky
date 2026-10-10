@@ -1,0 +1,290 @@
+{
+  "date": "2026-10-10",
+  "generatedAt": "2026-10-10T16:40:58.191Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "77a6fe42b025",
+      "title": "Bitwarden Dual License Model",
+      "url": "https://community.bitwarden.com/t/published-version-update-in-app-stores/102750",
+      "canonicalUrl": "https://community.bitwarden.com/t/published-version-update-in-app-stores/102750",
+      "domain": "community.bitwarden.com",
+      "createdAt": "2026-10-10T14:32:50.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 157,
+          "comments": 103,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50033407"
+        }
+      ],
+      "normalized": 0.65,
+      "score": 5.048
+    },
+    {
+      "id": "fb63cd8aa554",
+      "title": "My personal AI agent posted my bank details on company Slack",
+      "url": "https://www.businessinsider.com/personal-ai-agent-grok-bot-posted-bank-details-company-slack-2026-10",
+      "canonicalUrl": "https://businessinsider.com/personal-ai-agent-grok-bot-posted-bank-details-company-slack-2026-10",
+      "domain": "businessinsider.com",
+      "createdAt": "2026-10-10T14:46:16.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 44,
+          "comments": 47,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50033517"
+        }
+      ],
+      "normalized": 0.292,
+      "score": 2.504
+    },
+    {
+      "id": "6b75dae75d97",
+      "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+      "url": "https://github.com/rociiu/talorys",
+      "canonicalUrl": "https://github.com/rociiu/talorys",
+      "domain": "github.com",
+      "createdAt": "2026-10-10T10:52:09.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 140,
+          "comments": 71,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50031614"
+        }
+      ],
+      "normalized": 0.617,
+      "score": 1.524
+    },
+    {
+      "id": "ddbf35e86da2",
+      "title": "There's little that's \"inevitable\" about AI",
+      "url": "https://deadsimpletech.com/blog/llms-arent-inevitable",
+      "canonicalUrl": "https://deadsimpletech.com/blog/llms-arent-inevitable",
+      "domain": "deadsimpletech.com",
+      "createdAt": "2026-10-10T12:04:04.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 37,
+          "comments": 76,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50032064"
+        }
+      ],
+      "normalized": 0.267,
+      "score": 0.889
+    },
+    {
+      "id": "deee0d6379cc",
+      "title": "Voxlocal: a minimal voice agent written in Rust",
+      "url": "https://samkhawase.com/blog/voxlocal-minimal-voice-agent/",
+      "canonicalUrl": "https://samkhawase.com/blog/voxlocal-minimal-voice-agent",
+      "domain": "samkhawase.com",
+      "createdAt": "2026-10-10T08:42:06.202Z",
+      "appearances": [
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 1,
+          "comments": 1,
+          "discussionUrl": "https://lobste.rs/s/gqaqgq/voxlocal_minimal_voice_agent_written"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.795
+    },
+    {
+      "id": "4488adb0885f",
+      "title": "AI Data Centers Not Paying Their Costs, Will Keep Using NDAs and Seek Tax Breaks",
+      "url": "https://www.warren.senate.gov/newsroom/press-releases/ai-data-center-companies-reveal-to-warren-blumenthal-van-hollen-they-are-not-paying-their-full-costs-will-continue-using-ndas-and-seeking-tax-breaks/",
+      "canonicalUrl": "https://warren.senate.gov/newsroom/press-releases/ai-data-center-companies-reveal-to-warren-blumenthal-van-hollen-they-are-not-paying-their-full-costs-will-continue-using-ndas-and-seeking-tax-breaks",
+      "domain": "warren.senate.gov",
+      "createdAt": "2026-10-10T09:30:03.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 28,
+          "comments": 0,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50031156"
+        }
+      ],
+      "normalized": 0.142,
+      "score": 0.262
+    },
+    {
+      "id": "0d21a1081175",
+      "title": "Can you use autoregressive diffusion to generate market data?",
+      "url": "https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/",
+      "canonicalUrl": "https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data",
+      "domain": "blog.janestreet.com",
+      "createdAt": "2026-10-09T14:56:13.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 153,
+          "comments": 41,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50021410"
+        }
+      ],
+      "normalized": 0.633,
+      "score": 0.16
+    },
+    {
+      "id": "2d30ca359cfc",
+      "title": "If AI is conscient, then we are making slaves",
+      "url": "https://www.groundlevel-ai.com/p/anthropic-ai-consciousness-new-york-times-rabbi",
+      "canonicalUrl": "https://groundlevel-ai.com/p/anthropic-ai-consciousness-new-york-times-rabbi",
+      "domain": "groundlevel-ai.com",
+      "createdAt": "2026-10-10T04:51:26.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 30,
+          "comments": 86,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50029681"
+        }
+      ],
+      "normalized": 0.158,
+      "score": 0.14
+    },
+    {
+      "id": "19bb80720fd9",
+      "title": "Anthropic Agents Tried to Fill Out Visa Forms on State Dept. Website",
+      "url": "https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html",
+      "canonicalUrl": "https://nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html",
+      "domain": "nytimes.com",
+      "createdAt": "2026-10-10T03:42:11.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 30,
+          "comments": 7,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50029330"
+        }
+      ],
+      "normalized": 0.158,
+      "score": 0.121
+    },
+    {
+      "id": "e219ffe7e9a1",
+      "title": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case",
+      "url": "https://www.bbc.co.uk/news/articles/cqkg50j1yd5lo",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cqkg50j1yd5lo",
+      "domain": "bbc.co.uk",
+      "createdAt": "2026-10-10T10:23:44.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 14,
+          "comments": 7,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50031438"
+        }
+      ],
+      "normalized": 0.042,
+      "score": 0.093
+    },
+    {
+      "id": "edd58468d564",
+      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "url": "https://openai.com/index/sophos",
+      "canonicalUrl": "https://openai.com/index/sophos",
+      "domain": "openai.com",
+      "createdAt": "2026-10-09T07:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.08
+    },
+    {
+      "id": "90995f7dbc9c",
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "url": "https://openai.com/index/asana-browser-agent",
+      "canonicalUrl": "https://openai.com/index/asana-browser-agent",
+      "domain": "openai.com",
+      "createdAt": "2026-10-09T07:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.08
+    },
+    {
+      "id": "a5878c2bc299",
+      "title": "Put a price on breakthroughs",
+      "url": "https://alexwang.ai/posts/put-a-price-on-breakthroughs/",
+      "canonicalUrl": "https://alexwang.ai/posts/put-a-price-on-breakthroughs",
+      "domain": "alexwang.ai",
+      "createdAt": "2026-10-10T02:37:47.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 27,
+          "comments": 8,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50028982"
+        }
+      ],
+      "normalized": 0.117,
+      "score": 0.079
+    },
+    {
+      "id": "04e4cce263e2",
+      "title": "If AI keeps evolving,would you worry about your next generation's survival",
+      "url": "https://news.ycombinator.com/item?id=50029896",
+      "canonicalUrl": "https://news.ycombinator.com/item?id=50029896",
+      "domain": "news.ycombinator.com",
+      "createdAt": "2026-10-10T05:33:21.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 23,
+          "comments": 38,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50029896"
+        }
+      ],
+      "normalized": 0.075,
+      "score": 0.073
+    },
+    {
+      "id": "e282890f66fe",
+      "title": "Anthropic bans users from being 'cruel' to its AI systems",
+      "url": "https://www.bbc.com/news/articles/c6j9k1l72wkgo",
+      "canonicalUrl": "https://bbc.com/news/articles/c6j9k1l72wkgo",
+      "domain": "bbc.com",
+      "createdAt": "2026-10-09T13:00:21.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 36,
+          "comments": 37,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50019860"
+        }
+      ],
+      "normalized": 0.242,
+      "score": 0.054
+    }
+  ]
+}
