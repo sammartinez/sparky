@@ -1,8 +1,122 @@
 {
   "date": "2026-10-09",
-  "generatedAt": "2026-10-09T17:47:12.964Z",
+  "generatedAt": "2026-10-10T04:20:28.846Z",
   "windowHours": 36,
   "stories": [
+    {
+      "id": "b799501cff73",
+      "title": "Anthropic AI model submits false tip on unsolved Philly murder",
+      "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
+      "canonicalUrl": "https://nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051",
+      "domain": "nbcphiladelphia.com",
+      "createdAt": "2026-10-09T22:00:35.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 103,
+          "comments": 84,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50027118"
+        }
+      ],
+      "normalized": 0.633,
+      "score": 1.394
+    },
+    {
+      "id": "b38064f80336",
+      "title": "Microsoft-Decision-1, our model for fast decision-making",
+      "url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
+      "canonicalUrl": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry",
+      "domain": "commandline.microsoft.com",
+      "createdAt": "2026-10-09T18:38:44.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 168,
+          "comments": 55,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50024913"
+        }
+      ],
+      "normalized": 0.727,
+      "score": 0.869
+    },
+    {
+      "id": "04902b83f5b9",
+      "title": "Typesafe AI raises $870M at $7.5B",
+      "url": "https://typesafe.ai/blog/series-ai",
+      "canonicalUrl": "https://typesafe.ai/blog/series-ai",
+      "domain": "typesafe.ai",
+      "createdAt": "2026-10-09T17:02:31.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 303,
+          "comments": 227,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50023450"
+        }
+      ],
+      "normalized": 0.863,
+      "score": 0.819
+    },
+    {
+      "id": "b23e6974f2eb",
+      "title": "OpenAI mistranslated mathematics into code for its Navier-Stokes proof",
+      "url": "https://www.newscientist.com/article/2592824-openai-mistranslated-mathematics-into-code-for-its-navier-stokes-proof/",
+      "canonicalUrl": "https://newscientist.com/article/2592824-openai-mistranslated-mathematics-into-code-for-its-navier-stokes-proof",
+      "domain": "newscientist.com",
+      "createdAt": "2026-10-09T21:25:09.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 55,
+          "comments": 5,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50026734"
+        }
+      ],
+      "normalized": 0.41,
+      "score": 0.798
+    },
+    {
+      "id": "2054ab2914fe",
+      "title": "Rewriting Prime Agent in Rust",
+      "url": "https://www.primeintellect.ai/blog/prime-agent-rust",
+      "canonicalUrl": "https://primeintellect.ai/blog/prime-agent-rust",
+      "domain": "primeintellect.ai",
+      "createdAt": "2026-10-09T23:06:25.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 32,
+          "comments": 10,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50027694"
+        }
+      ],
+      "normalized": 0.201,
+      "score": 0.572
+    },
+    {
+      "id": "4d5a1b14f287",
+      "title": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
+      "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
+      "canonicalUrl": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai",
+      "domain": "terrytao.wordpress.com",
+      "createdAt": "2026-10-09T17:42:12.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 59,
+          "comments": 7,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50024090"
+        }
+      ],
+      "normalized": 0.424,
+      "score": 0.441
+    },
     {
       "id": "592496c5dbdf",
       "title": "The super intelligence shit is a humiliation ritual for OpenAI",
@@ -20,63 +134,7 @@
         }
       ],
       "normalized": 0.561,
-      "score": 3.785
-    },
-    {
-      "id": "75408ae9c6ce",
-      "title": "Tomek Korbak: OpenAI's head of safety told they no longer trust me",
-      "url": "https://twitter.com/tomekkorbak/status/2108266859397283953",
-      "canonicalUrl": "https://twitter.com/tomekkorbak/status/2108266859397283953",
-      "domain": "twitter.com",
-      "createdAt": "2026-10-09T16:52:20.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 36,
-          "comments": 15,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50023293"
-        }
-      ],
-      "normalized": 0.25,
-      "score": 3.645
-    },
-    {
-      "id": "43ef54e74d27",
-      "title": "Impactful scheduling for GPU clusters",
-      "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
-      "canonicalUrl": "https://huggingface.co/blog/allenai/impactful-scheduling",
-      "domain": "huggingface.co",
-      "createdAt": "2026-10-09T15:20:29.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "Hugging Face",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 3.41
-    },
-    {
-      "id": "bd09a73d3599",
-      "title": "Court throws out killer's sentence after judge said he loved AI video of victim",
-      "url": "https://www.nbcnews.com/news/us-news/sentence-vacated-ai-video-dead-victim-rcna601457",
-      "canonicalUrl": "https://nbcnews.com/news/us-news/sentence-vacated-ai-video-dead-victim-rcna601457",
-      "domain": "nbcnews.com",
-      "createdAt": "2026-10-09T14:14:08.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 64,
-          "comments": 67,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50020856"
-        }
-      ],
-      "normalized": 0.485,
-      "score": 2.217
+      "score": 0.427
     },
     {
       "id": "595085953aee",
@@ -95,7 +153,25 @@
         }
       ],
       "normalized": 0.856,
-      "score": 1.735
+      "score": 0.416
+    },
+    {
+      "id": "43ef54e74d27",
+      "title": "Impactful scheduling for GPU clusters",
+      "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
+      "canonicalUrl": "https://huggingface.co/blog/allenai/impactful-scheduling",
+      "domain": "huggingface.co",
+      "createdAt": "2026-10-09T15:20:29.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.382
     },
     {
       "id": "301544ff1a07",
@@ -114,177 +190,102 @@
         }
       ],
       "normalized": 0.818,
-      "score": 1.35
+      "score": 0.362
     },
     {
-      "id": "b62b9d6c8590",
-      "title": "US charity plans to use AI to monitor its Gaza classrooms for 'hateful' speech",
-      "url": "https://apnews.com/article/gaza-children-village-ai-speech-schools-7a41b3986524877b3e7ade7985853c53?taid=6ac898017a4b4a000148d491&utm_campaign=TrueAnthem&utm_medium=AP",
-      "canonicalUrl": "https://apnews.com/article/gaza-children-village-ai-speech-schools-7a41b3986524877b3e7ade7985853c53?taid=6ac898017a4b4a000148d491",
-      "domain": "apnews.com",
-      "createdAt": "2026-10-09T15:08:28.000Z",
+      "id": "066510f0a2f2",
+      "title": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more",
+      "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/",
+      "canonicalUrl": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives",
+      "domain": "jessewaites.com",
+      "createdAt": "2026-10-09T11:36:20.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 20,
+          "points": 125,
+          "comments": 64,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50019056"
+        }
+      ],
+      "normalized": 0.676,
+      "score": 0.346
+    },
+    {
+      "id": "bd09a73d3599",
+      "title": "Court throws out killer's sentence after judge said he loved AI video of victim",
+      "url": "https://www.nbcnews.com/news/us-news/sentence-vacated-ai-video-dead-victim-rcna601457",
+      "canonicalUrl": "https://nbcnews.com/news/us-news/sentence-vacated-ai-video-dead-victim-rcna601457",
+      "domain": "nbcnews.com",
+      "createdAt": "2026-10-09T14:14:08.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 64,
+          "comments": 67,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50020856"
+        }
+      ],
+      "normalized": 0.485,
+      "score": 0.326
+    },
+    {
+      "id": "50f2f8d37049",
+      "title": "Anthropic's AI gave Philadelphia police a fake tip about an unsolved homicide",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
+      "canonicalUrl": "https://theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
+      "domain": "theverge.com",
+      "createdAt": "2026-10-10T00:07:08.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 14,
           "comments": 1,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50021586"
+          "discussionUrl": "https://news.ycombinator.com/item?id=50028121"
         }
       ],
-      "normalized": 0.098,
-      "score": 0.62
+      "normalized": 0.065,
+      "score": 0.241
     },
     {
-      "id": "edd58468d564",
-      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-      "url": "https://openai.com/index/sophos",
-      "canonicalUrl": "https://openai.com/index/sophos",
-      "domain": "openai.com",
-      "createdAt": "2026-10-09T07:00:00.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 0.509
-    },
-    {
-      "id": "a0abe38a6464",
-      "title": "Memento 3: Model-Based Recursive Self-Improvement through Reflective Rulebooks",
-      "url": "https://arxiv.org/abs/2610.11794",
-      "canonicalUrl": "https://arxiv.org/abs/2610.11794",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-09T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 21,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.11794"
-        }
-      ],
-      "normalized": 0.8,
-      "score": 0.371
-    },
-    {
-      "id": "6096f2f1a539",
-      "title": "WorldGuide: Goal-Directed Video World Model for Procedural Task Execution",
-      "url": "https://arxiv.org/abs/2610.12459",
-      "canonicalUrl": "https://arxiv.org/abs/2610.12459",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-09T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 4,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.12459"
-        }
-      ],
-      "normalized": 0.6,
-      "score": 0.278
-    },
-    {
-      "id": "3b1c539c253d",
-      "title": "OpenAI annualised revenues $20B less than previously signalled",
-      "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
-      "canonicalUrl": "https://cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
-      "domain": "cnbc.com",
-      "createdAt": "2026-10-08T16:45:58.000Z",
+      "id": "75408ae9c6ce",
+      "title": "Tomek Korbak: OpenAI's head of safety told they no longer trust me",
+      "url": "https://twitter.com/tomekkorbak/status/2108266859397283953",
+      "canonicalUrl": "https://twitter.com/tomekkorbak/status/2108266859397283953",
+      "domain": "twitter.com",
+      "createdAt": "2026-10-09T16:52:20.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 413,
-          "comments": 293,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50008187"
+          "points": 36,
+          "comments": 15,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50023293"
         }
       ],
-      "normalized": 0.932,
-      "score": 0.247
+      "normalized": 0.25,
+      "score": 0.232
     },
     {
-      "id": "7d8f4ef47acb",
-      "title": "AI-ready biological data: $1.8B global commitment",
-      "url": "https://biohub.org/news/virtual-biology-initiative-expansion/",
-      "canonicalUrl": "https://biohub.org/news/virtual-biology-initiative-expansion",
-      "domain": "biohub.org",
-      "createdAt": "2026-10-08T20:46:25.000Z",
+      "id": "0c0375d64af5",
+      "title": "open-slopware – Alternatives to FOSS projects choosing to use LLMs/AI",
+      "url": "https://codeberg.org/ethical-foss/open-slopware",
+      "canonicalUrl": "https://codeberg.org/ethical-foss/open-slopware",
+      "domain": "codeberg.org",
+      "createdAt": "2026-10-09T19:50:16.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 140,
-          "comments": 20,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50011999"
+          "points": 27,
+          "comments": 13,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50025767"
         }
       ],
-      "normalized": 0.697,
-      "score": 0.246
-    },
-    {
-      "id": "5ad154fbdd83",
-      "title": "A Closer Look at Agentic BBO: Benchmarking LLM Agents for Black-Box Optimization",
-      "url": "https://arxiv.org/abs/2610.12183",
-      "canonicalUrl": "https://arxiv.org/abs/2610.12183",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-09T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 3,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.12183"
-        }
-      ],
-      "normalized": 0.525,
-      "score": 0.244
-    },
-    {
-      "id": "71bfef6e4826",
-      "title": "Accurate but Not Humble: Evaluating Epistemic Humility in LLM Agents under Knowledge Conflict",
-      "url": "https://arxiv.org/abs/2610.12360",
-      "canonicalUrl": "https://arxiv.org/abs/2610.12360",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-09T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 3,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.12360"
-        }
-      ],
-      "normalized": 0.525,
-      "score": 0.244
-    },
-    {
-      "id": "7555d57bfd57",
-      "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
-      "url": "https://arxiv.org/abs/2610.10549",
-      "canonicalUrl": "https://arxiv.org/abs/2610.10549",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-09T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 2,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.10549"
-        }
-      ],
-      "normalized": 0.425,
-      "score": 0.197
+      "normalized": 0.137,
+      "score": 0.198
     }
   ]
 }
