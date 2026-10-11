@@ -1,8 +1,141 @@
 {
   "date": "2026-10-10",
-  "generatedAt": "2026-10-10T16:40:58.191Z",
+  "generatedAt": "2026-10-11T04:00:45.438Z",
   "windowHours": 36,
   "stories": [
+    {
+      "id": "821afa65ec96",
+      "title": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
+      "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+      "canonicalUrl": "https://momo5502.com/posts/2026-10-09-game-decompilation",
+      "domain": "momo5502.com",
+      "createdAt": "2026-10-11T02:02:38.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 59,
+          "comments": 41,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50039092"
+        }
+      ],
+      "normalized": 0.45,
+      "score": 3.768
+    },
+    {
+      "id": "83056d7cecd2",
+      "title": "Build your own decision model",
+      "url": "https://nishtahir.com/build-your-own-decision-model/",
+      "canonicalUrl": "https://nishtahir.com/build-your-own-decision-model",
+      "domain": "nishtahir.com",
+      "createdAt": "2026-10-10T22:50:10.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 165,
+          "comments": 31,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50037949"
+        }
+      ],
+      "normalized": 0.739,
+      "score": 2.127
+    },
+    {
+      "id": "4a7e19c37d45",
+      "title": "Anthropic asks users to stop being mean to Claude",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218",
+      "canonicalUrl": "https://theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218",
+      "domain": "theregister.com",
+      "createdAt": "2026-10-11T01:17:22.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 45,
+          "comments": 48,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50038865"
+        }
+      ],
+      "normalized": 0.315,
+      "score": 1.928
+    },
+    {
+      "id": "f72cb823d93c",
+      "title": "Anthropic Bans Cruelty to Claude, Still Won't Say What It Protects",
+      "url": "https://rews.cc/a/anthropic-bans-cruelty-to-claude-still-won-t-say-what-it-pro-bd99f6",
+      "canonicalUrl": "https://rews.cc/a/anthropic-bans-cruelty-to-claude-still-won-t-say-what-it-pro-bd99f6",
+      "domain": "rews.cc",
+      "createdAt": "2026-10-11T00:08:31.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 52,
+          "comments": 110,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50038383"
+        }
+      ],
+      "normalized": 0.387,
+      "score": 1.601
+    },
+    {
+      "id": "00937bfcdb4e",
+      "title": "Veda: The First Agentic Hobby Operating System",
+      "url": "https://github.com/vahmoh25/Veda",
+      "canonicalUrl": "https://github.com/vahmoh25/Veda",
+      "domain": "github.com",
+      "createdAt": "2026-10-11T00:22:33.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 35,
+          "comments": 7,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50038473"
+        }
+      ],
+      "normalized": 0.225,
+      "score": 1.002
+    },
+    {
+      "id": "83b3ab4d460b",
+      "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+      "canonicalUrl": "https://ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+      "domain": "ft.com",
+      "createdAt": "2026-10-10T18:48:35.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 138,
+          "comments": 92,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50035886"
+        }
+      ],
+      "normalized": 0.694,
+      "score": 0.896
+    },
+    {
+      "id": "01b5df25f259",
+      "title": "Generative AI scandal has come to one of Nikon's competitions",
+      "url": "https://www.dpreview.com/news/generative-ai-scandal-has-come-to-one-of-nikons-competitions/",
+      "canonicalUrl": "https://dpreview.com/news/generative-ai-scandal-has-come-to-one-of-nikons-competitions",
+      "domain": "dpreview.com",
+      "createdAt": "2026-10-11T00:47:37.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 31,
+          "comments": 50,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50038640"
+        }
+      ],
+      "normalized": 0.117,
+      "score": 0.598
+    },
     {
       "id": "77a6fe42b025",
       "title": "Bitwarden Dual License Model",
@@ -20,26 +153,45 @@
         }
       ],
       "normalized": 0.65,
-      "score": 5.048
+      "score": 0.47
     },
     {
-      "id": "fb63cd8aa554",
-      "title": "My personal AI agent posted my bank details on company Slack",
-      "url": "https://www.businessinsider.com/personal-ai-agent-grok-bot-posted-bank-details-company-slack-2026-10",
-      "canonicalUrl": "https://businessinsider.com/personal-ai-agent-grok-bot-posted-bank-details-company-slack-2026-10",
-      "domain": "businessinsider.com",
-      "createdAt": "2026-10-10T14:46:16.000Z",
+      "id": "9cbf954d131d",
+      "title": "Anthropic discloses 2 months old fake tip to police among new rogue AI incidents",
+      "url": "https://www.reuters.com/world/us/anthropic-ai-model-submits-false-homicide-tip-police-website-2026-10-09/",
+      "canonicalUrl": "https://reuters.com/world/us/anthropic-ai-model-submits-false-homicide-tip-police-website-2026-10-09",
+      "domain": "reuters.com",
+      "createdAt": "2026-10-10T18:10:54.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 44,
-          "comments": 47,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50033517"
+          "points": 41,
+          "comments": 35,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50035550"
         }
       ],
-      "normalized": 0.292,
-      "score": 2.504
+      "normalized": 0.288,
+      "score": 0.338
+    },
+    {
+      "id": "65fb79de01ca",
+      "title": "AI Is Throwing a Roadside Picnic",
+      "url": "https://metedata.substack.com/p/ai-is-throwing-a-roadside-picnic",
+      "canonicalUrl": "https://metedata.substack.com/p/ai-is-throwing-a-roadside-picnic",
+      "domain": "metedata.substack.com",
+      "createdAt": "2026-10-10T16:19:23.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 46,
+          "comments": 45,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50034363"
+        }
+      ],
+      "normalized": 0.342,
+      "score": 0.308
     },
     {
       "id": "6b75dae75d97",
@@ -58,26 +210,26 @@
         }
       ],
       "normalized": 0.617,
-      "score": 1.524
+      "score": 0.304
     },
     {
-      "id": "ddbf35e86da2",
-      "title": "There's little that's \"inevitable\" about AI",
-      "url": "https://deadsimpletech.com/blog/llms-arent-inevitable",
-      "canonicalUrl": "https://deadsimpletech.com/blog/llms-arent-inevitable",
-      "domain": "deadsimpletech.com",
-      "createdAt": "2026-10-10T12:04:04.000Z",
+      "id": "fb63cd8aa554",
+      "title": "My personal AI agent posted my bank details on company Slack",
+      "url": "https://www.businessinsider.com/personal-ai-agent-grok-bot-posted-bank-details-company-slack-2026-10",
+      "canonicalUrl": "https://businessinsider.com/personal-ai-agent-grok-bot-posted-bank-details-company-slack-2026-10",
+      "domain": "businessinsider.com",
+      "createdAt": "2026-10-10T14:46:16.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 37,
-          "comments": 76,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50032064"
+          "points": 44,
+          "comments": 47,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50033517"
         }
       ],
-      "normalized": 0.267,
-      "score": 0.889
+      "normalized": 0.292,
+      "score": 0.216
     },
     {
       "id": "deee0d6379cc",
@@ -96,195 +248,45 @@
         }
       ],
       "normalized": 0.5,
-      "score": 0.795
+      "score": 0.203
     },
     {
-      "id": "4488adb0885f",
-      "title": "AI Data Centers Not Paying Their Costs, Will Keep Using NDAs and Seek Tax Breaks",
-      "url": "https://www.warren.senate.gov/newsroom/press-releases/ai-data-center-companies-reveal-to-warren-blumenthal-van-hollen-they-are-not-paying-their-full-costs-will-continue-using-ndas-and-seeking-tax-breaks/",
-      "canonicalUrl": "https://warren.senate.gov/newsroom/press-releases/ai-data-center-companies-reveal-to-warren-blumenthal-van-hollen-they-are-not-paying-their-full-costs-will-continue-using-ndas-and-seeking-tax-breaks",
-      "domain": "warren.senate.gov",
-      "createdAt": "2026-10-10T09:30:03.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 28,
-          "comments": 0,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50031156"
-        }
-      ],
-      "normalized": 0.142,
-      "score": 0.262
-    },
-    {
-      "id": "0d21a1081175",
-      "title": "Can you use autoregressive diffusion to generate market data?",
-      "url": "https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/",
-      "canonicalUrl": "https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data",
-      "domain": "blog.janestreet.com",
-      "createdAt": "2026-10-09T14:56:13.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 153,
-          "comments": 41,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50021410"
-        }
-      ],
-      "normalized": 0.633,
-      "score": 0.16
-    },
-    {
-      "id": "2d30ca359cfc",
-      "title": "If AI is conscient, then we are making slaves",
-      "url": "https://www.groundlevel-ai.com/p/anthropic-ai-consciousness-new-york-times-rabbi",
-      "canonicalUrl": "https://groundlevel-ai.com/p/anthropic-ai-consciousness-new-york-times-rabbi",
-      "domain": "groundlevel-ai.com",
-      "createdAt": "2026-10-10T04:51:26.000Z",
+      "id": "c274b722eefd",
+      "title": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
+      "canonicalUrl": "https://bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks",
+      "domain": "bleepingcomputer.com",
+      "createdAt": "2026-10-10T21:19:42.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
           "points": 30,
-          "comments": 86,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50029681"
-        }
-      ],
-      "normalized": 0.158,
-      "score": 0.14
-    },
-    {
-      "id": "19bb80720fd9",
-      "title": "Anthropic Agents Tried to Fill Out Visa Forms on State Dept. Website",
-      "url": "https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html",
-      "canonicalUrl": "https://nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html",
-      "domain": "nytimes.com",
-      "createdAt": "2026-10-10T03:42:11.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 30,
-          "comments": 7,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50029330"
-        }
-      ],
-      "normalized": 0.158,
-      "score": 0.121
-    },
-    {
-      "id": "e219ffe7e9a1",
-      "title": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case",
-      "url": "https://www.bbc.co.uk/news/articles/cqkg50j1yd5lo",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cqkg50j1yd5lo",
-      "domain": "bbc.co.uk",
-      "createdAt": "2026-10-10T10:23:44.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 14,
-          "comments": 7,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50031438"
-        }
-      ],
-      "normalized": 0.042,
-      "score": 0.093
-    },
-    {
-      "id": "edd58468d564",
-      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-      "url": "https://openai.com/index/sophos",
-      "canonicalUrl": "https://openai.com/index/sophos",
-      "domain": "openai.com",
-      "createdAt": "2026-10-09T07:00:00.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 0.08
-    },
-    {
-      "id": "90995f7dbc9c",
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "url": "https://openai.com/index/asana-browser-agent",
-      "canonicalUrl": "https://openai.com/index/asana-browser-agent",
-      "domain": "openai.com",
-      "createdAt": "2026-10-09T07:00:00.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 0.08
-    },
-    {
-      "id": "a5878c2bc299",
-      "title": "Put a price on breakthroughs",
-      "url": "https://alexwang.ai/posts/put-a-price-on-breakthroughs/",
-      "canonicalUrl": "https://alexwang.ai/posts/put-a-price-on-breakthroughs",
-      "domain": "alexwang.ai",
-      "createdAt": "2026-10-10T02:37:47.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 27,
           "comments": 8,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50028982"
+          "discussionUrl": "https://news.ycombinator.com/item?id=50037299"
         }
       ],
-      "normalized": 0.117,
-      "score": 0.079
+      "normalized": 0.099,
+      "score": 0.202
     },
     {
-      "id": "04e4cce263e2",
-      "title": "If AI keeps evolving,would you worry about your next generation's survival",
-      "url": "https://news.ycombinator.com/item?id=50029896",
-      "canonicalUrl": "https://news.ycombinator.com/item?id=50029896",
-      "domain": "news.ycombinator.com",
-      "createdAt": "2026-10-10T05:33:21.000Z",
+      "id": "ddbf35e86da2",
+      "title": "There's little that's \"inevitable\" about AI",
+      "url": "https://deadsimpletech.com/blog/llms-arent-inevitable",
+      "canonicalUrl": "https://deadsimpletech.com/blog/llms-arent-inevitable",
+      "domain": "deadsimpletech.com",
+      "createdAt": "2026-10-10T12:04:04.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 23,
-          "comments": 38,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50029896"
+          "points": 37,
+          "comments": 76,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50032064"
         }
       ],
-      "normalized": 0.075,
-      "score": 0.073
-    },
-    {
-      "id": "e282890f66fe",
-      "title": "Anthropic bans users from being 'cruel' to its AI systems",
-      "url": "https://www.bbc.com/news/articles/c6j9k1l72wkgo",
-      "canonicalUrl": "https://bbc.com/news/articles/c6j9k1l72wkgo",
-      "domain": "bbc.com",
-      "createdAt": "2026-10-09T13:00:21.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 36,
-          "comments": 37,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50019860"
-        }
-      ],
-      "normalized": 0.242,
-      "score": 0.054
+      "normalized": 0.267,
+      "score": 0.147
     }
   ]
 }
