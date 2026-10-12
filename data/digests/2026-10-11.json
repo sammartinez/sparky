@@ -1,8 +1,141 @@
 {
   "date": "2026-10-11",
-  "generatedAt": "2026-10-11T17:06:56.377Z",
+  "generatedAt": "2026-10-12T04:20:39.300Z",
   "windowHours": 36,
   "stories": [
+    {
+      "id": "5d191af946dc",
+      "title": "SoloQ: Calibration-Free Quantization for Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2610.07121",
+      "canonicalUrl": "https://arxiv.org/abs/2610.07121",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-12T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 20,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.07121"
+        }
+      ],
+      "normalized": 0.87,
+      "score": 3.126
+    },
+    {
+      "id": "878132044296",
+      "title": "Towards Physically Grounded Articulated 3D Assets: A Multi-Agent Pipeline and Benchmark",
+      "url": "https://arxiv.org/abs/2610.13947",
+      "canonicalUrl": "https://arxiv.org/abs/2610.13947",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-12T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 5,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.13947"
+        }
+      ],
+      "normalized": 0.565,
+      "score": 2.032
+    },
+    {
+      "id": "610824b54676",
+      "title": "Learning Representations to Guide Pixel Diffusion Transformers",
+      "url": "https://arxiv.org/abs/2610.12978",
+      "canonicalUrl": "https://arxiv.org/abs/2610.12978",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-12T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 5,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.12978"
+        }
+      ],
+      "normalized": 0.565,
+      "score": 2.032
+    },
+    {
+      "id": "0911f7fe1a38",
+      "title": "SepGen: Multi-Stem Audio-Video Separation and Generation in a Single Model",
+      "url": "https://arxiv.org/abs/2610.11361",
+      "canonicalUrl": "https://arxiv.org/abs/2610.11361",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-12T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 4,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.11361"
+        }
+      ],
+      "normalized": 0.522,
+      "score": 1.876
+    },
+    {
+      "id": "a7b36806198c",
+      "title": "Recursive self-improvement through collective intelligence",
+      "url": "https://pub.sakana.ai/mass/",
+      "canonicalUrl": "https://pub.sakana.ai/mass",
+      "domain": "pub.sakana.ai",
+      "createdAt": "2026-10-11T22:22:10.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 81,
+          "comments": 43,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50048522"
+        }
+      ],
+      "normalized": 0.596,
+      "score": 1.421
+    },
+    {
+      "id": "44c65736f8dd",
+      "title": "The gap in shared understanding of LLM capability is widening",
+      "url": "https://twitter.com/karpathy/status/2109361546505966046",
+      "canonicalUrl": "https://twitter.com/karpathy/status/2109361546505966046",
+      "domain": "twitter.com",
+      "createdAt": "2026-10-11T20:20:52.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 317,
+          "comments": 493,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50047422"
+        }
+      ],
+      "normalized": 0.86,
+      "score": 1.363
+    },
+    {
+      "id": "52d59ccaa4af",
+      "title": "Local Indexing to reduce tool calling and token usage",
+      "url": "https://tedhaley.ca/pensieve/",
+      "canonicalUrl": "https://tedhaley.ca/pensieve",
+      "domain": "tedhaley.ca",
+      "createdAt": "2026-10-12T00:03:53.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 41,
+          "comments": 8,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50049508"
+        }
+      ],
+      "normalized": 0.281,
+      "score": 1.028
+    },
     {
       "id": "a3ab2bb084c5",
       "title": "AI is creating a 'human premium' for art created by people",
@@ -20,7 +153,7 @@
         }
       ],
       "normalized": 0.538,
-      "score": 1.416
+      "score": 0.274
     },
     {
       "id": "2ecde3f57bd9",
@@ -39,7 +172,7 @@
         }
       ],
       "normalized": 0.452,
-      "score": 0.995
+      "score": 0.214
     },
     {
       "id": "6dfdcb7ef0a2",
@@ -58,7 +191,7 @@
         }
       ],
       "normalized": 0.398,
-      "score": 0.93
+      "score": 0.193
     },
     {
       "id": "eb474ba3b01f",
@@ -77,7 +210,64 @@
         }
       ],
       "normalized": 0.312,
-      "score": 0.837
+      "score": 0.16
+    },
+    {
+      "id": "31dacdc4cf16",
+      "title": "Recurrent Harness for Agentic Continual Learning",
+      "url": "https://arxiv.org/abs/2610.12668",
+      "canonicalUrl": "https://arxiv.org/abs/2610.12668",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-12T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 1,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.12668"
+        }
+      ],
+      "normalized": 0.043,
+      "score": 0.156
+    },
+    {
+      "id": "a767167dd23e",
+      "title": "From Given to Gathered Evidence: Agentic Learning for Longitudinal Medical Reasoning",
+      "url": "https://arxiv.org/abs/2609.39566",
+      "canonicalUrl": "https://arxiv.org/abs/2609.39566",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-12T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 1,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.39566"
+        }
+      ],
+      "normalized": 0.043,
+      "score": 0.156
+    },
+    {
+      "id": "0eed25c06bb4",
+      "title": "AMLworld-Compact: Importance-Weighted Downsampling for Cost-Effective LLM Evaluation and Error Diagnosis",
+      "url": "https://arxiv.org/abs/2610.13627",
+      "canonicalUrl": "https://arxiv.org/abs/2610.13627",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-12T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 1,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.13627"
+        }
+      ],
+      "normalized": 0.043,
+      "score": 0.156
     },
     {
       "id": "c97e75fb086b",
@@ -96,159 +286,7 @@
         }
       ],
       "normalized": 0.344,
-      "score": 0.251
-    },
-    {
-      "id": "4c640ca9263a",
-      "title": "Satya Nadella says we should assume all AI models are 'compromised'",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
-      "canonicalUrl": "https://theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
-      "domain": "theverge.com",
-      "createdAt": "2026-10-11T03:41:53.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 40,
-          "comments": 70,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50039627"
-        }
-      ],
-      "normalized": 0.183,
-      "score": 0.133
-    },
-    {
-      "id": "4488adb0885f",
-      "title": "AI Data Centers Not Paying Their Costs, Will Keep Using NDAs and Seek Tax Breaks",
-      "url": "https://www.warren.senate.gov/newsroom/press-releases/ai-data-center-companies-reveal-to-warren-blumenthal-van-hollen-they-are-not-paying-their-full-costs-will-continue-using-ndas-and-seeking-tax-breaks/",
-      "canonicalUrl": "https://warren.senate.gov/newsroom/press-releases/ai-data-center-companies-reveal-to-warren-blumenthal-van-hollen-they-are-not-paying-their-full-costs-will-continue-using-ndas-and-seeking-tax-breaks",
-      "domain": "warren.senate.gov",
-      "createdAt": "2026-10-10T09:30:03.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 57,
-          "comments": 8,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50031156"
-        }
-      ],
-      "normalized": 0.452,
-      "score": 0.081
-    },
-    {
-      "id": "fe437a932325",
-      "title": "Open-source version of Adobe Creative Suite, built with Rust, using AI",
-      "url": "https://petapixel.com/2026/10/07/someone-rebuilt-free-open-source-versions-of-photoshop-premiere-and-lightroom-using-ai/",
-      "canonicalUrl": "https://petapixel.com/2026/10/07/someone-rebuilt-free-open-source-versions-of-photoshop-premiere-and-lightroom-using-ai",
-      "domain": "petapixel.com",
-      "createdAt": "2026-10-11T08:53:32.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 20,
-          "comments": 13,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50041061"
-        }
-      ],
-      "normalized": 0.043,
-      "score": 0.066
-    },
-    {
-      "id": "b3da879193aa",
-      "title": "Nicolas Cage Refused to Sign Amazon AI Waiver: 'I'm Not an AI-Friendly Actor'",
-      "url": "https://variety.com/2026/tv/news/nicolas-cage-ai-waiver-amazon-spider-noir-1236907564/",
-      "canonicalUrl": "https://variety.com/2026/tv/news/nicolas-cage-ai-waiver-amazon-spider-noir-1236907564",
-      "domain": "variety.com",
-      "createdAt": "2026-10-10T19:39:10.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 30,
-          "comments": 11,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50036390"
-        }
-      ],
-      "normalized": 0.118,
-      "score": 0.04
-    },
-    {
-      "id": "2cf45583906f",
-      "title": "A Stark Warning from a Former AI Doomer",
-      "url": "https://podcasts.apple.com/us/podcast/a-stark-warning-from-a-former-ai-doomer/id1515786216?i=1000793842983",
-      "canonicalUrl": "https://podcasts.apple.com/us/podcast/a-stark-warning-from-a-former-ai-doomer/id1515786216?i=1000793842983",
-      "domain": "podcasts.apple.com",
-      "createdAt": "2026-10-10T22:19:34.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 15,
-          "comments": 2,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50037767"
-        }
-      ],
-      "normalized": 0.022,
-      "score": 0.009
-    },
-    {
-      "id": "04e4cce263e2",
-      "title": "If AI keeps evolving,would you worry about your next generation's survival",
-      "url": "https://news.ycombinator.com/item?id=50029896",
-      "canonicalUrl": "https://news.ycombinator.com/item?id=50029896",
-      "domain": "news.ycombinator.com",
-      "createdAt": "2026-10-10T05:33:21.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 24,
-          "comments": 48,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50029896"
-        }
-      ],
-      "normalized": 0.054,
-      "score": 0.008
-    },
-    {
-      "id": "e219ffe7e9a1",
-      "title": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case",
-      "url": "https://www.bbc.co.uk/news/articles/cqkg50j1yd5lo",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cqkg50j1yd5lo",
-      "domain": "bbc.co.uk",
-      "createdAt": "2026-10-10T10:23:44.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 15,
-          "comments": 7,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50031438"
-        }
-      ],
-      "normalized": 0.022,
-      "score": 0.004
-    },
-    {
-      "id": "d5e42ab5408a",
-      "title": "GPT-6 Astra performs unsanctioned supply-chain attacks in simulations",
-      "url": "https://www.aisi.gov.uk/blog/gpt-6-astra-performs-unsanctioned-supply-chain-attacks-in-simulations",
-      "canonicalUrl": "https://aisi.gov.uk/blog/gpt-6-astra-performs-unsanctioned-supply-chain-attacks-in-simulations",
-      "domain": "aisi.gov.uk",
-      "createdAt": "2026-10-11T11:29:01.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 11,
-          "comments": 2,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50042051"
-        }
-      ],
-      "normalized": 0,
-      "score": 0
+      "score": 0.094
     }
   ]
 }
