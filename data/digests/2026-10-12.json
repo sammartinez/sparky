@@ -1,45 +1,235 @@
 {
   "date": "2026-10-12",
-  "generatedAt": "2026-10-12T20:39:28.262Z",
+  "generatedAt": "2026-10-13T05:29:33.387Z",
   "windowHours": 36,
   "stories": [
     {
-      "id": "e1d52c6e9be3",
-      "title": "Introducing OpenFatigue",
-      "url": "https://openfatigue.ai/",
-      "canonicalUrl": "https://openfatigue.ai/",
-      "domain": "openfatigue.ai",
-      "createdAt": "2026-10-12T19:08:21.000Z",
+      "id": "fbe89153a79b",
+      "title": "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives",
+      "url": "https://arxiv.org/abs/2609.39601",
+      "canonicalUrl": "https://arxiv.org/abs/2609.39601",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-13T00:00:00.000Z",
       "appearances": [
         {
-          "source": "hn",
-          "label": "HN",
-          "points": 104,
-          "comments": 19,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50061278"
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 33,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.39601"
         }
       ],
-      "normalized": 0.59,
-      "score": 6.126
+      "normalized": 0.925,
+      "score": 2.465
     },
     {
-      "id": "1de4bc7d9794",
-      "title": "Just say no to OpenAI and Anthropic",
-      "url": "https://micahflee.com/just-say-no-to-openai-and-anthropic/",
-      "canonicalUrl": "https://micahflee.com/just-say-no-to-openai-and-anthropic",
-      "domain": "micahflee.com",
-      "createdAt": "2026-10-12T18:17:29.000Z",
+      "id": "5b5ddc86f4df",
+      "title": "Scaling Agentic Data for Long-Horizon Terminal Intelligence",
+      "url": "https://arxiv.org/abs/2610.13166",
+      "canonicalUrl": "https://arxiv.org/abs/2610.13166",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-13T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 29,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.13166"
+        }
+      ],
+      "normalized": 0.875,
+      "score": 2.332
+    },
+    {
+      "id": "a9dd5c536426",
+      "title": "A look at OpenAI’s math that’s claimed computes faster Fourier transforms",
+      "url": "https://www.argmin.net/p/faster-fourier-transforms",
+      "canonicalUrl": "https://argmin.net/p/faster-fourier-transforms",
+      "domain": "argmin.net",
+      "createdAt": "2026-10-13T02:46:43.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 145,
-          "comments": 128,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50060500"
+          "points": 78,
+          "comments": 43,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50065932"
         }
       ],
-      "normalized": 0.654,
-      "score": 4.605
+      "normalized": 0.377,
+      "score": 2.316
+    },
+    {
+      "id": "93048eb4719b",
+      "title": "AgentSWE: Can Coding Agents Build the Agent You Actually Want?",
+      "url": "https://arxiv.org/abs/2610.13361",
+      "canonicalUrl": "https://arxiv.org/abs/2610.13361",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-13T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 18,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.13361"
+        }
+      ],
+      "normalized": 0.8,
+      "score": 2.132
+    },
+    {
+      "id": "224c102190be",
+      "title": "AI Models Can Provably Hide Arbitrary Capabilities",
+      "url": "https://arxiv.org/abs/2610.13928",
+      "canonicalUrl": "https://arxiv.org/abs/2610.13928",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-13T02:07:08.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 68,
+          "comments": 34,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50065692"
+        }
+      ],
+      "normalized": 0.346,
+      "score": 1.677
+    },
+    {
+      "id": "57bc6c70e610",
+      "title": "Systematic Multi-Agent Vision-and-Language Navigation: Formulation, Benchmark, and Method",
+      "url": "https://arxiv.org/abs/2609.35965",
+      "canonicalUrl": "https://arxiv.org/abs/2609.35965",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-13T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 9,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2609.35965"
+        }
+      ],
+      "normalized": 0.575,
+      "score": 1.532
+    },
+    {
+      "id": "3764e55e9f35",
+      "title": "Thinking Inertia: LLMs Keep Thinking When Told Not To",
+      "url": "https://arxiv.org/abs/2610.11765",
+      "canonicalUrl": "https://arxiv.org/abs/2610.11765",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-13T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 8,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.11765"
+        }
+      ],
+      "normalized": 0.55,
+      "score": 1.466
+    },
+    {
+      "id": "9202dbf6eedd",
+      "title": "AI is a tool and using it well takes skill",
+      "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
+      "canonicalUrl": "https://yyhh.org/blog/2026/10/ai-is-a-tool",
+      "domain": "yyhh.org",
+      "createdAt": "2026-10-12T21:40:18.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 303,
+          "comments": 248,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50063427"
+        }
+      ],
+      "normalized": 0.824,
+      "score": 1.349
+    },
+    {
+      "id": "343756543cb3",
+      "title": "I turned my unused Kindle into a photo frame with GPT-6 Astra",
+      "url": "https://nirajrajgor.com/blog/kindle-photo-frame-with-ai",
+      "canonicalUrl": "https://nirajrajgor.com/blog/kindle-photo-frame-with-ai",
+      "domain": "nirajrajgor.com",
+      "createdAt": "2026-10-12T23:07:25.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 137,
+          "comments": 91,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50064318"
+        }
+      ],
+      "normalized": 0.61,
+      "score": 1.332
+    },
+    {
+      "id": "d36733ac43fe",
+      "title": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
+      "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
+      "canonicalUrl": "https://intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
+      "domain": "intel.com",
+      "createdAt": "2026-10-12T21:35:35.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 134,
+          "comments": 59,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50063365"
+        }
+      ],
+      "normalized": 0.585,
+      "score": 0.944
+    },
+    {
+      "id": "fcf6e421796d",
+      "title": "Strengthening our defenses against distillation attacks",
+      "url": "https://www.anthropic.com/research/distillation-defenses",
+      "canonicalUrl": "https://anthropic.com/research/distillation-defenses",
+      "domain": "anthropic.com",
+      "createdAt": "2026-10-13T01:46:47.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 32,
+          "comments": 72,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50065553"
+        }
+      ],
+      "normalized": 0.176,
+      "score": 0.765
+    },
+    {
+      "id": "9af2d4a6d3d7",
+      "title": "'AI' Is Not a Tool by Rich Hickey",
+      "url": "https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e",
+      "canonicalUrl": "https://linkedin.com/pulse/ai-tool-rich-hickey-kjl8e",
+      "domain": "linkedin.com",
+      "createdAt": "2026-10-12T18:00:25.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 246,
+          "comments": 122,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50060269"
+        }
+      ],
+      "normalized": 0.78,
+      "score": 0.722
     },
     {
       "id": "31ba1e7c3abd",
@@ -58,235 +248,45 @@
         }
       ],
       "normalized": 0.904,
-      "score": 3.751
+      "score": 0.717
     },
     {
-      "id": "745c37586581",
-      "title": "AI models may be capable of self-replicating without access to a datacenter",
-      "url": "https://www.anthropic.com/research/self-replicating-ai",
-      "canonicalUrl": "https://anthropic.com/research/self-replicating-ai",
-      "domain": "anthropic.com",
-      "createdAt": "2026-10-12T19:25:29.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 53,
-          "comments": 72,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50061603"
-        }
-      ],
-      "normalized": 0.295,
-      "score": 3.567
-    },
-    {
-      "id": "b6603a0a4aa6",
-      "title": "GLM-Legal",
-      "url": "https://z.ai/blog/glm-legal",
-      "canonicalUrl": "https://z.ai/blog/glm-legal",
-      "domain": "z.ai",
-      "createdAt": "2026-10-12T16:11:45.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 318,
-          "comments": 175,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50058507"
-        }
-      ],
-      "normalized": 0.853,
-      "score": 2.965
-    },
-    {
-      "id": "be915e7e8cbe",
-      "title": "'AI' Is Not a Tool by Rich Hickey",
-      "url": "https://gist.github.com/svieira/619d60dea942a8d4498cba3bb6b11c02",
-      "canonicalUrl": "https://gist.github.com/svieira/619d60dea942a8d4498cba3bb6b11c02",
-      "domain": "gist.github.com",
-      "createdAt": "2026-10-12T18:00:25.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 69,
-          "comments": 28,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50060269"
-        }
-      ],
-      "normalized": 0.404,
-      "score": 2.539
-    },
-    {
-      "id": "da6fcdba1376",
-      "title": "Why aren't AI companies being charged for hacking?",
-      "url": "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/",
-      "canonicalUrl": "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking",
-      "domain": "mortoray.com",
-      "createdAt": "2026-10-12T14:52:37.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 297,
-          "comments": 303,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50057278"
-        }
-      ],
-      "normalized": 0.833,
-      "score": 2.075
-    },
-    {
-      "id": "f869ceb5043b",
-      "title": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
-      "url": "https://taylor.town/kk-ai-2026",
-      "canonicalUrl": "https://taylor.town/kk-ai-2026",
-      "domain": "taylor.town",
-      "createdAt": "2026-10-12T15:16:45.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 87,
-          "comments": 19,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50057668"
-        }
-      ],
-      "normalized": 0.526,
-      "score": 1.44
-    },
-    {
-      "id": "1a36455d359d",
-      "title": "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
-      "url": "https://news.ycombinator.com/item?id=50059096",
-      "canonicalUrl": "https://news.ycombinator.com/item?id=50059096",
-      "domain": "news.ycombinator.com",
-      "createdAt": "2026-10-12T16:46:34.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 62,
-          "comments": 45,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50059096"
-        }
-      ],
-      "normalized": 0.346,
-      "score": 1.426
-    },
-    {
-      "id": "c68c034bd72c",
-      "title": "QGIS enacts moratorium on AI contributions",
-      "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
-      "canonicalUrl": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+      "id": "9ca2bcd34e54",
+      "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
+      "url": "https://github.com/prabanta-dev/janas",
+      "canonicalUrl": "https://github.com/prabanta-dev/janas",
       "domain": "github.com",
-      "createdAt": "2026-10-12T11:22:24.000Z",
+      "createdAt": "2026-10-12T22:05:43.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 345,
-          "comments": 385,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50054751"
+          "points": 80,
+          "comments": 29,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50063717"
         }
       ],
-      "normalized": 0.872,
-      "score": 1.112
+      "normalized": 0.39,
+      "score": 0.691
     },
     {
-      "id": "402726f30a4c",
-      "title": "\"Just Ask Claude\" Is a Rare and Valuable Skill",
-      "url": "https://justismills.substack.com/p/just-ask-claude-is-a-rare-and-valuable",
-      "canonicalUrl": "https://justismills.substack.com/p/just-ask-claude-is-a-rare-and-valuable",
-      "domain": "justismills.substack.com",
-      "createdAt": "2026-10-12T13:20:04.000Z",
+      "id": "e1d52c6e9be3",
+      "title": "Introducing OpenFatigue",
+      "url": "https://openfatigue.ai/",
+      "canonicalUrl": "https://openfatigue.ai/",
+      "domain": "openfatigue.ai",
+      "createdAt": "2026-10-12T19:08:21.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 52,
-          "comments": 61,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50056063"
+          "points": 104,
+          "comments": 19,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50061278"
         }
       ],
-      "normalized": 0.282,
-      "score": 0.507
-    },
-    {
-      "id": "9c03de7cac4a",
-      "title": "Research Firm Calls Anthropic's IPO 'Unprecedented Test of Investor Gullibity'",
-      "url": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
-      "canonicalUrl": "https://cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
-      "domain": "cnbc.com",
-      "createdAt": "2026-10-12T05:03:47.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 234,
-          "comments": 203,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50051583"
-        }
-      ],
-      "normalized": 0.782,
-      "score": 0.448
-    },
-    {
-      "id": "2cb79b2d9c64",
-      "title": "DiffusionART: Efficient, Stable and Scalable Reinforcement of Diffusion Models",
-      "url": "https://arxiv.org/abs/2610.12572",
-      "canonicalUrl": "https://arxiv.org/abs/2610.12572",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-12T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 227,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.12572"
-        }
-      ],
-      "normalized": 0.975,
-      "score": 0.354
-    },
-    {
-      "id": "571c8a9452d8",
-      "title": "SoftwareGym: Scaling Computer-Use Agent Training with Diverse Synthesized Software Environments",
-      "url": "https://arxiv.org/abs/2610.12611",
-      "canonicalUrl": "https://arxiv.org/abs/2610.12611",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-12T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 82,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.12611"
-        }
-      ],
-      "normalized": 0.9,
-      "score": 0.327
-    },
-    {
-      "id": "048fcb30e5f3",
-      "title": "AI coding agents generate more code, but not more software",
-      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
-      "canonicalUrl": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software",
-      "domain": "arstechnica.com",
-      "createdAt": "2026-10-12T02:10:20.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 200,
-          "comments": 163,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50059523"
-        }
-      ],
-      "normalized": 0.737,
-      "score": 0.321
+      "normalized": 0.59,
+      "score": 0.639
     }
   ]
 }
