@@ -1,25 +1,213 @@
 {
   "date": "2026-10-13",
-  "generatedAt": "2026-10-13T18:42:22.803Z",
+  "generatedAt": "2026-10-14T03:32:48.908Z",
   "windowHours": 36,
   "stories": [
     {
-      "id": "550c4c02e9ff",
-      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
-      "canonicalUrl": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
-      "domain": "huggingface.co",
-      "createdAt": "2026-10-13T17:05:48.000Z",
+      "id": "5cb1618c1db5",
+      "title": "Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams",
+      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+      "canonicalUrl": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi",
+      "domain": "deepmind.google",
+      "createdAt": "2026-10-14T02:00:14.000Z",
       "appearances": [
         {
           "source": "rss",
-          "label": "Hugging Face",
+          "label": "Google DeepMind",
           "points": null,
           "comments": null
         }
       ],
       "normalized": 0.5,
-      "score": 4.961
+      "score": 5.13
+    },
+    {
+      "id": "9abfa6eaa744",
+      "title": "Harness^2: Recursive Agent Harnessing for an Open World",
+      "url": "https://arxiv.org/abs/2610.14224",
+      "canonicalUrl": "https://arxiv.org/abs/2610.14224",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-14T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 12,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.14224"
+        }
+      ],
+      "normalized": 0.7,
+      "score": 3.205
+    },
+    {
+      "id": "a8983c3740ba",
+      "title": "OpenAI engineer arrested in bugging of executive conference room",
+      "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+      "canonicalUrl": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room",
+      "domain": "sfstandard.com",
+      "createdAt": "2026-10-13T20:23:55.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 452,
+          "comments": 396,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50078141"
+        }
+      ],
+      "normalized": 0.914,
+      "score": 1.7
+    },
+    {
+      "id": "035238119c6c",
+      "title": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
+      "url": "https://pulseos.finance",
+      "canonicalUrl": "https://pulseos.finance/",
+      "domain": "pulseos.finance",
+      "createdAt": "2026-10-13T23:13:23.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 79,
+          "comments": 38,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50080275"
+        }
+      ],
+      "normalized": 0.437,
+      "score": 1.579
+    },
+    {
+      "id": "4a863ac76646",
+      "title": "llm-gemini 0.35",
+      "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
+      "canonicalUrl": "https://simonwillison.net/2026/Oct/13/llm-gemini",
+      "domain": "simonwillison.net",
+      "createdAt": "2026-10-13T22:28:54.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Simon Willison",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 1.481
+    },
+    {
+      "id": "25432b6b093a",
+      "title": "Developing Gemini 4 Argon responsibly and safely",
+      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+      "canonicalUrl": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely",
+      "domain": "deepmind.google",
+      "createdAt": "2026-10-13T19:43:07.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Google DeepMind",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.818
+    },
+    {
+      "id": "25b8b354322b",
+      "title": "Spectral-Driven Adaptive-Rank Optimizer for Large Language Model Reinforcement Learning with Verifiable Rewards",
+      "url": "https://arxiv.org/abs/2610.16533",
+      "canonicalUrl": "https://arxiv.org/abs/2610.16533",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-14T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.16533"
+        }
+      ],
+      "normalized": 0.175,
+      "score": 0.801
+    },
+    {
+      "id": "a074042a2adb",
+      "title": "Agent Sociodrama: Social-Dynamics-Guided Persona Recasting for LLM Agent Teams",
+      "url": "https://arxiv.org/abs/2610.15788",
+      "canonicalUrl": "https://arxiv.org/abs/2610.15788",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-14T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.15788"
+        }
+      ],
+      "normalized": 0.175,
+      "score": 0.801
+    },
+    {
+      "id": "95bea73c8517",
+      "title": "RSIPO: Recursive Self-Improving Policy Optimization for Agentic Reinforcement Learning via Skill-Policy Co-Evolution",
+      "url": "https://arxiv.org/abs/2610.15772",
+      "canonicalUrl": "https://arxiv.org/abs/2610.15772",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-14T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.15772"
+        }
+      ],
+      "normalized": 0.175,
+      "score": 0.801
+    },
+    {
+      "id": "40a6a4183756",
+      "title": "Vela: User Behavior as Supervision Sparks LLM Intelligence",
+      "url": "https://arxiv.org/abs/2610.14709",
+      "canonicalUrl": "https://arxiv.org/abs/2610.14709",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-14T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.14709"
+        }
+      ],
+      "normalized": 0.175,
+      "score": 0.801
+    },
+    {
+      "id": "421acab06078",
+      "title": "OpenAI finds recording device in one of their offices",
+      "url": "https://twitter.com/OpenAINewsroom/status/2110095403198849132",
+      "canonicalUrl": "https://twitter.com/OpenAINewsroom/status/2110095403198849132",
+      "domain": "twitter.com",
+      "createdAt": "2026-10-13T19:55:31.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 83,
+          "comments": 2,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50077703"
+        }
+      ],
+      "normalized": 0.466,
+      "score": 0.791
     },
     {
       "id": "1609f5d4ca73",
@@ -44,7 +232,44 @@
         }
       ],
       "normalized": 0.5,
-      "score": 4.674
+      "score": 0.691
+    },
+    {
+      "id": "0a248ec43515",
+      "title": "Show HN: Parsimony – an open-source benchmark for how much code AI models add",
+      "url": "https://parsimony.lasu.dev/",
+      "canonicalUrl": "https://parsimony.lasu.dev/",
+      "domain": "parsimony.lasu.dev",
+      "createdAt": "2026-10-13T19:50:31.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 59,
+          "comments": 7,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50077619"
+        }
+      ],
+      "normalized": 0.374,
+      "score": 0.625
+    },
+    {
+      "id": "550c4c02e9ff",
+      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "canonicalUrl": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "domain": "huggingface.co",
+      "createdAt": "2026-10-13T17:05:48.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.534
     },
     {
       "id": "d6e89e4381e4",
@@ -63,234 +288,7 @@
         }
       ],
       "normalized": 0.587,
-      "score": 3.391
-    },
-    {
-      "id": "316153953adf",
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-      "canonicalUrl": "https://deepmind.google/blog/introducing-gemini-4-argon",
-      "domain": "deepmind.google",
-      "createdAt": "2026-10-13T16:01:52.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "Google DeepMind",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 3.114
-    },
-    {
-      "id": "8440981c4dc4",
-      "title": "Running RAG with a (small) language model in the browser",
-      "url": "https://bart.degoe.de/rag-with-a-small-language-model-in-the-browser/",
-      "canonicalUrl": "https://bart.degoe.de/rag-with-a-small-language-model-in-the-browser",
-      "domain": "bart.degoe.de",
-      "createdAt": "2026-10-13T15:56:29.994Z",
-      "appearances": [
-        {
-          "source": "lobsters",
-          "label": "Lobsters",
-          "points": 1,
-          "comments": 0,
-          "discussionUrl": "https://lobste.rs/s/nsjjo3/running_rag_with_small_language_model"
-        }
-      ],
-      "normalized": 0.5,
-      "score": 3.01
-    },
-    {
-      "id": "cc86cfcee076",
-      "title": "I posted to HN, and then my website was flooded with AI bot traffic",
-      "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
-      "canonicalUrl": "https://sammystraus.com/",
-      "domain": "sammystraus.com",
-      "createdAt": "2026-10-13T15:25:50.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 129,
-          "comments": 74,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50073221"
-        }
-      ],
-      "normalized": 0.527,
-      "score": 2.64
-    },
-    {
-      "id": "0f8702d20d78",
-      "title": "We turned EmbeddingGemma 2 into a speech-to-text model",
-      "url": "https://eg2.haku.sh/",
-      "canonicalUrl": "https://eg2.haku.sh/",
-      "domain": "eg2.haku.sh",
-      "createdAt": "2026-10-13T11:27:14.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 320,
-          "comments": 79,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50069971"
-        }
-      ],
-      "normalized": 0.838,
-      "score": 1.528
-    },
-    {
-      "id": "438f8f82161f",
-      "title": "A Dynamic and Distributed Virtual GPU Cloud Built on Idle Apple Silicon Devices",
-      "url": "https://machinelearning.apple.com/research/distributed-gpu-cloud",
-      "canonicalUrl": "https://machinelearning.apple.com/research/distributed-gpu-cloud",
-      "domain": "machinelearning.apple.com",
-      "createdAt": "2026-10-13T12:26:36.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 183,
-          "comments": 79,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50070593"
-        }
-      ],
-      "normalized": 0.677,
-      "score": 1.512
-    },
-    {
-      "id": "ffda6caad408",
-      "title": "How to engineer an AI harness for game development",
-      "url": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
-      "canonicalUrl": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
-      "domain": "kylekukshtel.com",
-      "createdAt": "2026-10-13T14:14:23.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 49,
-          "comments": 18,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50072120"
-        }
-      ],
-      "normalized": 0.293,
-      "score": 1.019
-    },
-    {
-      "id": "247e23899cea",
-      "title": "Character.ai Files for Bankruptcy",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
-      "canonicalUrl": "https://theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
-      "domain": "theverge.com",
-      "createdAt": "2026-10-13T11:24:08.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 144,
-          "comments": 20,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50069942"
-        }
-      ],
-      "normalized": 0.557,
-      "score": 1.005
-    },
-    {
-      "id": "71afce8b579b",
-      "title": "Show HN: Use your OpenAI subscription to create audiobooks",
-      "url": "https://pdftomp3.com/connect-ai/",
-      "canonicalUrl": "https://pdftomp3.com/connect-ai",
-      "domain": "pdftomp3.com",
-      "createdAt": "2026-10-13T10:08:34.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 139,
-          "comments": 71,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50069337"
-        }
-      ],
-      "normalized": 0.539,
-      "score": 0.774
-    },
-    {
-      "id": "61514929f532",
-      "title": "Character.ai has initiated voluntary Chapter 11 bankruptcy",
-      "url": "https://blog.character.ai/an-update-on-character-ai/",
-      "canonicalUrl": "https://blog.character.ai/an-update-on-character-ai",
-      "domain": "blog.character.ai",
-      "createdAt": "2026-10-13T07:28:34.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 195,
-          "comments": 215,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50068036"
-        }
-      ],
-      "normalized": 0.701,
-      "score": 0.671
-    },
-    {
-      "id": "11af398f9ba6",
-      "title": "Scientists wonder: Is my AI stealing my ideas?",
-      "url": "https://www.scientificamerican.com/article/scientists-worry-ai-is-stealing-their-ideas/",
-      "canonicalUrl": "https://scientificamerican.com/article/scientists-worry-ai-is-stealing-their-ideas",
-      "domain": "scientificamerican.com",
-      "createdAt": "2026-10-13T16:05:51.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 25,
-          "comments": 13,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50073926"
-        }
-      ],
-      "normalized": 0.072,
-      "score": 0.459
-    },
-    {
-      "id": "555941da61c2",
-      "title": "Launch HN: Consus (YC F24) – LLM gateway for companies handling sensitive data",
-      "url": "https://news.ycombinator.com/item?id=50073471",
-      "canonicalUrl": "https://news.ycombinator.com/item?id=50073471",
-      "domain": "news.ycombinator.com",
-      "createdAt": "2026-10-13T15:41:00.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 26,
-          "comments": 13,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50073471"
-        }
-      ],
-      "normalized": 0.078,
-      "score": 0.426
-    },
-    {
-      "id": "bd9d9b4f5d97",
-      "title": "Threat of AI share crash puts world financial stability at risk, says IMF",
-      "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
-      "canonicalUrl": "https://theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
-      "domain": "theguardian.com",
-      "createdAt": "2026-10-13T05:57:32.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 103,
-          "comments": 124,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50067356"
-        }
-      ],
-      "normalized": 0.491,
-      "score": 0.387
+      "score": 0.527
     }
   ]
 }
