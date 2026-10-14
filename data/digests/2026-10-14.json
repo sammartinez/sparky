@@ -1,0 +1,290 @@
+{
+  "date": "2026-10-14",
+  "generatedAt": "2026-10-14T16:14:38.440Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "672ebf75c430",
+      "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+      "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+      "canonicalUrl": "https://huggingface.co/blog/allenai/hiro-acev2",
+      "domain": "huggingface.co",
+      "createdAt": "2026-10-14T16:12:42.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 13.95
+    },
+    {
+      "id": "717479e17888",
+      "title": "ASML's strong orders ease fears AI spending boom is running out of steam",
+      "url": "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/",
+      "canonicalUrl": "https://reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14",
+      "domain": "reuters.com",
+      "createdAt": "2026-10-14T14:38:55.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 83,
+          "comments": 67,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50088430"
+        }
+      ],
+      "normalized": 0.607,
+      "score": 6.069
+    },
+    {
+      "id": "7ff3cccd1a70",
+      "title": "AI is mass decompiling games. That's both awesome and scary",
+      "url": "https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome-and-scary/",
+      "canonicalUrl": "https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome-and-scary",
+      "domain": "popcar.bearblog.dev",
+      "createdAt": "2026-10-14T14:47:44.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 46,
+          "comments": 21,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50088534"
+        }
+      ],
+      "normalized": 0.337,
+      "score": 3.635
+    },
+    {
+      "id": "840427812676",
+      "title": "TV4 postpones show after AI agent erases edited material",
+      "url": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage",
+      "canonicalUrl": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage",
+      "domain": "swedenherald.com",
+      "createdAt": "2026-10-14T10:28:26.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 92,
+          "comments": 56,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50085323"
+        }
+      ],
+      "normalized": 0.663,
+      "score": 1.654
+    },
+    {
+      "id": "af09f75278d0",
+      "title": "Agent erased full season of \"The Challenge Swe\": \"Hundreds of days of work gone\"",
+      "url": "https://www.aviaduct.com/?l=og+en&u=https%3A%2F%2Fwww.aftonbladet.se%2Fnojesbladet%2Fa%2F31oE8A%2Fthe-challenge-sverige-raderad-av-ai-bara-veckor-innan-premiaren",
+      "canonicalUrl": "https://aviaduct.com/?l=og+en&u=https%3A%2F%2Fwww.aftonbladet.se%2Fnojesbladet%2Fa%2F31oE8A%2Fthe-challenge-sverige-raderad-av-ai-bara-veckor-innan-premiaren",
+      "domain": "aviaduct.com",
+      "createdAt": "2026-10-14T10:21:13.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 53,
+          "comments": 58,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50085259"
+        }
+      ],
+      "normalized": 0.417,
+      "score": 1.013
+    },
+    {
+      "id": "7d4e9611b87e",
+      "title": "I let an AI run my startup for a week",
+      "url": "https://daily.tinyprojects.dev/221",
+      "canonicalUrl": "https://daily.tinyprojects.dev/221",
+      "domain": "daily.tinyprojects.dev",
+      "createdAt": "2026-10-14T10:25:48.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 49,
+          "comments": 54,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50085296"
+        }
+      ],
+      "normalized": 0.393,
+      "score": 0.97
+    },
+    {
+      "id": "e181547094b0",
+      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "url": "https://openai.com/index/third-moment-research",
+      "canonicalUrl": "https://openai.com/index/third-moment-research",
+      "domain": "openai.com",
+      "createdAt": "2026-10-14T07:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.642
+    },
+    {
+      "id": "de2574ffe05a",
+      "title": "Anthropic conjures threat that doesn't exist yet to stoke fears of AI apocalypse",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/13/anthropic-conjures-another-threat-that-doesnt-exist-yet-to-stoke-fears-of-ai-apocalypse/5302866",
+      "canonicalUrl": "https://theregister.com/ai-and-ml/2026/10/13/anthropic-conjures-another-threat-that-doesnt-exist-yet-to-stoke-fears-of-ai-apocalypse/5302866",
+      "domain": "theregister.com",
+      "createdAt": "2026-10-14T05:53:36.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 69,
+          "comments": 83,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50082962"
+        }
+      ],
+      "normalized": 0.509,
+      "score": 0.552
+    },
+    {
+      "id": "1143e4917db6",
+      "title": "Agent-Reflex: Teaching Language Agents to Act Reflectively",
+      "url": "https://arxiv.org/abs/2610.17953",
+      "canonicalUrl": "https://arxiv.org/abs/2610.17953",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-14T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 142,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.17953"
+        }
+      ],
+      "normalized": 0.95,
+      "score": 0.51
+    },
+    {
+      "id": "4fe0155b06ba",
+      "title": "Urbex: Agentic Spatial Grounding for City-Scale 3D Scenes",
+      "url": "https://arxiv.org/abs/2610.18356",
+      "canonicalUrl": "https://arxiv.org/abs/2610.18356",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-14T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 109,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.18356"
+        }
+      ],
+      "normalized": 0.925,
+      "score": 0.497
+    },
+    {
+      "id": "f9f14d431ef6",
+      "title": "GreenWAM: A World Foundation Model for Robotics",
+      "url": "https://arxiv.org/abs/2610.18774",
+      "canonicalUrl": "https://arxiv.org/abs/2610.18774",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-14T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 77,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.18774"
+        }
+      ],
+      "normalized": 0.9,
+      "score": 0.483
+    },
+    {
+      "id": "06292ac6828a",
+      "title": "EviScene: Beyond \"Is It AI?\" for Agentic Image Factuality Assessment",
+      "url": "https://arxiv.org/abs/2610.14609",
+      "canonicalUrl": "https://arxiv.org/abs/2610.14609",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-14T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 49,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.14609"
+        }
+      ],
+      "normalized": 0.875,
+      "score": 0.47
+    },
+    {
+      "id": "8499e5245393",
+      "title": "Show HN: I built a tool to track what AI leaders say and how their views change",
+      "url": "https://blumify.io/people",
+      "canonicalUrl": "https://blumify.io/people",
+      "domain": "blumify.io",
+      "createdAt": "2026-10-14T01:09:13.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 113,
+          "comments": 75,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50081151"
+        }
+      ],
+      "normalized": 0.736,
+      "score": 0.445
+    },
+    {
+      "id": "a5ea56f0edac",
+      "title": "Character.ai's Bankruptcy Documents Show the Economics of AI Don't Work",
+      "url": "https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work/",
+      "canonicalUrl": "https://404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work",
+      "domain": "404media.co",
+      "createdAt": "2026-10-14T15:39:45.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 14,
+          "comments": 5,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50089395"
+        }
+      ],
+      "normalized": 0.025,
+      "score": 0.445
+    },
+    {
+      "id": "98f0c8902c4b",
+      "title": "Show HN: Building an LLM from Scratch in TypeScript",
+      "url": "https://book.humanexperiences.io/",
+      "canonicalUrl": "https://book.humanexperiences.io/",
+      "domain": "book.humanexperiences.io",
+      "createdAt": "2026-10-14T10:29:56.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 30,
+          "comments": 3,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50085332"
+        }
+      ],
+      "normalized": 0.153,
+      "score": 0.385
+    }
+  ]
+}
