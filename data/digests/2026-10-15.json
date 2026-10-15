@@ -1,0 +1,289 @@
+{
+  "date": "2026-10-15",
+  "generatedAt": "2026-10-15T16:02:07.187Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "1345f06390cb",
+      "title": "Simons Foundation Launches $15M Effort to Help Mathematicians Navigate AI Era",
+      "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
+      "canonicalUrl": "https://simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era",
+      "domain": "simonsfoundation.org",
+      "createdAt": "2026-10-15T14:58:48.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 67,
+          "comments": 34,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50104654"
+        }
+      ],
+      "normalized": 0.444,
+      "score": 5.943
+    },
+    {
+      "id": "40b611a330c7",
+      "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
+      "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
+      "canonicalUrl": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors",
+      "domain": "simonwillison.net",
+      "createdAt": "2026-10-15T13:04:03.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Simon Willison",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 2.792
+    },
+    {
+      "id": "fa14b8f7db46",
+      "title": "Teaching students to think and learn through questions",
+      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "canonicalUrl": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "domain": "openai.com",
+      "createdAt": "2026-10-15T13:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 2.725
+    },
+    {
+      "id": "a14596d80f77",
+      "title": "Using AI to reverse engineer hardware",
+      "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
+      "canonicalUrl": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware",
+      "domain": "blogs.gnome.org",
+      "createdAt": "2026-10-15T14:35:15.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 36,
+          "comments": 22,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50104299"
+        }
+      ],
+      "normalized": 0.219,
+      "score": 2.355
+    },
+    {
+      "id": "6e2e05e1f4c7",
+      "title": "Prompt injection in HTTP headers: what 217M web responses show",
+      "url": "https://www.signalscorps.com/blog/prompt-injection-in-http-headers/",
+      "canonicalUrl": "https://signalscorps.com/blog/prompt-injection-in-http-headers",
+      "domain": "signalscorps.com",
+      "createdAt": "2026-10-15T14:36:22.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 29,
+          "comments": 8,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50104310"
+        }
+      ],
+      "normalized": 0.106,
+      "score": 1.153
+    },
+    {
+      "id": "dad987a1f1a7",
+      "title": "AI was great until it was not",
+      "url": "https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not",
+      "canonicalUrl": "https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not",
+      "domain": "thetheorygirlie.substack.com",
+      "createdAt": "2026-10-15T08:18:38.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 110,
+          "comments": 73,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50100791"
+        }
+      ],
+      "normalized": 0.596,
+      "score": 0.993
+    },
+    {
+      "id": "e3c36d4422c6",
+      "title": "Apertus 1.5 Release Notes",
+      "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+      "canonicalUrl": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+      "domain": "huggingface.co",
+      "createdAt": "2026-10-15T09:08:45.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.979
+    },
+    {
+      "id": "1e309a7b88b9",
+      "title": "RuleTrek: Benchmarking Agentic Rule Reasoning in Complex Scenarios",
+      "url": "https://arxiv.org/abs/2610.19698",
+      "canonicalUrl": "https://arxiv.org/abs/2610.19698",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-15T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 60,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.19698"
+        }
+      ],
+      "normalized": 0.95,
+      "score": 0.521
+    },
+    {
+      "id": "efb052c40c35",
+      "title": "The Thinking Leakage in Reinforcement Learning for LLMs",
+      "url": "https://arxiv.org/abs/2610.14270",
+      "canonicalUrl": "https://arxiv.org/abs/2610.14270",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-15T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 17,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.14270"
+        }
+      ],
+      "normalized": 0.825,
+      "score": 0.452
+    },
+    {
+      "id": "8cfe8abc108e",
+      "title": "Many Right Answers, One Training Example: Removing Responder Noise from GRPO for LLM Recommenders",
+      "url": "https://arxiv.org/abs/2610.17771",
+      "canonicalUrl": "https://arxiv.org/abs/2610.17771",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-15T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 14,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.17771"
+        }
+      ],
+      "normalized": 0.775,
+      "score": 0.425
+    },
+    {
+      "id": "33451a300236",
+      "title": "SwarmRSI: Recursive Self-Improvement through Evolving Scientific Agent Swarm",
+      "url": "https://arxiv.org/abs/2610.20431",
+      "canonicalUrl": "https://arxiv.org/abs/2610.20431",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-15T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 13,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.20431"
+        }
+      ],
+      "normalized": 0.7,
+      "score": 0.384
+    },
+    {
+      "id": "f5d20b5cd1d5",
+      "title": "τ-Emotion-Bench: Exposing the Interaction Fragility of LLM Agents through Real-World User Emotions",
+      "url": "https://arxiv.org/abs/2610.19560",
+      "canonicalUrl": "https://arxiv.org/abs/2610.19560",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-15T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 13,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.19560"
+        }
+      ],
+      "normalized": 0.7,
+      "score": 0.384
+    },
+    {
+      "id": "8a91e549399f",
+      "title": "SkillMarker: A KGW-Based Watermarking Method for Agent Skill Ownership Verification",
+      "url": "https://arxiv.org/abs/2610.15725",
+      "canonicalUrl": "https://arxiv.org/abs/2610.15725",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-15T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 13,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.15725"
+        }
+      ],
+      "normalized": 0.7,
+      "score": 0.384
+    },
+    {
+      "id": "81ce6b96ef06",
+      "title": "SafeDriveVLA: Navigation-Conditioned World Model Dreaming for Conflict-Aware End-to-End Autonomous Driving",
+      "url": "https://arxiv.org/abs/2610.20609",
+      "canonicalUrl": "https://arxiv.org/abs/2610.20609",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-15T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 9,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.20609"
+        }
+      ],
+      "normalized": 0.65,
+      "score": 0.356
+    },
+    {
+      "id": "01f48616132f",
+      "title": "LLM-to-Flow Distillation: Teaching Natural Language Goals to Scientific Generators",
+      "url": "https://arxiv.org/abs/2610.17246",
+      "canonicalUrl": "https://arxiv.org/abs/2610.17246",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-15T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 8,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.17246"
+        }
+      ],
+      "normalized": 0.575,
+      "score": 0.315
+    }
+  ]
+}
