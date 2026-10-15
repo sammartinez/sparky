@@ -1,290 +1,292 @@
 {
   "date": "2026-10-14",
-  "generatedAt": "2026-10-14T16:14:38.440Z",
+  "generatedAt": "2026-10-15T03:12:25.272Z",
   "windowHours": 36,
   "stories": [
     {
-      "id": "672ebf75c430",
-      "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
-      "url": "https://huggingface.co/blog/allenai/hiro-acev2",
-      "canonicalUrl": "https://huggingface.co/blog/allenai/hiro-acev2",
-      "domain": "huggingface.co",
-      "createdAt": "2026-10-14T16:12:42.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "Hugging Face",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 13.95
-    },
-    {
-      "id": "717479e17888",
-      "title": "ASML's strong orders ease fears AI spending boom is running out of steam",
-      "url": "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/",
-      "canonicalUrl": "https://reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14",
-      "domain": "reuters.com",
-      "createdAt": "2026-10-14T14:38:55.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 83,
-          "comments": 67,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50088430"
-        }
-      ],
-      "normalized": 0.607,
-      "score": 6.069
-    },
-    {
-      "id": "7ff3cccd1a70",
-      "title": "AI is mass decompiling games. That's both awesome and scary",
-      "url": "https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome-and-scary/",
-      "canonicalUrl": "https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome-and-scary",
-      "domain": "popcar.bearblog.dev",
-      "createdAt": "2026-10-14T14:47:44.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 46,
-          "comments": 21,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50088534"
-        }
-      ],
-      "normalized": 0.337,
-      "score": 3.635
-    },
-    {
-      "id": "840427812676",
-      "title": "TV4 postpones show after AI agent erases edited material",
-      "url": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage",
-      "canonicalUrl": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage",
-      "domain": "swedenherald.com",
-      "createdAt": "2026-10-14T10:28:26.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 92,
-          "comments": 56,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50085323"
-        }
-      ],
-      "normalized": 0.663,
-      "score": 1.654
-    },
-    {
-      "id": "af09f75278d0",
-      "title": "Agent erased full season of \"The Challenge Swe\": \"Hundreds of days of work gone\"",
-      "url": "https://www.aviaduct.com/?l=og+en&u=https%3A%2F%2Fwww.aftonbladet.se%2Fnojesbladet%2Fa%2F31oE8A%2Fthe-challenge-sverige-raderad-av-ai-bara-veckor-innan-premiaren",
-      "canonicalUrl": "https://aviaduct.com/?l=og+en&u=https%3A%2F%2Fwww.aftonbladet.se%2Fnojesbladet%2Fa%2F31oE8A%2Fthe-challenge-sverige-raderad-av-ai-bara-veckor-innan-premiaren",
-      "domain": "aviaduct.com",
-      "createdAt": "2026-10-14T10:21:13.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 53,
-          "comments": 58,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50085259"
-        }
-      ],
-      "normalized": 0.417,
-      "score": 1.013
-    },
-    {
-      "id": "7d4e9611b87e",
-      "title": "I let an AI run my startup for a week",
-      "url": "https://daily.tinyprojects.dev/221",
-      "canonicalUrl": "https://daily.tinyprojects.dev/221",
-      "domain": "daily.tinyprojects.dev",
-      "createdAt": "2026-10-14T10:25:48.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 49,
-          "comments": 54,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50085296"
-        }
-      ],
-      "normalized": 0.393,
-      "score": 0.97
-    },
-    {
-      "id": "e181547094b0",
-      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
-      "url": "https://openai.com/index/third-moment-research",
-      "canonicalUrl": "https://openai.com/index/third-moment-research",
-      "domain": "openai.com",
-      "createdAt": "2026-10-14T07:00:00.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 0.642
-    },
-    {
-      "id": "de2574ffe05a",
-      "title": "Anthropic conjures threat that doesn't exist yet to stoke fears of AI apocalypse",
-      "url": "https://www.theregister.com/ai-and-ml/2026/10/13/anthropic-conjures-another-threat-that-doesnt-exist-yet-to-stoke-fears-of-ai-apocalypse/5302866",
-      "canonicalUrl": "https://theregister.com/ai-and-ml/2026/10/13/anthropic-conjures-another-threat-that-doesnt-exist-yet-to-stoke-fears-of-ai-apocalypse/5302866",
-      "domain": "theregister.com",
-      "createdAt": "2026-10-14T05:53:36.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 69,
-          "comments": 83,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50082962"
-        }
-      ],
-      "normalized": 0.509,
-      "score": 0.552
-    },
-    {
-      "id": "1143e4917db6",
-      "title": "Agent-Reflex: Teaching Language Agents to Act Reflectively",
-      "url": "https://arxiv.org/abs/2610.17953",
-      "canonicalUrl": "https://arxiv.org/abs/2610.17953",
+      "id": "001bb0d836c0",
+      "title": "Any Time, Any Space: A World-State-Centric Framework for Agentic Video Generation",
+      "url": "https://arxiv.org/abs/2610.20571",
+      "canonicalUrl": "https://arxiv.org/abs/2610.20571",
       "domain": "arxiv.org",
-      "createdAt": "2026-10-14T00:00:00.000Z",
+      "createdAt": "2026-10-15T00:00:00.000Z",
       "appearances": [
         {
           "source": "hf",
           "label": "HF Papers",
-          "points": 142,
+          "points": 32,
           "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.17953"
+          "discussionUrl": "https://huggingface.co/papers/2610.20571"
         }
       ],
-      "normalized": 0.95,
-      "score": 0.51
+      "normalized": 0.975,
+      "score": 5.002
     },
     {
-      "id": "4fe0155b06ba",
-      "title": "Urbex: Agentic Spatial Grounding for City-Scale 3D Scenes",
-      "url": "https://arxiv.org/abs/2610.18356",
-      "canonicalUrl": "https://arxiv.org/abs/2610.18356",
+      "id": "b1f31a34ae90",
+      "title": "Seeing, Maintaining, and Learning: The Evolution of Multimodal Agent Memory",
+      "url": "https://arxiv.org/abs/2610.19366",
+      "canonicalUrl": "https://arxiv.org/abs/2610.19366",
       "domain": "arxiv.org",
-      "createdAt": "2026-10-14T00:00:00.000Z",
+      "createdAt": "2026-10-15T00:00:00.000Z",
       "appearances": [
         {
           "source": "hf",
           "label": "HF Papers",
-          "points": 109,
+          "points": 23,
           "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.18356"
-        }
-      ],
-      "normalized": 0.925,
-      "score": 0.497
-    },
-    {
-      "id": "f9f14d431ef6",
-      "title": "GreenWAM: A World Foundation Model for Robotics",
-      "url": "https://arxiv.org/abs/2610.18774",
-      "canonicalUrl": "https://arxiv.org/abs/2610.18774",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-14T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 77,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.18774"
+          "discussionUrl": "https://huggingface.co/papers/2610.19366"
         }
       ],
       "normalized": 0.9,
-      "score": 0.483
+      "score": 4.617
     },
     {
-      "id": "06292ac6828a",
-      "title": "EviScene: Beyond \"Is It AI?\" for Agentic Image Factuality Assessment",
-      "url": "https://arxiv.org/abs/2610.14609",
-      "canonicalUrl": "https://arxiv.org/abs/2610.14609",
+      "id": "dd83e70eb5b9",
+      "title": "LensErase: A Foundation Model for Erase Anything",
+      "url": "https://arxiv.org/abs/2610.18072",
+      "canonicalUrl": "https://arxiv.org/abs/2610.18072",
       "domain": "arxiv.org",
-      "createdAt": "2026-10-14T00:00:00.000Z",
+      "createdAt": "2026-10-15T00:00:00.000Z",
       "appearances": [
         {
           "source": "hf",
           "label": "HF Papers",
-          "points": 49,
+          "points": 23,
           "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.14609"
+          "discussionUrl": "https://huggingface.co/papers/2610.18072"
         }
       ],
-      "normalized": 0.875,
-      "score": 0.47
+      "normalized": 0.9,
+      "score": 4.617
     },
     {
-      "id": "8499e5245393",
-      "title": "Show HN: I built a tool to track what AI leaders say and how their views change",
-      "url": "https://blumify.io/people",
-      "canonicalUrl": "https://blumify.io/people",
-      "domain": "blumify.io",
-      "createdAt": "2026-10-14T01:09:13.000Z",
+      "id": "f32c4bdc6e4d",
+      "title": "APT: Feedback-Driven Agentic Post-Training for Text-to-Image Generation",
+      "url": "https://arxiv.org/abs/2610.18097",
+      "canonicalUrl": "https://arxiv.org/abs/2610.18097",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-15T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 11,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.18097"
+        }
+      ],
+      "normalized": 0.8,
+      "score": 4.104
+    },
+    {
+      "id": "b041d8f3bc68",
+      "title": "Towards Agentic Robots: Model, Data, Environment, and Harness",
+      "url": "https://arxiv.org/abs/2610.20442",
+      "canonicalUrl": "https://arxiv.org/abs/2610.20442",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-15T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 4,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.20442"
+        }
+      ],
+      "normalized": 0.6,
+      "score": 3.078
+    },
+    {
+      "id": "cfc3584192a8",
+      "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
+      "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+      "canonicalUrl": "https://liquid.ai/blog/lfm2-5-24b-a2b",
+      "domain": "liquid.ai",
+      "createdAt": "2026-10-14T23:59:37.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 113,
-          "comments": 75,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50081151"
+          "points": 93,
+          "comments": 21,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50097369"
         }
       ],
-      "normalized": 0.736,
-      "score": 0.445
+      "normalized": 0.598,
+      "score": 3.06
     },
     {
-      "id": "a5ea56f0edac",
-      "title": "Character.ai's Bankruptcy Documents Show the Economics of AI Don't Work",
-      "url": "https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work/",
-      "canonicalUrl": "https://404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work",
-      "domain": "404media.co",
-      "createdAt": "2026-10-14T15:39:45.000Z",
+      "id": "33ee12614553",
+      "title": "We’re releasing Jev 1.14.0 along with experimental features for dreamers",
+      "url": "https://typesafe.ai/blog/jev-1-14",
+      "canonicalUrl": "https://typesafe.ai/blog/jev-1-14",
+      "domain": "typesafe.ai",
+      "createdAt": "2026-10-14T21:11:03.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 14,
-          "comments": 5,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50089395"
+          "points": 210,
+          "comments": 71,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50095353"
         }
       ],
-      "normalized": 0.025,
-      "score": 0.445
+      "normalized": 0.816,
+      "score": 1.922
     },
     {
-      "id": "98f0c8902c4b",
-      "title": "Show HN: Building an LLM from Scratch in TypeScript",
-      "url": "https://book.humanexperiences.io/",
-      "canonicalUrl": "https://book.humanexperiences.io/",
-      "domain": "book.humanexperiences.io",
-      "createdAt": "2026-10-14T10:29:56.000Z",
+      "id": "d91ead6950e7",
+      "title": "Anthropic's Scion is heavily inspired by Mononoke",
+      "url": "https://sunshowers.io/posts/anthropic-mononoke/",
+      "canonicalUrl": "https://sunshowers.io/posts/anthropic-mononoke",
+      "domain": "sunshowers.io",
+      "createdAt": "2026-10-14T20:30:54.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 30,
-          "comments": 3,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50085332"
+          "points": 274,
+          "comments": 116,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50094694"
         }
       ],
-      "normalized": 0.153,
-      "score": 0.385
+      "normalized": 0.872,
+      "score": 1.778
+    },
+    {
+      "id": "f6cba501345f",
+      "title": "Banks are now trying to offload the AI data center debt they just underwrote",
+      "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
+      "canonicalUrl": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote",
+      "domain": "startupfortune.com",
+      "createdAt": "2026-10-14T18:32:52.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 321,
+          "comments": 231,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50092664"
+        }
+      ],
+      "normalized": 0.894,
+      "score": 1.263
+    },
+    {
+      "id": "7aff82cf50e7",
+      "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
+      "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+      "canonicalUrl": "https://csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+      "domain": "csoonline.com",
+      "createdAt": "2026-10-14T17:45:23.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 848,
+          "comments": 458,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50091788"
+        }
+      ],
+      "normalized": 0.972,
+      "score": 1.207
+    },
+    {
+      "id": "de0567b9bf59",
+      "title": "Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents",
+      "url": "https://arxiv.org/abs/2610.20344",
+      "canonicalUrl": "https://arxiv.org/abs/2610.20344",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-15T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 1,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.20344"
+        }
+      ],
+      "normalized": 0.175,
+      "score": 0.898
+    },
+    {
+      "id": "d514430233b6",
+      "title": "Are We Testing Too Much? A Survey of Benchmark Compression for Efficient Evaluation of Large Language Models",
+      "url": "https://arxiv.org/abs/2610.18248",
+      "canonicalUrl": "https://arxiv.org/abs/2610.18248",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-15T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 1,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.18248"
+        }
+      ],
+      "normalized": 0.175,
+      "score": 0.898
+    },
+    {
+      "id": "efa5ce2bdc25",
+      "title": "More Methods, Better Agents? A Reality Check on Self-Distillation in Agentic Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2610.19789",
+      "canonicalUrl": "https://arxiv.org/abs/2610.19789",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-15T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 1,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.19789"
+        }
+      ],
+      "normalized": 0.175,
+      "score": 0.898
+    },
+    {
+      "id": "68c46ccca911",
+      "title": "Training LLMs for Multi-Agent Collaboration with Verifiable Information Rewards",
+      "url": "https://arxiv.org/abs/2610.17893",
+      "canonicalUrl": "https://arxiv.org/abs/2610.17893",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-15T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 1,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.17893"
+        }
+      ],
+      "normalized": 0.175,
+      "score": 0.898
+    },
+    {
+      "id": "3d3aec967750",
+      "title": "Why do LLM pelicans look like this?",
+      "url": "https://arcfu.com/post/the-emperor-pelican-has-no-clothes/",
+      "canonicalUrl": "https://arcfu.com/post/the-emperor-pelican-has-no-clothes",
+      "domain": "arcfu.com",
+      "createdAt": "2026-10-14T16:33:34.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 155,
+          "comments": 133,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50090443"
+        }
+      ],
+      "normalized": 0.743,
+      "score": 0.772
     }
   ]
 }
