@@ -1,0 +1,291 @@
+{
+  "date": "2026-10-16",
+  "generatedAt": "2026-10-16T15:50:35.901Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "3d3011b3b2f6",
+      "title": "Show HN: Gemini 4 Argon plays StarCraft",
+      "url": "https://starskirmish.com/bench/v0-2/",
+      "canonicalUrl": "https://starskirmish.com/bench/v0-2",
+      "domain": "starskirmish.com",
+      "createdAt": "2026-10-16T14:18:44.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 41,
+          "comments": 17,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50118688"
+        }
+      ],
+      "normalized": 0.393,
+      "score": 4.061
+    },
+    {
+      "id": "49aae9e462bc",
+      "title": "Redesigning Source Control at Anthropic",
+      "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+      "canonicalUrl": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic",
+      "domain": "simonwillison.net",
+      "createdAt": "2026-10-16T14:34:47.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 29,
+          "comments": 35,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50118863"
+        }
+      ],
+      "normalized": 0.246,
+      "score": 2.925
+    },
+    {
+      "id": "92bdd6fca27f",
+      "title": "RoTA-Bench: Evaluating 3D Spatial Reasoning through Interactive Projection Alignment",
+      "url": "https://arxiv.org/abs/2610.17665",
+      "canonicalUrl": "https://arxiv.org/abs/2610.17665",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-16T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 197,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.17665"
+        }
+      ],
+      "normalized": 0.95,
+      "score": 0.531
+    },
+    {
+      "id": "35b663fdf101",
+      "title": "Self-Evolving Agent Harness",
+      "url": "https://arxiv.org/abs/2610.18813",
+      "canonicalUrl": "https://arxiv.org/abs/2610.18813",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-16T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 185,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.18813"
+        }
+      ],
+      "normalized": 0.9,
+      "score": 0.503
+    },
+    {
+      "id": "27463d79fa2e",
+      "title": "FDE-Gym: The Last Mile of AI Delivery",
+      "url": "https://arxiv.org/abs/2610.22350",
+      "canonicalUrl": "https://arxiv.org/abs/2610.22350",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-16T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 184,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.22350"
+        }
+      ],
+      "normalized": 0.875,
+      "score": 0.489
+    },
+    {
+      "id": "01580d7fed2a",
+      "title": "MAI-Gym: An Open All-in-One Platform for GUI Agent Evaluation and RL Training across Mobile and Computer Environments",
+      "url": "https://arxiv.org/abs/2610.20939",
+      "canonicalUrl": "https://arxiv.org/abs/2610.20939",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-16T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 91,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.20939"
+        }
+      ],
+      "normalized": 0.825,
+      "score": 0.461
+    },
+    {
+      "id": "5a74db1d4f12",
+      "title": "Mosaic: Multi-Session Agentic Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2610.22174",
+      "canonicalUrl": "https://arxiv.org/abs/2610.22174",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-16T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 46,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.22174"
+        }
+      ],
+      "normalized": 0.775,
+      "score": 0.433
+    },
+    {
+      "id": "53bd31882517",
+      "title": "MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering",
+      "url": "https://arxiv.org/abs/2610.22344",
+      "canonicalUrl": "https://arxiv.org/abs/2610.22344",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-16T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 23,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.22344"
+        }
+      ],
+      "normalized": 0.7,
+      "score": 0.391
+    },
+    {
+      "id": "787f7239aab0",
+      "title": "Each Reward to Its Relevant Tokens: Reward-Specific Token-Level Credit Assignment for Multi-Reward RL",
+      "url": "https://arxiv.org/abs/2610.21439",
+      "canonicalUrl": "https://arxiv.org/abs/2610.21439",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-16T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 14,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.21439"
+        }
+      ],
+      "normalized": 0.65,
+      "score": 0.363
+    },
+    {
+      "id": "03b28cd9817d",
+      "title": "Learning Self-Orchestration in Decentralized Agent Swarms",
+      "url": "https://arxiv.org/abs/2610.22322",
+      "canonicalUrl": "https://arxiv.org/abs/2610.22322",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-16T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 7,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.22322"
+        }
+      ],
+      "normalized": 0.55,
+      "score": 0.307
+    },
+    {
+      "id": "849b423196d1",
+      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "url": "https://huggingface.co/blog/reflection-beam",
+      "canonicalUrl": "https://huggingface.co/blog/reflection-beam",
+      "domain": "huggingface.co",
+      "createdAt": "2026-10-16T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.279
+    },
+    {
+      "id": "a8e49667ef97",
+      "title": "Krea 3 – An image model built for editing at scale",
+      "url": "https://www.krea.ai/krea-3",
+      "canonicalUrl": "https://krea.ai/krea-3",
+      "domain": "krea.ai",
+      "createdAt": "2026-10-15T16:04:05.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 336,
+          "comments": 106,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50105648"
+        }
+      ],
+      "normalized": 0.877,
+      "score": 0.253
+    },
+    {
+      "id": "1345f06390cb",
+      "title": "Simons Foundation launches $15M effort to help mathematicians navigate AI era",
+      "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
+      "canonicalUrl": "https://simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era",
+      "domain": "simonsfoundation.org",
+      "createdAt": "2026-10-15T14:58:48.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 243,
+          "comments": 196,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50104654"
+        }
+      ],
+      "normalized": 0.787,
+      "score": 0.211
+    },
+    {
+      "id": "a14596d80f77",
+      "title": "Using AI to reverse engineer hardware",
+      "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
+      "canonicalUrl": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware",
+      "domain": "blogs.gnome.org",
+      "createdAt": "2026-10-15T14:35:15.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 235,
+          "comments": 212,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50104299"
+        }
+      ],
+      "normalized": 0.762,
+      "score": 0.199
+    },
+    {
+      "id": "a0742495e7ae",
+      "title": "SERO: Learning from Executable Oracle Continuations for Long-Horizon Agentic Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2610.19397",
+      "canonicalUrl": "https://arxiv.org/abs/2610.19397",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-16T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.19397"
+        }
+      ],
+      "normalized": 0.325,
+      "score": 0.182
+    }
+  ]
+}
