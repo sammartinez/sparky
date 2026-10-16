@@ -1,127 +1,15 @@
 {
   "date": "2026-10-15",
-  "generatedAt": "2026-10-15T16:02:07.187Z",
+  "generatedAt": "2026-10-16T03:08:30.668Z",
   "windowHours": 36,
   "stories": [
     {
-      "id": "1345f06390cb",
-      "title": "Simons Foundation Launches $15M Effort to Help Mathematicians Navigate AI Era",
-      "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
-      "canonicalUrl": "https://simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era",
-      "domain": "simonsfoundation.org",
-      "createdAt": "2026-10-15T14:58:48.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 67,
-          "comments": 34,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50104654"
-        }
-      ],
-      "normalized": 0.444,
-      "score": 5.943
-    },
-    {
-      "id": "40b611a330c7",
-      "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
-      "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
-      "canonicalUrl": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors",
-      "domain": "simonwillison.net",
-      "createdAt": "2026-10-15T13:04:03.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "Simon Willison",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 2.792
-    },
-    {
-      "id": "fa14b8f7db46",
-      "title": "Teaching students to think and learn through questions",
-      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
-      "canonicalUrl": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
-      "domain": "openai.com",
-      "createdAt": "2026-10-15T13:00:00.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 2.725
-    },
-    {
-      "id": "a14596d80f77",
-      "title": "Using AI to reverse engineer hardware",
-      "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
-      "canonicalUrl": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware",
-      "domain": "blogs.gnome.org",
-      "createdAt": "2026-10-15T14:35:15.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 36,
-          "comments": 22,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50104299"
-        }
-      ],
-      "normalized": 0.219,
-      "score": 2.355
-    },
-    {
-      "id": "6e2e05e1f4c7",
-      "title": "Prompt injection in HTTP headers: what 217M web responses show",
-      "url": "https://www.signalscorps.com/blog/prompt-injection-in-http-headers/",
-      "canonicalUrl": "https://signalscorps.com/blog/prompt-injection-in-http-headers",
-      "domain": "signalscorps.com",
-      "createdAt": "2026-10-15T14:36:22.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 29,
-          "comments": 8,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50104310"
-        }
-      ],
-      "normalized": 0.106,
-      "score": 1.153
-    },
-    {
-      "id": "dad987a1f1a7",
-      "title": "AI was great until it was not",
-      "url": "https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not",
-      "canonicalUrl": "https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not",
-      "domain": "thetheorygirlie.substack.com",
-      "createdAt": "2026-10-15T08:18:38.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 110,
-          "comments": 73,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50100791"
-        }
-      ],
-      "normalized": 0.596,
-      "score": 0.993
-    },
-    {
-      "id": "e3c36d4422c6",
-      "title": "Apertus 1.5 Release Notes",
-      "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
-      "canonicalUrl": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+      "id": "ba4e7337aba2",
+      "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+      "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+      "canonicalUrl": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
       "domain": "huggingface.co",
-      "createdAt": "2026-10-15T09:08:45.000Z",
+      "createdAt": "2026-10-16T01:44:47.000Z",
       "appearances": [
         {
           "source": "rss",
@@ -131,159 +19,278 @@
         }
       ],
       "normalized": 0.5,
-      "score": 0.979
+      "score": 5.538
     },
     {
-      "id": "1e309a7b88b9",
-      "title": "RuleTrek: Benchmarking Agentic Rule Reasoning in Complex Scenarios",
-      "url": "https://arxiv.org/abs/2610.19698",
-      "canonicalUrl": "https://arxiv.org/abs/2610.19698",
+      "id": "544c110b8117",
+      "title": "OmniCompass: A Holistic Benchmark for Omni-Modal Video Grounding and Understanding",
+      "url": "https://arxiv.org/abs/2610.18829",
+      "canonicalUrl": "https://arxiv.org/abs/2610.18829",
       "domain": "arxiv.org",
-      "createdAt": "2026-10-15T00:00:00.000Z",
+      "createdAt": "2026-10-16T00:00:00.000Z",
       "appearances": [
         {
           "source": "hf",
           "label": "HF Papers",
-          "points": 60,
+          "points": 45,
           "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.19698"
+          "discussionUrl": "https://huggingface.co/papers/2610.18829"
         }
       ],
-      "normalized": 0.95,
-      "score": 0.521
+      "normalized": 0.975,
+      "score": 5.117
     },
     {
-      "id": "efb052c40c35",
-      "title": "The Thinking Leakage in Reinforcement Learning for LLMs",
-      "url": "https://arxiv.org/abs/2610.14270",
-      "canonicalUrl": "https://arxiv.org/abs/2610.14270",
+      "id": "fcb7fcaeef8e",
+      "title": "Intern Lumina U2: A Multi-Codebook Diffusion Large Language Model for Omni-Visual Understanding and Image Generation",
+      "url": "https://arxiv.org/abs/2610.20818",
+      "canonicalUrl": "https://arxiv.org/abs/2610.20818",
       "domain": "arxiv.org",
-      "createdAt": "2026-10-15T00:00:00.000Z",
+      "createdAt": "2026-10-16T00:00:00.000Z",
       "appearances": [
         {
           "source": "hf",
           "label": "HF Papers",
           "points": 17,
           "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.14270"
+          "discussionUrl": "https://huggingface.co/papers/2610.20818"
         }
       ],
-      "normalized": 0.825,
-      "score": 0.452
+      "normalized": 0.9,
+      "score": 4.723
     },
     {
-      "id": "8cfe8abc108e",
-      "title": "Many Right Answers, One Training Example: Removing Responder Noise from GRPO for LLM Recommenders",
-      "url": "https://arxiv.org/abs/2610.17771",
-      "canonicalUrl": "https://arxiv.org/abs/2610.17771",
+      "id": "f8eae2629704",
+      "title": "JevAgentHarness: Benchmarking, Deploying and Training Decision Models That Share Control with LLMs",
+      "url": "https://arxiv.org/abs/2610.21412",
+      "canonicalUrl": "https://arxiv.org/abs/2610.21412",
       "domain": "arxiv.org",
-      "createdAt": "2026-10-15T00:00:00.000Z",
+      "createdAt": "2026-10-16T00:00:00.000Z",
       "appearances": [
         {
           "source": "hf",
           "label": "HF Papers",
-          "points": 14,
+          "points": 12,
           "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.17771"
+          "discussionUrl": "https://huggingface.co/papers/2610.21412"
         }
       ],
       "normalized": 0.775,
-      "score": 0.425
+      "score": 4.067
     },
     {
-      "id": "33451a300236",
-      "title": "SwarmRSI: Recursive Self-Improvement through Evolving Scientific Agent Swarm",
-      "url": "https://arxiv.org/abs/2610.20431",
-      "canonicalUrl": "https://arxiv.org/abs/2610.20431",
+      "id": "9d123415b8d1",
+      "title": "Do Better Visual Representations Always Lead to Better End-to-End Autonomous Driving?",
+      "url": "https://arxiv.org/abs/2610.09695",
+      "canonicalUrl": "https://arxiv.org/abs/2610.09695",
       "domain": "arxiv.org",
-      "createdAt": "2026-10-15T00:00:00.000Z",
+      "createdAt": "2026-10-16T00:00:00.000Z",
       "appearances": [
         {
           "source": "hf",
           "label": "HF Papers",
-          "points": 13,
+          "points": 4,
           "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.20431"
+          "discussionUrl": "https://huggingface.co/papers/2610.09695"
         }
       ],
-      "normalized": 0.7,
-      "score": 0.384
+      "normalized": 0.55,
+      "score": 2.886
     },
     {
-      "id": "f5d20b5cd1d5",
-      "title": "τ-Emotion-Bench: Exposing the Interaction Fragility of LLM Agents through Real-World User Emotions",
-      "url": "https://arxiv.org/abs/2610.19560",
-      "canonicalUrl": "https://arxiv.org/abs/2610.19560",
+      "id": "66cbb234be7b",
+      "title": "SimVTA: Simulation-Grounded Video-Trajectory Alignment for Driving World Action Models",
+      "url": "https://arxiv.org/abs/2610.13781",
+      "canonicalUrl": "https://arxiv.org/abs/2610.13781",
       "domain": "arxiv.org",
-      "createdAt": "2026-10-15T00:00:00.000Z",
+      "createdAt": "2026-10-16T00:00:00.000Z",
       "appearances": [
         {
           "source": "hf",
           "label": "HF Papers",
-          "points": 13,
+          "points": 4,
           "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.19560"
+          "discussionUrl": "https://huggingface.co/papers/2610.13781"
         }
       ],
-      "normalized": 0.7,
-      "score": 0.384
+      "normalized": 0.55,
+      "score": 2.886
     },
     {
-      "id": "8a91e549399f",
-      "title": "SkillMarker: A KGW-Based Watermarking Method for Agent Skill Ownership Verification",
-      "url": "https://arxiv.org/abs/2610.15725",
-      "canonicalUrl": "https://arxiv.org/abs/2610.15725",
+      "id": "560f1ec10130",
+      "title": "SCOPE: Semantic Bounded Credit Optimization for Prompt Engineering in Text-to-image Generation",
+      "url": "https://arxiv.org/abs/2610.22264",
+      "canonicalUrl": "https://arxiv.org/abs/2610.22264",
       "domain": "arxiv.org",
-      "createdAt": "2026-10-15T00:00:00.000Z",
+      "createdAt": "2026-10-16T00:00:00.000Z",
       "appearances": [
         {
           "source": "hf",
           "label": "HF Papers",
-          "points": 13,
+          "points": 2,
           "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.15725"
+          "discussionUrl": "https://huggingface.co/papers/2610.22264"
         }
       ],
-      "normalized": 0.7,
-      "score": 0.384
+      "normalized": 0.3,
+      "score": 1.574
     },
     {
-      "id": "81ce6b96ef06",
-      "title": "SafeDriveVLA: Navigation-Conditioned World Model Dreaming for Conflict-Aware End-to-End Autonomous Driving",
-      "url": "https://arxiv.org/abs/2610.20609",
-      "canonicalUrl": "https://arxiv.org/abs/2610.20609",
+      "id": "6f59946820c9",
+      "title": "AutoSFT: An Agentic System for Automated Data Research in Supervised Fine-Tuning",
+      "url": "https://arxiv.org/abs/2610.22194",
+      "canonicalUrl": "https://arxiv.org/abs/2610.22194",
       "domain": "arxiv.org",
-      "createdAt": "2026-10-15T00:00:00.000Z",
+      "createdAt": "2026-10-16T00:00:00.000Z",
       "appearances": [
         {
           "source": "hf",
           "label": "HF Papers",
-          "points": 9,
+          "points": 2,
           "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.20609"
+          "discussionUrl": "https://huggingface.co/papers/2610.22194"
         }
       ],
-      "normalized": 0.65,
-      "score": 0.356
+      "normalized": 0.3,
+      "score": 1.574
     },
     {
-      "id": "01f48616132f",
-      "title": "LLM-to-Flow Distillation: Teaching Natural Language Goals to Scientific Generators",
-      "url": "https://arxiv.org/abs/2610.17246",
-      "canonicalUrl": "https://arxiv.org/abs/2610.17246",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-15T00:00:00.000Z",
+      "id": "c797ac90ed8b",
+      "title": "Neural networks are clean",
+      "url": "https://already-clean.goodfire.com/",
+      "canonicalUrl": "https://already-clean.goodfire.com/",
+      "domain": "already-clean.goodfire.com",
+      "createdAt": "2026-10-15T16:04:01.000Z",
       "appearances": [
         {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 8,
+          "source": "hn",
+          "label": "HN",
+          "points": 535,
+          "comments": 202,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50105647"
+        },
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 1,
           "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.17246"
+          "discussionUrl": "https://lobste.rs/s/enjlpn/neural_networks_are_already_clean"
         }
       ],
-      "normalized": 0.575,
-      "score": 0.315
+      "normalized": 0.934,
+      "score": 1.371
+    },
+    {
+      "id": "34bf133078de",
+      "title": "Muse Spark Open",
+      "url": "https://research.meta.ai/blog/muse-spark-open",
+      "canonicalUrl": "https://research.meta.ai/blog/muse-spark-open",
+      "domain": "research.meta.ai",
+      "createdAt": "2026-10-15T16:58:30.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 659,
+          "comments": 361,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50107379"
+        }
+      ],
+      "normalized": 0.954,
+      "score": 1.062
+    },
+    {
+      "id": "a01e02239da0",
+      "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "canonicalUrl": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "domain": "huggingface.co",
+      "createdAt": "2026-10-15T20:34:01.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 1.045
+    },
+    {
+      "id": "15e0a448fcac",
+      "title": "Why We're Banning AI",
+      "url": "https://www.currentaffairs.org/news/why-were-banning-ai",
+      "canonicalUrl": "https://currentaffairs.org/news/why-were-banning-ai",
+      "domain": "currentaffairs.org",
+      "createdAt": "2026-10-15T18:32:29.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 224,
+          "comments": 178,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50108131"
+        }
+      ],
+      "normalized": 0.704,
+      "score": 1.005
+    },
+    {
+      "id": "2af824110177",
+      "title": "More on Anthropic's Scion ripping off Mononoke",
+      "url": "https://sunshowers.io/posts/anthropic-mononoke-2/",
+      "canonicalUrl": "https://sunshowers.io/posts/anthropic-mononoke-2",
+      "domain": "sunshowers.io",
+      "createdAt": "2026-10-15T17:05:19.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 231,
+          "comments": 74,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50106738"
+        }
+      ],
+      "normalized": 0.724,
+      "score": 0.82
+    },
+    {
+      "id": "db63cb54c787",
+      "title": "Call Center Jobs Are Declining, but 14,000 Calls Show Humans Still Outperform AI",
+      "url": "https://boldagents.co/blog/call-center-jobs-declining-14000-calls-humans-outperform-ai",
+      "canonicalUrl": "https://boldagents.co/blog/call-center-jobs-declining-14000-calls-humans-outperform-ai",
+      "domain": "boldagents.co",
+      "createdAt": "2026-10-15T22:11:24.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 36,
+          "comments": 52,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50111112"
+        }
+      ],
+      "normalized": 0.263,
+      "score": 0.802
+    },
+    {
+      "id": "a72d1e4da6b0",
+      "title": "Bringing GPT-Rosalind to academic research labs",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "canonicalUrl": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "domain": "openai.com",
+      "createdAt": "2026-10-15T19:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.773
     }
   ]
 }
