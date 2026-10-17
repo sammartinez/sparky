@@ -1,291 +1,291 @@
 {
   "date": "2026-10-16",
-  "generatedAt": "2026-10-16T15:50:35.901Z",
+  "generatedAt": "2026-10-17T02:59:57.208Z",
   "windowHours": 36,
   "stories": [
     {
-      "id": "3d3011b3b2f6",
-      "title": "Show HN: Gemini 4 Argon plays StarCraft",
-      "url": "https://starskirmish.com/bench/v0-2/",
-      "canonicalUrl": "https://starskirmish.com/bench/v0-2",
-      "domain": "starskirmish.com",
-      "createdAt": "2026-10-16T14:18:44.000Z",
+      "id": "9ec937773b41",
+      "title": "Claude reveals ECDSA curve origins",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "canonicalUrl": "https://anthropic.com/research/ecdsa-curve-origins",
+      "domain": "anthropic.com",
+      "createdAt": "2026-10-16T18:55:59.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 41,
-          "comments": 17,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50118688"
+          "points": 716,
+          "comments": 277,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50122800"
         }
       ],
-      "normalized": 0.393,
-      "score": 4.061
+      "normalized": 0.968,
+      "score": 1.516
     },
     {
-      "id": "49aae9e462bc",
-      "title": "Redesigning Source Control at Anthropic",
-      "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
-      "canonicalUrl": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic",
-      "domain": "simonwillison.net",
-      "createdAt": "2026-10-16T14:34:47.000Z",
+      "id": "7fd7e06ab2f4",
+      "title": "How the Claude Code team does code review",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "canonicalUrl": "https://claude.dev/blog/solving-code-review-at-anthropic",
+      "domain": "claude.dev",
+      "createdAt": "2026-10-16T19:04:47.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 29,
-          "comments": 35,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50118863"
+          "points": 256,
+          "comments": 241,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50122951"
         }
       ],
-      "normalized": 0.246,
-      "score": 2.925
+      "normalized": 0.865,
+      "score": 1.39
     },
     {
-      "id": "92bdd6fca27f",
-      "title": "RoTA-Bench: Evaluating 3D Spatial Reasoning through Interactive Projection Alignment",
-      "url": "https://arxiv.org/abs/2610.17665",
-      "canonicalUrl": "https://arxiv.org/abs/2610.17665",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-16T00:00:00.000Z",
+      "id": "d0a00342ca12",
+      "title": "FLUX 3 Image Klein",
+      "url": "https://bfl.ai/blog/flux-3-image-klein",
+      "canonicalUrl": "https://bfl.ai/blog/flux-3-image-klein",
+      "domain": "bfl.ai",
+      "createdAt": "2026-10-16T19:47:13.000Z",
       "appearances": [
         {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 197,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.17665"
+          "source": "hn",
+          "label": "HN",
+          "points": 122,
+          "comments": 34,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50123580"
         }
       ],
-      "normalized": 0.95,
-      "score": 0.531
+      "normalized": 0.665,
+      "score": 1.221
     },
     {
-      "id": "35b663fdf101",
-      "title": "Self-Evolving Agent Harness",
-      "url": "https://arxiv.org/abs/2610.18813",
-      "canonicalUrl": "https://arxiv.org/abs/2610.18813",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-16T00:00:00.000Z",
+      "id": "0342f39befa1",
+      "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+      "url": "https://github.com/cobanov/PS5LM",
+      "canonicalUrl": "https://github.com/cobanov/PS5LM",
+      "domain": "github.com",
+      "createdAt": "2026-10-16T18:32:35.000Z",
       "appearances": [
         {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 185,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.18813"
+          "source": "hn",
+          "label": "HN",
+          "points": 215,
+          "comments": 57,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50122431"
         }
       ],
-      "normalized": 0.9,
-      "score": 0.503
+      "normalized": 0.794,
+      "score": 1.161
     },
     {
-      "id": "27463d79fa2e",
-      "title": "FDE-Gym: The Last Mile of AI Delivery",
-      "url": "https://arxiv.org/abs/2610.22350",
-      "canonicalUrl": "https://arxiv.org/abs/2610.22350",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-16T00:00:00.000Z",
+      "id": "c415b9915f6a",
+      "title": "Anthropic assigned highest junk credit rating in June",
+      "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+      "canonicalUrl": "https://ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+      "domain": "ft.com",
+      "createdAt": "2026-10-16T18:11:42.000Z",
       "appearances": [
         {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 184,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.22350"
+          "source": "hn",
+          "label": "HN",
+          "points": 222,
+          "comments": 70,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50122112"
         }
       ],
-      "normalized": 0.875,
-      "score": 0.489
+      "normalized": 0.813,
+      "score": 1.121
     },
     {
-      "id": "01580d7fed2a",
-      "title": "MAI-Gym: An Open All-in-One Platform for GUI Agent Evaluation and RL Training across Mobile and Computer Environments",
-      "url": "https://arxiv.org/abs/2610.20939",
-      "canonicalUrl": "https://arxiv.org/abs/2610.20939",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-16T00:00:00.000Z",
+      "id": "c19e7ef010f7",
+      "title": "You could have invented transformers from memory",
+      "url": "https://alexwang.ai/posts/associative-memory/",
+      "canonicalUrl": "https://alexwang.ai/posts/associative-memory",
+      "domain": "alexwang.ai",
+      "createdAt": "2026-10-16T19:01:17.000Z",
       "appearances": [
         {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 91,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.20939"
+          "source": "hn",
+          "label": "HN",
+          "points": 171,
+          "comments": 45,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50122878"
         }
       ],
-      "normalized": 0.825,
-      "score": 0.461
+      "normalized": 0.703,
+      "score": 1.119
     },
     {
-      "id": "5a74db1d4f12",
-      "title": "Mosaic: Multi-Session Agentic Reinforcement Learning",
-      "url": "https://arxiv.org/abs/2610.22174",
-      "canonicalUrl": "https://arxiv.org/abs/2610.22174",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-16T00:00:00.000Z",
+      "id": "2425f3153984",
+      "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+      "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+      "canonicalUrl": "https://mercor.com/research/labor-index/benchmark-map",
+      "domain": "mercor.com",
+      "createdAt": "2026-10-16T17:08:38.000Z",
       "appearances": [
         {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 46,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.22174"
+          "source": "hn",
+          "label": "HN",
+          "points": 419,
+          "comments": 356,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50121179"
         }
       ],
-      "normalized": 0.775,
-      "score": 0.433
+      "normalized": 0.935,
+      "score": 1.091
     },
     {
-      "id": "53bd31882517",
-      "title": "MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering",
-      "url": "https://arxiv.org/abs/2610.22344",
-      "canonicalUrl": "https://arxiv.org/abs/2610.22344",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-16T00:00:00.000Z",
+      "id": "e06c7afeb771",
+      "title": "Why harnesses matter for energy (and token) efficiency",
+      "url": "https://neuralwatt.com/news/why-harnesses-matter-for-energy-efficiency",
+      "canonicalUrl": "https://neuralwatt.com/news/why-harnesses-matter-for-energy-efficiency",
+      "domain": "neuralwatt.com",
+      "createdAt": "2026-10-16T21:01:23.000Z",
       "appearances": [
         {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 23,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.22344"
+          "source": "hn",
+          "label": "HN",
+          "points": 45,
+          "comments": 23,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50124642"
         }
       ],
-      "normalized": 0.7,
-      "score": 0.391
+      "normalized": 0.381,
+      "score": 0.906
     },
     {
-      "id": "787f7239aab0",
-      "title": "Each Reward to Its Relevant Tokens: Reward-Specific Token-Level Credit Assignment for Multi-Reward RL",
-      "url": "https://arxiv.org/abs/2610.21439",
-      "canonicalUrl": "https://arxiv.org/abs/2610.21439",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-16T00:00:00.000Z",
+      "id": "9d010c1314ee",
+      "title": "Designing more efficient quantum circuits with Claude",
+      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+      "canonicalUrl": "https://anthropic.com/research/designing-efficient-quantum-circuits",
+      "domain": "anthropic.com",
+      "createdAt": "2026-10-16T18:00:18.000Z",
       "appearances": [
         {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 14,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.21439"
+          "source": "hn",
+          "label": "HN",
+          "points": 107,
+          "comments": 20,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50121939"
         }
       ],
-      "normalized": 0.65,
-      "score": 0.363
+      "normalized": 0.658,
+      "score": 0.879
     },
     {
-      "id": "03b28cd9817d",
-      "title": "Learning Self-Orchestration in Decentralized Agent Swarms",
-      "url": "https://arxiv.org/abs/2610.22322",
-      "canonicalUrl": "https://arxiv.org/abs/2610.22322",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-16T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 7,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.22322"
-        }
-      ],
-      "normalized": 0.55,
-      "score": 0.307
-    },
-    {
-      "id": "849b423196d1",
-      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
-      "url": "https://huggingface.co/blog/reflection-beam",
-      "canonicalUrl": "https://huggingface.co/blog/reflection-beam",
-      "domain": "huggingface.co",
-      "createdAt": "2026-10-16T00:00:00.000Z",
+      "id": "65442e708214",
+      "title": "How Itaú is building generative AI for its entire customer base",
+      "url": "https://openai.com/index/itau-generative-ai",
+      "canonicalUrl": "https://openai.com/index/itau-generative-ai",
+      "domain": "openai.com",
+      "createdAt": "2026-10-16T19:00:00.000Z",
       "appearances": [
         {
           "source": "rss",
-          "label": "Hugging Face",
+          "label": "OpenAI",
           "points": null,
           "comments": null
         }
       ],
       "normalized": 0.5,
-      "score": 0.279
+      "score": 0.793
     },
     {
-      "id": "a8e49667ef97",
-      "title": "Krea 3 – An image model built for editing at scale",
-      "url": "https://www.krea.ai/krea-3",
-      "canonicalUrl": "https://krea.ai/krea-3",
-      "domain": "krea.ai",
-      "createdAt": "2026-10-15T16:04:05.000Z",
+      "id": "6a9dae8d13e9",
+      "title": "Anthropic Console overcharged my card 100x due to internationalization input bug",
+      "url": "https://news.ycombinator.com/item?id=50121562",
+      "canonicalUrl": "https://news.ycombinator.com/item?id=50121562",
+      "domain": "news.ycombinator.com",
+      "createdAt": "2026-10-16T17:31:42.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 336,
-          "comments": 106,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50105648"
+          "points": 86,
+          "comments": 33,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50121562"
         }
       ],
-      "normalized": 0.877,
-      "score": 0.253
+      "normalized": 0.587,
+      "score": 0.727
     },
     {
-      "id": "1345f06390cb",
-      "title": "Simons Foundation launches $15M effort to help mathematicians navigate AI era",
-      "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
-      "canonicalUrl": "https://simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era",
-      "domain": "simonsfoundation.org",
-      "createdAt": "2026-10-15T14:58:48.000Z",
+      "id": "f0a5f325be5a",
+      "title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+      "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+      "canonicalUrl": "https://theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+      "domain": "theregister.com",
+      "createdAt": "2026-10-16T15:55:40.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 243,
-          "comments": 196,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50104654"
+          "points": 181,
+          "comments": 70,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50119991"
         }
       ],
-      "normalized": 0.787,
-      "score": 0.211
+      "normalized": 0.716,
+      "score": 0.701
     },
     {
-      "id": "a14596d80f77",
-      "title": "Using AI to reverse engineer hardware",
-      "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
-      "canonicalUrl": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware",
-      "domain": "blogs.gnome.org",
-      "createdAt": "2026-10-15T14:35:15.000Z",
+      "id": "1da1b784dcaa",
+      "title": "Why Math Dumped OpenAI",
+      "url": "https://raymyers.org/post/math-dumped-openai/",
+      "canonicalUrl": "https://raymyers.org/post/math-dumped-openai",
+      "domain": "raymyers.org",
+      "createdAt": "2026-10-16T16:38:47.323Z",
       "appearances": [
         {
-          "source": "hn",
-          "label": "HN",
-          "points": 235,
-          "comments": 212,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50104299"
-        }
-      ],
-      "normalized": 0.762,
-      "score": 0.199
-    },
-    {
-      "id": "a0742495e7ae",
-      "title": "SERO: Learning from Executable Oracle Continuations for Long-Horizon Agentic Reinforcement Learning",
-      "url": "https://arxiv.org/abs/2610.19397",
-      "canonicalUrl": "https://arxiv.org/abs/2610.19397",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-16T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
+          "source": "lobsters",
+          "label": "Lobsters",
           "points": 2,
           "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.19397"
+          "discussionUrl": "https://lobste.rs/s/uj7pqu/why_math_dumped_openai"
         }
       ],
-      "normalized": 0.325,
-      "score": 0.182
+      "normalized": 0.5,
+      "score": 0.542
+    },
+    {
+      "id": "3fb145befc7c",
+      "title": "What was a Token Ring network?",
+      "url": "https://dfarq.homeip.net/what-was-a-token-ring-network/",
+      "canonicalUrl": "https://dfarq.homeip.net/what-was-a-token-ring-network",
+      "domain": "dfarq.homeip.net",
+      "createdAt": "2026-10-16T13:43:30.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 102,
+          "comments": 78,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50118318"
+        }
+      ],
+      "normalized": 0.632,
+      "score": 0.467
+    },
+    {
+      "id": "40223f2d7408",
+      "title": "Show HN: rStation – A shared research lab for your AI agents",
+      "url": "https://rstation.ai/",
+      "canonicalUrl": "https://rstation.ai/",
+      "domain": "rstation.ai",
+      "createdAt": "2026-10-16T14:35:43.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 50,
+          "comments": 19,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50118876"
+        }
+      ],
+      "normalized": 0.445,
+      "score": 0.366
     }
   ]
 }
