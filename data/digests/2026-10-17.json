@@ -1,0 +1,292 @@
+{
+  "date": "2026-10-17",
+  "generatedAt": "2026-10-17T14:44:02.949Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "1fd6dd971a81",
+      "title": "DeepSeek-v4.1-Flash-1017",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+      "canonicalUrl": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+      "domain": "openrouter.ai",
+      "createdAt": "2026-10-17T08:21:25.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 400,
+          "comments": 187,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50129121"
+        }
+      ],
+      "normalized": 0.947,
+      "score": 2.064
+    },
+    {
+      "id": "0913988ccbed",
+      "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+      "url": "https://llmspeed.dev/",
+      "canonicalUrl": "https://llmspeed.dev/",
+      "domain": "llmspeed.dev",
+      "createdAt": "2026-10-17T04:36:53.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 160,
+          "comments": 52,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50127979"
+        }
+      ],
+      "normalized": 0.699,
+      "score": 0.784
+    },
+    {
+      "id": "3d3011b3b2f6",
+      "title": "Show HN: Gemini 4 Argon plays StarCraft",
+      "url": "https://starskirmish.com/bench/v0-2/",
+      "canonicalUrl": "https://starskirmish.com/bench/v0-2",
+      "domain": "starskirmish.com",
+      "createdAt": "2026-10-16T14:18:44.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 232,
+          "comments": 104,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50118688"
+        }
+      ],
+      "normalized": 0.796,
+      "score": 0.22
+    },
+    {
+      "id": "192b815aaef7",
+      "title": "How to make System 1 LLMs show System 2 competencies?",
+      "url": "https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.70113",
+      "canonicalUrl": "https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.70113",
+      "domain": "onlinelibrary.wiley.com",
+      "createdAt": "2026-10-16T14:16:34.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 52,
+          "comments": 26,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50118662"
+        }
+      ],
+      "normalized": 0.434,
+      "score": 0.119
+    },
+    {
+      "id": "49aae9e462bc",
+      "title": "Redesigning Source Control at Anthropic",
+      "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+      "canonicalUrl": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic",
+      "domain": "simonwillison.net",
+      "createdAt": "2026-10-16T14:34:47.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 31,
+          "comments": 41,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50118863"
+        }
+      ],
+      "normalized": 0.221,
+      "score": 0.062
+    },
+    {
+      "id": "07db6ccc10bf",
+      "title": "AI is driving a boom in modestly successful software projects",
+      "url": "https://www.seangoedecke.com/ai-is-driving-a-boom-in-modestly-successful-software/",
+      "canonicalUrl": "https://seangoedecke.com/ai-is-driving-a-boom-in-modestly-successful-software",
+      "domain": "seangoedecke.com",
+      "createdAt": "2026-10-17T03:47:39.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 14,
+          "comments": 1,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50127729"
+        }
+      ],
+      "normalized": 0.044,
+      "score": 0.044
+    },
+    {
+      "id": "a534e86ad754",
+      "title": "It Ain't AGI Until H100s Go for $30 an Hour",
+      "url": "https://corbt.com/posts/it-aint-agi-until-h100s-go-for-30-an-hour",
+      "canonicalUrl": "https://corbt.com/posts/it-aint-agi-until-h100s-go-for-30-an-hour",
+      "domain": "corbt.com",
+      "createdAt": "2026-10-16T14:09:28.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 21,
+          "comments": 8,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50118605"
+        }
+      ],
+      "normalized": 0.106,
+      "score": 0.029
+    },
+    {
+      "id": "169a4fcb8661",
+      "title": "Taco Bell drive-thru AI bot increased employee retention by making jobs easier",
+      "url": "https://fortune.com/2026/10/14/yum-brands-executive-data-center-hate-ai-tools-improvement/",
+      "canonicalUrl": "https://fortune.com/2026/10/14/yum-brands-executive-data-center-hate-ai-tools-improvement",
+      "domain": "fortune.com",
+      "createdAt": "2026-10-16T19:37:57.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 16,
+          "comments": 8,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50123441"
+        }
+      ],
+      "normalized": 0.062,
+      "score": 0.026
+    },
+    {
+      "id": "5f4356513937",
+      "title": "Post About Recreating Adobe Tools Using AI Banned per Adobe Request",
+      "url": "https://www.reddit.com/r/Bard/comments/1wxmqpt/ive_created_open_source_100_rust_cleanroom/",
+      "canonicalUrl": "https://reddit.com/r/Bard/comments/1wxmqpt/ive_created_open_source_100_rust_cleanroom",
+      "domain": "reddit.com",
+      "createdAt": "2026-10-16T16:55:11.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 16,
+          "comments": 4,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50120963"
+        }
+      ],
+      "normalized": 0.062,
+      "score": 0.021
+    },
+    {
+      "id": "9bac8b211a6f",
+      "title": "Sergey Brin says Google's AI models are reaching recursive self-improvement",
+      "url": "https://www.businessinsider.com/sergey-brin-google-gemini-ai-argon-recursive-self-improvement-rsi-2026-10",
+      "canonicalUrl": "https://businessinsider.com/sergey-brin-google-gemini-ai-argon-recursive-self-improvement-rsi-2026-10",
+      "domain": "businessinsider.com",
+      "createdAt": "2026-10-16T03:49:35.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 25,
+          "comments": 25,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50113841"
+        }
+      ],
+      "normalized": 0.115,
+      "score": 0.017
+    },
+    {
+      "id": "7524b6432196",
+      "title": "China to Restrict Open-Weights Model Exports",
+      "url": "https://www.reuters.com/world/asia-pacific/china-proposes-adding-40-ai-biotech-solar-technologies-export-control-list-2026-10-16/",
+      "canonicalUrl": "https://reuters.com/world/asia-pacific/china-proposes-adding-40-ai-biotech-solar-technologies-export-control-list-2026-10-16",
+      "domain": "reuters.com",
+      "createdAt": "2026-10-17T02:41:30.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 12,
+          "comments": 3,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50127369"
+        }
+      ],
+      "normalized": 0.018,
+      "score": 0.015
+    },
+    {
+      "id": "277a812ca7cd",
+      "title": "Linus Torvalds on \"don't use AI for X\"",
+      "url": "https://lore.kernel.org/lkml/CAHk-=whTs09_ozN+e09GU68N1wPP56MUzDjrg9rnKxQUa0A_4Q@mail.gmail.com/",
+      "canonicalUrl": "https://lore.kernel.org/lkml/CAHk-=whTs09_ozN+e09GU68N1wPP56MUzDjrg9rnKxQUa0A_4Q@mail.gmail.com",
+      "domain": "lore.kernel.org",
+      "createdAt": "2026-10-16T03:41:52.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 18,
+          "comments": 7,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50113790"
+        }
+      ],
+      "normalized": 0.088,
+      "score": 0.013
+    },
+    {
+      "id": "e651892b4996",
+      "title": "No AI. Build your own tree directory viewer in C by hand",
+      "url": "https://www.youtube.com/watch?v=tiMHtc6l7xM",
+      "canonicalUrl": "https://youtube.com/watch?v=tiMHtc6l7xM",
+      "domain": "youtube.com",
+      "createdAt": "2026-10-16T04:34:50.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 15,
+          "comments": 2,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50114117"
+        }
+      ],
+      "normalized": 0.053,
+      "score": 0.008
+    },
+    {
+      "id": "d9426ea60ed9",
+      "title": "The Decoherence Trap: When AI drowns out the signal in an endless sea of noise",
+      "url": "https://maevyn.codes/decoherence",
+      "canonicalUrl": "https://maevyn.codes/decoherence",
+      "domain": "maevyn.codes",
+      "createdAt": "2026-10-16T17:16:51.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 12,
+          "comments": 2,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50121310"
+        }
+      ],
+      "normalized": 0.018,
+      "score": 0.006
+    },
+    {
+      "id": "7aea8399c43d",
+      "title": "Introducing Beam: Reflection’s 501B open-weight model",
+      "url": "https://reflection.ai/blog/beam-is-available",
+      "canonicalUrl": "https://reflection.ai/blog/beam-is-available",
+      "domain": "reflection.ai",
+      "createdAt": "2026-10-16T13:34:30.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 12,
+          "comments": 1,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50118213"
+        }
+      ],
+      "normalized": 0.018,
+      "score": 0.005
+    }
+  ]
+}
