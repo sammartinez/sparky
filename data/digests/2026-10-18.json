@@ -1,0 +1,140 @@
+{
+  "date": "2026-10-18",
+  "generatedAt": "2026-10-18T15:09:13.091Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "248d3aa608b3",
+      "title": "How employment is changing at Anthropic",
+      "url": "https://www.anthropic.com/research/employment-at-anthropic",
+      "canonicalUrl": "https://anthropic.com/research/employment-at-anthropic",
+      "domain": "anthropic.com",
+      "createdAt": "2026-10-18T10:49:26.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 85,
+          "comments": 165,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50139873"
+        }
+      ],
+      "normalized": 0.45,
+      "score": 1.624
+    },
+    {
+      "id": "b9a4c6eaaadf",
+      "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+      "canonicalUrl": "https://tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+      "domain": "tomshardware.com",
+      "createdAt": "2026-10-18T14:30:27.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 24,
+          "comments": 13,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50141429"
+        }
+      ],
+      "normalized": 0.075,
+      "score": 1.301
+    },
+    {
+      "id": "48479cd7194a",
+      "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+      "url": "https://api-docs.deepseek.com/guides/search/",
+      "canonicalUrl": "https://api-docs.deepseek.com/guides/search",
+      "domain": "api-docs.deepseek.com",
+      "createdAt": "2026-10-18T06:50:36.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 374,
+          "comments": 186,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50138531"
+        }
+      ],
+      "normalized": 0.863,
+      "score": 1.294
+    },
+    {
+      "id": "d3c35db34ec3",
+      "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
+      "url": "https://sphinx-six-theta.vercel.app/",
+      "canonicalUrl": "https://sphinx-six-theta.vercel.app/",
+      "domain": "sphinx-six-theta.vercel.app",
+      "createdAt": "2026-10-18T04:33:49.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 195,
+          "comments": 61,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50137950"
+        }
+      ],
+      "normalized": 0.75,
+      "score": 0.785
+    },
+    {
+      "id": "b0acfed24023",
+      "title": "The math that OpenAI keeps for itself",
+      "url": "https://newsletter.danielpaleka.com/p/the-math-that-openai-keeps-for-itself",
+      "canonicalUrl": "https://newsletter.danielpaleka.com/p/the-math-that-openai-keeps-for-itself",
+      "domain": "newsletter.danielpaleka.com",
+      "createdAt": "2026-10-17T19:22:52.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 47,
+          "comments": 16,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50134211"
+        }
+      ],
+      "normalized": 0.263,
+      "score": 0.103
+    },
+    {
+      "id": "49af943cdfe1",
+      "title": "How do you deal with AI Output of your boss?",
+      "url": "https://news.ycombinator.com/item?id=50135854",
+      "canonicalUrl": "https://news.ycombinator.com/item?id=50135854",
+      "domain": "news.ycombinator.com",
+      "createdAt": "2026-10-17T22:42:47.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 12,
+          "comments": 9,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50135854"
+        }
+      ],
+      "normalized": 0.013,
+      "score": 0.007
+    },
+    {
+      "id": "0b37877df8bb",
+      "title": "America's $10T AI infrastructure boom is starting to fray",
+      "url": "https://www.ft.com/content/9ea5a37d-15c9-4d5b-94d6-719048c9cd3c",
+      "canonicalUrl": "https://ft.com/content/9ea5a37d-15c9-4d5b-94d6-719048c9cd3c",
+      "domain": "ft.com",
+      "createdAt": "2026-10-18T06:46:50.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 11,
+          "comments": 0,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50138511"
+        }
+      ],
+      "normalized": 0,
+      "score": 0
+    }
+  ]
+}
