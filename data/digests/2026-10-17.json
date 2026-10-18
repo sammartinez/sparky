@@ -1,8 +1,46 @@
 {
   "date": "2026-10-17",
-  "generatedAt": "2026-10-17T14:44:02.949Z",
+  "generatedAt": "2026-10-18T03:02:06.080Z",
   "windowHours": 36,
   "stories": [
+    {
+      "id": "fa796824301f",
+      "title": "Amazon uses AI to monitor union risk in UK warehouses",
+      "url": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
+      "canonicalUrl": "https://opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield",
+      "domain": "opendemocracy.net",
+      "createdAt": "2026-10-17T16:04:23.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 151,
+          "comments": 58,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50132278"
+        }
+      ],
+      "normalized": 0.629,
+      "score": 0.625
+    },
+    {
+      "id": "28fe2bff247e",
+      "title": "OpenAI discloses four more rogue incidents",
+      "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
+      "canonicalUrl": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data",
+      "domain": "fortune.com",
+      "createdAt": "2026-10-17T16:31:12.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 120,
+          "comments": 145,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50132502"
+        }
+      ],
+      "normalized": 0.569,
+      "score": 0.602
+    },
     {
       "id": "1fd6dd971a81",
       "title": "DeepSeek-v4.1-Flash-1017",
@@ -20,7 +58,7 @@
         }
       ],
       "normalized": 0.947,
-      "score": 2.064
+      "score": 0.406
     },
     {
       "id": "0913988ccbed",
@@ -39,7 +77,64 @@
         }
       ],
       "normalized": 0.699,
-      "score": 0.784
+      "score": 0.222
+    },
+    {
+      "id": "890ff52349fd",
+      "title": "Qwen3.8-27B on the iPhone 18 Neural Engine at 15–70 tok/s (1.5 bpw)",
+      "url": "https://twitter.com/anemll/status/2111517143087067309",
+      "canonicalUrl": "https://twitter.com/anemll/status/2111517143087067309",
+      "domain": "twitter.com",
+      "createdAt": "2026-10-17T18:10:21.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 30,
+          "comments": 10,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50133500"
+        }
+      ],
+      "normalized": 0.147,
+      "score": 0.2
+    },
+    {
+      "id": "537220e3d837",
+      "title": "Israel makes propaganda video featuring AI generated IAMDDB without her consent",
+      "url": "https://twitter.com/beeechimblind/status/2111227318534279501",
+      "canonicalUrl": "https://twitter.com/beeechimblind/status/2111227318534279501",
+      "domain": "twitter.com",
+      "createdAt": "2026-10-17T19:26:43.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 24,
+          "comments": 2,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50134241"
+        }
+      ],
+      "normalized": 0.086,
+      "score": 0.147
+    },
+    {
+      "id": "a23d7ba4d336",
+      "title": "AI Can Write the Code. Who Verifies It?",
+      "url": "https://mihaisplace.com/blog/ai-can-write-the-code-who-verifies-it",
+      "canonicalUrl": "https://mihaisplace.com/blog/ai-can-write-the-code-who-verifies-it",
+      "domain": "mihaisplace.com",
+      "createdAt": "2026-10-17T18:31:30.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 26,
+          "comments": 59,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50133713"
+        }
+      ],
+      "normalized": 0.095,
+      "score": 0.137
     },
     {
       "id": "3d3011b3b2f6",
@@ -58,7 +153,45 @@
         }
       ],
       "normalized": 0.796,
-      "score": 0.22
+      "score": 0.111
+    },
+    {
+      "id": "940391212200",
+      "title": "AI lab offers free plumbing and HVAC repairs to train AI robots",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-lab-offers-free-plumbing-and-hvac-repairs-across-three-cities-to-train-ai-robots-wearable-sensors-record-video-of-repair-work-for-robotics-training-free-services-also-include-electrical-work-air-duct-cleaning-and-carpet-cleaning",
+      "canonicalUrl": "https://tomshardware.com/tech-industry/artificial-intelligence/ai-lab-offers-free-plumbing-and-hvac-repairs-across-three-cities-to-train-ai-robots-wearable-sensors-record-video-of-repair-work-for-robotics-training-free-services-also-include-electrical-work-air-duct-cleaning-and-carpet-cleaning",
+      "domain": "tomshardware.com",
+      "createdAt": "2026-10-17T16:35:35.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 20,
+          "comments": 11,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50132550"
+        }
+      ],
+      "normalized": 0.078,
+      "score": 0.083
+    },
+    {
+      "id": "9d2648978eb9",
+      "title": "Abolish AI Manifesto",
+      "url": "https://abolish-ai.net/abolish-ai-a-manifesto/",
+      "canonicalUrl": "https://abolish-ai.net/abolish-ai-a-manifesto",
+      "domain": "abolish-ai.net",
+      "createdAt": "2026-10-17T23:23:46.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 12,
+          "comments": 7,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50136124"
+        }
+      ],
+      "normalized": 0.017,
+      "score": 0.077
     },
     {
       "id": "192b815aaef7",
@@ -77,7 +210,7 @@
         }
       ],
       "normalized": 0.434,
-      "score": 0.119
+      "score": 0.06
     },
     {
       "id": "49aae9e462bc",
@@ -96,26 +229,7 @@
         }
       ],
       "normalized": 0.221,
-      "score": 0.062
-    },
-    {
-      "id": "07db6ccc10bf",
-      "title": "AI is driving a boom in modestly successful software projects",
-      "url": "https://www.seangoedecke.com/ai-is-driving-a-boom-in-modestly-successful-software/",
-      "canonicalUrl": "https://seangoedecke.com/ai-is-driving-a-boom-in-modestly-successful-software",
-      "domain": "seangoedecke.com",
-      "createdAt": "2026-10-17T03:47:39.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 14,
-          "comments": 1,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50127729"
-        }
-      ],
-      "normalized": 0.044,
-      "score": 0.044
+      "score": 0.031
     },
     {
       "id": "a534e86ad754",
@@ -134,7 +248,26 @@
         }
       ],
       "normalized": 0.106,
-      "score": 0.029
+      "score": 0.015
+    },
+    {
+      "id": "07db6ccc10bf",
+      "title": "AI is driving a boom in modestly successful software projects",
+      "url": "https://www.seangoedecke.com/ai-is-driving-a-boom-in-modestly-successful-software/",
+      "canonicalUrl": "https://seangoedecke.com/ai-is-driving-a-boom-in-modestly-successful-software",
+      "domain": "seangoedecke.com",
+      "createdAt": "2026-10-17T03:47:39.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 14,
+          "comments": 1,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50127729"
+        }
+      ],
+      "normalized": 0.044,
+      "score": 0.013
     },
     {
       "id": "169a4fcb8661",
@@ -153,140 +286,7 @@
         }
       ],
       "normalized": 0.062,
-      "score": 0.026
-    },
-    {
-      "id": "5f4356513937",
-      "title": "Post About Recreating Adobe Tools Using AI Banned per Adobe Request",
-      "url": "https://www.reddit.com/r/Bard/comments/1wxmqpt/ive_created_open_source_100_rust_cleanroom/",
-      "canonicalUrl": "https://reddit.com/r/Bard/comments/1wxmqpt/ive_created_open_source_100_rust_cleanroom",
-      "domain": "reddit.com",
-      "createdAt": "2026-10-16T16:55:11.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 16,
-          "comments": 4,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50120963"
-        }
-      ],
-      "normalized": 0.062,
-      "score": 0.021
-    },
-    {
-      "id": "9bac8b211a6f",
-      "title": "Sergey Brin says Google's AI models are reaching recursive self-improvement",
-      "url": "https://www.businessinsider.com/sergey-brin-google-gemini-ai-argon-recursive-self-improvement-rsi-2026-10",
-      "canonicalUrl": "https://businessinsider.com/sergey-brin-google-gemini-ai-argon-recursive-self-improvement-rsi-2026-10",
-      "domain": "businessinsider.com",
-      "createdAt": "2026-10-16T03:49:35.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 25,
-          "comments": 25,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50113841"
-        }
-      ],
-      "normalized": 0.115,
-      "score": 0.017
-    },
-    {
-      "id": "7524b6432196",
-      "title": "China to Restrict Open-Weights Model Exports",
-      "url": "https://www.reuters.com/world/asia-pacific/china-proposes-adding-40-ai-biotech-solar-technologies-export-control-list-2026-10-16/",
-      "canonicalUrl": "https://reuters.com/world/asia-pacific/china-proposes-adding-40-ai-biotech-solar-technologies-export-control-list-2026-10-16",
-      "domain": "reuters.com",
-      "createdAt": "2026-10-17T02:41:30.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 12,
-          "comments": 3,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50127369"
-        }
-      ],
-      "normalized": 0.018,
-      "score": 0.015
-    },
-    {
-      "id": "277a812ca7cd",
-      "title": "Linus Torvalds on \"don't use AI for X\"",
-      "url": "https://lore.kernel.org/lkml/CAHk-=whTs09_ozN+e09GU68N1wPP56MUzDjrg9rnKxQUa0A_4Q@mail.gmail.com/",
-      "canonicalUrl": "https://lore.kernel.org/lkml/CAHk-=whTs09_ozN+e09GU68N1wPP56MUzDjrg9rnKxQUa0A_4Q@mail.gmail.com",
-      "domain": "lore.kernel.org",
-      "createdAt": "2026-10-16T03:41:52.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 18,
-          "comments": 7,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50113790"
-        }
-      ],
-      "normalized": 0.088,
-      "score": 0.013
-    },
-    {
-      "id": "e651892b4996",
-      "title": "No AI. Build your own tree directory viewer in C by hand",
-      "url": "https://www.youtube.com/watch?v=tiMHtc6l7xM",
-      "canonicalUrl": "https://youtube.com/watch?v=tiMHtc6l7xM",
-      "domain": "youtube.com",
-      "createdAt": "2026-10-16T04:34:50.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 15,
-          "comments": 2,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50114117"
-        }
-      ],
-      "normalized": 0.053,
-      "score": 0.008
-    },
-    {
-      "id": "d9426ea60ed9",
-      "title": "The Decoherence Trap: When AI drowns out the signal in an endless sea of noise",
-      "url": "https://maevyn.codes/decoherence",
-      "canonicalUrl": "https://maevyn.codes/decoherence",
-      "domain": "maevyn.codes",
-      "createdAt": "2026-10-16T17:16:51.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 12,
-          "comments": 2,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50121310"
-        }
-      ],
-      "normalized": 0.018,
-      "score": 0.006
-    },
-    {
-      "id": "7aea8399c43d",
-      "title": "Introducing Beam: Reflection’s 501B open-weight model",
-      "url": "https://reflection.ai/blog/beam-is-available",
-      "canonicalUrl": "https://reflection.ai/blog/beam-is-available",
-      "domain": "reflection.ai",
-      "createdAt": "2026-10-16T13:34:30.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 12,
-          "comments": 1,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50118213"
-        }
-      ],
-      "normalized": 0.018,
-      "score": 0.005
+      "score": 0.011
     }
   ]
 }
