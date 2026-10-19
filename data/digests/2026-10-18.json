@@ -1,45 +1,195 @@
 {
   "date": "2026-10-18",
-  "generatedAt": "2026-10-18T15:09:13.091Z",
+  "generatedAt": "2026-10-19T03:16:09.513Z",
   "windowHours": 36,
   "stories": [
     {
-      "id": "248d3aa608b3",
-      "title": "How employment is changing at Anthropic",
-      "url": "https://www.anthropic.com/research/employment-at-anthropic",
-      "canonicalUrl": "https://anthropic.com/research/employment-at-anthropic",
-      "domain": "anthropic.com",
-      "createdAt": "2026-10-18T10:49:26.000Z",
+      "id": "6a6a7d718586",
+      "title": "Has GPT-6-Astra Achieved Embodied Intelligence?",
+      "url": "https://arxiv.org/abs/2610.22471",
+      "canonicalUrl": "https://arxiv.org/abs/2610.22471",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-19T00:00:00.000Z",
       "appearances": [
         {
-          "source": "hn",
-          "label": "HN",
-          "points": 85,
-          "comments": 165,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50139873"
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 29,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.22471"
+        }
+      ],
+      "normalized": 0.9,
+      "score": 4.519
+    },
+    {
+      "id": "a25bc30846b3",
+      "title": "Tree-Aware Posterior Distillation for Long-Horizon Agentic Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2610.23181",
+      "canonicalUrl": "https://arxiv.org/abs/2610.23181",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-19T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 17,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.23181"
+        }
+      ],
+      "normalized": 0.8,
+      "score": 4.017
+    },
+    {
+      "id": "30bfb5cf563e",
+      "title": "Into the Unknown: Benchmarking AI agents on open scientific research problems",
+      "url": "https://arxiv.org/abs/2610.19159",
+      "canonicalUrl": "https://arxiv.org/abs/2610.19159",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-19T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 15,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.19159"
+        }
+      ],
+      "normalized": 0.75,
+      "score": 3.766
+    },
+    {
+      "id": "ad547968d473",
+      "title": "llm-tools-datasette 0.1.1",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
+      "canonicalUrl": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette",
+      "domain": "simonwillison.net",
+      "createdAt": "2026-10-18T23:43:09.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Simon Willison",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 2.287
+    },
+    {
+      "id": "a82c73faa4e4",
+      "title": "DLite: History-free Speculative Decoding for Agentic AI",
+      "url": "https://arxiv.org/abs/2610.23787",
+      "canonicalUrl": "https://arxiv.org/abs/2610.23787",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-19T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 4,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.23787"
         }
       ],
       "normalized": 0.45,
-      "score": 1.624
+      "score": 2.26
     },
     {
-      "id": "b9a4c6eaaadf",
-      "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
-      "canonicalUrl": "https://tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
-      "domain": "tomshardware.com",
-      "createdAt": "2026-10-18T14:30:27.000Z",
+      "id": "8f1b78fcf0c4",
+      "title": "llm-echo 0.5",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-echo/",
+      "canonicalUrl": "https://simonwillison.net/2026/Oct/18/llm-echo",
+      "domain": "simonwillison.net",
+      "createdAt": "2026-10-18T23:16:16.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Simon Willison",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 1.989
+    },
+    {
+      "id": "a5bb32320853",
+      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "url": "https://arxiv.org/abs/2610.18861",
+      "canonicalUrl": "https://arxiv.org/abs/2610.18861",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-18T20:48:14.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 24,
-          "comments": 13,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50141429"
+          "points": 249,
+          "comments": 151,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50145337"
         }
       ],
-      "normalized": 0.075,
-      "score": 1.301
+      "normalized": 0.894,
+      "score": 1.912
+    },
+    {
+      "id": "d2e2b582e272",
+      "title": "If you don't run your own LLM proxy, how do you know whats going on?",
+      "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
+      "canonicalUrl": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on",
+      "domain": "jrdsgl.com",
+      "createdAt": "2026-10-18T21:09:12.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 58,
+          "comments": 43,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50145507"
+        }
+      ],
+      "normalized": 0.381,
+      "score": 0.878
+    },
+    {
+      "id": "f155d49d3345",
+      "title": "Websites are closing their doors to AI agents",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "canonicalUrl": "https://theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "domain": "theverge.com",
+      "createdAt": "2026-10-18T14:58:10.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 135,
+          "comments": 131,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50141657"
+        }
+      ],
+      "normalized": 0.681,
+      "score": 0.567
+    },
+    {
+      "id": "66d5720ec836",
+      "title": "Investing in the public benefit",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "canonicalUrl": "https://anthropic.com/news/public-benefit-fund",
+      "domain": "anthropic.com",
+      "createdAt": "2026-10-18T18:15:10.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 51,
+          "comments": 48,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50143755"
+        }
+      ],
+      "normalized": 0.336,
+      "score": 0.448
     },
     {
       "id": "48479cd7194a",
@@ -58,7 +208,45 @@
         }
       ],
       "normalized": 0.863,
-      "score": 1.294
+      "score": 0.319
+    },
+    {
+      "id": "fddfdf1ddcc1",
+      "title": "How Far Will AI Assistants Go for a Refund They Can't Get?",
+      "url": "https://www.vals.ai/blogs/impossible-refund",
+      "canonicalUrl": "https://vals.ai/blogs/impossible-refund",
+      "domain": "vals.ai",
+      "createdAt": "2026-10-18T12:22:58.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 80,
+          "comments": 99,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50140462"
+        }
+      ],
+      "normalized": 0.496,
+      "score": 0.306
+    },
+    {
+      "id": "248d3aa608b3",
+      "title": "How employment is changing at Anthropic",
+      "url": "https://www.anthropic.com/research/employment-at-anthropic",
+      "canonicalUrl": "https://anthropic.com/research/employment-at-anthropic",
+      "domain": "anthropic.com",
+      "createdAt": "2026-10-18T10:49:26.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 85,
+          "comments": 165,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50139873"
+        }
+      ],
+      "normalized": 0.45,
+      "score": 0.237
     },
     {
       "id": "d3c35db34ec3",
@@ -77,64 +265,26 @@
         }
       ],
       "normalized": 0.75,
-      "score": 0.785
+      "score": 0.233
     },
     {
-      "id": "b0acfed24023",
-      "title": "The math that OpenAI keeps for itself",
-      "url": "https://newsletter.danielpaleka.com/p/the-math-that-openai-keeps-for-itself",
-      "canonicalUrl": "https://newsletter.danielpaleka.com/p/the-math-that-openai-keeps-for-itself",
-      "domain": "newsletter.danielpaleka.com",
-      "createdAt": "2026-10-17T19:22:52.000Z",
+      "id": "768304b3cd48",
+      "title": "I built a programming language that LLMs can't use",
+      "url": "https://blog.picheta.me/post/killswitch-lang/",
+      "canonicalUrl": "https://blog.picheta.me/post/killswitch-lang",
+      "domain": "blog.picheta.me",
+      "createdAt": "2026-10-17T22:26:47.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 47,
-          "comments": 16,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50134211"
+          "points": 100,
+          "comments": 78,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50135762"
         }
       ],
-      "normalized": 0.263,
-      "score": 0.103
-    },
-    {
-      "id": "49af943cdfe1",
-      "title": "How do you deal with AI Output of your boss?",
-      "url": "https://news.ycombinator.com/item?id=50135854",
-      "canonicalUrl": "https://news.ycombinator.com/item?id=50135854",
-      "domain": "news.ycombinator.com",
-      "createdAt": "2026-10-17T22:42:47.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 12,
-          "comments": 9,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50135854"
-        }
-      ],
-      "normalized": 0.013,
-      "score": 0.007
-    },
-    {
-      "id": "0b37877df8bb",
-      "title": "America's $10T AI infrastructure boom is starting to fray",
-      "url": "https://www.ft.com/content/9ea5a37d-15c9-4d5b-94d6-719048c9cd3c",
-      "canonicalUrl": "https://ft.com/content/9ea5a37d-15c9-4d5b-94d6-719048c9cd3c",
-      "domain": "ft.com",
-      "createdAt": "2026-10-18T06:46:50.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 11,
-          "comments": 0,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50138511"
-        }
-      ],
-      "normalized": 0,
-      "score": 0
+      "normalized": 0.584,
+      "score": 0.122
     }
   ]
 }
