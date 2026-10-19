@@ -1,0 +1,299 @@
+{
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T18:02:12.956Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "0c63a7613017",
+      "title": "Mercury 3: Diffusion at scale",
+      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+      "canonicalUrl": "https://inceptionlabs.ai/blog/introducing-mercury-3",
+      "domain": "inceptionlabs.ai",
+      "createdAt": "2026-10-19T17:27:11.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 71,
+          "comments": 23,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50155245"
+        }
+      ],
+      "normalized": 0.41,
+      "score": 7.43
+    },
+    {
+      "id": "dd8ec3bec8db",
+      "title": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
+      "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
+      "canonicalUrl": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science",
+      "domain": "home.cern",
+      "createdAt": "2026-10-19T15:28:24.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 195,
+          "comments": 39,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50153630"
+        }
+      ],
+      "normalized": 0.803,
+      "score": 5.226
+    },
+    {
+      "id": "3a11e60ee8cf",
+      "title": "Timestral: Mistral's time-series foundation models",
+      "url": "https://mistral.ai/news/timestral/",
+      "canonicalUrl": "https://mistral.ai/news/timestral",
+      "domain": "mistral.ai",
+      "createdAt": "2026-10-19T09:59:32.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 396,
+          "comments": 76,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50150434"
+        },
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 6,
+          "comments": 1,
+          "discussionUrl": "https://lobste.rs/s/7r9dcc/timestral_mistral_s_time_series"
+        }
+      ],
+      "normalized": 0.915,
+      "score": 2.157
+    },
+    {
+      "id": "bb2f91049337",
+      "title": "Show HN: Qwen3-4B with the AI writing tics trained out",
+      "url": "https://100toolkit.com/blog/deslop-model/",
+      "canonicalUrl": "https://100toolkit.com/blog/deslop-model",
+      "domain": "100toolkit.com",
+      "createdAt": "2026-10-19T13:00:47.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 128,
+          "comments": 95,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50151928"
+        }
+      ],
+      "normalized": 0.615,
+      "score": 1.842
+    },
+    {
+      "id": "39d111a7c07b",
+      "title": "Ousted Savannah police officer gave ICE agent husband access to Flock system",
+      "url": "https://www.wjcl.com/article/savannah-police-officer-ice-agent-flock-access/74135816",
+      "canonicalUrl": "https://wjcl.com/article/savannah-police-officer-ice-agent-flock-access/74135816",
+      "domain": "wjcl.com",
+      "createdAt": "2026-10-19T10:45:14.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 595,
+          "comments": 330,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50150750"
+        }
+      ],
+      "normalized": 0.983,
+      "score": 1.781
+    },
+    {
+      "id": "72f398965877",
+      "title": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+      "canonicalUrl": "https://theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+      "domain": "theverge.com",
+      "createdAt": "2026-10-19T14:23:17.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 57,
+          "comments": 4,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50152877"
+        }
+      ],
+      "normalized": 0.35,
+      "score": 1.553
+    },
+    {
+      "id": "4f0198409c0e",
+      "title": "Harness Engineering 101: The LLM is the brain, the harness is the body",
+      "url": "https://github.com/IsuruMaduranga/harness-engineering-101",
+      "canonicalUrl": "https://github.com/IsuruMaduranga/harness-engineering-101",
+      "domain": "github.com",
+      "createdAt": "2026-10-19T12:07:41.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 126,
+          "comments": 61,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50151390"
+        }
+      ],
+      "normalized": 0.598,
+      "score": 1.446
+    },
+    {
+      "id": "a6f637d138a7",
+      "title": "Harness2 by Google Research – Recursive Agent Harnessing",
+      "url": "https://github.com/google-research/harness2",
+      "canonicalUrl": "https://github.com/google-research/harness2",
+      "domain": "github.com",
+      "createdAt": "2026-10-19T11:28:45.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 63,
+          "comments": 15,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50151059"
+        }
+      ],
+      "normalized": 0.385,
+      "score": 0.807
+    },
+    {
+      "id": "c875e80c9abb",
+      "title": "DeepSeek V4.1 Flash 1017 (Max)",
+      "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
+      "canonicalUrl": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
+      "domain": "artificialanalysis.ai",
+      "createdAt": "2026-10-19T04:41:46.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 180,
+          "comments": 80,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50148452"
+        }
+      ],
+      "normalized": 0.761,
+      "score": 0.558
+    },
+    {
+      "id": "55a198ad372f",
+      "title": "Launch HN: Laminar (YC S24) – We trained a model to catch silent agent failures",
+      "url": "https://news.ycombinator.com/item?id=50154029",
+      "canonicalUrl": "https://news.ycombinator.com/item?id=50154029",
+      "domain": "news.ycombinator.com",
+      "createdAt": "2026-10-19T16:00:18.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 21,
+          "comments": 6,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50154029"
+        }
+      ],
+      "normalized": 0.068,
+      "score": 0.556
+    },
+    {
+      "id": "41797b9f96f9",
+      "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
+      "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
+      "canonicalUrl": "https://crystl.dev/guides/tmux-for-ai-agents",
+      "domain": "crystl.dev",
+      "createdAt": "2026-10-19T05:55:31.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 135,
+          "comments": 96,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50148855"
+        }
+      ],
+      "normalized": 0.641,
+      "score": 0.547
+    },
+    {
+      "id": "4806cf4a2242",
+      "title": "LiveMACE: Process-Aware Evaluation of LLM Agent Capabilities in Evolving Markets",
+      "url": "https://arxiv.org/abs/2610.09872",
+      "canonicalUrl": "https://arxiv.org/abs/2610.09872",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-19T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 110,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.09872"
+        }
+      ],
+      "normalized": 0.95,
+      "score": 0.431
+    },
+    {
+      "id": "212d68cb4e5d",
+      "title": "Scene-Designer: Learning Design Intelligence for Agentic 3D Scene Generation",
+      "url": "https://arxiv.org/abs/2610.23121",
+      "canonicalUrl": "https://arxiv.org/abs/2610.23121",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-19T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 49,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.23121"
+        }
+      ],
+      "normalized": 0.925,
+      "score": 0.42
+    },
+    {
+      "id": "b201bd3fbff9",
+      "title": "RAP: A Dataset for Paper-to-Poster Generation via Declarative Markup from Human-Crafted Exemplars",
+      "url": "https://arxiv.org/abs/2610.23230",
+      "canonicalUrl": "https://arxiv.org/abs/2610.23230",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-19T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 23,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.23230"
+        }
+      ],
+      "normalized": 0.825,
+      "score": 0.374
+    },
+    {
+      "id": "c7a642b20eec",
+      "title": "OfficeTown: Generative Organizations for Evolving Agent Intelligence",
+      "url": "https://arxiv.org/abs/2610.23194",
+      "canonicalUrl": "https://arxiv.org/abs/2610.23194",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-19T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 17,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.23194"
+        }
+      ],
+      "normalized": 0.75,
+      "score": 0.34
+    }
+  ]
+}
