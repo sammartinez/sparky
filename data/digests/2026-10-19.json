@@ -1,26 +1,83 @@
 {
   "date": "2026-10-19",
-  "generatedAt": "2026-10-19T18:02:12.956Z",
+  "generatedAt": "2026-10-20T03:24:37.853Z",
   "windowHours": 36,
   "stories": [
     {
-      "id": "0c63a7613017",
-      "title": "Mercury 3: Diffusion at scale",
-      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
-      "canonicalUrl": "https://inceptionlabs.ai/blog/introducing-mercury-3",
-      "domain": "inceptionlabs.ai",
-      "createdAt": "2026-10-19T17:27:11.000Z",
+      "id": "2715814599e6",
+      "title": "MT Forcing: Towards Stable and Consistent Multi-Turn Image Editing with Autoregressive Diffusion",
+      "url": "https://arxiv.org/abs/2610.25404",
+      "canonicalUrl": "https://arxiv.org/abs/2610.25404",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-20T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 24,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.25404"
+        }
+      ],
+      "normalized": 0.825,
+      "score": 3.95
+    },
+    {
+      "id": "e85c7c8ef789",
+      "title": "OR-License: Evaluating LLM Agents as Real-World Operations Research Practitioners",
+      "url": "https://arxiv.org/abs/2610.24087",
+      "canonicalUrl": "https://arxiv.org/abs/2610.24087",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-20T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 14,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.24087"
+        }
+      ],
+      "normalized": 0.65,
+      "score": 3.112
+    },
+    {
+      "id": "efa8c4c666c6",
+      "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+      "canonicalUrl": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+      "domain": "redact.dev",
+      "createdAt": "2026-10-19T23:22:18.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 71,
-          "comments": 23,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50155245"
+          "points": 75,
+          "comments": 11,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50159341"
         }
       ],
-      "normalized": 0.41,
-      "score": 7.43
+      "normalized": 0.457,
+      "score": 1.794
+    },
+    {
+      "id": "38d7e2a37a93",
+      "title": "Token-maxxing is dead, OpenRouter's token usage plateaus",
+      "url": "https://openrouter.ai/rankings",
+      "canonicalUrl": "https://openrouter.ai/rankings",
+      "domain": "openrouter.ai",
+      "createdAt": "2026-10-19T23:40:15.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 38,
+          "comments": 43,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50159464"
+        }
+      ],
+      "normalized": 0.181,
+      "score": 0.78
     },
     {
       "id": "dd8ec3bec8db",
@@ -39,7 +96,7 @@
         }
       ],
       "normalized": 0.803,
-      "score": 5.226
+      "score": 0.7
     },
     {
       "id": "3a11e60ee8cf",
@@ -65,26 +122,26 @@
         }
       ],
       "normalized": 0.915,
-      "score": 2.157
+      "score": 0.659
     },
     {
-      "id": "bb2f91049337",
-      "title": "Show HN: Qwen3-4B with the AI writing tics trained out",
-      "url": "https://100toolkit.com/blog/deslop-model/",
-      "canonicalUrl": "https://100toolkit.com/blog/deslop-model",
-      "domain": "100toolkit.com",
-      "createdAt": "2026-10-19T13:00:47.000Z",
+      "id": "475b3a1f72c1",
+      "title": "The US orders every civilian agency to rip out DeepSeek, even tools built on it",
+      "url": "https://madrobot.blog/2026/10/19/us-bans-deepseek-federal-agencies-dhs-order-remove-third-party/",
+      "canonicalUrl": "https://madrobot.blog/2026/10/19/us-bans-deepseek-federal-agencies-dhs-order-remove-third-party",
+      "domain": "madrobot.blog",
+      "createdAt": "2026-10-19T18:41:10.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 128,
-          "comments": 95,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50151928"
+          "points": 65,
+          "comments": 39,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50156189"
         }
       ],
-      "normalized": 0.615,
-      "score": 1.842
+      "normalized": 0.386,
+      "score": 0.539
     },
     {
       "id": "39d111a7c07b",
@@ -103,26 +160,121 @@
         }
       ],
       "normalized": 0.983,
-      "score": 1.781
+      "score": 0.507
     },
     {
-      "id": "72f398965877",
-      "title": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
-      "canonicalUrl": "https://theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
-      "domain": "theverge.com",
-      "createdAt": "2026-10-19T14:23:17.000Z",
+      "id": "e7fd8cf2b322",
+      "title": "Ask HN: How to deal with shipping AI-written code you don't understand?",
+      "url": "https://news.ycombinator.com/item?id=50151036",
+      "canonicalUrl": "https://news.ycombinator.com/item?id=50151036",
+      "domain": "news.ycombinator.com",
+      "createdAt": "2026-10-19T11:24:34.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 57,
-          "comments": 4,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50152877"
+          "points": 300,
+          "comments": 445,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50151036"
         }
       ],
-      "normalized": 0.35,
-      "score": 1.553
+      "normalized": 0.858,
+      "score": 0.472
+    },
+    {
+      "id": "0c63a7613017",
+      "title": "Mercury 3: Diffusion at scale",
+      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+      "canonicalUrl": "https://inceptionlabs.ai/blog/introducing-mercury-3",
+      "domain": "inceptionlabs.ai",
+      "createdAt": "2026-10-19T17:27:11.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 71,
+          "comments": 23,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50155245"
+        }
+      ],
+      "normalized": 0.41,
+      "score": 0.471
+    },
+    {
+      "id": "bb2f91049337",
+      "title": "Show HN: Qwen3-4B with the AI writing tics trained out",
+      "url": "https://100toolkit.com/blog/deslop-model/",
+      "canonicalUrl": "https://100toolkit.com/blog/deslop-model",
+      "domain": "100toolkit.com",
+      "createdAt": "2026-10-19T13:00:47.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 128,
+          "comments": 95,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50151928"
+        }
+      ],
+      "normalized": 0.615,
+      "score": 0.4
+    },
+    {
+      "id": "4ba135beb7fc",
+      "title": "RSIFlow: Adaptive Self-Improvement Workflows with an Evolving Meta-Agent",
+      "url": "https://arxiv.org/abs/2610.21791",
+      "canonicalUrl": "https://arxiv.org/abs/2610.21791",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-20T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.21791"
+        }
+      ],
+      "normalized": 0.075,
+      "score": 0.359
+    },
+    {
+      "id": "f2ea08d2b8a1",
+      "title": "Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution",
+      "url": "https://arxiv.org/abs/2610.17816",
+      "canonicalUrl": "https://arxiv.org/abs/2610.17816",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-20T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.17816"
+        }
+      ],
+      "normalized": 0.075,
+      "score": 0.359
+    },
+    {
+      "id": "3d44d8681fbe",
+      "title": "World Model Interpretability: From Decoding Representations to Understanding Latent Worlds",
+      "url": "https://arxiv.org/abs/2610.25296",
+      "canonicalUrl": "https://arxiv.org/abs/2610.25296",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-20T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.25296"
+        }
+      ],
+      "normalized": 0.075,
+      "score": 0.359
     },
     {
       "id": "4f0198409c0e",
@@ -141,159 +293,7 @@
         }
       ],
       "normalized": 0.598,
-      "score": 1.446
-    },
-    {
-      "id": "a6f637d138a7",
-      "title": "Harness2 by Google Research – Recursive Agent Harnessing",
-      "url": "https://github.com/google-research/harness2",
-      "canonicalUrl": "https://github.com/google-research/harness2",
-      "domain": "github.com",
-      "createdAt": "2026-10-19T11:28:45.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 63,
-          "comments": 15,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50151059"
-        }
-      ],
-      "normalized": 0.385,
-      "score": 0.807
-    },
-    {
-      "id": "c875e80c9abb",
-      "title": "DeepSeek V4.1 Flash 1017 (Max)",
-      "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
-      "canonicalUrl": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
-      "domain": "artificialanalysis.ai",
-      "createdAt": "2026-10-19T04:41:46.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 180,
-          "comments": 80,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50148452"
-        }
-      ],
-      "normalized": 0.761,
-      "score": 0.558
-    },
-    {
-      "id": "55a198ad372f",
-      "title": "Launch HN: Laminar (YC S24) – We trained a model to catch silent agent failures",
-      "url": "https://news.ycombinator.com/item?id=50154029",
-      "canonicalUrl": "https://news.ycombinator.com/item?id=50154029",
-      "domain": "news.ycombinator.com",
-      "createdAt": "2026-10-19T16:00:18.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 21,
-          "comments": 6,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50154029"
-        }
-      ],
-      "normalized": 0.068,
-      "score": 0.556
-    },
-    {
-      "id": "41797b9f96f9",
-      "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
-      "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
-      "canonicalUrl": "https://crystl.dev/guides/tmux-for-ai-agents",
-      "domain": "crystl.dev",
-      "createdAt": "2026-10-19T05:55:31.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 135,
-          "comments": 96,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50148855"
-        }
-      ],
-      "normalized": 0.641,
-      "score": 0.547
-    },
-    {
-      "id": "4806cf4a2242",
-      "title": "LiveMACE: Process-Aware Evaluation of LLM Agent Capabilities in Evolving Markets",
-      "url": "https://arxiv.org/abs/2610.09872",
-      "canonicalUrl": "https://arxiv.org/abs/2610.09872",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-19T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 110,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.09872"
-        }
-      ],
-      "normalized": 0.95,
-      "score": 0.431
-    },
-    {
-      "id": "212d68cb4e5d",
-      "title": "Scene-Designer: Learning Design Intelligence for Agentic 3D Scene Generation",
-      "url": "https://arxiv.org/abs/2610.23121",
-      "canonicalUrl": "https://arxiv.org/abs/2610.23121",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-19T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 49,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.23121"
-        }
-      ],
-      "normalized": 0.925,
-      "score": 0.42
-    },
-    {
-      "id": "b201bd3fbff9",
-      "title": "RAP: A Dataset for Paper-to-Poster Generation via Declarative Markup from Human-Crafted Exemplars",
-      "url": "https://arxiv.org/abs/2610.23230",
-      "canonicalUrl": "https://arxiv.org/abs/2610.23230",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-19T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 23,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.23230"
-        }
-      ],
-      "normalized": 0.825,
-      "score": 0.374
-    },
-    {
-      "id": "c7a642b20eec",
-      "title": "OfficeTown: Generative Organizations for Evolving Agent Intelligence",
-      "url": "https://arxiv.org/abs/2610.23194",
-      "canonicalUrl": "https://arxiv.org/abs/2610.23194",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-19T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 17,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.23194"
-        }
-      ],
-      "normalized": 0.75,
-      "score": 0.34
+      "score": 0.354
     }
   ]
 }
