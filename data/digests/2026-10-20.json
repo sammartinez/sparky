@@ -1,15 +1,167 @@
 {
   "date": "2026-10-20",
-  "generatedAt": "2026-10-20T16:06:10.650Z",
+  "generatedAt": "2026-10-21T03:19:37.025Z",
   "windowHours": 36,
   "stories": [
     {
-      "id": "94e7f4f5c0e5",
-      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
-      "canonicalUrl": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+      "id": "7e53eaa5cfc5",
+      "title": "SWIFT: Self-guided Weak-to-strong dIFfusion models via Target extrapolation",
+      "url": "https://arxiv.org/abs/2610.25844",
+      "canonicalUrl": "https://arxiv.org/abs/2610.25844",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-21T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 19,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.25844"
+        }
+      ],
+      "normalized": 0.875,
+      "score": 4.309
+    },
+    {
+      "id": "a2377bcaf9cd",
+      "title": "PhysSkin++: Real-Time and Generalizable Physics-Based Animation via Self-Supervised Neural Skinning",
+      "url": "https://arxiv.org/abs/2610.26067",
+      "canonicalUrl": "https://arxiv.org/abs/2610.26067",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-21T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 11,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.26067"
+        }
+      ],
+      "normalized": 0.8,
+      "score": 3.939
+    },
+    {
+      "id": "8974705b9389",
+      "title": "Correction Training for Diffusion Models",
+      "url": "https://arxiv.org/abs/2610.14136",
+      "canonicalUrl": "https://arxiv.org/abs/2610.14136",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-21T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 9,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.14136"
+        }
+      ],
+      "normalized": 0.725,
+      "score": 3.57
+    },
+    {
+      "id": "0f90eae621a2",
+      "title": "EdgeKernelBench: Unified LLM-Driven Kernel Generation for Edge Backends",
+      "url": "https://arxiv.org/abs/2610.24648",
+      "canonicalUrl": "https://arxiv.org/abs/2610.24648",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-21T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 7,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.24648"
+        }
+      ],
+      "normalized": 0.65,
+      "score": 3.201
+    },
+    {
+      "id": "60f7f9822d20",
+      "title": "Anthropic logged net loss of over $80B in first half of 2026",
+      "url": "https://www.reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20/",
+      "canonicalUrl": "https://reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20",
+      "domain": "reuters.com",
+      "createdAt": "2026-10-20T20:09:46.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 119,
+          "comments": 54,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50171966"
+        }
+      ],
+      "normalized": 0.589,
+      "score": 1.093
+    },
+    {
+      "id": "01ef80d499c5",
+      "title": "On AI writing",
+      "url": "https://www.bolkunov.com/p/on-ai-writing",
+      "canonicalUrl": "https://bolkunov.com/p/on-ai-writing",
+      "domain": "bolkunov.com",
+      "createdAt": "2026-10-20T19:55:11.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 80,
+          "comments": 57,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50171771"
+        }
+      ],
+      "normalized": 0.53,
+      "score": 0.937
+    },
+    {
+      "id": "afe5d96a9d46",
+      "title": "Voxtral 3",
+      "url": "https://mistral.ai/news/voxtral-3/",
+      "canonicalUrl": "https://mistral.ai/news/voxtral-3",
+      "domain": "mistral.ai",
+      "createdAt": "2026-10-20T16:02:07.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 550,
+          "comments": 145,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50168396"
+        }
+      ],
+      "normalized": 0.927,
+      "score": 0.88
+    },
+    {
+      "id": "5b545cfdb425",
+      "title": "Claude designed protein binders against scorpion neurotoxins",
+      "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+      "canonicalUrl": "https://anthropic.com/research/claude-scorpion-toxin-binder-design",
+      "domain": "anthropic.com",
+      "createdAt": "2026-10-20T17:48:29.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 98,
+          "comments": 64,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50170021"
+        }
+      ],
+      "normalized": 0.576,
+      "score": 0.708
+    },
+    {
+      "id": "4eb9f7080b11",
+      "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+      "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+      "canonicalUrl": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
       "domain": "huggingface.co",
-      "createdAt": "2026-10-20T15:19:48.000Z",
+      "createdAt": "2026-10-20T18:17:47.000Z",
       "appearances": [
         {
           "source": "rss",
@@ -19,26 +171,44 @@
         }
       ],
       "normalized": 0.5,
-      "score": 7.974
+      "score": 0.664
     },
     {
-      "id": "6a01ce2d8f26",
-      "title": "Publish fake stats, get cited in LLMs",
-      "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
-      "canonicalUrl": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
-      "domain": "peec.ai",
-      "createdAt": "2026-10-20T13:06:22.000Z",
+      "id": "a87757c6fb36",
+      "title": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest",
+      "url": "https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop",
+      "canonicalUrl": "https://ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop",
+      "domain": "ign.com",
+      "createdAt": "2026-10-20T15:48:26.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 139,
-          "comments": 80,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50165801"
+          "points": 171,
+          "comments": 198,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50168190"
         }
       ],
-      "normalized": 0.6,
-      "score": 3.315
+      "normalized": 0.682,
+      "score": 0.628
+    },
+    {
+      "id": "ca293d8533a3",
+      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+      "url": "https://huggingface.co/blog/allenai/fairstress",
+      "canonicalUrl": "https://huggingface.co/blog/allenai/fairstress",
+      "domain": "huggingface.co",
+      "createdAt": "2026-10-20T16:09:19.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.483
     },
     {
       "id": "79e072c52849",
@@ -57,129 +227,15 @@
         }
       ],
       "normalized": 0.986,
-      "score": 1.906
+      "score": 0.442
     },
     {
-      "id": "e8e32497a527",
-      "title": "MemPilot: Orchestrating On-Demand Multimodal Memory Curation for LLM Agents",
-      "url": "https://arxiv.org/abs/2610.06830",
-      "canonicalUrl": "https://arxiv.org/abs/2610.06830",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-20T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 24,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.06830"
-        }
-      ],
-      "normalized": 0.8,
-      "score": 0.436
-    },
-    {
-      "id": "cd6f0b4a4b98",
-      "title": "RoboValue: A Fine-Grained Sim-and-Real Benchmark for Unified Evaluation of Robotic Value Models",
-      "url": "https://arxiv.org/abs/2610.26663",
-      "canonicalUrl": "https://arxiv.org/abs/2610.26663",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-20T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 22,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.26663"
-        }
-      ],
-      "normalized": 0.75,
-      "score": 0.408
-    },
-    {
-      "id": "934a38edf2b4",
-      "title": "AdaExploreBench: Benchmarking LLM Agents for Proactive Exploration and Test-time Adaptation in Evolving Environments",
-      "url": "https://arxiv.org/abs/2610.25950",
-      "canonicalUrl": "https://arxiv.org/abs/2610.25950",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-20T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 22,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.25950"
-        }
-      ],
-      "normalized": 0.75,
-      "score": 0.408
-    },
-    {
-      "id": "30a7c97540c6",
-      "title": "Manga2Animate: An Agentic Framework for Faithful Manga Animation with Script and Storyboard Planning",
-      "url": "https://arxiv.org/abs/2610.26851",
-      "canonicalUrl": "https://arxiv.org/abs/2610.26851",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-20T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 21,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.26851"
-        }
-      ],
-      "normalized": 0.725,
-      "score": 0.395
-    },
-    {
-      "id": "17b72c3746e0",
-      "title": "Where is Physical RSI capability from? An Observational Scaling Law of LLM-as-policy",
-      "url": "https://arxiv.org/abs/2610.26848",
-      "canonicalUrl": "https://arxiv.org/abs/2610.26848",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-20T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 16,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.26848"
-        }
-      ],
-      "normalized": 0.625,
-      "score": 0.34
-    },
-    {
-      "id": "6803f4decd04",
-      "title": "Evidence-First Agentic Verification",
-      "url": "https://arxiv.org/abs/2610.17724",
-      "canonicalUrl": "https://arxiv.org/abs/2610.17724",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-20T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 15,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.17724"
-        }
-      ],
-      "normalized": 0.6,
-      "score": 0.327
-    },
-    {
-      "id": "84cd8d44e982",
-      "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
-      "url": "https://huggingface.co/blog/hf-torchtpu",
-      "canonicalUrl": "https://huggingface.co/blog/hf-torchtpu",
+      "id": "94e7f4f5c0e5",
+      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+      "canonicalUrl": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
       "domain": "huggingface.co",
-      "createdAt": "2026-10-20T00:00:00.000Z",
+      "createdAt": "2026-10-20T15:19:48.000Z",
       "appearances": [
         {
           "source": "rss",
@@ -189,100 +245,45 @@
         }
       ],
       "normalized": 0.5,
-      "score": 0.272
+      "score": 0.433
     },
     {
-      "id": "2596ff929aee",
-      "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
-      "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
-      "canonicalUrl": "https://huggingface.co/blog/anylanguagemodel-1-0",
-      "domain": "huggingface.co",
-      "createdAt": "2026-10-20T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "Hugging Face",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 0.272
-    },
-    {
-      "id": "3eb18e5ff7f2",
-      "title": "MPS in PyTorch 2.15",
-      "url": "https://huggingface.co/blog/mps-pytorch-2-15",
-      "canonicalUrl": "https://huggingface.co/blog/mps-pytorch-2-15",
-      "domain": "huggingface.co",
-      "createdAt": "2026-10-20T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "Hugging Face",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 0.272
-    },
-    {
-      "id": "d2321eb5a0cf",
-      "title": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
-      "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
-      "canonicalUrl": "https://reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19",
-      "domain": "reuters.com",
-      "createdAt": "2026-10-19T16:16:46.000Z",
+      "id": "7a364f356aab",
+      "title": "Advanced coding in low-resource programming languages",
+      "url": "https://openai.com/index/low-resource-programming-languages/",
+      "canonicalUrl": "https://openai.com/index/low-resource-programming-languages",
+      "domain": "openai.com",
+      "createdAt": "2026-10-20T17:43:11.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 471,
-          "comments": 390,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50154244"
+          "points": 44,
+          "comments": 63,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50169955"
         }
       ],
-      "normalized": 0.879,
-      "score": 0.252
+      "normalized": 0.344,
+      "score": 0.417
     },
     {
-      "id": "633939ca31a1",
-      "title": "HandsOn: A Large-Scale Simulation Benchmark for Generalizable Dexterous Manipulation",
-      "url": "https://arxiv.org/abs/2610.26765",
-      "canonicalUrl": "https://arxiv.org/abs/2610.26765",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-20T00:00:00.000Z",
+      "id": "d6b3f8220d7f",
+      "title": "Anthropic recorded a staggering $80B net loss in the first half of 2026",
+      "url": "https://twitter.com/Polymarket/status/2112634886070919426",
+      "canonicalUrl": "https://twitter.com/Polymarket/status/2112634886070919426",
+      "domain": "twitter.com",
+      "createdAt": "2026-10-20T22:27:07.000Z",
       "appearances": [
         {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 6,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.26765"
+          "source": "hn",
+          "label": "HN",
+          "points": 27,
+          "comments": 15,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50173557"
         }
       ],
-      "normalized": 0.45,
-      "score": 0.245
-    },
-    {
-      "id": "75e579a1c88d",
-      "title": "Progress-Aware Distillation for Mitigating Stagnation in Small Language Model Agents",
-      "url": "https://arxiv.org/abs/2610.19439",
-      "canonicalUrl": "https://arxiv.org/abs/2610.19439",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-20T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 5,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.19439"
-        }
-      ],
-      "normalized": 0.375,
-      "score": 0.204
+      "normalized": 0.132,
+      "score": 0.412
     }
   ]
 }
