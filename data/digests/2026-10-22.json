@@ -1,0 +1,300 @@
+{
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-22T16:22:11.087Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "eaa0ebff7daf",
+      "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+      "canonicalUrl": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+      "domain": "huggingface.co",
+      "createdAt": "2026-10-22T16:11:31.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 12.318
+    },
+    {
+      "id": "655df0fb22ac",
+      "title": "Beyond tree cover: mapping the world’s forest types",
+      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+      "canonicalUrl": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types",
+      "domain": "deepmind.google",
+      "createdAt": "2026-10-22T14:30:24.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Google DeepMind",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 4.39
+    },
+    {
+      "id": "b3cb6b9ecffc",
+      "title": "OpenAI CLI",
+      "url": "https://github.com/openai/openai-cli",
+      "canonicalUrl": "https://github.com/openai/openai-cli",
+      "domain": "github.com",
+      "createdAt": "2026-10-22T05:23:11.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 207,
+          "comments": 98,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50191507"
+        }
+      ],
+      "normalized": 0.782,
+      "score": 0.775
+    },
+    {
+      "id": "5d118fadbe79",
+      "title": "Ensemble forecasting with IBM Granite time-series models",
+      "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+      "canonicalUrl": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+      "domain": "huggingface.co",
+      "createdAt": "2026-10-22T07:51:31.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.724
+    },
+    {
+      "id": "8802a7899044",
+      "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+      "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+      "canonicalUrl": "https://simedw.com/2026/10/21/world-model-terminal",
+      "domain": "simedw.com",
+      "createdAt": "2026-10-22T02:18:41.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 410,
+          "comments": 129,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50190363"
+        }
+      ],
+      "normalized": 0.878,
+      "score": 0.593
+    },
+    {
+      "id": "6f7370a4596d",
+      "title": "Achieving AI-style reasoning without an LLM",
+      "url": "https://fleetingswallow.com/minotaur-ai-deep-dive-achieving-reasoning-without-a-language-model/",
+      "canonicalUrl": "https://fleetingswallow.com/minotaur-ai-deep-dive-achieving-reasoning-without-a-language-model",
+      "domain": "fleetingswallow.com",
+      "createdAt": "2026-10-22T08:46:58.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 44,
+          "comments": 30,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50192868"
+        }
+      ],
+      "normalized": 0.327,
+      "score": 0.558
+    },
+    {
+      "id": "63c31ca523f9",
+      "title": "What FDE means at OpenAI",
+      "url": "https://openai.com/index/forward-deployed-engineering-means",
+      "canonicalUrl": "https://openai.com/index/forward-deployed-engineering-means",
+      "domain": "openai.com",
+      "createdAt": "2026-10-22T06:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.54
+    },
+    {
+      "id": "25cef879a7c3",
+      "title": "Claude Now Works with Google Docs, Sheets, and Slides",
+      "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
+      "canonicalUrl": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
+      "domain": "claude.com",
+      "createdAt": "2026-10-22T02:17:58.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 67,
+          "comments": 9,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50190357"
+        }
+      ],
+      "normalized": 0.497,
+      "score": 0.335
+    },
+    {
+      "id": "43bc44ba1aa7",
+      "title": "Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research",
+      "url": "https://arxiv.org/abs/2610.30113",
+      "canonicalUrl": "https://arxiv.org/abs/2610.30113",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-22T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 17,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.30113"
+        }
+      ],
+      "normalized": 0.625,
+      "score": 0.332
+    },
+    {
+      "id": "61f4d0141ff3",
+      "title": "OpenAI models are coming to Google Cloud",
+      "url": "https://openai.com/index/openai-models-google-cloud/",
+      "canonicalUrl": "https://openai.com/index/openai-models-google-cloud",
+      "domain": "openai.com",
+      "createdAt": "2026-10-21T12:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 316,
+          "comments": 139,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50180079"
+        },
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.837,
+      "score": 0.269
+    },
+    {
+      "id": "aa6645f7e9e0",
+      "title": "Qwen-Audio-3.1-ASR Technical Report",
+      "url": "https://arxiv.org/abs/2610.28711",
+      "canonicalUrl": "https://arxiv.org/abs/2610.28711",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-22T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 11,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.28711"
+        }
+      ],
+      "normalized": 0.425,
+      "score": 0.225
+    },
+    {
+      "id": "1bfd140f401f",
+      "title": "PHP2Shell: AI uncovers critical RCE in PHP",
+      "url": "https://www.wiz.io/blog/php2shell-php-rce",
+      "canonicalUrl": "https://wiz.io/blog/php2shell-php-rce",
+      "domain": "wiz.io",
+      "createdAt": "2026-10-21T13:43:19.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 445,
+          "comments": 183,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50180836"
+        }
+      ],
+      "normalized": 0.891,
+      "score": 0.212
+    },
+    {
+      "id": "d3f519557f32",
+      "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+      "canonicalUrl": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "domain": "openai.com",
+      "createdAt": "2026-10-21T07:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 260,
+          "comments": 182,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50181175"
+        },
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.81,
+      "score": 0.198
+    },
+    {
+      "id": "b328ea6101eb",
+      "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
+      "url": "https://github.com/omnara-ai/omnara",
+      "canonicalUrl": "https://github.com/omnara-ai/omnara",
+      "domain": "github.com",
+      "createdAt": "2026-10-21T16:44:53.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 102,
+          "comments": 29,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50183892"
+        }
+      ],
+      "normalized": 0.592,
+      "score": 0.172
+    },
+    {
+      "id": "e457dd30d825",
+      "title": "Rust off Rails: The opinionated web stack for the AI era",
+      "url": "https://rustoffrails.org/",
+      "canonicalUrl": "https://rustoffrails.org/",
+      "domain": "rustoffrails.org",
+      "createdAt": "2026-10-21T16:34:16.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 73,
+          "comments": 76,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50183727"
+        }
+      ],
+      "normalized": 0.531,
+      "score": 0.153
+    }
+  ]
+}
