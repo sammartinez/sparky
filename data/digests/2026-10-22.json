@@ -1,15 +1,72 @@
 {
   "date": "2026-10-22",
-  "generatedAt": "2026-10-22T16:22:11.087Z",
+  "generatedAt": "2026-10-23T03:23:22.652Z",
   "windowHours": 36,
   "stories": [
     {
-      "id": "eaa0ebff7daf",
-      "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
-      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
-      "canonicalUrl": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+      "id": "667aea88b890",
+      "title": "Policy-Mask: Budget-Aware Adaptation of Diffusion Features to Discriminative Tasks",
+      "url": "https://arxiv.org/abs/2610.28889",
+      "canonicalUrl": "https://arxiv.org/abs/2610.28889",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-23T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 25,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.28889"
+        }
+      ],
+      "normalized": 0.875,
+      "score": 4.219
+    },
+    {
+      "id": "b059c4eea206",
+      "title": "Code2Video-Compass: A Comprehensive Benchmark for General-Purpose Code-Based Video Generation across T2V, I2V, and V2V",
+      "url": "https://arxiv.org/abs/2610.28416",
+      "canonicalUrl": "https://arxiv.org/abs/2610.28416",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-23T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 14,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.28416"
+        }
+      ],
+      "normalized": 0.775,
+      "score": 3.737
+    },
+    {
+      "id": "4e9bfd07ae02",
+      "title": "LLMs are making formal software verification feasible at a much larger scale",
+      "url": "https://www.anthropic.com/research/formal-verification",
+      "canonicalUrl": "https://anthropic.com/research/formal-verification",
+      "domain": "anthropic.com",
+      "createdAt": "2026-10-22T22:54:43.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 172,
+          "comments": 82,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50202217"
+        }
+      ],
+      "normalized": 0.714,
+      "score": 2.474
+    },
+    {
+      "id": "95eb6975ad24",
+      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "canonicalUrl": "https://huggingface.co/blog/microsoft/thinkingbox-training",
       "domain": "huggingface.co",
-      "createdAt": "2026-10-22T16:11:31.000Z",
+      "createdAt": "2026-10-22T22:24:34.000Z",
       "appearances": [
         {
           "source": "rss",
@@ -19,282 +76,214 @@
         }
       ],
       "normalized": 0.5,
-      "score": 12.318
+      "score": 1.514
     },
     {
-      "id": "655df0fb22ac",
-      "title": "Beyond tree cover: mapping the world’s forest types",
-      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-      "canonicalUrl": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types",
-      "domain": "deepmind.google",
-      "createdAt": "2026-10-22T14:30:24.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "Google DeepMind",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 4.39
-    },
-    {
-      "id": "b3cb6b9ecffc",
-      "title": "OpenAI CLI",
-      "url": "https://github.com/openai/openai-cli",
-      "canonicalUrl": "https://github.com/openai/openai-cli",
-      "domain": "github.com",
-      "createdAt": "2026-10-22T05:23:11.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 207,
-          "comments": 98,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50191507"
-        }
-      ],
-      "normalized": 0.782,
-      "score": 0.775
-    },
-    {
-      "id": "5d118fadbe79",
-      "title": "Ensemble forecasting with IBM Granite time-series models",
-      "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
-      "canonicalUrl": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
-      "domain": "huggingface.co",
-      "createdAt": "2026-10-22T07:51:31.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "Hugging Face",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 0.724
-    },
-    {
-      "id": "8802a7899044",
-      "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
-      "url": "https://simedw.com/2026/10/21/world-model-terminal/",
-      "canonicalUrl": "https://simedw.com/2026/10/21/world-model-terminal",
-      "domain": "simedw.com",
-      "createdAt": "2026-10-22T02:18:41.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 410,
-          "comments": 129,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50190363"
-        }
-      ],
-      "normalized": 0.878,
-      "score": 0.593
-    },
-    {
-      "id": "6f7370a4596d",
-      "title": "Achieving AI-style reasoning without an LLM",
-      "url": "https://fleetingswallow.com/minotaur-ai-deep-dive-achieving-reasoning-without-a-language-model/",
-      "canonicalUrl": "https://fleetingswallow.com/minotaur-ai-deep-dive-achieving-reasoning-without-a-language-model",
-      "domain": "fleetingswallow.com",
-      "createdAt": "2026-10-22T08:46:58.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 44,
-          "comments": 30,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50192868"
-        }
-      ],
-      "normalized": 0.327,
-      "score": 0.558
-    },
-    {
-      "id": "63c31ca523f9",
-      "title": "What FDE means at OpenAI",
-      "url": "https://openai.com/index/forward-deployed-engineering-means",
-      "canonicalUrl": "https://openai.com/index/forward-deployed-engineering-means",
-      "domain": "openai.com",
-      "createdAt": "2026-10-22T06:00:00.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 0.54
-    },
-    {
-      "id": "25cef879a7c3",
-      "title": "Claude Now Works with Google Docs, Sheets, and Slides",
-      "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
-      "canonicalUrl": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
-      "domain": "claude.com",
-      "createdAt": "2026-10-22T02:17:58.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 67,
-          "comments": 9,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50190357"
-        }
-      ],
-      "normalized": 0.497,
-      "score": 0.335
-    },
-    {
-      "id": "43bc44ba1aa7",
-      "title": "Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research",
-      "url": "https://arxiv.org/abs/2610.30113",
-      "canonicalUrl": "https://arxiv.org/abs/2610.30113",
+      "id": "4903ec6a22ba",
+      "title": "Is Complex Agentic Memory Always Needed? Naive RAG Is Stronger Than We Thought",
+      "url": "https://arxiv.org/abs/2610.30755",
+      "canonicalUrl": "https://arxiv.org/abs/2610.30755",
       "domain": "arxiv.org",
-      "createdAt": "2026-10-22T00:00:00.000Z",
+      "createdAt": "2026-10-23T00:00:00.000Z",
       "appearances": [
         {
           "source": "hf",
           "label": "HF Papers",
-          "points": 17,
+          "points": 3,
           "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.30113"
+          "discussionUrl": "https://huggingface.co/papers/2610.30755"
         }
       ],
-      "normalized": 0.625,
-      "score": 0.332
+      "normalized": 0.275,
+      "score": 1.326
     },
     {
-      "id": "61f4d0141ff3",
-      "title": "OpenAI models are coming to Google Cloud",
-      "url": "https://openai.com/index/openai-models-google-cloud/",
-      "canonicalUrl": "https://openai.com/index/openai-models-google-cloud",
-      "domain": "openai.com",
-      "createdAt": "2026-10-21T12:00:00.000Z",
+      "id": "b7046e0a16fa",
+      "title": "Most Americans Say AI Is Bad for Society, Oppose More Data Centers",
+      "url": "https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085",
+      "canonicalUrl": "https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085",
+      "domain": "abcnews.com",
+      "createdAt": "2026-10-22T20:51:23.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 316,
-          "comments": 139,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50180079"
-        },
-        {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
+          "points": 62,
+          "comments": 38,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50200843"
         }
       ],
-      "normalized": 0.837,
-      "score": 0.269
+      "normalized": 0.487,
+      "score": 1.027
     },
     {
-      "id": "aa6645f7e9e0",
-      "title": "Qwen-Audio-3.1-ASR Technical Report",
-      "url": "https://arxiv.org/abs/2610.28711",
-      "canonicalUrl": "https://arxiv.org/abs/2610.28711",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-22T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 11,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.28711"
-        }
-      ],
-      "normalized": 0.425,
-      "score": 0.225
-    },
-    {
-      "id": "1bfd140f401f",
-      "title": "PHP2Shell: AI uncovers critical RCE in PHP",
-      "url": "https://www.wiz.io/blog/php2shell-php-rce",
-      "canonicalUrl": "https://wiz.io/blog/php2shell-php-rce",
-      "domain": "wiz.io",
-      "createdAt": "2026-10-21T13:43:19.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 445,
-          "comments": 183,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50180836"
-        }
-      ],
-      "normalized": 0.891,
-      "score": 0.212
-    },
-    {
-      "id": "d3f519557f32",
-      "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
-      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
-      "canonicalUrl": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-      "domain": "openai.com",
-      "createdAt": "2026-10-21T07:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 260,
-          "comments": 182,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50181175"
-        },
-        {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.81,
-      "score": 0.198
-    },
-    {
-      "id": "b328ea6101eb",
-      "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
-      "url": "https://github.com/omnara-ai/omnara",
-      "canonicalUrl": "https://github.com/omnara-ai/omnara",
+      "id": "4dcdb9557827",
+      "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "canonicalUrl": "https://github.com/NVIDIA/OpenShell",
       "domain": "github.com",
-      "createdAt": "2026-10-21T16:44:53.000Z",
+      "createdAt": "2026-10-22T17:44:06.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 102,
-          "comments": 29,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50183892"
+          "points": 321,
+          "comments": 166,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50198675"
         }
       ],
-      "normalized": 0.592,
-      "score": 0.172
+      "normalized": 0.851,
+      "score": 1.023
     },
     {
-      "id": "e457dd30d825",
-      "title": "Rust off Rails: The opinionated web stack for the AI era",
-      "url": "https://rustoffrails.org/",
-      "canonicalUrl": "https://rustoffrails.org/",
-      "domain": "rustoffrails.org",
-      "createdAt": "2026-10-21T16:34:16.000Z",
+      "id": "ce7fed74f496",
+      "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
+      "url": "https://news.ycombinator.com/item?id=50200997",
+      "canonicalUrl": "https://news.ycombinator.com/item?id=50200997",
+      "domain": "news.ycombinator.com",
+      "createdAt": "2026-10-22T21:03:55.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 73,
-          "comments": 76,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50183727"
+          "points": 58,
+          "comments": 65,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50200997"
         }
       ],
-      "normalized": 0.531,
-      "score": 0.153
+      "normalized": 0.461,
+      "score": 1.017
+    },
+    {
+      "id": "a89c1639c81c",
+      "title": "AI and the Enclosure of the Scientific Commons",
+      "url": "https://arxiv.org/abs/2610.27251",
+      "canonicalUrl": "https://arxiv.org/abs/2610.27251",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-22T18:28:16.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 118,
+          "comments": 71,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50199230"
+        }
+      ],
+      "normalized": 0.643,
+      "score": 0.87
+    },
+    {
+      "id": "247837b80bd7",
+      "title": "AI compute is the new oil–and needs a new market",
+      "url": "https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market",
+      "canonicalUrl": "https://economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market",
+      "domain": "economist.com",
+      "createdAt": "2026-10-22T23:45:16.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 29,
+          "comments": 18,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50202671"
+        }
+      ],
+      "normalized": 0.182,
+      "score": 0.809
+    },
+    {
+      "id": "374db3b9194f",
+      "title": "Every AI model has the same \"controversial\" take on humans",
+      "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+      "canonicalUrl": "https://modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+      "domain": "modelcompare.ai",
+      "createdAt": "2026-10-22T16:08:00.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 270,
+          "comments": 327,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50197313"
+        }
+      ],
+      "normalized": 0.825,
+      "score": 0.787
+    },
+    {
+      "id": "27825e300358",
+      "title": "Build more responsive apps with the Decisions API",
+      "url": "https://openai.com/index/decisions-api",
+      "canonicalUrl": "https://openai.com/index/decisions-api",
+      "domain": "openai.com",
+      "createdAt": "2026-10-22T19:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.74
+    },
+    {
+      "id": "90f046669781",
+      "title": "Show HN: UI micro interactions prompts for AI",
+      "url": "https://www.typeui.sh/micro-interactions",
+      "canonicalUrl": "https://typeui.sh/micro-interactions",
+      "domain": "typeui.sh",
+      "createdAt": "2026-10-22T18:32:57.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 74,
+          "comments": 42,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50199290"
+        }
+      ],
+      "normalized": 0.539,
+      "score": 0.739
+    },
+    {
+      "id": "cec2f20b5c8c",
+      "title": "AI analysis of CT scans finds 42.9% of patients have coronary inflammation",
+      "url": "https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients",
+      "canonicalUrl": "https://biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients",
+      "domain": "biograph.com",
+      "createdAt": "2026-10-22T18:02:54.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 80,
+          "comments": 41,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50198940"
+        }
+      ],
+      "normalized": 0.571,
+      "score": 0.722
+    },
+    {
+      "id": "f29afd156725",
+      "title": "Donating Agent Skills to the Agentic AI Foundation",
+      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+      "canonicalUrl": "https://simonwillison.net/2026/Oct/22/donating-agent-skills",
+      "domain": "simonwillison.net",
+      "createdAt": "2026-10-22T18:09:56.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Simon Willison",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.644
     }
   ]
 }
