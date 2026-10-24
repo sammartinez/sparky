@@ -1,0 +1,254 @@
+{
+  "date": "2026-10-24",
+  "generatedAt": "2026-10-24T15:07:57.670Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "8ef9c99c3688",
+      "title": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn't Exist",
+      "url": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/",
+      "canonicalUrl": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist",
+      "domain": "torrentfreak.com",
+      "createdAt": "2026-10-24T11:18:54.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 63,
+          "comments": 20,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50220204"
+        }
+      ],
+      "normalized": 0.379,
+      "score": 1.594
+    },
+    {
+      "id": "0ce6777c82f0",
+      "title": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
+      "url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
+      "canonicalUrl": "https://reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds",
+      "domain": "reddit.com",
+      "createdAt": "2026-10-24T05:49:57.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 357,
+          "comments": 116,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50218633"
+        }
+      ],
+      "normalized": 0.897,
+      "score": 1.14
+    },
+    {
+      "id": "c873206e381f",
+      "title": "ThinkRail from JetBrains",
+      "url": "https://thinkrail.ai/",
+      "canonicalUrl": "https://thinkrail.ai/",
+      "domain": "thinkrail.ai",
+      "createdAt": "2026-10-24T08:08:42.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 47,
+          "comments": 72,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50219186"
+        }
+      ],
+      "normalized": 0.241,
+      "score": 0.464
+    },
+    {
+      "id": "4608c746385a",
+      "title": "Show HN: We had AI write a wiki from 45k Enron emails, every fact cited",
+      "url": "https://www.thisandthat.chat/enron/",
+      "canonicalUrl": "https://thisandthat.chat/enron",
+      "domain": "thisandthat.chat",
+      "createdAt": "2026-10-23T12:02:53.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 64,
+          "comments": 54,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50207620"
+        }
+      ],
+      "normalized": 0.431,
+      "score": 0.1
+    },
+    {
+      "id": "f4e324fb8e2e",
+      "title": "AI devours a fifth of companies' IT budgets",
+      "url": "https://www.computerworld.com/article/4239898/ai-accounts-for-one-fifth-of-companies-it-budgets.html",
+      "canonicalUrl": "https://computerworld.com/article/4239898/ai-accounts-for-one-fifth-of-companies-it-budgets.html",
+      "domain": "computerworld.com",
+      "createdAt": "2026-10-23T22:00:05.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 21,
+          "comments": 5,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50215950"
+        }
+      ],
+      "normalized": 0.078,
+      "score": 0.038
+    },
+    {
+      "id": "f0470ab03397",
+      "title": "AI is devastating higher education, but the system was broken",
+      "url": "https://theconversation.com/friday-essay-ai-is-devastating-higher-education-but-the-system-was-already-broken-292988",
+      "canonicalUrl": "https://theconversation.com/friday-essay-ai-is-devastating-higher-education-but-the-system-was-already-broken-292988",
+      "domain": "theconversation.com",
+      "createdAt": "2026-10-23T21:11:59.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 21,
+          "comments": 0,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50215398"
+        }
+      ],
+      "normalized": 0.078,
+      "score": 0.036
+    },
+    {
+      "id": "98ae0612de39",
+      "title": "AI in UX: Work Is Faster, but Practitioners Have Mixed Feelings",
+      "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/",
+      "canonicalUrl": "https://nngroup.com/articles/ai-in-ux-survey-26",
+      "domain": "nngroup.com",
+      "createdAt": "2026-10-24T00:32:17.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 18,
+          "comments": 0,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50217208"
+        }
+      ],
+      "normalized": 0.043,
+      "score": 0.027
+    },
+    {
+      "id": "f8124dc9f1c1",
+      "title": "AI Is Not a Tool",
+      "url": "https://twitter.com/frascafrasca/status/2113637581426671850",
+      "canonicalUrl": "https://twitter.com/frascafrasca/status/2113637581426671850",
+      "domain": "twitter.com",
+      "createdAt": "2026-10-23T16:59:46.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 20,
+          "comments": 37,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50212079"
+        }
+      ],
+      "normalized": 0.069,
+      "score": 0.022
+    },
+    {
+      "id": "5e862f94ad5d",
+      "title": "Meta says if its AI makes a mistake, it will legally be the customer's fault",
+      "url": "https://www.cio.com/article/4237395/metas-new-enterprise-contract-says-if-its-ai-makes-a-mistake-it-will-legally-be-the-customers-fault.html",
+      "canonicalUrl": "https://cio.com/article/4237395/metas-new-enterprise-contract-says-if-its-ai-makes-a-mistake-it-will-legally-be-the-customers-fault.html",
+      "domain": "cio.com",
+      "createdAt": "2026-10-24T03:00:43.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 16,
+          "comments": 9,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50218013"
+        }
+      ],
+      "normalized": 0.026,
+      "score": 0.022
+    },
+    {
+      "id": "8ef4f07d663f",
+      "title": "The attack chain behind the v1.107.0 LiteLLM release",
+      "url": "https://docs.litellm.ai/blog/security-incident-oct-21-2026-attack-chain",
+      "canonicalUrl": "https://docs.litellm.ai/blog/security-incident-oct-21-2026-attack-chain",
+      "domain": "docs.litellm.ai",
+      "createdAt": "2026-10-23T21:05:16.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 18,
+          "comments": 0,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50215317"
+        }
+      ],
+      "normalized": 0.043,
+      "score": 0.02
+    },
+    {
+      "id": "aad4fc1357d6",
+      "title": "An alignment assessment of the UK AISI cybertesting incident",
+      "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+      "canonicalUrl": "https://anthropic.com/research/alignment-assessment-ukaisi",
+      "domain": "anthropic.com",
+      "createdAt": "2026-10-23T14:44:50.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 18,
+          "comments": 3,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50209939"
+        }
+      ],
+      "normalized": 0.043,
+      "score": 0.012
+    },
+    {
+      "id": "8ae519d347df",
+      "title": "Wolves enter Finnish villages after Google clears 1300 acres for AI data centers",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/wolves-roam-into-finnish-villages-after-google-destroys-1-300-acres-of-forest-for-ai-data-centers-forest-where-wolf-packs-used-to-live-are-now-an-expanse-of-mud",
+      "canonicalUrl": "https://tomshardware.com/tech-industry/data-centers/wolves-roam-into-finnish-villages-after-google-destroys-1-300-acres-of-forest-for-ai-data-centers-forest-where-wolf-packs-used-to-live-are-now-an-expanse-of-mud",
+      "domain": "tomshardware.com",
+      "createdAt": "2026-10-23T11:56:22.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 16,
+          "comments": 8,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50207552"
+        }
+      ],
+      "normalized": 0.026,
+      "score": 0.006
+    },
+    {
+      "id": "6e28024b50dc",
+      "title": "That AI Temptation",
+      "url": "https://www.tbray.org/ongoing/When/202x/2026/10/19/The-AI-Temptation",
+      "canonicalUrl": "https://tbray.org/ongoing/When/202x/2026/10/19/The-AI-Temptation",
+      "domain": "tbray.org",
+      "createdAt": "2026-10-24T06:18:39.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 11,
+          "comments": 3,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50218743"
+        }
+      ],
+      "normalized": 0,
+      "score": 0
+    }
+  ]
+}
