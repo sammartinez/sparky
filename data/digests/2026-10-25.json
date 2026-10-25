@@ -1,0 +1,178 @@
+{
+  "date": "2026-10-25",
+  "generatedAt": "2026-10-25T15:19:43.756Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "3cfe81138dd2",
+      "title": "R/open source bans all solo projects and projects using LLMs",
+      "url": "https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai",
+      "canonicalUrl": "https://reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai",
+      "domain": "reddit.com",
+      "createdAt": "2026-10-25T14:05:03.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 52,
+          "comments": 50,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50231722"
+        }
+      ],
+      "normalized": 0.326,
+      "score": 3.913
+    },
+    {
+      "id": "5431bd7fa76b",
+      "title": "Samsung running a TensorFlow lite model on 960x540 image to track you",
+      "url": "https://twitter.com/mike64_t/status/2114150399406202896",
+      "canonicalUrl": "https://twitter.com/mike64_t/status/2114150399406202896",
+      "domain": "twitter.com",
+      "createdAt": "2026-10-25T10:42:01.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 194,
+          "comments": 132,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50230181"
+        }
+      ],
+      "normalized": 0.709,
+      "score": 2.357
+    },
+    {
+      "id": "ed849a13eb41",
+      "title": "Nikon photography contest winner loses title after scientists spot signs of AI",
+      "url": "https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html",
+      "canonicalUrl": "https://techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html",
+      "domain": "techspot.com",
+      "createdAt": "2026-10-25T09:51:17.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 73,
+          "comments": 18,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50229827"
+        }
+      ],
+      "normalized": 0.419,
+      "score": 1.12
+    },
+    {
+      "id": "8a99d48c2aa4",
+      "title": "Imagine an AI future where being banned means you are now economically useless",
+      "url": "https://twitter.com/boneGPT/status/2114035719853265264",
+      "canonicalUrl": "https://twitter.com/boneGPT/status/2114035719853265264",
+      "domain": "twitter.com",
+      "createdAt": "2026-10-25T12:47:20.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 20,
+          "comments": 9,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50230995"
+        }
+      ],
+      "normalized": 0.093,
+      "score": 0.611
+    },
+    {
+      "id": "c35e0b6aa8bd",
+      "title": "Cerebras Deploys Trillion-Parameter AI Models",
+      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "canonicalUrl": "https://cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "domain": "cerebras.ai",
+      "createdAt": "2026-10-25T01:33:49.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 263,
+          "comments": 86,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50227356"
+        }
+      ],
+      "normalized": 0.767,
+      "score": 0.536
+    },
+    {
+      "id": "90a01e32e7c1",
+      "title": "Show HN: Open-Source Cybersecurity Platform Uses AI Agents to Protect Businesses",
+      "url": "https://medium.com/@thomasunise/this-open-source-cybersecurity-platform-uses-ai-agents-to-detect-threats-and-protect-businesses-762e65392b42",
+      "canonicalUrl": "https://medium.com/@thomasunise/this-open-source-cybersecurity-platform-uses-ai-agents-to-detect-threats-and-protect-businesses-762e65392b42",
+      "domain": "medium.com",
+      "createdAt": "2026-10-25T13:41:19.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 15,
+          "comments": 4,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50231486"
+        }
+      ],
+      "normalized": 0.023,
+      "score": 0.227
+    },
+    {
+      "id": "942839717973",
+      "title": "Making My Blog Readable by AI Agents",
+      "url": "https://deallocatedobjects.com/posts/making-my-blog-readable-by-ai-agents",
+      "canonicalUrl": "https://deallocatedobjects.com/posts/making-my-blog-readable-by-ai-agents",
+      "domain": "deallocatedobjects.com",
+      "createdAt": "2026-10-24T21:21:33.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 26,
+          "comments": 3,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50225443"
+        }
+      ],
+      "normalized": 0.105,
+      "score": 0.048
+    },
+    {
+      "id": "6e28024b50dc",
+      "title": "That AI Temptation",
+      "url": "https://www.tbray.org/ongoing/When/202x/2026/10/19/The-AI-Temptation",
+      "canonicalUrl": "https://tbray.org/ongoing/When/202x/2026/10/19/The-AI-Temptation",
+      "domain": "tbray.org",
+      "createdAt": "2026-10-24T06:18:39.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 16,
+          "comments": 6,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50218743"
+        }
+      ],
+      "normalized": 0.058,
+      "score": 0.01
+    },
+    {
+      "id": "325a052bff47",
+      "title": "Is AI just another get rich quick scheme?",
+      "url": "https://news.ycombinator.com/item?id=50220934",
+      "canonicalUrl": "https://news.ycombinator.com/item?id=50220934",
+      "domain": "news.ycombinator.com",
+      "createdAt": "2026-10-24T13:11:37.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 15,
+          "comments": 21,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50220934"
+        }
+      ],
+      "normalized": 0.023,
+      "score": 0.006
+    }
+  ]
+}
