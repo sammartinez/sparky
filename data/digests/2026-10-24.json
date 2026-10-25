@@ -1,26 +1,121 @@
 {
   "date": "2026-10-24",
-  "generatedAt": "2026-10-24T15:07:57.670Z",
+  "generatedAt": "2026-10-25T03:12:51.818Z",
   "windowHours": 36,
   "stories": [
     {
-      "id": "8ef9c99c3688",
-      "title": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn't Exist",
-      "url": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/",
-      "canonicalUrl": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist",
-      "domain": "torrentfreak.com",
-      "createdAt": "2026-10-24T11:18:54.000Z",
+      "id": "283aef7b5aec",
+      "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+      "canonicalUrl": "https://apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+      "domain": "apricitas.io",
+      "createdAt": "2026-10-24T23:11:54.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 63,
-          "comments": 20,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50220204"
+          "points": 208,
+          "comments": 187,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50226419"
         }
       ],
-      "normalized": 0.379,
-      "score": 1.594
+      "normalized": 0.793,
+      "score": 3.139
+    },
+    {
+      "id": "6597a1303e38",
+      "title": "No signs of AI payoff outside the tech sector",
+      "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+      "canonicalUrl": "https://apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+      "domain": "apollo.com",
+      "createdAt": "2026-10-24T19:47:19.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 503,
+          "comments": 512,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50224463"
+        }
+      ],
+      "normalized": 0.942,
+      "score": 1.661
+    },
+    {
+      "id": "0a5972b709e4",
+      "title": "Dream-1",
+      "url": "https://dreamlabs.ai/research/dream-1/",
+      "canonicalUrl": "https://dreamlabs.ai/research/dream-1",
+      "domain": "dreamlabs.ai",
+      "createdAt": "2026-10-24T18:23:24.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 156,
+          "comments": 75,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50223785"
+        }
+      ],
+      "normalized": 0.669,
+      "score": 0.92
+    },
+    {
+      "id": "81c8fd74d5e2",
+      "title": "Why is AI generated language so hard to understand?",
+      "url": "https://arxiv.org/abs/2610.29162",
+      "canonicalUrl": "https://arxiv.org/abs/2610.29162",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-24T18:04:57.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 166,
+          "comments": 151,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50223647"
+        }
+      ],
+      "normalized": 0.694,
+      "score": 0.907
+    },
+    {
+      "id": "a2ab57efc2fc",
+      "title": "Neural chip decodes interactions between brain regions",
+      "url": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/",
+      "canonicalUrl": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2",
+      "domain": "actu.epfl.ch",
+      "createdAt": "2026-10-24T15:57:17.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 96,
+          "comments": 34,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50222525"
+        }
+      ],
+      "normalized": 0.562,
+      "score": 0.536
+    },
+    {
+      "id": "8acda1e9f09f",
+      "title": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
+      "url": "https://github.com/Zagitta/gpu-unlock",
+      "canonicalUrl": "https://github.com/Zagitta/gpu-unlock",
+      "domain": "github.com",
+      "createdAt": "2026-10-24T09:58:27.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 197,
+          "comments": 63,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50219700"
+        }
+      ],
+      "normalized": 0.777,
+      "score": 0.379
     },
     {
       "id": "0ce6777c82f0",
@@ -39,7 +134,83 @@
         }
       ],
       "normalized": 0.897,
-      "score": 1.14
+      "score": 0.308
+    },
+    {
+      "id": "d11d7fb22ad2",
+      "title": "Argus – a free, open-source agentic security operations platform – MIT",
+      "url": "https://thomasunise.com/argus",
+      "canonicalUrl": "https://thomasunise.com/argus",
+      "domain": "thomasunise.com",
+      "createdAt": "2026-10-24T21:54:16.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 27,
+          "comments": 9,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50225748"
+        }
+      ],
+      "normalized": 0.107,
+      "score": 0.299
+    },
+    {
+      "id": "8ef9c99c3688",
+      "title": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn't Exist",
+      "url": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/",
+      "canonicalUrl": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist",
+      "domain": "torrentfreak.com",
+      "createdAt": "2026-10-24T11:18:54.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 63,
+          "comments": 20,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50220204"
+        }
+      ],
+      "normalized": 0.379,
+      "score": 0.211
+    },
+    {
+      "id": "79c7fe33c787",
+      "title": "Oai-math-revised: a community hub for revising OpenAI's math write-ups",
+      "url": "https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/",
+      "canonicalUrl": "https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups",
+      "domain": "terrytao.wordpress.com",
+      "createdAt": "2026-10-24T15:35:17.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 38,
+          "comments": 28,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50222283"
+        }
+      ],
+      "normalized": 0.223,
+      "score": 0.203
+    },
+    {
+      "id": "000984af5b78",
+      "title": "Show HN: Autonomous root for Tcl Android TV via CVE-2022-22706",
+      "url": "https://gitlab.com/c4psu13/mali-pagecache-root",
+      "canonicalUrl": "https://gitlab.com/c4psu13/mali-pagecache-root",
+      "domain": "gitlab.com",
+      "createdAt": "2026-10-24T10:51:35.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 52,
+          "comments": 17,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50220042"
+        }
+      ],
+      "normalized": 0.331,
+      "score": 0.176
     },
     {
       "id": "c873206e381f",
@@ -58,7 +229,7 @@
         }
       ],
       "normalized": 0.241,
-      "score": 0.464
+      "score": 0.1
     },
     {
       "id": "4608c746385a",
@@ -77,7 +248,7 @@
         }
       ],
       "normalized": 0.431,
-      "score": 0.1
+      "score": 0.054
     },
     {
       "id": "f4e324fb8e2e",
@@ -96,159 +267,26 @@
         }
       ],
       "normalized": 0.078,
-      "score": 0.038
+      "score": 0.016
     },
     {
-      "id": "f0470ab03397",
-      "title": "AI is devastating higher education, but the system was broken",
-      "url": "https://theconversation.com/friday-essay-ai-is-devastating-higher-education-but-the-system-was-already-broken-292988",
-      "canonicalUrl": "https://theconversation.com/friday-essay-ai-is-devastating-higher-education-but-the-system-was-already-broken-292988",
-      "domain": "theconversation.com",
-      "createdAt": "2026-10-23T21:11:59.000Z",
+      "id": "93fc448c0fc1",
+      "title": "What's Wrong with AI?",
+      "url": "https://homepage.farm/ai.html",
+      "canonicalUrl": "https://homepage.farm/ai.html",
+      "domain": "homepage.farm",
+      "createdAt": "2026-10-24T12:30:32.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 21,
-          "comments": 0,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50215398"
+          "points": 14,
+          "comments": 4,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50220640"
         }
       ],
-      "normalized": 0.078,
-      "score": 0.036
-    },
-    {
-      "id": "98ae0612de39",
-      "title": "AI in UX: Work Is Faster, but Practitioners Have Mixed Feelings",
-      "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/",
-      "canonicalUrl": "https://nngroup.com/articles/ai-in-ux-survey-26",
-      "domain": "nngroup.com",
-      "createdAt": "2026-10-24T00:32:17.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 18,
-          "comments": 0,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50217208"
-        }
-      ],
-      "normalized": 0.043,
-      "score": 0.027
-    },
-    {
-      "id": "f8124dc9f1c1",
-      "title": "AI Is Not a Tool",
-      "url": "https://twitter.com/frascafrasca/status/2113637581426671850",
-      "canonicalUrl": "https://twitter.com/frascafrasca/status/2113637581426671850",
-      "domain": "twitter.com",
-      "createdAt": "2026-10-23T16:59:46.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 20,
-          "comments": 37,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50212079"
-        }
-      ],
-      "normalized": 0.069,
-      "score": 0.022
-    },
-    {
-      "id": "5e862f94ad5d",
-      "title": "Meta says if its AI makes a mistake, it will legally be the customer's fault",
-      "url": "https://www.cio.com/article/4237395/metas-new-enterprise-contract-says-if-its-ai-makes-a-mistake-it-will-legally-be-the-customers-fault.html",
-      "canonicalUrl": "https://cio.com/article/4237395/metas-new-enterprise-contract-says-if-its-ai-makes-a-mistake-it-will-legally-be-the-customers-fault.html",
-      "domain": "cio.com",
-      "createdAt": "2026-10-24T03:00:43.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 16,
-          "comments": 9,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50218013"
-        }
-      ],
-      "normalized": 0.026,
-      "score": 0.022
-    },
-    {
-      "id": "8ef4f07d663f",
-      "title": "The attack chain behind the v1.107.0 LiteLLM release",
-      "url": "https://docs.litellm.ai/blog/security-incident-oct-21-2026-attack-chain",
-      "canonicalUrl": "https://docs.litellm.ai/blog/security-incident-oct-21-2026-attack-chain",
-      "domain": "docs.litellm.ai",
-      "createdAt": "2026-10-23T21:05:16.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 18,
-          "comments": 0,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50215317"
-        }
-      ],
-      "normalized": 0.043,
-      "score": 0.02
-    },
-    {
-      "id": "aad4fc1357d6",
-      "title": "An alignment assessment of the UK AISI cybertesting incident",
-      "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
-      "canonicalUrl": "https://anthropic.com/research/alignment-assessment-ukaisi",
-      "domain": "anthropic.com",
-      "createdAt": "2026-10-23T14:44:50.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 18,
-          "comments": 3,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50209939"
-        }
-      ],
-      "normalized": 0.043,
-      "score": 0.012
-    },
-    {
-      "id": "8ae519d347df",
-      "title": "Wolves enter Finnish villages after Google clears 1300 acres for AI data centers",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/wolves-roam-into-finnish-villages-after-google-destroys-1-300-acres-of-forest-for-ai-data-centers-forest-where-wolf-packs-used-to-live-are-now-an-expanse-of-mud",
-      "canonicalUrl": "https://tomshardware.com/tech-industry/data-centers/wolves-roam-into-finnish-villages-after-google-destroys-1-300-acres-of-forest-for-ai-data-centers-forest-where-wolf-packs-used-to-live-are-now-an-expanse-of-mud",
-      "domain": "tomshardware.com",
-      "createdAt": "2026-10-23T11:56:22.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 16,
-          "comments": 8,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50207552"
-        }
-      ],
-      "normalized": 0.026,
-      "score": 0.006
-    },
-    {
-      "id": "6e28024b50dc",
-      "title": "That AI Temptation",
-      "url": "https://www.tbray.org/ongoing/When/202x/2026/10/19/The-AI-Temptation",
-      "canonicalUrl": "https://tbray.org/ongoing/When/202x/2026/10/19/The-AI-Temptation",
-      "domain": "tbray.org",
-      "createdAt": "2026-10-24T06:18:39.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 11,
-          "comments": 3,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50218743"
-        }
-      ],
-      "normalized": 0,
-      "score": 0
+      "normalized": 0.025,
+      "score": 0.016
     }
   ]
 }
