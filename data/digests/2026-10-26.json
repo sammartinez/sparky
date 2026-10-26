@@ -1,0 +1,290 @@
+{
+  "date": "2026-10-26",
+  "generatedAt": "2026-10-26T18:00:11.692Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "52c4e7935441",
+      "title": "Anthropic S-1",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "domain": "sec.gov",
+      "createdAt": "2026-10-26T13:04:50.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 1064,
+          "comments": 989,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50242939"
+        }
+      ],
+      "normalized": 0.991,
+      "score": 3.045
+    },
+    {
+      "id": "ce5ce5fc43fb",
+      "title": "Concerning behavior from a popular open-weight AI model",
+      "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+      "canonicalUrl": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+      "domain": "cohere.com",
+      "createdAt": "2026-10-26T16:35:44.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 53,
+          "comments": 12,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50246658"
+        }
+      ],
+      "normalized": 0.204,
+      "score": 2.24
+    },
+    {
+      "id": "f2b7a055af10",
+      "title": "Brown student maps the hidden global labor powering AI",
+      "url": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
+      "canonicalUrl": "https://brown.edu/news/2026-10-26/ai-data-workers",
+      "domain": "brown.edu",
+      "createdAt": "2026-10-26T12:58:27.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 124,
+          "comments": 105,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50242843"
+        }
+      ],
+      "normalized": 0.558,
+      "score": 1.667
+    },
+    {
+      "id": "2cc0598e6cc3",
+      "title": "The Git Forge for Agent-Human Collaboration",
+      "url": "https://entire.com/blog/the-git-forge-for-agent-human-collaboration",
+      "canonicalUrl": "https://entire.com/blog/the-git-forge-for-agent-human-collaboration",
+      "domain": "entire.com",
+      "createdAt": "2026-10-26T17:23:11.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 29,
+          "comments": 6,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50247453"
+        }
+      ],
+      "normalized": 0.071,
+      "score": 1.253
+    },
+    {
+      "id": "64d59b55a8fb",
+      "title": "ChatGPT’s expanding world of work",
+      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "canonicalUrl": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "domain": "openai.com",
+      "createdAt": "2026-10-26T10:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.792
+    },
+    {
+      "id": "eb7708c5f537",
+      "title": "How Fanatics and OpenAI streamline the fan experience",
+      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "canonicalUrl": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "domain": "openai.com",
+      "createdAt": "2026-10-26T07:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.494
+    },
+    {
+      "id": "a3346b4e2ef3",
+      "title": "RSIHub: A Composable Framework for Agent-Evolution Methods",
+      "url": "https://arxiv.org/abs/2610.32253",
+      "canonicalUrl": "https://arxiv.org/abs/2610.32253",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-26T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 33,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.32253"
+        }
+      ],
+      "normalized": 0.892,
+      "score": 0.406
+    },
+    {
+      "id": "4700373125d7",
+      "title": "DirCast: Live Esports Directing and Commentary with a Single Streaming Video-Language Model",
+      "url": "https://arxiv.org/abs/2610.31734",
+      "canonicalUrl": "https://arxiv.org/abs/2610.31734",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-26T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 15,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.31734"
+        }
+      ],
+      "normalized": 0.757,
+      "score": 0.344
+    },
+    {
+      "id": "a45846e0cd61",
+      "title": "DraMaze: A Multi-Agent Pipeline with Future-Aware Memory for Diverse Microdrama Script Generation",
+      "url": "https://arxiv.org/abs/2610.32002",
+      "canonicalUrl": "https://arxiv.org/abs/2610.32002",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-26T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 10,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.32002"
+        }
+      ],
+      "normalized": 0.649,
+      "score": 0.295
+    },
+    {
+      "id": "27260301886a",
+      "title": "Building Auditable AI Text Detectors with Sparse Autoencoders",
+      "url": "https://arxiv.org/abs/2610.30006",
+      "canonicalUrl": "https://arxiv.org/abs/2610.30006",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-26T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 7,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.30006"
+        }
+      ],
+      "normalized": 0.595,
+      "score": 0.271
+    },
+    {
+      "id": "b75d3b50ac1e",
+      "title": "MultiAgent-OPD: End-to-End Training of Hierarchical Multi-Agent Systems with On-Policy Distillation",
+      "url": "https://arxiv.org/abs/2610.23234",
+      "canonicalUrl": "https://arxiv.org/abs/2610.23234",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-26T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 7,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.23234"
+        }
+      ],
+      "normalized": 0.595,
+      "score": 0.271
+    },
+    {
+      "id": "1bb180ff2772",
+      "title": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
+      "url": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
+      "canonicalUrl": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
+      "domain": "contraptions.venkateshrao.com",
+      "createdAt": "2026-10-26T04:11:40.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 76,
+          "comments": 98,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50239027"
+        }
+      ],
+      "normalized": 0.363,
+      "score": 0.252
+    },
+    {
+      "id": "9759a34338b6",
+      "title": "Microsoft Decision-1: 9B Qwen Model Launch Explained",
+      "url": "https://shattered.io/microsoft-decision-1-qwen3-5-9b-model-2026/",
+      "canonicalUrl": "https://shattered.io/microsoft-decision-1-qwen3-5-9b-model-2026",
+      "domain": "shattered.io",
+      "createdAt": "2026-10-26T03:12:05.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 71,
+          "comments": 27,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50238620"
+        }
+      ],
+      "normalized": 0.336,
+      "score": 0.209
+    },
+    {
+      "id": "f1626553d1a8",
+      "title": "Speculative Diffusion is a Tale of Two Tradeoffs",
+      "url": "https://arxiv.org/abs/2610.31819",
+      "canonicalUrl": "https://arxiv.org/abs/2610.31819",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-26T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 3,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.31819"
+        }
+      ],
+      "normalized": 0.324,
+      "score": 0.148
+    },
+    {
+      "id": "09d6f74854cf",
+      "title": "DISC: Domain-Integrated Similarity Cost for Time-Series Dataset",
+      "url": "https://arxiv.org/abs/2610.31288",
+      "canonicalUrl": "https://arxiv.org/abs/2610.31288",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-26T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 3,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.31288"
+        }
+      ],
+      "normalized": 0.324,
+      "score": 0.148
+    }
+  ]
+}
