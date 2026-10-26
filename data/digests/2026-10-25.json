@@ -1,26 +1,102 @@
 {
   "date": "2026-10-25",
-  "generatedAt": "2026-10-25T15:19:43.756Z",
+  "generatedAt": "2026-10-26T03:13:20.136Z",
   "windowHours": 36,
   "stories": [
     {
-      "id": "3cfe81138dd2",
-      "title": "R/open source bans all solo projects and projects using LLMs",
-      "url": "https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai",
-      "canonicalUrl": "https://reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai",
-      "domain": "reddit.com",
-      "createdAt": "2026-10-25T14:05:03.000Z",
+      "id": "8c078e508ad8",
+      "title": "Omni-Woodpecker: Hallucination Correction via Evidence-Prior Rebalancing for Omni LLMs",
+      "url": "https://arxiv.org/abs/2610.27103",
+      "canonicalUrl": "https://arxiv.org/abs/2610.27103",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-26T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 7,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.27103"
+        }
+      ],
+      "normalized": 0.667,
+      "score": 3.402
+    },
+    {
+      "id": "c45c68dc9fe2",
+      "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "url": "https://minimaxir.com/2026/10/cheap-llms/",
+      "canonicalUrl": "https://minimaxir.com/2026/10/cheap-llms",
+      "domain": "minimaxir.com",
+      "createdAt": "2026-10-25T21:11:31.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 52,
-          "comments": 50,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50231722"
+          "points": 185,
+          "comments": 211,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50236102"
         }
       ],
-      "normalized": 0.326,
-      "score": 3.913
+      "normalized": 0.724,
+      "score": 1.703
+    },
+    {
+      "id": "1dc75a32fc6a",
+      "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+      "url": "https://lynchlab.net/llm-skin-cancer",
+      "canonicalUrl": "https://lynchlab.net/llm-skin-cancer",
+      "domain": "lynchlab.net",
+      "createdAt": "2026-10-25T17:15:38.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 470,
+          "comments": 216,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50233779"
+        }
+      ],
+      "normalized": 0.914,
+      "score": 1.049
+    },
+    {
+      "id": "33331332d5b9",
+      "title": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
+      "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+      "canonicalUrl": "https://dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+      "domain": "dailycal.org",
+      "createdAt": "2026-10-25T16:28:26.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 204,
+          "comments": 297,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50233304"
+        }
+      ],
+      "normalized": 0.776,
+      "score": 0.794
+    },
+    {
+      "id": "30339954eaf3",
+      "title": "Apollo says AI has delivered 'zero financial payoff' outside the tech industry",
+      "url": "https://www.businessinsider.com/apollo-ai-zero-financial-payoff-corporate-america-economic-analysis-2026-10",
+      "canonicalUrl": "https://businessinsider.com/apollo-ai-zero-financial-payoff-corporate-america-economic-analysis-2026-10",
+      "domain": "businessinsider.com",
+      "createdAt": "2026-10-25T22:49:06.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 37,
+          "comments": 25,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50236828"
+        }
+      ],
+      "normalized": 0.155,
+      "score": 0.549
     },
     {
       "id": "5431bd7fa76b",
@@ -39,7 +115,45 @@
         }
       ],
       "normalized": 0.709,
-      "score": 2.357
+      "score": 0.371
+    },
+    {
+      "id": "66ba1c7669c0",
+      "title": "A mathematician reads the AI future",
+      "url": "https://www.theatlantic.com/ideas/2026/10/ai-math-human-future/689133/",
+      "canonicalUrl": "https://theatlantic.com/ideas/2026/10/ai-math-human-future/689133",
+      "domain": "theatlantic.com",
+      "createdAt": "2026-10-25T16:31:21.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 54,
+          "comments": 76,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50233347"
+        }
+      ],
+      "normalized": 0.284,
+      "score": 0.293
+    },
+    {
+      "id": "3cfe81138dd2",
+      "title": "R/open source bans all solo projects and projects using LLMs",
+      "url": "https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai",
+      "canonicalUrl": "https://reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai",
+      "domain": "reddit.com",
+      "createdAt": "2026-10-25T14:05:03.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 52,
+          "comments": 50,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50231722"
+        }
+      ],
+      "normalized": 0.326,
+      "score": 0.245
     },
     {
       "id": "ed849a13eb41",
@@ -58,26 +172,7 @@
         }
       ],
       "normalized": 0.419,
-      "score": 1.12
-    },
-    {
-      "id": "8a99d48c2aa4",
-      "title": "Imagine an AI future where being banned means you are now economically useless",
-      "url": "https://twitter.com/boneGPT/status/2114035719853265264",
-      "canonicalUrl": "https://twitter.com/boneGPT/status/2114035719853265264",
-      "domain": "twitter.com",
-      "createdAt": "2026-10-25T12:47:20.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 20,
-          "comments": 9,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50230995"
-        }
-      ],
-      "normalized": 0.093,
-      "score": 0.611
+      "score": 0.202
     },
     {
       "id": "c35e0b6aa8bd",
@@ -96,26 +191,83 @@
         }
       ],
       "normalized": 0.767,
-      "score": 0.536
+      "score": 0.195
     },
     {
-      "id": "90a01e32e7c1",
-      "title": "Show HN: Open-Source Cybersecurity Platform Uses AI Agents to Protect Businesses",
-      "url": "https://medium.com/@thomasunise/this-open-source-cybersecurity-platform-uses-ai-agents-to-detect-threats-and-protect-businesses-762e65392b42",
-      "canonicalUrl": "https://medium.com/@thomasunise/this-open-source-cybersecurity-platform-uses-ai-agents-to-detect-threats-and-protect-businesses-762e65392b42",
-      "domain": "medium.com",
-      "createdAt": "2026-10-25T13:41:19.000Z",
+      "id": "f27e36157157",
+      "title": "AI didn't cause the tech jobs bust, but it explains why there's no recovery",
+      "url": "https://vithushansylvester.com/writing/the-real-impact-of-ai-on-tech-jobs",
+      "canonicalUrl": "https://vithushansylvester.com/writing/the-real-impact-of-ai-on-tech-jobs",
+      "domain": "vithushansylvester.com",
+      "createdAt": "2026-10-25T18:42:23.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 15,
-          "comments": 4,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50231486"
+          "points": 27,
+          "comments": 11,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50234699"
         }
       ],
-      "normalized": 0.023,
-      "score": 0.227
+      "normalized": 0.052,
+      "score": 0.075
+    },
+    {
+      "id": "a9e08b18c9f8",
+      "title": "Show HN: Hurston-1 open source TTS that speak Southern American and Afro-English",
+      "url": "https://huggingface.co/destined/hurston-1",
+      "canonicalUrl": "https://huggingface.co/destined/hurston-1",
+      "domain": "huggingface.co",
+      "createdAt": "2026-10-25T01:30:13.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 53,
+          "comments": 23,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50227330"
+        }
+      ],
+      "normalized": 0.259,
+      "score": 0.065
+    },
+    {
+      "id": "8a99d48c2aa4",
+      "title": "Imagine an AI future where being banned means you are now economically useless",
+      "url": "https://twitter.com/boneGPT/status/2114035719853265264",
+      "canonicalUrl": "https://twitter.com/boneGPT/status/2114035719853265264",
+      "domain": "twitter.com",
+      "createdAt": "2026-10-25T12:47:20.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 20,
+          "comments": 9,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50230995"
+        }
+      ],
+      "normalized": 0.093,
+      "score": 0.06
+    },
+    {
+      "id": "4a8d61acf44c",
+      "title": "Why I'm Short the AI Buildout Even Though I'm Long Computers",
+      "url": "https://unverifiablerewards.substack.com/p/why-im-short-the-ai-buildout-even",
+      "canonicalUrl": "https://unverifiablerewards.substack.com/p/why-im-short-the-ai-buildout-even",
+      "domain": "unverifiablerewards.substack.com",
+      "createdAt": "2026-10-25T20:44:07.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 16,
+          "comments": 12,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50235883"
+        }
+      ],
+      "normalized": 0.026,
+      "score": 0.055
     },
     {
       "id": "942839717973",
@@ -134,45 +286,7 @@
         }
       ],
       "normalized": 0.105,
-      "score": 0.048
-    },
-    {
-      "id": "6e28024b50dc",
-      "title": "That AI Temptation",
-      "url": "https://www.tbray.org/ongoing/When/202x/2026/10/19/The-AI-Temptation",
-      "canonicalUrl": "https://tbray.org/ongoing/When/202x/2026/10/19/The-AI-Temptation",
-      "domain": "tbray.org",
-      "createdAt": "2026-10-24T06:18:39.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 16,
-          "comments": 6,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50218743"
-        }
-      ],
-      "normalized": 0.058,
-      "score": 0.01
-    },
-    {
-      "id": "325a052bff47",
-      "title": "Is AI just another get rich quick scheme?",
-      "url": "https://news.ycombinator.com/item?id=50220934",
-      "canonicalUrl": "https://news.ycombinator.com/item?id=50220934",
-      "domain": "news.ycombinator.com",
-      "createdAt": "2026-10-24T13:11:37.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 15,
-          "comments": 21,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50220934"
-        }
-      ],
-      "normalized": 0.023,
-      "score": 0.006
+      "score": 0.021
     }
   ]
 }
