@@ -1,8 +1,184 @@
 {
   "date": "2026-10-26",
-  "generatedAt": "2026-10-26T18:00:11.692Z",
+  "generatedAt": "2026-10-27T03:43:21.436Z",
   "windowHours": 36,
   "stories": [
+    {
+      "id": "1f235be3bf7b",
+      "title": "Trial by Trace: Benchmarking AI Agent Harnesses for Reliability and Failure Attribution",
+      "url": "https://arxiv.org/abs/2610.32285",
+      "canonicalUrl": "https://arxiv.org/abs/2610.32285",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-27T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 17,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.32285"
+        }
+      ],
+      "normalized": 0.875,
+      "score": 3.787
+    },
+    {
+      "id": "af82c7a48697",
+      "title": "Qwen-Image-PE: Learning Visual Design for Text-to-Image Prompt Enhancement",
+      "url": "https://arxiv.org/abs/2610.33472",
+      "canonicalUrl": "https://arxiv.org/abs/2610.33472",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-27T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 13,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.33472"
+        }
+      ],
+      "normalized": 0.825,
+      "score": 3.571
+    },
+    {
+      "id": "b4606a87afad",
+      "title": "Continual Learning Exam: Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents",
+      "url": "https://arxiv.org/abs/2610.33956",
+      "canonicalUrl": "https://arxiv.org/abs/2610.33956",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-27T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 8,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.33956"
+        }
+      ],
+      "normalized": 0.725,
+      "score": 3.138
+    },
+    {
+      "id": "95d5916fd628",
+      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+      "canonicalUrl": "https://blog.cloudflare.com/kv-cache-exposure-remediation",
+      "domain": "blog.cloudflare.com",
+      "createdAt": "2026-10-26T22:41:48.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 94,
+          "comments": 30,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50252159"
+        }
+      ],
+      "normalized": 0.534,
+      "score": 1.597
+    },
+    {
+      "id": "250e5d8f3024",
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "canonicalUrl": "https://openai.com/index/greptile-code-review-codex-astra",
+      "domain": "openai.com",
+      "createdAt": "2026-10-26T22:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 1.262
+    },
+    {
+      "id": "f16aefe89a6e",
+      "title": "Three new discoveries in mathematics, computer science, and physics",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "canonicalUrl": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "domain": "openai.com",
+      "createdAt": "2026-10-26T14:30:00.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 592,
+          "comments": 255,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50251344"
+        },
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.953,
+      "score": 1.063
+    },
+    {
+      "id": "15acd576142b",
+      "title": "Proton to 'Re-Interview' Staff About AI to See Who Gets to Keep Their Job",
+      "url": "https://www.404media.co/proton-to-re-interview-staff-about-ai-to-see-who-gets-to-keep-their-job/",
+      "canonicalUrl": "https://404media.co/proton-to-re-interview-staff-about-ai-to-see-who-gets-to-keep-their-job",
+      "domain": "404media.co",
+      "createdAt": "2026-10-26T21:13:59.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 55,
+          "comments": 21,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50251062"
+        }
+      ],
+      "normalized": 0.372,
+      "score": 0.791
+    },
+    {
+      "id": "e7fd9b73e2bc",
+      "title": "Novel or Not? PatEx-Gym: Agentic Prior-Art Search for Novelty Assessment in Patent Examination",
+      "url": "https://arxiv.org/abs/2610.33503",
+      "canonicalUrl": "https://arxiv.org/abs/2610.33503",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-27T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.33503"
+        }
+      ],
+      "normalized": 0.15,
+      "score": 0.649
+    },
+    {
+      "id": "a040d6c7fd72",
+      "title": "Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model",
+      "url": "https://arxiv.org/abs/2610.29139",
+      "canonicalUrl": "https://arxiv.org/abs/2610.29139",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-27T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.29139"
+        }
+      ],
+      "normalized": 0.15,
+      "score": 0.649
+    },
     {
       "id": "52c4e7935441",
       "title": "Anthropic S-1",
@@ -20,26 +196,57 @@
         }
       ],
       "normalized": 0.991,
-      "score": 3.045
+      "score": 0.628
     },
     {
-      "id": "ce5ce5fc43fb",
-      "title": "Concerning behavior from a popular open-weight AI model",
-      "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
-      "canonicalUrl": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
-      "domain": "cohere.com",
-      "createdAt": "2026-10-26T16:35:44.000Z",
+      "id": "8cfee209e93b",
+      "title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
+      "url": "https://github.com/FrigadeHQ/hob",
+      "canonicalUrl": "https://github.com/FrigadeHQ/hob",
+      "domain": "github.com",
+      "createdAt": "2026-10-26T16:12:29.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 53,
-          "comments": 12,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50246658"
+          "points": 126,
+          "comments": 31,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50246238"
         }
       ],
-      "normalized": 0.204,
-      "score": 2.24
+      "normalized": 0.574,
+      "score": 0.529
+    },
+    {
+      "id": "1758535ac6be",
+      "title": "GPT-6.1 Terra",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "canonicalUrl": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "domain": "openai.com",
+      "createdAt": "2026-10-26T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 538,
+          "comments": 337,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50248124"
+        },
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        },
+        {
+          "source": "rss",
+          "label": "Simon Willison",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.939,
+      "score": 0.419
     },
     {
       "id": "f2b7a055af10",
@@ -58,34 +265,15 @@
         }
       ],
       "normalized": 0.558,
-      "score": 1.667
+      "score": 0.349
     },
     {
-      "id": "2cc0598e6cc3",
-      "title": "The Git Forge for Agent-Human Collaboration",
-      "url": "https://entire.com/blog/the-git-forge-for-agent-human-collaboration",
-      "canonicalUrl": "https://entire.com/blog/the-git-forge-for-agent-human-collaboration",
-      "domain": "entire.com",
-      "createdAt": "2026-10-26T17:23:11.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 29,
-          "comments": 6,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50247453"
-        }
-      ],
-      "normalized": 0.071,
-      "score": 1.253
-    },
-    {
-      "id": "64d59b55a8fb",
-      "title": "ChatGPT’s expanding world of work",
-      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
-      "canonicalUrl": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "id": "1a1d4bf2fc11",
+      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "canonicalUrl": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
       "domain": "openai.com",
-      "createdAt": "2026-10-26T10:00:00.000Z",
+      "createdAt": "2026-10-26T13:45:00.000Z",
       "appearances": [
         {
           "source": "rss",
@@ -95,196 +283,26 @@
         }
       ],
       "normalized": 0.5,
-      "score": 0.792
+      "score": 0.341
     },
     {
-      "id": "eb7708c5f537",
-      "title": "How Fanatics and OpenAI streamline the fan experience",
-      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
-      "canonicalUrl": "https://openai.com/index/fanatics-streamline-fan-experience",
-      "domain": "openai.com",
-      "createdAt": "2026-10-26T07:00:00.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 0.494
-    },
-    {
-      "id": "a3346b4e2ef3",
-      "title": "RSIHub: A Composable Framework for Agent-Evolution Methods",
-      "url": "https://arxiv.org/abs/2610.32253",
-      "canonicalUrl": "https://arxiv.org/abs/2610.32253",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-26T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 33,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.32253"
-        }
-      ],
-      "normalized": 0.892,
-      "score": 0.406
-    },
-    {
-      "id": "4700373125d7",
-      "title": "DirCast: Live Esports Directing and Commentary with a Single Streaming Video-Language Model",
-      "url": "https://arxiv.org/abs/2610.31734",
-      "canonicalUrl": "https://arxiv.org/abs/2610.31734",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-26T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 15,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.31734"
-        }
-      ],
-      "normalized": 0.757,
-      "score": 0.344
-    },
-    {
-      "id": "a45846e0cd61",
-      "title": "DraMaze: A Multi-Agent Pipeline with Future-Aware Memory for Diverse Microdrama Script Generation",
-      "url": "https://arxiv.org/abs/2610.32002",
-      "canonicalUrl": "https://arxiv.org/abs/2610.32002",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-26T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 10,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.32002"
-        }
-      ],
-      "normalized": 0.649,
-      "score": 0.295
-    },
-    {
-      "id": "27260301886a",
-      "title": "Building Auditable AI Text Detectors with Sparse Autoencoders",
-      "url": "https://arxiv.org/abs/2610.30006",
-      "canonicalUrl": "https://arxiv.org/abs/2610.30006",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-26T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 7,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.30006"
-        }
-      ],
-      "normalized": 0.595,
-      "score": 0.271
-    },
-    {
-      "id": "b75d3b50ac1e",
-      "title": "MultiAgent-OPD: End-to-End Training of Hierarchical Multi-Agent Systems with On-Policy Distillation",
-      "url": "https://arxiv.org/abs/2610.23234",
-      "canonicalUrl": "https://arxiv.org/abs/2610.23234",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-26T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 7,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.23234"
-        }
-      ],
-      "normalized": 0.595,
-      "score": 0.271
-    },
-    {
-      "id": "1bb180ff2772",
-      "title": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
-      "url": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
-      "canonicalUrl": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
-      "domain": "contraptions.venkateshrao.com",
-      "createdAt": "2026-10-26T04:11:40.000Z",
+      "id": "486974ce7333",
+      "title": "Why I'm growing my Vancouver AI company in Taiwan and Europe instead of the U.S.",
+      "url": "https://bcbusiness.ca/business/tech-science/opinion-vancouver-ai-company-taiwan-europe/",
+      "canonicalUrl": "https://bcbusiness.ca/business/tech-science/opinion-vancouver-ai-company-taiwan-europe",
+      "domain": "bcbusiness.ca",
+      "createdAt": "2026-10-26T19:52:44.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 76,
-          "comments": 98,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50239027"
+          "points": 32,
+          "comments": 1,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50249953"
         }
       ],
-      "normalized": 0.363,
-      "score": 0.252
-    },
-    {
-      "id": "9759a34338b6",
-      "title": "Microsoft Decision-1: 9B Qwen Model Launch Explained",
-      "url": "https://shattered.io/microsoft-decision-1-qwen3-5-9b-model-2026/",
-      "canonicalUrl": "https://shattered.io/microsoft-decision-1-qwen3-5-9b-model-2026",
-      "domain": "shattered.io",
-      "createdAt": "2026-10-26T03:12:05.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 71,
-          "comments": 27,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50238620"
-        }
-      ],
-      "normalized": 0.336,
-      "score": 0.209
-    },
-    {
-      "id": "f1626553d1a8",
-      "title": "Speculative Diffusion is a Tale of Two Tradeoffs",
-      "url": "https://arxiv.org/abs/2610.31819",
-      "canonicalUrl": "https://arxiv.org/abs/2610.31819",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-26T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 3,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.31819"
-        }
-      ],
-      "normalized": 0.324,
-      "score": 0.148
-    },
-    {
-      "id": "09d6f74854cf",
-      "title": "DISC: Domain-Integrated Similarity Cost for Time-Series Dataset",
-      "url": "https://arxiv.org/abs/2610.31288",
-      "canonicalUrl": "https://arxiv.org/abs/2610.31288",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-26T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 3,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.31288"
-        }
-      ],
-      "normalized": 0.324,
-      "score": 0.148
+      "normalized": 0.196,
+      "score": 0.319
     }
   ]
 }
