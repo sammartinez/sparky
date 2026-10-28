@@ -1,8 +1,179 @@
 {
   "date": "2026-10-27",
-  "generatedAt": "2026-10-27T17:07:08.721Z",
+  "generatedAt": "2026-10-28T03:59:23.579Z",
   "windowHours": 36,
   "stories": [
+    {
+      "id": "4558c700a89c",
+      "title": "On the SPOT: Enhancing Speculative Decoding for Diffusion Language Models via Commit-Order Prediction",
+      "url": "https://arxiv.org/abs/2610.22543",
+      "canonicalUrl": "https://arxiv.org/abs/2610.22543",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-28T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 19,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.22543"
+        }
+      ],
+      "normalized": 0.8,
+      "score": 3.19
+    },
+    {
+      "id": "1967fb24a9c7",
+      "title": "HABIT-Bench: Evaluating Habit Induction from Longitudinal Weak Evidence in Agent Memory",
+      "url": "https://arxiv.org/abs/2610.24520",
+      "canonicalUrl": "https://arxiv.org/abs/2610.24520",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-28T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 17,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.24520"
+        }
+      ],
+      "normalized": 0.75,
+      "score": 2.99
+    },
+    {
+      "id": "68b5b082706d",
+      "title": "What Effort Level Should I Choose? On the Economics of Reasoning Effort in LLM Agents",
+      "url": "https://arxiv.org/abs/2610.34491",
+      "canonicalUrl": "https://arxiv.org/abs/2610.34491",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-28T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 8,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.34491"
+        }
+      ],
+      "normalized": 0.525,
+      "score": 2.093
+    },
+    {
+      "id": "454135896492",
+      "title": "Omni-InteractScope: Benchmarking Proactive and Agentic Interaction in Continuous Omnimodal Streams",
+      "url": "https://arxiv.org/abs/2610.35439",
+      "canonicalUrl": "https://arxiv.org/abs/2610.35439",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-28T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 6,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.35439"
+        }
+      ],
+      "normalized": 0.45,
+      "score": 1.794
+    },
+    {
+      "id": "98f059a8cb66",
+      "title": "Memory Tax: Dissecting the Net Value of Agent Memory",
+      "url": "https://arxiv.org/abs/2610.34073",
+      "canonicalUrl": "https://arxiv.org/abs/2610.34073",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-28T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 5,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.34073"
+        }
+      ],
+      "normalized": 0.35,
+      "score": 1.395
+    },
+    {
+      "id": "76c6085f40c4",
+      "title": "Reviewers rarely talk about reliability. Owners bring it up twice as often",
+      "url": "https://www.bettascore.ai/research/reliability-reviewers-vs-owners",
+      "canonicalUrl": "https://bettascore.ai/research/reliability-reviewers-vs-owners",
+      "domain": "bettascore.ai",
+      "createdAt": "2026-10-27T22:31:15.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 80,
+          "comments": 73,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50266780"
+        }
+      ],
+      "normalized": 0.493,
+      "score": 1.322
+    },
+    {
+      "id": "001110b136cd",
+      "title": "Early progress on accelerating drug development with Claude",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development",
+      "canonicalUrl": "https://anthropic.com/research/early-progress-drug-development",
+      "domain": "anthropic.com",
+      "createdAt": "2026-10-27T20:50:42.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 160,
+          "comments": 149,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50265609"
+        }
+      ],
+      "normalized": 0.628,
+      "score": 1.17
+    },
+    {
+      "id": "f6df93ac1527",
+      "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+      "url": "https://www.brangus.io/survival-llm",
+      "canonicalUrl": "https://brangus.io/survival-llm",
+      "domain": "brangus.io",
+      "createdAt": "2026-10-27T19:55:06.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 222,
+          "comments": 115,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50264853"
+        }
+      ],
+      "normalized": 0.743,
+      "score": 1.163
+    },
+    {
+      "id": "1cdc2a43b76e",
+      "title": "Raspberry Pi Zero 3W and Pi 4 Model A spotted in device trees",
+      "url": "https://bret.dk/raspberry-pi-zero-3-w-pi-4-model-a/",
+      "canonicalUrl": "https://bret.dk/raspberry-pi-zero-3-w-pi-4-model-a",
+      "domain": "bret.dk",
+      "createdAt": "2026-10-27T20:48:49.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 118,
+          "comments": 51,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50265594"
+        }
+      ],
+      "normalized": 0.561,
+      "score": 1.038
+    },
     {
       "id": "5ef94984dce4",
       "title": "Genie 4",
@@ -26,271 +197,102 @@
         }
       ],
       "normalized": 0.717,
-      "score": 14.108
+      "score": 0.935
     },
     {
-      "id": "34370e88c88d",
-      "title": "Can we trust LLMs to judge whether a research idea is novel?",
-      "url": "https://huggingface.co/blog/allenai/novelty-bench",
-      "canonicalUrl": "https://huggingface.co/blog/allenai/novelty-bench",
-      "domain": "huggingface.co",
-      "createdAt": "2026-10-27T16:12:42.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "Hugging Face",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 7.322
-    },
-    {
-      "id": "a4c44e96b0a9",
-      "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
-      "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
-      "canonicalUrl": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude",
-      "domain": "stanforddaily.com",
-      "createdAt": "2026-10-27T15:28:26.000Z",
+      "id": "a044912b52ff",
+      "title": "Amazon Is Gutting Its AI Division After Sustained Failure",
+      "url": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
+      "canonicalUrl": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
+      "domain": "futurism.com",
+      "createdAt": "2026-10-27T16:25:30.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 87,
-          "comments": 36,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50260814"
+          "points": 287,
+          "comments": 212,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50261589"
         }
       ],
-      "normalized": 0.529,
-      "score": 5.156
+      "normalized": 0.811,
+      "score": 0.742
     },
     {
-      "id": "470e7f2ce2bd",
-      "title": "Is my data used for model training?",
-      "url": "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training",
-      "canonicalUrl": "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training",
-      "domain": "privacy.claude.com",
-      "createdAt": "2026-10-27T13:56:15.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 161,
-          "comments": 75,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50259406"
-        }
-      ],
-      "normalized": 0.659,
-      "score": 3.413
-    },
-    {
-      "id": "c61ee1a62651",
-      "title": "AI promised less work. I've never worked more",
-      "url": "https://oioannou.com/blog/ai-promised-less-work/",
-      "canonicalUrl": "https://oioannou.com/blog/ai-promised-less-work",
-      "domain": "oioannou.com",
-      "createdAt": "2026-10-27T11:08:14.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 571,
-          "comments": 521,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50257325"
-        }
-      ],
-      "normalized": 0.942,
-      "score": 2.24
-    },
-    {
-      "id": "acb3a24ef951",
-      "title": "Wikipedia's Cleanup of AI-Generated Content",
-      "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
-      "canonicalUrl": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
-      "domain": "spectrum.ieee.org",
-      "createdAt": "2026-10-27T11:08:15.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 281,
-          "comments": 124,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50257326"
-        }
-      ],
-      "normalized": 0.819,
-      "score": 1.947
-    },
-    {
-      "id": "18198893af72",
-      "title": "Classification of Finite Simple Groups Formalized in Lean",
-      "url": "https://cfsg.axiommath.ai/",
-      "canonicalUrl": "https://cfsg.axiommath.ai/",
-      "domain": "cfsg.axiommath.ai",
-      "createdAt": "2026-10-27T16:29:02.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 19,
-          "comments": 9,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50261647"
-        }
-      ],
-      "normalized": 0.08,
-      "score": 1.393
-    },
-    {
-      "id": "099c4912233a",
-      "title": "Police Are Using AI to Pull over Drivers for 'Suspicious' Behavior",
-      "url": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
-      "canonicalUrl": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
-      "domain": "gizmodo.com",
-      "createdAt": "2026-10-27T16:40:15.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 16,
-          "comments": 2,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50261819"
-        }
-      ],
-      "normalized": 0.051,
-      "score": 1.012
-    },
-    {
-      "id": "eb967c2830c0",
-      "title": "The Mythical Man-Month in the Age of AI",
-      "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
-      "canonicalUrl": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
-      "domain": "j11g.com",
-      "createdAt": "2026-10-27T06:25:37.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 358,
-          "comments": 235,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50255298"
-        }
-      ],
-      "normalized": 0.884,
-      "score": 0.912
-    },
-    {
-      "id": "a3a879144b29",
-      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
-      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
-      "canonicalUrl": "https://openai.com/index/oracle-apps-in-chatgpt",
-      "domain": "openai.com",
-      "createdAt": "2026-10-27T07:00:00.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 0.561
-    },
-    {
-      "id": "c461df3a2182",
-      "title": "AI is ruining haunted houses",
-      "url": "https://www.plagiarismtoday.com/2026/10/26/ai-is-ruining-haunted-attractions/",
-      "canonicalUrl": "https://plagiarismtoday.com/2026/10/26/ai-is-ruining-haunted-attractions",
-      "domain": "plagiarismtoday.com",
-      "createdAt": "2026-10-27T08:50:33.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 44,
-          "comments": 101,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50256230"
-        }
-      ],
-      "normalized": 0.348,
-      "score": 0.525
-    },
-    {
-      "id": "36aa14a72b7c",
-      "title": "DynaFlow: Learning Free-Form Multi-Agent Orchestration",
-      "url": "https://arxiv.org/abs/2610.34467",
-      "canonicalUrl": "https://arxiv.org/abs/2610.34467",
+      "id": "bd1ea37c6155",
+      "title": "Can LLMs Uncover Hidden Physical Laws through Free Exploration?",
+      "url": "https://arxiv.org/abs/2610.37649",
+      "canonicalUrl": "https://arxiv.org/abs/2610.37649",
       "domain": "arxiv.org",
-      "createdAt": "2026-10-27T00:00:00.000Z",
+      "createdAt": "2026-10-28T00:00:00.000Z",
       "appearances": [
         {
           "source": "hf",
           "label": "HF Papers",
-          "points": 182,
+          "points": 2,
           "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.34467"
+          "discussionUrl": "https://huggingface.co/papers/2610.37649"
         }
       ],
-      "normalized": 0.975,
-      "score": 0.481
+      "normalized": 0.175,
+      "score": 0.698
     },
     {
-      "id": "4cd4ee44e5c1",
-      "title": "There are now 5 inference providers for abliterated DeepSeek",
-      "url": "https://allmodels.io/llm/abliterated",
-      "canonicalUrl": "https://allmodels.io/llm/abliterated",
-      "domain": "allmodels.io",
-      "createdAt": "2026-10-27T04:53:52.000Z",
+      "id": "843f0669e299",
+      "title": "Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines",
+      "url": "https://projectzero.google/2026/10/fuzzing-v-AI.html",
+      "canonicalUrl": "https://projectzero.google/2026/10/fuzzing-v-AI.html",
+      "domain": "projectzero.google",
+      "createdAt": "2026-10-27T19:08:23.211Z",
+      "appearances": [
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 11,
+          "comments": 3,
+          "discussionUrl": "https://lobste.rs/s/rswyzt/fuzzers_vs_ai_comparing_fuzzilli"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.684
+    },
+    {
+      "id": "6dac137a56a1",
+      "title": "Introducing LFM3: Every Modality for Specialized Intelligence",
+      "url": "https://www.liquid.ai/blog/lfm3",
+      "canonicalUrl": "https://liquid.ai/blog/lfm3",
+      "domain": "liquid.ai",
+      "createdAt": "2026-10-27T17:04:50.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 89,
-          "comments": 108,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50254836"
+          "points": 127,
+          "comments": 51,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50262229"
         }
       ],
-      "normalized": 0.536,
-      "score": 0.451
+      "normalized": 0.568,
+      "score": 0.568
     },
     {
-      "id": "bf138b1722c9",
-      "title": "“AI Skills” are worthless in 2026",
-      "url": "https://fishbowl.pastiche.org/2026/10/26/ai-skills",
-      "canonicalUrl": "https://fishbowl.pastiche.org/2026/10/26/ai-skills",
-      "domain": "fishbowl.pastiche.org",
-      "createdAt": "2026-10-27T06:33:34.000Z",
+      "id": "31f854764086",
+      "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+      "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+      "canonicalUrl": "https://anthropic.com/news/expanding-partnership-gsa",
+      "domain": "anthropic.com",
+      "createdAt": "2026-10-27T22:23:37.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 45,
-          "comments": 22,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50255346"
+          "points": 31,
+          "comments": 20,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50266701"
         }
       ],
-      "normalized": 0.37,
-      "score": 0.389
-    },
-    {
-      "id": "b1a5f4fbcc0d",
-      "title": "S3AC: Stabilized, Selective, and Scalable Actor-Critic for LLM Reasoning",
-      "url": "https://arxiv.org/abs/2610.35518",
-      "canonicalUrl": "https://arxiv.org/abs/2610.35518",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-27T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 12,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.35518"
-        }
-      ],
-      "normalized": 0.7,
-      "score": 0.346
+      "normalized": 0.216,
+      "score": 0.562
     }
   ]
 }
