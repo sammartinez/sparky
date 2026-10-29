@@ -1,8 +1,103 @@
 {
   "date": "2026-10-28",
-  "generatedAt": "2026-10-28T17:42:54.160Z",
+  "generatedAt": "2026-10-29T04:23:18.260Z",
   "windowHours": 36,
   "stories": [
+    {
+      "id": "271134257c4a",
+      "title": "Claude Code burns ~15–20% of your tokens on a 3-word status line",
+      "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+      "canonicalUrl": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+      "domain": "gist.github.com",
+      "createdAt": "2026-10-29T03:33:42.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 76,
+          "comments": 4,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50284255"
+        }
+      ],
+      "normalized": 0.522,
+      "score": 8.038
+    },
+    {
+      "id": "4c6fd156bbda",
+      "title": "DTCA: Denoising Token Credit Assignment for Reinforcement Learning in Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2610.35201",
+      "canonicalUrl": "https://arxiv.org/abs/2610.35201",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-29T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 254,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.35201"
+        }
+      ],
+      "normalized": 0.925,
+      "score": 3.284
+    },
+    {
+      "id": "05a0d3d33151",
+      "title": "MicroZig to Adopt Strict No LLM / No AI Policy",
+      "url": "https://github.com/ZigEmbeddedGroup/microzig/blob/main/CODE_OF_CONDUCT.md",
+      "canonicalUrl": "https://github.com/ZigEmbeddedGroup/microzig/blob/main/CODE_OF_CONDUCT.md",
+      "domain": "github.com",
+      "createdAt": "2026-10-29T00:30:37.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 49,
+          "comments": 62,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50282865"
+        }
+      ],
+      "normalized": 0.312,
+      "score": 1.285
+    },
+    {
+      "id": "34faf52b2406",
+      "title": "New York Times adds more AI features to its Cooking app. Users aren't thrilled",
+      "url": "https://www.niemanlab.org/2026/10/the-new-york-times-is-adding-more-ai-features-to-its-cooking-app-and-users-arent-thrilled/",
+      "canonicalUrl": "https://niemanlab.org/2026/10/the-new-york-times-is-adding-more-ai-features-to-its-cooking-app-and-users-arent-thrilled",
+      "domain": "niemanlab.org",
+      "createdAt": "2026-10-29T00:16:08.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 47,
+          "comments": 84,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50282766"
+        }
+      ],
+      "normalized": 0.268,
+      "score": 1.029
+    },
+    {
+      "id": "9a783b4021e0",
+      "title": "Google AI gets cagey when asked who won the 2020 elections",
+      "url": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
+      "canonicalUrl": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections",
+      "domain": "arstechnica.com",
+      "createdAt": "2026-10-28T20:10:16.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 137,
+          "comments": 66,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50280178"
+        }
+      ],
+      "normalized": 0.659,
+      "score": 1.005
+    },
     {
       "id": "6318bf62f2c5",
       "title": "Gemini 4 Carbon",
@@ -20,25 +115,7 @@
         }
       ],
       "normalized": 0.679,
-      "score": 11.428
-    },
-    {
-      "id": "34b0bf3f94c3",
-      "title": "Gemini 4 Carbon: Our next frontier model",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-      "canonicalUrl": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
-      "domain": "deepmind.google",
-      "createdAt": "2026-10-28T17:00:58.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "Google DeepMind",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 8.372
+      "score": 0.639
     },
     {
       "id": "7ae8eb20550e",
@@ -63,26 +140,7 @@
         }
       ],
       "normalized": 0.5,
-      "score": 4.55
-    },
-    {
-      "id": "97373eedda74",
-      "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
-      "url": "https://surgehq.ai/blog/dayjob-tax",
-      "canonicalUrl": "https://surgehq.ai/blog/dayjob-tax",
-      "domain": "surgehq.ai",
-      "createdAt": "2026-10-28T15:46:30.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 67,
-          "comments": 40,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50275626"
-        }
-      ],
-      "normalized": 0.427,
-      "score": 3.623
+      "score": 0.545
     },
     {
       "id": "31ebe027e441",
@@ -101,7 +159,81 @@
         }
       ],
       "normalized": 0.756,
-      "score": 2.983
+      "score": 0.476
+    },
+    {
+      "id": "34b0bf3f94c3",
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "canonicalUrl": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
+      "domain": "deepmind.google",
+      "createdAt": "2026-10-28T17:00:58.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Google DeepMind",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.47
+    },
+    {
+      "id": "516d6345c17a",
+      "title": "AI execs may be too out of touch to build for the general public",
+      "url": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/",
+      "canonicalUrl": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public",
+      "domain": "techcrunch.com",
+      "createdAt": "2026-10-28T22:27:46.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 37,
+          "comments": 19,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50281826"
+        }
+      ],
+      "normalized": 0.174,
+      "score": 0.419
+    },
+    {
+      "id": "97373eedda74",
+      "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
+      "url": "https://surgehq.ai/blog/dayjob-tax",
+      "canonicalUrl": "https://surgehq.ai/blog/dayjob-tax",
+      "domain": "surgehq.ai",
+      "createdAt": "2026-10-28T15:46:30.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 67,
+          "comments": 40,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50275626"
+        }
+      ],
+      "normalized": 0.427,
+      "score": 0.342
+    },
+    {
+      "id": "75e2017ed4c5",
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "canonicalUrl": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "domain": "openai.com",
+      "createdAt": "2026-10-28T13:15:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.3
     },
     {
       "id": "1d10efda47a9",
@@ -120,177 +252,45 @@
         }
       ],
       "normalized": 0.443,
-      "score": 1.885
+      "score": 0.287
     },
     {
-      "id": "f9b8d788e496",
-      "title": "Valve Responds to Developers Fearing AI Slop and Clones",
-      "url": "https://www.invenglobal.com/articles/27761/valve-responds-to-developers-fearing-ai-slop-and-clones",
-      "canonicalUrl": "https://invenglobal.com/articles/27761/valve-responds-to-developers-fearing-ai-slop-and-clones",
-      "domain": "invenglobal.com",
-      "createdAt": "2026-10-28T13:27:24.000Z",
+      "id": "a74983853ed9",
+      "title": "Scaling Hierarchical Networks",
+      "url": "https://www.cartesia.ai/blog/from-tokens-to-bytes-part-1",
+      "canonicalUrl": "https://cartesia.ai/blog/from-tokens-to-bytes-part-1",
+      "domain": "cartesia.ai",
+      "createdAt": "2026-10-28T18:07:41.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 55,
-          "comments": 62,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50273192"
+          "points": 46,
+          "comments": 1,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50278253"
         }
       ],
-      "normalized": 0.344,
-      "score": 1.266
+      "normalized": 0.254,
+      "score": 0.279
     },
     {
-      "id": "f40066880a48",
-      "title": "The Agent SDK",
-      "url": "https://cursor.com/blog/agent-sdk",
-      "canonicalUrl": "https://cursor.com/blog/agent-sdk",
-      "domain": "cursor.com",
-      "createdAt": "2026-10-28T14:02:20.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 41,
-          "comments": 51,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50273731"
-        }
-      ],
-      "normalized": 0.229,
-      "score": 1.006
-    },
-    {
-      "id": "2fc8e689e413",
-      "title": "Legora is building the agentic operating system for legal work",
-      "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
-      "canonicalUrl": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
-      "domain": "openai.com",
-      "createdAt": "2026-10-28T09:30:00.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 0.763
-    },
-    {
-      "id": "fdcf20ad2cf6",
-      "title": "Microsoft and Epic Games Suddenly Agree That AI Is Theft",
-      "url": "https://kotaku.com/now-that-the-shoe-is-on-the-other-foot-microsoft-and-epic-games-suddenly-agree-that-ai-is-theft-2000749316",
-      "canonicalUrl": "https://kotaku.com/now-that-the-shoe-is-on-the-other-foot-microsoft-and-epic-games-suddenly-agree-that-ai-is-theft-2000749316",
-      "domain": "kotaku.com",
-      "createdAt": "2026-10-28T10:10:58.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 55,
-          "comments": 19,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50271271"
-        }
-      ],
-      "normalized": 0.344,
-      "score": 0.593
-    },
-    {
-      "id": "0e4701da5001",
-      "title": "Multiscale Policy Optimization for Long-Horizon LLM Agents",
-      "url": "https://arxiv.org/abs/2610.35013",
-      "canonicalUrl": "https://arxiv.org/abs/2610.35013",
+      "id": "e703e432320a",
+      "title": "TAO: Tool-Aware Joint Scheduling for LLM-Based Agentic Serving",
+      "url": "https://arxiv.org/abs/2610.37230",
+      "canonicalUrl": "https://arxiv.org/abs/2610.37230",
       "domain": "arxiv.org",
-      "createdAt": "2026-10-28T00:00:00.000Z",
+      "createdAt": "2026-10-29T00:00:00.000Z",
       "appearances": [
         {
           "source": "hf",
           "label": "HF Papers",
-          "points": 182,
+          "points": 2,
           "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.35013"
+          "discussionUrl": "https://huggingface.co/papers/2610.37230"
         }
       ],
-      "normalized": 0.95,
-      "score": 0.444
-    },
-    {
-      "id": "c8b05bda65b1",
-      "title": "PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations",
-      "url": "https://arxiv.org/abs/2610.37381",
-      "canonicalUrl": "https://arxiv.org/abs/2610.37381",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-28T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 138,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.37381"
-        }
-      ],
-      "normalized": 0.925,
-      "score": 0.432
-    },
-    {
-      "id": "a4c44e96b0a9",
-      "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
-      "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
-      "canonicalUrl": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude",
-      "domain": "stanforddaily.com",
-      "createdAt": "2026-10-27T15:28:26.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 557,
-          "comments": 282,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50260814"
-        }
-      ],
-      "normalized": 0.939,
-      "score": 0.23
-    },
-    {
-      "id": "099c4912233a",
-      "title": "Police are using AI to pull over drivers for 'suspicious' behavior",
-      "url": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
-      "canonicalUrl": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
-      "domain": "gizmodo.com",
-      "createdAt": "2026-10-27T16:40:15.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 387,
-          "comments": 305,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50261819"
-        }
-      ],
-      "normalized": 0.847,
-      "score": 0.224
-    },
-    {
-      "id": "af7551915940",
-      "title": "RynnWorld-Latent: A Cross-Embodiment World Model Conditioned on Universal Latent Actions",
-      "url": "https://arxiv.org/abs/2610.36791",
-      "canonicalUrl": "https://arxiv.org/abs/2610.36791",
-      "domain": "arxiv.org",
-      "createdAt": "2026-10-28T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 8,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.36791"
-        }
-      ],
-      "normalized": 0.45,
-      "score": 0.21
+      "normalized": 0.075,
+      "score": 0.266
     }
   ]
 }
