@@ -1,0 +1,291 @@
+{
+  "date": "2026-10-30",
+  "generatedAt": "2026-10-30T17:31:49.803Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "9e37c40a85b3",
+      "title": "AI isn't replacing SREs, it's deskilling them",
+      "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+      "canonicalUrl": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+      "domain": "newsletter.signoz.io",
+      "createdAt": "2026-10-30T15:52:18.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 213,
+          "comments": 170,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50305693"
+        }
+      ],
+      "normalized": 0.77,
+      "score": 7.453
+    },
+    {
+      "id": "41a783f21e16",
+      "title": "US tech stocks see sharp falls over AI cost fears",
+      "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cvwy72e0n72yo",
+      "domain": "bbc.co.uk",
+      "createdAt": "2026-10-30T16:13:02.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 74,
+          "comments": 26,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50306008"
+        }
+      ],
+      "normalized": 0.447,
+      "score": 5.178
+    },
+    {
+      "id": "58bdc6b4d610",
+      "title": "A Working Nintendo in ~1GB of Qwen Weights",
+      "url": "https://github.com/dbreunig/nesformer",
+      "canonicalUrl": "https://github.com/dbreunig/nesformer",
+      "domain": "github.com",
+      "createdAt": "2026-10-30T16:40:22.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 35,
+          "comments": 30,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50306442"
+        }
+      ],
+      "normalized": 0.178,
+      "score": 2.683
+    },
+    {
+      "id": "9b894388109d",
+      "title": "Anthropic Cracking Down on Video Game Rewrites",
+      "url": "https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968",
+      "canonicalUrl": "https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968",
+      "domain": "twitter.com",
+      "createdAt": "2026-10-30T14:22:52.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 78,
+          "comments": 73,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50304358"
+        }
+      ],
+      "normalized": 0.487,
+      "score": 2.548
+    },
+    {
+      "id": "7e2aaf184ac3",
+      "title": "Backdoors in official Claude Code extensions",
+      "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
+      "canonicalUrl": "https://cyberplace.social/@GossiTheDog/117528831681803563",
+      "domain": "cyberplace.social",
+      "createdAt": "2026-10-30T11:05:53.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 646,
+          "comments": 17,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50302334"
+        }
+      ],
+      "normalized": 0.967,
+      "score": 2.083
+    },
+    {
+      "id": "3c4cc935803e",
+      "title": "Cisco gives engineer unlimited AI tokens to rewrite 98% of the company's code",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/cisco-gives-27-year-old-engineer-unlimited-ai-tokens-to-rewrite-98-percent-of-the-companys-legacy-code-in-24-months-president-plucks-former-startup-founder-telling-him-to-go-nuts",
+      "canonicalUrl": "https://tomshardware.com/tech-industry/big-tech/cisco-gives-27-year-old-engineer-unlimited-ai-tokens-to-rewrite-98-percent-of-the-companys-legacy-code-in-24-months-president-plucks-former-startup-founder-telling-him-to-go-nuts",
+      "domain": "tomshardware.com",
+      "createdAt": "2026-10-30T14:08:20.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 46,
+          "comments": 65,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50304122"
+        }
+      ],
+      "normalized": 0.289,
+      "score": 1.395
+    },
+    {
+      "id": "da11c93aab77",
+      "title": "Neal Stephenson on AI and What Comes Next [video]",
+      "url": "https://www.youtube.com/watch?v=Ii-aeW5pHPQ",
+      "canonicalUrl": "https://youtube.com/watch?v=Ii-aeW5pHPQ",
+      "domain": "youtube.com",
+      "createdAt": "2026-10-30T14:18:34.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 37,
+          "comments": 16,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50304280"
+        }
+      ],
+      "normalized": 0.197,
+      "score": 1.008
+    },
+    {
+      "id": "a510883f6a1b",
+      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "url": "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2",
+      "canonicalUrl": "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2",
+      "domain": "doublepulsar.com",
+      "createdAt": "2026-10-30T07:09:12.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 396,
+          "comments": 1,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50301983"
+        }
+      ],
+      "normalized": 0.901,
+      "score": 0.973
+    },
+    {
+      "id": "b91e16468749",
+      "title": "Ask HN: Are you tired too in this AI era?",
+      "url": "https://news.ycombinator.com/item?id=50301479",
+      "canonicalUrl": "https://news.ycombinator.com/item?id=50301479",
+      "domain": "news.ycombinator.com",
+      "createdAt": "2026-10-30T09:17:43.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 131,
+          "comments": 124,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50301479"
+        }
+      ],
+      "normalized": 0.632,
+      "score": 0.96
+    },
+    {
+      "id": "c7606af40dbb",
+      "title": "Community safety report and new protections for teens",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "canonicalUrl": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "domain": "openai.com",
+      "createdAt": "2026-10-30T09:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.722
+    },
+    {
+      "id": "f566db15e3d3",
+      "title": "Fiber lasts decades, GPUs last three years: the AI boom isn't the dot-com boom [video]",
+      "url": "https://www.youtube.com/watch?v=MENoB3Rex28",
+      "canonicalUrl": "https://youtube.com/watch?v=MENoB3Rex28",
+      "domain": "youtube.com",
+      "createdAt": "2026-10-30T11:16:15.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 40,
+          "comments": 51,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50302407"
+        }
+      ],
+      "normalized": 0.23,
+      "score": 0.515
+    },
+    {
+      "id": "77f5c21b85c3",
+      "title": "Your Benchmark Is an Empirical Measure Over Difficulty",
+      "url": "https://arxiv.org/abs/2610.29927",
+      "canonicalUrl": "https://arxiv.org/abs/2610.29927",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-30T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 141,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.29927"
+        }
+      ],
+      "normalized": 0.919,
+      "score": 0.437
+    },
+    {
+      "id": "975e11b23bd0",
+      "title": "Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs",
+      "url": "https://arxiv.org/abs/2610.36671",
+      "canonicalUrl": "https://arxiv.org/abs/2610.36671",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-30T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 89,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.36671"
+        }
+      ],
+      "normalized": 0.892,
+      "score": 0.424
+    },
+    {
+      "id": "6460d5d5aa9d",
+      "title": "Show HN: Arsaze – Cursor for video editing (Tab-complete and agent edits)",
+      "url": "https://www.arsaze.com",
+      "canonicalUrl": "https://arsaze.com/",
+      "domain": "arsaze.com",
+      "createdAt": "2026-10-30T06:55:33.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 60,
+          "comments": 0,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50300618"
+        }
+      ],
+      "normalized": 0.382,
+      "score": 0.399
+    },
+    {
+      "id": "ac7cc8d4451e",
+      "title": "Co-Design Bench: Multimodal Collaborative Coding Evaluation for Agentic Models",
+      "url": "https://arxiv.org/abs/2610.35138",
+      "canonicalUrl": "https://arxiv.org/abs/2610.35138",
+      "domain": "arxiv.org",
+      "createdAt": "2026-10-30T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 19,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.35138"
+        }
+      ],
+      "normalized": 0.73,
+      "score": 0.347
+    }
+  ]
+}
