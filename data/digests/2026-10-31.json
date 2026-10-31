@@ -1,0 +1,292 @@
+{
+  "date": "2026-10-31",
+  "generatedAt": "2026-10-31T16:36:04.034Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "5b0ac3b976a1",
+      "title": "Malware uses LLMs to rank victims by how much they're worth",
+      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+      "canonicalUrl": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer",
+      "domain": "blog.talosintelligence.com",
+      "createdAt": "2026-10-31T14:29:03.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 61,
+          "comments": 6,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50316531"
+        }
+      ],
+      "normalized": 0.368,
+      "score": 2.878
+    },
+    {
+      "id": "77e4ed1a15be",
+      "title": "AI startup hacks Anthropic, gains access to employee details, internal messages",
+      "url": "https://www.indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26",
+      "canonicalUrl": "https://indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26",
+      "domain": "indiatoday.in",
+      "createdAt": "2026-10-31T13:25:10.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 70,
+          "comments": 17,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50315990"
+        }
+      ],
+      "normalized": 0.427,
+      "score": 2.212
+    },
+    {
+      "id": "a9ce9215ef28",
+      "title": "We Took over ChatGPT Accounts",
+      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "canonicalUrl": "https://parameter.ai/labs/we-found-a-gap-at-openai",
+      "domain": "parameter.ai",
+      "createdAt": "2026-10-31T10:30:11.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 194,
+          "comments": 99,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50314699"
+        }
+      ],
+      "normalized": 0.744,
+      "score": 1.723
+    },
+    {
+      "id": "e2bc4a9d40fe",
+      "title": "Why Anthropic's filing crushed tech stocks",
+      "url": "https://www.thebignewsletter.com/p/why-anthropics-filing-crushed-tech",
+      "canonicalUrl": "https://thebignewsletter.com/p/why-anthropics-filing-crushed-tech",
+      "domain": "thebignewsletter.com",
+      "createdAt": "2026-10-31T12:32:10.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 45,
+          "comments": 63,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50315574"
+        }
+      ],
+      "normalized": 0.265,
+      "score": 1.033
+    },
+    {
+      "id": "9a1e17b51b2d",
+      "title": "OpenAI raises less than half of $30B target",
+      "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+      "canonicalUrl": "https://wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+      "domain": "wsj.com",
+      "createdAt": "2026-10-31T03:22:44.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 173,
+          "comments": 166,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50312922"
+        }
+      ],
+      "normalized": 0.667,
+      "score": 0.496
+    },
+    {
+      "id": "2b51d8c5bce7",
+      "title": "Anthropic's Claude AI blocks video game cloning and reverse-engineering",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked",
+      "canonicalUrl": "https://tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked",
+      "domain": "tomshardware.com",
+      "createdAt": "2026-10-31T13:25:00.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 24,
+          "comments": 8,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50315987"
+        }
+      ],
+      "normalized": 0.094,
+      "score": 0.486
+    },
+    {
+      "id": "58bdc6b4d610",
+      "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+      "url": "https://github.com/dbreunig/nesformer",
+      "canonicalUrl": "https://github.com/dbreunig/nesformer",
+      "domain": "github.com",
+      "createdAt": "2026-10-30T16:40:22.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 275,
+          "comments": 135,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50306442"
+        }
+      ],
+      "normalized": 0.821,
+      "score": 0.234
+    },
+    {
+      "id": "38301ec8c004",
+      "title": "Some Thing is Happening A note from the AI companies",
+      "url": "https://alanbellows.com/some-thing-is-happening/",
+      "canonicalUrl": "https://alanbellows.com/some-thing-is-happening",
+      "domain": "alanbellows.com",
+      "createdAt": "2026-10-30T15:53:42.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 59,
+          "comments": 16,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50305724"
+        }
+      ],
+      "normalized": 0.342,
+      "score": 0.092
+    },
+    {
+      "id": "da11c93aab77",
+      "title": "Neal Stephenson on AI and What Comes Next [video]",
+      "url": "https://www.youtube.com/watch?v=Ii-aeW5pHPQ",
+      "canonicalUrl": "https://youtube.com/watch?v=Ii-aeW5pHPQ",
+      "domain": "youtube.com",
+      "createdAt": "2026-10-30T14:18:34.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 54,
+          "comments": 24,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50304280"
+        }
+      ],
+      "normalized": 0.291,
+      "score": 0.071
+    },
+    {
+      "id": "6460d5d5aa9d",
+      "title": "Show HN: Arsaze – Cursor for video editing (Tab-complete and agent edits)",
+      "url": "https://www.arsaze.com",
+      "canonicalUrl": "https://arsaze.com/",
+      "domain": "arsaze.com",
+      "createdAt": "2026-10-30T06:55:33.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 60,
+          "comments": 0,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50300618"
+        }
+      ],
+      "normalized": 0.359,
+      "score": 0.058
+    },
+    {
+      "id": "f566db15e3d3",
+      "title": "Fiber lasts decades, GPUs last three years: the AI boom isn't the dot-com boom [video]",
+      "url": "https://www.youtube.com/watch?v=MENoB3Rex28",
+      "canonicalUrl": "https://youtube.com/watch?v=MENoB3Rex28",
+      "domain": "youtube.com",
+      "createdAt": "2026-10-30T11:16:15.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 41,
+          "comments": 53,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50302407"
+        }
+      ],
+      "normalized": 0.222,
+      "score": 0.045
+    },
+    {
+      "id": "e9848ef70320",
+      "title": "Show HN: Sketch Stadium – watch your agent play Pictionary",
+      "url": "https://sketch.wakeshift.ai/games/q5ucru",
+      "canonicalUrl": "https://sketch.wakeshift.ai/games/q5ucru",
+      "domain": "sketch.wakeshift.ai",
+      "createdAt": "2026-10-30T15:23:11.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 35,
+          "comments": 10,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50305218"
+        }
+      ],
+      "normalized": 0.162,
+      "score": 0.042
+    },
+    {
+      "id": "3f13b792e653",
+      "title": "OpenAI CEO Sam Altman Says You Having DRAM Instead of Data Centers Is \"Terrible\"",
+      "url": "https://www.thegamer.com/openai-ceo-sam-altman-consumers-having-dram-terrible/",
+      "canonicalUrl": "https://thegamer.com/openai-ceo-sam-altman-consumers-having-dram-terrible",
+      "domain": "thegamer.com",
+      "createdAt": "2026-10-30T16:34:48.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 26,
+          "comments": 8,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50306361"
+        }
+      ],
+      "normalized": 0.103,
+      "score": 0.029
+    },
+    {
+      "id": "4c55e492d897",
+      "title": "Defense Contractor Gave Their Personal AI Agent Access to Secure Pentagon System",
+      "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
+      "canonicalUrl": "https://wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system",
+      "domain": "wired.com",
+      "createdAt": "2026-10-30T20:30:06.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 16,
+          "comments": 1,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50309730"
+        }
+      ],
+      "normalized": 0.051,
+      "score": 0.02
+    },
+    {
+      "id": "ebfde87c8e09",
+      "title": "AI Bubble Burst",
+      "url": "https://seekingalpha.com/article/4960031-ai-bubble-burst-confirmed-by-alphabet-caterpillar-servicenow-amazon",
+      "canonicalUrl": "https://seekingalpha.com/article/4960031-ai-bubble-burst-confirmed-by-alphabet-caterpillar-servicenow-amazon",
+      "domain": "seekingalpha.com",
+      "createdAt": "2026-10-30T13:47:50.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 17,
+          "comments": 11,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50303833"
+        }
+      ],
+      "normalized": 0.06,
+      "score": 0.014
+    }
+  ]
+}
