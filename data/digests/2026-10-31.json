@@ -1,45 +1,139 @@
 {
   "date": "2026-10-31",
-  "generatedAt": "2026-10-31T16:36:04.034Z",
+  "generatedAt": "2026-11-01T04:24:48.082Z",
   "windowHours": 36,
   "stories": [
     {
-      "id": "5b0ac3b976a1",
-      "title": "Malware uses LLMs to rank victims by how much they're worth",
-      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
-      "canonicalUrl": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer",
-      "domain": "blog.talosintelligence.com",
-      "createdAt": "2026-10-31T14:29:03.000Z",
+      "id": "71145972f162",
+      "title": "Anthropic takes steps to block Claude from reverse-engineering video games",
+      "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+      "canonicalUrl": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+      "domain": "mashable.com",
+      "createdAt": "2026-10-31T21:07:58.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 61,
-          "comments": 6,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50316531"
+          "points": 116,
+          "comments": 73,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50320255"
         }
       ],
-      "normalized": 0.368,
-      "score": 2.878
+      "normalized": 0.667,
+      "score": 1.209
     },
     {
-      "id": "77e4ed1a15be",
-      "title": "AI startup hacks Anthropic, gains access to employee details, internal messages",
-      "url": "https://www.indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26",
-      "canonicalUrl": "https://indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26",
-      "domain": "indiatoday.in",
-      "createdAt": "2026-10-31T13:25:10.000Z",
+      "id": "e07ec5d69c95",
+      "title": "Anthropic blocks users for anything touching training larger models",
+      "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+      "canonicalUrl": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+      "domain": "twitter.com",
+      "createdAt": "2026-10-31T19:39:19.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 70,
-          "comments": 17,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50315990"
+          "points": 257,
+          "comments": 135,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50319358"
         }
       ],
-      "normalized": 0.427,
-      "score": 2.212
+      "normalized": 0.87,
+      "score": 1.209
+    },
+    {
+      "id": "4c77a0dfd633",
+      "title": "datasette-llm 0.1a9",
+      "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+      "canonicalUrl": "https://simonwillison.net/2026/Oct/31/datasette-llm",
+      "domain": "simonwillison.net",
+      "createdAt": "2026-10-31T22:10:01.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Simon Willison",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 1.121
+    },
+    {
+      "id": "82785ab4f152",
+      "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
+      "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
+      "canonicalUrl": "https://ryanmadden.net/gpt-56-beats-factorio",
+      "domain": "ryanmadden.net",
+      "createdAt": "2026-10-31T18:50:34.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 161,
+          "comments": 176,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50318871"
+        }
+      ],
+      "normalized": 0.732,
+      "score": 0.892
+    },
+    {
+      "id": "aa4997f9eba1",
+      "title": "The Impact of Generative AI on Critical Thinking: Self-Reported (2025)",
+      "url": "https://dl.acm.org/doi/full/10.1145/3706598.3713778",
+      "canonicalUrl": "https://dl.acm.org/doi/full/10.1145/3706598.3713778",
+      "domain": "dl.acm.org",
+      "createdAt": "2026-10-31T18:02:29.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 75,
+          "comments": 53,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50318401"
+        }
+      ],
+      "normalized": 0.545,
+      "score": 0.589
+    },
+    {
+      "id": "567c750dad41",
+      "title": "AI text watermarking and quality loss",
+      "url": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality",
+      "canonicalUrl": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality",
+      "domain": "blog.keyvan.net",
+      "createdAt": "2026-10-31T21:50:13.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 36,
+          "comments": 6,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50320599"
+        }
+      ],
+      "normalized": 0.244,
+      "score": 0.51
+    },
+    {
+      "id": "9fd0bcadad75",
+      "title": "I post trained a model on Demoscenes",
+      "url": "https://datavorous.com/writing/demoscener/",
+      "canonicalUrl": "https://datavorous.com/writing/demoscener",
+      "domain": "datavorous.com",
+      "createdAt": "2026-10-31T18:08:24.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 48,
+          "comments": 35,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50318442"
+        }
+      ],
+      "normalized": 0.325,
+      "score": 0.356
     },
     {
       "id": "a9ce9215ef28",
@@ -58,26 +152,102 @@
         }
       ],
       "normalized": 0.744,
-      "score": 1.723
+      "score": 0.341
     },
     {
-      "id": "e2bc4a9d40fe",
-      "title": "Why Anthropic's filing crushed tech stocks",
-      "url": "https://www.thebignewsletter.com/p/why-anthropics-filing-crushed-tech",
-      "canonicalUrl": "https://thebignewsletter.com/p/why-anthropics-filing-crushed-tech",
-      "domain": "thebignewsletter.com",
-      "createdAt": "2026-10-31T12:32:10.000Z",
+      "id": "85c82f0a9571",
+      "title": "ChatGPT and Codex usage limits merging",
+      "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+      "canonicalUrl": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+      "domain": "help.openai.com",
+      "createdAt": "2026-10-31T21:49:07.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 45,
-          "comments": 63,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50315574"
+          "points": 27,
+          "comments": 9,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50320588"
         }
       ],
-      "normalized": 0.265,
-      "score": 1.033
+      "normalized": 0.138,
+      "score": 0.288
+    },
+    {
+      "id": "d306b8dbe428",
+      "title": "Computer Science Programs Lose Students as AI Replaces Jobs",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-29/computer-science-degree-programs-lose-students-as-ai-takes-jobs",
+      "canonicalUrl": "https://bloomberg.com/news/articles/2026-10-29/computer-science-degree-programs-lose-students-as-ai-takes-jobs",
+      "domain": "bloomberg.com",
+      "createdAt": "2026-10-31T22:57:27.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 21,
+          "comments": 14,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50321065"
+        }
+      ],
+      "normalized": 0.106,
+      "score": 0.284
+    },
+    {
+      "id": "77e4ed1a15be",
+      "title": "AI startup hacks Anthropic, gains access to employee details, internal messages",
+      "url": "https://www.indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26",
+      "canonicalUrl": "https://indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26",
+      "domain": "indiatoday.in",
+      "createdAt": "2026-10-31T13:25:10.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 70,
+          "comments": 17,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50315990"
+        }
+      ],
+      "normalized": 0.427,
+      "score": 0.261
+    },
+    {
+      "id": "14074b4203bb",
+      "title": "Show HN: A language model that lives in a boot sector",
+      "url": "https://github.com/kerlenton/bootgpt",
+      "canonicalUrl": "https://github.com/kerlenton/bootgpt",
+      "domain": "github.com",
+      "createdAt": "2026-10-31T12:58:29.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 64,
+          "comments": 1,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50315782"
+        }
+      ],
+      "normalized": 0.447,
+      "score": 0.26
+    },
+    {
+      "id": "5b0ac3b976a1",
+      "title": "Malware uses LLMs to rank victims by how much they're worth",
+      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+      "canonicalUrl": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer",
+      "domain": "blog.talosintelligence.com",
+      "createdAt": "2026-10-31T14:29:03.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 61,
+          "comments": 6,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50316531"
+        }
+      ],
+      "normalized": 0.368,
+      "score": 0.252
     },
     {
       "id": "9a1e17b51b2d",
@@ -96,197 +266,26 @@
         }
       ],
       "normalized": 0.667,
-      "score": 0.496
+      "score": 0.176
     },
     {
-      "id": "2b51d8c5bce7",
-      "title": "Anthropic's Claude AI blocks video game cloning and reverse-engineering",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked",
-      "canonicalUrl": "https://tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked",
-      "domain": "tomshardware.com",
-      "createdAt": "2026-10-31T13:25:00.000Z",
+      "id": "e2bc4a9d40fe",
+      "title": "Why Anthropic's filing crushed tech stocks",
+      "url": "https://www.thebignewsletter.com/p/why-anthropics-filing-crushed-tech",
+      "canonicalUrl": "https://thebignewsletter.com/p/why-anthropics-filing-crushed-tech",
+      "domain": "thebignewsletter.com",
+      "createdAt": "2026-10-31T12:32:10.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 24,
-          "comments": 8,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50315987"
+          "points": 45,
+          "comments": 63,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50315574"
         }
       ],
-      "normalized": 0.094,
-      "score": 0.486
-    },
-    {
-      "id": "58bdc6b4d610",
-      "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
-      "url": "https://github.com/dbreunig/nesformer",
-      "canonicalUrl": "https://github.com/dbreunig/nesformer",
-      "domain": "github.com",
-      "createdAt": "2026-10-30T16:40:22.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 275,
-          "comments": 135,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50306442"
-        }
-      ],
-      "normalized": 0.821,
-      "score": 0.234
-    },
-    {
-      "id": "38301ec8c004",
-      "title": "Some Thing is Happening A note from the AI companies",
-      "url": "https://alanbellows.com/some-thing-is-happening/",
-      "canonicalUrl": "https://alanbellows.com/some-thing-is-happening",
-      "domain": "alanbellows.com",
-      "createdAt": "2026-10-30T15:53:42.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 59,
-          "comments": 16,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50305724"
-        }
-      ],
-      "normalized": 0.342,
-      "score": 0.092
-    },
-    {
-      "id": "da11c93aab77",
-      "title": "Neal Stephenson on AI and What Comes Next [video]",
-      "url": "https://www.youtube.com/watch?v=Ii-aeW5pHPQ",
-      "canonicalUrl": "https://youtube.com/watch?v=Ii-aeW5pHPQ",
-      "domain": "youtube.com",
-      "createdAt": "2026-10-30T14:18:34.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 54,
-          "comments": 24,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50304280"
-        }
-      ],
-      "normalized": 0.291,
-      "score": 0.071
-    },
-    {
-      "id": "6460d5d5aa9d",
-      "title": "Show HN: Arsaze – Cursor for video editing (Tab-complete and agent edits)",
-      "url": "https://www.arsaze.com",
-      "canonicalUrl": "https://arsaze.com/",
-      "domain": "arsaze.com",
-      "createdAt": "2026-10-30T06:55:33.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 60,
-          "comments": 0,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50300618"
-        }
-      ],
-      "normalized": 0.359,
-      "score": 0.058
-    },
-    {
-      "id": "f566db15e3d3",
-      "title": "Fiber lasts decades, GPUs last three years: the AI boom isn't the dot-com boom [video]",
-      "url": "https://www.youtube.com/watch?v=MENoB3Rex28",
-      "canonicalUrl": "https://youtube.com/watch?v=MENoB3Rex28",
-      "domain": "youtube.com",
-      "createdAt": "2026-10-30T11:16:15.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 41,
-          "comments": 53,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50302407"
-        }
-      ],
-      "normalized": 0.222,
-      "score": 0.045
-    },
-    {
-      "id": "e9848ef70320",
-      "title": "Show HN: Sketch Stadium – watch your agent play Pictionary",
-      "url": "https://sketch.wakeshift.ai/games/q5ucru",
-      "canonicalUrl": "https://sketch.wakeshift.ai/games/q5ucru",
-      "domain": "sketch.wakeshift.ai",
-      "createdAt": "2026-10-30T15:23:11.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 35,
-          "comments": 10,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50305218"
-        }
-      ],
-      "normalized": 0.162,
-      "score": 0.042
-    },
-    {
-      "id": "3f13b792e653",
-      "title": "OpenAI CEO Sam Altman Says You Having DRAM Instead of Data Centers Is \"Terrible\"",
-      "url": "https://www.thegamer.com/openai-ceo-sam-altman-consumers-having-dram-terrible/",
-      "canonicalUrl": "https://thegamer.com/openai-ceo-sam-altman-consumers-having-dram-terrible",
-      "domain": "thegamer.com",
-      "createdAt": "2026-10-30T16:34:48.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 26,
-          "comments": 8,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50306361"
-        }
-      ],
-      "normalized": 0.103,
-      "score": 0.029
-    },
-    {
-      "id": "4c55e492d897",
-      "title": "Defense Contractor Gave Their Personal AI Agent Access to Secure Pentagon System",
-      "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
-      "canonicalUrl": "https://wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system",
-      "domain": "wired.com",
-      "createdAt": "2026-10-30T20:30:06.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 16,
-          "comments": 1,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50309730"
-        }
-      ],
-      "normalized": 0.051,
-      "score": 0.02
-    },
-    {
-      "id": "ebfde87c8e09",
-      "title": "AI Bubble Burst",
-      "url": "https://seekingalpha.com/article/4960031-ai-bubble-burst-confirmed-by-alphabet-caterpillar-servicenow-amazon",
-      "canonicalUrl": "https://seekingalpha.com/article/4960031-ai-bubble-burst-confirmed-by-alphabet-caterpillar-servicenow-amazon",
-      "domain": "seekingalpha.com",
-      "createdAt": "2026-10-30T13:47:50.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 17,
-          "comments": 11,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50303833"
-        }
-      ],
-      "normalized": 0.06,
-      "score": 0.014
+      "normalized": 0.265,
+      "score": 0.148
     }
   ]
 }
