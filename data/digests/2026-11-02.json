@@ -1,0 +1,298 @@
+{
+  "date": "2026-11-02",
+  "generatedAt": "2026-11-02T21:11:13.362Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "38c41eb0ed98",
+      "title": "Astra can read and write weights to improve Qwen",
+      "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "canonicalUrl": "https://rikiyat.github.io/blog/weight-space-programming",
+      "domain": "rikiyat.github.io",
+      "createdAt": "2026-11-02T18:21:28.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 1037,
+          "comments": 320,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50341174"
+        },
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 1,
+          "comments": 0,
+          "discussionUrl": "https://lobste.rs/s/u7wdqj/sparks_weight_space_programming_llms_can"
+        }
+      ],
+      "normalized": 0.972,
+      "score": 8.564
+    },
+    {
+      "id": "755eea7f3c8e",
+      "title": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
+      "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+      "canonicalUrl": "https://cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+      "domain": "cnbc.com",
+      "createdAt": "2026-11-02T19:27:37.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 70,
+          "comments": 34,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50342284"
+        }
+      ],
+      "normalized": 0.458,
+      "score": 4.288
+    },
+    {
+      "id": "2fd89ac160eb",
+      "title": "Anthropic reveals $900B AI spending commitments ahead of IPO",
+      "url": "https://www.ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f",
+      "canonicalUrl": "https://ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f",
+      "domain": "ft.com",
+      "createdAt": "2026-11-02T19:36:37.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 51,
+          "comments": 24,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50342424"
+        }
+      ],
+      "normalized": 0.31,
+      "score": 3.125
+    },
+    {
+      "id": "5464a863f83d",
+      "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
+      "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+      "canonicalUrl": "https://businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+      "domain": "businessinsider.com",
+      "createdAt": "2026-11-02T16:40:29.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 230,
+          "comments": 178,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50339494"
+        }
+      ],
+      "normalized": 0.824,
+      "score": 2.826
+    },
+    {
+      "id": "c931d5a15c07",
+      "title": "Egoless Mathematics in the AI Era",
+      "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/",
+      "canonicalUrl": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era",
+      "domain": "terrytao.wordpress.com",
+      "createdAt": "2026-11-02T18:54:44.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 54,
+          "comments": 45,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50341736"
+        }
+      ],
+      "normalized": 0.338,
+      "score": 2.473
+    },
+    {
+      "id": "c48ef4b6aa4d",
+      "title": "Agentic backdoors via pretraining poisoning",
+      "url": "https://arxiv.org/abs/2610.37741",
+      "canonicalUrl": "https://arxiv.org/abs/2610.37741",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-02T18:30:58.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 54,
+          "comments": 13,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50341334"
+        }
+      ],
+      "normalized": 0.338,
+      "score": 2.109
+    },
+    {
+      "id": "92e88048ec86",
+      "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
+      "url": "https://momentic.ai/",
+      "canonicalUrl": "https://momentic.ai/",
+      "domain": "momentic.ai",
+      "createdAt": "2026-11-02T17:05:25.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 91,
+          "comments": 59,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50339913"
+        }
+      ],
+      "normalized": 0.507,
+      "score": 1.958
+    },
+    {
+      "id": "fb9ff410aee0",
+      "title": "Anthropic reports $17B in Q3 revenue, commitments of $895B in revised S-1",
+      "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+      "canonicalUrl": "https://cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+      "domain": "cnbc.com",
+      "createdAt": "2026-11-02T14:38:45.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 217,
+          "comments": 236,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50337439"
+        }
+      ],
+      "normalized": 0.803,
+      "score": 1.69
+    },
+    {
+      "id": "9849e6b03359",
+      "title": "Jobless tech workers are being left out of San Francisco's AI boom",
+      "url": "https://www.bloomberg.com/news/features/2026-09-17/san-francisco-s-ai-wealth-boom-skirts-engineers-as-openai-anthropic-ipos-near",
+      "canonicalUrl": "https://bloomberg.com/news/features/2026-09-17/san-francisco-s-ai-wealth-boom-skirts-engineers-as-openai-anthropic-ipos-near",
+      "domain": "bloomberg.com",
+      "createdAt": "2026-11-02T14:40:05.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 140,
+          "comments": 185,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50337454"
+        }
+      ],
+      "normalized": 0.648,
+      "score": 1.37
+    },
+    {
+      "id": "fd613bbbc38c",
+      "title": "Claude Opus 5.5 Can Draw Permit-Level Architectural Drawings",
+      "url": "https://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now",
+      "canonicalUrl": "https://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now",
+      "domain": "stephenjgallagher.substack.com",
+      "createdAt": "2026-11-02T16:25:33.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 60,
+          "comments": 26,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50339224"
+        }
+      ],
+      "normalized": 0.387,
+      "score": 1.242
+    },
+    {
+      "id": "19244c7aa206",
+      "title": "Introducing the Grid Protectors Program",
+      "url": "https://openai.com/index/grid-protectors-program",
+      "canonicalUrl": "https://openai.com/index/grid-protectors-program",
+      "domain": "openai.com",
+      "createdAt": "2026-11-02T15:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 1.136
+    },
+    {
+      "id": "16a04cf8b747",
+      "title": "LongCat-2.5: Native Multimodality for Agentic Tasks",
+      "url": "https://longcat.ai/blog/longcat-2.5/",
+      "canonicalUrl": "https://longcat.ai/blog/longcat-2.5",
+      "domain": "longcat.ai",
+      "createdAt": "2026-11-02T15:00:26.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 62,
+          "comments": 20,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50337716"
+        }
+      ],
+      "normalized": 0.408,
+      "score": 0.929
+    },
+    {
+      "id": "d7eb8c9ceea3",
+      "title": "Last night an AI agent performed brain surgery on a mouse",
+      "url": "https://twitter.com/OcanaSantero/status/2115442964574908902",
+      "canonicalUrl": "https://twitter.com/OcanaSantero/status/2115442964574908902",
+      "domain": "twitter.com",
+      "createdAt": "2026-11-02T12:50:59.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 109,
+          "comments": 95,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50336138"
+        }
+      ],
+      "normalized": 0.577,
+      "score": 0.862
+    },
+    {
+      "id": "c6fdf6f3ceac",
+      "title": "GPT-Rosalind-6 System Card Addendum",
+      "url": "https://deploymentsafety.openai.com/gpt-rosalind-6",
+      "canonicalUrl": "https://deploymentsafety.openai.com/gpt-rosalind-6",
+      "domain": "deploymentsafety.openai.com",
+      "createdAt": "2026-11-02T14:44:02.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 57,
+          "comments": 47,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50337503"
+        }
+      ],
+      "normalized": 0.359,
+      "score": 0.77
+    },
+    {
+      "id": "ca130899e453",
+      "title": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
+      "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
+      "canonicalUrl": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2",
+      "domain": "labs.cloudsecurityalliance.org",
+      "createdAt": "2026-11-02T07:27:28.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 146,
+          "comments": 81,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50334038"
+        }
+      ],
+      "normalized": 0.669,
+      "score": 0.469
+    }
+  ]
+}
