@@ -1,45 +1,254 @@
 {
   "date": "2026-11-01",
-  "generatedAt": "2026-11-01T17:27:10.862Z",
+  "generatedAt": "2026-11-02T04:26:51.247Z",
   "windowHours": 36,
   "stories": [
     {
-      "id": "6e200e05b45c",
-      "title": "Alleged Mythos Class Anthropic Checkpoint Leak",
-      "url": "https://huggingface.co/burner22/numbat",
-      "canonicalUrl": "https://huggingface.co/burner22/numbat",
-      "domain": "huggingface.co",
-      "createdAt": "2026-11-01T16:43:36.000Z",
+      "id": "a447b24c8ad8",
+      "title": "Does Scaling Toward AGI Depend on What System-1 Lets System-2 Execute?",
+      "url": "https://arxiv.org/abs/2610.39497",
+      "canonicalUrl": "https://arxiv.org/abs/2610.39497",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-02T00:00:00.000Z",
       "appearances": [
         {
-          "source": "hn",
-          "label": "HN",
-          "points": 30,
-          "comments": 12,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50327240"
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 27,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.39497"
         }
       ],
-      "normalized": 0.197,
-      "score": 3.234
+      "normalized": 0.923,
+      "score": 3.223
     },
     {
-      "id": "cb6a16e14435",
-      "title": "Anthropic's Mythos-class model allegedly leaked on Hugging Face",
-      "url": "https://news.ycombinator.com/item?id=50326727",
-      "canonicalUrl": "https://news.ycombinator.com/item?id=50326727",
-      "domain": "news.ycombinator.com",
-      "createdAt": "2026-11-01T15:45:10.000Z",
+      "id": "b3d8d53c6e57",
+      "title": "R^2Orch: Recursive Self-Improvement for Agent Orchestration via Self-Play within a Skill-Internalization Loop",
+      "url": "https://arxiv.org/abs/2610.22740",
+      "canonicalUrl": "https://arxiv.org/abs/2610.22740",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-02T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 16,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.22740"
+        }
+      ],
+      "normalized": 0.846,
+      "score": 2.955
+    },
+    {
+      "id": "b268bda89aa2",
+      "title": "HiFOR: Hierarchical Foresight with Action-Guided World Grounding for Vision-Language-Action Model",
+      "url": "https://arxiv.org/abs/2610.40373",
+      "canonicalUrl": "https://arxiv.org/abs/2610.40373",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-02T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 13,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.40373"
+        }
+      ],
+      "normalized": 0.769,
+      "score": 2.686
+    },
+    {
+      "id": "bb9935f3debc",
+      "title": "AI Can Write More of the Code. We Still Have to Engineer the System",
+      "url": "https://picon.dev/en/publications/ai-assisted-engineering/",
+      "canonicalUrl": "https://picon.dev/en/publications/ai-assisted-engineering",
+      "domain": "picon.dev",
+      "createdAt": "2026-11-02T01:35:02.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 39,
-          "comments": 37,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50326727"
+          "points": 43,
+          "comments": 22,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50331998"
         }
       ],
-      "normalized": 0.328,
-      "score": 3.111
+      "normalized": 0.36,
+      "score": 2.086
+    },
+    {
+      "id": "ef97925afa6f",
+      "title": "CEPO: A General Framework for Improving Prompt Optimization in Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2610.34722",
+      "canonicalUrl": "https://arxiv.org/abs/2610.34722",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-02T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 9,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.34722"
+        }
+      ],
+      "normalized": 0.538,
+      "score": 1.88
+    },
+    {
+      "id": "cbd09e3a41c2",
+      "title": "Wizard: Manipulate Any World in Real Time via Agentic Control",
+      "url": "https://arxiv.org/abs/2610.40339",
+      "canonicalUrl": "https://arxiv.org/abs/2610.40339",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-02T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 9,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.40339"
+        }
+      ],
+      "normalized": 0.538,
+      "score": 1.88
+    },
+    {
+      "id": "b23877b88e69",
+      "title": "AI delivers 'zero financial payoff' to most companies, Apollo economist says",
+      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "canonicalUrl": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist",
+      "domain": "techcrunch.com",
+      "createdAt": "2026-11-01T22:10:45.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 208,
+          "comments": 199,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50330456"
+        }
+      ],
+      "normalized": 0.798,
+      "score": 1.781
+    },
+    {
+      "id": "3200a25c2906",
+      "title": "AI fan wikis riddled with errors are muddying the waters of games culture",
+      "url": "https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture",
+      "canonicalUrl": "https://eurogamer.net/ai-fan-wikis-errors-complicating-games-culture",
+      "domain": "eurogamer.net",
+      "createdAt": "2026-11-02T01:47:07.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 38,
+          "comments": 14,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50332086"
+        }
+      ],
+      "normalized": 0.254,
+      "score": 1.592
+    },
+    {
+      "id": "2041779807cb",
+      "title": "So I guess everyone uses LLMs to think now",
+      "url": "https://eva.ac/blog/llms/",
+      "canonicalUrl": "https://eva.ac/blog/llms",
+      "domain": "eva.ac",
+      "createdAt": "2026-11-01T21:49:04.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 65,
+          "comments": 103,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50330253"
+        }
+      ],
+      "normalized": 0.482,
+      "score": 0.997
+    },
+    {
+      "id": "4b795773d113",
+      "title": "It wasn't AI that flipped Proton's charge",
+      "url": "https://blog.raed.dev/posts/proton-loser-thinking/",
+      "canonicalUrl": "https://blog.raed.dev/posts/proton-loser-thinking",
+      "domain": "blog.raed.dev",
+      "createdAt": "2026-11-01T18:53:55.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 145,
+          "comments": 83,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50328488"
+        }
+      ],
+      "normalized": 0.649,
+      "score": 0.794
+    },
+    {
+      "id": "b2de1d18a605",
+      "title": "An easy way to try local AI with braindead-local-intelligence",
+      "url": "https://dataswamp.org/~solene/2026-11-01-braindead-local-intelligence.html",
+      "canonicalUrl": "https://dataswamp.org/~solene/2026-11-01-braindead-local-intelligence.html",
+      "domain": "dataswamp.org",
+      "createdAt": "2026-11-01T20:26:47.146Z",
+      "appearances": [
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://lobste.rs/s/rlmrfy/easy_way_try_local_ai_with_braindead_local"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.792
+    },
+    {
+      "id": "98f3b62f2458",
+      "title": "WeFair: Fidelity-Aware Alignment from Human Feedback for Personalized Query Rewriting in Short-Video Search",
+      "url": "https://arxiv.org/abs/2610.16927",
+      "canonicalUrl": "https://arxiv.org/abs/2610.16927",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-02T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.16927"
+        }
+      ],
+      "normalized": 0.154,
+      "score": 0.537
+    },
+    {
+      "id": "ae416d7fb94d",
+      "title": "Muse AI agent is a commercial surveillance network disguised as an AI assistant",
+      "url": "https://paulfwalsh.substack.com/p/metas-muse-ai-agent-is-a-commercial",
+      "canonicalUrl": "https://paulfwalsh.substack.com/p/metas-muse-ai-agent-is-a-commercial",
+      "domain": "paulfwalsh.substack.com",
+      "createdAt": "2026-11-01T18:33:02.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 42,
+          "comments": 6,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50328293"
+        }
+      ],
+      "normalized": 0.342,
+      "score": 0.397
     },
     {
       "id": "e17eb6c5fcac",
@@ -58,235 +267,26 @@
         }
       ],
       "normalized": 0.607,
-      "score": 2.675
+      "score": 0.384
     },
     {
-      "id": "761e5e0baaa4",
-      "title": "The AI cost of JavaScript frameworks",
-      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
-      "canonicalUrl": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks",
-      "domain": "nolanlawson.com",
-      "createdAt": "2026-11-01T06:06:19.000Z",
+      "id": "f35e88fdd05b",
+      "title": "On the Origin and Evolution of Training-Inference Mismatch in LLM Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2610.40945",
+      "canonicalUrl": "https://arxiv.org/abs/2610.40945",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-02T00:00:00.000Z",
       "appearances": [
         {
-          "source": "hn",
-          "label": "HN",
-          "points": 197,
-          "comments": 140,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50323088"
-        }
-      ],
-      "normalized": 0.787,
-      "score": 0.742
-    },
-    {
-      "id": "2a10a176a3e7",
-      "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
-      "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
-      "canonicalUrl": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing",
-      "domain": "jetstream.security",
-      "createdAt": "2026-11-01T02:19:53.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 244,
-          "comments": 134,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50322173"
-        }
-      ],
-      "normalized": 0.861,
-      "score": 0.518
-    },
-    {
-      "id": "e274d87a6101",
-      "title": "The question we should all be asking about AI",
-      "url": "https://www.cnn.com/2026/10/30/business/ai-stocks-bonds-debt",
-      "canonicalUrl": "https://cnn.com/2026/10/30/business/ai-stocks-bonds-debt",
-      "domain": "cnn.com",
-      "createdAt": "2026-11-01T12:44:36.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 15,
-          "comments": 15,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50325107"
-        }
-      ],
-      "normalized": 0.057,
-      "score": 0.186
-    },
-    {
-      "id": "2b51d8c5bce7",
-      "title": "Anthropic's Claude AI blocks video game cloning and reverse-engineering",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked",
-      "canonicalUrl": "https://tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked",
-      "domain": "tomshardware.com",
-      "createdAt": "2026-10-31T13:25:00.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 72,
-          "comments": 43,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50315987"
-        }
-      ],
-      "normalized": 0.533,
-      "score": 0.117
-    },
-    {
-      "id": "e94a006a441a",
-      "title": "How AI may drive union-resistant tech workers to the bargaining table",
-      "url": "https://www.theguardian.com/technology/2026/jul/21/ai-tech-workers-unionize",
-      "canonicalUrl": "https://theguardian.com/technology/2026/jul/21/ai-tech-workers-unionize",
-      "domain": "theguardian.com",
-      "createdAt": "2026-11-01T00:49:23.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 27,
-          "comments": 4,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50321734"
-        }
-      ],
-      "normalized": 0.123,
-      "score": 0.064
-    },
-    {
-      "id": "4caded1205a8",
-      "title": "Anthropic orders AI tool Claude to stop remaking video games",
-      "url": "https://www.gamedeveloper.com/programming/anthropic-appears-to-have-ordered-ai-tool-claude-to-stop-remaking-video-games",
-      "canonicalUrl": "https://gamedeveloper.com/programming/anthropic-appears-to-have-ordered-ai-tool-claude-to-stop-remaking-video-games",
-      "domain": "gamedeveloper.com",
-      "createdAt": "2026-10-31T14:41:44.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 29,
-          "comments": 16,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50316635"
-        }
-      ],
-      "normalized": 0.164,
-      "score": 0.039
-    },
-    {
-      "id": "493d74a6bcb2",
-      "title": "Amazon sends chills through its workforce with mixed message memo about AI use",
-      "url": "https://www.theregister.com/ai-and-ml/2026/10/31/amazon-sends-chills-through-its-workforce-with-mixed-message-memo-about-ai-use-corey-quinn/5306804",
-      "canonicalUrl": "https://theregister.com/ai-and-ml/2026/10/31/amazon-sends-chills-through-its-workforce-with-mixed-message-memo-about-ai-use-corey-quinn/5306804",
-      "domain": "theregister.com",
-      "createdAt": "2026-10-31T17:21:16.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 23,
-          "comments": 11,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50318063"
-        }
-      ],
-      "normalized": 0.082,
-      "score": 0.023
-    },
-    {
-      "id": "9ecf53d2a6f0",
-      "title": "AI Data Centers Could Erase 15 Years of America's Climate Progress by 2030",
-      "url": "https://www.gadgetreview.com/ai-data-centers-could-erase-15-years-of-americas-climate-progress-by-2030",
-      "canonicalUrl": "https://gadgetreview.com/ai-data-centers-could-erase-15-years-of-americas-climate-progress-by-2030",
-      "domain": "gadgetreview.com",
-      "createdAt": "2026-10-31T17:34:23.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 16,
-          "comments": 7,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50318169"
-        }
-      ],
-      "normalized": 0.066,
-      "score": 0.019
-    },
-    {
-      "id": "edc16763bfc8",
-      "title": "AI Made Me Homeless",
-      "url": "https://medium.com/effortless-programming/ai-made-me-homeless-a7266d716e59",
-      "canonicalUrl": "https://medium.com/effortless-programming/ai-made-me-homeless-a7266d716e59",
-      "domain": "medium.com",
-      "createdAt": "2026-11-01T02:38:11.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 13,
-          "comments": 11,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50322251"
-        }
-      ],
-      "normalized": 0.025,
-      "score": 0.015
-    },
-    {
-      "id": "44239702a0f0",
-      "title": "A 90% Chance of AI Saving Humanity",
-      "url": "https://joshbocanegra.medium.com/a-90-chance-of-ai-saving-humanity-bf12fb7914ee",
-      "canonicalUrl": "https://joshbocanegra.medium.com/a-90-chance-of-ai-saving-humanity-bf12fb7914ee",
-      "domain": "joshbocanegra.medium.com",
-      "createdAt": "2026-11-01T13:19:04.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 11,
-          "comments": 8,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50325398"
-        }
-      ],
-      "normalized": 0,
-      "score": 0
-    },
-    {
-      "id": "499f931ef699",
-      "title": "Chinese markets lose trillions as race for AI supremacy with US takes its toll",
-      "url": "https://www.theguardian.com/world/2026/oct/27/chinese-markets-lose-trillions-ai-race-beijing",
-      "canonicalUrl": "https://theguardian.com/world/2026/oct/27/chinese-markets-lose-trillions-ai-race-beijing",
-      "domain": "theguardian.com",
-      "createdAt": "2026-11-01T03:27:55.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 11,
-          "comments": 5,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50322458"
-        }
-      ],
-      "normalized": 0,
-      "score": 0
-    },
-    {
-      "id": "76e502c4ebad",
-      "title": "DeepSeek open-sources dsh-superagent, a coding agent largely built by agents",
-      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-      "canonicalUrl": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-      "domain": "github.com",
-      "createdAt": "2026-10-31T13:41:11.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 11,
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 1,
           "comments": 0,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50316116"
+          "discussionUrl": "https://huggingface.co/papers/2610.40945"
         }
       ],
-      "normalized": 0,
-      "score": 0
+      "normalized": 0.077,
+      "score": 0.269
     }
   ]
 }
