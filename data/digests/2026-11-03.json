@@ -1,8 +1,179 @@
 {
   "date": "2026-11-03",
-  "generatedAt": "2026-11-03T18:53:05.488Z",
+  "generatedAt": "2026-11-04T04:51:04.603Z",
   "windowHours": 36,
   "stories": [
+    {
+      "id": "838082ddb6d0",
+      "title": "SpecPilot: Autonomous Algorithm Discovery and Systems Optimization for Speculative Decoding",
+      "url": "https://arxiv.org/abs/2611.02501",
+      "canonicalUrl": "https://arxiv.org/abs/2611.02501",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-04T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 11,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.02501"
+        }
+      ],
+      "normalized": 0.725,
+      "score": 2.27
+    },
+    {
+      "id": "9f8451dabbcb",
+      "title": "Recursa: Toward Recursively Self-Improving Foundation Model Systems",
+      "url": "https://arxiv.org/abs/2611.04035",
+      "canonicalUrl": "https://arxiv.org/abs/2611.04035",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-04T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 8,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.04035"
+        }
+      ],
+      "normalized": 0.65,
+      "score": 2.035
+    },
+    {
+      "id": "35da808f1259",
+      "title": "ParetoSaddler: Pareto-Guided Optimization of Agent Harnesses for Quality and Cost",
+      "url": "https://arxiv.org/abs/2611.02079",
+      "canonicalUrl": "https://arxiv.org/abs/2611.02079",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-04T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 8,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.02079"
+        }
+      ],
+      "normalized": 0.65,
+      "score": 2.035
+    },
+    {
+      "id": "117826e07c00",
+      "title": "PrimeSim: A Generalist World Model Simulator from Large-Scale Cross-Embodiment Demonstrations",
+      "url": "https://arxiv.org/abs/2611.04870",
+      "canonicalUrl": "https://arxiv.org/abs/2611.04870",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-04T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 7,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.04870"
+        }
+      ],
+      "normalized": 0.6,
+      "score": 1.878
+    },
+    {
+      "id": "b1e36bc321c9",
+      "title": "Can AI Reviewers See Your Efforts to Improve Your Paper? A Large-Scale Study of Paper Revision Trajectories",
+      "url": "https://arxiv.org/abs/2611.02244",
+      "canonicalUrl": "https://arxiv.org/abs/2611.02244",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-04T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 6,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.02244"
+        }
+      ],
+      "normalized": 0.525,
+      "score": 1.644
+    },
+    {
+      "id": "edbf4ed1a954",
+      "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+      "url": "https://arxiv.org/abs/2605.29713",
+      "canonicalUrl": "https://arxiv.org/abs/2605.29713",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-03T21:40:53.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 275,
+          "comments": 47,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50358582"
+        }
+      ],
+      "normalized": 0.863,
+      "score": 1.599
+    },
+    {
+      "id": "f3900be82c6f",
+      "title": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
+      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
+      "canonicalUrl": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
+      "domain": "asia.nikkei.com",
+      "createdAt": "2026-11-03T21:26:44.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 311,
+          "comments": 135,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50358422"
+        }
+      ],
+      "normalized": 0.879,
+      "score": 1.555
+    },
+    {
+      "id": "0a18c4d978fc",
+      "title": "Near-Zero Token Embeddings Silently Stall Training in Gated Sequence Models",
+      "url": "https://arxiv.org/abs/2611.04449",
+      "canonicalUrl": "https://arxiv.org/abs/2611.04449",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-04T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 5,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.04449"
+        }
+      ],
+      "normalized": 0.375,
+      "score": 1.174
+    },
+    {
+      "id": "3f3380d961ed",
+      "title": "The AI Boom May Be Sowing Seeds of Another Financial Crisis",
+      "url": "https://www.bloomberg.com/opinion/articles/2026-11-03/ai-investment-boom-demands-stronger-financial-oversight",
+      "canonicalUrl": "https://bloomberg.com/opinion/articles/2026-11-03/ai-investment-boom-demands-stronger-financial-oversight",
+      "domain": "bloomberg.com",
+      "createdAt": "2026-11-03T21:25:48.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 71,
+          "comments": 72,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50358414"
+        }
+      ],
+      "normalized": 0.521,
+      "score": 0.919
+    },
     {
       "id": "da9a5824109f",
       "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
@@ -20,7 +191,7 @@
         }
       ],
       "normalized": 0.926,
-      "score": 9.671
+      "score": 0.858
     },
     {
       "id": "9b0f1b3870f8",
@@ -45,80 +216,26 @@
         }
       ],
       "normalized": 0.64,
-      "score": 6.703
+      "score": 0.794
     },
     {
-      "id": "36b7855ee5fe",
-      "title": "Google researchers demand freedom to tell the world what they know about AI",
-      "url": "https://www.washingtonpost.com/technology/2026/11/03/google-deepmind-staff-protest-lifetime-ban-criticizing-company/",
-      "canonicalUrl": "https://washingtonpost.com/technology/2026/11/03/google-deepmind-staff-protest-lifetime-ban-criticizing-company",
-      "domain": "washingtonpost.com",
-      "createdAt": "2026-11-03T17:55:26.000Z",
+      "id": "a959325bd7be",
+      "title": "How I use AI (Oct 2026)",
+      "url": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/",
+      "canonicalUrl": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026",
+      "domain": "ben.stolovitz.com",
+      "createdAt": "2026-11-03T18:11:11.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 58,
-          "comments": 51,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50355504"
+          "points": 111,
+          "comments": 101,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50355767"
         }
       ],
-      "normalized": 0.386,
-      "score": 5.474
-    },
-    {
-      "id": "a55665cf4895",
-      "title": "StateBench: Testing how language models track state changes over long documents",
-      "url": "https://huggingface.co/blog/allenai/statebench",
-      "canonicalUrl": "https://huggingface.co/blog/allenai/statebench",
-      "domain": "huggingface.co",
-      "createdAt": "2026-11-03T17:15:21.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "Hugging Face",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 4.913
-    },
-    {
-      "id": "adafdd4764cb",
-      "title": "Agentic cheminformatics with Google Antigravity",
-      "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
-      "canonicalUrl": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity",
-      "domain": "deepmind.google",
-      "createdAt": "2026-11-03T17:01:49.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "Google DeepMind",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 4.408
-    },
-    {
-      "id": "bc4177032a04",
-      "title": "Palette: teaching a small model to build decks in your design language",
-      "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
-      "canonicalUrl": "https://huggingface.co/blog/ibm-research/palette-deck-building",
-      "domain": "huggingface.co",
-      "createdAt": "2026-11-03T16:35:36.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "Hugging Face",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 3.633
+      "normalized": 0.647,
+      "score": 0.671
     },
     {
       "id": "605a80a50559",
@@ -137,45 +254,25 @@
         }
       ],
       "normalized": 0.836,
-      "score": 3.333
+      "score": 0.571
     },
     {
-      "id": "80ed76d919d8",
-      "title": "Quili AI",
-      "url": "https://www.quili.ai/",
-      "canonicalUrl": "https://quili.ai/",
-      "domain": "quili.ai",
-      "createdAt": "2026-11-03T15:49:02.000Z",
+      "id": "a55665cf4895",
+      "title": "StateBench: Testing how language models track state changes over long documents",
+      "url": "https://huggingface.co/blog/allenai/statebench",
+      "canonicalUrl": "https://huggingface.co/blog/allenai/statebench",
+      "domain": "huggingface.co",
+      "createdAt": "2026-11-03T17:15:21.000Z",
       "appearances": [
         {
-          "source": "hn",
-          "label": "HN",
-          "points": 86,
-          "comments": 60,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50353475"
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
         }
       ],
-      "normalized": 0.54,
-      "score": 2.907
-    },
-    {
-      "id": "4bbe1f465dbb",
-      "title": "AI is destroying my CS degree",
-      "url": "https://lordtoots.bearblog.dev/ai-is-destroying-my-cs-degree/",
-      "canonicalUrl": "https://lordtoots.bearblog.dev/ai-is-destroying-my-cs-degree",
-      "domain": "lordtoots.bearblog.dev",
-      "createdAt": "2026-11-03T15:35:06.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 104,
-          "comments": 92,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50353300"
-        }
-      ],
-      "normalized": 0.566,
-      "score": 2.813
+      "normalized": 0.5,
+      "score": 0.456
     },
     {
       "id": "eb3661170b1d",
@@ -194,102 +291,7 @@
         }
       ],
       "normalized": 0.704,
-      "score": 2.326
-    },
-    {
-      "id": "6b045a3f6186",
-      "title": "The AI Bubble Monitor",
-      "url": "https://cepr.net/publications/ai-bubble-monitor/",
-      "canonicalUrl": "https://cepr.net/publications/ai-bubble-monitor",
-      "domain": "cepr.net",
-      "createdAt": "2026-11-03T14:51:31.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 54,
-          "comments": 32,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50352727"
-        }
-      ],
-      "normalized": 0.36,
-      "score": 1.419
-    },
-    {
-      "id": "b450560162d2",
-      "title": "Google will turn off search for schools that reject AI",
-      "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
-      "canonicalUrl": "https://nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
-      "domain": "nytimes.com",
-      "createdAt": "2026-11-03T15:25:47.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 294,
-          "comments": 249,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50353192"
-        }
-      ],
-      "normalized": 0.286,
-      "score": 1.348
-    },
-    {
-      "id": "182bcfeeb22b",
-      "title": "Octomind – open-source AI harness that saves your tokens, static rust",
-      "url": "https://github.com/Muvon/octomind",
-      "canonicalUrl": "https://github.com/Muvon/octomind",
-      "domain": "github.com",
-      "createdAt": "2026-11-03T15:02:58.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 45,
-          "comments": 33,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50352898"
-        }
-      ],
-      "normalized": 0.296,
-      "score": 1.238
-    },
-    {
-      "id": "4b34d08fc9c1",
-      "title": "Show HN: Interactive notes on RLHF, attention, LoRA and LLM evals",
-      "url": "https://concepts.laxmena.com/",
-      "canonicalUrl": "https://concepts.laxmena.com/",
-      "domain": "concepts.laxmena.com",
-      "createdAt": "2026-11-03T15:48:35.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 32,
-          "comments": 3,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50353468"
-        }
-      ],
-      "normalized": 0.212,
-      "score": 1.137
-    },
-    {
-      "id": "5a3345f135c4",
-      "title": "Anthropic IPO filing: $1.7B quarterly payroll, about $107K per employee monthly",
-      "url": "https://www.techspot.com/news/114428-anthropic-ipo-filing-reveals-17-billion-quarterly-personnel.html",
-      "canonicalUrl": "https://techspot.com/news/114428-anthropic-ipo-filing-reveals-17-billion-quarterly-personnel.html",
-      "domain": "techspot.com",
-      "createdAt": "2026-11-03T11:16:07.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 73,
-          "comments": 94,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50350560"
-        }
-      ],
-      "normalized": 0.481,
-      "score": 0.819
+      "score": 0.447
     }
   ]
 }
