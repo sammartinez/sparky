@@ -1,44 +1,216 @@
 {
   "date": "2026-11-04",
-  "generatedAt": "2026-11-04T19:09:58.529Z",
+  "generatedAt": "2026-11-05T05:07:08.724Z",
   "windowHours": 36,
   "stories": [
     {
-      "id": "5afc49da7bd4",
-      "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
-      "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
-      "canonicalUrl": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
-      "domain": "huggingface.co",
-      "createdAt": "2026-11-04T17:50:10.000Z",
+      "id": "cfb1b90e9326",
+      "title": "GameVerse: A Minute-Scale Gameplay Dataset for Long-Horizon Interactive World Modeling",
+      "url": "https://arxiv.org/abs/2610.37257",
+      "canonicalUrl": "https://arxiv.org/abs/2610.37257",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-05T00:00:00.000Z",
       "appearances": [
         {
-          "source": "rss",
-          "label": "Hugging Face",
-          "points": null,
-          "comments": null
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 17,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.37257"
+        }
+      ],
+      "normalized": 0.825,
+      "score": 2.41
+    },
+    {
+      "id": "3ae029898ba1",
+      "title": "PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data",
+      "url": "https://arxiv.org/abs/2611.05320",
+      "canonicalUrl": "https://arxiv.org/abs/2611.05320",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-05T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 10,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.05320"
+        }
+      ],
+      "normalized": 0.75,
+      "score": 2.191
+    },
+    {
+      "id": "453ac6374fb7",
+      "title": "StreamDuo: A Live Commentator and a Research Agent for Unseen Games",
+      "url": "https://arxiv.org/abs/2611.01120",
+      "canonicalUrl": "https://arxiv.org/abs/2611.01120",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-05T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 8,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.01120"
+        }
+      ],
+      "normalized": 0.65,
+      "score": 1.899
+    },
+    {
+      "id": "8b2c480f7503",
+      "title": "Solv3R: 3D Looped Transformer as a Multi-view Solver",
+      "url": "https://arxiv.org/abs/2611.02857",
+      "canonicalUrl": "https://arxiv.org/abs/2611.02857",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-05T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 8,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.02857"
+        }
+      ],
+      "normalized": 0.65,
+      "score": 1.899
+    },
+    {
+      "id": "c8574a878090",
+      "title": "How I Aligned Your Model: Scaling Up Multilingual Safety Training with Templates",
+      "url": "https://arxiv.org/abs/2610.40516",
+      "canonicalUrl": "https://arxiv.org/abs/2610.40516",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-05T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 5,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.40516"
         }
       ],
       "normalized": 0.5,
-      "score": 5.735
+      "score": 1.461
     },
     {
-      "id": "7b93706aafff",
-      "title": "Progress on provable inference for large language models",
-      "url": "https://www.anthropic.com/research/provable-inference",
-      "canonicalUrl": "https://anthropic.com/research/provable-inference",
-      "domain": "anthropic.com",
-      "createdAt": "2026-11-04T17:17:46.000Z",
+      "id": "0540c024d21d",
+      "title": "VeriSpoof: Beyond Real or Fake with One Audio LLM",
+      "url": "https://arxiv.org/abs/2611.04634",
+      "canonicalUrl": "https://arxiv.org/abs/2611.04634",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-05T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 3,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.04634"
+        }
+      ],
+      "normalized": 0.45,
+      "score": 1.315
+    },
+    {
+      "id": "ad486aacca15",
+      "title": "Everything is an AI scam now",
+      "url": "https://www.davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now/",
+      "canonicalUrl": "https://davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now",
+      "domain": "davidralphlewis.co.uk",
+      "createdAt": "2026-11-04T21:05:19.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 92,
-          "comments": 32,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50368626"
+          "points": 132,
+          "comments": 50,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50371508"
         }
       ],
-      "normalized": 0.612,
-      "score": 5.353
+      "normalized": 0.665,
+      "score": 1.048
+    },
+    {
+      "id": "45c552d60f93",
+      "title": "You'll need nerves of steel to work with AI agents",
+      "url": "https://orchidfiles.com/youll-need-nerves-of-steel-to-work-with-ai-agents/",
+      "canonicalUrl": "https://orchidfiles.com/youll-need-nerves-of-steel-to-work-with-ai-agents",
+      "domain": "orchidfiles.com",
+      "createdAt": "2026-11-05T00:01:30.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 43,
+          "comments": 55,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50373149"
+        }
+      ],
+      "normalized": 0.311,
+      "score": 0.916
+    },
+    {
+      "id": "96eddcc208ed",
+      "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+      "url": "https://www.ricursive.com/ripple",
+      "canonicalUrl": "https://ricursive.com/ripple",
+      "domain": "ricursive.com",
+      "createdAt": "2026-11-04T18:53:29.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 260,
+          "comments": 92,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50369925"
+        }
+      ],
+      "normalized": 0.826,
+      "score": 0.912
+    },
+    {
+      "id": "5ccdc48dfe6e",
+      "title": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
+      "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
+      "canonicalUrl": "https://qualcomm.com/data-center/products/cloud-ai-100-ultra",
+      "domain": "qualcomm.com",
+      "createdAt": "2026-11-04T19:55:14.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 122,
+          "comments": 53,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50370654"
+        }
+      ],
+      "normalized": 0.623,
+      "score": 0.805
+    },
+    {
+      "id": "96824d6c1d2d",
+      "title": "American Voters Overwhelmingly Reject AI Data Centers",
+      "url": "https://www.404media.co/american-voters-overwhelmingly-reject-ai-data-centers/",
+      "canonicalUrl": "https://404media.co/american-voters-overwhelmingly-reject-ai-data-centers",
+      "domain": "404media.co",
+      "createdAt": "2026-11-05T00:43:13.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 29,
+          "comments": 2,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50373505"
+        }
+      ],
+      "normalized": 0.168,
+      "score": 0.594
     },
     {
       "id": "7838c87736f9",
@@ -57,44 +229,44 @@
         }
       ],
       "normalized": 0.787,
-      "score": 3.478
+      "score": 0.56
     },
     {
-      "id": "1d83ea98ce0c",
-      "title": "datasette-llm 0.1a10",
-      "url": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
-      "canonicalUrl": "https://simonwillison.net/2026/Nov/4/datasette-llm",
-      "domain": "simonwillison.net",
-      "createdAt": "2026-11-04T15:26:02.000Z",
+      "id": "7b93706aafff",
+      "title": "Progress on provable inference for large language models",
+      "url": "https://www.anthropic.com/research/provable-inference",
+      "canonicalUrl": "https://anthropic.com/research/provable-inference",
+      "domain": "anthropic.com",
+      "createdAt": "2026-11-04T17:17:46.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 92,
+          "comments": 32,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50368626"
+        }
+      ],
+      "normalized": 0.612,
+      "score": 0.541
+    },
+    {
+      "id": "5afc49da7bd4",
+      "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+      "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "canonicalUrl": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "domain": "huggingface.co",
+      "createdAt": "2026-11-04T17:50:10.000Z",
       "appearances": [
         {
           "source": "rss",
-          "label": "Simon Willison",
+          "label": "Hugging Face",
           "points": null,
           "comments": null
         }
       ],
       "normalized": 0.5,
-      "score": 2.158
-    },
-    {
-      "id": "bac6032ee652",
-      "title": "Pierre Computer is being acquired by OpenAI",
-      "url": "https://twitter.com/pierrecomputer/status/2117999036175188183",
-      "canonicalUrl": "https://twitter.com/pierrecomputer/status/2117999036175188183",
-      "domain": "twitter.com",
-      "createdAt": "2026-11-04T15:21:21.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 72,
-          "comments": 32,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50366863"
-        }
-      ],
-      "normalized": 0.511,
-      "score": 2.15
+      "score": 0.475
     },
     {
       "id": "68c44263a0af",
@@ -113,177 +285,7 @@
         }
       ],
       "normalized": 0.973,
-      "score": 1.76
-    },
-    {
-      "id": "07dbf5f156f1",
-      "title": "Tencent Hy4",
-      "url": "https://hy.tencent.ai/research/hy4",
-      "canonicalUrl": "https://hy.tencent.ai/research/hy4",
-      "domain": "hy.tencent.ai",
-      "createdAt": "2026-11-04T14:11:26.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 77,
-          "comments": 20,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50365780"
-        }
-      ],
-      "normalized": 0.553,
-      "score": 1.677
-    },
-    {
-      "id": "3a06f84c0f51",
-      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
-      "url": "https://openai.com/index/openai-to-acquire-pierre",
-      "canonicalUrl": "https://openai.com/index/openai-to-acquire-pierre",
-      "domain": "openai.com",
-      "createdAt": "2026-11-04T14:30:00.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 1.644
-    },
-    {
-      "id": "793a736581dc",
-      "title": "YC's Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
-      "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
-      "canonicalUrl": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens",
-      "domain": "techcrunch.com",
-      "createdAt": "2026-11-04T15:28:31.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 46,
-          "comments": 65,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50366971"
-        }
-      ],
-      "normalized": 0.356,
-      "score": 1.558
-    },
-    {
-      "id": "793baf0e5454",
-      "title": "Ask HN: What's your current AI agentic setup?",
-      "url": "https://news.ycombinator.com/item?id=50366117",
-      "canonicalUrl": "https://news.ycombinator.com/item?id=50366117",
-      "domain": "news.ycombinator.com",
-      "createdAt": "2026-11-04T14:37:22.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 59,
-          "comments": 68,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50366117"
-        }
-      ],
-      "normalized": 0.431,
-      "score": 1.465
-    },
-    {
-      "id": "150a39b9eb9a",
-      "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
-      "url": "https://news.ycombinator.com/item?id=50363461",
-      "canonicalUrl": "https://news.ycombinator.com/item?id=50363461",
-      "domain": "news.ycombinator.com",
-      "createdAt": "2026-11-04T10:10:27.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 511,
-          "comments": 134,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50363461"
-        }
-      ],
-      "normalized": 0.941,
-      "score": 1.259
-    },
-    {
-      "id": "dc34df3985a1",
-      "title": "Geoffrey Hinton: it might turn out we were better off without AI",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
-      "canonicalUrl": "https://theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
-      "domain": "theguardian.com",
-      "createdAt": "2026-11-04T10:23:34.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 281,
-          "comments": 259,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50363554"
-        }
-      ],
-      "normalized": 0.846,
-      "score": 1.172
-    },
-    {
-      "id": "2b5f926b26c1",
-      "title": "Launch HN: Kino AI (YC S23) – AI media manager and video editor",
-      "url": "https://news.ycombinator.com/item?id=50368804",
-      "canonicalUrl": "https://news.ycombinator.com/item?id=50368804",
-      "domain": "news.ycombinator.com",
-      "createdAt": "2026-11-04T17:31:53.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 19,
-          "comments": 17,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50368804"
-        }
-      ],
-      "normalized": 0.106,
-      "score": 1.042
-    },
-    {
-      "id": "daa8130c7d07",
-      "title": "AI data centers comprehensively defeated at US midterm elections",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/ai-data-centers-comprehensively-defeated-at-us-midterm-elections-45-measures-put-on-the-ballot-as-americans-overwhelmingly-vote-against-developments",
-      "canonicalUrl": "https://tomshardware.com/tech-industry/data-centers/ai-data-centers-comprehensively-defeated-at-us-midterm-elections-45-measures-put-on-the-ballot-as-americans-overwhelmingly-vote-against-developments",
-      "domain": "tomshardware.com",
-      "createdAt": "2026-11-04T15:35:51.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 31,
-          "comments": 17,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50367085"
-        }
-      ],
-      "normalized": 0.218,
-      "score": 0.991
-    },
-    {
-      "id": "771d04f9d142",
-      "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
-      "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
-      "canonicalUrl": "https://mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
-      "domain": "mindstudio.ai",
-      "createdAt": "2026-11-04T08:46:29.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 491,
-          "comments": 222,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50362905"
-        }
-      ],
-      "normalized": 0.92,
-      "score": 0.991
+      "score": 0.475
     }
   ]
 }
