@@ -1,0 +1,302 @@
+{
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T19:17:08.375Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "9404bc0f47e8",
+      "title": "Nasdaq Sinks 5% as Investors Retreat from AI Trade After Election",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026",
+      "canonicalUrl": "https://wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026",
+      "domain": "wsj.com",
+      "createdAt": "2026-11-05T18:00:01.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 93,
+          "comments": 69,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50382179"
+        }
+      ],
+      "normalized": 0.53,
+      "score": 6.235
+    },
+    {
+      "id": "7dfde1187726",
+      "title": "Reflections on Rust in the LLM Age — Bryan Cantrill | Rust NYC",
+      "url": "https://www.youtube.com/watch?v=5D7QPOIZ7gY",
+      "canonicalUrl": "https://youtube.com/watch?v=5D7QPOIZ7gY",
+      "domain": "youtube.com",
+      "createdAt": "2026-11-05T17:32:18.197Z",
+      "appearances": [
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 3,
+          "comments": 0,
+          "discussionUrl": "https://lobste.rs/s/yomksa/reflections_on_rust_llm_age_bryan"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 4.637
+    },
+    {
+      "id": "003a6dd08e36",
+      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+      "canonicalUrl": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips",
+      "domain": "deepmind.google",
+      "createdAt": "2026-11-05T17:05:16.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Google DeepMind",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 3.78
+    },
+    {
+      "id": "1955590be05d",
+      "title": "My psychophysics as a bilateral cochlear implant user",
+      "url": "https://claude.ai/artifact/L8qsMc3SorytGW3LA81nYf",
+      "canonicalUrl": "https://claude.ai/artifact/L8qsMc3SorytGW3LA81nYf",
+      "domain": "claude.ai",
+      "createdAt": "2026-11-05T16:21:12.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 98,
+          "comments": 21,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50381033"
+        }
+      ],
+      "normalized": 0.561,
+      "score": 3.173
+    },
+    {
+      "id": "0dad0a50448b",
+      "title": "Building a Multi-Agent System from Scratch: Architecture Patterns",
+      "url": "https://kadhar.dev/blog/multi-agent-systems-from-scratch",
+      "canonicalUrl": "https://kadhar.dev/blog/multi-agent-systems-from-scratch",
+      "domain": "kadhar.dev",
+      "createdAt": "2026-11-05T15:51:57.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 41,
+          "comments": 14,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50380658"
+        }
+      ],
+      "normalized": 0.287,
+      "score": 1.368
+    },
+    {
+      "id": "b377d4614c76",
+      "title": "The Stacks Project, Formalized in Lean",
+      "url": "https://axiommath.ai/research/the-stacks-project-formalized/",
+      "canonicalUrl": "https://axiommath.ai/research/the-stacks-project-formalized",
+      "domain": "axiommath.ai",
+      "createdAt": "2026-11-05T16:16:59.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 37,
+          "comments": 8,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50380979"
+        }
+      ],
+      "normalized": 0.238,
+      "score": 1.311
+    },
+    {
+      "id": "53c56afbaf05",
+      "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber/",
+      "canonicalUrl": "https://openai.com/index/introducing-gpt-6-cyber",
+      "domain": "openai.com",
+      "createdAt": "2026-11-05T09:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 29,
+          "comments": 6,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50381590"
+        },
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.821
+    },
+    {
+      "id": "01c9a31508ad",
+      "title": "Show HN: Stroq – a local audit of what your coding agent did and why",
+      "url": "https://github.com/AGGIB/Stroq",
+      "canonicalUrl": "https://github.com/AGGIB/Stroq",
+      "domain": "github.com",
+      "createdAt": "2026-11-05T15:54:41.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 30,
+          "comments": 7,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50380704"
+        }
+      ],
+      "normalized": 0.159,
+      "score": 0.768
+    },
+    {
+      "id": "3c63b1bd263a",
+      "title": "GPT-6 Astra covertly underperforms on safety research",
+      "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
+      "canonicalUrl": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks",
+      "domain": "alignment.openai.com",
+      "createdAt": "2026-11-05T07:44:30.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 208,
+          "comments": 103,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50376313"
+        }
+      ],
+      "normalized": 0.762,
+      "score": 0.7
+    },
+    {
+      "id": "3e39ae53f830",
+      "title": "What Does Multi-Turn Reinforcement Learning Really Improve in LLM Agents?",
+      "url": "https://arxiv.org/abs/2611.06483",
+      "canonicalUrl": "https://arxiv.org/abs/2611.06483",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-05T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 30,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.06483"
+        }
+      ],
+      "normalized": 0.868,
+      "score": 0.353
+    },
+    {
+      "id": "0a437d67f2ef",
+      "title": "Images 2.6",
+      "url": "https://openai.com/index/introducing-images-2-6/",
+      "canonicalUrl": "https://openai.com/index/introducing-images-2-6",
+      "domain": "openai.com",
+      "createdAt": "2026-11-04T23:35:44.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 371,
+          "comments": 227,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50372945"
+        }
+      ],
+      "normalized": 0.89,
+      "score": 0.35
+    },
+    {
+      "id": "0a7ab76c216d",
+      "title": "Halley: A Predictive Control Plane for Optical AI Data Center Networks",
+      "url": "https://arxiv.org/abs/2611.04408",
+      "canonicalUrl": "https://arxiv.org/abs/2611.04408",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-05T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 22,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.04408"
+        }
+      ],
+      "normalized": 0.789,
+      "score": 0.321
+    },
+    {
+      "id": "eee4a1770b6c",
+      "title": "MUON-RT Reusing the Teacher's Trajectory for Momentum-Free Muon for LLM Self-Distillation",
+      "url": "https://arxiv.org/abs/2610.41104",
+      "canonicalUrl": "https://arxiv.org/abs/2610.41104",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-05T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 12,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.41104"
+        }
+      ],
+      "normalized": 0.658,
+      "score": 0.268
+    },
+    {
+      "id": "3a06f84c0f51",
+      "title": "OpenAI to acquire Pierre Computer Company",
+      "url": "https://openai.com/index/openai-to-acquire-pierre/",
+      "canonicalUrl": "https://openai.com/index/openai-to-acquire-pierre",
+      "domain": "openai.com",
+      "createdAt": "2026-11-04T14:30:00.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 261,
+          "comments": 89,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50366863"
+        },
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.811,
+      "score": 0.255
+    },
+    {
+      "id": "f93567576105",
+      "title": "Setting a new standard for responsible AI infrastructure",
+      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "canonicalUrl": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "domain": "openai.com",
+      "createdAt": "2026-11-05T02:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.243
+    }
+  ]
+}
