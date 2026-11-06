@@ -1,8 +1,215 @@
 {
   "date": "2026-11-05",
-  "generatedAt": "2026-11-05T19:17:08.375Z",
+  "generatedAt": "2026-11-06T05:06:54.159Z",
   "windowHours": 36,
   "stories": [
+    {
+      "id": "3b58ffb304e7",
+      "title": "Claude Code sends your email address to websites",
+      "url": "https://github.com/anthropics/claude-code/issues/107757",
+      "canonicalUrl": "https://github.com/anthropics/claude-code/issues/107757",
+      "domain": "github.com",
+      "createdAt": "2026-11-05T22:17:15.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 760,
+          "comments": 257,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50385272"
+        }
+      ],
+      "normalized": 0.98,
+      "score": 1.945
+    },
+    {
+      "id": "7486a9a8c5df",
+      "title": "Inkling 2 Small",
+      "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+      "canonicalUrl": "https://thinkingmachines.ai/news/inkling-2-small",
+      "domain": "thinkingmachines.ai",
+      "createdAt": "2026-11-06T00:00:24.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 130,
+          "comments": 52,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50386338"
+        }
+      ],
+      "normalized": 0.658,
+      "score": 1.927
+    },
+    {
+      "id": "cd0f92ec7046",
+      "title": "Random Is Almost Enough? Stable and Low-Cost Benchmark Compression via BestRand",
+      "url": "https://arxiv.org/abs/2611.00883",
+      "canonicalUrl": "https://arxiv.org/abs/2611.00883",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-06T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 13,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.00883"
+        }
+      ],
+      "normalized": 0.65,
+      "score": 1.901
+    },
+    {
+      "id": "6f78e24cdb5b",
+      "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+      "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+      "canonicalUrl": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+      "domain": "finance.yahoo.com",
+      "createdAt": "2026-11-05T23:09:57.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 193,
+          "comments": 97,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50385870"
+        }
+      ],
+      "normalized": 0.776,
+      "score": 1.86
+    },
+    {
+      "id": "bb31b33e2b1a",
+      "title": "Major Investors Are Skeptical Anthropic IPO Can Achieve $1.5T Valuation",
+      "url": "https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b’",
+      "canonicalUrl": "https://wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b%E2%80%99",
+      "domain": "wsj.com",
+      "createdAt": "2026-11-06T00:31:11.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 74,
+          "comments": 84,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50386597"
+        }
+      ],
+      "normalized": 0.513,
+      "score": 1.72
+    },
+    {
+      "id": "faf1f8f27b0f",
+      "title": "Closed AI models dominate the price-performance frontier",
+      "url": "https://village.dev/blog/closed-ai-models-now-dominate-the-price-performance-frontier/",
+      "canonicalUrl": "https://village.dev/blog/closed-ai-models-now-dominate-the-price-performance-frontier",
+      "domain": "village.dev",
+      "createdAt": "2026-11-06T02:49:56.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 31,
+          "comments": 18,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50387546"
+        }
+      ],
+      "normalized": 0.197,
+      "score": 1.439
+    },
+    {
+      "id": "b95f6aa29001",
+      "title": "Nvidia Kubernetes Engine (NVKE)",
+      "url": "https://github.com/dsx-ai-factory/nvke",
+      "canonicalUrl": "https://github.com/dsx-ai-factory/nvke",
+      "domain": "github.com",
+      "createdAt": "2026-11-06T03:16:26.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 29,
+          "comments": 10,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50387738"
+        }
+      ],
+      "normalized": 0.158,
+      "score": 1.401
+    },
+    {
+      "id": "53099ce65b1b",
+      "title": "Investors wipe $2.5T off Nasdaq as blue tsunami prompts AI fears",
+      "url": "https://www.reuters.com/legal/transactional/ai-data-center-stocks-slip-democratic-sweep-clouds-expansion-plans-2026-11-05/",
+      "canonicalUrl": "https://reuters.com/legal/transactional/ai-data-center-stocks-slip-democratic-sweep-clouds-expansion-plans-2026-11-05",
+      "domain": "reuters.com",
+      "createdAt": "2026-11-06T01:11:40.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 39,
+          "comments": 11,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50386909"
+        }
+      ],
+      "normalized": 0.303,
+      "score": 1.232
+    },
+    {
+      "id": "fe47b041b977",
+      "title": "EDGAR: Efficient Diffusion-Driven Gaussian Avatar Refinement via Synthetic Failure",
+      "url": "https://arxiv.org/abs/2611.07909",
+      "canonicalUrl": "https://arxiv.org/abs/2611.07909",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-06T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 6,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.07909"
+        }
+      ],
+      "normalized": 0.35,
+      "score": 1.024
+    },
+    {
+      "id": "c88b52d0b210",
+      "title": "Cult.fit builds operational muscle with Codex",
+      "url": "https://openai.com/index/cultfit-builds-with-codex",
+      "canonicalUrl": "https://openai.com/index/cultfit-builds-with-codex",
+      "domain": "openai.com",
+      "createdAt": "2026-11-05T20:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.655
+    },
+    {
+      "id": "e8690f74b67f",
+      "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "canonicalUrl": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "domain": "huggingface.co",
+      "createdAt": "2026-11-05T19:35:16.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.614
+    },
     {
       "id": "9404bc0f47e8",
       "title": "Nasdaq Sinks 5% as Investors Retreat from AI Trade After Election",
@@ -20,7 +227,7 @@
         }
       ],
       "normalized": 0.53,
-      "score": 6.235
+      "score": 0.516
     },
     {
       "id": "7dfde1187726",
@@ -39,25 +246,7 @@
         }
       ],
       "normalized": 0.5,
-      "score": 4.637
-    },
-    {
-      "id": "003a6dd08e36",
-      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-      "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
-      "canonicalUrl": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips",
-      "domain": "deepmind.google",
-      "createdAt": "2026-11-05T17:05:16.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "Google DeepMind",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 3.78
+      "score": 0.457
     },
     {
       "id": "1955590be05d",
@@ -76,227 +265,25 @@
         }
       ],
       "normalized": 0.561,
-      "score": 3.173
+      "score": 0.441
     },
     {
-      "id": "0dad0a50448b",
-      "title": "Building a Multi-Agent System from Scratch: Architecture Patterns",
-      "url": "https://kadhar.dev/blog/multi-agent-systems-from-scratch",
-      "canonicalUrl": "https://kadhar.dev/blog/multi-agent-systems-from-scratch",
-      "domain": "kadhar.dev",
-      "createdAt": "2026-11-05T15:51:57.000Z",
+      "id": "003a6dd08e36",
+      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+      "canonicalUrl": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips",
+      "domain": "deepmind.google",
+      "createdAt": "2026-11-05T17:05:16.000Z",
       "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 41,
-          "comments": 14,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50380658"
-        }
-      ],
-      "normalized": 0.287,
-      "score": 1.368
-    },
-    {
-      "id": "b377d4614c76",
-      "title": "The Stacks Project, Formalized in Lean",
-      "url": "https://axiommath.ai/research/the-stacks-project-formalized/",
-      "canonicalUrl": "https://axiommath.ai/research/the-stacks-project-formalized",
-      "domain": "axiommath.ai",
-      "createdAt": "2026-11-05T16:16:59.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 37,
-          "comments": 8,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50380979"
-        }
-      ],
-      "normalized": 0.238,
-      "score": 1.311
-    },
-    {
-      "id": "53c56afbaf05",
-      "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
-      "url": "https://openai.com/index/introducing-gpt-6-cyber/",
-      "canonicalUrl": "https://openai.com/index/introducing-gpt-6-cyber",
-      "domain": "openai.com",
-      "createdAt": "2026-11-05T09:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 29,
-          "comments": 6,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50381590"
-        },
         {
           "source": "rss",
-          "label": "OpenAI",
+          "label": "Google DeepMind",
           "points": null,
           "comments": null
         }
       ],
       "normalized": 0.5,
-      "score": 0.821
-    },
-    {
-      "id": "01c9a31508ad",
-      "title": "Show HN: Stroq – a local audit of what your coding agent did and why",
-      "url": "https://github.com/AGGIB/Stroq",
-      "canonicalUrl": "https://github.com/AGGIB/Stroq",
-      "domain": "github.com",
-      "createdAt": "2026-11-05T15:54:41.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 30,
-          "comments": 7,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50380704"
-        }
-      ],
-      "normalized": 0.159,
-      "score": 0.768
-    },
-    {
-      "id": "3c63b1bd263a",
-      "title": "GPT-6 Astra covertly underperforms on safety research",
-      "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
-      "canonicalUrl": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks",
-      "domain": "alignment.openai.com",
-      "createdAt": "2026-11-05T07:44:30.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 208,
-          "comments": 103,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50376313"
-        }
-      ],
-      "normalized": 0.762,
-      "score": 0.7
-    },
-    {
-      "id": "3e39ae53f830",
-      "title": "What Does Multi-Turn Reinforcement Learning Really Improve in LLM Agents?",
-      "url": "https://arxiv.org/abs/2611.06483",
-      "canonicalUrl": "https://arxiv.org/abs/2611.06483",
-      "domain": "arxiv.org",
-      "createdAt": "2026-11-05T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 30,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2611.06483"
-        }
-      ],
-      "normalized": 0.868,
-      "score": 0.353
-    },
-    {
-      "id": "0a437d67f2ef",
-      "title": "Images 2.6",
-      "url": "https://openai.com/index/introducing-images-2-6/",
-      "canonicalUrl": "https://openai.com/index/introducing-images-2-6",
-      "domain": "openai.com",
-      "createdAt": "2026-11-04T23:35:44.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 371,
-          "comments": 227,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50372945"
-        }
-      ],
-      "normalized": 0.89,
-      "score": 0.35
-    },
-    {
-      "id": "0a7ab76c216d",
-      "title": "Halley: A Predictive Control Plane for Optical AI Data Center Networks",
-      "url": "https://arxiv.org/abs/2611.04408",
-      "canonicalUrl": "https://arxiv.org/abs/2611.04408",
-      "domain": "arxiv.org",
-      "createdAt": "2026-11-05T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 22,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2611.04408"
-        }
-      ],
-      "normalized": 0.789,
-      "score": 0.321
-    },
-    {
-      "id": "eee4a1770b6c",
-      "title": "MUON-RT Reusing the Teacher's Trajectory for Momentum-Free Muon for LLM Self-Distillation",
-      "url": "https://arxiv.org/abs/2610.41104",
-      "canonicalUrl": "https://arxiv.org/abs/2610.41104",
-      "domain": "arxiv.org",
-      "createdAt": "2026-11-05T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 12,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2610.41104"
-        }
-      ],
-      "normalized": 0.658,
-      "score": 0.268
-    },
-    {
-      "id": "3a06f84c0f51",
-      "title": "OpenAI to acquire Pierre Computer Company",
-      "url": "https://openai.com/index/openai-to-acquire-pierre/",
-      "canonicalUrl": "https://openai.com/index/openai-to-acquire-pierre",
-      "domain": "openai.com",
-      "createdAt": "2026-11-04T14:30:00.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 261,
-          "comments": 89,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50366863"
-        },
-        {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.811,
-      "score": 0.255
-    },
-    {
-      "id": "f93567576105",
-      "title": "Setting a new standard for responsible AI infrastructure",
-      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
-      "canonicalUrl": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
-      "domain": "openai.com",
-      "createdAt": "2026-11-05T02:00:00.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 0.243
+      "score": 0.431
     }
   ]
 }
