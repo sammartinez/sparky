@@ -1,8 +1,84 @@
 {
   "date": "2026-11-07",
-  "generatedAt": "2026-11-07T17:13:41.521Z",
+  "generatedAt": "2026-11-08T04:27:57.329Z",
   "windowHours": 36,
   "stories": [
+    {
+      "id": "5186d80b7eef",
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+      "canonicalUrl": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+      "domain": "apiiro.com",
+      "createdAt": "2026-11-07T20:45:32.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 254,
+          "comments": 163,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50407882"
+        }
+      ],
+      "normalized": 0.817,
+      "score": 1.365
+    },
+    {
+      "id": "f7fffb994d85",
+      "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
+      "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
+      "canonicalUrl": "https://maxxbench.unlap.ai/research/why-maxxbench",
+      "domain": "maxxbench.unlap.ai",
+      "createdAt": "2026-11-07T17:19:00.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 233,
+          "comments": 67,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50406222"
+        }
+      ],
+      "normalized": 0.78,
+      "score": 0.755
+    },
+    {
+      "id": "83d54a23e8bd",
+      "title": "Catching prompt injections hidden in PDFs",
+      "url": "https://tomclancy.info/joshua-judges-ruth.html",
+      "canonicalUrl": "https://tomclancy.info/joshua-judges-ruth.html",
+      "domain": "tomclancy.info",
+      "createdAt": "2026-11-07T19:34:01.032Z",
+      "appearances": [
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 4,
+          "comments": 0,
+          "discussionUrl": "https://lobste.rs/s/hreu0b/catching_prompt_injections_hidden_pdfs"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.679
+    },
+    {
+      "id": "1eeaf5457cb1",
+      "title": "The End of AI Frontiers",
+      "url": "https://hunch.net/?p=13764006",
+      "canonicalUrl": "https://hunch.net/?p=13764006",
+      "domain": "hunch.net",
+      "createdAt": "2026-11-07T18:02:17.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 424,
+          "comments": 248,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50406563"
+        }
+      ],
+      "normalized": 0.45,
+      "score": 0.482
+    },
     {
       "id": "5ec03af4da1d",
       "title": "Every Mac comes with an (undocumented) family member classifier",
@@ -20,7 +96,26 @@
         }
       ],
       "normalized": 0.922,
-      "score": 1.615
+      "score": 0.395
+    },
+    {
+      "id": "f45973610354",
+      "title": "Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8",
+      "url": "https://github.com/Video-Rebirth/hyperflow-h3-flash",
+      "canonicalUrl": "https://github.com/Video-Rebirth/hyperflow-h3-flash",
+      "domain": "github.com",
+      "createdAt": "2026-11-07T15:16:01.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 59,
+          "comments": 12,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50405263"
+        }
+      ],
+      "normalized": 0.385,
+      "score": 0.287
     },
     {
       "id": "d8887a09bc5e",
@@ -39,26 +134,7 @@
         }
       ],
       "normalized": 0.612,
-      "score": 0.642
-    },
-    {
-      "id": "ab8048406f7d",
-      "title": "I don't care if web content is AI-generated",
-      "url": "https://kevinboone.me/ai.html",
-      "canonicalUrl": "https://kevinboone.me/ai.html",
-      "domain": "kevinboone.me",
-      "createdAt": "2026-11-07T14:02:56.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 14,
-          "comments": 9,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50404622"
-        }
-      ],
-      "normalized": 0.054,
-      "score": 0.281
+      "score": 0.203
     },
     {
       "id": "16642f6cb745",
@@ -77,7 +153,7 @@
         }
       ],
       "normalized": 0.597,
-      "score": 0.18
+      "score": 0.093
     },
     {
       "id": "13f4910530cc",
@@ -96,7 +172,7 @@
         }
       ],
       "normalized": 0.566,
-      "score": 0.099
+      "score": 0.059
     },
     {
       "id": "bc8f9eac1966",
@@ -114,7 +190,7 @@
         }
       ],
       "normalized": 0.5,
-      "score": 0.082
+      "score": 0.05
     },
     {
       "id": "b0f96f4b6257",
@@ -133,7 +209,7 @@
         }
       ],
       "normalized": 0.279,
-      "score": 0.073
+      "score": 0.039
     },
     {
       "id": "4d8ea370c2b8",
@@ -152,7 +228,26 @@
         }
       ],
       "normalized": 0.38,
-      "score": 0.062
+      "score": 0.038
+    },
+    {
+      "id": "ab8048406f7d",
+      "title": "I don't care if web content is AI-generated",
+      "url": "https://kevinboone.me/ai.html",
+      "canonicalUrl": "https://kevinboone.me/ai.html",
+      "domain": "kevinboone.me",
+      "createdAt": "2026-11-07T14:02:56.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 14,
+          "comments": 9,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50404622"
+        }
+      ],
+      "normalized": 0.054,
+      "score": 0.035
     },
     {
       "id": "836f5f32357f",
@@ -171,45 +266,7 @@
         }
       ],
       "normalized": 0.233,
-      "score": 0.05
-    },
-    {
-      "id": "a45b8627609a",
-      "title": "Inter-AI Morality: How AI Systems Treat One Another [pdf]",
-      "url": "https://digitalminds.cam/inter-ai-morality.pdf",
-      "canonicalUrl": "https://digitalminds.cam/inter-ai-morality.pdf",
-      "domain": "digitalminds.cam",
-      "createdAt": "2026-11-07T08:02:02.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 13,
-          "comments": 0,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50402602"
-        }
-      ],
-      "normalized": 0.039,
-      "score": 0.05
-    },
-    {
-      "id": "987d248a5128",
-      "title": "Brave Sells Its Search Index to AI, and Your Website Is Probably in It",
-      "url": "https://www.searchenginejournal.com/brave-sells-its-search-index-to-ai-and-your-website-is-probably-in-it/595829/",
-      "canonicalUrl": "https://searchenginejournal.com/brave-sells-its-search-index-to-ai-and-your-website-is-probably-in-it/595829",
-      "domain": "searchenginejournal.com",
-      "createdAt": "2026-11-07T02:59:27.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 15,
-          "comments": 4,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50401213"
-        }
-      ],
-      "normalized": 0.07,
-      "score": 0.046
+      "score": 0.028
     },
     {
       "id": "05135575d857",
@@ -228,64 +285,7 @@
         }
       ],
       "normalized": 0.256,
-      "score": 0.042
-    },
-    {
-      "id": "fd4911b90c9f",
-      "title": "Hugging Face's CEO Says His P(Doom) Is 'Close to Zero'",
-      "url": "https://www.wired.com/story/wired-world-fair-2026-clement-delangue-hugging-face/",
-      "canonicalUrl": "https://wired.com/story/wired-world-fair-2026-clement-delangue-hugging-face",
-      "domain": "wired.com",
-      "createdAt": "2026-11-06T06:06:33.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 34,
-          "comments": 19,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50388752"
-        }
-      ],
-      "normalized": 0.248,
-      "score": 0.037
-    },
-    {
-      "id": "aa77fa029126",
-      "title": "AI coding agent setups from 663 Hacker News comments",
-      "url": "https://theainewsreport.com/2026-11-06-hn-agentic-setups-counted.html",
-      "canonicalUrl": "https://theainewsreport.com/2026-11-06-hn-agentic-setups-counted.html",
-      "domain": "theainewsreport.com",
-      "createdAt": "2026-11-06T16:23:51.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 26,
-          "comments": 4,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50394444"
-        }
-      ],
-      "normalized": 0.109,
-      "score": 0.029
-    },
-    {
-      "id": "586df0c94182",
-      "title": "Show HN: Agentic Identity Broker, OAuth Delegation for AI Agents",
-      "url": "https://github.com/zalando-incubator/agentic-identity-broker",
-      "canonicalUrl": "https://github.com/zalando-incubator/agentic-identity-broker",
-      "domain": "github.com",
-      "createdAt": "2026-11-06T15:07:47.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 22,
-          "comments": 3,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50393235"
-        }
-      ],
-      "normalized": 0.085,
-      "score": 0.021
+      "score": 0.026
     }
   ]
 }
