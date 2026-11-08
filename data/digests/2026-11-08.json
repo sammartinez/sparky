@@ -1,0 +1,216 @@
+{
+  "date": "2026-11-08",
+  "generatedAt": "2026-11-08T17:26:11.725Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "7f83204997ea",
+      "title": "What can I realistically do with local AI on a Mac mini M5 Pro (48GB)?",
+      "url": "https://lobste.rs/s/umsitb/what_can_i_realistically_do_with_local_ai",
+      "canonicalUrl": "https://lobste.rs/s/umsitb/what_can_i_realistically_do_with_local_ai",
+      "domain": "lobste.rs",
+      "createdAt": "2026-11-08T17:07:51.827Z",
+      "appearances": [
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 1,
+          "comments": 0,
+          "discussionUrl": "https://lobste.rs/s/umsitb/what_can_i_realistically_do_with_local_ai"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 11.117
+    },
+    {
+      "id": "1d660dc4ea7a",
+      "title": "OpenAI raises $11B at a $1.25T valuation",
+      "url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/",
+      "canonicalUrl": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought",
+      "domain": "247wallst.com",
+      "createdAt": "2026-11-08T14:49:23.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 124,
+          "comments": 110,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50413822"
+        }
+      ],
+      "normalized": 0.642,
+      "score": 4.095
+    },
+    {
+      "id": "70c6ac8d89e2",
+      "title": "Why I will not be using LLMs in my coding",
+      "url": "https://www.polso.info/why-i-will-not-be-using-llms-coding",
+      "canonicalUrl": "https://polso.info/why-i-will-not-be-using-llms-coding",
+      "domain": "polso.info",
+      "createdAt": "2026-11-08T12:14:10.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 90,
+          "comments": 180,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50412591"
+        }
+      ],
+      "normalized": 0.506,
+      "score": 1.449
+    },
+    {
+      "id": "5e9d3fd0e59c",
+      "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+      "url": "https://github.com/synchopate/llama-modchip",
+      "canonicalUrl": "https://github.com/synchopate/llama-modchip",
+      "domain": "github.com",
+      "createdAt": "2026-11-08T10:22:04.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 189,
+          "comments": 61,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50411961"
+        }
+      ],
+      "normalized": 0.753,
+      "score": 1.423
+    },
+    {
+      "id": "6ceb8f9e3874",
+      "title": "Apple CEO Presses Software Chief to Pursue More Ambitious AI Strategy",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-11-08/apple-explores-turning-siri-ai-into-chatgpt-dots-like-agent-ios-28-shake-up",
+      "canonicalUrl": "https://bloomberg.com/news/newsletters/2026-11-08/apple-explores-turning-siri-ai-into-chatgpt-dots-like-agent-ios-28-shake-up",
+      "domain": "bloomberg.com",
+      "createdAt": "2026-11-08T15:19:51.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 29,
+          "comments": 50,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50414021"
+        }
+      ],
+      "normalized": 0.16,
+      "score": 1.263
+    },
+    {
+      "id": "e4d02fd5d90b",
+      "title": "Agent memory needs its OpenTelemetry moment",
+      "url": "https://www.lorekit.io/blog/open-agent-memory-format",
+      "canonicalUrl": "https://lorekit.io/blog/open-agent-memory-format",
+      "domain": "lorekit.io",
+      "createdAt": "2026-11-08T08:40:23.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 123,
+          "comments": 91,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50411467"
+        }
+      ],
+      "normalized": 0.63,
+      "score": 0.874
+    },
+    {
+      "id": "cac662825b6f",
+      "title": "I'm not a fan of Deno's security model (2024)",
+      "url": "https://goldstein.lol/posts/deno-security/",
+      "canonicalUrl": "https://goldstein.lol/posts/deno-security",
+      "domain": "goldstein.lol",
+      "createdAt": "2026-11-08T14:42:38.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 27,
+          "comments": 8,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50413769"
+        }
+      ],
+      "normalized": 0.111,
+      "score": 0.679
+    },
+    {
+      "id": "e66f4eeac8f3",
+      "title": "Goodbye Claude, hello Pi",
+      "url": "https://caleb.software/posts/claude-to-pi.html",
+      "canonicalUrl": "https://caleb.software/posts/claude-to-pi.html",
+      "domain": "caleb.software",
+      "createdAt": "2026-11-08T03:11:48.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 553,
+          "comments": 348,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50410107"
+        }
+      ],
+      "normalized": 0.938,
+      "score": 0.621
+    },
+    {
+      "id": "ca74880b8fcd",
+      "title": "Anthropic strikes $3.4B deal to generate gas-fired power for data centres",
+      "url": "https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0",
+      "canonicalUrl": "https://ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0",
+      "domain": "ft.com",
+      "createdAt": "2026-11-08T12:41:25.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 30,
+          "comments": 20,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50412760"
+        }
+      ],
+      "normalized": 0.185,
+      "score": 0.596
+    },
+    {
+      "id": "a45b8627609a",
+      "title": "Inter-AI Morality: How AI Systems Treat One Another [pdf]",
+      "url": "https://digitalminds.cam/inter-ai-morality.pdf",
+      "canonicalUrl": "https://digitalminds.cam/inter-ai-morality.pdf",
+      "domain": "digitalminds.cam",
+      "createdAt": "2026-11-07T08:02:02.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 13,
+          "comments": 0,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50402602"
+        }
+      ],
+      "normalized": 0.025,
+      "score": 0.004
+    },
+    {
+      "id": "437a12af215f",
+      "title": "Show HN: LLM weight editing tool made by a 15-year-old",
+      "url": "https://github.com/Miyamoto-Renya/LaplacesScissors",
+      "canonicalUrl": "https://github.com/Miyamoto-Renya/LaplacesScissors",
+      "domain": "github.com",
+      "createdAt": "2026-11-08T02:37:10.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 12,
+          "comments": 2,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50409986"
+        }
+      ],
+      "normalized": 0,
+      "score": 0
+    }
+  ]
+}
