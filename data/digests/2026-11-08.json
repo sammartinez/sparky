@@ -1,8 +1,198 @@
 {
   "date": "2026-11-08",
-  "generatedAt": "2026-11-08T17:26:11.725Z",
+  "generatedAt": "2026-11-09T04:40:40.177Z",
   "windowHours": 36,
   "stories": [
+    {
+      "id": "c2aaea20aee1",
+      "title": "The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks",
+      "url": "https://arxiv.org/abs/2611.07461",
+      "canonicalUrl": "https://arxiv.org/abs/2611.07461",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-09T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 25,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.07461"
+        }
+      ],
+      "normalized": 0.875,
+      "score": 2.869
+    },
+    {
+      "id": "e3f8cf0e7cd6",
+      "title": "Beneath the Surface: What We Overlook When We Talk About Agent Evolution",
+      "url": "https://arxiv.org/abs/2611.07624",
+      "canonicalUrl": "https://arxiv.org/abs/2611.07624",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-09T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 12,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.07624"
+        }
+      ],
+      "normalized": 0.75,
+      "score": 2.459
+    },
+    {
+      "id": "9709ee9b2939",
+      "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
+      "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+      "canonicalUrl": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+      "domain": "nvidianews.nvidia.com",
+      "createdAt": "2026-11-08T22:20:09.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 426,
+          "comments": 462,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50418016"
+        }
+      ],
+      "normalized": 0.901,
+      "score": 1.979
+    },
+    {
+      "id": "a24fdfddefa6",
+      "title": "Nvidia Board of Directors Is Investigating Jensen Huang",
+      "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+      "canonicalUrl": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+      "domain": "nvidianews.nvidia.com",
+      "createdAt": "2026-11-08T20:26:43.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 451,
+          "comments": 334,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50416801"
+        }
+      ],
+      "normalized": 0.912,
+      "score": 1.387
+    },
+    {
+      "id": "b4717b7762b7",
+      "title": "I'm not convinced the AI bubble exists",
+      "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+      "canonicalUrl": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html",
+      "domain": "matteoraso.github.io",
+      "createdAt": "2026-11-08T23:44:36.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 93,
+          "comments": 121,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50418975"
+        }
+      ],
+      "normalized": 0.44,
+      "score": 1.346
+    },
+    {
+      "id": "4d9d9e349b94",
+      "title": "Video-Coder: Reinforcing Agentic Coding for Video Generation",
+      "url": "https://arxiv.org/abs/2611.09894",
+      "canonicalUrl": "https://arxiv.org/abs/2611.09894",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-09T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 4,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.09894"
+        }
+      ],
+      "normalized": 0.375,
+      "score": 1.229
+    },
+    {
+      "id": "cc554af1af51",
+      "title": "Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription",
+      "url": "https://arxiv.org/abs/2611.06043",
+      "canonicalUrl": "https://arxiv.org/abs/2611.06043",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-09T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 4,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.06043"
+        }
+      ],
+      "normalized": 0.375,
+      "score": 1.229
+    },
+    {
+      "id": "68ff5ed661ee",
+      "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+      "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "canonicalUrl": "https://thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "domain": "thestateofai.com",
+      "createdAt": "2026-11-08T18:16:07.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 670,
+          "comments": 381,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50415628"
+        }
+      ],
+      "normalized": 0.967,
+      "score": 1.039
+    },
+    {
+      "id": "45fb196cb1bb",
+      "title": "How I Fight AI Brain Fry",
+      "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+      "canonicalUrl": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+      "domain": "sergeykuhne.com",
+      "createdAt": "2026-11-08T19:37:42.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 188,
+          "comments": 150,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50416363"
+        }
+      ],
+      "normalized": 0.725,
+      "score": 0.96
+    },
+    {
+      "id": "30d0aa07ad36",
+      "title": "Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It",
+      "url": "https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c",
+      "canonicalUrl": "https://wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c",
+      "domain": "wsj.com",
+      "createdAt": "2026-11-08T18:43:07.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 94,
+          "comments": 112,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50415817"
+        }
+      ],
+      "normalized": 0.473,
+      "score": 0.543
+    },
     {
       "id": "7f83204997ea",
       "title": "What can I realistically do with local AI on a Mac mini M5 Pro (48GB)?",
@@ -20,7 +210,7 @@
         }
       ],
       "normalized": 0.5,
-      "score": 11.117
+      "score": 0.459
     },
     {
       "id": "1d660dc4ea7a",
@@ -39,26 +229,26 @@
         }
       ],
       "normalized": 0.642,
-      "score": 4.095
+      "score": 0.444
     },
     {
-      "id": "70c6ac8d89e2",
-      "title": "Why I will not be using LLMs in my coding",
-      "url": "https://www.polso.info/why-i-will-not-be-using-llms-coding",
-      "canonicalUrl": "https://polso.info/why-i-will-not-be-using-llms-coding",
-      "domain": "polso.info",
-      "createdAt": "2026-11-08T12:14:10.000Z",
+      "id": "08a801d671a2",
+      "title": "AgentBaton: Efficient Model Collaboration in Agentic Tasks",
+      "url": "https://arxiv.org/abs/2610.35959",
+      "canonicalUrl": "https://arxiv.org/abs/2610.35959",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-09T00:00:00.000Z",
       "appearances": [
         {
-          "source": "hn",
-          "label": "HN",
-          "points": 90,
-          "comments": 180,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50412591"
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 3,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.35959"
         }
       ],
-      "normalized": 0.506,
-      "score": 1.449
+      "normalized": 0.125,
+      "score": 0.41
     },
     {
       "id": "5e9d3fd0e59c",
@@ -77,140 +267,26 @@
         }
       ],
       "normalized": 0.753,
-      "score": 1.423
+      "score": 0.333
     },
     {
-      "id": "6ceb8f9e3874",
-      "title": "Apple CEO Presses Software Chief to Pursue More Ambitious AI Strategy",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-11-08/apple-explores-turning-siri-ai-into-chatgpt-dots-like-agent-ios-28-shake-up",
-      "canonicalUrl": "https://bloomberg.com/news/newsletters/2026-11-08/apple-explores-turning-siri-ai-into-chatgpt-dots-like-agent-ios-28-shake-up",
+      "id": "c7e8d57f42aa",
+      "title": "Nvidia Board to Probe Spying Case After CEO Admits Affair",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-08/nvidia-board-to-probe-spying-case-after-ceo-jensen-huang-admits-infidelity",
+      "canonicalUrl": "https://bloomberg.com/news/articles/2026-11-08/nvidia-board-to-probe-spying-case-after-ceo-jensen-huang-admits-infidelity",
       "domain": "bloomberg.com",
-      "createdAt": "2026-11-08T15:19:51.000Z",
+      "createdAt": "2026-11-08T20:14:16.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 29,
-          "comments": 50,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50414021"
+          "points": 41,
+          "comments": 12,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50416679"
         }
       ],
-      "normalized": 0.16,
-      "score": 1.263
-    },
-    {
-      "id": "e4d02fd5d90b",
-      "title": "Agent memory needs its OpenTelemetry moment",
-      "url": "https://www.lorekit.io/blog/open-agent-memory-format",
-      "canonicalUrl": "https://lorekit.io/blog/open-agent-memory-format",
-      "domain": "lorekit.io",
-      "createdAt": "2026-11-08T08:40:23.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 123,
-          "comments": 91,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50411467"
-        }
-      ],
-      "normalized": 0.63,
-      "score": 0.874
-    },
-    {
-      "id": "cac662825b6f",
-      "title": "I'm not a fan of Deno's security model (2024)",
-      "url": "https://goldstein.lol/posts/deno-security/",
-      "canonicalUrl": "https://goldstein.lol/posts/deno-security",
-      "domain": "goldstein.lol",
-      "createdAt": "2026-11-08T14:42:38.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 27,
-          "comments": 8,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50413769"
-        }
-      ],
-      "normalized": 0.111,
-      "score": 0.679
-    },
-    {
-      "id": "e66f4eeac8f3",
-      "title": "Goodbye Claude, hello Pi",
-      "url": "https://caleb.software/posts/claude-to-pi.html",
-      "canonicalUrl": "https://caleb.software/posts/claude-to-pi.html",
-      "domain": "caleb.software",
-      "createdAt": "2026-11-08T03:11:48.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 553,
-          "comments": 348,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50410107"
-        }
-      ],
-      "normalized": 0.938,
-      "score": 0.621
-    },
-    {
-      "id": "ca74880b8fcd",
-      "title": "Anthropic strikes $3.4B deal to generate gas-fired power for data centres",
-      "url": "https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0",
-      "canonicalUrl": "https://ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0",
-      "domain": "ft.com",
-      "createdAt": "2026-11-08T12:41:25.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 30,
-          "comments": 20,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50412760"
-        }
-      ],
-      "normalized": 0.185,
-      "score": 0.596
-    },
-    {
-      "id": "a45b8627609a",
-      "title": "Inter-AI Morality: How AI Systems Treat One Another [pdf]",
-      "url": "https://digitalminds.cam/inter-ai-morality.pdf",
-      "canonicalUrl": "https://digitalminds.cam/inter-ai-morality.pdf",
-      "domain": "digitalminds.cam",
-      "createdAt": "2026-11-07T08:02:02.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 13,
-          "comments": 0,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50402602"
-        }
-      ],
-      "normalized": 0.025,
-      "score": 0.004
-    },
-    {
-      "id": "437a12af215f",
-      "title": "Show HN: LLM weight editing tool made by a 15-year-old",
-      "url": "https://github.com/Miyamoto-Renya/LaplacesScissors",
-      "canonicalUrl": "https://github.com/Miyamoto-Renya/LaplacesScissors",
-      "domain": "github.com",
-      "createdAt": "2026-11-08T02:37:10.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 12,
-          "comments": 2,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50409986"
-        }
-      ],
-      "normalized": 0,
-      "score": 0
+      "normalized": 0.22,
+      "score": 0.322
     }
   ]
 }
