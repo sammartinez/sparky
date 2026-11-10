@@ -50,8 +50,8 @@ test("merges the same URL seen on different sources", () => {
   const out = rank([
     item({ url: "https://a.com/1?utm_source=hn" }),
     item({
-      source: "reddit",
-      label: "r/LocalLLaMA",
+      source: "lobsters",
+      label: "Lobsters",
       url: "https://www.a.com/1",
     }),
     item({ url: "https://b.com/2", title: "unrelated story" }),
@@ -67,8 +67,8 @@ test("merges near-identical titles across outlets", () => {
       url: "https://verge.com/a",
     }),
     item({
-      source: "reddit",
-      label: "r/OpenAI",
+      source: "lobsters",
+      label: "Lobsters",
       title: "OpenAI Releases GPT-6 to All Users Today",
       url: "https://techcrunch.com/b",
     }),
@@ -98,8 +98,8 @@ test("cross-source corroboration beats a lone higher score", () => {
       points: 140,
     }),
     item({
-      source: "reddit",
-      label: "r/ML",
+      source: "lobsters",
+      label: "Lobsters",
       url: "https://both.com/y",
       title: "corroborated story",
       points: 140,

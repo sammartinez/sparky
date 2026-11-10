@@ -1,0 +1,46 @@
+---
+/** The domain · source badges · corroboration · age row under a story title. */
+interface Props {
+  url: string;
+  domain: string;
+  age: string;
+  badges: { label: string; points: number | null; discussionUrl?: string }[];
+  /** Tighter spacing for the compact "Also today" rows. */
+  compact?: boolean;
+  class?: string;
+}
+
+const { url, domain, age, badges, compact = false, class: className = "" } = Astro.props;
+---
+
+<div
+  class={`flex flex-wrap items-center gap-x-2 font-mono ${
+    compact ? "gap-y-1.5 text-[0.64rem]" : "gap-y-2 text-[0.66rem]"
+  } ${className}`}
+>
+  <span class="text-muted">{domain}</span>
+  {
+    badges.map((a) => (
+      <a
+        href={a.discussionUrl ?? url}
+        target="_blank"
+        rel="noopener noreferrer"
+        class={`border-rule text-muted hover:border-accent hover:text-accent inline-flex items-center border px-1.5 py-0.5 no-underline transition-colors ${
+          compact ? "gap-1" : "gap-1.5"
+        }`}
+      >
+        <span>{a.label}</span>
+        {a.points !== null && <span class="tabular-nums opacity-70">{a.points}</span>}
+        <span class="sr-only">(opens in new tab)</span>
+      </a>
+    ))
+  }
+  {
+    badges.length > 1 && (
+      <span class="text-accent2" title="Picked up by more than one community">
+        ×{badges.length} sources
+      </span>
+    )
+  }
+  <span class="text-muted ml-auto">{age}</span>
+</div>

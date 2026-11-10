@@ -60,7 +60,7 @@ test("multiple appearances show the corroboration count", async () => {
     baseProps({
       appearances: [
         { source: "hn", label: "HN", points: 150, comments: 40 },
-        { source: "reddit", label: "r/ML", points: 80, comments: 12 },
+        { source: "lobsters", label: "Lobsters", points: 80, comments: 12 },
       ],
     }),
   );

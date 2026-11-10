@@ -71,9 +71,19 @@ async function hn(): Promise<RawItem[]> {
   ];
 
   const items: RawItem[] = [];
-  for (const endpoint of endpoints) {
-    const data = await getJSON(endpoint);
-    for (const hit of data.hits ?? []) {
+  // One failed query shouldn't discard the others; only give up if all do.
+  const pages = await Promise.allSettled(endpoints.map(getJSON));
+  if (pages.every((p) => p.status === "rejected")) throw pages[0].reason;
+  for (const page of pages) {
+    if (page.status === "rejected") {
+      console.warn(
+        chalk.yellow(
+          `    HN query failed: ${page.reason?.message ?? page.reason}`,
+        ),
+      );
+      continue;
+    }
+    for (const hit of page.value.hits ?? []) {
       const discussionUrl = `https://news.ycombinator.com/item?id=${hit.objectID}`;
       // Ask HN / Show HN text posts have no external URL; point at the thread.
       const url = hit.url || discussionUrl;
@@ -201,10 +211,11 @@ async function feeds(): Promise<RawItem[]> {
         });
       }
 
-      // Atom
+      // Atom. Prefer `published`: `updated` moves on every edit, which would
+      // resurface an old post as if it were new.
       for (const entry of asArray(xml?.feed?.entry)) {
         const createdAt = new Date(
-          entry.updated ?? entry.published ?? 0,
+          entry.published ?? entry.updated ?? 0,
         ).getTime();
         if (!createdAt || createdAt < SINCE_MS) continue;
         const link = asArray(entry.link).find(
