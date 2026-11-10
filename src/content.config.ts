@@ -5,7 +5,7 @@ import { z } from "astro/zod";
 // Each morning's run commits one JSON file here, so the archive is just the
 // git history made browsable. Entry ids come from the filename: "2026-08-20".
 const appearance = z.object({
-  source: z.enum(["hn", "reddit", "lobsters", "hf", "rss"]),
+  source: z.enum(["hn", "lobsters", "hf", "rss"]),
   label: z.string(),
   points: z.number().nullable(),
   comments: z.number().nullable(),

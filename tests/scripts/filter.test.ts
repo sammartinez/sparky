@@ -38,3 +38,23 @@ test("prefilter preserves the incoming order", () => {
   const out = prefilter([story("AI one"), story("AI two"), story("AI three")]);
   expect(out.map((s) => s.title)).toEqual(["AI one", "AI two", "AI three"]);
 });
+
+test("prefilter matches plurals and inflected forms", () => {
+  const titles = [
+    "Fine-tuning small models",
+    "Coding agents in production",
+    "Scaling laws for GPUs",
+    "Transformers explained",
+    "Chatbots and kids",
+    "Prompting tricks",
+    "The A.I. hype cycle",
+    "New embeddings benchmarks",
+  ];
+  expect(prefilter(titles.map((t) => story(t))).map((s) => s.title)).toEqual(
+    titles,
+  );
+});
+
+test("prefilter does not match words that merely start with a hint", () => {
+  expect(prefilter([story("Raging debate over aid budgets")]).length).toBe(0);
+});

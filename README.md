@@ -68,9 +68,9 @@ story through rather than missing a release; the regex lives at the top of
 `scripts/filter.ts` if you want to tighten it. There is no LLM in the loop, so
 the whole pipeline runs with no keys and no spend.
 
-**Repeats are suppressed** for five days. Every run re-reads the last five
-digest files and stamps their story ids into `data/seen.json`, so a skipped run
-can't let a story from two days ago resurface.
+**Repeats are suppressed** for five days. Every run reads the story ids
+straight out of the last five digest files, so a skipped run can't let a story
+from two days ago resurface, and there's no separate state file to drift.
 
 **Second runs age the morning forward.** The evening run re-applies gravity to
 the stories already in today's brief before merging in new candidates, so the
@@ -145,7 +145,6 @@ scripts/
   build-digest.ts   orchestrator; writes the day's JSON
 data/
   digests/          one JSON file per morning — this is the archive
-  seen.json         rolling repeat-suppression memory
 src/
   content.config.ts collection over data/digests
   pages/            index, archive, [date], rss.xml

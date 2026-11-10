@@ -124,7 +124,7 @@ function jaccard(a: Set<string>, b: Set<string>): number {
 }
 
 // ---------------------------------------------------------------------------
-// Per-source normalization. 400 HN points and 400 Reddit upvotes are not the
+// Per-source normalization. 400 HN points and 40 Lobsters upvotes are not the
 // same thing, so score each item against its own source's distribution in
 // this batch rather than against a global scale.
 // ---------------------------------------------------------------------------
@@ -200,7 +200,7 @@ export function rank(items: RawItem[]): Story[] {
     if (existing) {
       existing.title = bestTitle(existing.title, item.title);
       existing.createdAt = Math.min(existing.createdAt, item.createdAt);
-      // Same source twice (e.g. two subreddits) counts once for corroboration
+      // Same source twice (e.g. two Lobsters tags) counts once for corroboration
       // but keeps the higher-traction appearance.
       const dupe = existing.appearances.find((a) => a.label === item.label);
       if (dupe) {

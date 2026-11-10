@@ -15,7 +15,7 @@ export async function allDigests(): Promise<DigestEntry[]> {
   return entries.sort((a, b) => b.id.localeCompare(a.id));
 }
 
-const SOURCE_ORDER = ["hn", "reddit", "lobsters", "hf", "rss"];
+const SOURCE_ORDER = ["hn", "lobsters", "hf", "rss"];
 
 /** Sort appearances so the badge order is stable across stories. */
 export function orderedAppearances<T extends { source: string }>(

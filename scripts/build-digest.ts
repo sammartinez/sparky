@@ -6,16 +6,12 @@ import { rank, redecay } from "./rank.ts";
 import { prefilter } from "./filter.ts";
 import type { Digest } from "./types.ts";
 
-const DATA_DIR = "data";
-const DIGEST_DIR = join(DATA_DIR, "digests");
-const SEEN_PATH = join(DATA_DIR, "seen.json");
+const DIGEST_DIR = join("data", "digests");
 
 /** Stories to keep in the published brief. */
 const KEEP = Number(process.env.BRIEF_SIZE ?? 15);
 /** Days a story stays suppressed after it has been featured. */
 const SEEN_DAYS = Number(process.env.SEEN_DAYS ?? 5);
-
-type Seen = Record<string, string>; // story id -> ISO date it ran
 
 /** Today in the brief's own timezone, not the runner's UTC. */
 function briefDate(): string {
@@ -38,42 +34,29 @@ async function loadDigest(date: string): Promise<Digest | null> {
   }
 }
 
-async function loadSeen(): Promise<Seen> {
-  try {
-    return JSON.parse(await readFile(SEEN_PATH, "utf8")) as Seen;
-  } catch {
-    return {};
-  }
-}
-
-function pruneSeen(seen: Seen): Seen {
-  const cutoff = Date.now() - SEEN_DAYS * 86_400_000;
-  return Object.fromEntries(
-    Object.entries(seen).filter(([, iso]) => new Date(iso).getTime() >= cutoff),
-  );
-}
-
 /**
- * Stamp every story from the last SEEN_DAYS of published briefs, keyed by the
- * date it ran. Reading the digest files rather than just yesterday's means a
- * skipped or failed run can't let a story from two days ago resurface.
+ * Ids of every story featured in the last SEEN_DAYS of published briefs.
+ * Derived from the digest files themselves, so a skipped or failed run can't
+ * let a story from two days ago resurface, and there is no separate state
+ * file to drift out of sync with the archive.
  */
-async function markRecentlyFeatured(seen: Seen, today: string): Promise<void> {
+async function recentlyFeatured(today: string): Promise<Set<string>> {
   const cutoff = Date.now() - SEEN_DAYS * 86_400_000;
+  const ids = new Set<string>();
   let files: string[];
   try {
     files = await readdir(DIGEST_DIR);
   } catch {
-    return;
+    return ids;
   }
   for (const file of files) {
     const date = file.match(/^(\d{4}-\d{2}-\d{2})\.json$/)?.[1];
     if (!date || date >= today) continue;
-    const ranAt = `${date}T00:00:00.000Z`;
-    if (new Date(ranAt).getTime() < cutoff) continue;
+    if (new Date(`${date}T00:00:00.000Z`).getTime() < cutoff) continue;
     const digest = await loadDigest(date);
-    for (const story of digest?.stories ?? []) seen[story.id] = ranAt;
+    for (const story of digest?.stories ?? []) ids.add(story.id);
   }
+  return ids;
 }
 
 async function main() {
@@ -109,13 +92,14 @@ async function main() {
   const ranked = rank(raw);
   console.log(chalk.dim(`${ranked.length} after dedupe`));
 
-  const seen = pruneSeen(await loadSeen());
-  await markRecentlyFeatured(seen, date);
+  const seen = await recentlyFeatured(date);
 
   // Exclude stories already sitting in today's brief so a second run only
   // brings in what's genuinely new, not a re-scored copy of the same story.
   const alreadyToday = new Set((existing?.stories ?? []).map((s) => s.id));
-  const fresh = ranked.filter((s) => !seen[s.id] && !alreadyToday.has(s.id));
+  const fresh = ranked.filter(
+    (s) => !seen.has(s.id) && !alreadyToday.has(s.id),
+  );
   console.log(
     chalk.dim(
       `${fresh.length} new since the last run, not featured in the last ${SEEN_DAYS} days`,
@@ -171,7 +155,6 @@ async function main() {
     join(DIGEST_DIR, `${date}.json`),
     JSON.stringify(digest, null, 2) + "\n",
   );
-  await writeFile(SEEN_PATH, JSON.stringify(seen, null, 2) + "\n");
 
   for (const [i, s] of stories.entries()) {
     const where = s.appearances.map((a) => a.label).join(", ");

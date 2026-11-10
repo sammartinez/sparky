@@ -71,8 +71,8 @@ async function hn(): Promise<RawItem[]> {
   ];
 
   const items: RawItem[] = [];
-  for (const endpoint of endpoints) {
-    const data = await getJSON(endpoint);
+  const pages = await Promise.all(endpoints.map(getJSON));
+  for (const data of pages) {
     for (const hit of data.hits ?? []) {
       const discussionUrl = `https://news.ycombinator.com/item?id=${hit.objectID}`;
       // Ask HN / Show HN text posts have no external URL; point at the thread.
@@ -201,10 +201,11 @@ async function feeds(): Promise<RawItem[]> {
         });
       }
 
-      // Atom
+      // Atom. Prefer `published`: `updated` moves on every edit, which would
+      // resurface an old post as if it were new.
       for (const entry of asArray(xml?.feed?.entry)) {
         const createdAt = new Date(
-          entry.updated ?? entry.published ?? 0,
+          entry.published ?? entry.updated ?? 0,
         ).getTime();
         if (!createdAt || createdAt < SINCE_MS) continue;
         const link = asArray(entry.link).find(

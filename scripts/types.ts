@@ -2,12 +2,12 @@
 // Kept to interfaces and type aliases only: these files run under Node's
 // native type stripping, which does not support enums or namespaces.
 
-export type SourceId = "hn" | "reddit" | "lobsters" | "hf" | "rss";
+export type SourceId = "hn" | "lobsters" | "hf" | "rss";
 
 /** One story as it came back from a single source, before any merging. */
 export interface RawItem {
   source: SourceId;
-  /** Human label for the badge: "HN", "r/LocalLLaMA", "Lobsters", "HF Papers", or the feed name. */
+  /** Human label for the badge: "HN", "Lobsters", "HF Papers", or the feed name. */
   label: string;
   title: string;
   url: string;
