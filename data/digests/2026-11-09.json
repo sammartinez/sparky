@@ -1,26 +1,81 @@
 {
   "date": "2026-11-09",
-  "generatedAt": "2026-11-09T21:47:17.973Z",
+  "generatedAt": "2026-11-10T05:56:39.127Z",
   "windowHours": 36,
   "stories": [
     {
-      "id": "255b56db4a4a",
-      "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
-      "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
-      "canonicalUrl": "https://artificialanalysis.ai/models/claude-fable-5-2",
-      "domain": "artificialanalysis.ai",
-      "createdAt": "2026-11-09T20:04:55.000Z",
+      "id": "6f6fff482120",
+      "title": "Quoting Prompting Claude Fable 5.2",
+      "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
+      "canonicalUrl": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52",
+      "domain": "simonwillison.net",
+      "createdAt": "2026-11-10T05:34:14.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Simon Willison",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 10.549
+    },
+    {
+      "id": "458bb1a34baf",
+      "title": "CoreWeave bond yield tops 16% as AI credit stress rises",
+      "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+      "canonicalUrl": "https://cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+      "domain": "cnbc.com",
+      "createdAt": "2026-11-10T03:20:06.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 92,
-          "comments": 51,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50431144"
+          "points": 74,
+          "comments": 32,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50435660"
         }
       ],
-      "normalized": 0.477,
-      "score": 4.512
+      "normalized": 0.381,
+      "score": 2.434
+    },
+    {
+      "id": "ac841c16ab1a",
+      "title": "llm-anthropic 0.31",
+      "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+      "canonicalUrl": "https://simonwillison.net/2026/Nov/9/llm-anthropic",
+      "domain": "simonwillison.net",
+      "createdAt": "2026-11-09T23:58:46.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Simon Willison",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 1.194
+    },
+    {
+      "id": "5d3327229121",
+      "title": "A year after the 100% AI mandate nobody understands our code",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1xq2n3t/a_year_after_the_100_ai_mandate_nobody/",
+      "canonicalUrl": "https://reddit.com/r/ClaudeCode/comments/1xq2n3t/a_year_after_the_100_ai_mandate_nobody",
+      "domain": "reddit.com",
+      "createdAt": "2026-11-09T22:19:12.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 119,
+          "comments": 152,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50433079"
+        }
+      ],
+      "normalized": 0.563,
+      "score": 0.957
     },
     {
       "id": "feb2ba211559",
@@ -39,25 +94,45 @@
         }
       ],
       "normalized": 0.715,
-      "score": 3.014
+      "score": 0.622
     },
     {
-      "id": "9c331579e229",
-      "title": "ChatGPT Enterprise now available in AWS Marketplace",
-      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
-      "canonicalUrl": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
-      "domain": "openai.com",
-      "createdAt": "2026-11-09T19:00:00.000Z",
+      "id": "795e305f5dca",
+      "title": "Flide: Accelerating Decision Inference with Exact State Forking",
+      "url": "https://arxiv.org/abs/2610.42148",
+      "canonicalUrl": "https://arxiv.org/abs/2610.42148",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-10T00:00:00.000Z",
       "appearances": [
         {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 4,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2610.42148"
         }
       ],
-      "normalized": 0.5,
-      "score": 2.983
+      "normalized": 0.25,
+      "score": 0.6
+    },
+    {
+      "id": "255b56db4a4a",
+      "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+      "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
+      "canonicalUrl": "https://artificialanalysis.ai/models/claude-fable-5-2",
+      "domain": "artificialanalysis.ai",
+      "createdAt": "2026-11-09T20:04:55.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 92,
+          "comments": 51,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50431144"
+        }
+      ],
+      "normalized": 0.477,
+      "score": 0.556
     },
     {
       "id": "1b18e8c9acf7",
@@ -76,7 +151,25 @@
         }
       ],
       "normalized": 0.569,
-      "score": 2.756
+      "score": 0.523
+    },
+    {
+      "id": "9c331579e229",
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "canonicalUrl": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "domain": "openai.com",
+      "createdAt": "2026-11-09T19:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.498
     },
     {
       "id": "913ed88b2f74",
@@ -95,7 +188,45 @@
         }
       ],
       "normalized": 0.531,
-      "score": 2.709
+      "score": 0.498
+    },
+    {
+      "id": "586d37dc5945",
+      "title": "Show HN: STE80 Humanizer – de-AI text by writing 80% of the way to ASD-STE100",
+      "url": "https://github.com/Dodaios/ste80-humanizer",
+      "canonicalUrl": "https://github.com/Dodaios/ste80-humanizer",
+      "domain": "github.com",
+      "createdAt": "2026-11-09T18:05:44.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 77,
+          "comments": 22,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50429144"
+        }
+      ],
+      "normalized": 0.421,
+      "score": 0.371
+    },
+    {
+      "id": "ed213adeba37",
+      "title": "TPU 8tx and TPU 8i Max",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+      "canonicalUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx",
+      "domain": "blog.google",
+      "createdAt": "2026-11-09T13:02:50.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 239,
+          "comments": 72,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50432831"
+        }
+      ],
+      "normalized": 0.698,
+      "score": 0.352
     },
     {
       "id": "057e22ab69c0",
@@ -113,25 +244,7 @@
         }
       ],
       "normalized": 0.5,
-      "score": 1.02
-    },
-    {
-      "id": "7b1451fc786c",
-      "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
-      "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
-      "canonicalUrl": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
-      "domain": "huggingface.co",
-      "createdAt": "2026-11-09T12:34:29.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "Hugging Face",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 0.645
+      "score": 0.31
     },
     {
       "id": "8ceada5f9502",
@@ -150,53 +263,15 @@
         }
       ],
       "normalized": 0.746,
-      "score": 0.538
+      "score": 0.251
     },
     {
-      "id": "5aa2811f45ce",
-      "title": "6 Hours of YouTube and 85 handtyped pages of notes on LLM Inference – Start here",
-      "url": "https://github.com/samir-sarwar/samir-vllm",
-      "canonicalUrl": "https://github.com/samir-sarwar/samir-vllm",
-      "domain": "github.com",
-      "createdAt": "2026-11-09T11:36:55.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 71,
-          "comments": 12,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50424199"
-        }
-      ],
-      "normalized": 0.392,
-      "score": 0.436
-    },
-    {
-      "id": "6c999d4d92eb",
-      "title": "Claude Fable 5.2",
-      "url": "https://twitter.com/claudeai/status/2119867114450268322",
-      "canonicalUrl": "https://twitter.com/claudeai/status/2119867114450268322",
-      "domain": "twitter.com",
-      "createdAt": "2026-11-09T18:56:29.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 26,
-          "comments": 6,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50429947"
-        }
-      ],
-      "normalized": 0.069,
-      "score": 0.404
-    },
-    {
-      "id": "932fe34bad72",
-      "title": "Kuken Industries searches 70 years of drawings in minutes",
-      "url": "https://openai.com/index/kuken",
-      "canonicalUrl": "https://openai.com/index/kuken",
+      "id": "f37b680abcf7",
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "url": "https://openai.com/index/control-room",
+      "canonicalUrl": "https://openai.com/index/control-room",
       "domain": "openai.com",
-      "createdAt": "2026-11-09T08:00:00.000Z",
+      "createdAt": "2026-11-09T13:00:00.000Z",
       "appearances": [
         {
           "source": "rss",
@@ -206,83 +281,7 @@
         }
       ],
       "normalized": 0.5,
-      "score": 0.348
-    },
-    {
-      "id": "7595d48fd8a6",
-      "title": "Sleep wearables are training AI on your brainwaves without explicit consent",
-      "url": "https://www.tomshardware.com/peripherals/wearable-tech/wearable-sleep-trackers-are-using-your-brainwaves-to-train-ai-models-without-explicit-user-consent-tens-of-millions-of-hours-of-eeg-data-harvested",
-      "canonicalUrl": "https://tomshardware.com/peripherals/wearable-tech/wearable-sleep-trackers-are-using-your-brainwaves-to-train-ai-models-without-explicit-user-consent-tens-of-millions-of-hours-of-eeg-data-harvested",
-      "domain": "tomshardware.com",
-      "createdAt": "2026-11-09T18:29:41.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 20,
-          "comments": 1,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50429502"
-        }
-      ],
-      "normalized": 0.062,
-      "score": 0.306
-    },
-    {
-      "id": "8b5d7ade5adf",
-      "title": "Apple capped engineers at a $200 daily AI budget",
-      "url": "https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget",
-      "canonicalUrl": "https://stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget",
-      "domain": "stork.ai",
-      "createdAt": "2026-11-09T05:30:11.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 109,
-          "comments": 120,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50421426"
-        }
-      ],
-      "normalized": 0.538,
-      "score": 0.288
-    },
-    {
-      "id": "0a1bc44ff9c4",
-      "title": "LongBanana: An Expert-Verified Benchmark for Long-Context Multi-Reference Image Synthesis",
-      "url": "https://arxiv.org/abs/2611.06856",
-      "canonicalUrl": "https://arxiv.org/abs/2611.06856",
-      "domain": "arxiv.org",
-      "createdAt": "2026-11-09T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 25,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2611.06856"
-        }
-      ],
-      "normalized": 0.839,
-      "score": 0.279
-    },
-    {
-      "id": "296c4d843877",
-      "title": "PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?",
-      "url": "https://arxiv.org/abs/2611.08175",
-      "canonicalUrl": "https://arxiv.org/abs/2611.08175",
-      "domain": "arxiv.org",
-      "createdAt": "2026-11-09T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 22,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2611.08175"
-        }
-      ],
-      "normalized": 0.71,
-      "score": 0.236
+      "score": 0.251
     }
   ]
 }
