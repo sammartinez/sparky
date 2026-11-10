@@ -49,6 +49,8 @@ test("prefilter matches plurals and inflected forms", () => {
     "Prompting tricks",
     "The A.I. hype cycle",
     "New embeddings benchmarks",
+    "ChatGPT gets a memory upgrade",
+    "Robot comment classifier",
   ];
   expect(prefilter(titles.map((t) => story(t))).map((s) => s.title)).toEqual(
     titles,
