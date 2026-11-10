@@ -45,8 +45,11 @@ body {
   line-height: 1.55;
 }
 
-a {
-  color: inherit;
+/* Layered so Tailwind's text-* and hover:text-* utilities on links win. */
+@layer base {
+  a {
+    color: inherit;
+  }
 }
 
 :focus-visible {
