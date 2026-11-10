@@ -1,0 +1,307 @@
+{
+  "date": "2026-11-10",
+  "generatedAt": "2026-11-10T19:07:16.777Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "c84c4781904a",
+      "title": "Thoughts on AI Coding",
+      "url": "https://danielbmarkham.com/blog/thoughts-on-ai-coding",
+      "canonicalUrl": "https://danielbmarkham.com/blog/thoughts-on-ai-coding",
+      "domain": "danielbmarkham.com",
+      "createdAt": "2026-11-10T18:27:33.347Z",
+      "appearances": [
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 1,
+          "comments": 0,
+          "discussionUrl": "https://lobste.rs/s/y4djcr/thoughts_on_ai_coding"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 8.582
+    },
+    {
+      "id": "a525fa830b85",
+      "title": "Gemini 4 Carbon is now available",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "canonicalUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available",
+      "domain": "blog.google",
+      "createdAt": "2026-11-10T16:03:47.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 236,
+          "comments": 126,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50442303"
+        },
+        {
+          "source": "rss",
+          "label": "Google DeepMind",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.788,
+      "score": 6.389
+    },
+    {
+      "id": "5175b6a2b765",
+      "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance",
+      "canonicalUrl": "https://github.com/GoogleChrome/modern-web-guidance",
+      "domain": "github.com",
+      "createdAt": "2026-11-10T18:01:15.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 38,
+          "comments": 8,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50443812"
+        }
+      ],
+      "normalized": 0.258,
+      "score": 3.369
+    },
+    {
+      "id": "f8c1a7370c13",
+      "title": "AlphaProof Code",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "canonicalUrl": "https://deepmind.google/blog/introducing-alphaproof-code",
+      "domain": "deepmind.google",
+      "createdAt": "2026-11-10T12:02:28.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 484,
+          "comments": 158,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50439193"
+        },
+        {
+          "source": "rss",
+          "label": "Google DeepMind",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.934,
+      "score": 2.641
+    },
+    {
+      "id": "534e23320d33",
+      "title": "AI usage generates a fragile codebase",
+      "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+      "canonicalUrl": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase",
+      "domain": "evanxmerz.com",
+      "createdAt": "2026-11-10T10:25:58.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 180,
+          "comments": 239,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50438318"
+        }
+      ],
+      "normalized": 0.722,
+      "score": 1.015
+    },
+    {
+      "id": "46ecb159c153",
+      "title": "Helping caregivers use AI in everyday life",
+      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "canonicalUrl": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "domain": "openai.com",
+      "createdAt": "2026-11-10T12:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.935
+    },
+    {
+      "id": "a27532638c55",
+      "title": "Anthropic to Seek $1.3T Valuation in IPO",
+      "url": "https://www.wsj.com/finance/stocks/anthropic-to-seek-1-3-trillion-valuation-in-ipo-8337b669",
+      "canonicalUrl": "https://wsj.com/finance/stocks/anthropic-to-seek-1-3-trillion-valuation-in-ipo-8337b669",
+      "domain": "wsj.com",
+      "createdAt": "2026-11-10T12:49:32.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 54,
+          "comments": 73,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50439616"
+        }
+      ],
+      "normalized": 0.344,
+      "score": 0.764
+    },
+    {
+      "id": "5ca4dc7b6d88",
+      "title": "Introducing Businesses in ChatGPT",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt",
+      "canonicalUrl": "https://openai.com/index/introducing-businesses-chatgpt",
+      "domain": "openai.com",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.654
+    },
+    {
+      "id": "3588ceed4155",
+      "title": "Work at the Frontier: AI's effect on freelance work",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work",
+      "canonicalUrl": "https://openai.com/index/ai-effect-on-freelance-work",
+      "domain": "openai.com",
+      "createdAt": "2026-11-10T07:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 16,
+          "comments": 7,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50443838"
+        },
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.639
+    },
+    {
+      "id": "92c045a21b6a",
+      "title": "Meet the Sad Wives of AI",
+      "url": "https://www.wired.com/story/meet-the-sad-wives-of-ai/",
+      "canonicalUrl": "https://wired.com/story/meet-the-sad-wives-of-ai",
+      "domain": "wired.com",
+      "createdAt": "2026-11-10T10:40:51.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 73,
+          "comments": 64,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50438429"
+        }
+      ],
+      "normalized": 0.424,
+      "score": 0.622
+    },
+    {
+      "id": "8443aece1f92",
+      "title": "Compress any LLM 3x in one click,near-lossless,in under 50 MB RAM",
+      "url": "https://neuracryption.com/research",
+      "canonicalUrl": "https://neuracryption.com/research",
+      "domain": "neuracryption.com",
+      "createdAt": "2026-11-10T13:51:51.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 34,
+          "comments": 33,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50440359"
+        }
+      ],
+      "normalized": 0.205,
+      "score": 0.579
+    },
+    {
+      "id": "5427c369cf5d",
+      "title": "Fireworks AI security breach impacts Notion and their customers",
+      "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+      "canonicalUrl": "https://notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+      "domain": "notion.com",
+      "createdAt": "2026-11-10T07:19:38.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 147,
+          "comments": 55,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50437106"
+        }
+      ],
+      "normalized": 0.649,
+      "score": 0.577
+    },
+    {
+      "id": "01a8528fa117",
+      "title": "Closing the AI guidance gap in education",
+      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "canonicalUrl": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "domain": "openai.com",
+      "createdAt": "2026-11-10T09:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.561
+    },
+    {
+      "id": "320f21650d87",
+      "title": "Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning",
+      "url": "https://arxiv.org/abs/2611.12886",
+      "canonicalUrl": "https://arxiv.org/abs/2611.12886",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 37,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.12886"
+        }
+      ],
+      "normalized": 0.879,
+      "score": 0.363
+    },
+    {
+      "id": "975bc5cf9a47",
+      "title": "Wake me up when AI can...",
+      "url": "https://stoppels.ch/2026/10/03/wake-me-up-when-ai-can.html",
+      "canonicalUrl": "https://stoppels.ch/2026/10/03/wake-me-up-when-ai-can.html",
+      "domain": "stoppels.ch",
+      "createdAt": "2026-11-10T14:11:54.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 26,
+          "comments": 9,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50440657"
+        }
+      ],
+      "normalized": 0.099,
+      "score": 0.305
+    }
+  ]
+}
