@@ -1,4 +1,6 @@
 ---
+import { OPENS_IN_NEW_TAB } from "../constants";
+
 /** The domain · source badges · corroboration · age row under a story title. */
 interface Props {
   url: string;
@@ -14,8 +16,8 @@ const { url, domain, age, badges, compact = false, class: className = "" } = Ast
 ---
 
 <div
-  class={`flex flex-wrap items-center gap-x-2 font-mono ${
-    compact ? "gap-y-1.5 text-[0.64rem]" : "gap-y-2 text-[0.66rem]"
+  class={`flex flex-wrap items-center gap-x-2 font-mono text-xs ${
+    compact ? "gap-y-1.5" : "gap-y-2"
   } ${className}`}
 >
   <span class="text-muted">{domain}</span>
@@ -25,13 +27,13 @@ const { url, domain, age, badges, compact = false, class: className = "" } = Ast
         href={a.discussionUrl ?? url}
         target="_blank"
         rel="noopener noreferrer"
-        class={`border-rule text-muted hover:border-accent hover:text-accent inline-flex items-center border px-1.5 py-0.5 no-underline transition-colors ${
+        class={`border-rule text-muted hover:border-accent hover:text-accent inline-flex min-h-6 items-center border px-1.5 py-0.5 no-underline transition-colors ${
           compact ? "gap-1" : "gap-1.5"
         }`}
       >
         <span>{a.label}</span>
-        {a.points !== null && <span class="tabular-nums opacity-70">{a.points}</span>}
-        <span class="sr-only">(opens in new tab)</span>
+        {a.points !== null && <span class="tabular-nums">{a.points}</span>}
+        <span class="sr-only">{OPENS_IN_NEW_TAB}</span>
       </a>
     ))
   }

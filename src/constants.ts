@@ -15,6 +15,7 @@ export const HEADING_NO_BRIEF = "No brief yet";
 export const ALSO_TODAY_HEADING = "Also today";
 
 // Story card
+export const OPENS_IN_NEW_TAB = "(opens in new tab)";
 
 // Navigation
 
