@@ -2,23 +2,10 @@ import { test, expect } from "vitest";
 import { experimental_AstroContainer as AstroContainer } from "astro/container";
 import StoryCard from "../../src/components/StoryCard.astro";
 import { classesOfParentOf, elements } from "../support/html";
-
-const NOW = new Date("2026-01-15T12:00:00.000Z").getTime();
-const DOMAIN = "example.com";
+import { STORY_DOMAIN, storyCardProps } from "../support/storyCard";
 
 function baseProps(overrides: Record<string, unknown> = {}) {
-  return {
-    rank: 3,
-    title: "A very good story",
-    url: "https://example.com/story",
-    domain: DOMAIN,
-    createdAt: "2026-01-15T10:00:00.000Z",
-    normalized: 0.6,
-    appearances: [{ source: "hn", label: "HN", points: 150, comments: 40 }],
-    now: NOW,
-    variant: "grid",
-    ...overrides,
-  };
+  return storyCardProps({ variant: "grid", ...overrides });
 }
 
 async function render(props: Record<string, unknown>) {
@@ -28,7 +15,7 @@ async function render(props: Record<string, unknown>) {
 
 /** Classes of the metadata row: the element whose first child is the domain. */
 function metaRow(html: string): string[] {
-  return classesOfParentOf(html, "div", DOMAIN);
+  return classesOfParentOf(html, "div", STORY_DOMAIN);
 }
 
 test("the grid card lays its content out as a column", async () => {

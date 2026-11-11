@@ -2,20 +2,11 @@ import { describe, test, expect } from "vitest";
 import { experimental_AstroContainer as AstroContainer } from "astro/container";
 import StoryCard from "../../src/components/StoryCard.astro";
 import { anchorsTo, readText } from "../support/html";
+import { STORY_URL, storyCardProps } from "../support/storyCard";
 
-const NOW = new Date("2026-01-15T12:00:00.000Z").getTime();
-const STORY_URL = "https://example.com/story";
-const TITLE = "A very good story";
-
+/** The badge has its own discussion url, so the title is the only link to STORY_URL. */
 function baseProps(overrides: Record<string, unknown> = {}) {
-  return {
-    rank: 3,
-    title: TITLE,
-    url: STORY_URL,
-    domain: "example.com",
-    createdAt: "2026-01-15T10:00:00.000Z",
-    normalized: 0.6,
-    // The badge has its own discussion url, so the title is the only link to STORY_URL.
+  return storyCardProps({
     appearances: [
       {
         source: "hn",
@@ -25,9 +16,8 @@ function baseProps(overrides: Record<string, unknown> = {}) {
         discussionUrl: "https://news.ycombinator.com/item?id=1",
       },
     ],
-    now: NOW,
     ...overrides,
-  };
+  });
 }
 
 async function titleLink(props: Record<string, unknown>) {
