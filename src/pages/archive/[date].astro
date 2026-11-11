@@ -24,7 +24,7 @@ const now = new Date(entry.data.generatedAt).getTime();
 
 <Base
   title={`${entry.data.date} — Sparky News`}
-  standfirst={formatDate(entry.data.date)}
+  heading={formatDate(entry.data.date)}
 >
   <BriefGrid
     stories={entry.data.stories}
