@@ -1,10 +1,14 @@
-import { test, expect } from "vitest";
+import { test, expect, vi } from "vitest";
 import { experimental_AstroContainer as AstroContainer } from "astro/container";
 import IndexPage from "../../src/pages/index.astro";
 import { href } from "../../src/lib/brief";
 import { headings, headingsAt, innerOf, linksTo } from "../support/html";
 
-// The digests collection is empty under Vitest, so this is the no-brief state.
+// Whether the content store is populated under Vitest depends on whether
+// `astro sync`/`astro check` has run in this checkout. Stand in for the store
+// only, as an empty collection, so the empty state is tested deterministically.
+vi.mock("astro:content", () => ({ getCollection: async () => [] }));
+
 async function render() {
   const container = await AstroContainer.create();
   return container.renderToString(IndexPage);
