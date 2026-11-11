@@ -4,6 +4,7 @@ import {
   BRIEF_COUNT_PLURAL,
   BRIEF_COUNT_SINGULAR,
   HEADING_ARCHIVE,
+  TITLE_ARCHIVE,
 } from "../../constants";
 import { allDigests, formatDate, href } from "../../lib/brief";
 
@@ -11,7 +12,7 @@ const digests = await allDigests();
 ---
 
 <Base
-  title="Archive: Sparky News"
+  title={TITLE_ARCHIVE}
   heading={HEADING_ARCHIVE}
   standfirst={`${digests.length} ${digests.length === 1 ? BRIEF_COUNT_SINGULAR : BRIEF_COUNT_PLURAL}`}
 >

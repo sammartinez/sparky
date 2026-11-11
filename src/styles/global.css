@@ -58,13 +58,18 @@ body {
   border-radius: 1px;
 }
 
-/* Small caps utility label — used for eyebrows and metadata throughout. */
-.eyebrow {
-  font-family: var(--font-mono);
-  font-size: 0.6875rem;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--color-muted);
+/*
+  Small caps utility label — used for eyebrows and metadata throughout.
+  Layered so a Tailwind utility on the same element (text-xs, text-ink) wins.
+*/
+@layer components {
+  .eyebrow {
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-muted);
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

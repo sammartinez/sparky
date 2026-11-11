@@ -20,6 +20,7 @@ export const ALSO_TODAY_HEADING = "Also today";
 
 // Archive
 export const HEADING_ARCHIVE = "Archive";
+export const TITLE_ARCHIVE = `${HEADING_ARCHIVE}: ${SITE_NAME}`;
 export const BRIEF_COUNT_SINGULAR = "brief";
 export const BRIEF_COUNT_PLURAL = "briefs";
 
