@@ -1,26 +1,44 @@
 {
   "date": "2026-11-10",
-  "generatedAt": "2026-11-10T19:07:16.777Z",
+  "generatedAt": "2026-11-11T04:43:00.176Z",
   "windowHours": 36,
   "stories": [
     {
-      "id": "c84c4781904a",
-      "title": "Thoughts on AI Coding",
-      "url": "https://danielbmarkham.com/blog/thoughts-on-ai-coding",
-      "canonicalUrl": "https://danielbmarkham.com/blog/thoughts-on-ai-coding",
-      "domain": "danielbmarkham.com",
-      "createdAt": "2026-11-10T18:27:33.347Z",
+      "id": "f28f90d2895a",
+      "title": "Gilbert + Tobin rethinks the business of law with AI",
+      "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "canonicalUrl": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "domain": "openai.com",
+      "createdAt": "2026-11-12T00:00:00.000Z",
       "appearances": [
         {
-          "source": "lobsters",
-          "label": "Lobsters",
-          "points": 1,
-          "comments": 0,
-          "discussionUrl": "https://lobste.rs/s/y4djcr/thoughts_on_ai_coding"
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
         }
       ],
       "normalized": 0.5,
-      "score": 8.582
+      "score": 14.359
+    },
+    {
+      "id": "63443a2372b3",
+      "title": "World In-Context Learning for Agentic Robot Manipulation",
+      "url": "https://arxiv.org/abs/2611.12885",
+      "canonicalUrl": "https://arxiv.org/abs/2611.12885",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-11T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 12,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.12885"
+        }
+      ],
+      "normalized": 0.775,
+      "score": 2.514
     },
     {
       "id": "a525fa830b85",
@@ -45,26 +63,26 @@
         }
       ],
       "normalized": 0.788,
-      "score": 6.389
+      "score": 0.942
     },
     {
-      "id": "5175b6a2b765",
-      "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
-      "url": "https://github.com/GoogleChrome/modern-web-guidance",
-      "canonicalUrl": "https://github.com/GoogleChrome/modern-web-guidance",
-      "domain": "github.com",
-      "createdAt": "2026-11-10T18:01:15.000Z",
+      "id": "77d255b4e9ac",
+      "title": "Apple has new Mac app coming to make running local AI models easy",
+      "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+      "canonicalUrl": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy",
+      "domain": "9to5mac.com",
+      "createdAt": "2026-11-10T21:25:03.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 38,
-          "comments": 8,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50443812"
+          "points": 120,
+          "comments": 96,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50446520"
         }
       ],
-      "normalized": 0.258,
-      "score": 3.369
+      "normalized": 0.518,
+      "score": 0.935
     },
     {
       "id": "f8c1a7370c13",
@@ -89,7 +107,158 @@
         }
       ],
       "normalized": 0.934,
-      "score": 2.641
+      "score": 0.721
+    },
+    {
+      "id": "096f075e1108",
+      "title": "llm-gemini 0.36",
+      "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+      "canonicalUrl": "https://simonwillison.net/2026/Nov/10/llm-gemini",
+      "domain": "simonwillison.net",
+      "createdAt": "2026-11-10T20:09:44.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Simon Willison",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.719
+    },
+    {
+      "id": "db09e2e8ec2b",
+      "title": "What objective is reasoning solving?",
+      "url": "https://alexwang.ai/posts/reasoning-as-pathfinding/",
+      "canonicalUrl": "https://alexwang.ai/posts/reasoning-as-pathfinding",
+      "domain": "alexwang.ai",
+      "createdAt": "2026-11-10T19:25:14.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 128,
+          "comments": 57,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50445013"
+        }
+      ],
+      "normalized": 0.532,
+      "score": 0.677
+    },
+    {
+      "id": "7737e173e31a",
+      "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
+      "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+      "canonicalUrl": "https://claude.com/resources/articles/sheets-whiteboards-data",
+      "domain": "claude.com",
+      "createdAt": "2026-11-10T17:55:07.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 165,
+          "comments": 137,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50443716"
+        }
+      ],
+      "normalized": 0.652,
+      "score": 0.663
+    },
+    {
+      "id": "c84c4781904a",
+      "title": "Thoughts on AI Coding",
+      "url": "https://danielbmarkham.com/blog/thoughts-on-ai-coding",
+      "canonicalUrl": "https://danielbmarkham.com/blog/thoughts-on-ai-coding",
+      "domain": "danielbmarkham.com",
+      "createdAt": "2026-11-10T18:27:33.347Z",
+      "appearances": [
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 1,
+          "comments": 0,
+          "discussionUrl": "https://lobste.rs/s/y4djcr/thoughts_on_ai_coding"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.549
+    },
+    {
+      "id": "dfad3e6674c2",
+      "title": "Life on Claude Nine",
+      "url": "https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html",
+      "canonicalUrl": "https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html",
+      "domain": "babuschk.in",
+      "createdAt": "2026-11-10T17:44:44.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 92,
+          "comments": 57,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50443587"
+        }
+      ],
+      "normalized": 0.468,
+      "score": 0.464
+    },
+    {
+      "id": "a5749ddac123",
+      "title": "An Open Field Guide to Inference Engineering",
+      "url": "https://docs.modelplane.ai/guides/inference-guide",
+      "canonicalUrl": "https://docs.modelplane.ai/guides/inference-guide",
+      "domain": "docs.modelplane.ai",
+      "createdAt": "2026-11-10T17:55:07.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 79,
+          "comments": 8,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50443714"
+        }
+      ],
+      "normalized": 0.426,
+      "score": 0.433
+    },
+    {
+      "id": "eec621788217",
+      "title": "Saltline: First-person shooter built by Fable 5.2",
+      "url": "https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
+      "canonicalUrl": "https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
+      "domain": "claude.ai",
+      "createdAt": "2026-11-10T19:14:38.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 56,
+          "comments": 63,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50444850"
+        }
+      ],
+      "normalized": 0.326,
+      "score": 0.404
+    },
+    {
+      "id": "ee7b3c266844",
+      "title": "AI is becoming an information gateway. Audiences still don’t want it making news",
+      "url": "https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/",
+      "canonicalUrl": "https://niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news",
+      "domain": "niemanlab.org",
+      "createdAt": "2026-11-11T00:15:33.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 26,
+          "comments": 11,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50448174"
+        }
+      ],
+      "normalized": 0.099,
+      "score": 0.346
     },
     {
       "id": "534e23320d33",
@@ -108,200 +277,26 @@
         }
       ],
       "normalized": 0.722,
-      "score": 1.015
+      "score": 0.32
     },
     {
-      "id": "46ecb159c153",
-      "title": "Helping caregivers use AI in everyday life",
-      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
-      "canonicalUrl": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
-      "domain": "openai.com",
-      "createdAt": "2026-11-10T12:00:00.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 0.935
-    },
-    {
-      "id": "a27532638c55",
-      "title": "Anthropic to Seek $1.3T Valuation in IPO",
-      "url": "https://www.wsj.com/finance/stocks/anthropic-to-seek-1-3-trillion-valuation-in-ipo-8337b669",
-      "canonicalUrl": "https://wsj.com/finance/stocks/anthropic-to-seek-1-3-trillion-valuation-in-ipo-8337b669",
-      "domain": "wsj.com",
-      "createdAt": "2026-11-10T12:49:32.000Z",
+      "id": "c0a7d4957512",
+      "title": "LLMs Play Zachtronics' TIS-100",
+      "url": "https://tis-100.wincon.dev/",
+      "canonicalUrl": "https://tis-100.wincon.dev/",
+      "domain": "tis-100.wincon.dev",
+      "createdAt": "2026-11-11T00:37:05.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 54,
-          "comments": 73,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50439616"
+          "points": 24,
+          "comments": 3,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50448340"
         }
       ],
-      "normalized": 0.344,
-      "score": 0.764
-    },
-    {
-      "id": "5ca4dc7b6d88",
-      "title": "Introducing Businesses in ChatGPT",
-      "url": "https://openai.com/index/introducing-businesses-chatgpt",
-      "canonicalUrl": "https://openai.com/index/introducing-businesses-chatgpt",
-      "domain": "openai.com",
-      "createdAt": "2026-11-10T10:00:00.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 0.654
-    },
-    {
-      "id": "3588ceed4155",
-      "title": "Work at the Frontier: AI's effect on freelance work",
-      "url": "https://openai.com/index/ai-effect-on-freelance-work",
-      "canonicalUrl": "https://openai.com/index/ai-effect-on-freelance-work",
-      "domain": "openai.com",
-      "createdAt": "2026-11-10T07:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 16,
-          "comments": 7,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50443838"
-        },
-        {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 0.639
-    },
-    {
-      "id": "92c045a21b6a",
-      "title": "Meet the Sad Wives of AI",
-      "url": "https://www.wired.com/story/meet-the-sad-wives-of-ai/",
-      "canonicalUrl": "https://wired.com/story/meet-the-sad-wives-of-ai",
-      "domain": "wired.com",
-      "createdAt": "2026-11-10T10:40:51.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 73,
-          "comments": 64,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50438429"
-        }
-      ],
-      "normalized": 0.424,
-      "score": 0.622
-    },
-    {
-      "id": "8443aece1f92",
-      "title": "Compress any LLM 3x in one click,near-lossless,in under 50 MB RAM",
-      "url": "https://neuracryption.com/research",
-      "canonicalUrl": "https://neuracryption.com/research",
-      "domain": "neuracryption.com",
-      "createdAt": "2026-11-10T13:51:51.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 34,
-          "comments": 33,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50440359"
-        }
-      ],
-      "normalized": 0.205,
-      "score": 0.579
-    },
-    {
-      "id": "5427c369cf5d",
-      "title": "Fireworks AI security breach impacts Notion and their customers",
-      "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
-      "canonicalUrl": "https://notion.com/help/security-incident-involving-a-third-party-ai-vendor",
-      "domain": "notion.com",
-      "createdAt": "2026-11-10T07:19:38.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 147,
-          "comments": 55,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50437106"
-        }
-      ],
-      "normalized": 0.649,
-      "score": 0.577
-    },
-    {
-      "id": "01a8528fa117",
-      "title": "Closing the AI guidance gap in education",
-      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
-      "canonicalUrl": "https://openai.com/index/closing-ai-guidance-gap-education",
-      "domain": "openai.com",
-      "createdAt": "2026-11-10T09:00:00.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 0.561
-    },
-    {
-      "id": "320f21650d87",
-      "title": "Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning",
-      "url": "https://arxiv.org/abs/2611.12886",
-      "canonicalUrl": "https://arxiv.org/abs/2611.12886",
-      "domain": "arxiv.org",
-      "createdAt": "2026-11-10T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 37,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2611.12886"
-        }
-      ],
-      "normalized": 0.879,
-      "score": 0.363
-    },
-    {
-      "id": "975bc5cf9a47",
-      "title": "Wake me up when AI can...",
-      "url": "https://stoppels.ch/2026/10/03/wake-me-up-when-ai-can.html",
-      "canonicalUrl": "https://stoppels.ch/2026/10/03/wake-me-up-when-ai-can.html",
-      "domain": "stoppels.ch",
-      "createdAt": "2026-11-10T14:11:54.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 26,
-          "comments": 9,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50440657"
-        }
-      ],
-      "normalized": 0.099,
-      "score": 0.305
+      "normalized": 0.078,
+      "score": 0.301
     }
   ]
 }
