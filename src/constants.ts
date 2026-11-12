@@ -22,6 +22,7 @@ export const ALL_BRIEFS_LABEL = "All briefs";
 export const PREV_ARROW = "←";
 export const NEXT_ARROW = "→";
 export const ROUTE_ARCHIVE = "archive";
+export const PATH_SEPARATOR = "/";
 export const DATE_LOCALE = "en-US";
 export const ISO_DATE_SEPARATOR = "-";
 export const LONG_DATE_FORMAT: Intl.DateTimeFormatOptions = {

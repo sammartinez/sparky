@@ -6,6 +6,7 @@ import {
   LONG_DATE_FORMAT,
   MONTH_FORMAT,
   MONTH_KEY_LENGTH,
+  PATH_SEPARATOR,
   ROUTE_ARCHIVE,
   SHORT_DATE_FORMAT,
 } from "../constants";
@@ -20,7 +21,7 @@ export function href(path: string): string {
 
 /** Link to one archived brief by its id (an ISO date). */
 export function briefHref(id: string): string {
-  return href(`${ROUTE_ARCHIVE}/${id}`);
+  return href([ROUTE_ARCHIVE, id].join(PATH_SEPARATOR));
 }
 
 /** All digests, newest first. Ids are ISO dates so a string sort is enough. */
