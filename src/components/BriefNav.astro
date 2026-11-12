@@ -19,10 +19,10 @@ const { older, newer } = Astro.props;
 const linkClass = "hover:text-accent inline-flex min-h-11 items-center";
 ---
 
-<nav class="mt-10 flex items-center justify-between font-mono text-xs">
+<nav class="mt-10 grid grid-cols-[1fr_auto_1fr] items-center gap-x-4 font-mono text-xs">
   {
     older ? (
-      <a href={briefHref(older)} class={linkClass}>
+      <a href={briefHref(older)} class:list={[linkClass, "justify-self-start"]}>
         {PREV_ARROW} {formatShortDate(older)}
       </a>
     ) : (
@@ -32,7 +32,7 @@ const linkClass = "hover:text-accent inline-flex min-h-11 items-center";
   <a href={href(ROUTE_ARCHIVE)} class={linkClass}>{ALL_BRIEFS_LABEL}</a>
   {
     newer ? (
-      <a href={briefHref(newer)} class={linkClass}>
+      <a href={briefHref(newer)} class:list={[linkClass, "justify-self-end"]}>
         {formatShortDate(newer)} {NEXT_ARROW}
       </a>
     ) : (
