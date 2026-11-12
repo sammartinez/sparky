@@ -2,7 +2,13 @@ import { describe, test, expect } from "vitest";
 import { experimental_AstroContainer as AstroContainer } from "astro/container";
 import BriefNav from "../../src/components/BriefNav.astro";
 import { href } from "../../src/lib/brief";
-import { anchorsTo, elements, innerOf, textOf } from "../support/html";
+import {
+  anchorsTo,
+  elements,
+  expectTapTargets,
+  innerOf,
+  textOf,
+} from "../support/html";
 
 const OLDER = "2026-11-04";
 const NEWER = "2026-11-05";
@@ -45,13 +51,7 @@ describe.each(sides)("with $name", ({ props }) => {
 
   test("every link is at least 44px tall and centres its content", async () => {
     const html = await render(props);
-    const links = elements(innerOf(html, "nav"), "a");
-    expect(links.length).toBeGreaterThan(0);
-    for (const link of links) {
-      expect(link.classes).toEqual(
-        expect.arrayContaining(["inline-flex", "min-h-11", "items-center"]),
-      );
-    }
+    expectTapTargets(elements(innerOf(html, "nav"), "a"));
   });
 
   test("no link shows an ISO date as its text", async () => {

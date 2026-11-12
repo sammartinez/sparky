@@ -3,6 +3,7 @@ import { experimental_AstroContainer as AstroContainer } from "astro/container";
 import { href } from "../../src/lib/brief";
 import {
   anchorsTo,
+  expectTapTargets,
   headingsAt,
   innerOf,
   mainNavLinks,
@@ -86,9 +87,5 @@ test("every navigation link on the home page is at least 44px tall", async () =>
   const html = await render();
   const links = mainNavLinks(html);
   expect(links).toHaveLength(2);
-  for (const link of links) {
-    expect(link.classes).toEqual(
-      expect.arrayContaining(["inline-flex", "min-h-11", "items-center"]),
-    );
-  }
+  expectTapTargets(links);
 });

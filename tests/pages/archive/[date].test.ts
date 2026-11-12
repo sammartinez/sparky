@@ -4,6 +4,7 @@ import DatePage from "../../../src/pages/archive/[date].astro";
 import { href } from "../../../src/lib/brief";
 import {
   anchorsTo,
+  expectTapTargets,
   headings,
   headingsAt,
   innerOf,
@@ -117,11 +118,7 @@ test("every navigation link on an archived brief is at least 44px tall", async (
   const html = await render(2, DATE, BOTH_NEIGHBOURS);
   const links = mainNavLinks(html);
   expect(links).toHaveLength(3);
-  for (const link of links) {
-    expect(link.classes).toEqual(
-      expect.arrayContaining(["inline-flex", "min-h-11", "items-center"]),
-    );
-  }
+  expectTapTargets(links);
 });
 
 test("an archived brief with no neighbours links only to All briefs, 44px tall", async () => {
@@ -129,7 +126,7 @@ test("an archived brief with no neighbours links only to All briefs, 44px tall",
   const links = mainNavLinks(html);
   expect(links.map((a) => textOf(a.inner))).toEqual(["All briefs"]);
   expect(anchorsTo(innerOf(html, "main"), href("archive"))).toHaveLength(1);
-  expect(links[0].classes).toContain("min-h-11");
+  expectTapTargets(links);
 });
 
 test("the oldest brief has a newer link and no older link", async () => {

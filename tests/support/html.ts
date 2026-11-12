@@ -1,4 +1,5 @@
 /** Small helpers for asserting on rendered HTML strings. */
+import { expect } from "vitest";
 
 export interface Heading {
   level: number;
@@ -106,4 +107,15 @@ export function readText(html: string): string {
 /** Every link in the first <nav> inside <main>, in document order. */
 export function mainNavLinks(html: string): Element[] {
   return elements(innerOf(innerOf(html, "main"), "nav"), "a");
+}
+
+/** Classes that make a navigation link a 44px-tall, vertically centred tap target. */
+const TAP_TARGET_CLASSES = ["inline-flex", "min-h-11", "items-center"];
+
+/** Asserts there is at least one link and every one is a 44px tap target. */
+export function expectTapTargets(links: Element[]): void {
+  expect(links.length).toBeGreaterThan(0);
+  for (const link of links) {
+    expect(link.classes).toEqual(expect.arrayContaining(TAP_TARGET_CLASSES));
+  }
 }
