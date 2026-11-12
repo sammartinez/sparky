@@ -1,0 +1,55 @@
+---
+import {
+  LED_WITH_LABEL,
+  NO_BRIEFS_MESSAGE,
+  STORIES_LABEL,
+} from "../constants";
+import { briefHref, formatDate, groupByMonth } from "../lib/brief";
+
+interface Props {
+  /** Newest first. */
+  digests: {
+    id: string;
+    data: { date: string; stories: { title: string }[] };
+  }[];
+}
+
+const { digests } = Astro.props;
+const months = groupByMonth(digests);
+---
+
+{
+  digests.length === 0 ? (
+    <p class="text-muted border-rule border-t py-12">{NO_BRIEFS_MESSAGE}</p>
+  ) : (
+    months.map((month) => (
+      <section class="mb-10">
+        <h2 class="eyebrow mb-2.5 text-xs">{month.label}</h2>
+        <ol class="border-rule border-t">
+          {month.entries.map((digest) => (
+            <li>
+              <a
+                href={briefHref(digest.id)}
+                class="border-rule hover:bg-panel block border-b px-2 py-5 no-underline transition-colors"
+              >
+                <div class="flex items-baseline justify-between gap-4">
+                  <span class="font-display text-lg font-medium">
+                    {formatDate(digest.data.date)}
+                  </span>
+                  <span class="text-muted font-mono text-xs whitespace-nowrap">
+                    {digest.data.stories.length} {STORIES_LABEL}
+                  </span>
+                </div>
+                {digest.data.stories[0] && (
+                  <p class="text-muted mt-1 line-clamp-2 text-sm">
+                    {LED_WITH_LABEL} {digest.data.stories[0].title}
+                  </p>
+                )}
+              </a>
+            </li>
+          ))}
+        </ol>
+      </section>
+    ))
+  )
+}

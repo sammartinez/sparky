@@ -2,7 +2,8 @@
 import type { GetStaticPaths, InferGetStaticPropsType } from "astro";
 import Base from "../../layouts/Base.astro";
 import BriefGrid from "../../components/BriefGrid.astro";
-import { allDigests, formatDate, href } from "../../lib/brief";
+import BriefNav from "../../components/BriefNav.astro";
+import { allDigests, formatDate } from "../../lib/brief";
 
 export const getStaticPaths = (async () => {
   const digests = await allDigests();
@@ -33,21 +34,5 @@ const now = new Date(entry.data.generatedAt).getTime();
     windowHours={entry.data.windowHours}
   />
 
-  <nav class="mt-10 flex items-center justify-between font-mono text-xs">
-    {
-      older ? (
-        <a href={href(`archive/${older.id}`)} class="hover:text-accent">← {older.id}</a>
-      ) : (
-        <span />
-      )
-    }
-    <a href={href("archive")} class="hover:text-accent">All briefs</a>
-    {
-      newer ? (
-        <a href={href(`archive/${newer.id}`)} class="hover:text-accent">{newer.id} →</a>
-      ) : (
-        <span />
-      )
-    }
-  </nav>
+  <BriefNav older={older?.id} newer={newer?.id} />
 </Base>

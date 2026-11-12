@@ -1,13 +1,31 @@
 import { test, expect } from "vitest";
 import { experimental_AstroContainer as AstroContainer } from "astro/container";
 import DatePage from "../../../src/pages/archive/[date].astro";
-import { headings, headingsAt, innerOf } from "../../support/html";
-import { story } from "../../support/stories";
+import { href } from "../../../src/lib/brief";
+import {
+  anchorsTo,
+  expectTapTargets,
+  headings,
+  headingsAt,
+  innerOf,
+  mainNavLinks,
+  textOf,
+} from "../../support/html";
+import { digestEntry, story } from "../../support/stories";
 
 const DATE = "2026-11-09";
 const GENERATED_AT = "2026-11-09T12:00:00.000Z";
 
-async function render(storyCount = 2, date = DATE) {
+interface Neighbours {
+  newer: { id: string } | null;
+  older: { id: string } | null;
+}
+
+async function render(
+  storyCount = 2,
+  date = DATE,
+  neighbours: Neighbours = { newer: null, older: null },
+) {
   const stories = Array.from({ length: storyCount }, (_, i) =>
     story(i + 1, GENERATED_AT),
   );
@@ -19,8 +37,7 @@ async function render(storyCount = 2, date = DATE) {
         id: date,
         data: { date, generatedAt: GENERATED_AT, windowHours: 36, stories },
       },
-      newer: null,
-      older: null,
+      ...neighbours,
     },
   });
 }
@@ -69,4 +86,56 @@ test("the archived brief wordmark is not inside a heading", async () => {
   for (const heading of headings(html)) {
     expect(heading.text).not.toContain("Sparky News");
   }
+});
+
+const BOTH_NEIGHBOURS: Neighbours = {
+  older: digestEntry("2026-11-08"),
+  newer: digestEntry("2026-11-10"),
+};
+
+test("an archived brief links to the older brief by its short date", async () => {
+  const html = await render(2, DATE, BOTH_NEIGHBOURS);
+  const links = anchorsTo(html, href("archive/2026-11-08"));
+  expect(links.map((a) => textOf(a.inner))).toEqual(["← Sun, Nov 8"]);
+});
+
+test("an archived brief links to the newer brief by its short date", async () => {
+  const html = await render(2, DATE, BOTH_NEIGHBOURS);
+  const links = anchorsTo(html, href("archive/2026-11-10"));
+  expect(links.map((a) => textOf(a.inner))).toEqual(["Tue, Nov 10 →"]);
+});
+
+test("an archived brief's navigation reads older, All briefs, newer", async () => {
+  const html = await render(2, DATE, BOTH_NEIGHBOURS);
+  expect(mainNavLinks(html).map((a) => textOf(a.inner))).toEqual([
+    "← Sun, Nov 8",
+    "All briefs",
+    "Tue, Nov 10 →",
+  ]);
+});
+
+test("every navigation link on an archived brief is at least 44px tall", async () => {
+  const html = await render(2, DATE, BOTH_NEIGHBOURS);
+  const links = mainNavLinks(html);
+  expect(links).toHaveLength(3);
+  expectTapTargets(links);
+});
+
+test("an archived brief with no neighbours links only to All briefs, 44px tall", async () => {
+  const html = await render();
+  const links = mainNavLinks(html);
+  expect(links.map((a) => textOf(a.inner))).toEqual(["All briefs"]);
+  expect(anchorsTo(innerOf(html, "main"), href("archive"))).toHaveLength(1);
+  expectTapTargets(links);
+});
+
+test("the oldest brief has a newer link and no older link", async () => {
+  const html = await render(2, DATE, {
+    older: null,
+    newer: BOTH_NEIGHBOURS.newer,
+  });
+  expect(mainNavLinks(html).map((a) => textOf(a.inner))).toEqual([
+    "All briefs",
+    "Tue, Nov 10 →",
+  ]);
 });

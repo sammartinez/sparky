@@ -18,11 +18,38 @@ export const ALSO_TODAY_HEADING = "Also today";
 export const OPENS_IN_NEW_TAB = "(opens in new tab)";
 
 // Navigation
+export const ALL_BRIEFS_LABEL = "All briefs";
+export const PREV_ARROW = "←";
+export const NEXT_ARROW = "→";
+export const ROUTE_ARCHIVE = "archive";
+export const PATH_SEPARATOR = "/";
+export const DATE_LOCALE = "en-US";
+export const ISO_DATE_SEPARATOR = "-";
+export const LONG_DATE_FORMAT: Intl.DateTimeFormatOptions = {
+  weekday: "long",
+  month: "long",
+  day: "numeric",
+  year: "numeric",
+};
+export const SHORT_DATE_FORMAT: Intl.DateTimeFormatOptions = {
+  weekday: "short",
+  month: "short",
+  day: "numeric",
+};
+export const MONTH_FORMAT: Intl.DateTimeFormatOptions = {
+  month: "long",
+  year: "numeric",
+};
 
 // Archive
 export const HEADING_ARCHIVE = "Archive";
 export const TITLE_ARCHIVE = `${HEADING_ARCHIVE}: ${SITE_NAME}`;
 export const BRIEF_COUNT_SINGULAR = "brief";
 export const BRIEF_COUNT_PLURAL = "briefs";
+export const LED_WITH_LABEL = "Led with:";
+export const STORIES_LABEL = "stories";
+export const NO_BRIEFS_MESSAGE = "No briefs archived yet.";
+// Length of the "YYYY-MM" prefix of an ISO date.
+export const MONTH_KEY_LENGTH = 7;
 
 // Pipeline
