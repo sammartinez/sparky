@@ -17,3 +17,21 @@ export function story(
     ...overrides,
   };
 }
+
+/**
+ * A digest collection entry for the ISO date `id`, shaped like what
+ * `getCollection("digests")` returns, with one story per title.
+ */
+export function digestEntry(id: string, titles: string[] = []) {
+  const generatedAt = `${id}T12:00:00.000Z`;
+  return {
+    id,
+    collection: "digests",
+    data: {
+      date: id,
+      generatedAt,
+      windowHours: 36,
+      stories: titles.map((title, i) => story(i + 1, generatedAt, { title })),
+    },
+  };
+}

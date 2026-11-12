@@ -33,3 +33,11 @@ test("the archive page wordmark is not inside a heading", async () => {
     expect(heading.text).not.toContain("Sparky News");
   }
 });
+
+test("the empty archive page shows the no-briefs message once and no list", async () => {
+  const main = innerOf(await render(), "main");
+  expect(main.split("No briefs archived yet.")).toHaveLength(2);
+  expect(main).not.toMatch(/<ol\b/);
+  expect(main).not.toMatch(/<li\b/);
+  expect(headingsAt(main, 2)).toEqual([]);
+});

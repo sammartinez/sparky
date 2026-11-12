@@ -1,6 +1,13 @@
 import { test, expect, vi } from "vitest";
 import { experimental_AstroContainer as AstroContainer } from "astro/container";
-import { headingsAt, innerOf } from "../support/html";
+import { href } from "../../src/lib/brief";
+import {
+  anchorsTo,
+  headingsAt,
+  innerOf,
+  mainNavLinks,
+  textOf,
+} from "../support/html";
 import { story } from "../support/stories";
 
 const GENERATED_AT = "2026-11-09T12:00:00.000Z";
@@ -53,4 +60,35 @@ test("the home page with a brief passes no standfirst", async () => {
 test("the home page with a brief renders that brief's stories", async () => {
   const html = await render();
   expect(innerOf(html, "main")).toContain("Story 1");
+});
+
+test("the home page links to the previous brief by its short date", async () => {
+  const html = await render();
+  const links = anchorsTo(html, href("archive/2026-11-08"));
+  expect(links.map((a) => textOf(a.inner))).toEqual(["← Sun, Nov 8"]);
+});
+
+test("the home page navigation reads older then All briefs, with no newer link", async () => {
+  const html = await render();
+  expect(mainNavLinks(html).map((a) => textOf(a.inner))).toEqual([
+    "← Sun, Nov 8",
+    "All briefs",
+  ]);
+});
+
+test("the home page All briefs link goes to the archive", async () => {
+  const html = await render();
+  const links = anchorsTo(innerOf(html, "main"), href("archive"));
+  expect(links.map((a) => textOf(a.inner))).toEqual(["All briefs"]);
+});
+
+test("every navigation link on the home page is at least 44px tall", async () => {
+  const html = await render();
+  const links = mainNavLinks(html);
+  expect(links).toHaveLength(2);
+  for (const link of links) {
+    expect(link.classes).toEqual(
+      expect.arrayContaining(["inline-flex", "min-h-11", "items-center"]),
+    );
+  }
 });

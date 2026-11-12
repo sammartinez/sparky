@@ -102,3 +102,8 @@ export function classesOfParentOf(
 export function readText(html: string): string {
   return stripTags(html, "");
 }
+
+/** Every link in the first <nav> inside <main>, in document order. */
+export function mainNavLinks(html: string): Element[] {
+  return elements(innerOf(innerOf(html, "main"), "nav"), "a");
+}
