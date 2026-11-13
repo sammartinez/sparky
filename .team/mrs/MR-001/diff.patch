@@ -1,0 +1,677 @@
+diff --git a/src/components/BriefGrid.astro b/src/components/BriefGrid.astro
+index 557c923..55c0958 100644
+--- a/src/components/BriefGrid.astro
++++ b/src/components/BriefGrid.astro
+@@ -1,5 +1,6 @@
+ ---
+ import type { CollectionEntry } from "astro:content";
++import { ALSO_TODAY_HEADING } from "../constants";
+ import DawnRule from "./DawnRule.astro";
+ import StoryCard from "./StoryCard.astro";
+ 
+@@ -35,7 +36,7 @@ const compactStories = rest.slice(4);
+       ))}
+       {compactStories.length > 0 && (
+         <div class="col-span-6">
+-          <h3 class="eyebrow mt-1 mb-2.5">Also today</h3>
++          <h2 class="eyebrow mt-1 mb-2.5">{ALSO_TODAY_HEADING}</h2>
+           <div class="flex flex-col gap-[0.9rem]">
+             {compactStories.map((story, i) => (
+               <StoryCard
+diff --git a/src/constants.ts b/src/constants.ts
+new file mode 100644
+index 0000000..c735b33
+--- /dev/null
++++ b/src/constants.ts
+@@ -0,0 +1,27 @@
++/*
++  Every literal the site and the digest scripts share lives here: one flat
++  file of plain exported consts, grouped by section. Add a value under the
++  section it belongs to.
++
++  Astro code imports this file, and so do scripts/*.ts, which Node runs with
++  native type stripping. Keep it to erasable syntax: no enums, no namespaces,
++  no import.meta.env, no process.env, no imports from astro:*.
++  Environment-variable reads stay in the scripts.
++*/
++
++// Site
++export const SITE_NAME = "Sparky News";
++export const HEADING_NO_BRIEF = "No brief yet";
++export const ALSO_TODAY_HEADING = "Also today";
++
++// Story card
++
++// Navigation
++
++// Archive
++export const HEADING_ARCHIVE = "Archive";
++export const TITLE_ARCHIVE = `${HEADING_ARCHIVE}: ${SITE_NAME}`;
++export const BRIEF_COUNT_SINGULAR = "brief";
++export const BRIEF_COUNT_PLURAL = "briefs";
++
++// Pipeline
+diff --git a/src/layouts/Base.astro b/src/layouts/Base.astro
+index aeb1114..a5f2c3d 100644
+--- a/src/layouts/Base.astro
++++ b/src/layouts/Base.astro
+@@ -1,18 +1,22 @@
+ ---
+ import "../styles/global.css";
++import { SITE_NAME } from "../constants";
+ import { href } from "../lib/brief";
+ import SparkMark from "../components/SparkMark.astro";
+ 
+ interface Props {
+   title: string;
+   description?: string;
+-  /** Shown under the wordmark — usually the date this page covers. */
++  /** The page's only h1, shown under the wordmark. */
++  heading: string;
++  /** Optional eyebrow line under the heading. */
+   standfirst?: string;
+ }
+ 
+ const {
+   title,
+   description = "A daily read on what the AI world is actually talking about.",
++  heading,
+   standfirst,
+ } = Astro.props;
+ 
+@@ -35,7 +39,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? "http://localhost");
+     <link
+       rel="alternate"
+       type="application/rss+xml"
+-      title="Sparky News"
++      title={SITE_NAME}
+       href={href("rss.xml")}
+     />
+ 
+@@ -58,13 +62,14 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? "http://localhost");
+       <header class="pt-10 pb-6 sm:pt-16">
+         <a href={href("/")} class="inline-flex items-center gap-3 no-underline">
+           <SparkMark class="h-9 w-9 shrink-0 sm:h-12 sm:w-12" />
+-          <h1 class="font-display text-[2.3rem] leading-[0.95] font-medium sm:text-5xl">
+-            Sparky News
+-          </h1>
++          <span class="font-display text-[2.3rem] leading-[0.95] font-medium sm:text-5xl">
++            {SITE_NAME}
++          </span>
+         </a>
+-        <p class="eyebrow mt-3">
+-          {standfirst ?? "What the AI world is talking about"}
+-        </p>
++        <h1 class="eyebrow text-ink mt-3 text-xs">
++          {heading}
++        </h1>
++        {standfirst && <p class="eyebrow mt-1">{standfirst}</p>}
+       </header>
+ 
+       <main id="main">
+diff --git a/src/pages/archive/[date].astro b/src/pages/archive/[date].astro
+index e683005..1e00334 100644
+--- a/src/pages/archive/[date].astro
++++ b/src/pages/archive/[date].astro
+@@ -24,7 +24,7 @@ const now = new Date(entry.data.generatedAt).getTime();
+ 
+ <Base
+   title={`${entry.data.date} — Sparky News`}
+-  standfirst={formatDate(entry.data.date)}
++  heading={formatDate(entry.data.date)}
+ >
+   <BriefGrid
+     stories={entry.data.stories}
+diff --git a/src/pages/archive/index.astro b/src/pages/archive/index.astro
+index 4739fdc..108b385 100644
+--- a/src/pages/archive/index.astro
++++ b/src/pages/archive/index.astro
+@@ -1,11 +1,21 @@
+ ---
+ import Base from "../../layouts/Base.astro";
++import {
++  BRIEF_COUNT_PLURAL,
++  BRIEF_COUNT_SINGULAR,
++  HEADING_ARCHIVE,
++  TITLE_ARCHIVE,
++} from "../../constants";
+ import { allDigests, formatDate, href } from "../../lib/brief";
+ 
+ const digests = await allDigests();
+ ---
+ 
+-<Base title="Archive: Sparky News" standfirst={`${digests.length} ${digests.length === 1 ? "brief" : "briefs"}`}>
++<Base
++  title={TITLE_ARCHIVE}
++  heading={HEADING_ARCHIVE}
++  standfirst={`${digests.length} ${digests.length === 1 ? BRIEF_COUNT_SINGULAR : BRIEF_COUNT_PLURAL}`}
++>
+   <section class="border-rule border-t">
+     {
+       digests.map((d) => (
+diff --git a/src/pages/index.astro b/src/pages/index.astro
+index 23fb7a2..0a2c09e 100644
+--- a/src/pages/index.astro
++++ b/src/pages/index.astro
+@@ -1,6 +1,7 @@
+ ---
+ import Base from "../layouts/Base.astro";
+ import BriefGrid from "../components/BriefGrid.astro";
++import { HEADING_NO_BRIEF } from "../constants";
+ import { allDigests, formatDate, href } from "../lib/brief";
+ 
+ const digests = await allDigests();
+@@ -13,7 +14,7 @@ const now = today ? new Date(today.data.generatedAt).getTime() : Date.now();
+ 
+ <Base
+   title="Sparky News — Today's AI brief"
+-  standfirst={today ? formatDate(today.data.date) : "No brief yet"}
++  heading={today ? formatDate(today.data.date) : HEADING_NO_BRIEF}
+ >
+   {
+     !today && (
+diff --git a/src/styles/global.css b/src/styles/global.css
+index 74135c7..f3062fa 100644
+--- a/src/styles/global.css
++++ b/src/styles/global.css
+@@ -58,13 +58,18 @@ body {
+   border-radius: 1px;
+ }
+ 
+-/* Small caps utility label — used for eyebrows and metadata throughout. */
+-.eyebrow {
+-  font-family: var(--font-mono);
+-  font-size: 0.6875rem;
+-  letter-spacing: 0.14em;
+-  text-transform: uppercase;
+-  color: var(--color-muted);
++/*
++  Small caps utility label — used for eyebrows and metadata throughout.
++  Layered so a Tailwind utility on the same element (text-xs, text-ink) wins.
++*/
++@layer components {
++  .eyebrow {
++    font-family: var(--font-mono);
++    font-size: 0.6875rem;
++    letter-spacing: 0.14em;
++    text-transform: uppercase;
++    color: var(--color-muted);
++  }
+ }
+ 
+ @media (prefers-reduced-motion: reduce) {
+diff --git a/tests/components/BriefGrid.headings.test.ts b/tests/components/BriefGrid.headings.test.ts
+new file mode 100644
+index 0000000..d7e3968
+--- /dev/null
++++ b/tests/components/BriefGrid.headings.test.ts
+@@ -0,0 +1,54 @@
++import { test, expect } from "vitest";
++import { experimental_AstroContainer as AstroContainer } from "astro/container";
++import BriefGrid from "../../src/components/BriefGrid.astro";
++import { headingsAt } from "../support/html";
++import { story } from "../support/stories";
++
++const GENERATED_AT = "2026-01-15T12:00:00.000Z";
++const NOW = new Date(GENERATED_AT).getTime();
++
++async function render(count: number) {
++  const stories = Array.from({ length: count }, (_, i) =>
++    story(i + 1, GENERATED_AT),
++  );
++  const container = await AstroContainer.create();
++  return container.renderToString(BriefGrid, {
++    props: { stories, generatedAt: GENERATED_AT, now: NOW },
++  });
++}
++
++test("renders Also today as an h2", async () => {
++  const html = await render(7);
++  expect(headingsAt(html, 2).map((h) => h.text)).toContain("Also today");
++});
++
++test("Also today is no longer an h3", async () => {
++  const html = await render(7);
++  expect(headingsAt(html, 3).map((h) => h.text)).not.toContain("Also today");
++});
++
++test("the Also today h2 keeps the eyebrow style", async () => {
++  const html = await render(7);
++  expect(html).toMatch(
++    /<h2[^>]*class="[^"]*\beyebrow\b[^"]*"[^>]*>\s*Also today\s*<\/h2>/,
++  );
++});
++
++test("compact story titles under Also today stay h3", async () => {
++  const html = await render(7);
++  const compact = html.slice(html.indexOf("Also today"));
++  const titles = headingsAt(compact, 3).map((h) => h.text);
++  expect(titles).toHaveLength(2);
++  expect(titles[0]).toContain("Story 6");
++  expect(titles[1]).toContain("Story 7");
++});
++
++test("renders no Also today heading when five or fewer stories leave no compact list", async () => {
++  const html = await render(5);
++  expect(headingsAt(html, 2).map((h) => h.text)).not.toContain("Also today");
++});
++
++test("BriefGrid renders no h1 of its own", async () => {
++  const html = await render(7);
++  expect(headingsAt(html, 1)).toHaveLength(0);
++});
+diff --git a/tests/layouts/Base.test.ts b/tests/layouts/Base.test.ts
+new file mode 100644
+index 0000000..ab25dcc
+--- /dev/null
++++ b/tests/layouts/Base.test.ts
+@@ -0,0 +1,102 @@
++import { test, expect } from "vitest";
++import { experimental_AstroContainer as AstroContainer } from "astro/container";
++import Base from "../../src/layouts/Base.astro";
++import { href } from "../../src/lib/brief";
++import {
++  headings,
++  headingsAt,
++  innerOf,
++  linksTo,
++  textOf,
++} from "../support/html";
++
++const WORDMARK = "Sparky News";
++const HEADING = "Monday, November 9, 2026";
++const OLD_TAGLINE = "What the AI world is talking about";
++
++async function render(
++  props: Record<string, unknown> = {},
++  slot = '<p data-testid="page-body">Page body</p>',
++) {
++  const container = await AstroContainer.create();
++  return container.renderToString(Base, {
++    props: { title: "A page — Sparky News", heading: HEADING, ...props },
++    slots: { default: slot },
++  });
++}
++
++test("renders exactly one h1", async () => {
++  const html = await render();
++  expect(headingsAt(html, 1)).toHaveLength(1);
++});
++
++test("the h1 text is the heading prop", async () => {
++  const html = await render({ heading: "Archive" });
++  expect(headingsAt(html, 1).map((h) => h.text)).toEqual(["Archive"]);
++});
++
++test("the h1 sits in the page header, before the main content", async () => {
++  const html = await render();
++  expect(headingsAt(innerOf(html, "header"), 1).map((h) => h.text)).toEqual([
++    HEADING,
++  ]);
++});
++
++test("still renders exactly one h1 when the slotted page content has its own h2", async () => {
++  const html = await render({}, "<h2>Also today</h2>");
++  expect(headingsAt(html, 1)).toHaveLength(1);
++  expect(headingsAt(html, 2).map((h) => h.text)).toEqual(["Also today"]);
++});
++
++test("the wordmark is a link to the home page holding the spark mark and the site name", async () => {
++  const html = await render();
++  const wordmark = linksTo(html, href("/")).filter((inner) =>
++    inner.includes(WORDMARK),
++  );
++  expect(wordmark).toHaveLength(1);
++  expect(wordmark[0]).toContain("<svg");
++  expect(textOf(wordmark[0])).toBe(WORDMARK);
++});
++
++test("the wordmark link contains no heading element", async () => {
++  const html = await render();
++  const wordmark = linksTo(html, href("/")).find((inner) =>
++    inner.includes(WORDMARK),
++  );
++  expect(wordmark).toBeDefined();
++  expect(wordmark).not.toMatch(/<h[1-6]\b/);
++});
++
++test("the site name is not inside any heading element", async () => {
++  const html = await render();
++  for (const heading of headings(html)) {
++    expect(heading.text).not.toContain(WORDMARK);
++  }
++  // The wordmark link itself must not be wrapped by a heading either.
++  expect(html).not.toMatch(/<h[1-6]\b[^>]*>\s*<a\b/);
++});
++
++test("a standfirst renders as an eyebrow paragraph after the h1", async () => {
++  const html = await render({ standfirst: "12 briefs" });
++  const header = innerOf(html, "header");
++  expect(header).toMatch(
++    /<p[^>]*class="[^"]*\beyebrow\b[^"]*"[^>]*>\s*12 briefs\s*<\/p>/,
++  );
++  expect(header.indexOf("12 briefs")).toBeGreaterThan(header.indexOf("</h1>"));
++  expect(header.indexOf("</h1>")).toBeGreaterThan(-1);
++});
++
++test("renders no standfirst paragraph when standfirst is omitted", async () => {
++  const html = await render();
++  expect(innerOf(html, "header")).not.toMatch(/<p\b/);
++});
++
++test("the old default tagline is gone", async () => {
++  const html = await render();
++  expect(html).not.toContain(OLD_TAGLINE);
++});
++
++test("renders the default slot inside main", async () => {
++  const html = await render();
++  expect(innerOf(html, "main")).toContain('data-testid="page-body"');
++});
+diff --git a/tests/pages/archive/[date].test.ts b/tests/pages/archive/[date].test.ts
+new file mode 100644
+index 0000000..a7a5023
+--- /dev/null
++++ b/tests/pages/archive/[date].test.ts
+@@ -0,0 +1,72 @@
++import { test, expect } from "vitest";
++import { experimental_AstroContainer as AstroContainer } from "astro/container";
++import DatePage from "../../../src/pages/archive/[date].astro";
++import { headings, headingsAt, innerOf } from "../../support/html";
++import { story } from "../../support/stories";
++
++const DATE = "2026-11-09";
++const GENERATED_AT = "2026-11-09T12:00:00.000Z";
++
++async function render(storyCount = 2, date = DATE) {
++  const stories = Array.from({ length: storyCount }, (_, i) =>
++    story(i + 1, GENERATED_AT),
++  );
++  const container = await AstroContainer.create();
++  return container.renderToString(DatePage, {
++    params: { date },
++    props: {
++      entry: {
++        id: date,
++        data: { date, generatedAt: GENERATED_AT, windowHours: 36, stories },
++      },
++      newer: null,
++      older: null,
++    },
++  });
++}
++
++test("an archived brief has exactly one h1 reading the brief's long date", async () => {
++  const html = await render();
++  expect(headingsAt(html, 1).map((h) => h.text)).toEqual([
++    "Monday, November 9, 2026",
++  ]);
++});
++
++test("the h1 follows the entry's date, not a fixed day", async () => {
++  const html = await render(2, "2026-01-01");
++  expect(headingsAt(html, 1).map((h) => h.text)).toEqual([
++    "Thursday, January 1, 2026",
++  ]);
++});
++
++test("an archived brief passes no standfirst", async () => {
++  const html = await render();
++  expect(innerOf(html, "header")).not.toMatch(/<p\b/);
++});
++
++test("the long date appears once in the header, as the h1 only", async () => {
++  const html = await render();
++  expect(
++    innerOf(html, "header").split("Monday, November 9, 2026"),
++  ).toHaveLength(2);
++});
++
++test("an archived brief with no stories still has exactly one h1", async () => {
++  const html = await render(0);
++  expect(headingsAt(html, 1).map((h) => h.text)).toEqual([
++    "Monday, November 9, 2026",
++  ]);
++});
++
++test("a full brief keeps one h1 with Also today as an h2 beneath it", async () => {
++  const html = await render(7);
++  expect(headingsAt(html, 1)).toHaveLength(1);
++  expect(headingsAt(html, 2).map((h) => h.text)).toContain("Also today");
++});
++
++test("the archived brief wordmark is not inside a heading", async () => {
++  const html = await render();
++  for (const heading of headings(html)) {
++    expect(heading.text).not.toContain("Sparky News");
++  }
++});
+diff --git a/tests/pages/archive/index.test.ts b/tests/pages/archive/index.test.ts
+new file mode 100644
+index 0000000..365ab90
+--- /dev/null
++++ b/tests/pages/archive/index.test.ts
+@@ -0,0 +1,35 @@
++import { test, expect, vi } from "vitest";
++import { experimental_AstroContainer as AstroContainer } from "astro/container";
++import ArchivePage from "../../../src/pages/archive/index.astro";
++import { headings, headingsAt, innerOf } from "../../support/html";
++
++// Whether the content store is populated under Vitest depends on whether
++// `astro sync`/`astro check` has run in this checkout. Stand in for the store
++// only, as an empty collection, so the empty state is tested deterministically.
++vi.mock("astro:content", () => ({ getCollection: async () => [] }));
++
++async function render() {
++  const container = await AstroContainer.create();
++  return container.renderToString(ArchivePage);
++}
++
++test("the archive page has exactly one h1 reading Archive", async () => {
++  const html = await render();
++  expect(headingsAt(html, 1).map((h) => h.text)).toEqual(["Archive"]);
++});
++
++test("the archive page keeps its brief-count standfirst after the h1", async () => {
++  const html = await render();
++  const header = innerOf(html, "header");
++  expect(header).toMatch(
++    /<p[^>]*class="[^"]*\beyebrow\b[^"]*"[^>]*>\s*0 briefs\s*<\/p>/,
++  );
++  expect(header.indexOf("0 briefs")).toBeGreaterThan(header.indexOf("</h1>"));
++});
++
++test("the archive page wordmark is not inside a heading", async () => {
++  const html = await render();
++  for (const heading of headings(html)) {
++    expect(heading.text).not.toContain("Sparky News");
++  }
++});
+diff --git a/tests/pages/index.test.ts b/tests/pages/index.test.ts
+new file mode 100644
+index 0000000..702d3f2
+--- /dev/null
++++ b/tests/pages/index.test.ts
+@@ -0,0 +1,41 @@
++import { test, expect, vi } from "vitest";
++import { experimental_AstroContainer as AstroContainer } from "astro/container";
++import IndexPage from "../../src/pages/index.astro";
++import { href } from "../../src/lib/brief";
++import { headings, headingsAt, innerOf, linksTo } from "../support/html";
++
++// Whether the content store is populated under Vitest depends on whether
++// `astro sync`/`astro check` has run in this checkout. Stand in for the store
++// only, as an empty collection, so the empty state is tested deterministically.
++vi.mock("astro:content", () => ({ getCollection: async () => [] }));
++
++async function render() {
++  const container = await AstroContainer.create();
++  return container.renderToString(IndexPage);
++}
++
++test("the home page with no brief has exactly one h1 reading No brief yet", async () => {
++  const html = await render();
++  expect(headingsAt(html, 1).map((h) => h.text)).toEqual(["No brief yet"]);
++});
++
++test("the home page with no brief passes no standfirst", async () => {
++  const html = await render();
++  expect(innerOf(html, "header")).not.toMatch(/<p\b/);
++});
++
++test("the home page keeps its empty-state message", async () => {
++  const html = await render();
++  expect(innerOf(html, "main")).toContain("Nothing here yet.");
++});
++
++test("the home page wordmark links home and is not inside a heading", async () => {
++  const html = await render();
++  const wordmark = linksTo(html, href("/")).filter((inner) =>
++    inner.includes("Sparky News"),
++  );
++  expect(wordmark).toHaveLength(1);
++  for (const heading of headings(html)) {
++    expect(heading.text).not.toContain("Sparky News");
++  }
++});
+diff --git a/tests/pages/index.with-brief.test.ts b/tests/pages/index.with-brief.test.ts
+new file mode 100644
+index 0000000..c85bae9
+--- /dev/null
++++ b/tests/pages/index.with-brief.test.ts
+@@ -0,0 +1,56 @@
++import { test, expect, vi } from "vitest";
++import { experimental_AstroContainer as AstroContainer } from "astro/container";
++import { headingsAt, innerOf } from "../support/html";
++import { story } from "../support/stories";
++
++const GENERATED_AT = "2026-11-09T12:00:00.000Z";
++
++// The content store is empty under Vitest. Stand in for the store only (the
++// filesystem-backed collection), so the page and src/lib/brief run for real.
++vi.mock("astro:content", () => ({
++  getCollection: async () => [
++    {
++      id: "2026-11-08",
++      collection: "digests",
++      data: {
++        date: "2026-11-08",
++        generatedAt: "2026-11-08T12:00:00.000Z",
++        windowHours: 36,
++        stories: [],
++      },
++    },
++    {
++      id: "2026-11-09",
++      collection: "digests",
++      data: {
++        date: "2026-11-09",
++        generatedAt: GENERATED_AT,
++        windowHours: 36,
++        stories: [story(1, GENERATED_AT), story(2, GENERATED_AT)],
++      },
++    },
++  ],
++}));
++
++async function render() {
++  const { default: IndexPage } = await import("../../src/pages/index.astro");
++  const container = await AstroContainer.create();
++  return container.renderToString(IndexPage);
++}
++
++test("the home page with a brief has exactly one h1 reading the newest brief's long date", async () => {
++  const html = await render();
++  expect(headingsAt(html, 1).map((h) => h.text)).toEqual([
++    "Monday, November 9, 2026",
++  ]);
++});
++
++test("the home page with a brief passes no standfirst", async () => {
++  const html = await render();
++  expect(innerOf(html, "header")).not.toMatch(/<p\b/);
++});
++
++test("the home page with a brief renders that brief's stories", async () => {
++  const html = await render();
++  expect(innerOf(html, "main")).toContain("Story 1");
++});
+diff --git a/tests/support/html.ts b/tests/support/html.ts
+new file mode 100644
+index 0000000..47f36de
+--- /dev/null
++++ b/tests/support/html.ts
+@@ -0,0 +1,48 @@
++/** Small helpers for asserting on rendered HTML strings. */
++
++export interface Heading {
++  level: number;
++  /** Text content with tags stripped and whitespace collapsed. */
++  text: string;
++  /** Raw inner HTML of the heading element. */
++  inner: string;
++}
++
++export function textOf(html: string): string {
++  return html
++    .replace(/<[^>]+>/g, " ")
++    .replace(/\s+/g, " ")
++    .trim();
++}
++
++/** Every h1–h6 in document order. */
++export function headings(html: string): Heading[] {
++  return [...html.matchAll(/<h([1-6])\b[^>]*>([\s\S]*?)<\/h\1>/g)].map((m) => ({
++    level: Number(m[1]),
++    text: textOf(m[2]),
++    inner: m[2],
++  }));
++}
++
++export function headingsAt(html: string, level: number): Heading[] {
++  return headings(html).filter((h) => h.level === level);
++}
++
++/** Inner HTML of the first <tag>…</tag>, or "" when the tag is absent. */
++export function innerOf(html: string, tag: string): string {
++  const match = html.match(new RegExp(`<${tag}\\b[^>]*>([\\s\\S]*?)</${tag}>`));
++  return match ? match[1] : "";
++}
++
++function escapeRegExp(text: string): string {
++  return text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
++}
++
++/** Inner HTML of every <a> whose href is exactly `target`. */
++export function linksTo(html: string, target: string): string[] {
++  const pattern = new RegExp(
++    `<a\\b[^>]*\\bhref="${escapeRegExp(target)}"[^>]*>([\\s\\S]*?)</a>`,
++    "g",
++  );
++  return [...html.matchAll(pattern)].map((m) => m[1]);
++}
+diff --git a/tests/support/stories.ts b/tests/support/stories.ts
+new file mode 100644
+index 0000000..877fbdd
+--- /dev/null
++++ b/tests/support/stories.ts
+@@ -0,0 +1,19 @@
++/** A digest story shaped like the entries in data/digests/*.json. */
++export function story(
++  i: number,
++  createdAt: string,
++  overrides: Record<string, unknown> = {},
++) {
++  return {
++    id: `s${i}`,
++    title: `Story ${i}`,
++    url: `https://example.com/${i}`,
++    canonicalUrl: `https://example.com/${i}`,
++    domain: "example.com",
++    createdAt,
++    appearances: [{ source: "hn", label: "HN", points: 100, comments: 10 }],
++    normalized: 0.5,
++    score: 1,
++    ...overrides,
++  };
++}

@@ -1,0 +1,13 @@
+{
+  "baseBranch": "claude/grab-skills-owned-repos-0dnrwu",
+  "commands": {
+    "test": "npm test",
+    "lint": null,
+    "typecheck": "npm run check",
+    "preview": "npm run dev -- --port 4321"
+  },
+  "previewUrl": "http://localhost:4321/sparky",
+  "testPaths": ["tests/", "**/*.test.*", "**/*.spec.*", "vitest.config.*", "vitest.setup.*"],
+  "paths": { "constants": "src/constants.ts", "shared": "src/lib/" },
+  "maxReviewRounds": 3
+}

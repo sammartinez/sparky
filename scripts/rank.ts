@@ -1,4 +1,5 @@
 import { createHash } from "node:crypto";
+import { VERSION_TOKEN_PATTERN } from "../src/constants.ts";
 import type { Appearance, RawItem, SourceId, Story } from "./types.ts";
 
 const GRAVITY = Number(process.env.GRAVITY ?? 1.8);
@@ -123,6 +124,19 @@ function jaccard(a: Set<string>, b: Set<string>): number {
   return shared / (a.size + b.size - shared);
 }
 
+/**
+ * The version numbers a title names, as one comparable key ("" when it names
+ * none). Read from the raw title: normalizeTitle would split "0.31" in two.
+ */
+function versionKey(title: string): string {
+  return [...new Set(title.match(VERSION_TOKEN_PATTERN))].sort().join();
+}
+
+/** "llm 0.30" and "llm 0.31" are two releases, however alike the titles look. */
+function versionsConflict(a: string, b: string): boolean {
+  return a !== "" && b !== "" && a !== b;
+}
+
 // ---------------------------------------------------------------------------
 // Per-source normalization. 400 HN points and 40 Lobsters upvotes are not the
 // same thing, so score each item against its own source's distribution in
@@ -130,14 +144,26 @@ function jaccard(a: Set<string>, b: Set<string>): number {
 // ---------------------------------------------------------------------------
 
 function percentileTable(items: RawItem[]): Map<SourceId, number[]> {
-  const table = new Map<SourceId, number[]>();
+  // One source can return the same story several times (overlapping HN
+  // queries, two Lobsters tags); it is still one peer, at its best points.
+  const bestPoints = new Map<SourceId, Map<string, number>>();
   for (const item of items) {
     if (item.points === null) continue;
-    const list = table.get(item.source) ?? [];
-    list.push(item.points);
-    table.set(item.source, list);
+    const byUrl = bestPoints.get(item.source) ?? new Map<string, number>();
+    const canonicalUrl = canonicalize(item.url);
+    byUrl.set(
+      canonicalUrl,
+      Math.max(byUrl.get(canonicalUrl) ?? item.points, item.points),
+    );
+    bestPoints.set(item.source, byUrl);
   }
-  for (const list of table.values()) list.sort((a, b) => a - b);
+  const table = new Map<SourceId, number[]>();
+  for (const [source, byUrl] of bestPoints) {
+    table.set(
+      source,
+      [...byUrl.values()].sort((a, b) => a - b),
+    );
+  }
   return table;
 }
 
@@ -226,18 +252,26 @@ export function rank(items: RawItem[]): Story[] {
   const merged = [...byUrl.values()].map((e) => ({
     ...e,
     tri: trigrams(normalizeTitle(e.title)),
+    versions: versionKey(e.title),
   }));
   merged.sort((a, b) => b.appearances.length - a.appearances.length);
 
   const kept: typeof merged = [];
   for (const entry of merged) {
-    const twin = kept.find((k) => jaccard(k.tri, entry.tri) >= TITLE_THRESHOLD);
+    const twin = kept.find(
+      (k) =>
+        jaccard(k.tri, entry.tri) >= TITLE_THRESHOLD &&
+        !versionsConflict(k.versions, entry.versions),
+    );
     if (!twin) {
       kept.push(entry);
       continue;
     }
     twin.title = bestTitle(twin.title, entry.title);
     twin.createdAt = Math.min(twin.createdAt, entry.createdAt);
+    // A twin kept under an unnumbered title takes on the first version it
+    // absorbs, so a later release cannot merge into it as well.
+    twin.versions ||= entry.versions;
     for (const [i, appearance] of entry.appearances.entries()) {
       if (twin.appearances.some((a) => a.label === appearance.label)) continue;
       twin.appearances.push(appearance);

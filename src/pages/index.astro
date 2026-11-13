@@ -1,7 +1,9 @@
 ---
 import Base from "../layouts/Base.astro";
 import BriefGrid from "../components/BriefGrid.astro";
-import { allDigests, formatDate, href } from "../lib/brief";
+import BriefNav from "../components/BriefNav.astro";
+import { HEADING_NO_BRIEF } from "../constants";
+import { allDigests, formatDate } from "../lib/brief";
 
 const digests = await allDigests();
 const today = digests[0];
@@ -13,7 +15,7 @@ const now = today ? new Date(today.data.generatedAt).getTime() : Date.now();
 
 <Base
   title="Sparky News — Today's AI brief"
-  standfirst={today ? formatDate(today.data.date) : "No brief yet"}
+  heading={today ? formatDate(today.data.date) : HEADING_NO_BRIEF}
 >
   {
     !today && (
@@ -37,16 +39,7 @@ const now = today ? new Date(today.data.generatedAt).getTime() : Date.now();
           windowHours={today.data.windowHours}
         />
 
-        <nav class="mt-10 flex items-center justify-between font-mono text-xs">
-          {previous ? (
-            <a href={href(`archive/${previous.id}`)} class="hover:text-accent">
-              ← {previous.data.date}
-            </a>
-          ) : (
-            <span />
-          )}
-          <a href={href("archive")} class="hover:text-accent">All briefs →</a>
-        </nav>
+        <BriefNav older={previous?.id} />
       </>
     )
   }
