@@ -9,6 +9,8 @@ import {
   distinctStories,
   hnHit,
   item,
+  LOBSTERS,
+  lobstersItem,
   normalizedByUrl,
 } from "../support/rawItems.ts";
 
@@ -189,16 +191,14 @@ test.each([
 
 /** Five HN and five Lobsters stories; one URL is on both. */
 function twoSourceBatch(): { hn: RawItem[]; lobsters: RawItem[] } {
-  const onLobsters = { source: "lobsters", label: "Lobsters" } as const;
   return {
     hn: [
       ...distinctStories("hn-only.example", 4),
       item({ url: "https://shared.example/post", title: "shared", points: 90 }),
     ],
     lobsters: [
-      ...distinctStories("lobsters-only.example", 4, onLobsters, 4),
-      item({
-        ...onLobsters,
+      ...distinctStories("lobsters-only.example", 4, LOBSTERS, 4),
+      lobstersItem({
         url: "https://www.shared.example/post/",
         title: "shared",
         points: 90,
@@ -216,7 +216,7 @@ function expectCountedOncePerSource(items: RawItem[]) {
     out
       .filter((s) => s.domain === domain)
       .map((s) => s.normalized)
-      .sort();
+      .sort((a, b) => a - b);
 
   // Five peers on each source: the four fillers sit at 0, 0.2, 0.4, 0.6 and
   // the shared story tops both tables.

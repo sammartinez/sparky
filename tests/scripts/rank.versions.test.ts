@@ -4,7 +4,7 @@
 import { test, expect } from "vitest";
 import { rank } from "../../scripts/rank.ts";
 import type { RawItem } from "../../scripts/types.ts";
-import { hnHit, item } from "../support/rawItems.ts";
+import { hnHit, item, lobstersItem } from "../support/rawItems.ts";
 
 const LLM_030 = hnHit(43990001, {
   title: "llm 0.30",
@@ -31,10 +31,6 @@ function fromFeed(original: RawItem, url: string): RawItem {
     comments: null,
     createdAt: original.createdAt,
   });
-}
-
-function onLobsters(overrides: Partial<RawItem>): RawItem {
-  return item({ source: "lobsters", label: "Lobsters", ...overrides });
 }
 
 /** Every input comes back as its own story: own title, own URL, one appearance. */
@@ -109,7 +105,7 @@ test("similar titles carrying the same dotted version still merge across outlets
       title: "Ollama v0.9.1 is out now",
       url: "https://ollama.example/blog/0-9-1",
     }),
-    onLobsters({
+    lobstersItem({
       title: "Ollama v0.9.1 is out now, with faster loads",
       url: "https://news.example/ollama-0-9-1",
     }),
@@ -129,7 +125,7 @@ test.each([
         title: "Anthropic releases Claude Opus 5 model",
         url: "https://verge.example/opus-5",
       }),
-      onLobsters({
+      lobstersItem({
         title: "Anthropic releases Claude Opus model",
         url: "https://techcrunch.example/opus",
       }),
@@ -138,6 +134,42 @@ test.each([
     expectOneStory([...pair.slice(rotate), ...pair.slice(0, rotate)]);
   },
 );
+
+test("an unnumbered story that absorbed one release does not absorb the next release too", () => {
+  const out = rank([
+    item({
+      title: "Anthropic releases Claude Opus model",
+      url: "https://verge.example/opus",
+    }),
+    lobstersItem({
+      title: "Anthropic releases Claude Opus 5 model",
+      url: "https://techcrunch.example/opus-5",
+    }),
+    item({
+      source: "rss",
+      label: "Simon Willison",
+      title: "Anthropic releases Claude Opus 6 model",
+      url: "https://simonwillison.net/2026/Nov/12/opus-6/",
+      points: null,
+      comments: null,
+    }),
+  ]);
+
+  expect(
+    out
+      .map((s) => ({
+        url: s.url,
+        labels: s.appearances.map((a) => a.label).sort(),
+      }))
+      .sort((a, b) => a.url.localeCompare(b.url)),
+  ).toEqual([
+    {
+      url: "https://simonwillison.net/2026/Nov/12/opus-6/",
+      labels: ["Simon Willison"],
+    },
+    { url: "https://verge.example/opus", labels: ["HN", "Lobsters"] },
+  ]);
+});
 
 // --- AC8: glued and v-prefixed versions -------------------------------------
 
@@ -153,7 +185,7 @@ test.each([
   (_form, earlier, later) => {
     expectSeparateStories([
       item({ title: earlier, url: "https://releases.example/earlier" }),
-      onLobsters({ title: later, url: "https://releases.example/later" }),
+      lobstersItem({ title: later, url: "https://releases.example/later" }),
     ]);
   },
 );

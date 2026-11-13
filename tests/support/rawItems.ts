@@ -66,6 +66,14 @@ export function hnHit(
   });
 }
 
+/** What marks an item as coming from Lobsters: spread into any fixture's overrides. */
+export const LOBSTERS = { source: "lobsters", label: "Lobsters" } as const;
+
+/** One Lobsters item, an hour old, unless overridden. */
+export function lobstersItem(overrides: Partial<RawItem> = {}): RawItem {
+  return item({ ...LOBSTERS, ...overrides });
+}
+
 /** The same item as `n` separate objects, as `n` overlapping queries return it. */
 export function copies(original: RawItem, n: number): RawItem[] {
   return Array.from({ length: n }, () => ({ ...original }));
