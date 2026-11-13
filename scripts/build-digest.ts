@@ -2,8 +2,10 @@ import chalk from "chalk";
 import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { fetchAll, WINDOW_HOURS } from "./sources.ts";
-import { rank, redecay } from "./rank.ts";
+import { rank } from "./rank.ts";
 import { prefilter } from "./filter.ts";
+import { mergeLineup } from "./lineup.ts";
+import { EMPTY_BRIEF_MESSAGE, LINEUP_STATUS } from "../src/constants.ts";
 import type { Digest } from "./types.ts";
 
 const DIGEST_DIR = join("data", "digests");
@@ -118,23 +120,19 @@ async function main() {
   const candidates = prefilter(fresh);
   console.log(chalk.dim(`${candidates.length} pass the keyword filter`));
 
-  // Stories carried over from an earlier run today were scored on that run's
-  // clock. Age them forward so they compete fairly with the new candidates.
-  const now = Date.now();
-  const carried = existing
-    ? existing.stories.map((s) =>
-        redecay(s, new Date(existing.generatedAt).getTime(), now),
-      )
-    : [];
+  const { status, stories } = mergeLineup(
+    existing,
+    candidates,
+    Date.now(),
+    KEEP,
+  );
 
-  const stories = [...carried, ...candidates]
-    .sort((a, b) => b.score - a.score)
-    .slice(0, KEEP);
+  if (status === LINEUP_STATUS.EMPTY) {
+    console.error(chalk.red(EMPTY_BRIEF_MESSAGE));
+    process.exit(1);
+  }
 
-  if (
-    existing &&
-    stories.map((s) => s.id).join() === existing.stories.map((s) => s.id).join()
-  ) {
+  if (status === LINEUP_STATUS.UNCHANGED) {
     console.log(
       chalk.yellow("\nNo change to today's lineup; nothing to publish."),
     );
