@@ -1,0 +1,42 @@
+---
+import {
+  ALL_BRIEFS_LABEL,
+  NEXT_ARROW,
+  PREV_ARROW,
+  ROUTE_ARCHIVE,
+} from "../constants";
+import { briefHref, formatShortDate, href } from "../lib/brief";
+
+interface Props {
+  /** ISO date of the brief before this one, when there is one. */
+  older?: string | null;
+  /** ISO date of the brief after this one, when there is one. */
+  newer?: string | null;
+}
+
+const { older, newer } = Astro.props;
+
+const linkClass = "hover:text-accent inline-flex min-h-11 items-center";
+---
+
+<nav class="mt-10 grid grid-cols-[1fr_auto_1fr] items-center gap-x-4 font-mono text-xs">
+  {
+    older ? (
+      <a href={briefHref(older)} class:list={[linkClass, "justify-self-start"]}>
+        {PREV_ARROW} {formatShortDate(older)}
+      </a>
+    ) : (
+      <span />
+    )
+  }
+  <a href={href(ROUTE_ARCHIVE)} class={linkClass}>{ALL_BRIEFS_LABEL}</a>
+  {
+    newer ? (
+      <a href={briefHref(newer)} class:list={[linkClass, "justify-self-end"]}>
+        {formatShortDate(newer)} {NEXT_ARROW}
+      </a>
+    ) : (
+      <span />
+    )
+  }
+</nav>
