@@ -1,25 +1,234 @@
 {
   "date": "2026-11-12",
-  "generatedAt": "2026-11-12T19:22:13.063Z",
+  "generatedAt": "2026-11-13T05:04:08.638Z",
   "windowHours": 36,
   "stories": [
     {
-      "id": "a88bddb17214",
-      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
-      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-      "canonicalUrl": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-      "domain": "huggingface.co",
-      "createdAt": "2026-11-12T19:07:35.000Z",
+      "id": "d3d3421ae28d",
+      "title": "Nvidia employees petition to bring back Jensen Huang",
+      "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
+      "canonicalUrl": "https://wired.com/story/nvidia-employees-petition-for-jensen-huangs-return",
+      "domain": "wired.com",
+      "createdAt": "2026-11-13T02:16:24.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 262,
+          "comments": 211,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50477231"
+        }
+      ],
+      "normalized": 0.799,
+      "score": 4.751
+    },
+    {
+      "id": "218c8f96d3aa",
+      "title": "BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model",
+      "url": "https://arxiv.org/abs/2611.14815",
+      "canonicalUrl": "https://arxiv.org/abs/2611.14815",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-13T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 19,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.14815"
+        }
+      ],
+      "normalized": 0.808,
+      "score": 2.39
+    },
+    {
+      "id": "bdc7bca3c70f",
+      "title": "Duo: A Reciprocal World Model for Full-Duplex Interaction",
+      "url": "https://arxiv.org/abs/2611.15131",
+      "canonicalUrl": "https://arxiv.org/abs/2611.15131",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-13T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 7,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.15131"
+        }
+      ],
+      "normalized": 0.538,
+      "score": 1.593
+    },
+    {
+      "id": "f980cc1f1e21",
+      "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
+      "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+      "canonicalUrl": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+      "domain": "edge0.ai",
+      "createdAt": "2026-11-12T23:06:17.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 145,
+          "comments": 36,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50475713"
+        }
+      ],
+      "normalized": 0.664,
+      "score": 1.586
+    },
+    {
+      "id": "88177097345d",
+      "title": "G-STAR: Group-Scaled Token Capacity for Deeply Compressed Autoregressive Generation",
+      "url": "https://arxiv.org/abs/2611.13004",
+      "canonicalUrl": "https://arxiv.org/abs/2611.13004",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-13T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 6,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.13004"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 1.48
+    },
+    {
+      "id": "d096a8a420fb",
+      "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
+      "url": "https://unemploymentlabs.com/checkpoint-forensics",
+      "canonicalUrl": "https://unemploymentlabs.com/checkpoint-forensics",
+      "domain": "unemploymentlabs.com",
+      "createdAt": "2026-11-12T21:56:11.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 225,
+          "comments": 60,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50474883"
+        }
+      ],
+      "normalized": 0.752,
+      "score": 1.403
+    },
+    {
+      "id": "26a6fb343a8e",
+      "title": "Why You Should Expect an AI Crash",
+      "url": "https://www.economist.com/leaders/2026/11/12/why-you-should-expect-an-ai-crash",
+      "canonicalUrl": "https://economist.com/leaders/2026/11/12/why-you-should-expect-an-ai-crash",
+      "domain": "economist.com",
+      "createdAt": "2026-11-12T23:08:31.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 89,
+          "comments": 75,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50475735"
+        }
+      ],
+      "normalized": 0.53,
+      "score": 1.277
+    },
+    {
+      "id": "1dba3a3e5ab0",
+      "title": "Foundation Models framework",
+      "url": "https://developer.apple.com/foundation-models-framework/",
+      "canonicalUrl": "https://developer.apple.com/foundation-models-framework",
+      "domain": "developer.apple.com",
+      "createdAt": "2026-11-12T21:13:26.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 169,
+          "comments": 22,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50474361"
+        }
+      ],
+      "normalized": 0.718,
+      "score": 1.171
+    },
+    {
+      "id": "9f0b516152c1",
+      "title": "llm-gemini 0.37",
+      "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+      "canonicalUrl": "https://simonwillison.net/2026/Nov/12/llm-gemini",
+      "domain": "simonwillison.net",
+      "createdAt": "2026-11-12T22:55:19.000Z",
       "appearances": [
         {
           "source": "rss",
-          "label": "Hugging Face",
+          "label": "Simon Willison",
           "points": null,
           "comments": null
         }
       ],
       "normalized": 0.5,
-      "score": 11.673
+      "score": 1.146
+    },
+    {
+      "id": "10ab37804642",
+      "title": "AI is turning Apple's app review process into a nightmare for synth developers",
+      "url": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
+      "canonicalUrl": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
+      "domain": "synthanatomy.com",
+      "createdAt": "2026-11-12T21:09:49.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 137,
+          "comments": 126,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50474311"
+        }
+      ],
+      "normalized": 0.631,
+      "score": 1.017
+    },
+    {
+      "id": "d40fca9fd5e1",
+      "title": "Gemini 4 Hydrogen and Orchestrator",
+      "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+      "canonicalUrl": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity",
+      "domain": "antigravity.google",
+      "createdAt": "2026-11-12T18:52:01.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 351,
+          "comments": 94,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50472260"
+        }
+      ],
+      "normalized": 0.846,
+      "score": 0.937
+    },
+    {
+      "id": "c0e992001b85",
+      "title": "Former Nvidia CEO Huang had a relationship with a second employee, sources say",
+      "url": "https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/",
+      "canonicalUrl": "https://reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12",
+      "domain": "reuters.com",
+      "createdAt": "2026-11-12T19:51:33.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 165,
+          "comments": 210,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50473190"
+        }
+      ],
+      "normalized": 0.691,
+      "score": 0.892
     },
     {
       "id": "8fdb0296ea11",
@@ -38,192 +247,15 @@
         }
       ],
       "normalized": 0.779,
-      "score": 8.89
+      "score": 0.766
     },
     {
-      "id": "a8d5fa7d24b3",
-      "title": "Introducing Gemini 4 Hydrogen",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
-      "canonicalUrl": "https://deepmind.google/blog/introducing-gemini-4-hydrogen",
-      "domain": "deepmind.google",
-      "createdAt": "2026-11-12T18:00:50.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "Google DeepMind",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 5.655
-    },
-    {
-      "id": "0667a519c650",
-      "title": "I'm making LLMs work on small and old devices",
-      "url": "https://github.com/hyperionaidev/smolmaxxing/",
-      "canonicalUrl": "https://github.com/hyperionaidev/smolmaxxing",
-      "domain": "github.com",
-      "createdAt": "2026-11-12T15:23:10.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 151,
-          "comments": 58,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50468888"
-        }
-      ],
-      "normalized": 0.669,
-      "score": 2.672
-    },
-    {
-      "id": "22c8ae7ff3be",
-      "title": "libreagi - save OS models",
-      "url": "https://libreagi.com/",
-      "canonicalUrl": "https://libreagi.com/",
-      "domain": "libreagi.com",
-      "createdAt": "2026-11-12T14:11:58.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 87,
-          "comments": 19,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50467439"
-        },
-        {
-          "source": "lobsters",
-          "label": "Lobsters",
-          "points": 7,
-          "comments": 6,
-          "discussionUrl": "https://lobste.rs/s/7c4iar/libreagi_save_os_models"
-        }
-      ],
-      "normalized": 0.552,
-      "score": 2.387
-    },
-    {
-      "id": "672380229fb0",
-      "title": "Jensen Huang resigns as Nvidia CEO immediately",
-      "url": "https://www.reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12/",
-      "canonicalUrl": "https://reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12",
-      "domain": "reuters.com",
-      "createdAt": "2026-11-12T13:56:11.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 373,
-          "comments": 14,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50467132"
-        }
-      ],
-      "normalized": 0.869,
-      "score": 2.349
-    },
-    {
-      "id": "1a1f36cb24e7",
-      "title": "Nvidia CEO Jensen Huang resigns after reports of second affair deepened scandal",
-      "url": "https://www.bbc.co.uk/news/live/c6zjry11v8w1t",
-      "canonicalUrl": "https://bbc.co.uk/news/live/c6zjry11v8w1t",
-      "domain": "bbc.co.uk",
-      "createdAt": "2026-11-12T13:56:38.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 168,
-          "comments": 4,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50467139"
-        }
-      ],
-      "normalized": 0.697,
-      "score": 1.886
-    },
-    {
-      "id": "f101ffad2bb3",
-      "title": "Anthropic IPO",
-      "url": "https://ipo.anthropic.com/us/",
-      "canonicalUrl": "https://ipo.anthropic.com/us",
-      "domain": "ipo.anthropic.com",
-      "createdAt": "2026-11-12T11:46:41.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 677,
-          "comments": 686,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50465829"
-        }
-      ],
-      "normalized": 0.945,
-      "score": 1.614
-    },
-    {
-      "id": "90eda980a32c",
-      "title": "Nvidia CEO Jensen Huang resigns after reports of extramarital relationships",
-      "url": "https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-resigns-reports-extramarital-relationships-rcna608402",
-      "canonicalUrl": "https://nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-resigns-reports-extramarital-relationships-rcna608402",
-      "domain": "nbcnews.com",
-      "createdAt": "2026-11-12T14:00:54.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 72,
-          "comments": 2,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50467191"
-        }
-      ],
-      "normalized": 0.49,
-      "score": 1.349
-    },
-    {
-      "id": "ca1478ab4f6d",
-      "title": "Show HN: AgentRun – open-source, Self-improving Managed Agents",
-      "url": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
-      "canonicalUrl": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
-      "domain": "github.com",
-      "createdAt": "2026-11-12T18:15:48.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 26,
-          "comments": 1,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50471650"
-        }
-      ],
-      "normalized": 0.097,
-      "score": 1.255
-    },
-    {
-      "id": "52709dee410a",
-      "title": "AI Models Know What Women, Peace and Security Is. They Just Don't Bring It Up",
-      "url": "https://blog.cip.org/p/ai-models-know-what-women-peace-and",
-      "canonicalUrl": "https://blog.cip.org/p/ai-models-know-what-women-peace-and",
-      "domain": "blog.cip.org",
-      "createdAt": "2026-11-12T17:32:49.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 19,
-          "comments": 20,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50470975"
-        }
-      ],
-      "normalized": 0.069,
-      "score": 0.617
-    },
-    {
-      "id": "0990939c7d6e",
-      "title": "Holiday Extras is rethinking what it can build with Codex",
-      "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
-      "canonicalUrl": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "id": "5b0f73df89a6",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "url": "https://openai.com/business/customer-stories/amplitude",
+      "canonicalUrl": "https://openai.com/business/customer-stories/amplitude",
       "domain": "openai.com",
-      "createdAt": "2026-11-12T09:30:00.000Z",
+      "createdAt": "2026-11-12T20:00:00.000Z",
       "appearances": [
         {
           "source": "rss",
@@ -233,64 +265,25 @@
         }
       ],
       "normalized": 0.5,
-      "score": 0.582
+      "score": 0.66
     },
     {
-      "id": "db9c85cb5643",
-      "title": "Show HN: AI Red Lines – write down what would make you act on AI",
-      "url": "https://yourairedlines.com",
-      "canonicalUrl": "https://yourairedlines.com/",
-      "domain": "yourairedlines.com",
-      "createdAt": "2026-11-12T14:31:21.000Z",
+      "id": "a88bddb17214",
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "canonicalUrl": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "domain": "huggingface.co",
+      "createdAt": "2026-11-12T19:07:35.000Z",
       "appearances": [
         {
-          "source": "hn",
-          "label": "HN",
-          "points": 28,
-          "comments": 18,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50467880"
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
         }
       ],
-      "normalized": 0.117,
-      "score": 0.367
-    },
-    {
-      "id": "9d5773919c05",
-      "title": "SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering",
-      "url": "https://arxiv.org/abs/2611.13410",
-      "canonicalUrl": "https://arxiv.org/abs/2611.13410",
-      "domain": "arxiv.org",
-      "createdAt": "2026-11-12T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 30,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2611.13410"
-        }
-      ],
-      "normalized": 0.895,
-      "score": 0.361
-    },
-    {
-      "id": "cad861d1e8c0",
-      "title": "Jensen Huang Was the Face of the A.I. Boom Powering the U.S. Economy",
-      "url": "https://www.nytimes.com/2026/11/12/business/economy/jensen-huang-economy-nvidia-ai.html",
-      "canonicalUrl": "https://nytimes.com/2026/11/12/business/economy/jensen-huang-economy-nvidia-ai.html",
-      "domain": "nytimes.com",
-      "createdAt": "2026-11-12T15:24:21.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 22,
-          "comments": 13,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50468904"
-        }
-      ],
-      "normalized": 0.083,
-      "score": 0.332
+      "normalized": 0.5,
+      "score": 0.576
     }
   ]
 }
