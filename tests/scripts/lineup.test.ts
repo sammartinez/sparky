@@ -5,9 +5,9 @@ import { test, expect } from "vitest";
 import { mergeLineup, type Lineup } from "../../scripts/lineup.ts";
 import { redecay } from "../../scripts/rank.ts";
 import type { Story } from "../../scripts/types.ts";
+import { HOUR_MS } from "../support/rawItems.ts";
 import { digest, story } from "../support/stories.ts";
 
-const HOUR_MS = 3_600_000;
 /** When this morning's brief was generated, and so when its stories were scored. */
 const GENERATED_AT = "2026-11-13T08:00:00.000Z";
 const SCORED_AT = Date.parse(GENERATED_AT);
