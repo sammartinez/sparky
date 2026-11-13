@@ -57,3 +57,12 @@ export const MONTH_KEY_LENGTH = 7;
 // "6" of "GPT-6", the "4" of "Llama4". Global, for String.prototype.match;
 // never call .test() or .exec() on it (they keep lastIndex between calls).
 export const VERSION_TOKEN_PATTERN = /\d+(?:\.\d+)*/g;
+// What the lineup merge decided: write the brief, leave today's brief alone,
+// or refuse because there is nothing to write and no brief to keep.
+export const LINEUP_STATUS = {
+  PUBLISH: "publish",
+  UNCHANGED: "unchanged",
+  EMPTY: "empty",
+} as const;
+export const EMPTY_BRIEF_MESSAGE =
+  "Every story was filtered out and no brief exists for today. Refusing to write an empty brief.";

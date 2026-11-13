@@ -1,7 +1,8 @@
 /** RawItem fixtures for the rank pipeline, shaped like what scripts/sources.ts emits. */
 import type { RawItem, Story } from "../../scripts/types.ts";
 
-const HOUR_MS = 3_600_000;
+/** One hour in epoch milliseconds, for any fixture that places a story in time. */
+export const HOUR_MS = 3_600_000;
 const NOW = Date.now();
 
 /** One HN item, an hour old, unless overridden. */
