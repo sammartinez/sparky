@@ -53,3 +53,7 @@ export const NO_BRIEFS_MESSAGE = "No briefs archived yet.";
 export const MONTH_KEY_LENGTH = 7;
 
 // Pipeline
+// A version number anywhere in a title: "0.31", the "0.9.1" of "v0.9.1", the
+// "6" of "GPT-6", the "4" of "Llama4". Global, for String.prototype.match;
+// never call .test() or .exec() on it (they keep lastIndex between calls).
+export const VERSION_TOKEN_PATTERN = /\d+(?:\.\d+)*/g;
