@@ -1,0 +1,505 @@
+diff --git a/src/components/StoryCard.astro b/src/components/StoryCard.astro
+index 904001f..b6f7742 100644
+--- a/src/components/StoryCard.astro
++++ b/src/components/StoryCard.astro
+@@ -1,4 +1,5 @@
+ ---
++import { OPENS_IN_NEW_TAB } from "../constants";
+ import { orderedAppearances, relativeAge } from "../lib/brief";
+ import StoryMeta from "./StoryMeta.astro";
+ 
+@@ -40,6 +41,8 @@ const badges = orderedAppearances(appearances);
+ const barWidth = Math.max(4, Math.round(normalized * 100));
+ const rankLabel = String(rank).padStart(2, "0");
+ const age = relativeAge(createdAt, now);
++const titleLinkClass =
++  "decoration-muted hover:text-accent hover:decoration-accent underline decoration-1 transition-colors";
+ ---
+ 
+ {
+@@ -57,10 +60,10 @@ const age = relativeAge(createdAt, now);
+             href={url}
+             target="_blank"
+             rel="noopener noreferrer"
+-            class="decoration-rule hover:decoration-accent underline decoration-1 underline-offset-[3px] transition-colors"
++            class={`${titleLinkClass} underline-offset-[3px]`}
+           >
+-            {title}
+-            <span class="sr-only">(opens in new tab)</span>
++            {title}{" "}
++            <span class="sr-only">{OPENS_IN_NEW_TAB}</span>
+           </a>
+         </h3>
+         <StoryMeta url={url} domain={domain} age={age} badges={badges} compact class="mt-2" />
+@@ -68,7 +71,7 @@ const age = relativeAge(createdAt, now);
+     </div>
+   ) : (
+     <article
+-      class={`border-rule bg-panel relative rounded-xl border ${
++      class={`border-rule bg-panel relative flex flex-col rounded-xl border ${
+         variant === "feature" ? "col-span-6 px-7 py-8" : "col-span-6 px-6 py-6 sm:col-span-3"
+       }`}
+     >
+@@ -79,7 +82,7 @@ const age = relativeAge(createdAt, now);
+         <span class="bg-accent block h-full" style={`width:${barWidth}%`} />
+       </span>
+       <h2
+-        class={`font-display font-medium leading-tight ${
++        class={`font-display mb-4 font-medium leading-tight ${
+           variant === "feature" ? "mt-4 text-3xl sm:text-[2.1rem]" : "mt-4 text-xl sm:text-2xl"
+         }`}
+       >
+@@ -87,13 +90,13 @@ const age = relativeAge(createdAt, now);
+           href={url}
+           target="_blank"
+           rel="noopener noreferrer"
+-          class="decoration-rule hover:decoration-accent underline decoration-1 underline-offset-4 transition-colors"
++          class={`${titleLinkClass} underline-offset-4`}
+         >
+-          {title}
+-          <span class="sr-only">(opens in new tab)</span>
++          {title}{" "}
++          <span class="sr-only">{OPENS_IN_NEW_TAB}</span>
+         </a>
+       </h2>
+-      <StoryMeta url={url} domain={domain} age={age} badges={badges} class="border-rule mt-4 border-t pt-3.5" />
++      <StoryMeta url={url} domain={domain} age={age} badges={badges} class="border-rule mt-auto border-t pt-3.5" />
+     </article>
+   )
+ }
+diff --git a/src/components/StoryMeta.astro b/src/components/StoryMeta.astro
+index 3e02af1..0049a27 100644
+--- a/src/components/StoryMeta.astro
++++ b/src/components/StoryMeta.astro
+@@ -1,4 +1,6 @@
+ ---
++import { OPENS_IN_NEW_TAB } from "../constants";
++
+ /** The domain · source badges · corroboration · age row under a story title. */
+ interface Props {
+   url: string;
+@@ -14,8 +16,8 @@ const { url, domain, age, badges, compact = false, class: className = "" } = Ast
+ ---
+ 
+ <div
+-  class={`flex flex-wrap items-center gap-x-2 font-mono ${
+-    compact ? "gap-y-1.5 text-[0.64rem]" : "gap-y-2 text-[0.66rem]"
++  class={`flex flex-wrap items-center gap-x-2 font-mono text-xs ${
++    compact ? "gap-y-1.5" : "gap-y-2"
+   } ${className}`}
+ >
+   <span class="text-muted">{domain}</span>
+@@ -25,13 +27,13 @@ const { url, domain, age, badges, compact = false, class: className = "" } = Ast
+         href={a.discussionUrl ?? url}
+         target="_blank"
+         rel="noopener noreferrer"
+-        class={`border-rule text-muted hover:border-accent hover:text-accent inline-flex items-center border px-1.5 py-0.5 no-underline transition-colors ${
++        class={`border-rule text-muted hover:border-accent hover:text-accent inline-flex min-h-6 items-center border px-1.5 py-0.5 no-underline transition-colors ${
+           compact ? "gap-1" : "gap-1.5"
+         }`}
+       >
+         <span>{a.label}</span>
+-        {a.points !== null && <span class="tabular-nums opacity-70">{a.points}</span>}
+-        <span class="sr-only">(opens in new tab)</span>
++        {a.points !== null && <span class="tabular-nums">{a.points}</span>}
++        <span class="sr-only">{OPENS_IN_NEW_TAB}</span>
+       </a>
+     ))
+   }
+diff --git a/src/constants.ts b/src/constants.ts
+index c735b33..64c0c7e 100644
+--- a/src/constants.ts
++++ b/src/constants.ts
+@@ -15,6 +15,7 @@ export const HEADING_NO_BRIEF = "No brief yet";
+ export const ALSO_TODAY_HEADING = "Also today";
+ 
+ // Story card
++export const OPENS_IN_NEW_TAB = "(opens in new tab)";
+ 
+ // Navigation
+ 
+diff --git a/tests/components/StoryCard.layout.test.ts b/tests/components/StoryCard.layout.test.ts
+new file mode 100644
+index 0000000..59f1701
+--- /dev/null
++++ b/tests/components/StoryCard.layout.test.ts
+@@ -0,0 +1,80 @@
++import { test, expect } from "vitest";
++import { experimental_AstroContainer as AstroContainer } from "astro/container";
++import StoryCard from "../../src/components/StoryCard.astro";
++import { classesOfParentOf, elements } from "../support/html";
++import { STORY_DOMAIN, storyCardProps } from "../support/storyCard";
++
++function baseProps(overrides: Record<string, unknown> = {}) {
++  return storyCardProps({ variant: "grid", ...overrides });
++}
++
++async function render(props: Record<string, unknown>) {
++  const container = await AstroContainer.create();
++  return container.renderToString(StoryCard, { props });
++}
++
++/** Classes of the metadata row: the element whose first child is the domain. */
++function metaRow(html: string): string[] {
++  return classesOfParentOf(html, "div", STORY_DOMAIN);
++}
++
++test("the grid card lays its content out as a column", async () => {
++  const html = await render(baseProps());
++  const [card] = elements(html, "article");
++
++  expect(card.classes).toContain("flex");
++  expect(card.classes).toContain("flex-col");
++});
++
++test("the grid card pushes its metadata row to the bottom edge", async () => {
++  const html = await render(baseProps());
++
++  expect(metaRow(html)).toContain("mt-auto");
++});
++
++test("the grid card's metadata row has no second top margin fighting the push to the bottom", async () => {
++  const html = await render(baseProps());
++  const margins = metaRow(html).filter((c) => /^-?mt-/.test(c));
++
++  expect(margins).toEqual(["mt-auto"]);
++});
++
++test("the grid card's metadata row keeps its top rule and the padding above it", async () => {
++  const html = await render(baseProps());
++  const row = metaRow(html);
++
++  expect(row).toEqual(
++    expect.arrayContaining(["border-rule", "border-t", "pt-3.5"]),
++  );
++});
++
++test("the grid card still has the half-width column span and its padding", async () => {
++  const html = await render(baseProps());
++  const [card] = elements(html, "article");
++
++  expect(card.classes).toEqual(
++    expect.arrayContaining([
++      "col-span-6",
++      "sm:col-span-3",
++      "px-6",
++      "py-6",
++      "relative",
++    ]),
++  );
++});
++
++test("the grid card's rank number renders exactly as before", async () => {
++  const html = await render(baseProps({ rank: 3 }));
++
++  expect(html).toContain(
++    '<span class="bg-accent text-paper absolute -top-3.5 left-4 px-2.5 py-1 font-mono text-xs tabular-nums">03</span>',
++  );
++});
++
++test("the grid card's rank bar renders exactly as before", async () => {
++  const html = await render(baseProps({ normalized: 0.6 }));
++
++  expect(html).toMatch(
++    /<span class="bg-rule mt-2 block h-0\.75 w-full overflow-hidden rounded-full">\s*<span class="bg-accent block h-full" style="width:60%"><\/span>\s*<\/span>/,
++  );
++});
+diff --git a/tests/components/StoryCard.title.test.ts b/tests/components/StoryCard.title.test.ts
+new file mode 100644
+index 0000000..25ebfb2
+--- /dev/null
++++ b/tests/components/StoryCard.title.test.ts
+@@ -0,0 +1,68 @@
++import { describe, test, expect } from "vitest";
++import { experimental_AstroContainer as AstroContainer } from "astro/container";
++import StoryCard from "../../src/components/StoryCard.astro";
++import { anchorsTo, readText } from "../support/html";
++import { STORY_URL, storyCardProps } from "../support/storyCard";
++
++/** The badge has its own discussion url, so the title is the only link to STORY_URL. */
++function baseProps(overrides: Record<string, unknown> = {}) {
++  return storyCardProps({
++    appearances: [
++      {
++        source: "hn",
++        label: "HN",
++        points: 150,
++        comments: 40,
++        discussionUrl: "https://news.ycombinator.com/item?id=1",
++      },
++    ],
++    ...overrides,
++  });
++}
++
++async function titleLink(props: Record<string, unknown>) {
++  const container = await AstroContainer.create();
++  const html = await container.renderToString(StoryCard, { props });
++  const links = anchorsTo(html, STORY_URL);
++  expect(links).toHaveLength(1);
++  return links[0];
++}
++
++describe.each(["feature", "grid", "compact"])("%s variant", (variant) => {
++  test("the title link is underlined at rest in the muted colour", async () => {
++    const link = await titleLink(baseProps({ variant }));
++
++    expect(link.classes).toContain("underline");
++    expect(link.classes).toContain("decoration-muted");
++    expect(link.classes).not.toContain("decoration-rule");
++  });
++
++  test("the title text and its underline turn the accent colour on hover", async () => {
++    const link = await titleLink(baseProps({ variant }));
++
++    expect(link.classes).toContain("hover:text-accent");
++    expect(link.classes).toContain("hover:decoration-accent");
++  });
++
++  test("the title link reads as the title, a space, then the new-tab note", async () => {
++    const link = await titleLink(baseProps({ variant }));
++
++    expect(readText(link.inner)).toBe("A very good story (opens in new tab)");
++  });
++
++  test("the new-tab note stays screen-reader only, after a single whitespace character", async () => {
++    const link = await titleLink(baseProps({ variant }));
++
++    expect(link.inner).toMatch(
++      /A very good story\s<span class="sr-only">\(opens in new tab\)<\/span>/,
++    );
++  });
++});
++
++test("a title that ends in punctuation is still separated from the new-tab note", async () => {
++  const link = await titleLink(
++    baseProps({ title: "Is this the end?", variant: "grid" }),
++  );
++
++  expect(readText(link.inner)).toBe("Is this the end? (opens in new tab)");
++});
+diff --git a/tests/components/StoryMeta.test.ts b/tests/components/StoryMeta.test.ts
+new file mode 100644
+index 0000000..def0b74
+--- /dev/null
++++ b/tests/components/StoryMeta.test.ts
+@@ -0,0 +1,91 @@
++import { describe, test, expect } from "vitest";
++import { experimental_AstroContainer as AstroContainer } from "astro/container";
++import StoryMeta from "../../src/components/StoryMeta.astro";
++import { anchorsTo, classesOfParentOf, elements } from "../support/html";
++
++const STORY_URL = "https://example.com/story";
++const HN_URL = "https://news.ycombinator.com/item?id=1";
++const LOBSTERS_URL = "https://lobste.rs/s/abc";
++const DOMAIN = "example.com";
++
++function baseProps(overrides: Record<string, unknown> = {}) {
++  return {
++    url: STORY_URL,
++    domain: DOMAIN,
++    age: "2h ago",
++    badges: [
++      { label: "HN", points: 150, discussionUrl: HN_URL },
++      { label: "Lobsters", points: 80, discussionUrl: LOBSTERS_URL },
++    ],
++    ...overrides,
++  };
++}
++
++async function render(props: Record<string, unknown>) {
++  const container = await AstroContainer.create();
++  return container.renderToString(StoryMeta, { props });
++}
++
++/** Every class used anywhere in the rendered row. */
++function allClasses(html: string): string[] {
++  return [...html.matchAll(/\bclass="([^"]*)"/g)].flatMap((m) =>
++    m[1].split(/\s+/).filter(Boolean),
++  );
++}
++
++const variants = [
++  { name: "default", compact: false },
++  { name: "compact", compact: true },
++];
++
++describe.each(variants)("$name variant", ({ compact }) => {
++  test("the row sets its text at 12px", async () => {
++    const html = await render(baseProps({ compact }));
++    expect(classesOfParentOf(html, "div", DOMAIN)).toContain("text-xs");
++  });
++
++  test("nothing in the row uses a custom font size below 12px", async () => {
++    const html = await render(baseProps({ compact }));
++    const customSizes = allClasses(html).filter((c) =>
++      /^text-\[[\d.]+(rem|em|px)\]$/.test(c),
++    );
++    expect(customSizes).toEqual([]);
++  });
++
++  test("every source badge link is at least 24px tall and centres its content", async () => {
++    const html = await render(baseProps({ compact }));
++    const badges = [
++      ...anchorsTo(html, HN_URL),
++      ...anchorsTo(html, LOBSTERS_URL),
++    ];
++
++    expect(badges).toHaveLength(2);
++    for (const badge of badges) {
++      expect(badge.classes).toEqual(
++        expect.arrayContaining(["min-h-6", "inline-flex", "items-center"]),
++      );
++    }
++  });
++
++  test("the points number is shown in tabular figures and is not dimmed", async () => {
++    const html = await render(baseProps({ compact }));
++    const [badge] = anchorsTo(html, HN_URL);
++    const points = elements(badge.inner, "span").find(
++      (s) => s.inner.trim() === "150",
++    );
++
++    expect(points).toBeDefined();
++    expect(points!.classes).toContain("tabular-nums");
++    expect(points!.classes.filter((c) => c.includes("opacity-"))).toEqual([]);
++    // No colour of its own either: it inherits the badge's muted colour.
++    expect(points!.classes.filter((c) => c.includes("/"))).toEqual([]);
++  });
++});
++
++test("a class passed by the parent is added to the row without replacing its 12px size", async () => {
++  const html = await render(baseProps({ class: "mt-auto" }));
++  const row = classesOfParentOf(html, "div", DOMAIN);
++
++  expect(row).toContain("mt-auto");
++  expect(row).toContain("text-xs");
++});
+diff --git a/tests/support/html.ts b/tests/support/html.ts
+index 47f36de..5e8a9ab 100644
+--- a/tests/support/html.ts
++++ b/tests/support/html.ts
+@@ -8,13 +8,18 @@ export interface Heading {
+   inner: string;
+ }
+ 
+-export function textOf(html: string): string {
++/** Removes tags, putting `gap` where each one was, and collapses whitespace. */
++function stripTags(html: string, gap: string): string {
+   return html
+-    .replace(/<[^>]+>/g, " ")
++    .replace(/<[^>]+>/g, gap)
+     .replace(/\s+/g, " ")
+     .trim();
+ }
+ 
++export function textOf(html: string): string {
++  return stripTags(html, " ");
++}
++
+ /** Every h1–h6 in document order. */
+ export function headings(html: string): Heading[] {
+   return [...html.matchAll(/<h([1-6])\b[^>]*>([\s\S]*?)<\/h\1>/g)].map((m) => ({
+@@ -30,8 +35,7 @@ export function headingsAt(html: string, level: number): Heading[] {
+ 
+ /** Inner HTML of the first <tag>…</tag>, or "" when the tag is absent. */
+ export function innerOf(html: string, tag: string): string {
+-  const match = html.match(new RegExp(`<${tag}\\b[^>]*>([\\s\\S]*?)</${tag}>`));
+-  return match ? match[1] : "";
++  return elements(html, tag)[0]?.inner ?? "";
+ }
+ 
+ function escapeRegExp(text: string): string {
+@@ -40,9 +44,61 @@ function escapeRegExp(text: string): string {
+ 
+ /** Inner HTML of every <a> whose href is exactly `target`. */
+ export function linksTo(html: string, target: string): string[] {
+-  const pattern = new RegExp(
+-    `<a\\b[^>]*\\bhref="${escapeRegExp(target)}"[^>]*>([\\s\\S]*?)</a>`,
+-    "g",
++  return anchorsTo(html, target).map((a) => a.inner);
++}
++
++export interface Element {
++  /** Raw attribute text of the opening tag. */
++  attrs: string;
++  /** The class attribute split into utilities; [] when there is none. */
++  classes: string[];
++  /** Raw inner HTML. */
++  inner: string;
++}
++
++function classesIn(attrs: string): string[] {
++  const match = attrs.match(/\bclass="([^"]*)"/);
++  return match ? match[1].split(/\s+/).filter(Boolean) : [];
++}
++
++/**
++ * Every <tag>…</tag> in document order. Matches up to the first closing tag,
++ * so use it on elements that do not nest inside themselves.
++ */
++export function elements(html: string, tag: string): Element[] {
++  const pattern = new RegExp(`<${tag}\\b([^>]*)>([\\s\\S]*?)</${tag}>`, "g");
++  return [...html.matchAll(pattern)].map((m) => ({
++    attrs: m[1],
++    classes: classesIn(m[1]),
++    inner: m[2],
++  }));
++}
++
++/** Every <a> whose href is exactly `target`, in document order. */
++export function anchorsTo(html: string, target: string): Element[] {
++  return elements(html, "a").filter((a) =>
++    new RegExp(`\\bhref="${escapeRegExp(target)}"`).test(a.attrs),
+   );
+-  return [...html.matchAll(pattern)].map((m) => m[1]);
++}
++
++/** Classes of the first <tag> whose first child is a <span> with exactly `text`. */
++export function classesOfParentOf(
++  html: string,
++  tag: string,
++  text: string,
++): string[] {
++  const match = html.match(
++    new RegExp(
++      `<${tag}\\b([^>]*)>\\s*<span\\b[^>]*>${escapeRegExp(text)}</span>`,
++    ),
++  );
++  return match ? classesIn(match[1]) : [];
++}
++
++/**
++ * Text as it is read out: tags removed without adding anything in their
++ * place, so two inline elements with no whitespace between them run together.
++ */
++export function readText(html: string): string {
++  return stripTags(html, "");
+ }
+diff --git a/tests/support/storyCard.ts b/tests/support/storyCard.ts
+new file mode 100644
+index 0000000..1170209
+--- /dev/null
++++ b/tests/support/storyCard.ts
+@@ -0,0 +1,21 @@
++/** Props for rendering StoryCard.astro in tests. */
++
++/** Frozen "now", two hours after the fixture story was created. */
++export const NOW = new Date("2026-01-15T12:00:00.000Z").getTime();
++
++export const STORY_URL = "https://example.com/story";
++export const STORY_DOMAIN = "example.com";
++
++export function storyCardProps(overrides: Record<string, unknown> = {}) {
++  return {
++    rank: 3,
++    title: "A very good story",
++    url: STORY_URL,
++    domain: STORY_DOMAIN,
++    createdAt: "2026-01-15T10:00:00.000Z",
++    normalized: 0.6,
++    appearances: [{ source: "hn", label: "HN", points: 150, comments: 40 }],
++    now: NOW,
++    ...overrides,
++  };
++}

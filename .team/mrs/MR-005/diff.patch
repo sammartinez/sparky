@@ -1,0 +1,410 @@
+diff --git a/scripts/build-digest.ts b/scripts/build-digest.ts
+index 5f4ed3d..3e6f0f4 100644
+--- a/scripts/build-digest.ts
++++ b/scripts/build-digest.ts
+@@ -2,8 +2,10 @@ import chalk from "chalk";
+ import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
+ import { join } from "node:path";
+ import { fetchAll, WINDOW_HOURS } from "./sources.ts";
+-import { rank, redecay } from "./rank.ts";
++import { rank } from "./rank.ts";
+ import { prefilter } from "./filter.ts";
++import { mergeLineup } from "./lineup.ts";
++import { EMPTY_BRIEF_MESSAGE, LINEUP_STATUS } from "../src/constants.ts";
+ import type { Digest } from "./types.ts";
+ 
+ const DIGEST_DIR = join("data", "digests");
+@@ -118,23 +120,19 @@ async function main() {
+   const candidates = prefilter(fresh);
+   console.log(chalk.dim(`${candidates.length} pass the keyword filter`));
+ 
+-  // Stories carried over from an earlier run today were scored on that run's
+-  // clock. Age them forward so they compete fairly with the new candidates.
+-  const now = Date.now();
+-  const carried = existing
+-    ? existing.stories.map((s) =>
+-        redecay(s, new Date(existing.generatedAt).getTime(), now),
+-      )
+-    : [];
+-
+-  const stories = [...carried, ...candidates]
+-    .sort((a, b) => b.score - a.score)
+-    .slice(0, KEEP);
+-
+-  if (
+-    existing &&
+-    stories.map((s) => s.id).join() === existing.stories.map((s) => s.id).join()
+-  ) {
++  const { status, stories } = mergeLineup(
++    existing,
++    candidates,
++    Date.now(),
++    KEEP,
++  );
++
++  if (status === LINEUP_STATUS.EMPTY) {
++    console.error(chalk.red(EMPTY_BRIEF_MESSAGE));
++    process.exit(1);
++  }
++
++  if (status === LINEUP_STATUS.UNCHANGED) {
+     console.log(
+       chalk.yellow("\nNo change to today's lineup; nothing to publish."),
+     );
+diff --git a/scripts/lineup.ts b/scripts/lineup.ts
+new file mode 100644
+index 0000000..02e34c8
+--- /dev/null
++++ b/scripts/lineup.ts
+@@ -0,0 +1,51 @@
++import { LINEUP_STATUS } from "../src/constants.ts";
++import { redecay } from "./rank.ts";
++import type { Digest, Story } from "./types.ts";
++
++export type LineupStatus = (typeof LINEUP_STATUS)[keyof typeof LINEUP_STATUS];
++
++export interface Lineup {
++  status: LineupStatus;
++  stories: Story[];
++}
++
++/**
++ * Today's lineup: the stories already in today's brief merged with this run's
++ * candidates, and whether that is worth writing. `now` is epoch milliseconds.
++ */
++export function mergeLineup(
++  existing: Digest | null,
++  candidates: Story[],
++  now: number,
++  keep: number,
++): Lineup {
++  // Stories carried over from an earlier run today were scored on that run's
++  // clock. Age them forward so they compete fairly with the new candidates.
++  const carried = existing
++    ? existing.stories.map((s) =>
++        redecay(s, Date.parse(existing.generatedAt), now),
++      )
++    : [];
++
++  // The sort is stable, so listing carried stories first lets one keep its
++  // place over a candidate with the same score.
++  const stories = [...carried, ...candidates]
++    .sort((a, b) => b.score - a.score)
++    .slice(0, keep);
++
++  if (!existing) {
++    return {
++      status:
++        stories.length === 0 ? LINEUP_STATUS.EMPTY : LINEUP_STATUS.PUBLISH,
++      stories,
++    };
++  }
++
++  const sameLineup =
++    stories.length === existing.stories.length &&
++    stories.every((s, i) => s.id === existing.stories[i].id);
++  return {
++    status: sameLineup ? LINEUP_STATUS.UNCHANGED : LINEUP_STATUS.PUBLISH,
++    stories,
++  };
++}
+diff --git a/src/constants.ts b/src/constants.ts
+index 6520244..3390441 100644
+--- a/src/constants.ts
++++ b/src/constants.ts
+@@ -57,3 +57,12 @@ export const MONTH_KEY_LENGTH = 7;
+ // "6" of "GPT-6", the "4" of "Llama4". Global, for String.prototype.match;
+ // never call .test() or .exec() on it (they keep lastIndex between calls).
+ export const VERSION_TOKEN_PATTERN = /\d+(?:\.\d+)*/g;
++// What the lineup merge decided: write the brief, leave today's brief alone,
++// or refuse because there is nothing to write and no brief to keep.
++export const LINEUP_STATUS = {
++  PUBLISH: "publish",
++  UNCHANGED: "unchanged",
++  EMPTY: "empty",
++} as const;
++export const EMPTY_BRIEF_MESSAGE =
++  "Every story was filtered out and no brief exists for today. Refusing to write an empty brief.";
+diff --git a/tests/scripts/lineup.test.ts b/tests/scripts/lineup.test.ts
+new file mode 100644
+index 0000000..2c9af85
+--- /dev/null
++++ b/tests/scripts/lineup.test.ts
+@@ -0,0 +1,213 @@
++// C3: when the keyword filter removed every story and no brief existed for
++// today, the build wrote a brief with zero stories. The lineup merge now
++// reports that case as "empty" so the build can refuse to write it.
++import { test, expect } from "vitest";
++import { mergeLineup, type Lineup } from "../../scripts/lineup.ts";
++import { redecay } from "../../scripts/rank.ts";
++import type { Story } from "../../scripts/types.ts";
++import { HOUR_MS } from "../support/rawItems.ts";
++import { digest, story } from "../support/stories.ts";
++
++/** When this morning's brief was generated, and so when its stories were scored. */
++const GENERATED_AT = "2026-11-13T08:00:00.000Z";
++const SCORED_AT = Date.parse(GENERATED_AT);
++/** The afternoon run that merges new candidates into the morning brief. */
++const NOW = SCORED_AT + 6 * HOUR_MS;
++/** The build's default brief size. */
++const KEEP = 15;
++
++function hoursBefore(time: number, hours: number): string {
++  return new Date(time - hours * HOUR_MS).toISOString();
++}
++
++/** A story in this morning's brief, two hours old when it was scored. */
++function carriedStory(i: number, score: number): Story {
++  return story(i, hoursBefore(SCORED_AT, 2), { score });
++}
++
++/**
++ * A story in this morning's brief that was already a day old when scored, so
++ * six more hours cost it far less of its score than they cost a fresh one.
++ */
++function oldCarriedStory(i: number, score: number): Story {
++  return story(i, hoursBefore(SCORED_AT, 24), { score });
++}
++
++/** A story ranked on this run's clock. */
++function candidate(i: number, score: number): Story {
++  return story(i, hoursBefore(NOW, 1), { score });
++}
++
++/** This morning's brief holding `stories`. */
++function morningBrief(stories: Story[] = []) {
++  return digest(GENERATED_AT, stories);
++}
++
++/** A carried story as it should come out of the merge. */
++function aged(carried: Story): Story {
++  return redecay(carried, SCORED_AT, NOW);
++}
++
++function ids(lineup: Lineup): string[] {
++  return lineup.stories.map((s) => s.id);
++}
++
++test("reports an empty lineup when no brief exists and every story was filtered out", () => {
++  expect(mergeLineup(null, [], NOW, KEEP)).toEqual({
++    status: "empty",
++    stories: [],
++  });
++});
++
++test("gives each carried story the score redecay returns for the brief's generatedAt", () => {
++  const carried = [carriedStory(1, 10), carriedStory(2, 8)];
++
++  const lineup = mergeLineup(morningBrief(carried), [], NOW, KEEP);
++
++  expect(lineup.stories).toEqual(carried.map(aged));
++});
++
++test("orders carried stories by their re-decayed score, not the score they were saved with", () => {
++  const fresh = carriedStory(1, 10);
++  const old = oldCarriedStory(2, 8);
++
++  const lineup = mergeLineup(morningBrief([fresh, old]), [], NOW, KEEP);
++
++  expect(lineup.stories).toEqual([aged(old), aged(fresh)]);
++});
++
++test("leaves candidate scores as ranked", () => {
++  const candidates = [candidate(1, 7), candidate(2, 3)];
++
++  const lineup = mergeLineup(null, candidates, NOW, KEEP);
++
++  expect(lineup.stories).toEqual(candidates);
++});
++
++test("orders candidates by score, highest first", () => {
++  const candidates = [candidate(1, 3), candidate(2, 9), candidate(3, 6)];
++
++  expect(ids(mergeLineup(null, candidates, NOW, KEEP))).toEqual([
++    "s2",
++    "s3",
++    "s1",
++  ]);
++});
++
++test("slots a candidate between carried stories by score", () => {
++  const top = carriedStory(1, 10);
++  const bottom = carriedStory(2, 8);
++  const between = (aged(top).score + aged(bottom).score) / 2;
++
++  const lineup = mergeLineup(
++    morningBrief([top, bottom]),
++    [candidate(3, between)],
++    NOW,
++    KEEP,
++  );
++
++  expect(ids(lineup)).toEqual(["s1", "s3", "s2"]);
++});
++
++test("places a carried story ahead of a candidate with the same score", () => {
++  const carried = carriedStory(2, 10);
++
++  const lineup = mergeLineup(
++    morningBrief([carried]),
++    [candidate(1, aged(carried).score)],
++    NOW,
++    KEEP,
++  );
++
++  expect(ids(lineup)).toEqual(["s2", "s1"]);
++});
++
++test("returns only the top `keep` stories", () => {
++  const carried = [carriedStory(1, 10), carriedStory(2, 8)];
++  const candidates = [candidate(3, 50), candidate(4, 40), candidate(5, 0.1)];
++
++  const lineup = mergeLineup(morningBrief(carried), candidates, NOW, 3);
++
++  expect(ids(lineup)).toEqual(["s3", "s4", "s1"]);
++});
++
++test("returns every story when there are exactly `keep` of them", () => {
++  const candidates = [candidate(1, 9), candidate(2, 6), candidate(3, 3)];
++
++  expect(ids(mergeLineup(null, candidates, NOW, 3))).toEqual([
++    "s1",
++    "s2",
++    "s3",
++  ]);
++});
++
++test("is unchanged when the brief's stories keep their order and nothing new arrives", () => {
++  const brief = morningBrief([carriedStory(1, 10), carriedStory(2, 8)]);
++
++  expect(mergeLineup(brief, [], NOW, KEEP).status).toBe("unchanged");
++});
++
++test("is unchanged when every candidate scores below a full brief's last story", () => {
++  const brief = morningBrief([carriedStory(1, 10), carriedStory(2, 8)]);
++
++  const lineup = mergeLineup(brief, [candidate(3, 0.1)], NOW, 2);
++
++  expect(lineup.status).toBe("unchanged");
++  expect(ids(lineup)).toEqual(["s1", "s2"]);
++});
++
++test("is unchanged, never empty, when today's brief has no stories and nothing new arrives", () => {
++  expect(mergeLineup(morningBrief(), [], NOW, KEEP)).toEqual({
++    status: "unchanged",
++    stories: [],
++  });
++});
++
++test("publishes when a candidate enters the lineup", () => {
++  const brief = morningBrief([carriedStory(1, 10), carriedStory(2, 8)]);
++
++  const lineup = mergeLineup(brief, [candidate(3, 0.1)], NOW, KEEP);
++
++  expect(lineup.status).toBe("publish");
++  expect(ids(lineup)).toEqual(["s1", "s2", "s3"]);
++});
++
++test("publishes when a candidate pushes a carried story out of a full brief", () => {
++  const brief = morningBrief([carriedStory(1, 10), carriedStory(2, 8)]);
++
++  const lineup = mergeLineup(brief, [candidate(3, 50)], NOW, 2);
++
++  expect(lineup.status).toBe("publish");
++  expect(ids(lineup)).toEqual(["s3", "s1"]);
++});
++
++test("publishes when re-decay changes the order of the brief's own stories", () => {
++  const brief = morningBrief([carriedStory(1, 10), oldCarriedStory(2, 8)]);
++
++  expect(mergeLineup(brief, [], NOW, KEEP).status).toBe("publish");
++});
++
++test("publishes when no brief exists and at least one candidate survives", () => {
++  expect(mergeLineup(null, [candidate(1, 5)], NOW, KEEP).status).toBe(
++    "publish",
++  );
++});
++
++test("publishes when today's brief has no stories and a candidate arrives", () => {
++  const lineup = mergeLineup(morningBrief(), [candidate(1, 5)], NOW, KEEP);
++
++  expect(lineup.status).toBe("publish");
++  expect(ids(lineup)).toEqual(["s1"]);
++});
++
++test("does not mutate the existing brief or the candidates", () => {
++  const brief = morningBrief([carriedStory(1, 10), oldCarriedStory(2, 8)]);
++  const candidates = [candidate(3, 0.1), candidate(4, 50)];
++  const briefBefore = structuredClone(brief);
++  const candidatesBefore = structuredClone(candidates);
++
++  mergeLineup(brief, candidates, NOW, KEEP);
++
++  expect(brief).toEqual(briefBefore);
++  expect(candidates).toEqual(candidatesBefore);
++});
+diff --git a/tests/support/rawItems.ts b/tests/support/rawItems.ts
+index 5cc3595..7bd4648 100644
+--- a/tests/support/rawItems.ts
++++ b/tests/support/rawItems.ts
+@@ -1,7 +1,8 @@
+ /** RawItem fixtures for the rank pipeline, shaped like what scripts/sources.ts emits. */
+ import type { RawItem, Story } from "../../scripts/types.ts";
+ 
+-const HOUR_MS = 3_600_000;
++/** One hour in epoch milliseconds, for any fixture that places a story in time. */
++export const HOUR_MS = 3_600_000;
+ const NOW = Date.now();
+ 
+ /** One HN item, an hour old, unless overridden. */
+diff --git a/tests/support/stories.ts b/tests/support/stories.ts
+index b235710..e6d4c7d 100644
+--- a/tests/support/stories.ts
++++ b/tests/support/stories.ts
+@@ -1,9 +1,11 @@
++import type { Digest, Story } from "../../scripts/types.ts";
++
+ /** A digest story shaped like the entries in data/digests/*.json. */
+ export function story(
+   i: number,
+   createdAt: string,
+-  overrides: Record<string, unknown> = {},
+-) {
++  overrides: Partial<Story> = {},
++): Story {
+   return {
+     id: `s${i}`,
+     title: `Story ${i}`,
+@@ -18,6 +20,16 @@ export function story(
+   };
+ }
+ 
++/** A brief as scripts/build-digest.ts writes it, dated by its `generatedAt` day. */
++export function digest(generatedAt: string, stories: Story[] = []): Digest {
++  return {
++    date: generatedAt.slice(0, 10),
++    generatedAt,
++    windowHours: 36,
++    stories,
++  };
++}
++
+ /**
+  * A digest collection entry for the ISO date `id`, shaped like what
+  * `getCollection("digests")` returns, with one story per title.
+@@ -27,11 +39,9 @@ export function digestEntry(id: string, titles: string[] = []) {
+   return {
+     id,
+     collection: "digests",
+-    data: {
+-      date: id,
++    data: digest(
+       generatedAt,
+-      windowHours: 36,
+-      stories: titles.map((title, i) => story(i + 1, generatedAt, { title })),
+-    },
++      titles.map((title, i) => story(i + 1, generatedAt, { title })),
++    ),
+   };
+ }

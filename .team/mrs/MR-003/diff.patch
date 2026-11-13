@@ -1,0 +1,1107 @@
+diff --git a/src/components/ArchiveList.astro b/src/components/ArchiveList.astro
+new file mode 100644
+index 0000000..7650844
+--- /dev/null
++++ b/src/components/ArchiveList.astro
+@@ -0,0 +1,55 @@
++---
++import {
++  LED_WITH_LABEL,
++  NO_BRIEFS_MESSAGE,
++  STORIES_LABEL,
++} from "../constants";
++import { briefHref, formatDate, groupByMonth } from "../lib/brief";
++
++interface Props {
++  /** Newest first. */
++  digests: {
++    id: string;
++    data: { date: string; stories: { title: string }[] };
++  }[];
++}
++
++const { digests } = Astro.props;
++const months = groupByMonth(digests);
++---
++
++{
++  digests.length === 0 ? (
++    <p class="text-muted border-rule border-t py-12">{NO_BRIEFS_MESSAGE}</p>
++  ) : (
++    months.map((month) => (
++      <section class="mb-10">
++        <h2 class="eyebrow mb-2.5 text-xs">{month.label}</h2>
++        <ol class="border-rule border-t">
++          {month.entries.map((digest) => (
++            <li>
++              <a
++                href={briefHref(digest.id)}
++                class="border-rule hover:bg-panel block border-b px-2 py-5 no-underline transition-colors"
++              >
++                <div class="flex items-baseline justify-between gap-4">
++                  <span class="font-display text-lg font-medium">
++                    {formatDate(digest.data.date)}
++                  </span>
++                  <span class="text-muted font-mono text-xs whitespace-nowrap">
++                    {digest.data.stories.length} {STORIES_LABEL}
++                  </span>
++                </div>
++                {digest.data.stories[0] && (
++                  <p class="text-muted mt-1 line-clamp-2 text-sm">
++                    {LED_WITH_LABEL} {digest.data.stories[0].title}
++                  </p>
++                )}
++              </a>
++            </li>
++          ))}
++        </ol>
++      </section>
++    ))
++  )
++}
+diff --git a/src/components/BriefNav.astro b/src/components/BriefNav.astro
+new file mode 100644
+index 0000000..a61dbd0
+--- /dev/null
++++ b/src/components/BriefNav.astro
+@@ -0,0 +1,42 @@
++---
++import {
++  ALL_BRIEFS_LABEL,
++  NEXT_ARROW,
++  PREV_ARROW,
++  ROUTE_ARCHIVE,
++} from "../constants";
++import { briefHref, formatShortDate, href } from "../lib/brief";
++
++interface Props {
++  /** ISO date of the brief before this one, when there is one. */
++  older?: string | null;
++  /** ISO date of the brief after this one, when there is one. */
++  newer?: string | null;
++}
++
++const { older, newer } = Astro.props;
++
++const linkClass = "hover:text-accent inline-flex min-h-11 items-center";
++---
++
++<nav class="mt-10 grid grid-cols-[1fr_auto_1fr] items-center gap-x-4 font-mono text-xs">
++  {
++    older ? (
++      <a href={briefHref(older)} class:list={[linkClass, "justify-self-start"]}>
++        {PREV_ARROW} {formatShortDate(older)}
++      </a>
++    ) : (
++      <span />
++    )
++  }
++  <a href={href(ROUTE_ARCHIVE)} class={linkClass}>{ALL_BRIEFS_LABEL}</a>
++  {
++    newer ? (
++      <a href={briefHref(newer)} class:list={[linkClass, "justify-self-end"]}>
++        {formatShortDate(newer)} {NEXT_ARROW}
++      </a>
++    ) : (
++      <span />
++    )
++  }
++</nav>
+diff --git a/src/constants.ts b/src/constants.ts
+index 64c0c7e..0ad40a1 100644
+--- a/src/constants.ts
++++ b/src/constants.ts
+@@ -18,11 +18,38 @@ export const ALSO_TODAY_HEADING = "Also today";
+ export const OPENS_IN_NEW_TAB = "(opens in new tab)";
+ 
+ // Navigation
++export const ALL_BRIEFS_LABEL = "All briefs";
++export const PREV_ARROW = "←";
++export const NEXT_ARROW = "→";
++export const ROUTE_ARCHIVE = "archive";
++export const PATH_SEPARATOR = "/";
++export const DATE_LOCALE = "en-US";
++export const ISO_DATE_SEPARATOR = "-";
++export const LONG_DATE_FORMAT: Intl.DateTimeFormatOptions = {
++  weekday: "long",
++  month: "long",
++  day: "numeric",
++  year: "numeric",
++};
++export const SHORT_DATE_FORMAT: Intl.DateTimeFormatOptions = {
++  weekday: "short",
++  month: "short",
++  day: "numeric",
++};
++export const MONTH_FORMAT: Intl.DateTimeFormatOptions = {
++  month: "long",
++  year: "numeric",
++};
+ 
+ // Archive
+ export const HEADING_ARCHIVE = "Archive";
+ export const TITLE_ARCHIVE = `${HEADING_ARCHIVE}: ${SITE_NAME}`;
+ export const BRIEF_COUNT_SINGULAR = "brief";
+ export const BRIEF_COUNT_PLURAL = "briefs";
++export const LED_WITH_LABEL = "Led with:";
++export const STORIES_LABEL = "stories";
++export const NO_BRIEFS_MESSAGE = "No briefs archived yet.";
++// Length of the "YYYY-MM" prefix of an ISO date.
++export const MONTH_KEY_LENGTH = 7;
+ 
+ // Pipeline
+diff --git a/src/lib/brief.ts b/src/lib/brief.ts
+index 98b46d9..7ceffa8 100644
+--- a/src/lib/brief.ts
++++ b/src/lib/brief.ts
+@@ -1,5 +1,15 @@
+ import { getCollection } from "astro:content";
+ import type { CollectionEntry } from "astro:content";
++import {
++  DATE_LOCALE,
++  ISO_DATE_SEPARATOR,
++  LONG_DATE_FORMAT,
++  MONTH_FORMAT,
++  MONTH_KEY_LENGTH,
++  PATH_SEPARATOR,
++  ROUTE_ARCHIVE,
++  SHORT_DATE_FORMAT,
++} from "../constants";
+ 
+ export type DigestEntry = CollectionEntry<"digests">;
+ 
+@@ -9,6 +19,11 @@ export function href(path: string): string {
+   return `${base}/${path.replace(/^\//, "")}`.replace(/\/$/, "") || "/";
+ }
+ 
++/** Link to one archived brief by its id (an ISO date). */
++export function briefHref(id: string): string {
++  return href([ROUTE_ARCHIVE, id].join(PATH_SEPARATOR));
++}
++
+ /** All digests, newest first. Ids are ISO dates so a string sort is enough. */
+ export async function allDigests(): Promise<DigestEntry[]> {
+   const entries = await getCollection("digests");
+@@ -26,15 +41,46 @@ export function orderedAppearances<T extends { source: string }>(
+   );
+ }
+ 
+-export function formatDate(iso: string): string {
++function formatPlainDate(
++  iso: string,
++  format: Intl.DateTimeFormatOptions,
++): string {
+   // Parse as a plain date, not a UTC instant, so it doesn't slip a day.
+-  const [y, m, d] = iso.split("-").map(Number);
+-  return new Date(y, m - 1, d).toLocaleDateString("en-US", {
+-    weekday: "long",
+-    month: "long",
+-    day: "numeric",
+-    year: "numeric",
+-  });
++  const [y, m, d] = iso.split(ISO_DATE_SEPARATOR).map(Number);
++  return new Date(y, m - 1, d).toLocaleDateString(DATE_LOCALE, format);
++}
++
++export function formatDate(iso: string): string {
++  return formatPlainDate(iso, LONG_DATE_FORMAT);
++}
++
++export function formatShortDate(iso: string): string {
++  return formatPlainDate(iso, SHORT_DATE_FORMAT);
++}
++
++export function formatMonth(iso: string): string {
++  return formatPlainDate(iso, MONTH_FORMAT);
++}
++
++export interface MonthGroup<T> {
++  /** "YYYY-MM" */
++  key: string;
++  label: string;
++  entries: T[];
++}
++
++/** Group consecutive entries whose id (an ISO date) falls in the same month. */
++export function groupByMonth<T extends { id: string }>(
++  entries: T[],
++): MonthGroup<T>[] {
++  const groups: MonthGroup<T>[] = [];
++  for (const entry of entries) {
++    const key = entry.id.slice(0, MONTH_KEY_LENGTH);
++    const current = groups[groups.length - 1];
++    if (current?.key === key) current.entries.push(entry);
++    else groups.push({ key, label: formatMonth(entry.id), entries: [entry] });
++  }
++  return groups;
+ }
+ 
+ export function relativeAge(iso: string, now = Date.now()): string {
+diff --git a/src/pages/archive/[date].astro b/src/pages/archive/[date].astro
+index 1e00334..14e336d 100644
+--- a/src/pages/archive/[date].astro
++++ b/src/pages/archive/[date].astro
+@@ -2,7 +2,8 @@
+ import type { GetStaticPaths, InferGetStaticPropsType } from "astro";
+ import Base from "../../layouts/Base.astro";
+ import BriefGrid from "../../components/BriefGrid.astro";
+-import { allDigests, formatDate, href } from "../../lib/brief";
++import BriefNav from "../../components/BriefNav.astro";
++import { allDigests, formatDate } from "../../lib/brief";
+ 
+ export const getStaticPaths = (async () => {
+   const digests = await allDigests();
+@@ -33,21 +34,5 @@ const now = new Date(entry.data.generatedAt).getTime();
+     windowHours={entry.data.windowHours}
+   />
+ 
+-  <nav class="mt-10 flex items-center justify-between font-mono text-xs">
+-    {
+-      older ? (
+-        <a href={href(`archive/${older.id}`)} class="hover:text-accent">← {older.id}</a>
+-      ) : (
+-        <span />
+-      )
+-    }
+-    <a href={href("archive")} class="hover:text-accent">All briefs</a>
+-    {
+-      newer ? (
+-        <a href={href(`archive/${newer.id}`)} class="hover:text-accent">{newer.id} →</a>
+-      ) : (
+-        <span />
+-      )
+-    }
+-  </nav>
++  <BriefNav older={older?.id} newer={newer?.id} />
+ </Base>
+diff --git a/src/pages/archive/index.astro b/src/pages/archive/index.astro
+index 108b385..9e13ca6 100644
+--- a/src/pages/archive/index.astro
++++ b/src/pages/archive/index.astro
+@@ -1,12 +1,13 @@
+ ---
+ import Base from "../../layouts/Base.astro";
++import ArchiveList from "../../components/ArchiveList.astro";
+ import {
+   BRIEF_COUNT_PLURAL,
+   BRIEF_COUNT_SINGULAR,
+   HEADING_ARCHIVE,
+   TITLE_ARCHIVE,
+ } from "../../constants";
+-import { allDigests, formatDate, href } from "../../lib/brief";
++import { allDigests } from "../../lib/brief";
+ 
+ const digests = await allDigests();
+ ---
+@@ -16,32 +17,5 @@ const digests = await allDigests();
+   heading={HEADING_ARCHIVE}
+   standfirst={`${digests.length} ${digests.length === 1 ? BRIEF_COUNT_SINGULAR : BRIEF_COUNT_PLURAL}`}
+ >
+-  <section class="border-rule border-t">
+-    {
+-      digests.map((d) => (
+-        <a
+-          href={href(`archive/${d.id}`)}
+-          class="border-rule hover:bg-panel block border-b px-2 py-5 no-underline transition-colors"
+-        >
+-          <div class="flex items-baseline justify-between gap-4">
+-            <span class="font-display text-lg font-medium">{formatDate(d.data.date)}</span>
+-            <span class="text-muted font-mono text-xs whitespace-nowrap">
+-              {d.data.stories.length} stories
+-            </span>
+-          </div>
+-          {d.data.stories[0] && (
+-            <p class="text-muted mt-1 truncate text-sm">
+-              Led with: {d.data.stories[0].title}
+-            </p>
+-          )}
+-        </a>
+-      ))
+-    }
+-  </section>
+-
+-  {
+-    digests.length === 0 && (
+-      <p class="text-muted border-rule border-t py-12">No briefs archived yet.</p>
+-    )
+-  }
++  <ArchiveList digests={digests} />
+ </Base>
+diff --git a/src/pages/index.astro b/src/pages/index.astro
+index 0a2c09e..07de893 100644
+--- a/src/pages/index.astro
++++ b/src/pages/index.astro
+@@ -1,8 +1,9 @@
+ ---
+ import Base from "../layouts/Base.astro";
+ import BriefGrid from "../components/BriefGrid.astro";
++import BriefNav from "../components/BriefNav.astro";
+ import { HEADING_NO_BRIEF } from "../constants";
+-import { allDigests, formatDate, href } from "../lib/brief";
++import { allDigests, formatDate } from "../lib/brief";
+ 
+ const digests = await allDigests();
+ const today = digests[0];
+@@ -38,16 +39,7 @@ const now = today ? new Date(today.data.generatedAt).getTime() : Date.now();
+           windowHours={today.data.windowHours}
+         />
+ 
+-        <nav class="mt-10 flex items-center justify-between font-mono text-xs">
+-          {previous ? (
+-            <a href={href(`archive/${previous.id}`)} class="hover:text-accent">
+-              ← {previous.data.date}
+-            </a>
+-          ) : (
+-            <span />
+-          )}
+-          <a href={href("archive")} class="hover:text-accent">All briefs →</a>
+-        </nav>
++        <BriefNav older={previous?.id} />
+       </>
+     )
+   }
+diff --git a/tests/components/ArchiveList.test.ts b/tests/components/ArchiveList.test.ts
+new file mode 100644
+index 0000000..e3613b8
+--- /dev/null
++++ b/tests/components/ArchiveList.test.ts
+@@ -0,0 +1,167 @@
++import { test, expect } from "vitest";
++import { experimental_AstroContainer as AstroContainer } from "astro/container";
++import ArchiveList from "../../src/components/ArchiveList.astro";
++import { href } from "../../src/lib/brief";
++import { anchorsTo, elements, headingsAt, textOf } from "../support/html";
++import { digestEntry } from "../support/stories";
++
++const LONG_TITLE =
++  "A headline long enough that it cannot fit on a single line of the archive list at any width";
++
++/** Newest first, across two months; the last November day has no stories. */
++const DIGESTS = [
++  digestEntry("2026-11-05", [LONG_TITLE, "Second story"]),
++  digestEntry("2026-11-04", ["Wednesday lead"]),
++  digestEntry("2026-11-01", []),
++  digestEntry("2026-10-31", ["Halloween lead", "Another", "A third"]),
++];
++
++async function render(digests: unknown[] = DIGESTS) {
++  const container = await AstroContainer.create();
++  return container.renderToString(ArchiveList, { props: { digests } });
++}
++
++/** The single row link for a day. */
++function row(html: string, id: string) {
++  const rows = anchorsTo(html, href(`archive/${id}`));
++  expect(rows).toHaveLength(1);
++  return rows[0];
++}
++
++test("renders one h2 per month, newest month first", async () => {
++  const html = await render();
++  expect(headingsAt(html, 2).map((h) => h.text)).toEqual([
++    "November 2026",
++    "October 2026",
++  ]);
++});
++
++test("each month is a section holding its heading and one ordered list", async () => {
++  const html = await render();
++  const sections = elements(html, "section");
++  expect(sections).toHaveLength(2);
++  for (const section of sections) {
++    expect(headingsAt(section.inner, 2)).toHaveLength(1);
++    expect(elements(section.inner, "ol")).toHaveLength(1);
++  }
++});
++
++test("a month's days are list items in its ordered list, newest first, each linking to its brief", async () => {
++  const html = await render();
++  const [november, october] = elements(html, "section");
++
++  const novemberDays = elements(november.inner, "ol").flatMap((ol) =>
++    elements(ol.inner, "li"),
++  );
++  expect(novemberDays).toHaveLength(3);
++  ["2026-11-05", "2026-11-04", "2026-11-01"].forEach((id, i) => {
++    expect(
++      anchorsTo(novemberDays[i].inner, href(`archive/${id}`)),
++    ).toHaveLength(1);
++  });
++
++  const octoberDays = elements(october.inner, "ol").flatMap((ol) =>
++    elements(ol.inner, "li"),
++  );
++  expect(octoberDays).toHaveLength(1);
++  expect(
++    anchorsTo(octoberDays[0].inner, href("archive/2026-10-31")),
++  ).toHaveLength(1);
++});
++
++test("each list item wraps exactly one link", async () => {
++  const html = await render();
++  const items = elements(html, "li");
++  expect(items).toHaveLength(DIGESTS.length);
++  for (const item of items) {
++    expect(elements(item.inner, "a")).toHaveLength(1);
++    expect(item.inner.trim()).toMatch(/^<a\b[\s\S]*<\/a>$/);
++  }
++});
++
++test("a day's row shows its long date", async () => {
++  const html = await render();
++  expect(textOf(row(html, "2026-11-04").inner)).toContain(
++    "Wednesday, November 4, 2026",
++  );
++});
++
++test("a day's row shows how many stories it had", async () => {
++  const html = await render();
++  expect(textOf(row(html, "2026-10-31").inner)).toContain("3 stories");
++});
++
++test("a day's row shows its first story after Led with:", async () => {
++  const html = await render();
++  const led = elements(row(html, "2026-10-31").inner, "p");
++  expect(led.map((p) => textOf(p.inner))).toEqual(["Led with: Halloween lead"]);
++});
++
++test("the Led with line wraps to two lines instead of truncating to one", async () => {
++  const html = await render();
++  const [led] = elements(row(html, "2026-11-05").inner, "p");
++  expect(textOf(led.inner)).toBe(`Led with: ${LONG_TITLE}`);
++  expect(led.classes).toContain("line-clamp-2");
++  expect(led.classes).not.toContain("truncate");
++});
++
++test("no element in the list is truncated to one line", async () => {
++  const html = await render();
++  expect(html).not.toMatch(/\bclass="[^"]*\btruncate\b/);
++});
++
++test("a day with no stories shows no Led with line", async () => {
++  const html = await render();
++  const empty = row(html, "2026-11-01");
++  expect(elements(empty.inner, "p")).toEqual([]);
++  expect(textOf(empty.inner)).not.toContain("Led with");
++});
++
++test("a day with no stories still shows its date and a zero count", async () => {
++  const html = await render();
++  const text = textOf(row(html, "2026-11-01").inner);
++  expect(text).toContain("Sunday, November 1, 2026");
++  expect(text).toContain("0 stories");
++});
++
++test("a single month renders one heading and one list", async () => {
++  const html = await render([
++    digestEntry("2026-11-05", ["Lead"]),
++    digestEntry("2026-11-04", ["Lead"]),
++  ]);
++  expect(headingsAt(html, 2).map((h) => h.text)).toEqual(["November 2026"]);
++  expect(elements(html, "ol")).toHaveLength(1);
++  expect(elements(html, "li")).toHaveLength(2);
++});
++
++test("the same month of two different years gets two headings", async () => {
++  const html = await render([
++    digestEntry("2026-01-01", ["Lead"]),
++    digestEntry("2025-12-31", ["Lead"]),
++    digestEntry("2025-01-15", ["Lead"]),
++  ]);
++  expect(headingsAt(html, 2).map((h) => h.text)).toEqual([
++    "January 2026",
++    "December 2025",
++    "January 2025",
++  ]);
++});
++
++test("an empty archive shows the no-briefs message in a paragraph", async () => {
++  const html = await render([]);
++  expect(elements(html, "p").map((p) => textOf(p.inner))).toEqual([
++    "No briefs archived yet.",
++  ]);
++});
++
++test("an empty archive renders no list and no month heading", async () => {
++  const html = await render([]);
++  expect(html).not.toMatch(/<ol\b/);
++  expect(html).not.toMatch(/<li\b/);
++  expect(headingsAt(html, 2)).toEqual([]);
++});
++
++test("a populated archive does not show the no-briefs message", async () => {
++  const html = await render();
++  expect(html).not.toContain("No briefs archived yet.");
++});
+diff --git a/tests/components/BriefNav.test.ts b/tests/components/BriefNav.test.ts
+new file mode 100644
+index 0000000..fbf7ac2
+--- /dev/null
++++ b/tests/components/BriefNav.test.ts
+@@ -0,0 +1,126 @@
++import { describe, test, expect } from "vitest";
++import { experimental_AstroContainer as AstroContainer } from "astro/container";
++import BriefNav from "../../src/components/BriefNav.astro";
++import { href } from "../../src/lib/brief";
++import {
++  anchorsTo,
++  elements,
++  expectTapTargets,
++  innerOf,
++  textOf,
++} from "../support/html";
++
++const OLDER = "2026-11-04";
++const NEWER = "2026-11-05";
++const OLDER_HREF = href(`archive/${OLDER}`);
++const NEWER_HREF = href(`archive/${NEWER}`);
++const ARCHIVE_HREF = href("archive");
++const ISO_DATE = /\d{4}-\d{2}-\d{2}/;
++const EMPTY_SPAN_FIRST = /^\s*<span\b[^>]*>\s*<\/span>\s*<a\b/;
++const EMPTY_SPAN_LAST = /<\/a>\s*<span\b[^>]*>\s*<\/span>\s*$/;
++
++async function render(props: Record<string, unknown> = {}) {
++  const container = await AstroContainer.create();
++  return container.renderToString(BriefNav, { props });
++}
++
++/** Text of every link in the nav, in document order. */
++function linkTexts(html: string): string[] {
++  return elements(innerOf(html, "nav"), "a").map((a) => textOf(a.inner));
++}
++
++const sides = [
++  { name: "both neighbours", props: { older: OLDER, newer: NEWER } },
++  { name: "only an older brief", props: { older: OLDER } },
++  { name: "only a newer brief", props: { newer: NEWER } },
++  { name: "no neighbours", props: {} },
++  { name: "null neighbours", props: { older: null, newer: null } },
++];
++
++describe.each(sides)("with $name", ({ props }) => {
++  test("renders exactly one nav", async () => {
++    const html = await render(props);
++    expect(elements(html, "nav")).toHaveLength(1);
++  });
++
++  test("the All briefs link to the archive is present", async () => {
++    const html = await render(props);
++    const links = anchorsTo(innerOf(html, "nav"), ARCHIVE_HREF);
++    expect(links.map((a) => textOf(a.inner))).toEqual(["All briefs"]);
++  });
++
++  test("every link is at least 44px tall and centres its content", async () => {
++    const html = await render(props);
++    expectTapTargets(elements(innerOf(html, "nav"), "a"));
++  });
++
++  test("no link shows an ISO date as its text", async () => {
++    const html = await render(props);
++    for (const text of linkTexts(html)) {
++      expect(text).not.toMatch(ISO_DATE);
++    }
++  });
++});
++
++test("the older link reads an arrow then the short date and goes to that brief", async () => {
++  const html = await render({ older: OLDER, newer: NEWER });
++  const links = anchorsTo(html, OLDER_HREF);
++  expect(links.map((a) => textOf(a.inner))).toEqual(["← Wed, Nov 4"]);
++});
++
++test("the newer link reads the short date then an arrow and goes to that brief", async () => {
++  const html = await render({ older: OLDER, newer: NEWER });
++  const links = anchorsTo(html, NEWER_HREF);
++  expect(links.map((a) => textOf(a.inner))).toEqual(["Thu, Nov 5 →"]);
++});
++
++test("the links come in the order older, All briefs, newer", async () => {
++  const html = await render({ older: OLDER, newer: NEWER });
++  expect(linkTexts(html)).toEqual([
++    "← Wed, Nov 4",
++    "All briefs",
++    "Thu, Nov 5 →",
++  ]);
++});
++
++test("the short dates follow the ids they are given", async () => {
++  const html = await render({ older: "2026-10-31", newer: "2026-11-02" });
++  expect(linkTexts(html)).toEqual([
++    "← Sat, Oct 31",
++    "All briefs",
++    "Mon, Nov 2 →",
++  ]);
++});
++
++test("a missing older brief renders no link on that side", async () => {
++  const html = await render({ newer: NEWER });
++  expect(linkTexts(html)).toEqual(["All briefs", "Thu, Nov 5 →"]);
++});
++
++test("a missing older brief leaves an empty span in the first slot", async () => {
++  const html = await render({ newer: NEWER });
++  expect(innerOf(html, "nav")).toMatch(EMPTY_SPAN_FIRST);
++});
++
++test("a missing newer brief renders no link on that side", async () => {
++  const html = await render({ older: OLDER });
++  expect(linkTexts(html)).toEqual(["← Wed, Nov 4", "All briefs"]);
++});
++
++test("a missing newer brief leaves an empty span in the last slot", async () => {
++  const html = await render({ older: OLDER });
++  expect(innerOf(html, "nav")).toMatch(EMPTY_SPAN_LAST);
++});
++
++test("with no neighbours All briefs is the only link, between two empty spans", async () => {
++  const html = await render();
++  const nav = innerOf(html, "nav");
++  expect(linkTexts(html)).toEqual(["All briefs"]);
++  expect(nav).toMatch(EMPTY_SPAN_FIRST);
++  expect(nav).toMatch(EMPTY_SPAN_LAST);
++});
++
++test("a null neighbour is treated as missing", async () => {
++  const html = await render({ older: null, newer: null });
++  expect(linkTexts(html)).toEqual(["All briefs"]);
++});
+diff --git a/tests/lib/brief.test.ts b/tests/lib/brief.test.ts
+new file mode 100644
+index 0000000..ea5d2fa
+--- /dev/null
++++ b/tests/lib/brief.test.ts
+@@ -0,0 +1,137 @@
++import { describe, test, expect } from "vitest";
++import {
++  formatMonth,
++  formatShortDate,
++  groupByMonth,
++} from "../../src/lib/brief";
++
++/** Entries carrying only what groupByMonth reads, plus a marker field. */
++function entries(...ids: string[]) {
++  return ids.map((id) => ({ id, marker: `entry ${id}` }));
++}
++
++describe("formatShortDate", () => {
++  test("formats an ISO date as short weekday, short month and day", () => {
++    expect(formatShortDate("2026-11-04")).toBe("Wed, Nov 4");
++  });
++
++  test("follows the date it is given", () => {
++    expect(formatShortDate("2026-11-05")).toBe("Thu, Nov 5");
++  });
++
++  test("does not slip to the previous day on the first of a month", () => {
++    expect(formatShortDate("2026-11-01")).toBe("Sun, Nov 1");
++  });
++
++  test("does not slip to the previous year on January 1", () => {
++    expect(formatShortDate("2026-01-01")).toBe("Thu, Jan 1");
++  });
++
++  test("keeps a two-digit day on the last day of a month", () => {
++    expect(formatShortDate("2026-10-31")).toBe("Sat, Oct 31");
++  });
++});
++
++describe("formatMonth", () => {
++  test("formats an ISO date as the full month name and year", () => {
++    expect(formatMonth("2026-11-04")).toBe("November 2026");
++  });
++
++  test("does not slip to the previous month on the first of a month", () => {
++    expect(formatMonth("2026-11-01")).toBe("November 2026");
++  });
++
++  test("does not slip to the previous year on January 1", () => {
++    expect(formatMonth("2026-01-01")).toBe("January 2026");
++  });
++
++  test("stays in the month on its last day", () => {
++    expect(formatMonth("2026-12-31")).toBe("December 2026");
++  });
++});
++
++describe("groupByMonth", () => {
++  test("returns no groups for no entries", () => {
++    expect(groupByMonth([])).toEqual([]);
++  });
++
++  test("puts a single entry in one group keyed by its year and month", () => {
++    const [only] = entries("2026-11-04");
++    expect(groupByMonth([only])).toEqual([
++      { key: "2026-11", label: "November 2026", entries: [only] },
++    ]);
++  });
++
++  test("groups entries of the same month together", () => {
++    const groups = groupByMonth(
++      entries("2026-11-05", "2026-11-04", "2026-11-01"),
++    );
++    expect(groups.map((g) => g.key)).toEqual(["2026-11"]);
++    expect(groups[0].entries.map((e) => e.id)).toEqual([
++      "2026-11-05",
++      "2026-11-04",
++      "2026-11-01",
++    ]);
++  });
++
++  test("starts a new group at each month boundary, keeping the input order", () => {
++    const groups = groupByMonth(
++      entries("2026-11-02", "2026-11-01", "2026-10-31", "2026-09-15"),
++    );
++    expect(groups.map((g) => g.key)).toEqual(["2026-11", "2026-10", "2026-09"]);
++    expect(groups.map((g) => g.entries.map((e) => e.id))).toEqual([
++      ["2026-11-02", "2026-11-01"],
++      ["2026-10-31"],
++      ["2026-09-15"],
++    ]);
++  });
++
++  test("labels each group with its month name and year", () => {
++    const groups = groupByMonth(entries("2026-11-01", "2026-10-31"));
++    expect(groups.map((g) => g.label)).toEqual([
++      "November 2026",
++      "October 2026",
++    ]);
++  });
++
++  test("keeps the same month of different years apart", () => {
++    const groups = groupByMonth(entries("2026-11-04", "2025-11-04"));
++    expect(groups.map((g) => g.key)).toEqual(["2026-11", "2025-11"]);
++    expect(groups.map((g) => g.label)).toEqual([
++      "November 2026",
++      "November 2025",
++    ]);
++  });
++
++  test("separates December from the January that follows it", () => {
++    const groups = groupByMonth(entries("2026-01-01", "2025-12-31"));
++    expect(groups.map((g) => g.label)).toEqual([
++      "January 2026",
++      "December 2025",
++    ]);
++  });
++
++  test("preserves ascending input order rather than re-sorting", () => {
++    const groups = groupByMonth(
++      entries("2026-10-30", "2026-10-31", "2026-11-01"),
++    );
++    expect(groups.map((g) => g.entries.map((e) => e.id))).toEqual([
++      ["2026-10-30", "2026-10-31"],
++      ["2026-11-01"],
++    ]);
++  });
++
++  test("groups only consecutive entries, so a month that recurs later gets its own group", () => {
++    const groups = groupByMonth(
++      entries("2026-11-05", "2026-10-31", "2026-11-01"),
++    );
++    expect(groups.map((g) => g.key)).toEqual(["2026-11", "2026-10", "2026-11"]);
++  });
++
++  test("returns the entries themselves, with their other fields intact", () => {
++    const input = entries("2026-11-05", "2026-11-04");
++    const [group] = groupByMonth(input);
++    expect(group.entries[0]).toBe(input[0]);
++    expect(group.entries[1].marker).toBe("entry 2026-11-04");
++  });
++});
+diff --git a/tests/pages/archive/[date].test.ts b/tests/pages/archive/[date].test.ts
+index a7a5023..59f8bc5 100644
+--- a/tests/pages/archive/[date].test.ts
++++ b/tests/pages/archive/[date].test.ts
+@@ -1,13 +1,31 @@
+ import { test, expect } from "vitest";
+ import { experimental_AstroContainer as AstroContainer } from "astro/container";
+ import DatePage from "../../../src/pages/archive/[date].astro";
+-import { headings, headingsAt, innerOf } from "../../support/html";
+-import { story } from "../../support/stories";
++import { href } from "../../../src/lib/brief";
++import {
++  anchorsTo,
++  expectTapTargets,
++  headings,
++  headingsAt,
++  innerOf,
++  mainNavLinks,
++  textOf,
++} from "../../support/html";
++import { digestEntry, story } from "../../support/stories";
+ 
+ const DATE = "2026-11-09";
+ const GENERATED_AT = "2026-11-09T12:00:00.000Z";
+ 
+-async function render(storyCount = 2, date = DATE) {
++interface Neighbours {
++  newer: { id: string } | null;
++  older: { id: string } | null;
++}
++
++async function render(
++  storyCount = 2,
++  date = DATE,
++  neighbours: Neighbours = { newer: null, older: null },
++) {
+   const stories = Array.from({ length: storyCount }, (_, i) =>
+     story(i + 1, GENERATED_AT),
+   );
+@@ -19,8 +37,7 @@ async function render(storyCount = 2, date = DATE) {
+         id: date,
+         data: { date, generatedAt: GENERATED_AT, windowHours: 36, stories },
+       },
+-      newer: null,
+-      older: null,
++      ...neighbours,
+     },
+   });
+ }
+@@ -70,3 +87,55 @@ test("the archived brief wordmark is not inside a heading", async () => {
+     expect(heading.text).not.toContain("Sparky News");
+   }
+ });
++
++const BOTH_NEIGHBOURS: Neighbours = {
++  older: digestEntry("2026-11-08"),
++  newer: digestEntry("2026-11-10"),
++};
++
++test("an archived brief links to the older brief by its short date", async () => {
++  const html = await render(2, DATE, BOTH_NEIGHBOURS);
++  const links = anchorsTo(html, href("archive/2026-11-08"));
++  expect(links.map((a) => textOf(a.inner))).toEqual(["← Sun, Nov 8"]);
++});
++
++test("an archived brief links to the newer brief by its short date", async () => {
++  const html = await render(2, DATE, BOTH_NEIGHBOURS);
++  const links = anchorsTo(html, href("archive/2026-11-10"));
++  expect(links.map((a) => textOf(a.inner))).toEqual(["Tue, Nov 10 →"]);
++});
++
++test("an archived brief's navigation reads older, All briefs, newer", async () => {
++  const html = await render(2, DATE, BOTH_NEIGHBOURS);
++  expect(mainNavLinks(html).map((a) => textOf(a.inner))).toEqual([
++    "← Sun, Nov 8",
++    "All briefs",
++    "Tue, Nov 10 →",
++  ]);
++});
++
++test("every navigation link on an archived brief is at least 44px tall", async () => {
++  const html = await render(2, DATE, BOTH_NEIGHBOURS);
++  const links = mainNavLinks(html);
++  expect(links).toHaveLength(3);
++  expectTapTargets(links);
++});
++
++test("an archived brief with no neighbours links only to All briefs, 44px tall", async () => {
++  const html = await render();
++  const links = mainNavLinks(html);
++  expect(links.map((a) => textOf(a.inner))).toEqual(["All briefs"]);
++  expect(anchorsTo(innerOf(html, "main"), href("archive"))).toHaveLength(1);
++  expectTapTargets(links);
++});
++
++test("the oldest brief has a newer link and no older link", async () => {
++  const html = await render(2, DATE, {
++    older: null,
++    newer: BOTH_NEIGHBOURS.newer,
++  });
++  expect(mainNavLinks(html).map((a) => textOf(a.inner))).toEqual([
++    "All briefs",
++    "Tue, Nov 10 →",
++  ]);
++});
+diff --git a/tests/pages/archive/index.test.ts b/tests/pages/archive/index.test.ts
+index 365ab90..bee3ce2 100644
+--- a/tests/pages/archive/index.test.ts
++++ b/tests/pages/archive/index.test.ts
+@@ -33,3 +33,11 @@ test("the archive page wordmark is not inside a heading", async () => {
+     expect(heading.text).not.toContain("Sparky News");
+   }
+ });
++
++test("the empty archive page shows the no-briefs message once and no list", async () => {
++  const main = innerOf(await render(), "main");
++  expect(main.split("No briefs archived yet.")).toHaveLength(2);
++  expect(main).not.toMatch(/<ol\b/);
++  expect(main).not.toMatch(/<li\b/);
++  expect(headingsAt(main, 2)).toEqual([]);
++});
+diff --git a/tests/pages/archive/index.with-briefs.test.ts b/tests/pages/archive/index.with-briefs.test.ts
+new file mode 100644
+index 0000000..65d3539
+--- /dev/null
++++ b/tests/pages/archive/index.with-briefs.test.ts
+@@ -0,0 +1,63 @@
++import { test, expect, vi } from "vitest";
++import { experimental_AstroContainer as AstroContainer } from "astro/container";
++import { href } from "../../../src/lib/brief";
++import { anchorsTo, elements, headingsAt, innerOf } from "../../support/html";
++import { digestEntry } from "../../support/stories";
++
++// Stand in for the content store only, so the page, ArchiveList and
++// src/lib/brief run for real. Oldest first: the page sorts newest first.
++vi.mock("astro:content", () => ({
++  getCollection: async () => [
++    digestEntry("2026-10-31", ["Halloween lead"]),
++    digestEntry("2026-11-04", ["Wednesday lead"]),
++    digestEntry("2026-11-05", ["Thursday lead"]),
++  ],
++}));
++
++async function render() {
++  const { default: ArchivePage } =
++    await import("../../../src/pages/archive/index.astro");
++  const container = await AstroContainer.create();
++  return innerOf(await container.renderToString(ArchivePage), "main");
++}
++
++test("the archive page groups its briefs under one h2 per month, newest month first", async () => {
++  const main = await render();
++  expect(headingsAt(main, 2).map((h) => h.text)).toEqual([
++    "November 2026",
++    "October 2026",
++  ]);
++});
++
++test("the archive page lists each month's days in an ordered list, newest first", async () => {
++  const main = await render();
++  const lists = elements(main, "ol");
++  expect(lists).toHaveLength(2);
++
++  const november = elements(lists[0].inner, "li");
++  expect(november).toHaveLength(2);
++  expect(anchorsTo(november[0].inner, href("archive/2026-11-05"))).toHaveLength(
++    1,
++  );
++  expect(anchorsTo(november[1].inner, href("archive/2026-11-04"))).toHaveLength(
++    1,
++  );
++
++  const october = elements(lists[1].inner, "li");
++  expect(october).toHaveLength(1);
++  expect(anchorsTo(october[0].inner, href("archive/2026-10-31"))).toHaveLength(
++    1,
++  );
++});
++
++test("the archive page links to each brief exactly once", async () => {
++  const main = await render();
++  for (const id of ["2026-11-05", "2026-11-04", "2026-10-31"]) {
++    expect(anchorsTo(main, href(`archive/${id}`))).toHaveLength(1);
++  }
++});
++
++test("the archive page with briefs does not show the no-briefs message", async () => {
++  const main = await render();
++  expect(main).not.toContain("No briefs archived yet.");
++});
+diff --git a/tests/pages/index.with-brief.test.ts b/tests/pages/index.with-brief.test.ts
+index c85bae9..2bfb57a 100644
+--- a/tests/pages/index.with-brief.test.ts
++++ b/tests/pages/index.with-brief.test.ts
+@@ -1,6 +1,14 @@
+ import { test, expect, vi } from "vitest";
+ import { experimental_AstroContainer as AstroContainer } from "astro/container";
+-import { headingsAt, innerOf } from "../support/html";
++import { href } from "../../src/lib/brief";
++import {
++  anchorsTo,
++  expectTapTargets,
++  headingsAt,
++  innerOf,
++  mainNavLinks,
++  textOf,
++} from "../support/html";
+ import { story } from "../support/stories";
+ 
+ const GENERATED_AT = "2026-11-09T12:00:00.000Z";
+@@ -54,3 +62,30 @@ test("the home page with a brief renders that brief's stories", async () => {
+   const html = await render();
+   expect(innerOf(html, "main")).toContain("Story 1");
+ });
++
++test("the home page links to the previous brief by its short date", async () => {
++  const html = await render();
++  const links = anchorsTo(html, href("archive/2026-11-08"));
++  expect(links.map((a) => textOf(a.inner))).toEqual(["← Sun, Nov 8"]);
++});
++
++test("the home page navigation reads older then All briefs, with no newer link", async () => {
++  const html = await render();
++  expect(mainNavLinks(html).map((a) => textOf(a.inner))).toEqual([
++    "← Sun, Nov 8",
++    "All briefs",
++  ]);
++});
++
++test("the home page All briefs link goes to the archive", async () => {
++  const html = await render();
++  const links = anchorsTo(innerOf(html, "main"), href("archive"));
++  expect(links.map((a) => textOf(a.inner))).toEqual(["All briefs"]);
++});
++
++test("every navigation link on the home page is at least 44px tall", async () => {
++  const html = await render();
++  const links = mainNavLinks(html);
++  expect(links).toHaveLength(2);
++  expectTapTargets(links);
++});
+diff --git a/tests/support/html.ts b/tests/support/html.ts
+index 5e8a9ab..5259148 100644
+--- a/tests/support/html.ts
++++ b/tests/support/html.ts
+@@ -1,4 +1,5 @@
+ /** Small helpers for asserting on rendered HTML strings. */
++import { expect } from "vitest";
+ 
+ export interface Heading {
+   level: number;
+@@ -102,3 +103,19 @@ export function classesOfParentOf(
+ export function readText(html: string): string {
+   return stripTags(html, "");
+ }
++
++/** Every link in the first <nav> inside <main>, in document order. */
++export function mainNavLinks(html: string): Element[] {
++  return elements(innerOf(innerOf(html, "main"), "nav"), "a");
++}
++
++/** Classes that make a navigation link a 44px-tall, vertically centred tap target. */
++const TAP_TARGET_CLASSES = ["inline-flex", "min-h-11", "items-center"];
++
++/** Asserts there is at least one link and every one is a 44px tap target. */
++export function expectTapTargets(links: Element[]): void {
++  expect(links.length).toBeGreaterThan(0);
++  for (const link of links) {
++    expect(link.classes).toEqual(expect.arrayContaining(TAP_TARGET_CLASSES));
++  }
++}
+diff --git a/tests/support/stories.ts b/tests/support/stories.ts
+index 877fbdd..b235710 100644
+--- a/tests/support/stories.ts
++++ b/tests/support/stories.ts
+@@ -17,3 +17,21 @@ export function story(
+     ...overrides,
+   };
+ }
++
++/**
++ * A digest collection entry for the ISO date `id`, shaped like what
++ * `getCollection("digests")` returns, with one story per title.
++ */
++export function digestEntry(id: string, titles: string[] = []) {
++  const generatedAt = `${id}T12:00:00.000Z`;
++  return {
++    id,
++    collection: "digests",
++    data: {
++      date: id,
++      generatedAt,
++      windowHours: 36,
++      stories: titles.map((title, i) => story(i + 1, generatedAt, { title })),
++    },
++  };
++}

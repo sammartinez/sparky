@@ -1,7 +1,7 @@
 ---
 id: PLAN-001
 title: UX review follow-ups and open pipeline issues
-status: awaiting-approval
+status: done
 ---
 
 ## Goal
