@@ -9,6 +9,8 @@ import {
   distinctStories,
   hnHit,
   item,
+  labelsOf,
+  LLM_031,
   LOBSTERS,
   lobstersItem,
   normalizedByUrl,
@@ -16,14 +18,7 @@ import {
 
 const NEUTRAL = 0.5;
 
-/** Six distinct HN front-page stories; "llm 0.31" is the one three queries match. */
-const REPEATED = hnHit(44001005, {
-  title: "llm 0.31",
-  url: "https://github.com/simonw/llm/releases/tag/0.31",
-  points: 180,
-  comments: 42,
-});
-
+/** Five other HN front-page stories; `LLM_031` is the one three queries match. */
 const OTHERS: RawItem[] = [
   hnHit(44001001, {
     title: "Serving LLMs on Tenstorrent hardware",
@@ -73,15 +68,15 @@ function expectAllNeutral(items: RawItem[], uniqueStories: number) {
 // --- AC1: the reported case -------------------------------------------------
 
 test("an HN story returned by three queries leaves every story's normalized as if it came back once", () => {
-  const once = rank([...OTHERS, REPEATED]);
-  const thrice = rank([...OTHERS, ...copies(REPEATED, 3)]);
+  const once = rank([...OTHERS, LLM_031]);
+  const thrice = rank([...OTHERS, ...copies(LLM_031, 3)]);
 
   expect(normalizedByUrl(thrice)).toEqual(normalizedByUrl(once));
 });
 
 test("an HN story returned by three queries is still one story with one HN appearance", () => {
-  const out = rank([...OTHERS, ...copies(REPEATED, 3)]);
-  const story = out.find((s) => s.url === REPEATED.url)!;
+  const out = rank([...OTHERS, ...copies(LLM_031, 3)]);
+  const story = out.find((s) => s.url === LLM_031.url)!;
 
   expect(out.length).toBe(OTHERS.length + 1);
   expect(story.appearances).toEqual([
@@ -139,51 +134,31 @@ test("copies carrying different points leave a batch of four at the neutral prio
 });
 
 test.each([
-  ["lowest first", [12, 45, 30]],
-  ["highest first", [45, 12, 30]],
+  ["lowest first", [12, 70, 40]],
+  ["highest first", [70, 12, 40]],
 ])(
   "a story whose copies disagree on points counts once at its highest value (%s)",
   (_order, points) => {
-    const peers = [
-      item({
-        url: "https://peers.example/b",
-        title: "Quantization tricks",
-        points: 20,
-      }),
-      item({
-        url: "https://peers.example/c",
-        title: "Browser agents reviewed",
-        points: 30,
-      }),
-      item({
-        url: "https://peers.example/d",
-        title: "Tokenizer bugs",
-        points: 40,
-      }),
-      item({
-        url: "https://peers.example/e",
-        title: "Compiler fuzzing",
-        points: 50,
-      }),
-    ];
-    const disputed = item({
-      url: "https://peers.example/a",
-      title: "Speech synthesis",
-    });
+    // Five stories at 0, 20, 40, 60, 80; the middle one comes back three times.
+    const stories = distinctStories("peers.example", 5);
+    const [lowest, low, disputed, high, highest] = stories;
 
     const out = normalizedByUrl(
-      rank([...peers, ...points.map((p) => ({ ...disputed, points: p }))]),
+      rank([
+        lowest,
+        low,
+        high,
+        highest,
+        ...points.map((p) => ({ ...disputed, points: p })),
+      ]),
     );
 
-    // Unique points are 20, 30, 40, 45 (the disputed story's best), 50, so the
-    // peers below 45 are unaffected and the ones above it have one more peer
-    // beneath them. The disputed story's own value is out of scope here.
-    expect({
-      b: out["https://peers.example/b"],
-      c: out["https://peers.example/c"],
-      d: out["https://peers.example/d"],
-      e: out["https://peers.example/e"],
-    }).toEqual({ b: 0, c: 0.2, d: 0.4, e: 0.8 });
+    // Unique points are 0, 20, 60, 70 (the disputed story's best), 80, so the
+    // stories below 70 are unaffected and the one above it has one more peer
+    // beneath it. The disputed story's own value is out of scope here.
+    expect([lowest, low, high, highest].map((s) => out[s.url])).toEqual([
+      0, 0.2, 0.4, 0.8,
+    ]);
   },
 );
 
@@ -224,10 +199,7 @@ function expectCountedOncePerSource(items: RawItem[]) {
   expect(bySource("hn-only.example")).toEqual([0, 0.2, 0.4, 0.6]);
   expect(bySource("lobsters-only.example")).toEqual([0, 0.2, 0.4, 0.6]);
   expect(shared.normalized).toBe(0.8);
-  expect(shared.appearances.map((a) => a.label).sort()).toEqual([
-    "HN",
-    "Lobsters",
-  ]);
+  expect(labelsOf(shared)).toEqual(["HN", "Lobsters"]);
 }
 
 test("a URL on HN and Lobsters counts once in each source's peers and merges into one story with two appearances", () => {

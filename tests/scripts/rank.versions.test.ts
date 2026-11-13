@@ -3,22 +3,14 @@
 // disagree on version are different stories.
 import { test, expect } from "vitest";
 import { rank } from "../../scripts/rank.ts";
-import type { RawItem } from "../../scripts/types.ts";
-import { hnHit, item, lobstersItem } from "../support/rawItems.ts";
-
-const LLM_030 = hnHit(43990001, {
-  title: "llm 0.30",
-  url: "https://github.com/simonw/llm/releases/tag/0.30",
-  points: 96,
-  comments: 18,
-});
-
-const LLM_031 = hnHit(44001005, {
-  title: "llm 0.31",
-  url: "https://github.com/simonw/llm/releases/tag/0.31",
-  points: 180,
-  comments: 42,
-});
+import type { RawItem, Story } from "../../scripts/types.ts";
+import {
+  item,
+  labelsOf,
+  lobstersItem,
+  LLM_030,
+  LLM_031,
+} from "../support/rawItems.ts";
 
 /** The same release as a feed entry: no traction signal, a feed-name label. */
 function fromFeed(original: RawItem, url: string): RawItem {
@@ -33,25 +25,20 @@ function fromFeed(original: RawItem, url: string): RawItem {
   });
 }
 
+/** What a reader sees of each story, in URL order. */
+function summarize(stories: Story[]) {
+  return stories
+    .map((s) => ({ title: s.title, url: s.url, labels: labelsOf(s) }))
+    .sort((a, b) => a.url.localeCompare(b.url));
+}
+
 /** Every input comes back as its own story: own title, own URL, one appearance. */
 function expectSeparateStories(items: RawItem[]) {
-  const out = rank(items);
-  const summary = (rows: { title: string; url: string; labels: string[] }[]) =>
-    [...rows].sort((a, b) => a.url.localeCompare(b.url));
+  const expected = items
+    .map((i) => ({ title: i.title, url: i.url, labels: [i.label] }))
+    .sort((a, b) => a.url.localeCompare(b.url));
 
-  expect(
-    summary(
-      out.map((s) => ({
-        title: s.title,
-        url: s.url,
-        labels: s.appearances.map((a) => a.label),
-      })),
-    ),
-  ).toEqual(
-    summary(
-      items.map((i) => ({ title: i.title, url: i.url, labels: [i.label] })),
-    ),
-  );
+  expect(summarize(rank(items))).toEqual(expected);
 }
 
 /** Every input lands in a single story, one appearance per input. */
@@ -59,9 +46,7 @@ function expectOneStory(items: RawItem[]) {
   const out = rank(items);
 
   expect(out.length).toBe(1);
-  expect(out[0].appearances.map((a) => a.label).sort()).toEqual(
-    items.map((i) => i.label).sort(),
-  );
+  expect(labelsOf(out[0])).toEqual(items.map((i) => i.label).sort());
 }
 
 // --- AC5: the reported case -------------------------------------------------
@@ -84,16 +69,9 @@ test("a second outlet's llm 0.31 joins the 0.31 story, not the 0.30 story ranked
     fromFeed(LLM_031, "https://simonwillison.net/2026/Nov/11/llm/"),
   ]);
 
-  expect(
-    out
-      .map((s) => ({
-        title: s.title,
-        labels: s.appearances.map((a) => a.label),
-      }))
-      .sort((a, b) => a.title.localeCompare(b.title)),
-  ).toEqual([
-    { title: "llm 0.30", labels: ["HN"] },
-    { title: "llm 0.31", labels: ["HN", "Simon Willison"] },
+  expect(summarize(out)).toEqual([
+    { title: "llm 0.30", url: LLM_030.url, labels: ["HN"] },
+    { title: "llm 0.31", url: LLM_031.url, labels: ["HN", "Simon Willison"] },
   ]);
 });
 
@@ -145,29 +123,23 @@ test("an unnumbered story that absorbed one release does not absorb the next rel
       title: "Anthropic releases Claude Opus 5 model",
       url: "https://techcrunch.example/opus-5",
     }),
-    item({
-      source: "rss",
-      label: "Simon Willison",
-      title: "Anthropic releases Claude Opus 6 model",
-      url: "https://simonwillison.net/2026/Nov/12/opus-6/",
-      points: null,
-      comments: null,
-    }),
+    fromFeed(
+      item({ title: "Anthropic releases Claude Opus 6 model" }),
+      "https://simonwillison.net/2026/Nov/12/opus-6/",
+    ),
   ]);
 
-  expect(
-    out
-      .map((s) => ({
-        url: s.url,
-        labels: s.appearances.map((a) => a.label).sort(),
-      }))
-      .sort((a, b) => a.url.localeCompare(b.url)),
-  ).toEqual([
+  expect(summarize(out)).toEqual([
     {
+      title: "Anthropic releases Claude Opus 6 model",
       url: "https://simonwillison.net/2026/Nov/12/opus-6/",
       labels: ["Simon Willison"],
     },
-    { url: "https://verge.example/opus", labels: ["HN", "Lobsters"] },
+    {
+      title: "Anthropic releases Claude Opus model",
+      url: "https://verge.example/opus",
+      labels: ["HN", "Lobsters"],
+    },
   ]);
 });
 

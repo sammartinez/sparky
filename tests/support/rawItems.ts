@@ -66,6 +66,21 @@ export function hnHit(
   });
 }
 
+/** Two consecutive releases of one tool, as HN front-page hits (the reported C2 pair). */
+export const LLM_030 = hnHit(43990001, {
+  title: "llm 0.30",
+  url: "https://github.com/simonw/llm/releases/tag/0.30",
+  points: 96,
+  comments: 18,
+});
+
+export const LLM_031 = hnHit(44001005, {
+  title: "llm 0.31",
+  url: "https://github.com/simonw/llm/releases/tag/0.31",
+  points: 180,
+  comments: 42,
+});
+
 /** What marks an item as coming from Lobsters: spread into any fixture's overrides. */
 export const LOBSTERS = { source: "lobsters", label: "Lobsters" } as const;
 
@@ -77,6 +92,11 @@ export function lobstersItem(overrides: Partial<RawItem> = {}): RawItem {
 /** The same item as `n` separate objects, as `n` overlapping queries return it. */
 export function copies(original: RawItem, n: number): RawItem[] {
   return Array.from({ length: n }, () => ({ ...original }));
+}
+
+/** The badges a ranked story carries, in alphabetical order. */
+export function labelsOf(story: Story): string[] {
+  return story.appearances.map((a) => a.label).sort();
 }
 
 /** Each ranked story's `normalized`, keyed by canonical URL. */
