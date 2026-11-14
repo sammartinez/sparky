@@ -1,8 +1,236 @@
 {
   "date": "2026-11-13",
-  "generatedAt": "2026-11-13T19:02:13.387Z",
+  "generatedAt": "2026-11-14T04:55:57.945Z",
   "windowHours": 36,
   "stories": [
+    {
+      "id": "edbf4ed1a954",
+      "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+      "url": "https://arxiv.org/abs/2605.29713",
+      "canonicalUrl": "https://arxiv.org/abs/2605.29713",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-14T04:51:14.032Z",
+      "appearances": [
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 1,
+          "comments": 0,
+          "discussionUrl": "https://lobste.rs/s/0aungk/little_book_generative_ai_foundations"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 13.393
+    },
+    {
+      "id": "c19e7ef010f7",
+      "title": "You could have invented transformers from memory",
+      "url": "https://alexwang.ai/posts/associative-memory/",
+      "canonicalUrl": "https://alexwang.ai/posts/associative-memory",
+      "domain": "alexwang.ai",
+      "createdAt": "2026-11-14T04:49:47.565Z",
+      "appearances": [
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 1,
+          "comments": 0,
+          "discussionUrl": "https://lobste.rs/s/u2h9as/you_could_have_invented_transformers"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 13.119
+    },
+    {
+      "id": "b26717d449a4",
+      "title": "Nvidia Allegedly Engineered Scarcity by Funding AI Startups to Buy Its GPUs",
+      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "canonicalUrl": "https://techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "domain": "techpowerup.com",
+      "createdAt": "2026-11-14T02:52:59.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 130,
+          "comments": 60,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50493251"
+        }
+      ],
+      "normalized": 0.601,
+      "score": 4.85
+    },
+    {
+      "id": "7039aca8dbba",
+      "title": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
+      "canonicalUrl": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
+      "domain": "finance.yahoo.com",
+      "createdAt": "2026-11-14T02:21:36.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 90,
+          "comments": 25,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50492993"
+        }
+      ],
+      "normalized": 0.51,
+      "score": 3.304
+    },
+    {
+      "id": "a9dc79e6aa5b",
+      "title": "Anthropic upgrades Claude Code Projects to run parallel AI workers",
+      "url": "https://claude.com/resources/articles/projects-redesigned",
+      "canonicalUrl": "https://claude.com/resources/articles/projects-redesigned",
+      "domain": "claude.com",
+      "createdAt": "2026-11-14T00:28:11.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 67,
+          "comments": 64,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50492141"
+        }
+      ],
+      "normalized": 0.399,
+      "score": 1.386
+    },
+    {
+      "id": "21ab7432dba4",
+      "title": "Claude Meetings",
+      "url": "https://claude.com/resources/articles/claude-meetings",
+      "canonicalUrl": "https://claude.com/resources/articles/claude-meetings",
+      "domain": "claude.com",
+      "createdAt": "2026-11-13T22:39:15.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 79,
+          "comments": 65,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50491097"
+        }
+      ],
+      "normalized": 0.451,
+      "score": 1.004
+    },
+    {
+      "id": "9f3952a424ef",
+      "title": "No AI Slop: A Manifesto",
+      "url": "https://www.slopmanifesto.com/",
+      "canonicalUrl": "https://slopmanifesto.com/",
+      "domain": "slopmanifesto.com",
+      "createdAt": "2026-11-13T19:51:56.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 189,
+          "comments": 110,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50488769"
+        }
+      ],
+      "normalized": 0.739,
+      "score": 0.975
+    },
+    {
+      "id": "10c60fc60c0f",
+      "title": "Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update",
+      "url": "https://unsloth.ai/docs/models/qwen3.8",
+      "canonicalUrl": "https://unsloth.ai/docs/models/qwen3.8",
+      "domain": "unsloth.ai",
+      "createdAt": "2026-11-14T00:06:04.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 47,
+          "comments": 5,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50491980"
+        }
+      ],
+      "normalized": 0.307,
+      "score": 0.967
+    },
+    {
+      "id": "03f9e691f932",
+      "title": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
+      "url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas",
+      "canonicalUrl": "https://freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas",
+      "domain": "freightwaves.com",
+      "createdAt": "2026-11-13T18:40:44.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 319,
+          "comments": 178,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50487864"
+        }
+      ],
+      "normalized": 0.856,
+      "score": 0.941
+    },
+    {
+      "id": "68775138fa15",
+      "title": "An open letter to the Nvidia Board of Directors",
+      "url": "https://standwithjensen.com/",
+      "canonicalUrl": "https://standwithjensen.com/",
+      "domain": "standwithjensen.com",
+      "createdAt": "2026-11-13T23:34:06.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 37,
+          "comments": 24,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50491690"
+        }
+      ],
+      "normalized": 0.261,
+      "score": 0.719
+    },
+    {
+      "id": "79d48ebc633b",
+      "title": "Perplexity Decider v1.3: Training, eval, and use cases",
+      "url": "https://www.perplexity.ai/hub/blog/perplexity-decider",
+      "canonicalUrl": "https://perplexity.ai/hub/blog/perplexity-decider",
+      "domain": "perplexity.ai",
+      "createdAt": "2026-11-13T19:24:47.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 109,
+          "comments": 21,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50488464"
+        }
+      ],
+      "normalized": 0.569,
+      "score": 0.699
+    },
+    {
+      "id": "4a36f6adfa9f",
+      "title": "OpenAI disbands its robotics team as its general models start running robots",
+      "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+      "canonicalUrl": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots",
+      "domain": "fortune.com",
+      "createdAt": "2026-11-13T17:55:23.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 152,
+          "comments": 64,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50487184"
+        }
+      ],
+      "normalized": 0.66,
+      "score": 0.652
+    },
     {
       "id": "a1e895b935bb",
       "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
@@ -20,7 +248,7 @@
         }
       ],
       "normalized": 0.677,
-      "score": 6.974
+      "score": 0.631
     },
     {
       "id": "2427bacb74a9",
@@ -38,101 +266,7 @@
         }
       ],
       "normalized": 0.5,
-      "score": 6.813
-    },
-    {
-      "id": "ea0776201252",
-      "title": "After 600 experiments, here's what I discovered about JEPA world models",
-      "url": "https://haddyalchaer.com/jepa",
-      "canonicalUrl": "https://haddyalchaer.com/jepa",
-      "domain": "haddyalchaer.com",
-      "createdAt": "2026-11-13T17:55:28.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 47,
-          "comments": 3,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50487185"
-        }
-      ],
-      "normalized": 0.338,
-      "score": 4.383
-    },
-    {
-      "id": "8400bdfe1e2a",
-      "title": "XYBench: Helping with the problem behind the question",
-      "url": "https://huggingface.co/blog/allenai/xybench",
-      "canonicalUrl": "https://huggingface.co/blog/allenai/xybench",
-      "domain": "huggingface.co",
-      "createdAt": "2026-11-13T17:02:35.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "Hugging Face",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 4.135
-    },
-    {
-      "id": "1ad3a5ecd7d1",
-      "title": "Arm boss Rene Haas approached in Nvidia CEO search",
-      "url": "https://www.ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926",
-      "canonicalUrl": "https://ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926",
-      "domain": "ft.com",
-      "createdAt": "2026-11-13T17:10:33.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 56,
-          "comments": 55,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50486489"
-        }
-      ],
-      "normalized": 0.398,
-      "score": 3.502
-    },
-    {
-      "id": "0b67abad1121",
-      "title": "Jonathan Blow – If AI Solved Coding, Why Is My Software Still the Same? [video]",
-      "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
-      "canonicalUrl": "https://youtube.com/watch?v=IRK8h67ol7Q",
-      "domain": "youtube.com",
-      "createdAt": "2026-11-13T15:08:44.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 131,
-          "comments": 100,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50484658"
-        }
-      ],
-      "normalized": 0.632,
-      "score": 2.594
-    },
-    {
-      "id": "5f1afeeb96c0",
-      "title": "Why is Google cutting off Search from AI-free schools? Here are some theories",
-      "url": "https://text.npr.org/nx-s1-6029408",
-      "canonicalUrl": "https://text.npr.org/nx-s1-6029408",
-      "domain": "text.npr.org",
-      "createdAt": "2026-11-13T15:29:10.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 92,
-          "comments": 94,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50484960"
-        }
-      ],
-      "normalized": 0.526,
-      "score": 2.407
+      "score": 0.5
     },
     {
       "id": "40e78db6601d",
@@ -157,139 +291,7 @@
         }
       ],
       "normalized": 0.5,
-      "score": 2.29
-    },
-    {
-      "id": "5bf4951adbe9",
-      "title": "Introducing ChatGPT Wallet",
-      "url": "https://openai.com/index/introducing-chatgpt-wallet",
-      "canonicalUrl": "https://openai.com/index/introducing-chatgpt-wallet",
-      "domain": "openai.com",
-      "createdAt": "2026-11-13T15:00:00.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 1.966
-    },
-    {
-      "id": "2f44ca0e016f",
-      "title": "AI is destroying the trust between writers and readers",
-      "url": "https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/",
-      "canonicalUrl": "https://theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391",
-      "domain": "theatlantic.com",
-      "createdAt": "2026-11-13T11:13:46.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 247,
-          "comments": 134,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50481870"
-        }
-      ],
-      "normalized": 0.782,
-      "score": 1.283
-    },
-    {
-      "id": "44da454e7900",
-      "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
-      "url": "https://status.claude.com/incidents/nn11wk485zfn",
-      "canonicalUrl": "https://status.claude.com/incidents/nn11wk485zfn",
-      "domain": "status.claude.com",
-      "createdAt": "2026-11-13T10:18:13.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 457,
-          "comments": 366,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50481187"
-        }
-      ],
-      "normalized": 0.91,
-      "score": 1.269
-    },
-    {
-      "id": "a7075b765536",
-      "title": "The Downfall of Jensen Huang: Nvidia's Greed and Corruption [video]",
-      "url": "https://www.youtube.com/watch?v=YYU_geUwQoA",
-      "canonicalUrl": "https://youtube.com/watch?v=YYU_geUwQoA",
-      "domain": "youtube.com",
-      "createdAt": "2026-11-13T13:45:06.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 56,
-          "comments": 9,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50483391"
-        }
-      ],
-      "normalized": 0.398,
-      "score": 1.117
-    },
-    {
-      "id": "22bcd83804c6",
-      "title": "Claude Is Down",
-      "url": "https://status.claude.com/history",
-      "canonicalUrl": "https://status.claude.com/history",
-      "domain": "status.claude.com",
-      "createdAt": "2026-11-13T09:55:06.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 191,
-          "comments": 164,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50481220"
-        }
-      ],
-      "normalized": 0.729,
-      "score": 0.955
-    },
-    {
-      "id": "3ed790d87ecb",
-      "title": "Amodei Says AI Will Cure Cancer in a Decade. Doctors Are Skeptical",
-      "url": "https://www.businessinsider.com/dario-amodei-anthropic-cancer-cure-ipo-roadshow-backlash-doctors-2026-11",
-      "canonicalUrl": "https://businessinsider.com/dario-amodei-anthropic-cancer-cure-ipo-roadshow-backlash-doctors-2026-11",
-      "domain": "businessinsider.com",
-      "createdAt": "2026-11-13T14:34:13.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 30,
-          "comments": 65,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50484110"
-        }
-      ],
-      "normalized": 0.233,
-      "score": 0.81
-    },
-    {
-      "id": "80bb63554a87",
-      "title": "Ask HN: Can anyone name anything new that AI has done?",
-      "url": "https://news.ycombinator.com/item?id=50484426",
-      "canonicalUrl": "https://news.ycombinator.com/item?id=50484426",
-      "domain": "news.ycombinator.com",
-      "createdAt": "2026-11-13T14:53:56.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 24,
-          "comments": 42,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50484426"
-        }
-      ],
-      "normalized": 0.135,
-      "score": 0.516
+      "score": 0.465
     }
   ]
 }
