@@ -1,0 +1,290 @@
+{
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-14T17:30:30.294Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "1cd6c3ec19d7",
+      "title": "The Claude Delusion",
+      "url": "https://www.netmeister.org/blog/claude-delusion.html",
+      "canonicalUrl": "https://netmeister.org/blog/claude-delusion.html",
+      "domain": "netmeister.org",
+      "createdAt": "2026-11-14T13:36:17.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 124,
+          "comments": 158,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50496921"
+        }
+      ],
+      "normalized": 0.547,
+      "score": 2.239
+    },
+    {
+      "id": "8f2daa11c505",
+      "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
+      "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
+      "canonicalUrl": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm",
+      "domain": "developer.nvidia.com",
+      "createdAt": "2026-11-14T14:09:25.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 77,
+          "comments": 37,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50497155"
+        }
+      ],
+      "normalized": 0.402,
+      "score": 1.962
+    },
+    {
+      "id": "3f060b226b66",
+      "title": "Show HN: Agweb – a browser for agents that stays out of your way",
+      "url": "https://github.com/paul-nameless/agweb",
+      "canonicalUrl": "https://github.com/paul-nameless/agweb",
+      "domain": "github.com",
+      "createdAt": "2026-11-14T14:08:12.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 44,
+          "comments": 12,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50497147"
+        }
+      ],
+      "normalized": 0.256,
+      "score": 1.244
+    },
+    {
+      "id": "4d0c29e8f59a",
+      "title": "Ask HN: What are the most useful, concrete AI skills to independently learn?",
+      "url": "https://news.ycombinator.com/item?id=50494696",
+      "canonicalUrl": "https://news.ycombinator.com/item?id=50494696",
+      "domain": "news.ycombinator.com",
+      "createdAt": "2026-11-14T06:56:42.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 66,
+          "comments": 47,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50494696"
+        }
+      ],
+      "normalized": 0.35,
+      "score": 0.368
+    },
+    {
+      "id": "ea0776201252",
+      "title": "After 600 experiments, here's what I discovered about JEPA world models",
+      "url": "https://haddyalchaer.com/jepa",
+      "canonicalUrl": "https://haddyalchaer.com/jepa",
+      "domain": "haddyalchaer.com",
+      "createdAt": "2026-11-13T17:55:28.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 282,
+          "comments": 46,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50487185"
+        }
+      ],
+      "normalized": 0.855,
+      "score": 0.25
+    },
+    {
+      "id": "0b67abad1121",
+      "title": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
+      "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+      "canonicalUrl": "https://youtube.com/watch?v=IRK8h67ol7Q",
+      "domain": "youtube.com",
+      "createdAt": "2026-11-13T15:08:44.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 433,
+          "comments": 615,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50484658"
+        }
+      ],
+      "normalized": 0.949,
+      "score": 0.23
+    },
+    {
+      "id": "5f1afeeb96c0",
+      "title": "Why is Google cutting off Search from AI-free schools? Here are some theories",
+      "url": "https://text.npr.org/nx-s1-6029408",
+      "canonicalUrl": "https://text.npr.org/nx-s1-6029408",
+      "domain": "text.npr.org",
+      "createdAt": "2026-11-13T15:29:10.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 191,
+          "comments": 183,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50484960"
+        }
+      ],
+      "normalized": 0.709,
+      "score": 0.176
+    },
+    {
+      "id": "44da454e7900",
+      "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+      "url": "https://status.claude.com/incidents/nn11wk485zfn",
+      "canonicalUrl": "https://status.claude.com/incidents/nn11wk485zfn",
+      "domain": "status.claude.com",
+      "createdAt": "2026-11-13T10:18:13.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 489,
+          "comments": 390,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50481187"
+        }
+      ],
+      "normalized": 0.966,
+      "score": 0.176
+    },
+    {
+      "id": "2f44ca0e016f",
+      "title": "AI is destroying the trust between writers and readers",
+      "url": "https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/",
+      "canonicalUrl": "https://theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391",
+      "domain": "theatlantic.com",
+      "createdAt": "2026-11-13T11:13:46.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 357,
+          "comments": 226,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50481870"
+        }
+      ],
+      "normalized": 0.897,
+      "score": 0.173
+    },
+    {
+      "id": "8400bdfe1e2a",
+      "title": "XYBench: Helping with the problem behind the question",
+      "url": "https://huggingface.co/blog/allenai/xybench",
+      "canonicalUrl": "https://huggingface.co/blog/allenai/xybench",
+      "domain": "huggingface.co",
+      "createdAt": "2026-11-13T17:02:35.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.137
+    },
+    {
+      "id": "22bcd83804c6",
+      "title": "Claude Is Down",
+      "url": "https://status.claude.com/history",
+      "canonicalUrl": "https://status.claude.com/history",
+      "domain": "status.claude.com",
+      "createdAt": "2026-11-13T09:55:06.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 199,
+          "comments": 179,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50481220"
+        }
+      ],
+      "normalized": 0.735,
+      "score": 0.132
+    },
+    {
+      "id": "5bf4951adbe9",
+      "title": "Introducing ChatGPT Wallet",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "canonicalUrl": "https://openai.com/index/introducing-chatgpt-wallet",
+      "domain": "openai.com",
+      "createdAt": "2026-11-13T15:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.12
+    },
+    {
+      "id": "5413c880f491",
+      "title": "The avalanche that hit math is coming for AI development",
+      "url": "https://www.dwarkesh.com/p/rsi",
+      "canonicalUrl": "https://dwarkesh.com/p/rsi",
+      "domain": "dwarkesh.com",
+      "createdAt": "2026-11-13T18:39:42.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 64,
+          "comments": 105,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50487854"
+        }
+      ],
+      "normalized": 0.342,
+      "score": 0.105
+    },
+    {
+      "id": "d510e06f33b3",
+      "title": "DeepSeek Ultrafast",
+      "url": "https://github.com/basetenlabs/deepseek-ultrafast",
+      "canonicalUrl": "https://github.com/basetenlabs/deepseek-ultrafast",
+      "domain": "github.com",
+      "createdAt": "2026-11-13T17:39:03.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 66,
+          "comments": 12,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50486914"
+        }
+      ],
+      "normalized": 0.35,
+      "score": 0.1
+    },
+    {
+      "id": "1ad3a5ecd7d1",
+      "title": "Arm boss Rene Haas approached in Nvidia CEO search",
+      "url": "https://www.ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926",
+      "canonicalUrl": "https://ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926",
+      "domain": "ft.com",
+      "createdAt": "2026-11-13T17:10:33.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 66,
+          "comments": 79,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50486489"
+        }
+      ],
+      "normalized": 0.35,
+      "score": 0.097
+    }
+  ]
+}
