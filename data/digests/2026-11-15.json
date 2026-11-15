@@ -1,0 +1,178 @@
+{
+  "date": "2026-11-15",
+  "generatedAt": "2026-11-15T18:18:20.074Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "de1b04aef218",
+      "title": "All AI-generated code should be Open Source",
+      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+      "canonicalUrl": "https://jakub.jankiewicz.org/blog/ai-code-open-source",
+      "domain": "jakub.jankiewicz.org",
+      "createdAt": "2026-11-15T14:46:58.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 590,
+          "comments": 333,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50507303"
+        }
+      ],
+      "normalized": 0.956,
+      "score": 4.411
+    },
+    {
+      "id": "950ac38f23f2",
+      "title": "Understanding Positional Embeddings in Modern LLMs",
+      "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+      "canonicalUrl": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+      "domain": "magazine.sebastianraschka.com",
+      "createdAt": "2026-11-15T12:14:06.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 127,
+          "comments": 3,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50506376"
+        }
+      ],
+      "normalized": 0.574,
+      "score": 1.337
+    },
+    {
+      "id": "14ba8d169059",
+      "title": "Court denies motion to dismiss DRAM price fixing case",
+      "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
+      "canonicalUrl": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
+      "domain": "litnews.ai",
+      "createdAt": "2026-11-15T01:18:36.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 406,
+          "comments": 182,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50502988"
+        }
+      ],
+      "normalized": 0.897,
+      "score": 0.448
+    },
+    {
+      "id": "7158251edd2a",
+      "title": "Jensen Huang allegedly manufactured the GPU shortage",
+      "url": "https://wccftech.com/jensen-huang-financed-ai-startups-absorb-excess-silicon/",
+      "canonicalUrl": "https://wccftech.com/jensen-huang-financed-ai-startups-absorb-excess-silicon",
+      "domain": "wccftech.com",
+      "createdAt": "2026-11-15T10:53:50.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 50,
+          "comments": 51,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50505905"
+        }
+      ],
+      "normalized": 0.235,
+      "score": 0.416
+    },
+    {
+      "id": "62868c2991a9",
+      "title": "Agile Manifesto for Agents",
+      "url": "https://debarshibasak.github.io/readables/blogs/agent-first-development",
+      "canonicalUrl": "https://debarshibasak.github.io/readables/blogs/agent-first-development",
+      "domain": "debarshibasak.github.io",
+      "createdAt": "2026-11-14T12:38:43.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 31,
+          "comments": 8,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50496562"
+        }
+      ],
+      "normalized": 0.118,
+      "score": 0.023
+    },
+    {
+      "id": "812c54fee2cd",
+      "title": "Open-source AI without Jensen",
+      "url": "https://www.interconnects.ai/p/open-source-ai-without-jensen",
+      "canonicalUrl": "https://interconnects.ai/p/open-source-ai-without-jensen",
+      "domain": "interconnects.ai",
+      "createdAt": "2026-11-14T12:44:01.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 27,
+          "comments": 7,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50496590"
+        }
+      ],
+      "normalized": 0.059,
+      "score": 0.012
+    },
+    {
+      "id": "faf7cab47812",
+      "title": "Why platform teams fail (and AI makes it worse)",
+      "url": "https://willdady.com/why-platform-teams-fail",
+      "canonicalUrl": "https://willdady.com/why-platform-teams-fail",
+      "domain": "willdady.com",
+      "createdAt": "2026-11-14T12:32:36.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 21,
+          "comments": 7,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50496525"
+        }
+      ],
+      "normalized": 0.029,
+      "score": 0.006
+    },
+    {
+      "id": "0a7276bf45ee",
+      "title": "Show HN: Gamma PDF – AI-native PDF reader, self-hosted",
+      "url": "https://gammapdf.com/",
+      "canonicalUrl": "https://gammapdf.com/",
+      "domain": "gammapdf.com",
+      "createdAt": "2026-11-14T08:08:11.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 11,
+          "comments": 3,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50495073"
+        }
+      ],
+      "normalized": 0,
+      "score": 0
+    },
+    {
+      "id": "15322d1352b5",
+      "title": "Show HN: Shotoku – Local-first action governance and budget caps for AI agents",
+      "url": "https://www.shotoku.dev/",
+      "canonicalUrl": "https://shotoku.dev/",
+      "domain": "shotoku.dev",
+      "createdAt": "2026-11-14T13:02:53.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 11,
+          "comments": 1,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50496705"
+        }
+      ],
+      "normalized": 0,
+      "score": 0
+    }
+  ]
+}
