@@ -1,8 +1,64 @@
 {
   "date": "2026-11-14",
-  "generatedAt": "2026-11-14T17:30:30.294Z",
+  "generatedAt": "2026-11-15T04:49:03.161Z",
   "windowHours": 36,
   "stories": [
+    {
+      "id": "85985435b8f3",
+      "title": "Nvidia deliberately kept GPU prices high through circular financing deals",
+      "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
+      "canonicalUrl": "https://techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
+      "domain": "techspot.com",
+      "createdAt": "2026-11-14T22:26:30.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 343,
+          "comments": 180,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50501631"
+        }
+      ],
+      "normalized": 0.864,
+      "score": 1.883
+    },
+    {
+      "id": "f9a3c449e598",
+      "title": "datasette-llm 0.1a11",
+      "url": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
+      "canonicalUrl": "https://simonwillison.net/2026/Nov/14/datasette-llm",
+      "domain": "simonwillison.net",
+      "createdAt": "2026-11-14T23:59:28.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Simon Willison",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 1.576
+    },
+    {
+      "id": "ad8b3d5bdfd0",
+      "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+      "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+      "canonicalUrl": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+      "domain": "github.com",
+      "createdAt": "2026-11-14T15:04:15.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 204,
+          "comments": 11,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50497589"
+        }
+      ],
+      "normalized": 0.7,
+      "score": 0.49
+    },
     {
       "id": "1cd6c3ec19d7",
       "title": "The Claude Delusion",
@@ -20,7 +76,7 @@
         }
       ],
       "normalized": 0.547,
-      "score": 2.239
+      "score": 0.326
     },
     {
       "id": "8f2daa11c505",
@@ -39,7 +95,45 @@
         }
       ],
       "normalized": 0.402,
-      "score": 1.962
+      "score": 0.254
+    },
+    {
+      "id": "b6f34700b44a",
+      "title": "Claude asked to renumber pages deletes professor's syllabus, year of notes",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits",
+      "canonicalUrl": "https://tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits",
+      "domain": "tomshardware.com",
+      "createdAt": "2026-11-14T17:51:13.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 44,
+          "comments": 62,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50499114"
+        }
+      ],
+      "normalized": 0.245,
+      "score": 0.244
+    },
+    {
+      "id": "220697e6ee7b",
+      "title": "Smuggling of 1.5M AI GPUs could be the cause of Huang's departure",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-chips-tracked-to-china-despite-export-controls",
+      "canonicalUrl": "https://tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-chips-tracked-to-china-despite-export-controls",
+      "domain": "tomshardware.com",
+      "createdAt": "2026-11-14T15:58:57.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 51,
+          "comments": 37,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50498051"
+        }
+      ],
+      "normalized": 0.291,
+      "score": 0.227
     },
     {
       "id": "3f060b226b66",
@@ -58,26 +152,7 @@
         }
       ],
       "normalized": 0.256,
-      "score": 1.244
-    },
-    {
-      "id": "4d0c29e8f59a",
-      "title": "Ask HN: What are the most useful, concrete AI skills to independently learn?",
-      "url": "https://news.ycombinator.com/item?id=50494696",
-      "canonicalUrl": "https://news.ycombinator.com/item?id=50494696",
-      "domain": "news.ycombinator.com",
-      "createdAt": "2026-11-14T06:56:42.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 66,
-          "comments": 47,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50494696"
-        }
-      ],
-      "normalized": 0.35,
-      "score": 0.368
+      "score": 0.162
     },
     {
       "id": "ea0776201252",
@@ -96,7 +171,7 @@
         }
       ],
       "normalized": 0.855,
-      "score": 0.25
+      "score": 0.129
     },
     {
       "id": "0b67abad1121",
@@ -115,26 +190,26 @@
         }
       ],
       "normalized": 0.949,
-      "score": 0.23
+      "score": 0.126
     },
     {
-      "id": "5f1afeeb96c0",
-      "title": "Why is Google cutting off Search from AI-free schools? Here are some theories",
-      "url": "https://text.npr.org/nx-s1-6029408",
-      "canonicalUrl": "https://text.npr.org/nx-s1-6029408",
-      "domain": "text.npr.org",
-      "createdAt": "2026-11-13T15:29:10.000Z",
+      "id": "4d0c29e8f59a",
+      "title": "Ask HN: What are the most useful, concrete AI skills to independently learn?",
+      "url": "https://news.ycombinator.com/item?id=50494696",
+      "canonicalUrl": "https://news.ycombinator.com/item?id=50494696",
+      "domain": "news.ycombinator.com",
+      "createdAt": "2026-11-14T06:56:42.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 191,
-          "comments": 183,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50484960"
+          "points": 66,
+          "comments": 47,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50494696"
         }
       ],
-      "normalized": 0.709,
-      "score": 0.176
+      "normalized": 0.35,
+      "score": 0.116
     },
     {
       "id": "44da454e7900",
@@ -153,7 +228,7 @@
         }
       ],
       "normalized": 0.966,
-      "score": 0.176
+      "score": 0.104
     },
     {
       "id": "2f44ca0e016f",
@@ -172,25 +247,26 @@
         }
       ],
       "normalized": 0.897,
-      "score": 0.173
+      "score": 0.101
     },
     {
-      "id": "8400bdfe1e2a",
-      "title": "XYBench: Helping with the problem behind the question",
-      "url": "https://huggingface.co/blog/allenai/xybench",
-      "canonicalUrl": "https://huggingface.co/blog/allenai/xybench",
-      "domain": "huggingface.co",
-      "createdAt": "2026-11-13T17:02:35.000Z",
+      "id": "5f1afeeb96c0",
+      "title": "Why is Google cutting off Search from AI-free schools? Here are some theories",
+      "url": "https://text.npr.org/nx-s1-6029408",
+      "canonicalUrl": "https://text.npr.org/nx-s1-6029408",
+      "domain": "text.npr.org",
+      "createdAt": "2026-11-13T15:29:10.000Z",
       "appearances": [
         {
-          "source": "rss",
-          "label": "Hugging Face",
-          "points": null,
-          "comments": null
+          "source": "hn",
+          "label": "HN",
+          "points": 191,
+          "comments": 183,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50484960"
         }
       ],
-      "normalized": 0.5,
-      "score": 0.137
+      "normalized": 0.709,
+      "score": 0.096
     },
     {
       "id": "22bcd83804c6",
@@ -209,82 +285,7 @@
         }
       ],
       "normalized": 0.735,
-      "score": 0.132
-    },
-    {
-      "id": "5bf4951adbe9",
-      "title": "Introducing ChatGPT Wallet",
-      "url": "https://openai.com/index/introducing-chatgpt-wallet",
-      "canonicalUrl": "https://openai.com/index/introducing-chatgpt-wallet",
-      "domain": "openai.com",
-      "createdAt": "2026-11-13T15:00:00.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 0.12
-    },
-    {
-      "id": "5413c880f491",
-      "title": "The avalanche that hit math is coming for AI development",
-      "url": "https://www.dwarkesh.com/p/rsi",
-      "canonicalUrl": "https://dwarkesh.com/p/rsi",
-      "domain": "dwarkesh.com",
-      "createdAt": "2026-11-13T18:39:42.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 64,
-          "comments": 105,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50487854"
-        }
-      ],
-      "normalized": 0.342,
-      "score": 0.105
-    },
-    {
-      "id": "d510e06f33b3",
-      "title": "DeepSeek Ultrafast",
-      "url": "https://github.com/basetenlabs/deepseek-ultrafast",
-      "canonicalUrl": "https://github.com/basetenlabs/deepseek-ultrafast",
-      "domain": "github.com",
-      "createdAt": "2026-11-13T17:39:03.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 66,
-          "comments": 12,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50486914"
-        }
-      ],
-      "normalized": 0.35,
-      "score": 0.1
-    },
-    {
-      "id": "1ad3a5ecd7d1",
-      "title": "Arm boss Rene Haas approached in Nvidia CEO search",
-      "url": "https://www.ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926",
-      "canonicalUrl": "https://ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926",
-      "domain": "ft.com",
-      "createdAt": "2026-11-13T17:10:33.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 66,
-          "comments": 79,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50486489"
-        }
-      ],
-      "normalized": 0.35,
-      "score": 0.097
+      "score": 0.078
     }
   ]
 }
