@@ -1,8 +1,253 @@
 {
   "date": "2026-11-15",
-  "generatedAt": "2026-11-15T18:18:20.074Z",
+  "generatedAt": "2026-11-16T04:46:07.358Z",
   "windowHours": 36,
   "stories": [
+    {
+      "id": "8468cd1c9400",
+      "title": "Qwen4-Max",
+      "url": "https://qwen.ai/blog?id=qwen4-max",
+      "canonicalUrl": "https://qwen.ai/blog?id=qwen4-max",
+      "domain": "qwen.ai",
+      "createdAt": "2026-11-16T02:14:44.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 216,
+          "comments": 69,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50513215"
+        }
+      ],
+      "normalized": 0.779,
+      "score": 5.151
+    },
+    {
+      "id": "e841119ab8fb",
+      "title": "Envisioning Agentic Robotics: A New Era of Robotic Systems",
+      "url": "https://arxiv.org/abs/2611.18359",
+      "canonicalUrl": "https://arxiv.org/abs/2611.18359",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-16T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 17,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.18359"
+        }
+      ],
+      "normalized": 0.917,
+      "score": 2.933
+    },
+    {
+      "id": "67ddb54c8843",
+      "title": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
+      "url": "https://arxiv.org/abs/2611.18397",
+      "canonicalUrl": "https://arxiv.org/abs/2611.18397",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-16T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 14,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.18397"
+        }
+      ],
+      "normalized": 0.833,
+      "score": 2.666
+    },
+    {
+      "id": "cebb296c29e7",
+      "title": "Loopback Transformer: Towards a Unified View of Residual Looped Transformers",
+      "url": "https://arxiv.org/abs/2611.07226",
+      "canonicalUrl": "https://arxiv.org/abs/2611.07226",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-16T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 9,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.07226"
+        }
+      ],
+      "normalized": 0.75,
+      "score": 2.4
+    },
+    {
+      "id": "62ffcac21083",
+      "title": "Emergent Biological Capabilities in a Foundation Model for Molecular Interactions",
+      "url": "https://arxiv.org/abs/2611.14504",
+      "canonicalUrl": "https://arxiv.org/abs/2611.14504",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-16T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 8,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.14504"
+        }
+      ],
+      "normalized": 0.667,
+      "score": 2.133
+    },
+    {
+      "id": "3b862515bade",
+      "title": "\"Who is Hiring?\" postings stuck near 12-year lows as AI reaches half of all jobs",
+      "url": "https://www.hntrends.com/2026/november.html",
+      "canonicalUrl": "https://hntrends.com/2026/november.html",
+      "domain": "hntrends.com",
+      "createdAt": "2026-11-16T01:31:30.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 77,
+          "comments": 67,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50512950"
+        }
+      ],
+      "normalized": 0.403,
+      "score": 2.039
+    },
+    {
+      "id": "70fcd4b516bd",
+      "title": "What's Next for Nvidia?",
+      "url": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/",
+      "canonicalUrl": "https://steveblank.com/2026/11/15/whats-next-for-nvidia",
+      "domain": "steveblank.com",
+      "createdAt": "2026-11-15T23:55:55.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 142,
+          "comments": 179,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50512235"
+        }
+      ],
+      "normalized": 0.61,
+      "score": 1.918
+    },
+    {
+      "id": "733031d07a95",
+      "title": "Jensen Huang might return to Nvidia as CEO",
+      "url": "https://www.reuters.com/world/china/jensen-huang-discusses-comeback-nvidia-ceo-with-allies-ft-reports-2026-11-15/",
+      "canonicalUrl": "https://reuters.com/world/china/jensen-huang-discusses-comeback-nvidia-ceo-with-allies-ft-reports-2026-11-15",
+      "domain": "reuters.com",
+      "createdAt": "2026-11-15T23:24:53.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 154,
+          "comments": 150,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50511982"
+        }
+      ],
+      "normalized": 0.649,
+      "score": 1.79
+    },
+    {
+      "id": "31b2bbe291de",
+      "title": "AI Reviews Are Biased Towards the Appendix",
+      "url": "https://arxiv.org/abs/2611.17811",
+      "canonicalUrl": "https://arxiv.org/abs/2611.17811",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-16T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 3,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.17811"
+        }
+      ],
+      "normalized": 0.417,
+      "score": 1.333
+    },
+    {
+      "id": "87d7014c15ee",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "canonicalUrl": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "domain": "openai.com",
+      "createdAt": "2026-11-15T22:00:01.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 1.004
+    },
+    {
+      "id": "4b0fc5b701ff",
+      "title": "Our new blog for science",
+      "url": "https://openai.com/index/our-new-blog-for-science",
+      "canonicalUrl": "https://openai.com/index/our-new-blog-for-science",
+      "domain": "openai.com",
+      "createdAt": "2026-11-15T22:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 1.004
+    },
+    {
+      "id": "a5a8c7fcb82c",
+      "title": "JVT: Just Video Transformer makes pixel-space video diffusion simple",
+      "url": "https://arxiv.org/abs/2611.18549",
+      "canonicalUrl": "https://arxiv.org/abs/2611.18549",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-16T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.18549"
+        }
+      ],
+      "normalized": 0.25,
+      "score": 0.8
+    },
+    {
+      "id": "a0f134886e82",
+      "title": "Jensen Huang discusses comeback as Nvidia CEO with allies",
+      "url": "https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1",
+      "canonicalUrl": "https://ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1",
+      "domain": "ft.com",
+      "createdAt": "2026-11-15T19:31:11.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 120,
+          "comments": 103,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50509883"
+        }
+      ],
+      "normalized": 0.584,
+      "score": 0.749
+    },
     {
       "id": "de1b04aef218",
       "title": "All AI-generated code should be Open Source",
@@ -20,159 +265,26 @@
         }
       ],
       "normalized": 0.956,
-      "score": 4.411
+      "score": 0.651
     },
     {
-      "id": "950ac38f23f2",
-      "title": "Understanding Positional Embeddings in Modern LLMs",
-      "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
-      "canonicalUrl": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
-      "domain": "magazine.sebastianraschka.com",
-      "createdAt": "2026-11-15T12:14:06.000Z",
+      "id": "294a13221fad",
+      "title": "Your Agent Will Pick the Hackable One",
+      "url": "https://geoffstearns.com/blog/your-agent-will-pick-the-hackable-one/",
+      "canonicalUrl": "https://geoffstearns.com/blog/your-agent-will-pick-the-hackable-one",
+      "domain": "geoffstearns.com",
+      "createdAt": "2026-11-15T21:10:39.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 127,
-          "comments": 3,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50506376"
+          "points": 74,
+          "comments": 58,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50510799"
         }
       ],
-      "normalized": 0.574,
-      "score": 1.337
-    },
-    {
-      "id": "14ba8d169059",
-      "title": "Court denies motion to dismiss DRAM price fixing case",
-      "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
-      "canonicalUrl": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
-      "domain": "litnews.ai",
-      "createdAt": "2026-11-15T01:18:36.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 406,
-          "comments": 182,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50502988"
-        }
-      ],
-      "normalized": 0.897,
-      "score": 0.448
-    },
-    {
-      "id": "7158251edd2a",
-      "title": "Jensen Huang allegedly manufactured the GPU shortage",
-      "url": "https://wccftech.com/jensen-huang-financed-ai-startups-absorb-excess-silicon/",
-      "canonicalUrl": "https://wccftech.com/jensen-huang-financed-ai-startups-absorb-excess-silicon",
-      "domain": "wccftech.com",
-      "createdAt": "2026-11-15T10:53:50.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 50,
-          "comments": 51,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50505905"
-        }
-      ],
-      "normalized": 0.235,
-      "score": 0.416
-    },
-    {
-      "id": "62868c2991a9",
-      "title": "Agile Manifesto for Agents",
-      "url": "https://debarshibasak.github.io/readables/blogs/agent-first-development",
-      "canonicalUrl": "https://debarshibasak.github.io/readables/blogs/agent-first-development",
-      "domain": "debarshibasak.github.io",
-      "createdAt": "2026-11-14T12:38:43.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 31,
-          "comments": 8,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50496562"
-        }
-      ],
-      "normalized": 0.118,
-      "score": 0.023
-    },
-    {
-      "id": "812c54fee2cd",
-      "title": "Open-source AI without Jensen",
-      "url": "https://www.interconnects.ai/p/open-source-ai-without-jensen",
-      "canonicalUrl": "https://interconnects.ai/p/open-source-ai-without-jensen",
-      "domain": "interconnects.ai",
-      "createdAt": "2026-11-14T12:44:01.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 27,
-          "comments": 7,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50496590"
-        }
-      ],
-      "normalized": 0.059,
-      "score": 0.012
-    },
-    {
-      "id": "faf7cab47812",
-      "title": "Why platform teams fail (and AI makes it worse)",
-      "url": "https://willdady.com/why-platform-teams-fail",
-      "canonicalUrl": "https://willdady.com/why-platform-teams-fail",
-      "domain": "willdady.com",
-      "createdAt": "2026-11-14T12:32:36.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 21,
-          "comments": 7,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50496525"
-        }
-      ],
-      "normalized": 0.029,
-      "score": 0.006
-    },
-    {
-      "id": "0a7276bf45ee",
-      "title": "Show HN: Gamma PDF – AI-native PDF reader, self-hosted",
-      "url": "https://gammapdf.com/",
-      "canonicalUrl": "https://gammapdf.com/",
-      "domain": "gammapdf.com",
-      "createdAt": "2026-11-14T08:08:11.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 11,
-          "comments": 3,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50495073"
-        }
-      ],
-      "normalized": 0,
-      "score": 0
-    },
-    {
-      "id": "15322d1352b5",
-      "title": "Show HN: Shotoku – Local-first action governance and budget caps for AI agents",
-      "url": "https://www.shotoku.dev/",
-      "canonicalUrl": "https://shotoku.dev/",
-      "domain": "shotoku.dev",
-      "createdAt": "2026-11-14T13:02:53.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 11,
-          "comments": 1,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50496705"
-        }
-      ],
-      "normalized": 0,
-      "score": 0
+      "normalized": 0.364,
+      "score": 0.621
     }
   ]
 }
