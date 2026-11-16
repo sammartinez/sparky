@@ -1,0 +1,294 @@
+{
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-16T21:27:45.803Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "b1c71d07875a",
+      "title": "OpenAI: Strengthening the fight against online child sexual abuse",
+      "url": "https://openai.com/index/strengthening-online-child-safety/",
+      "canonicalUrl": "https://openai.com/index/strengthening-online-child-safety",
+      "domain": "openai.com",
+      "createdAt": "2026-11-16T17:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 66,
+          "comments": 111,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50520804"
+        },
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 2.608
+    },
+    {
+      "id": "f26f2a4dfd6b",
+      "title": "Broadening access to AI for scientists",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "canonicalUrl": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "domain": "openai.com",
+      "createdAt": "2026-11-16T17:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 1.739
+    },
+    {
+      "id": "c5bef0f0bbad",
+      "title": "Nvidia was in trouble before the Jensen Huang mess",
+      "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
+      "canonicalUrl": "https://wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess",
+      "domain": "wired.com",
+      "createdAt": "2026-11-16T15:24:09.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 201,
+          "comments": 201,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50518567"
+        }
+      ],
+      "normalized": 0.725,
+      "score": 1.695
+    },
+    {
+      "id": "93879b835925",
+      "title": "How Billions in Safe Insurance Money Is Being Bet on A.I. Debt",
+      "url": "https://www.nytimes.com/2026/11/16/business/insurance-ai-debt.html",
+      "canonicalUrl": "https://nytimes.com/2026/11/16/business/insurance-ai-debt.html",
+      "domain": "nytimes.com",
+      "createdAt": "2026-11-16T17:25:35.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 55,
+          "comments": 25,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50520148"
+        }
+      ],
+      "normalized": 0.363,
+      "score": 1.426
+    },
+    {
+      "id": "a2a03b401b6e",
+      "title": "Caltech professor no longer grades homework's because everyone uses AI",
+      "url": "https://www.businessinsider.com/ai-math-class-university-homework-caltech-careers-2026-11",
+      "canonicalUrl": "https://businessinsider.com/ai-math-class-university-homework-caltech-careers-2026-11",
+      "domain": "businessinsider.com",
+      "createdAt": "2026-11-16T20:47:53.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 21,
+          "comments": 8,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50523022"
+        }
+      ],
+      "normalized": 0.078,
+      "score": 1.344
+    },
+    {
+      "id": "27251c4236d6",
+      "title": "Ask HN: If AI tools are so good, why isn't your bug backlog empty?",
+      "url": "https://news.ycombinator.com/item?id=50520076",
+      "canonicalUrl": "https://news.ycombinator.com/item?id=50520076",
+      "domain": "news.ycombinator.com",
+      "createdAt": "2026-11-16T17:20:28.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 36,
+          "comments": 64,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50520076"
+        }
+      ],
+      "normalized": 0.196,
+      "score": 0.752
+    },
+    {
+      "id": "96efc9ee3779",
+      "title": "Generative AI Usage in the Games Industry",
+      "url": "https://www.gameworkers.co.uk/ai-manifesto/",
+      "canonicalUrl": "https://gameworkers.co.uk/ai-manifesto",
+      "domain": "gameworkers.co.uk",
+      "createdAt": "2026-11-16T15:59:48.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 40,
+          "comments": 89,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50519043"
+        }
+      ],
+      "normalized": 0.275,
+      "score": 0.736
+    },
+    {
+      "id": "030a040e02b2",
+      "title": "FBI says Artex AI open-source hacking tool used to breach networks",
+      "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
+      "canonicalUrl": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours",
+      "domain": "techcrunch.com",
+      "createdAt": "2026-11-16T18:12:21.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 32,
+          "comments": 6,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50520796"
+        }
+      ],
+      "normalized": 0.137,
+      "score": 0.692
+    },
+    {
+      "id": "5bf4951adbe9",
+      "title": "ChatGPT Wallet",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet/",
+      "canonicalUrl": "https://openai.com/index/introducing-chatgpt-wallet",
+      "domain": "openai.com",
+      "createdAt": "2026-11-16T15:17:56.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 43,
+          "comments": 79,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50518501"
+        }
+      ],
+      "normalized": 0.294,
+      "score": 0.672
+    },
+    {
+      "id": "7cc4bd0d8db8",
+      "title": "Show HN: Coral – Open-source gateway where agents write their own tools",
+      "url": "https://github.com/withcoral/coral",
+      "canonicalUrl": "https://github.com/withcoral/coral",
+      "domain": "github.com",
+      "createdAt": "2026-11-16T14:14:51.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 50,
+          "comments": 23,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50517803"
+        }
+      ],
+      "normalized": 0.343,
+      "score": 0.63
+    },
+    {
+      "id": "f891bd93f3d2",
+      "title": "Science at the Frontier: How scientists use ChatGPT",
+      "url": "https://openai.com/index/science-at-the-frontier",
+      "canonicalUrl": "https://openai.com/index/science-at-the-frontier",
+      "domain": "openai.com",
+      "createdAt": "2026-11-16T12:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.62
+    },
+    {
+      "id": "ce9c4b2502bf",
+      "title": "U.S. tightens controls on remote access to AI technology amid Nvidia fallout",
+      "url": "https://www.npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department",
+      "canonicalUrl": "https://npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department",
+      "domain": "npr.org",
+      "createdAt": "2026-11-16T19:09:05.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 19,
+          "comments": 0,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50521575"
+        }
+      ],
+      "normalized": 0.069,
+      "score": 0.495
+    },
+    {
+      "id": "91e58e2ea930",
+      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "url": "https://openai.com/index/lvmh-media-division-partnership",
+      "canonicalUrl": "https://openai.com/index/lvmh-media-division-partnership",
+      "domain": "openai.com",
+      "createdAt": "2026-11-16T09:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.408
+    },
+    {
+      "id": "ebd9eb949639",
+      "title": "Our first phase of embedded assessments",
+      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+      "canonicalUrl": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+      "domain": "openai.com",
+      "createdAt": "2026-11-16T08:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.362
+    },
+    {
+      "id": "b53a16787936",
+      "title": "VibePrevisBench: Evaluating Agentic Coding for 4D Scene Generation in Blender",
+      "url": "https://arxiv.org/abs/2611.15789",
+      "canonicalUrl": "https://arxiv.org/abs/2611.15789",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-16T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 83,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.15789"
+        }
+      ],
+      "normalized": 0.917,
+      "score": 0.313
+    }
+  ]
+}
