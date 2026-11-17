@@ -1,0 +1,298 @@
+{
+  "date": "2026-11-17",
+  "generatedAt": "2026-11-17T20:16:37.966Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "549a77347d5e",
+      "title": "GPT‑6.2 Astra and Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "canonicalUrl": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "domain": "openai.com",
+      "createdAt": "2026-11-17T17:45:00.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 700,
+          "comments": 419,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50535230"
+        },
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.954,
+      "score": 9.442
+    },
+    {
+      "id": "23791fed6fa0",
+      "title": "MAI Code 2 and Code 2 Flash",
+      "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+      "canonicalUrl": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash",
+      "domain": "microsoft.ai",
+      "createdAt": "2026-11-17T18:25:13.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 123,
+          "comments": 57,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50535885"
+        }
+      ],
+      "normalized": 0.654,
+      "score": 5.758
+    },
+    {
+      "id": "3da82e8464b9",
+      "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
+      "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
+      "canonicalUrl": "https://ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
+      "domain": "ft.com",
+      "createdAt": "2026-11-17T17:12:06.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 131,
+          "comments": 67,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50534631"
+        }
+      ],
+      "normalized": 0.685,
+      "score": 3.678
+    },
+    {
+      "id": "715137d93524",
+      "title": "What is the best harness for each model?",
+      "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1/",
+      "canonicalUrl": "https://runta.com/blog/introducing-frontierharness-eval-v1-1",
+      "domain": "runta.com",
+      "createdAt": "2026-11-17T14:53:43.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 270,
+          "comments": 97,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50532191"
+        }
+      ],
+      "normalized": 0.815,
+      "score": 2.232
+    },
+    {
+      "id": "246f1a63c5a1",
+      "title": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
+      "url": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
+      "canonicalUrl": "https://scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
+      "domain": "scmp.com",
+      "createdAt": "2026-11-17T14:19:59.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 175,
+          "comments": 223,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50531751"
+        }
+      ],
+      "normalized": 0.746,
+      "score": 1.79
+    },
+    {
+      "id": "e0d2ba07cf0f",
+      "title": "Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos",
+      "url": "https://starsling.dev",
+      "canonicalUrl": "https://starsling.dev/",
+      "domain": "starsling.dev",
+      "createdAt": "2026-11-17T19:01:43.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 23,
+          "comments": 7,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50536468"
+        }
+      ],
+      "normalized": 0.1,
+      "score": 1.199
+    },
+    {
+      "id": "8c5b4e01285e",
+      "title": "Regulatory Capture by Anthropic Through METR",
+      "url": "https://nitter.cf/kevinnbass/status/2099621874279817638",
+      "canonicalUrl": "https://nitter.cf/kevinnbass/status/2099621874279817638",
+      "domain": "nitter.cf",
+      "createdAt": "2026-11-17T12:21:57.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 135,
+          "comments": 72,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50530450"
+        }
+      ],
+      "normalized": 0.692,
+      "score": 1.115
+    },
+    {
+      "id": "069078b2b4e3",
+      "title": "How the Claude Code team thinks about verification",
+      "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+      "canonicalUrl": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification",
+      "domain": "claude.dev",
+      "createdAt": "2026-11-17T10:20:40.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 210,
+          "comments": 162,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50529612"
+        }
+      ],
+      "normalized": 0.769,
+      "score": 0.887
+    },
+    {
+      "id": "39e994344746",
+      "title": "Show HN: TrnRT – An open-source LLM inference engine for AWS Trainium",
+      "url": "https://github.com/RunanywhereAI/trnrt",
+      "canonicalUrl": "https://github.com/RunanywhereAI/trnrt",
+      "domain": "github.com",
+      "createdAt": "2026-11-17T16:01:04.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 27,
+          "comments": 5,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50533270"
+        }
+      ],
+      "normalized": 0.146,
+      "score": 0.538
+    },
+    {
+      "id": "2861e7d39023",
+      "title": "A.I. Just Blew Up a Key Tenet of Computer Science",
+      "url": "https://www.nytimes.com/2026/11/06/science/ai-exponential-time-hypothesis.html",
+      "canonicalUrl": "https://nytimes.com/2026/11/06/science/ai-exponential-time-hypothesis.html",
+      "domain": "nytimes.com",
+      "createdAt": "2026-11-17T15:33:48.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 25,
+          "comments": 22,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50532786"
+        }
+      ],
+      "normalized": 0.123,
+      "score": 0.4
+    },
+    {
+      "id": "6475f1e2559a",
+      "title": "The Buddhist A.I. Sect That Wants to Take over Silicon Valley",
+      "url": "https://www.newyorker.com/magazine/2026/11/23/the-buddhist-ai-sect-that-wants-to-take-over-silicon-valley",
+      "canonicalUrl": "https://newyorker.com/magazine/2026/11/23/the-buddhist-ai-sect-that-wants-to-take-over-silicon-valley",
+      "domain": "newyorker.com",
+      "createdAt": "2026-11-17T16:09:00.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 22,
+          "comments": 5,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50533429"
+        }
+      ],
+      "normalized": 0.092,
+      "score": 0.353
+    },
+    {
+      "id": "fdf7cbb6cbcc",
+      "title": "InclusionMed: Benchmarking AI for Inclusive Healthcare",
+      "url": "https://arxiv.org/abs/2611.21218",
+      "canonicalUrl": "https://arxiv.org/abs/2611.21218",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-17T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 62,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.21218"
+        }
+      ],
+      "normalized": 0.889,
+      "score": 0.333
+    },
+    {
+      "id": "5c3a37d25e00",
+      "title": "SWE-CoWork: Benchmarking Coding Agents as Digital Employees in Organizations",
+      "url": "https://arxiv.org/abs/2611.20218",
+      "canonicalUrl": "https://arxiv.org/abs/2611.20218",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-17T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 44,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.20218"
+        }
+      ],
+      "normalized": 0.833,
+      "score": 0.312
+    },
+    {
+      "id": "193d743a0575",
+      "title": "ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters",
+      "url": "https://arxiv.org/abs/2611.21607",
+      "canonicalUrl": "https://arxiv.org/abs/2611.21607",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-17T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 41,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.21607"
+        }
+      ],
+      "normalized": 0.806,
+      "score": 0.302
+    },
+    {
+      "id": "1e00563b1147",
+      "title": "Accelerate Bench: Evaluating Agents for Application-Level Program Optimization",
+      "url": "https://arxiv.org/abs/2611.20882",
+      "canonicalUrl": "https://arxiv.org/abs/2611.20882",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-17T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 16,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.20882"
+        }
+      ],
+      "normalized": 0.722,
+      "score": 0.271
+    }
+  ]
+}
