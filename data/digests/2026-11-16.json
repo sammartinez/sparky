@@ -1,8 +1,216 @@
 {
   "date": "2026-11-16",
-  "generatedAt": "2026-11-16T21:27:45.803Z",
+  "generatedAt": "2026-11-17T06:33:06.207Z",
   "windowHours": 36,
   "stories": [
+    {
+      "id": "11fbf687495f",
+      "title": "PaperCritic: Training AI Reviewers to Assess the Soundness of Papers",
+      "url": "https://arxiv.org/abs/2611.17834",
+      "canonicalUrl": "https://arxiv.org/abs/2611.17834",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-17T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 14,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.17834"
+        }
+      ],
+      "normalized": 0.775,
+      "score": 1.628
+    },
+    {
+      "id": "81bd7f76e2a9",
+      "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+      "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+      "canonicalUrl": "https://xusheng.dev/posts/windows-coding-agent-telemetry",
+      "domain": "xusheng.dev",
+      "createdAt": "2026-11-16T22:58:20.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 454,
+          "comments": 292,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50524736"
+        }
+      ],
+      "normalized": 0.912,
+      "score": 1.562
+    },
+    {
+      "id": "887a9d54e326",
+      "title": "Running coding agents without handing them my credentials",
+      "url": "https://blog.antonio.cx/running-agents-with-lend",
+      "canonicalUrl": "https://blog.antonio.cx/running-agents-with-lend",
+      "domain": "blog.antonio.cx",
+      "createdAt": "2026-11-17T01:18:56.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 90,
+          "comments": 40,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50526152"
+        }
+      ],
+      "normalized": 0.536,
+      "score": 1.521
+    },
+    {
+      "id": "753f1faf81d0",
+      "title": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
+      "url": "https://arxiv.org/abs/2611.21003",
+      "canonicalUrl": "https://arxiv.org/abs/2611.21003",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-17T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 11,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.21003"
+        }
+      ],
+      "normalized": 0.575,
+      "score": 1.208
+    },
+    {
+      "id": "d93081553b9b",
+      "title": "SPILLWAY: Separating Target Admission from Sanitization to Defend Tool-Using Agents against Prompt Injection",
+      "url": "https://arxiv.org/abs/2611.07222",
+      "canonicalUrl": "https://arxiv.org/abs/2611.07222",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-17T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 11,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.07222"
+        }
+      ],
+      "normalized": 0.575,
+      "score": 1.208
+    },
+    {
+      "id": "93a91859ae6f",
+      "title": "Mem Is Shutting Down",
+      "url": "https://get.mem.ai/blog/mem-is-shutting-down",
+      "canonicalUrl": "https://get.mem.ai/blog/mem-is-shutting-down",
+      "domain": "get.mem.ai",
+      "createdAt": "2026-11-17T02:13:41.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 41,
+          "comments": 48,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50526537"
+        }
+      ],
+      "normalized": 0.288,
+      "score": 1.041
+    },
+    {
+      "id": "764198fc49a3",
+      "title": "llm 0.37.3",
+      "url": "https://simonwillison.net/2026/Nov/16/llm/",
+      "canonicalUrl": "https://simonwillison.net/2026/Nov/16/llm",
+      "domain": "simonwillison.net",
+      "createdAt": "2026-11-16T23:57:26.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Simon Willison",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 1.041
+    },
+    {
+      "id": "204a30011332",
+      "title": "OpenCode Browse",
+      "url": "https://opencode.ai/product/browse",
+      "canonicalUrl": "https://opencode.ai/product/browse",
+      "domain": "opencode.ai",
+      "createdAt": "2026-11-16T21:20:37.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 204,
+          "comments": 97,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50523459"
+        }
+      ],
+      "normalized": 0.76,
+      "score": 0.981
+    },
+    {
+      "id": "51a39fc57da1",
+      "title": "US will say \"no\" to global ban on killer robots",
+      "url": "https://www.newsweek.com/us-expected-to-block-killer-robot-treaty-talks-12722369",
+      "canonicalUrl": "https://newsweek.com/us-expected-to-block-killer-robot-treaty-talks-12722369",
+      "domain": "newsweek.com",
+      "createdAt": "2026-11-16T22:57:49.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 82,
+          "comments": 102,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50524728"
+        }
+      ],
+      "normalized": 0.504,
+      "score": 0.862
+    },
+    {
+      "id": "e3341307fff0",
+      "title": "Calpha: Toward Native Biomolecular Intelligence in a General-Purpose Language Model",
+      "url": "https://arxiv.org/abs/2611.20986",
+      "canonicalUrl": "https://arxiv.org/abs/2611.20986",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-17T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 6,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.20986"
+        }
+      ],
+      "normalized": 0.35,
+      "score": 0.735
+    },
+    {
+      "id": "d4875a92aea8",
+      "title": "Claude Mythos slashed software work to onboard AMD GPUs to around three days",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-mythos-slashed-software-work-to-onboard-amd-gpus-from-up-to-12-months-to-around-three-days-writing-almost-100-percent-of-kernels-autonomously-chips-away-at-nvidias-cuda-moat",
+      "canonicalUrl": "https://tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-mythos-slashed-software-work-to-onboard-amd-gpus-from-up-to-12-months-to-around-three-days-writing-almost-100-percent-of-kernels-autonomously-chips-away-at-nvidias-cuda-moat",
+      "domain": "tomshardware.com",
+      "createdAt": "2026-11-17T01:35:16.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 36,
+          "comments": 12,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50526264"
+        }
+      ],
+      "normalized": 0.216,
+      "score": 0.657
+    },
     {
       "id": "b1c71d07875a",
       "title": "OpenAI: Strengthening the fight against online child sexual abuse",
@@ -26,25 +234,26 @@
         }
       ],
       "normalized": 0.5,
-      "score": 2.608
+      "score": 0.537
     },
     {
-      "id": "f26f2a4dfd6b",
-      "title": "Broadening access to AI for scientists",
-      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-      "canonicalUrl": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-      "domain": "openai.com",
-      "createdAt": "2026-11-16T17:00:00.000Z",
+      "id": "6c1b48e077a6",
+      "title": "LoopFill: Pipelined Multi-Token Speculative Decoding for Looped Transformers",
+      "url": "https://arxiv.org/abs/2611.19649",
+      "canonicalUrl": "https://arxiv.org/abs/2611.19649",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-17T00:00:00.000Z",
       "appearances": [
         {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 3,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.19649"
         }
       ],
-      "normalized": 0.5,
-      "score": 1.739
+      "normalized": 0.225,
+      "score": 0.473
     },
     {
       "id": "c5bef0f0bbad",
@@ -63,148 +272,15 @@
         }
       ],
       "normalized": 0.725,
-      "score": 1.695
+      "score": 0.435
     },
     {
-      "id": "93879b835925",
-      "title": "How Billions in Safe Insurance Money Is Being Bet on A.I. Debt",
-      "url": "https://www.nytimes.com/2026/11/16/business/insurance-ai-debt.html",
-      "canonicalUrl": "https://nytimes.com/2026/11/16/business/insurance-ai-debt.html",
-      "domain": "nytimes.com",
-      "createdAt": "2026-11-16T17:25:35.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 55,
-          "comments": 25,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50520148"
-        }
-      ],
-      "normalized": 0.363,
-      "score": 1.426
-    },
-    {
-      "id": "a2a03b401b6e",
-      "title": "Caltech professor no longer grades homework's because everyone uses AI",
-      "url": "https://www.businessinsider.com/ai-math-class-university-homework-caltech-careers-2026-11",
-      "canonicalUrl": "https://businessinsider.com/ai-math-class-university-homework-caltech-careers-2026-11",
-      "domain": "businessinsider.com",
-      "createdAt": "2026-11-16T20:47:53.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 21,
-          "comments": 8,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50523022"
-        }
-      ],
-      "normalized": 0.078,
-      "score": 1.344
-    },
-    {
-      "id": "27251c4236d6",
-      "title": "Ask HN: If AI tools are so good, why isn't your bug backlog empty?",
-      "url": "https://news.ycombinator.com/item?id=50520076",
-      "canonicalUrl": "https://news.ycombinator.com/item?id=50520076",
-      "domain": "news.ycombinator.com",
-      "createdAt": "2026-11-16T17:20:28.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 36,
-          "comments": 64,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50520076"
-        }
-      ],
-      "normalized": 0.196,
-      "score": 0.752
-    },
-    {
-      "id": "96efc9ee3779",
-      "title": "Generative AI Usage in the Games Industry",
-      "url": "https://www.gameworkers.co.uk/ai-manifesto/",
-      "canonicalUrl": "https://gameworkers.co.uk/ai-manifesto",
-      "domain": "gameworkers.co.uk",
-      "createdAt": "2026-11-16T15:59:48.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 40,
-          "comments": 89,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50519043"
-        }
-      ],
-      "normalized": 0.275,
-      "score": 0.736
-    },
-    {
-      "id": "030a040e02b2",
-      "title": "FBI says Artex AI open-source hacking tool used to breach networks",
-      "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
-      "canonicalUrl": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours",
-      "domain": "techcrunch.com",
-      "createdAt": "2026-11-16T18:12:21.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 32,
-          "comments": 6,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50520796"
-        }
-      ],
-      "normalized": 0.137,
-      "score": 0.692
-    },
-    {
-      "id": "5bf4951adbe9",
-      "title": "ChatGPT Wallet",
-      "url": "https://openai.com/index/introducing-chatgpt-wallet/",
-      "canonicalUrl": "https://openai.com/index/introducing-chatgpt-wallet",
+      "id": "f26f2a4dfd6b",
+      "title": "Broadening access to AI for scientists",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "canonicalUrl": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
       "domain": "openai.com",
-      "createdAt": "2026-11-16T15:17:56.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 43,
-          "comments": 79,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50518501"
-        }
-      ],
-      "normalized": 0.294,
-      "score": 0.672
-    },
-    {
-      "id": "7cc4bd0d8db8",
-      "title": "Show HN: Coral – Open-source gateway where agents write their own tools",
-      "url": "https://github.com/withcoral/coral",
-      "canonicalUrl": "https://github.com/withcoral/coral",
-      "domain": "github.com",
-      "createdAt": "2026-11-16T14:14:51.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 50,
-          "comments": 23,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50517803"
-        }
-      ],
-      "normalized": 0.343,
-      "score": 0.63
-    },
-    {
-      "id": "f891bd93f3d2",
-      "title": "Science at the Frontier: How scientists use ChatGPT",
-      "url": "https://openai.com/index/science-at-the-frontier",
-      "canonicalUrl": "https://openai.com/index/science-at-the-frontier",
-      "domain": "openai.com",
-      "createdAt": "2026-11-16T12:00:00.000Z",
+      "createdAt": "2026-11-16T17:00:00.000Z",
       "appearances": [
         {
           "source": "rss",
@@ -214,81 +290,7 @@
         }
       ],
       "normalized": 0.5,
-      "score": 0.62
-    },
-    {
-      "id": "ce9c4b2502bf",
-      "title": "U.S. tightens controls on remote access to AI technology amid Nvidia fallout",
-      "url": "https://www.npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department",
-      "canonicalUrl": "https://npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department",
-      "domain": "npr.org",
-      "createdAt": "2026-11-16T19:09:05.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 19,
-          "comments": 0,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50521575"
-        }
-      ],
-      "normalized": 0.069,
-      "score": 0.495
-    },
-    {
-      "id": "91e58e2ea930",
-      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
-      "url": "https://openai.com/index/lvmh-media-division-partnership",
-      "canonicalUrl": "https://openai.com/index/lvmh-media-division-partnership",
-      "domain": "openai.com",
-      "createdAt": "2026-11-16T09:00:00.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 0.408
-    },
-    {
-      "id": "ebd9eb949639",
-      "title": "Our first phase of embedded assessments",
-      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
-      "canonicalUrl": "https://openai.com/index/our-first-phase-of-embedded-assessments",
-      "domain": "openai.com",
-      "createdAt": "2026-11-16T08:00:00.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 0.362
-    },
-    {
-      "id": "b53a16787936",
-      "title": "VibePrevisBench: Evaluating Agentic Coding for 4D Scene Generation in Blender",
-      "url": "https://arxiv.org/abs/2611.15789",
-      "canonicalUrl": "https://arxiv.org/abs/2611.15789",
-      "domain": "arxiv.org",
-      "createdAt": "2026-11-16T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 83,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2611.15789"
-        }
-      ],
-      "normalized": 0.917,
-      "score": 0.313
+      "score": 0.358
     }
   ]
 }
