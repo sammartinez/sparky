@@ -1,8 +1,236 @@
 {
   "date": "2026-11-17",
-  "generatedAt": "2026-11-17T20:16:37.966Z",
+  "generatedAt": "2026-11-18T05:54:50.189Z",
   "windowHours": 36,
   "stories": [
+    {
+      "id": "4920d00e28ac",
+      "title": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
+      "url": "https://arxiv.org/abs/2611.22115",
+      "canonicalUrl": "https://arxiv.org/abs/2611.22115",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-18T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 70,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.22115"
+        }
+      ],
+      "normalized": 0.95,
+      "score": 2.294
+    },
+    {
+      "id": "c82788cf566f",
+      "title": "AscendGYM: A Cost-Aware Kernel Optimization Benchmark for Real-World Workloads on Ascend NPUs",
+      "url": "https://arxiv.org/abs/2611.17621",
+      "canonicalUrl": "https://arxiv.org/abs/2611.17621",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-18T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 50,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.17621"
+        }
+      ],
+      "normalized": 0.925,
+      "score": 2.234
+    },
+    {
+      "id": "d027d54b3e5a",
+      "title": "Weight-Space Programming Doesn't Need Transformers",
+      "url": "https://arxiv.org/abs/2611.22055",
+      "canonicalUrl": "https://arxiv.org/abs/2611.22055",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-18T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 35,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.22055"
+        }
+      ],
+      "normalized": 0.875,
+      "score": 2.113
+    },
+    {
+      "id": "90b832d94732",
+      "title": "ForceHarness: Turning Force into Action and Physics for Frozen Frontier Models",
+      "url": "https://arxiv.org/abs/2611.21099",
+      "canonicalUrl": "https://arxiv.org/abs/2611.21099",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-18T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 35,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.21099"
+        }
+      ],
+      "normalized": 0.875,
+      "score": 2.113
+    },
+    {
+      "id": "680601501578",
+      "title": "Multi-Branch Transformer",
+      "url": "https://arxiv.org/abs/2611.19800",
+      "canonicalUrl": "https://arxiv.org/abs/2611.19800",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-18T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 24,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.19800"
+        }
+      ],
+      "normalized": 0.85,
+      "score": 2.053
+    },
+    {
+      "id": "c0824c9c7cf9",
+      "title": "TCP4D: A Unified Tool-Center-Point Tracking and Generation Model for Robot Manipulation",
+      "url": "https://arxiv.org/abs/2611.23143",
+      "canonicalUrl": "https://arxiv.org/abs/2611.23143",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-18T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 15,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.23143"
+        }
+      ],
+      "normalized": 0.825,
+      "score": 1.992
+    },
+    {
+      "id": "695d1f9a1cf6",
+      "title": "Google's AI answers reducing search traffic by 40%",
+      "url": "https://revscope.co/blog/search-seo-geo-2026/",
+      "canonicalUrl": "https://revscope.co/blog/search-seo-geo-2026",
+      "domain": "revscope.co",
+      "createdAt": "2026-11-18T00:17:58.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 254,
+          "comments": 176,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50540178"
+        }
+      ],
+      "normalized": 0.758,
+      "score": 1.962
+    },
+    {
+      "id": "da3be8597d48",
+      "title": "MedJev: A System One Vision-Language Decision Model for Fast and Effective Medical Image Understanding",
+      "url": "https://arxiv.org/abs/2611.20992",
+      "canonicalUrl": "https://arxiv.org/abs/2611.20992",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-18T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 11,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.20992"
+        }
+      ],
+      "normalized": 0.75,
+      "score": 1.811
+    },
+    {
+      "id": "fe4e3ccbd640",
+      "title": "Breath-Dx: A Time Series Classification Benchmark for Disease Screening with eNose",
+      "url": "https://arxiv.org/abs/2611.15348",
+      "canonicalUrl": "https://arxiv.org/abs/2611.15348",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-18T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 10,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.15348"
+        }
+      ],
+      "normalized": 0.7,
+      "score": 1.69
+    },
+    {
+      "id": "06aba09c8d9a",
+      "title": "ResWAM: Learning What Changes, Not What Stays, for World-Action Models",
+      "url": "https://arxiv.org/abs/2611.19559",
+      "canonicalUrl": "https://arxiv.org/abs/2611.19559",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-18T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 8,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.19559"
+        }
+      ],
+      "normalized": 0.65,
+      "score": 1.57
+    },
+    {
+      "id": "d4aa84cab004",
+      "title": "Bank CEOs, NSA Tell Congress That AI-Driven Patches Are Behind Outages",
+      "url": "https://www.washingtonsun.com/technology/bank-ceos-nsa-tell-congress-ai-driven-patches-behind-outages",
+      "canonicalUrl": "https://washingtonsun.com/technology/bank-ceos-nsa-tell-congress-ai-driven-patches-behind-outages",
+      "domain": "washingtonsun.com",
+      "createdAt": "2026-11-18T01:45:11.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 52,
+          "comments": 25,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50540836"
+        }
+      ],
+      "normalized": 0.387,
+      "score": 1.467
+    },
+    {
+      "id": "3c17f9a2318e",
+      "title": "Cerebras Disaggregated Inference",
+      "url": "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference",
+      "canonicalUrl": "https://cerebras.ai/blog/cerebras-launches-disaggregated-inference",
+      "domain": "cerebras.ai",
+      "createdAt": "2026-11-18T00:56:23.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 58,
+          "comments": 14,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50540472"
+        }
+      ],
+      "normalized": 0.435,
+      "score": 1.32
+    },
     {
       "id": "549a77347d5e",
       "title": "GPT‑6.2 Astra and Sol",
@@ -26,273 +254,44 @@
         }
       ],
       "normalized": 0.954,
-      "score": 9.442
+      "score": 1.212
     },
     {
-      "id": "23791fed6fa0",
-      "title": "MAI Code 2 and Code 2 Flash",
-      "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
-      "canonicalUrl": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash",
-      "domain": "microsoft.ai",
-      "createdAt": "2026-11-17T18:25:13.000Z",
+      "id": "c60558e98558",
+      "title": "External sandboxes for coding agents",
+      "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+      "canonicalUrl": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents",
+      "domain": "simonwillison.net",
+      "createdAt": "2026-11-17T22:52:29.000Z",
       "appearances": [
         {
-          "source": "hn",
-          "label": "HN",
-          "points": 123,
-          "comments": 57,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50535885"
+          "source": "rss",
+          "label": "Simon Willison",
+          "points": null,
+          "comments": null
         }
       ],
-      "normalized": 0.654,
-      "score": 5.758
+      "normalized": 0.5,
+      "score": 0.95
     },
     {
-      "id": "3da82e8464b9",
-      "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
-      "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
-      "canonicalUrl": "https://ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
-      "domain": "ft.com",
-      "createdAt": "2026-11-17T17:12:06.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 131,
-          "comments": 67,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50534631"
-        }
-      ],
-      "normalized": 0.685,
-      "score": 3.678
-    },
-    {
-      "id": "715137d93524",
-      "title": "What is the best harness for each model?",
-      "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1/",
-      "canonicalUrl": "https://runta.com/blog/introducing-frontierharness-eval-v1-1",
-      "domain": "runta.com",
-      "createdAt": "2026-11-17T14:53:43.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 270,
-          "comments": 97,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50532191"
-        }
-      ],
-      "normalized": 0.815,
-      "score": 2.232
-    },
-    {
-      "id": "246f1a63c5a1",
-      "title": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
-      "url": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
-      "canonicalUrl": "https://scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
-      "domain": "scmp.com",
-      "createdAt": "2026-11-17T14:19:59.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 175,
-          "comments": 223,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50531751"
-        }
-      ],
-      "normalized": 0.746,
-      "score": 1.79
-    },
-    {
-      "id": "e0d2ba07cf0f",
-      "title": "Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos",
-      "url": "https://starsling.dev",
-      "canonicalUrl": "https://starsling.dev/",
-      "domain": "starsling.dev",
-      "createdAt": "2026-11-17T19:01:43.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 23,
-          "comments": 7,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50536468"
-        }
-      ],
-      "normalized": 0.1,
-      "score": 1.199
-    },
-    {
-      "id": "8c5b4e01285e",
-      "title": "Regulatory Capture by Anthropic Through METR",
-      "url": "https://nitter.cf/kevinnbass/status/2099621874279817638",
-      "canonicalUrl": "https://nitter.cf/kevinnbass/status/2099621874279817638",
-      "domain": "nitter.cf",
-      "createdAt": "2026-11-17T12:21:57.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 135,
-          "comments": 72,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50530450"
-        }
-      ],
-      "normalized": 0.692,
-      "score": 1.115
-    },
-    {
-      "id": "069078b2b4e3",
-      "title": "How the Claude Code team thinks about verification",
-      "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
-      "canonicalUrl": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification",
-      "domain": "claude.dev",
-      "createdAt": "2026-11-17T10:20:40.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 210,
-          "comments": 162,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50529612"
-        }
-      ],
-      "normalized": 0.769,
-      "score": 0.887
-    },
-    {
-      "id": "39e994344746",
-      "title": "Show HN: TrnRT – An open-source LLM inference engine for AWS Trainium",
-      "url": "https://github.com/RunanywhereAI/trnrt",
-      "canonicalUrl": "https://github.com/RunanywhereAI/trnrt",
-      "domain": "github.com",
-      "createdAt": "2026-11-17T16:01:04.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 27,
-          "comments": 5,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50533270"
-        }
-      ],
-      "normalized": 0.146,
-      "score": 0.538
-    },
-    {
-      "id": "2861e7d39023",
-      "title": "A.I. Just Blew Up a Key Tenet of Computer Science",
-      "url": "https://www.nytimes.com/2026/11/06/science/ai-exponential-time-hypothesis.html",
-      "canonicalUrl": "https://nytimes.com/2026/11/06/science/ai-exponential-time-hypothesis.html",
-      "domain": "nytimes.com",
-      "createdAt": "2026-11-17T15:33:48.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 25,
-          "comments": 22,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50532786"
-        }
-      ],
-      "normalized": 0.123,
-      "score": 0.4
-    },
-    {
-      "id": "6475f1e2559a",
-      "title": "The Buddhist A.I. Sect That Wants to Take over Silicon Valley",
-      "url": "https://www.newyorker.com/magazine/2026/11/23/the-buddhist-ai-sect-that-wants-to-take-over-silicon-valley",
-      "canonicalUrl": "https://newyorker.com/magazine/2026/11/23/the-buddhist-ai-sect-that-wants-to-take-over-silicon-valley",
-      "domain": "newyorker.com",
-      "createdAt": "2026-11-17T16:09:00.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 22,
-          "comments": 5,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50533429"
-        }
-      ],
-      "normalized": 0.092,
-      "score": 0.353
-    },
-    {
-      "id": "fdf7cbb6cbcc",
-      "title": "InclusionMed: Benchmarking AI for Inclusive Healthcare",
-      "url": "https://arxiv.org/abs/2611.21218",
-      "canonicalUrl": "https://arxiv.org/abs/2611.21218",
+      "id": "9da821b7dfcb",
+      "title": "π^4: A Foundation Model for 4D Scene Geometry and Motion",
+      "url": "https://arxiv.org/abs/2611.23144",
+      "canonicalUrl": "https://arxiv.org/abs/2611.23144",
       "domain": "arxiv.org",
-      "createdAt": "2026-11-17T00:00:00.000Z",
+      "createdAt": "2026-11-18T00:00:00.000Z",
       "appearances": [
         {
           "source": "hf",
           "label": "HF Papers",
-          "points": 62,
+          "points": 5,
           "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2611.21218"
+          "discussionUrl": "https://huggingface.co/papers/2611.23144"
         }
       ],
-      "normalized": 0.889,
-      "score": 0.333
-    },
-    {
-      "id": "5c3a37d25e00",
-      "title": "SWE-CoWork: Benchmarking Coding Agents as Digital Employees in Organizations",
-      "url": "https://arxiv.org/abs/2611.20218",
-      "canonicalUrl": "https://arxiv.org/abs/2611.20218",
-      "domain": "arxiv.org",
-      "createdAt": "2026-11-17T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 44,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2611.20218"
-        }
-      ],
-      "normalized": 0.833,
-      "score": 0.312
-    },
-    {
-      "id": "193d743a0575",
-      "title": "ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters",
-      "url": "https://arxiv.org/abs/2611.21607",
-      "canonicalUrl": "https://arxiv.org/abs/2611.21607",
-      "domain": "arxiv.org",
-      "createdAt": "2026-11-17T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 41,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2611.21607"
-        }
-      ],
-      "normalized": 0.806,
-      "score": 0.302
-    },
-    {
-      "id": "1e00563b1147",
-      "title": "Accelerate Bench: Evaluating Agents for Application-Level Program Optimization",
-      "url": "https://arxiv.org/abs/2611.20882",
-      "canonicalUrl": "https://arxiv.org/abs/2611.20882",
-      "domain": "arxiv.org",
-      "createdAt": "2026-11-17T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 16,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2611.20882"
-        }
-      ],
-      "normalized": 0.722,
-      "score": 0.271
+      "normalized": 0.375,
+      "score": 0.906
     }
   ]
 }
