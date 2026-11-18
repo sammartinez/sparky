@@ -1,0 +1,296 @@
+{
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-18T19:47:36.653Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "75623b38e68b",
+      "title": "Why your fine-tuning job takes longer than the FLOPs say",
+      "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+      "canonicalUrl": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+      "domain": "huggingface.co",
+      "createdAt": "2026-11-18T18:53:43.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 7.364
+    },
+    {
+      "id": "5dbbce44001a",
+      "title": "Seven new models at scalable price-performance",
+      "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+      "canonicalUrl": "https://microsoft.ai/news/microsoft-ignite-2026",
+      "domain": "microsoft.ai",
+      "createdAt": "2026-11-18T16:08:24.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 287,
+          "comments": 180,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50548021"
+        }
+      ],
+      "normalized": 0.795,
+      "score": 3.519
+    },
+    {
+      "id": "0bd7a28301d2",
+      "title": "\"Anthropic Is Not a Safe AI Company\" – Coalition Challenges Anthropic Safety",
+      "url": "https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO",
+      "canonicalUrl": "https://businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO",
+      "domain": "businesswire.com",
+      "createdAt": "2026-11-18T16:41:22.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 117,
+          "comments": 67,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50548485"
+        }
+      ],
+      "normalized": 0.629,
+      "score": 3.344
+    },
+    {
+      "id": "dbf723300382",
+      "title": "AI agents ask better questions than KPMG accountants in audit trial",
+      "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+      "canonicalUrl": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg",
+      "domain": "europeanbusinessmagazine.com",
+      "createdAt": "2026-11-18T15:49:34.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 151,
+          "comments": 76,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50547777"
+        }
+      ],
+      "normalized": 0.682,
+      "score": 2.737
+    },
+    {
+      "id": "bf1424b145e4",
+      "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+      "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+      "canonicalUrl": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+      "domain": "huggingface.co",
+      "createdAt": "2026-11-18T15:00:23.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 1.592
+    },
+    {
+      "id": "23a6e8d38fa0",
+      "title": "Energy-Based Reasoners: 385x more efficient inference",
+      "url": "https://energy-based-reasoners.github.io/",
+      "canonicalUrl": "https://energy-based-reasoners.github.io/",
+      "domain": "energy-based-reasoners.github.io",
+      "createdAt": "2026-11-18T09:29:32.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 271,
+          "comments": 42,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50543989"
+        },
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://lobste.rs/s/8mbnbd/energy_based_reasoners_your_recurrent"
+        }
+      ],
+      "normalized": 0.788,
+      "score": 1.29
+    },
+    {
+      "id": "a48dbad7d935",
+      "title": "Can Peer Review Survive AI-Generated Text? [pdf]",
+      "url": "https://www.sas.upenn.edu/~jesusfv/Peer_Review.pdf",
+      "canonicalUrl": "https://sas.upenn.edu/~jesusfv/Peer_Review.pdf",
+      "domain": "sas.upenn.edu",
+      "createdAt": "2026-11-18T13:51:03.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 62,
+          "comments": 75,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50546312"
+        }
+      ],
+      "normalized": 0.439,
+      "score": 1.054
+    },
+    {
+      "id": "b6dace6c6394",
+      "title": "Jensen Huang's fall hits 'open' models in boost to Anthropic and OpenAI",
+      "url": "https://www.ft.com/content/418ca885-fbcf-4b9f-a8b9-2bd60b543fc5",
+      "canonicalUrl": "https://ft.com/content/418ca885-fbcf-4b9f-a8b9-2bd60b543fc5",
+      "domain": "ft.com",
+      "createdAt": "2026-11-18T15:08:21.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 35,
+          "comments": 16,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50547223"
+        }
+      ],
+      "normalized": 0.273,
+      "score": 0.9
+    },
+    {
+      "id": "7064e35195fc",
+      "title": "A 4.5M-parameter TTS model runs 70x real-time on CPU and cost just $10 to train",
+      "url": "https://huggingface.co/n4ze3m/tiny-voca",
+      "canonicalUrl": "https://huggingface.co/n4ze3m/tiny-voca",
+      "domain": "huggingface.co",
+      "createdAt": "2026-11-18T15:01:14.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 35,
+          "comments": 2,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50547122"
+        }
+      ],
+      "normalized": 0.273,
+      "score": 0.872
+    },
+    {
+      "id": "49820ab8ff80",
+      "title": "Lakegres: Vector search on existing Open/Hudi/Iceberg tables",
+      "url": "https://www.onehouse.ai/blog/lakegres-vector-search-on-open-table-formats",
+      "canonicalUrl": "https://onehouse.ai/blog/lakegres-vector-search-on-open-table-formats",
+      "domain": "onehouse.ai",
+      "createdAt": "2026-11-18T17:41:48.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 26,
+          "comments": 5,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50549438"
+        }
+      ],
+      "normalized": 0.106,
+      "score": 0.838
+    },
+    {
+      "id": "f1feb2e4bb48",
+      "title": "AI is killing All About Berlin",
+      "url": "https://nicolasbouliane.com/blog/death-by-ai",
+      "canonicalUrl": "https://nicolasbouliane.com/blog/death-by-ai",
+      "domain": "nicolasbouliane.com",
+      "createdAt": "2026-11-18T06:47:26.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 717,
+          "comments": 651,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50542705"
+        }
+      ],
+      "normalized": 0.962,
+      "score": 0.735
+    },
+    {
+      "id": "724823e096fd",
+      "title": "Launch HN: Maritime (YC F26) – A managed cloud for production AI agents",
+      "url": "https://news.ycombinator.com/item?id=50549188",
+      "canonicalUrl": "https://news.ycombinator.com/item?id=50549188",
+      "domain": "news.ycombinator.com",
+      "createdAt": "2026-11-18T17:26:28.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 24,
+          "comments": 20,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50549188"
+        }
+      ],
+      "normalized": 0.098,
+      "score": 0.698
+    },
+    {
+      "id": "7c40c391830d",
+      "title": "We asked AI the same 210 buying questions 2 days in a row,84% of answers changed",
+      "url": "https://supercite.ai/blog/ai-answers-change-every-day",
+      "canonicalUrl": "https://supercite.ai/blog/ai-answers-change-every-day",
+      "domain": "supercite.ai",
+      "createdAt": "2026-11-18T17:58:00.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 20,
+          "comments": 28,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50549677"
+        }
+      ],
+      "normalized": 0.076,
+      "score": 0.677
+    },
+    {
+      "id": "b397f013e77f",
+      "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+      "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+      "canonicalUrl": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo",
+      "domain": "techcrunch.com",
+      "createdAt": "2026-11-18T15:59:04.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 26,
+          "comments": 0,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50547901"
+        }
+      ],
+      "normalized": 0.106,
+      "score": 0.447
+    },
+    {
+      "id": "53f2a14376dd",
+      "title": "Inside the Codex sandbox",
+      "url": "https://openai.com/index/inside-the-codex-sandbox",
+      "canonicalUrl": "https://openai.com/index/inside-the-codex-sandbox",
+      "domain": "openai.com",
+      "createdAt": "2026-11-18T08:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.444
+    }
+  ]
+}
