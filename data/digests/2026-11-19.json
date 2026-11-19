@@ -1,0 +1,291 @@
+{
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-19T19:47:42.239Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "bab1a902faa1",
+      "title": "Anthropic hits $2T in Nasdaq debut",
+      "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+      "canonicalUrl": "https://reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19",
+      "domain": "reuters.com",
+      "createdAt": "2026-11-19T17:02:40.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 426,
+          "comments": 636,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50562754"
+        }
+      ],
+      "normalized": 0.934,
+      "score": 5.651
+    },
+    {
+      "id": "be373132dcb8",
+      "title": "Claude solves two open problems in the physics of black holes",
+      "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+      "canonicalUrl": "https://anthropic.com/research/claude-black-hole-physics",
+      "domain": "anthropic.com",
+      "createdAt": "2026-11-19T17:30:44.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 177,
+          "comments": 47,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50563148"
+        }
+      ],
+      "normalized": 0.713,
+      "score": 5.201
+    },
+    {
+      "id": "32cca7ee5709",
+      "title": "Fuck Your AI Safeguards",
+      "url": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
+      "canonicalUrl": "https://ounapuu.ee/posts/2026/11/19/unsafeguards",
+      "domain": "ounapuu.ee",
+      "createdAt": "2026-11-19T16:30:18.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 228,
+          "comments": 83,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50562262"
+        }
+      ],
+      "normalized": 0.779,
+      "score": 3.886
+    },
+    {
+      "id": "3c558e421a8c",
+      "title": "Chrome AI features wasting much bandwidth",
+      "url": "https://perishablepress.com/chrome-ai-wasting-much-bandwidth/",
+      "canonicalUrl": "https://perishablepress.com/chrome-ai-wasting-much-bandwidth",
+      "domain": "perishablepress.com",
+      "createdAt": "2026-11-19T16:54:25.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 82,
+          "comments": 25,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50562636"
+        }
+      ],
+      "normalized": 0.522,
+      "score": 3.001
+    },
+    {
+      "id": "849bf67a7068",
+      "title": "Pete warden on local AI, open models, voice interfaces, the future of hardware",
+      "url": "https://thedataexchange.media/pete-warden-moonshine/",
+      "canonicalUrl": "https://thedataexchange.media/pete-warden-moonshine",
+      "domain": "thedataexchange.media",
+      "createdAt": "2026-11-19T15:38:12.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 160,
+          "comments": 151,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50561508"
+        }
+      ],
+      "normalized": 0.691,
+      "score": 2.621
+    },
+    {
+      "id": "4fbc02245f26",
+      "title": "AI isn't replacing your job. It's turning it into low-paid gig work",
+      "url": "https://restofworld.org/2026/ai-jobs-skills-gig-work/",
+      "canonicalUrl": "https://restofworld.org/2026/ai-jobs-skills-gig-work",
+      "domain": "restofworld.org",
+      "createdAt": "2026-11-19T16:45:50.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 49,
+          "comments": 27,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50562500"
+        }
+      ],
+      "normalized": 0.353,
+      "score": 1.926
+    },
+    {
+      "id": "2a92e8f73fe8",
+      "title": "Anthropic (ANT) stock lists at nearly $2T valuation",
+      "url": "https://news.ycombinator.com/item?id=50562528",
+      "canonicalUrl": "https://news.ycombinator.com/item?id=50562528",
+      "domain": "news.ycombinator.com",
+      "createdAt": "2026-11-19T16:47:32.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 38,
+          "comments": 11,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50562528"
+        }
+      ],
+      "normalized": 0.272,
+      "score": 1.5
+    },
+    {
+      "id": "e8e0a324c29d",
+      "title": "OpenAI still has a WebRTC Problem",
+      "url": "https://moq.dev/blog/webrtc-is-still-the-problem/",
+      "canonicalUrl": "https://moq.dev/blog/webrtc-is-still-the-problem",
+      "domain": "moq.dev",
+      "createdAt": "2026-11-19T14:20:08.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 83,
+          "comments": 25,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50560461"
+        }
+      ],
+      "normalized": 0.537,
+      "score": 1.442
+    },
+    {
+      "id": "97b20df2e79d",
+      "title": "The AI Superintelligence Debate Has Serious Flaws",
+      "url": "https://spectrum.ieee.org/ai-superintelligence-debate",
+      "canonicalUrl": "https://spectrum.ieee.org/ai-superintelligence-debate",
+      "domain": "spectrum.ieee.org",
+      "createdAt": "2026-11-19T12:17:10.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 98,
+          "comments": 155,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50559140"
+        }
+      ],
+      "normalized": 0.566,
+      "score": 0.982
+    },
+    {
+      "id": "5e13f01872e4",
+      "title": "Two stealth models just appeared on the leaderboard, both ahead of Fable 5.2",
+      "url": "https://contralabs.com/frontierdesign",
+      "canonicalUrl": "https://contralabs.com/frontierdesign",
+      "domain": "contralabs.com",
+      "createdAt": "2026-11-19T11:03:20.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 96,
+          "comments": 40,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50558559"
+        }
+      ],
+      "normalized": 0.551,
+      "score": 0.769
+    },
+    {
+      "id": "7160a0d7ef92",
+      "title": "DeepMind Employees Are Unionising",
+      "url": "https://www.gdmunion.co.uk",
+      "canonicalUrl": "https://gdmunion.co.uk/",
+      "domain": "gdmunion.co.uk",
+      "createdAt": "2026-11-19T09:28:56.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 106,
+          "comments": 76,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50557885"
+        }
+      ],
+      "normalized": 0.603,
+      "score": 0.657
+    },
+    {
+      "id": "6687f7be62c3",
+      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "canonicalUrl": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "domain": "openai.com",
+      "createdAt": "2026-11-19T08:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.444
+    },
+    {
+      "id": "8044f951d58a",
+      "title": "Show HN: AgentMall – Let your AI agent buy groceries",
+      "url": "https://getagentmall.com",
+      "canonicalUrl": "https://getagentmall.com/",
+      "domain": "getagentmall.com",
+      "createdAt": "2026-11-19T16:46:14.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 16,
+          "comments": 3,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50562508"
+        }
+      ],
+      "normalized": 0.066,
+      "score": 0.362
+    },
+    {
+      "id": "4df9db1b8832",
+      "title": "HINT-WAM: Hindsight-Informed Training for World Action Models",
+      "url": "https://arxiv.org/abs/2611.24789",
+      "canonicalUrl": "https://arxiv.org/abs/2611.24789",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-19T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 22,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.24789"
+        }
+      ],
+      "normalized": 0.875,
+      "score": 0.341
+    },
+    {
+      "id": "a91862b9e13a",
+      "title": "StrideWorld: Benchmarking Scene Rigidity and Action Consistency in Interactive Video World Model",
+      "url": "https://arxiv.org/abs/2611.24408",
+      "canonicalUrl": "https://arxiv.org/abs/2611.24408",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-19T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 12,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.24408"
+        }
+      ],
+      "normalized": 0.775,
+      "score": 0.302
+    }
+  ]
+}
