@@ -1,296 +1,292 @@
 {
   "date": "2026-11-18",
-  "generatedAt": "2026-11-18T19:47:36.653Z",
+  "generatedAt": "2026-11-19T05:54:54.163Z",
   "windowHours": 36,
   "stories": [
     {
-      "id": "75623b38e68b",
-      "title": "Why your fine-tuning job takes longer than the FLOPs say",
-      "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
-      "canonicalUrl": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
-      "domain": "huggingface.co",
-      "createdAt": "2026-11-18T18:53:43.000Z",
+      "id": "013b6c50f2dd",
+      "title": "Game2Player: Scaling Gameplay Experience for Visual Agents through Environment-Player Co-Development",
+      "url": "https://arxiv.org/abs/2611.24154",
+      "canonicalUrl": "https://arxiv.org/abs/2611.24154",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-19T00:00:00.000Z",
       "appearances": [
         {
-          "source": "rss",
-          "label": "Hugging Face",
-          "points": null,
-          "comments": null
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 18,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.24154"
         }
       ],
-      "normalized": 0.5,
-      "score": 7.364
+      "normalized": 0.925,
+      "score": 2.233
     },
     {
-      "id": "5dbbce44001a",
-      "title": "Seven new models at scalable price-performance",
-      "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
-      "canonicalUrl": "https://microsoft.ai/news/microsoft-ignite-2026",
-      "domain": "microsoft.ai",
-      "createdAt": "2026-11-18T16:08:24.000Z",
+      "id": "10643d0df969",
+      "title": "The Resolution Hypothesis: Agent Evolution's Key Is Identifying Improvements",
+      "url": "https://arxiv.org/abs/2611.23068",
+      "canonicalUrl": "https://arxiv.org/abs/2611.23068",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-19T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 13,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.23068"
+        }
+      ],
+      "normalized": 0.9,
+      "score": 2.173
+    },
+    {
+      "id": "84fa3a4888d8",
+      "title": "ALIVE: Making Streaming Video Models Interactive",
+      "url": "https://arxiv.org/abs/2611.21366",
+      "canonicalUrl": "https://arxiv.org/abs/2611.21366",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-19T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 11,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.21366"
+        }
+      ],
+      "normalized": 0.875,
+      "score": 2.112
+    },
+    {
+      "id": "9491587c1875",
+      "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
+      "url": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
+      "canonicalUrl": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model",
+      "domain": "micjm.com",
+      "createdAt": "2026-11-19T00:29:45.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 287,
-          "comments": 180,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50548021"
-        }
-      ],
-      "normalized": 0.795,
-      "score": 3.519
-    },
-    {
-      "id": "0bd7a28301d2",
-      "title": "\"Anthropic Is Not a Safe AI Company\" – Coalition Challenges Anthropic Safety",
-      "url": "https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO",
-      "canonicalUrl": "https://businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO",
-      "domain": "businesswire.com",
-      "createdAt": "2026-11-18T16:41:22.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 117,
+          "points": 189,
           "comments": 67,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50548485"
+          "discussionUrl": "https://news.ycombinator.com/item?id=50554374"
         }
       ],
-      "normalized": 0.629,
-      "score": 3.344
+      "normalized": 0.744,
+      "score": 2.019
     },
     {
-      "id": "dbf723300382",
-      "title": "AI agents ask better questions than KPMG accountants in audit trial",
-      "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
-      "canonicalUrl": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg",
-      "domain": "europeanbusinessmagazine.com",
-      "createdAt": "2026-11-18T15:49:34.000Z",
+      "id": "07bd5650afd3",
+      "title": "AI will not make you rich (2025)",
+      "url": "https://colossus.com/article/ai-will-not-make-you-rich/",
+      "canonicalUrl": "https://colossus.com/article/ai-will-not-make-you-rich",
+      "domain": "colossus.com",
+      "createdAt": "2026-11-19T01:51:28.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 151,
-          "comments": 76,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50547777"
+          "points": 85,
+          "comments": 51,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50555093"
         }
       ],
-      "normalized": 0.682,
-      "score": 2.737
+      "normalized": 0.512,
+      "score": 1.999
     },
     {
-      "id": "bf1424b145e4",
-      "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
-      "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
-      "canonicalUrl": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
-      "domain": "huggingface.co",
-      "createdAt": "2026-11-18T15:00:23.000Z",
+      "id": "12247f2e9655",
+      "title": "Code World Model 2.0: Towards Infinite Controllable Video Generation",
+      "url": "https://arxiv.org/abs/2611.22925",
+      "canonicalUrl": "https://arxiv.org/abs/2611.22925",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-19T00:00:00.000Z",
       "appearances": [
         {
-          "source": "rss",
-          "label": "Hugging Face",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 1.592
-    },
-    {
-      "id": "23a6e8d38fa0",
-      "title": "Energy-Based Reasoners: 385x more efficient inference",
-      "url": "https://energy-based-reasoners.github.io/",
-      "canonicalUrl": "https://energy-based-reasoners.github.io/",
-      "domain": "energy-based-reasoners.github.io",
-      "createdAt": "2026-11-18T09:29:32.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 271,
-          "comments": 42,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50543989"
-        },
-        {
-          "source": "lobsters",
-          "label": "Lobsters",
-          "points": 2,
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 8,
           "comments": 0,
-          "discussionUrl": "https://lobste.rs/s/8mbnbd/energy_based_reasoners_your_recurrent"
+          "discussionUrl": "https://huggingface.co/papers/2611.22925"
         }
       ],
-      "normalized": 0.788,
-      "score": 1.29
+      "normalized": 0.775,
+      "score": 1.871
     },
     {
-      "id": "a48dbad7d935",
-      "title": "Can Peer Review Survive AI-Generated Text? [pdf]",
-      "url": "https://www.sas.upenn.edu/~jesusfv/Peer_Review.pdf",
-      "canonicalUrl": "https://sas.upenn.edu/~jesusfv/Peer_Review.pdf",
-      "domain": "sas.upenn.edu",
-      "createdAt": "2026-11-18T13:51:03.000Z",
+      "id": "4938e0b6bde6",
+      "title": "Decoding Without a Decoder: Direct Pixel Prediction from Diffusion Transformers",
+      "url": "https://arxiv.org/abs/2611.22287",
+      "canonicalUrl": "https://arxiv.org/abs/2611.22287",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-19T00:00:00.000Z",
       "appearances": [
         {
-          "source": "hn",
-          "label": "HN",
-          "points": 62,
-          "comments": 75,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50546312"
-        }
-      ],
-      "normalized": 0.439,
-      "score": 1.054
-    },
-    {
-      "id": "b6dace6c6394",
-      "title": "Jensen Huang's fall hits 'open' models in boost to Anthropic and OpenAI",
-      "url": "https://www.ft.com/content/418ca885-fbcf-4b9f-a8b9-2bd60b543fc5",
-      "canonicalUrl": "https://ft.com/content/418ca885-fbcf-4b9f-a8b9-2bd60b543fc5",
-      "domain": "ft.com",
-      "createdAt": "2026-11-18T15:08:21.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 35,
-          "comments": 16,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50547223"
-        }
-      ],
-      "normalized": 0.273,
-      "score": 0.9
-    },
-    {
-      "id": "7064e35195fc",
-      "title": "A 4.5M-parameter TTS model runs 70x real-time on CPU and cost just $10 to train",
-      "url": "https://huggingface.co/n4ze3m/tiny-voca",
-      "canonicalUrl": "https://huggingface.co/n4ze3m/tiny-voca",
-      "domain": "huggingface.co",
-      "createdAt": "2026-11-18T15:01:14.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 35,
-          "comments": 2,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50547122"
-        }
-      ],
-      "normalized": 0.273,
-      "score": 0.872
-    },
-    {
-      "id": "49820ab8ff80",
-      "title": "Lakegres: Vector search on existing Open/Hudi/Iceberg tables",
-      "url": "https://www.onehouse.ai/blog/lakegres-vector-search-on-open-table-formats",
-      "canonicalUrl": "https://onehouse.ai/blog/lakegres-vector-search-on-open-table-formats",
-      "domain": "onehouse.ai",
-      "createdAt": "2026-11-18T17:41:48.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 26,
-          "comments": 5,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50549438"
-        }
-      ],
-      "normalized": 0.106,
-      "score": 0.838
-    },
-    {
-      "id": "f1feb2e4bb48",
-      "title": "AI is killing All About Berlin",
-      "url": "https://nicolasbouliane.com/blog/death-by-ai",
-      "canonicalUrl": "https://nicolasbouliane.com/blog/death-by-ai",
-      "domain": "nicolasbouliane.com",
-      "createdAt": "2026-11-18T06:47:26.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 717,
-          "comments": 651,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50542705"
-        }
-      ],
-      "normalized": 0.962,
-      "score": 0.735
-    },
-    {
-      "id": "724823e096fd",
-      "title": "Launch HN: Maritime (YC F26) – A managed cloud for production AI agents",
-      "url": "https://news.ycombinator.com/item?id=50549188",
-      "canonicalUrl": "https://news.ycombinator.com/item?id=50549188",
-      "domain": "news.ycombinator.com",
-      "createdAt": "2026-11-18T17:26:28.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 24,
-          "comments": 20,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50549188"
-        }
-      ],
-      "normalized": 0.098,
-      "score": 0.698
-    },
-    {
-      "id": "7c40c391830d",
-      "title": "We asked AI the same 210 buying questions 2 days in a row,84% of answers changed",
-      "url": "https://supercite.ai/blog/ai-answers-change-every-day",
-      "canonicalUrl": "https://supercite.ai/blog/ai-answers-change-every-day",
-      "domain": "supercite.ai",
-      "createdAt": "2026-11-18T17:58:00.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 20,
-          "comments": 28,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50549677"
-        }
-      ],
-      "normalized": 0.076,
-      "score": 0.677
-    },
-    {
-      "id": "b397f013e77f",
-      "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
-      "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
-      "canonicalUrl": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo",
-      "domain": "techcrunch.com",
-      "createdAt": "2026-11-18T15:59:04.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 26,
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 8,
           "comments": 0,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50547901"
+          "discussionUrl": "https://huggingface.co/papers/2611.22287"
         }
       ],
-      "normalized": 0.106,
-      "score": 0.447
+      "normalized": 0.775,
+      "score": 1.871
     },
     {
-      "id": "53f2a14376dd",
-      "title": "Inside the Codex sandbox",
-      "url": "https://openai.com/index/inside-the-codex-sandbox",
-      "canonicalUrl": "https://openai.com/index/inside-the-codex-sandbox",
-      "domain": "openai.com",
-      "createdAt": "2026-11-18T08:00:00.000Z",
+      "id": "5541d6f2d814",
+      "title": "QDA: Closed-Loop LLM Quantization Design with Agents",
+      "url": "https://arxiv.org/abs/2611.23388",
+      "canonicalUrl": "https://arxiv.org/abs/2611.23388",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-19T00:00:00.000Z",
       "appearances": [
         {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 8,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.23388"
         }
       ],
-      "normalized": 0.5,
-      "score": 0.444
+      "normalized": 0.775,
+      "score": 1.871
+    },
+    {
+      "id": "3c4fcc55a7d2",
+      "title": "Tideway: Phase-Aware Tiered Memory Management for MoE Inference on Consumer Devices",
+      "url": "https://arxiv.org/abs/2611.14848",
+      "canonicalUrl": "https://arxiv.org/abs/2611.14848",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-19T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 5,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.14848"
+        }
+      ],
+      "normalized": 0.675,
+      "score": 1.63
+    },
+    {
+      "id": "01c0f8c071ea",
+      "title": "Learning Anisotropic Prediction Targets for Flow Models",
+      "url": "https://arxiv.org/abs/2611.17767",
+      "canonicalUrl": "https://arxiv.org/abs/2611.17767",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-19T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 5,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.17767"
+        }
+      ],
+      "normalized": 0.675,
+      "score": 1.63
+    },
+    {
+      "id": "ef341bf9e56e",
+      "title": "Black high school students sue after AI mistakes Doritos bag for gun",
+      "url": "https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-as-a-firearm/",
+      "canonicalUrl": "https://lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-as-a-firearm",
+      "domain": "lawyerscommittee.org",
+      "createdAt": "2026-11-19T00:57:20.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 70,
+          "comments": 36,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50554641"
+        }
+      ],
+      "normalized": 0.496,
+      "score": 1.51
+    },
+    {
+      "id": "2ea14e17b7c3",
+      "title": "Jeveration: System One Models Now Generate",
+      "url": "https://arxiv.org/abs/2611.24738",
+      "canonicalUrl": "https://arxiv.org/abs/2611.24738",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-19T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 4,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.24738"
+        }
+      ],
+      "normalized": 0.6,
+      "score": 1.449
+    },
+    {
+      "id": "25c96fa5a216",
+      "title": "Anthropic prices initial public offering",
+      "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+      "canonicalUrl": "https://anthropic.com/news/anthropic-prices-initial-public-offering",
+      "domain": "anthropic.com",
+      "createdAt": "2026-11-18T23:30:09.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 140,
+          "comments": 120,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50553843"
+        }
+      ],
+      "normalized": 0.651,
+      "score": 1.409
+    },
+    {
+      "id": "b2c084a41275",
+      "title": "Gemini 4 Neon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "canonicalUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon",
+      "domain": "blog.google",
+      "createdAt": "2026-11-18T21:01:07.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 647,
+          "comments": 559,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50552424"
+        }
+      ],
+      "normalized": 0.953,
+      "score": 1.295
+    },
+    {
+      "id": "9aaf60f65be6",
+      "title": "Late Entry in Looped Language Models",
+      "url": "https://arxiv.org/abs/2611.24576",
+      "canonicalUrl": "https://arxiv.org/abs/2611.24576",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-19T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 3,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.24576"
+        }
+      ],
+      "normalized": 0.475,
+      "score": 1.147
     }
   ]
 }
