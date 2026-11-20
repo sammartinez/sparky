@@ -1,8 +1,159 @@
 {
   "date": "2026-11-19",
-  "generatedAt": "2026-11-19T19:47:42.239Z",
+  "generatedAt": "2026-11-20T05:43:27.454Z",
   "windowHours": 36,
   "stories": [
+    {
+      "id": "e486efe85b2a",
+      "title": "Token fraud is here and it’s BAD (YouTube)",
+      "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+      "canonicalUrl": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad",
+      "domain": "simonwillison.net",
+      "createdAt": "2026-11-20T02:49:57.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Simon Willison",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 2.87
+    },
+    {
+      "id": "e201ea2c78cd",
+      "title": "WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection",
+      "url": "https://arxiv.org/abs/2611.21373",
+      "canonicalUrl": "https://arxiv.org/abs/2611.21373",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 17,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.21373"
+        }
+      ],
+      "normalized": 0.9,
+      "score": 2.27
+    },
+    {
+      "id": "ed33061e28b0",
+      "title": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
+      "url": "https://git-aarvin.github.io/mei/",
+      "canonicalUrl": "https://git-aarvin.github.io/mei",
+      "domain": "git-aarvin.github.io",
+      "createdAt": "2026-11-19T23:35:35.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 325,
+          "comments": 190,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50568130"
+        }
+      ],
+      "normalized": 0.864,
+      "score": 1.986
+    },
+    {
+      "id": "7ed6112c8b26",
+      "title": "WAM-Policy: World Action Models with On-Policy Distillation for Quadrupedal Loco-Manipulation",
+      "url": "https://arxiv.org/abs/2611.24011",
+      "canonicalUrl": "https://arxiv.org/abs/2611.24011",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 9,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.24011"
+        }
+      ],
+      "normalized": 0.7,
+      "score": 1.766
+    },
+    {
+      "id": "0edb6c8440da",
+      "title": "VSpark: Speculative Decoding for Autoregressive Vision-Language-Action Models",
+      "url": "https://arxiv.org/abs/2611.22666",
+      "canonicalUrl": "https://arxiv.org/abs/2611.22666",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 7,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.22666"
+        }
+      ],
+      "normalized": 0.55,
+      "score": 1.387
+    },
+    {
+      "id": "c1bea1e1bbb0",
+      "title": "On-Policy Morphing into Hybrid Attention Models",
+      "url": "https://arxiv.org/abs/2611.24809",
+      "canonicalUrl": "https://arxiv.org/abs/2611.24809",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 6,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.24809"
+        }
+      ],
+      "normalized": 0.475,
+      "score": 1.198
+    },
+    {
+      "id": "93201ff2693e",
+      "title": "What Comes After AGI?",
+      "url": "https://institute.deepmind.com/essays/what-comes-after-agi/",
+      "canonicalUrl": "https://institute.deepmind.com/essays/what-comes-after-agi",
+      "domain": "institute.deepmind.com",
+      "createdAt": "2026-11-20T02:44:13.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 30,
+          "comments": 52,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50569519"
+        }
+      ],
+      "normalized": 0.173,
+      "score": 0.958
+    },
+    {
+      "id": "b16b1f08b291",
+      "title": "Court: 4th Amendment Disallows Use Of AI-Generated 'Probable Cause'",
+      "url": "https://www.techdirt.com/2026/11/19/court-tells-cops-that-the-4th-amendment-doesnt-cover-ai-generated-probable-cause/",
+      "canonicalUrl": "https://techdirt.com/2026/11/19/court-tells-cops-that-the-4th-amendment-doesnt-cover-ai-generated-probable-cause",
+      "domain": "techdirt.com",
+      "createdAt": "2026-11-19T22:56:59.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 59,
+          "comments": 18,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50567735"
+        }
+      ],
+      "normalized": 0.436,
+      "score": 0.875
+    },
     {
       "id": "bab1a902faa1",
       "title": "Anthropic hits $2T in Nasdaq debut",
@@ -20,7 +171,26 @@
         }
       ],
       "normalized": 0.934,
-      "score": 5.651
+      "score": 0.742
+    },
+    {
+      "id": "590524de7be0",
+      "title": "WM^MLLM: Turning MLLMs into World Models",
+      "url": "https://arxiv.org/abs/2611.24193",
+      "canonicalUrl": "https://arxiv.org/abs/2611.24193",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 4,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.24193"
+        }
+      ],
+      "normalized": 0.275,
+      "score": 0.694
     },
     {
       "id": "be373132dcb8",
@@ -39,7 +209,7 @@
         }
       ],
       "normalized": 0.713,
-      "score": 5.201
+      "score": 0.6
     },
     {
       "id": "32cca7ee5709",
@@ -58,26 +228,45 @@
         }
       ],
       "normalized": 0.779,
-      "score": 3.886
+      "score": 0.58
     },
     {
-      "id": "3c558e421a8c",
-      "title": "Chrome AI features wasting much bandwidth",
-      "url": "https://perishablepress.com/chrome-ai-wasting-much-bandwidth/",
-      "canonicalUrl": "https://perishablepress.com/chrome-ai-wasting-much-bandwidth",
-      "domain": "perishablepress.com",
-      "createdAt": "2026-11-19T16:54:25.000Z",
+      "id": "2b5c9a768212",
+      "title": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
+      "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
+      "canonicalUrl": "https://youtube.com/watch?v=lwfewYL7X0o",
+      "domain": "youtube.com",
+      "createdAt": "2026-11-19T18:47:16.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 82,
-          "comments": 25,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50562636"
+          "points": 92,
+          "comments": 179,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50564366"
         }
       ],
-      "normalized": 0.522,
-      "score": 3.001
+      "normalized": 0.545,
+      "score": 0.544
+    },
+    {
+      "id": "d6421e349b9b",
+      "title": "ChatGPT for SNES",
+      "url": "https://www.bxfoundry.com/chatgpt_snes/",
+      "canonicalUrl": "https://bxfoundry.com/chatgpt_snes",
+      "domain": "bxfoundry.com",
+      "createdAt": "2026-11-20T00:25:59.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 30,
+          "comments": 7,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50568548"
+        }
+      ],
+      "normalized": 0.173,
+      "score": 0.483
     },
     {
       "id": "849bf67a7068",
@@ -96,196 +285,7 @@
         }
       ],
       "normalized": 0.691,
-      "score": 2.621
-    },
-    {
-      "id": "4fbc02245f26",
-      "title": "AI isn't replacing your job. It's turning it into low-paid gig work",
-      "url": "https://restofworld.org/2026/ai-jobs-skills-gig-work/",
-      "canonicalUrl": "https://restofworld.org/2026/ai-jobs-skills-gig-work",
-      "domain": "restofworld.org",
-      "createdAt": "2026-11-19T16:45:50.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 49,
-          "comments": 27,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50562500"
-        }
-      ],
-      "normalized": 0.353,
-      "score": 1.926
-    },
-    {
-      "id": "2a92e8f73fe8",
-      "title": "Anthropic (ANT) stock lists at nearly $2T valuation",
-      "url": "https://news.ycombinator.com/item?id=50562528",
-      "canonicalUrl": "https://news.ycombinator.com/item?id=50562528",
-      "domain": "news.ycombinator.com",
-      "createdAt": "2026-11-19T16:47:32.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 38,
-          "comments": 11,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50562528"
-        }
-      ],
-      "normalized": 0.272,
-      "score": 1.5
-    },
-    {
-      "id": "e8e0a324c29d",
-      "title": "OpenAI still has a WebRTC Problem",
-      "url": "https://moq.dev/blog/webrtc-is-still-the-problem/",
-      "canonicalUrl": "https://moq.dev/blog/webrtc-is-still-the-problem",
-      "domain": "moq.dev",
-      "createdAt": "2026-11-19T14:20:08.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 83,
-          "comments": 25,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50560461"
-        }
-      ],
-      "normalized": 0.537,
-      "score": 1.442
-    },
-    {
-      "id": "97b20df2e79d",
-      "title": "The AI Superintelligence Debate Has Serious Flaws",
-      "url": "https://spectrum.ieee.org/ai-superintelligence-debate",
-      "canonicalUrl": "https://spectrum.ieee.org/ai-superintelligence-debate",
-      "domain": "spectrum.ieee.org",
-      "createdAt": "2026-11-19T12:17:10.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 98,
-          "comments": 155,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50559140"
-        }
-      ],
-      "normalized": 0.566,
-      "score": 0.982
-    },
-    {
-      "id": "5e13f01872e4",
-      "title": "Two stealth models just appeared on the leaderboard, both ahead of Fable 5.2",
-      "url": "https://contralabs.com/frontierdesign",
-      "canonicalUrl": "https://contralabs.com/frontierdesign",
-      "domain": "contralabs.com",
-      "createdAt": "2026-11-19T11:03:20.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 96,
-          "comments": 40,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50558559"
-        }
-      ],
-      "normalized": 0.551,
-      "score": 0.769
-    },
-    {
-      "id": "7160a0d7ef92",
-      "title": "DeepMind Employees Are Unionising",
-      "url": "https://www.gdmunion.co.uk",
-      "canonicalUrl": "https://gdmunion.co.uk/",
-      "domain": "gdmunion.co.uk",
-      "createdAt": "2026-11-19T09:28:56.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 106,
-          "comments": 76,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50557885"
-        }
-      ],
-      "normalized": 0.603,
-      "score": 0.657
-    },
-    {
-      "id": "6687f7be62c3",
-      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
-      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-      "canonicalUrl": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-      "domain": "openai.com",
-      "createdAt": "2026-11-19T08:00:00.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 0.444
-    },
-    {
-      "id": "8044f951d58a",
-      "title": "Show HN: AgentMall – Let your AI agent buy groceries",
-      "url": "https://getagentmall.com",
-      "canonicalUrl": "https://getagentmall.com/",
-      "domain": "getagentmall.com",
-      "createdAt": "2026-11-19T16:46:14.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 16,
-          "comments": 3,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50562508"
-        }
-      ],
-      "normalized": 0.066,
-      "score": 0.362
-    },
-    {
-      "id": "4df9db1b8832",
-      "title": "HINT-WAM: Hindsight-Informed Training for World Action Models",
-      "url": "https://arxiv.org/abs/2611.24789",
-      "canonicalUrl": "https://arxiv.org/abs/2611.24789",
-      "domain": "arxiv.org",
-      "createdAt": "2026-11-19T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 22,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2611.24789"
-        }
-      ],
-      "normalized": 0.875,
-      "score": 0.341
-    },
-    {
-      "id": "a91862b9e13a",
-      "title": "StrideWorld: Benchmarking Scene Rigidity and Action Consistency in Interactive Video World Model",
-      "url": "https://arxiv.org/abs/2611.24408",
-      "canonicalUrl": "https://arxiv.org/abs/2611.24408",
-      "domain": "arxiv.org",
-      "createdAt": "2026-11-19T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 12,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2611.24408"
-        }
-      ],
-      "normalized": 0.775,
-      "score": 0.302
+      "score": 0.465
     }
   ]
 }
