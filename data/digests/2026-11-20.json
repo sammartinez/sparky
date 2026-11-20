@@ -1,0 +1,299 @@
+{
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-20T19:27:58.361Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "99527486f11f",
+      "title": "Anthropic shares tank after IPO as the Nasdaq erases 2026 gains",
+      "url": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
+      "canonicalUrl": "https://nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
+      "domain": "nbcnews.com",
+      "createdAt": "2026-11-20T17:44:01.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 99,
+          "comments": 69,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50578794"
+        }
+      ],
+      "normalized": 0.441,
+      "score": 4.123
+    },
+    {
+      "id": "83f2b5d135af",
+      "title": "Google Workers Tell Their Employer Not to Punish Schools That Don't Want AI",
+      "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
+      "canonicalUrl": "https://motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition",
+      "domain": "motherjones.com",
+      "createdAt": "2026-11-20T16:59:27.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 104,
+          "comments": 41,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50577901"
+        }
+      ],
+      "normalized": 0.45,
+      "score": 3.035
+    },
+    {
+      "id": "fda5004e845f",
+      "title": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
+      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "canonicalUrl": "https://theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "domain": "theguardian.com",
+      "createdAt": "2026-11-20T13:29:59.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 171,
+          "comments": 193,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50574383"
+        }
+      ],
+      "normalized": 0.658,
+      "score": 1.569
+    },
+    {
+      "id": "000028228240",
+      "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+      "url": "https://architectlabs.com/blog/frostbite",
+      "canonicalUrl": "https://architectlabs.com/blog/frostbite",
+      "domain": "architectlabs.com",
+      "createdAt": "2026-11-20T10:01:41.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 530,
+          "comments": 286,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50572503"
+        }
+      ],
+      "normalized": 0.919,
+      "score": 1.144
+    },
+    {
+      "id": "14b67dddb807",
+      "title": "Epic Games Turns to AI Coding for the Unreal Engine",
+      "url": "https://spectrum.ieee.org/epic-games-unreal-engine-ai",
+      "canonicalUrl": "https://spectrum.ieee.org/epic-games-unreal-engine-ai",
+      "domain": "spectrum.ieee.org",
+      "createdAt": "2026-11-20T12:16:36.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 53,
+          "comments": 58,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50573681"
+        }
+      ],
+      "normalized": 0.279,
+      "score": 0.515
+    },
+    {
+      "id": "9fe3e937f57a",
+      "title": "Language Models Can Rewrite Their Own Weights",
+      "url": "https://arxiv.org/abs/2611.21885",
+      "canonicalUrl": "https://arxiv.org/abs/2611.21885",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 215,
+          "comments": 87,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50577265"
+        },
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.21885"
+        }
+      ],
+      "normalized": 0.712,
+      "score": 0.428
+    },
+    {
+      "id": "5ac8cfe6f518",
+      "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
+      "url": "https://arxiv.org/abs/2611.26444",
+      "canonicalUrl": "https://arxiv.org/abs/2611.26444",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 46,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.26444"
+        }
+      ],
+      "normalized": 0.975,
+      "score": 0.391
+    },
+    {
+      "id": "dbefb9b7e6c4",
+      "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
+      "url": "https://arxiv.org/abs/2611.26590",
+      "canonicalUrl": "https://arxiv.org/abs/2611.26590",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 34,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.26590"
+        }
+      ],
+      "normalized": 0.925,
+      "score": 0.371
+    },
+    {
+      "id": "d77b5546421e",
+      "title": "Llms.txt and MCP didn't move the needle",
+      "url": "https://backpackforlaravel.com/articles/opinions/llms-txt-and-mcp-didn-t-move-the-needle-for-us-here-s-what-did",
+      "canonicalUrl": "https://backpackforlaravel.com/articles/opinions/llms-txt-and-mcp-didn-t-move-the-needle-for-us-here-s-what-did",
+      "domain": "backpackforlaravel.com",
+      "createdAt": "2026-11-20T14:00:23.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 28,
+          "comments": 19,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50574772"
+        }
+      ],
+      "normalized": 0.135,
+      "score": 0.363
+    },
+    {
+      "id": "335988aa8dc9",
+      "title": "ZeroVLN: Learning to Navigate without Supervised Fine-Tuning of the VLM Brain",
+      "url": "https://arxiv.org/abs/2611.26414",
+      "canonicalUrl": "https://arxiv.org/abs/2611.26414",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 21,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.26414"
+        }
+      ],
+      "normalized": 0.725,
+      "score": 0.291
+    },
+    {
+      "id": "ae8493cfe49e",
+      "title": "AltRA-Test: An Alternative Annotator Test for LLM Judges Without Shared Annotators",
+      "url": "https://arxiv.org/abs/2611.26073",
+      "canonicalUrl": "https://arxiv.org/abs/2611.26073",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 19,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.26073"
+        }
+      ],
+      "normalized": 0.7,
+      "score": 0.281
+    },
+    {
+      "id": "636d7b3b28e7",
+      "title": "Training Vision Models for LLM-Driven Weight-Space Programming",
+      "url": "https://arxiv.org/abs/2611.26408",
+      "canonicalUrl": "https://arxiv.org/abs/2611.26408",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 12,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.26408"
+        }
+      ],
+      "normalized": 0.625,
+      "score": 0.25
+    },
+    {
+      "id": "0f1db7316aa0",
+      "title": "Learning What Actions Change: Action Effect Matching for Dynamics-Faithful World Models",
+      "url": "https://arxiv.org/abs/2611.25980",
+      "canonicalUrl": "https://arxiv.org/abs/2611.25980",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 11,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.25980"
+        }
+      ],
+      "normalized": 0.6,
+      "score": 0.24
+    },
+    {
+      "id": "48c31b126ef9",
+      "title": "AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher",
+      "url": "https://arxiv.org/abs/2611.26510",
+      "canonicalUrl": "https://arxiv.org/abs/2611.26510",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 10,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.26510"
+        }
+      ],
+      "normalized": 0.575,
+      "score": 0.23
+    },
+    {
+      "id": "23b4d8aebf88",
+      "title": "Twice-Told Critiques: Claim-Level Homogenization of Peer Review in the LLM Era",
+      "url": "https://arxiv.org/abs/2611.26286",
+      "canonicalUrl": "https://arxiv.org/abs/2611.26286",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 9,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.26286"
+        }
+      ],
+      "normalized": 0.55,
+      "score": 0.22
+    }
+  ]
+}
