@@ -1,8 +1,122 @@
 {
   "date": "2026-11-20",
-  "generatedAt": "2026-11-20T19:27:58.361Z",
+  "generatedAt": "2026-11-21T05:38:38.605Z",
   "windowHours": 36,
   "stories": [
+    {
+      "id": "a0ebc9ee452b",
+      "title": "Inkling 2 Mini",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "canonicalUrl": "https://thinkingmachines.ai/news/inkling-2-mini",
+      "domain": "thinkingmachines.ai",
+      "createdAt": "2026-11-20T20:12:19.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 849,
+          "comments": 152,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50581260"
+        }
+      ],
+      "normalized": 0.971,
+      "score": 1.208
+    },
+    {
+      "id": "a4a5f143094b",
+      "title": "US SEC's Nvidia probe is examining potential accounting issues – sources",
+      "url": "https://www.marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627",
+      "canonicalUrl": "https://marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627",
+      "domain": "marketscreener.com",
+      "createdAt": "2026-11-20T20:22:41.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 266,
+          "comments": 144,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50581438"
+        }
+      ],
+      "normalized": 0.779,
+      "score": 0.996
+    },
+    {
+      "id": "3e30621eb1a8",
+      "title": "Vibecoding an inference chip",
+      "url": "https://ankitg.me/blog/vibecoding-inference-chip/",
+      "canonicalUrl": "https://ankitg.me/blog/vibecoding-inference-chip",
+      "domain": "ankitg.me",
+      "createdAt": "2026-11-20T18:15:16.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 130,
+          "comments": 49,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50579297"
+        }
+      ],
+      "normalized": 0.606,
+      "score": 0.568
+    },
+    {
+      "id": "f65661a30841",
+      "title": "Anthropic's IPO Bust Deepens $4T AI Wipeout on Wall Street",
+      "url": "https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90",
+      "canonicalUrl": "https://wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90",
+      "domain": "wsj.com",
+      "createdAt": "2026-11-20T21:18:46.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 49,
+          "comments": 5,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50582280"
+        }
+      ],
+      "normalized": 0.356,
+      "score": 0.532
+    },
+    {
+      "id": "91450d75029b",
+      "title": "AI may have solved the most important problem in mathematics",
+      "url": "https://www.economist.com/science-and-technology/2026/11/20/ai-may-have-solved-the-most-important-problem-in-mathematics",
+      "canonicalUrl": "https://economist.com/science-and-technology/2026/11/20/ai-may-have-solved-the-most-important-problem-in-mathematics",
+      "domain": "economist.com",
+      "createdAt": "2026-11-20T22:46:59.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 33,
+          "comments": 5,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50583445"
+        }
+      ],
+      "normalized": 0.26,
+      "score": 0.512
+    },
+    {
+      "id": "bf76ba59945f",
+      "title": "A few hours ago Google DeepMind created a math horizon repo",
+      "url": "https://github.com/google-deepmind/math-horizon",
+      "canonicalUrl": "https://github.com/google-deepmind/math-horizon",
+      "domain": "github.com",
+      "createdAt": "2026-11-20T21:42:21.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 44,
+          "comments": 30,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50582629"
+        }
+      ],
+      "normalized": 0.317,
+      "score": 0.509
+    },
     {
       "id": "99527486f11f",
       "title": "Anthropic shares tank after IPO as the Nasdaq erases 2026 gains",
@@ -20,45 +134,45 @@
         }
       ],
       "normalized": 0.441,
-      "score": 4.123
+      "score": 0.386
     },
     {
-      "id": "83f2b5d135af",
-      "title": "Google Workers Tell Their Employer Not to Punish Schools That Don't Want AI",
-      "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
-      "canonicalUrl": "https://motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition",
-      "domain": "motherjones.com",
-      "createdAt": "2026-11-20T16:59:27.000Z",
+      "id": "d3325aea2b8e",
+      "title": "The Hungry Butler Effect: Concealed Commercial Incentives in LLMs",
+      "url": "https://www.researchgate.net/publication/418143113_The_Hungry_Butler_Effect_Concealed_Commercial_Incentives_and_the_Erosion_of_Epistemic_Rigour_in_Large_Language_Models",
+      "canonicalUrl": "https://researchgate.net/publication/418143113_The_Hungry_Butler_Effect_Concealed_Commercial_Incentives_and_the_Erosion_of_Epistemic_Rigour_in_Large_Language_Models",
+      "domain": "researchgate.net",
+      "createdAt": "2026-11-20T22:18:20.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 104,
-          "comments": 41,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50577901"
+          "points": 30,
+          "comments": 8,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50583117"
         }
       ],
-      "normalized": 0.45,
-      "score": 3.035
+      "normalized": 0.212,
+      "score": 0.379
     },
     {
-      "id": "fda5004e845f",
-      "title": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
-      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-      "canonicalUrl": "https://theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-      "domain": "theguardian.com",
-      "createdAt": "2026-11-20T13:29:59.000Z",
+      "id": "9d9e2c9f2c65",
+      "title": "AI is giving everyone the same advice",
+      "url": "https://a90.com/experiments/same-advice/",
+      "canonicalUrl": "https://a90.com/experiments/same-advice",
+      "domain": "a90.com",
+      "createdAt": "2026-11-20T16:58:05.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 171,
-          "comments": 193,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50574383"
+          "points": 70,
+          "comments": 27,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50577872"
         }
       ],
-      "normalized": 0.658,
-      "score": 1.569
+      "normalized": 0.471,
+      "score": 0.374
     },
     {
       "id": "000028228240",
@@ -77,26 +191,89 @@
         }
       ],
       "normalized": 0.919,
-      "score": 1.144
+      "score": 0.364
     },
     {
-      "id": "14b67dddb807",
-      "title": "Epic Games Turns to AI Coding for the Unreal Engine",
-      "url": "https://spectrum.ieee.org/epic-games-unreal-engine-ai",
-      "canonicalUrl": "https://spectrum.ieee.org/epic-games-unreal-engine-ai",
-      "domain": "spectrum.ieee.org",
-      "createdAt": "2026-11-20T12:16:36.000Z",
+      "id": "83f2b5d135af",
+      "title": "Google Workers Tell Their Employer Not to Punish Schools That Don't Want AI",
+      "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
+      "canonicalUrl": "https://motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition",
+      "domain": "motherjones.com",
+      "createdAt": "2026-11-20T16:59:27.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 53,
-          "comments": 58,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50573681"
+          "points": 104,
+          "comments": 41,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50577901"
         }
       ],
-      "normalized": 0.279,
-      "score": 0.515
+      "normalized": 0.45,
+      "score": 0.359
+    },
+    {
+      "id": "c4ca83ba5741",
+      "title": "Restricting AI agents in mobile operating systems platforms from capturing data",
+      "url": "https://signal.org/blog/protecting-your-privacy/",
+      "canonicalUrl": "https://signal.org/blog/protecting-your-privacy",
+      "domain": "signal.org",
+      "createdAt": "2026-11-20T09:42:16.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 536,
+          "comments": 316,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50572348"
+        }
+      ],
+      "normalized": 0.933,
+      "score": 0.359
+    },
+    {
+      "id": "fda5004e845f",
+      "title": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
+      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "canonicalUrl": "https://theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "domain": "theguardian.com",
+      "createdAt": "2026-11-20T13:29:59.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 171,
+          "comments": 193,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50574383"
+        }
+      ],
+      "normalized": 0.658,
+      "score": 0.357
+    },
+    {
+      "id": "3ea993db7e3c",
+      "title": "Combatting adversarial distillation",
+      "url": "https://openai.com/index/combatting-adversarial-distillation/",
+      "canonicalUrl": "https://openai.com/index/combatting-adversarial-distillation",
+      "domain": "openai.com",
+      "createdAt": "2026-11-20T10:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 34,
+          "comments": 50,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50581242"
+        },
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.296
     },
     {
       "id": "9fe3e937f57a",
@@ -122,178 +299,7 @@
         }
       ],
       "normalized": 0.712,
-      "score": 0.428
-    },
-    {
-      "id": "5ac8cfe6f518",
-      "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
-      "url": "https://arxiv.org/abs/2611.26444",
-      "canonicalUrl": "https://arxiv.org/abs/2611.26444",
-      "domain": "arxiv.org",
-      "createdAt": "2026-11-20T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 46,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2611.26444"
-        }
-      ],
-      "normalized": 0.975,
-      "score": 0.391
-    },
-    {
-      "id": "dbefb9b7e6c4",
-      "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
-      "url": "https://arxiv.org/abs/2611.26590",
-      "canonicalUrl": "https://arxiv.org/abs/2611.26590",
-      "domain": "arxiv.org",
-      "createdAt": "2026-11-20T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 34,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2611.26590"
-        }
-      ],
-      "normalized": 0.925,
-      "score": 0.371
-    },
-    {
-      "id": "d77b5546421e",
-      "title": "Llms.txt and MCP didn't move the needle",
-      "url": "https://backpackforlaravel.com/articles/opinions/llms-txt-and-mcp-didn-t-move-the-needle-for-us-here-s-what-did",
-      "canonicalUrl": "https://backpackforlaravel.com/articles/opinions/llms-txt-and-mcp-didn-t-move-the-needle-for-us-here-s-what-did",
-      "domain": "backpackforlaravel.com",
-      "createdAt": "2026-11-20T14:00:23.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 28,
-          "comments": 19,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50574772"
-        }
-      ],
-      "normalized": 0.135,
-      "score": 0.363
-    },
-    {
-      "id": "335988aa8dc9",
-      "title": "ZeroVLN: Learning to Navigate without Supervised Fine-Tuning of the VLM Brain",
-      "url": "https://arxiv.org/abs/2611.26414",
-      "canonicalUrl": "https://arxiv.org/abs/2611.26414",
-      "domain": "arxiv.org",
-      "createdAt": "2026-11-20T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 21,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2611.26414"
-        }
-      ],
-      "normalized": 0.725,
-      "score": 0.291
-    },
-    {
-      "id": "ae8493cfe49e",
-      "title": "AltRA-Test: An Alternative Annotator Test for LLM Judges Without Shared Annotators",
-      "url": "https://arxiv.org/abs/2611.26073",
-      "canonicalUrl": "https://arxiv.org/abs/2611.26073",
-      "domain": "arxiv.org",
-      "createdAt": "2026-11-20T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 19,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2611.26073"
-        }
-      ],
-      "normalized": 0.7,
-      "score": 0.281
-    },
-    {
-      "id": "636d7b3b28e7",
-      "title": "Training Vision Models for LLM-Driven Weight-Space Programming",
-      "url": "https://arxiv.org/abs/2611.26408",
-      "canonicalUrl": "https://arxiv.org/abs/2611.26408",
-      "domain": "arxiv.org",
-      "createdAt": "2026-11-20T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 12,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2611.26408"
-        }
-      ],
-      "normalized": 0.625,
-      "score": 0.25
-    },
-    {
-      "id": "0f1db7316aa0",
-      "title": "Learning What Actions Change: Action Effect Matching for Dynamics-Faithful World Models",
-      "url": "https://arxiv.org/abs/2611.25980",
-      "canonicalUrl": "https://arxiv.org/abs/2611.25980",
-      "domain": "arxiv.org",
-      "createdAt": "2026-11-20T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 11,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2611.25980"
-        }
-      ],
-      "normalized": 0.6,
-      "score": 0.24
-    },
-    {
-      "id": "48c31b126ef9",
-      "title": "AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher",
-      "url": "https://arxiv.org/abs/2611.26510",
-      "canonicalUrl": "https://arxiv.org/abs/2611.26510",
-      "domain": "arxiv.org",
-      "createdAt": "2026-11-20T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 10,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2611.26510"
-        }
-      ],
-      "normalized": 0.575,
-      "score": 0.23
-    },
-    {
-      "id": "23b4d8aebf88",
-      "title": "Twice-Told Critiques: Claim-Level Homogenization of Peer Review in the LLM Era",
-      "url": "https://arxiv.org/abs/2611.26286",
-      "canonicalUrl": "https://arxiv.org/abs/2611.26286",
-      "domain": "arxiv.org",
-      "createdAt": "2026-11-20T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 9,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2611.26286"
-        }
-      ],
-      "normalized": 0.55,
-      "score": 0.22
+      "score": 0.213
     }
   ]
 }
