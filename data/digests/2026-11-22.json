@@ -1,0 +1,203 @@
+{
+  "date": "2026-11-22",
+  "generatedAt": "2026-11-22T18:53:07.398Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "3c4f4993adca",
+      "title": "Show HN: I built a game where you are an LLM's subagent",
+      "url": "https://github.com/gulivan/worker755",
+      "canonicalUrl": "https://github.com/gulivan/worker755",
+      "domain": "github.com",
+      "createdAt": "2026-11-22T13:56:58.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 165,
+          "comments": 42,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50599762"
+        }
+      ],
+      "normalized": 0.702,
+      "score": 2.149
+    },
+    {
+      "id": "38c61351fe0d",
+      "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+      "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+      "canonicalUrl": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power",
+      "domain": "betterdatacenterproject.com",
+      "createdAt": "2026-11-22T08:57:34.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 606,
+          "comments": 677,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50597612"
+        }
+      ],
+      "normalized": 0.912,
+      "score": 1.053
+    },
+    {
+      "id": "315e82c2f910",
+      "title": "AI is becoming a disaster for the climate",
+      "url": "https://www.bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the",
+      "canonicalUrl": "https://bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the",
+      "domain": "bloodinthemachine.com",
+      "createdAt": "2026-11-22T12:19:46.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 65,
+          "comments": 23,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50598961"
+        }
+      ],
+      "normalized": 0.404,
+      "score": 0.847
+    },
+    {
+      "id": "77bc9c5c53f0",
+      "title": "Harsher on Male? Evaluating LLMs on Gender-Asymmetric Moral Framing in Conflicts",
+      "url": "https://arxiv.org/abs/2606.14068",
+      "canonicalUrl": "https://arxiv.org/abs/2606.14068",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-22T09:18:36.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 86,
+          "comments": 76,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50597743"
+        }
+      ],
+      "normalized": 0.474,
+      "score": 0.577
+    },
+    {
+      "id": "de5cd1a6d51d",
+      "title": "Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence/",
+      "canonicalUrl": "https://openai.com/index/perplexity-and-intelligence",
+      "domain": "openai.com",
+      "createdAt": "2026-11-22T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 166,
+          "comments": 111,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50601525"
+        },
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.719,
+      "score": 0.454
+    },
+    {
+      "id": "ce0bcf2918b4",
+      "title": "AI Supply Chain Security: What Canary Tokens Found",
+      "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+      "canonicalUrl": "https://dragos.com/blog/ai-supply-chain-security-canary-tokens",
+      "domain": "dragos.com",
+      "createdAt": "2026-11-22T05:11:43.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 93,
+          "comments": 21,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50596511"
+        }
+      ],
+      "normalized": 0.526,
+      "score": 0.371
+    },
+    {
+      "id": "7bac73473e11",
+      "title": "Together.ai: Prompt Leakage for Requests",
+      "url": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
+      "canonicalUrl": "https://together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
+      "domain": "together.ai",
+      "createdAt": "2026-11-22T03:07:27.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 43,
+          "comments": 10,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50595816"
+        }
+      ],
+      "normalized": 0.246,
+      "score": 0.138
+    },
+    {
+      "id": "4408e9de333f",
+      "title": "AI People Are Extremely Rich",
+      "url": "https://www.noahpinion.blog/p/ai-people-are-very-very-very-very",
+      "canonicalUrl": "https://noahpinion.blog/p/ai-people-are-very-very-very-very",
+      "domain": "noahpinion.blog",
+      "createdAt": "2026-11-22T10:35:49.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 21,
+          "comments": 3,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50598277"
+        }
+      ],
+      "normalized": 0.053,
+      "score": 0.079
+    },
+    {
+      "id": "351e2cbe4caa",
+      "title": "Current Efforts Aren't Enough to Slow the AI Cyber Virus",
+      "url": "https://www.bridgewater.com/research-and-insights/current-efforts-arent-enough-to-slow-the-ai-cyber-virus",
+      "canonicalUrl": "https://bridgewater.com/research-and-insights/current-efforts-arent-enough-to-slow-the-ai-cyber-virus",
+      "domain": "bridgewater.com",
+      "createdAt": "2026-11-22T03:28:48.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 22,
+          "comments": 7,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50595940"
+        }
+      ],
+      "normalized": 0.07,
+      "score": 0.041
+    },
+    {
+      "id": "604c32380442",
+      "title": "A Slinky on an Escalator Is a Weirdly Good Test of LLM Intelligence",
+      "url": "https://morethanamachine.com/posts/slinky-escalator-benchmark/",
+      "canonicalUrl": "https://morethanamachine.com/posts/slinky-escalator-benchmark",
+      "domain": "morethanamachine.com",
+      "createdAt": "2026-11-22T07:31:41.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 18,
+          "comments": 5,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50597156"
+        }
+      ],
+      "normalized": 0.035,
+      "score": 0.033
+    }
+  ]
+}
