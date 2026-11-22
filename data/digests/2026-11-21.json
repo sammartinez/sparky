@@ -1,8 +1,103 @@
 {
   "date": "2026-11-21",
-  "generatedAt": "2026-11-21T18:30:06.541Z",
+  "generatedAt": "2026-11-22T05:04:44.511Z",
   "windowHours": 36,
   "stories": [
+    {
+      "id": "381628060ea9",
+      "title": "Data Processing Incidents on Inference Providers",
+      "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+      "canonicalUrl": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers",
+      "domain": "openrouter.ai",
+      "createdAt": "2026-11-22T02:14:14.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 61,
+          "comments": 25,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50595554"
+        }
+      ],
+      "normalized": 0.403,
+      "score": 2.354
+    },
+    {
+      "id": "d15cad5c20d6",
+      "title": "International UN talks on controlling use of autonomous weapons collapse",
+      "url": "https://www.theguardian.com/technology/2026/nov/21/international-talks-control-ai-autonomous-weapons-collapse",
+      "canonicalUrl": "https://theguardian.com/technology/2026/nov/21/international-talks-control-ai-autonomous-weapons-collapse",
+      "domain": "theguardian.com",
+      "createdAt": "2026-11-21T23:10:21.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 40,
+          "comments": 24,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50594564"
+        }
+      ],
+      "normalized": 0.26,
+      "score": 0.628
+    },
+    {
+      "id": "6d859339b158",
+      "title": "Upload2Shell (CVE-2026-125396)",
+      "url": "https://pwn.ai/upload2shell",
+      "canonicalUrl": "https://pwn.ai/upload2shell",
+      "domain": "pwn.ai",
+      "createdAt": "2026-11-21T18:29:29.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 96,
+          "comments": 41,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50592097"
+        }
+      ],
+      "normalized": 0.506,
+      "score": 0.53
+    },
+    {
+      "id": "3d1bee2216f8",
+      "title": "Pandex – Official European Law for AI Agents, over MCP",
+      "url": "https://www.pandex.io",
+      "canonicalUrl": "https://pandex.io/",
+      "domain": "pandex.io",
+      "createdAt": "2026-11-21T20:47:41.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 53,
+          "comments": 10,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50593481"
+        }
+      ],
+      "normalized": 0.338,
+      "score": 0.509
+    },
+    {
+      "id": "bbc83ef27996",
+      "title": "Since last year, we asked: \"What if AI solved the Riemann Hypothesis?\"",
+      "url": "https://www.youtube.com/watch?v=zqzk43bSdDI",
+      "canonicalUrl": "https://youtube.com/watch?v=zqzk43bSdDI",
+      "domain": "youtube.com",
+      "createdAt": "2026-11-22T03:06:35.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 19,
+          "comments": 1,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50595812"
+        }
+      ],
+      "normalized": 0.052,
+      "score": 0.434
+    },
     {
       "id": "56c8c69722c8",
       "title": "ClawDOS – An AI coding agent for DOS",
@@ -20,7 +115,64 @@
         }
       ],
       "normalized": 0.54,
-      "score": 0.419
+      "score": 0.159
+    },
+    {
+      "id": "528d6924cf9a",
+      "title": "The Mythology of Conscious AI",
+      "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
+      "canonicalUrl": "https://noemamag.com/the-mythology-of-conscious-ai",
+      "domain": "noemamag.com",
+      "createdAt": "2026-11-22T02:10:02.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 17,
+          "comments": 41,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50595537"
+        }
+      ],
+      "normalized": 0.026,
+      "score": 0.148
+    },
+    {
+      "id": "b879cea286bf",
+      "title": "Anthropic's IPO bank closed position meant to stabilize stock",
+      "url": "https://www.reuters.com/markets/us/anthropics-ipo-bank-closed-position-meant-stabilize-stock-removing-source-2026-11-20",
+      "canonicalUrl": "https://reuters.com/markets/us/anthropics-ipo-bank-closed-position-meant-stabilize-stock-removing-source-2026-11-20",
+      "domain": "reuters.com",
+      "createdAt": "2026-11-21T12:43:24.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 32,
+          "comments": 1,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50588647"
+        }
+      ],
+      "normalized": 0.156,
+      "score": 0.083
+    },
+    {
+      "id": "6bc9d30d027d",
+      "title": "Anyone can easily use private, open weight models",
+      "url": "https://micahflee.com/heres-how-anyone-can-easily-use-private-open-weight-models/",
+      "canonicalUrl": "https://micahflee.com/heres-how-anyone-can-easily-use-private-open-weight-models",
+      "domain": "micahflee.com",
+      "createdAt": "2026-11-21T12:11:54.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 27,
+          "comments": 8,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50588396"
+        }
+      ],
+      "normalized": 0.104,
+      "score": 0.052
     },
     {
       "id": "6e086317ffb3",
@@ -39,26 +191,7 @@
         }
       ],
       "normalized": 0.241,
-      "score": 0.088
-    },
-    {
-      "id": "8eb7dccf6e46",
-      "title": "Tell HN: OpenRouter prompts to Minimax may have been read",
-      "url": "https://news.ycombinator.com/item?id=50585962",
-      "canonicalUrl": "https://news.ycombinator.com/item?id=50585962",
-      "domain": "news.ycombinator.com",
-      "createdAt": "2026-11-21T04:31:38.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 31,
-          "comments": 5,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50585962"
-        }
-      ],
-      "normalized": 0.115,
-      "score": 0.078
+      "score": 0.044
     },
     {
       "id": "14b67dddb807",
@@ -77,7 +210,26 @@
         }
       ],
       "normalized": 0.356,
-      "score": 0.069
+      "score": 0.041
+    },
+    {
+      "id": "8eb7dccf6e46",
+      "title": "Tell HN: OpenRouter prompts to Minimax may have been read",
+      "url": "https://news.ycombinator.com/item?id=50585962",
+      "canonicalUrl": "https://news.ycombinator.com/item?id=50585962",
+      "domain": "news.ycombinator.com",
+      "createdAt": "2026-11-21T04:31:38.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 31,
+          "comments": 5,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50585962"
+        }
+      ],
+      "normalized": 0.115,
+      "score": 0.031
     },
     {
       "id": "d77b5546421e",
@@ -96,7 +248,7 @@
         }
       ],
       "normalized": 0.115,
-      "score": 0.024
+      "score": 0.014
     },
     {
       "id": "36373e3231fd",
@@ -115,26 +267,7 @@
         }
       ],
       "normalized": 0.115,
-      "score": 0.02
-    },
-    {
-      "id": "595594497e49",
-      "title": "Muse Spark 1.3",
-      "url": "https://dev.meta.ai/models/muse-spark",
-      "canonicalUrl": "https://dev.meta.ai/models/muse-spark",
-      "domain": "dev.meta.ai",
-      "createdAt": "2026-11-21T03:49:41.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 12,
-          "comments": 0,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50585735"
-        }
-      ],
-      "normalized": 0.023,
-      "score": 0.015
+      "score": 0.012
     },
     {
       "id": "785fd7f0ef16",
@@ -153,64 +286,7 @@
         }
       ],
       "normalized": 0.046,
-      "score": 0.013
-    },
-    {
-      "id": "8b14754d920f",
-      "title": "No spy. No temptress. The Nvidia love affair is called RICO",
-      "url": "https://www.gregpalast.com/the-so-called-affair-between-the-nvidia-chief-and-the-chinese-spy/",
-      "canonicalUrl": "https://gregpalast.com/the-so-called-affair-between-the-nvidia-chief-and-the-chinese-spy",
-      "domain": "gregpalast.com",
-      "createdAt": "2026-11-20T06:33:34.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 26,
-          "comments": 2,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50570920"
-        }
-      ],
-      "normalized": 0.057,
-      "score": 0.008
-    },
-    {
-      "id": "b24c1081da70",
-      "title": "Apple is building an AI agent",
-      "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
-      "canonicalUrl": "https://theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
-      "domain": "theverge.com",
-      "createdAt": "2026-11-20T11:22:27.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 19,
-          "comments": 11,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50573166"
-        }
-      ],
-      "normalized": 0.034,
-      "score": 0.006
-    },
-    {
-      "id": "c950fbb8bf2a",
-      "title": "Don't Play Anthropic's Game",
-      "url": "https://www.nytimes.com/2026/11/19/opinion/anthropic-ipo-ai-regulation.html",
-      "canonicalUrl": "https://nytimes.com/2026/11/19/opinion/anthropic-ipo-ai-regulation.html",
-      "domain": "nytimes.com",
-      "createdAt": "2026-11-21T05:19:51.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 11,
-          "comments": 3,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50586193"
-        }
-      ],
-      "normalized": 0,
-      "score": 0
+      "score": 0.007
     }
   ]
 }
