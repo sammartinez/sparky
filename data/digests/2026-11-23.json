@@ -1,0 +1,285 @@
+{
+  "date": "2026-11-23",
+  "generatedAt": "2026-11-23T23:08:18.067Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "1d0c151fefed",
+      "title": "OpenAI and Cisco introduce Shirudo",
+      "url": "https://openai.com/index/introducing-shirudo",
+      "canonicalUrl": "https://openai.com/index/introducing-shirudo",
+      "domain": "openai.com",
+      "createdAt": "2026-11-23T21:20:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 4.512
+    },
+    {
+      "id": "3c69fd56490c",
+      "title": "Dario is hyping the dangers so OSS models are illegal and he stays in control",
+      "url": "https://twitter.com/ylecun/status/2124550037912920090",
+      "canonicalUrl": "https://twitter.com/ylecun/status/2124550037912920090",
+      "domain": "twitter.com",
+      "createdAt": "2026-11-23T17:07:26.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 904,
+          "comments": 521,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50615308"
+        }
+      ],
+      "normalized": 0.935,
+      "score": 2.207
+    },
+    {
+      "id": "0ad14ce38eab",
+      "title": "Congress shreds Nvidia's 'outrageous' return of Huang: 'Failure of character'",
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-congress-trump.html",
+      "canonicalUrl": "https://cnbc.com/2026/11/23/nvidia-jensen-huang-congress-trump.html",
+      "domain": "cnbc.com",
+      "createdAt": "2026-11-23T20:13:18.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 59,
+          "comments": 51,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50618490"
+        }
+      ],
+      "normalized": 0.37,
+      "score": 2.102
+    },
+    {
+      "id": "be9c8fb91e88",
+      "title": "Jensen Huang Reinstated as Nvidia CEO",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "canonicalUrl": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "domain": "nvidianews.nvidia.com",
+      "createdAt": "2026-11-23T14:00:18.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 1700,
+          "comments": 4,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50611588"
+        }
+      ],
+      "normalized": 0.978,
+      "score": 1.278
+    },
+    {
+      "id": "ca38829e7312",
+      "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+      "url": "https://huggingface.co/blog/allenai/robotrack",
+      "canonicalUrl": "https://huggingface.co/blog/allenai/robotrack",
+      "domain": "huggingface.co",
+      "createdAt": "2026-11-23T17:20:37.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 1.241
+    },
+    {
+      "id": "61dcf1169479",
+      "title": "Finding faster quantum algorithms with agents and formal verification",
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "canonicalUrl": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
+      "domain": "deepmind.google",
+      "createdAt": "2026-11-23T16:59:40.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Google DeepMind",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 1.147
+    },
+    {
+      "id": "5094532b4e2e",
+      "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
+      "url": "https://z.ai/blog/glm-5.4",
+      "canonicalUrl": "https://z.ai/blog/glm-5.4",
+      "domain": "z.ai",
+      "createdAt": "2026-11-23T10:06:43.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 1008,
+          "comments": 329,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50609685"
+        }
+      ],
+      "normalized": 0.957,
+      "score": 0.728
+    },
+    {
+      "id": "3120537bb3c8",
+      "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab's AI science benchmark",
+      "url": "https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks",
+      "canonicalUrl": "https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks",
+      "domain": "importai.substack.com",
+      "createdAt": "2026-11-23T14:11:17.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Import AI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.673
+    },
+    {
+      "id": "81ecb7742efe",
+      "title": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
+      "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+      "canonicalUrl": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+      "domain": "huggingface.co",
+      "createdAt": "2026-11-23T13:42:38.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 102,
+          "comments": 18,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50611402"
+        }
+      ],
+      "normalized": 0.533,
+      "score": 0.664
+    },
+    {
+      "id": "b1b9880b617a",
+      "title": "How should an LLM see a computer?",
+      "url": "https://www.greptile.com/blog/trex-computer-use",
+      "canonicalUrl": "https://greptile.com/blog/trex-computer-use",
+      "domain": "greptile.com",
+      "createdAt": "2026-11-23T17:19:25.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 35,
+          "comments": 20,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50615520"
+        }
+      ],
+      "normalized": 0.163,
+      "score": 0.403
+    },
+    {
+      "id": "4009aa03aac6",
+      "title": "Jensen Huang's Apology May Be the Only Correct Use of AI",
+      "url": "https://www.theatlantic.com/newsletters/2026/11/jensen-huang-ai-apology-nvidia/689366/",
+      "canonicalUrl": "https://theatlantic.com/newsletters/2026/11/jensen-huang-ai-apology-nvidia/689366",
+      "domain": "theatlantic.com",
+      "createdAt": "2026-11-23T20:33:07.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 19,
+          "comments": 1,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50618834"
+        }
+      ],
+      "normalized": 0.054,
+      "score": 0.35
+    },
+    {
+      "id": "f8a4e02f4212",
+      "title": "Connected intelligence for in-house legal",
+      "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "canonicalUrl": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "domain": "openai.com",
+      "createdAt": "2026-11-23T08:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.3
+    },
+    {
+      "id": "680b35173b97",
+      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "canonicalUrl": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "domain": "openai.com",
+      "createdAt": "2026-11-23T08:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "OpenAI",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.3
+    },
+    {
+      "id": "191f1eb3b60f",
+      "title": "Buckle Up the AI Bubble Is Popping",
+      "url": "https://mathbabe.org/2026/11/23/buckle-up-the-ai-bubble-is-popping/",
+      "canonicalUrl": "https://mathbabe.org/2026/11/23/buckle-up-the-ai-bubble-is-popping",
+      "domain": "mathbabe.org",
+      "createdAt": "2026-11-23T16:01:20.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 27,
+          "comments": 52,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50614037"
+        }
+      ],
+      "normalized": 0.109,
+      "score": 0.203
+    },
+    {
+      "id": "6fd4c32fe34a",
+      "title": "How to build and maintain an agentic evaluation",
+      "url": "https://huggingface.co/blog/agentic-evals",
+      "canonicalUrl": "https://huggingface.co/blog/agentic-evals",
+      "domain": "huggingface.co",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.151
+    }
+  ]
+}
