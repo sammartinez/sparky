@@ -1,8 +1,179 @@
 {
   "date": "2026-11-22",
-  "generatedAt": "2026-11-22T18:53:07.398Z",
+  "generatedAt": "2026-11-23T05:46:43.283Z",
   "windowHours": 36,
   "stories": [
+    {
+      "id": "9833cac21d4b",
+      "title": "Non-penetrating World Models",
+      "url": "https://arxiv.org/abs/2611.27963",
+      "canonicalUrl": "https://arxiv.org/abs/2611.27963",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 19,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.27963"
+        }
+      ],
+      "normalized": 0.75,
+      "score": 1.868
+    },
+    {
+      "id": "ae6e6a35191d",
+      "title": "Progress map for the Lean formalization of Alessandro Masullo's manuscript",
+      "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
+      "canonicalUrl": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
+      "domain": "claude.ai",
+      "createdAt": "2026-11-22T23:12:10.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 197,
+          "comments": 154,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50605045"
+        }
+      ],
+      "normalized": 0.805,
+      "score": 1.682
+    },
+    {
+      "id": "1ba4d31258de",
+      "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+      "canonicalUrl": "https://gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+      "domain": "gpupartner.com",
+      "createdAt": "2026-11-22T21:01:16.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 370,
+          "comments": 149,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50603845"
+        }
+      ],
+      "normalized": 0.902,
+      "score": 1.254
+    },
+    {
+      "id": "ce223767ccc9",
+      "title": "Agent swarm trying to solve P vs. NP",
+      "url": "https://pequalnp.com/",
+      "canonicalUrl": "https://pequalnp.com/",
+      "domain": "pequalnp.com",
+      "createdAt": "2026-11-22T21:53:45.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 140,
+          "comments": 111,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50604314"
+        }
+      ],
+      "normalized": 0.671,
+      "score": 1.086
+    },
+    {
+      "id": "e752da4ec0ef",
+      "title": "PURE: A Diagnostic Benchmark for Multi-Granularity Multimodal Identity Matching",
+      "url": "https://arxiv.org/abs/2611.22343",
+      "canonicalUrl": "https://arxiv.org/abs/2611.22343",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 5,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.22343"
+        }
+      ],
+      "normalized": 0.417,
+      "score": 1.038
+    },
+    {
+      "id": "9965f17ee5bc",
+      "title": "MemOnce: A Scalable Memory Architecture for Large Language Models",
+      "url": "https://arxiv.org/abs/2611.27973",
+      "canonicalUrl": "https://arxiv.org/abs/2611.27973",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 4,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.27973"
+        }
+      ],
+      "normalized": 0.333,
+      "score": 0.83
+    },
+    {
+      "id": "5a80222bbbe1",
+      "title": "Do Not Accept",
+      "url": "https://donotaccept.ai/",
+      "canonicalUrl": "https://donotaccept.ai/",
+      "domain": "donotaccept.ai",
+      "createdAt": "2026-11-22T23:02:20.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 49,
+          "comments": 56,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50604959"
+        }
+      ],
+      "normalized": 0.354,
+      "score": 0.714
+    },
+    {
+      "id": "69aed33940f7",
+      "title": "Localcode, open source agentic coding on your Mac with one command",
+      "url": "https://github.com/mjwsolo/localcode",
+      "canonicalUrl": "https://github.com/mjwsolo/localcode",
+      "domain": "github.com",
+      "createdAt": "2026-11-22T22:18:48.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 45,
+          "comments": 13,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50604540"
+        }
+      ],
+      "normalized": 0.268,
+      "score": 0.469
+    },
+    {
+      "id": "d7b15f2f905f",
+      "title": "0rwx – A simple model of AI usage, inspired by Unix permissions",
+      "url": "https://0rwx.com/",
+      "canonicalUrl": "https://0rwx.com/",
+      "domain": "0rwx.com",
+      "createdAt": "2026-11-22T23:53:00.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 34,
+          "comments": 6,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50605445"
+        }
+      ],
+      "normalized": 0.171,
+      "score": 0.414
+    },
     {
       "id": "3c4f4993adca",
       "title": "Show HN: I built a game where you are an LLM's subagent",
@@ -20,7 +191,26 @@
         }
       ],
       "normalized": 0.702,
-      "score": 2.149
+      "score": 0.393
+    },
+    {
+      "id": "770a34dc0c64",
+      "title": "Harvard CS 2881R AI Safety",
+      "url": "https://boazbk.github.io/mltheoryseminar/",
+      "canonicalUrl": "https://boazbk.github.io/mltheoryseminar",
+      "domain": "boazbk.github.io",
+      "createdAt": "2026-11-22T18:01:54.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 62,
+          "comments": 8,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50602153"
+        }
+      ],
+      "normalized": 0.415,
+      "score": 0.371
     },
     {
       "id": "38c61351fe0d",
@@ -39,45 +229,7 @@
         }
       ],
       "normalized": 0.912,
-      "score": 1.053
-    },
-    {
-      "id": "315e82c2f910",
-      "title": "AI is becoming a disaster for the climate",
-      "url": "https://www.bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the",
-      "canonicalUrl": "https://bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the",
-      "domain": "bloodinthemachine.com",
-      "createdAt": "2026-11-22T12:19:46.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 65,
-          "comments": 23,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50598961"
-        }
-      ],
-      "normalized": 0.404,
-      "score": 0.847
-    },
-    {
-      "id": "77bc9c5c53f0",
-      "title": "Harsher on Male? Evaluating LLMs on Gender-Asymmetric Moral Framing in Conflicts",
-      "url": "https://arxiv.org/abs/2606.14068",
-      "canonicalUrl": "https://arxiv.org/abs/2606.14068",
-      "domain": "arxiv.org",
-      "createdAt": "2026-11-22T09:18:36.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 86,
-          "comments": 76,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50597743"
-        }
-      ],
-      "normalized": 0.474,
-      "score": 0.577
+      "score": 0.327
     },
     {
       "id": "de5cd1a6d51d",
@@ -102,102 +254,45 @@
         }
       ],
       "normalized": 0.719,
-      "score": 0.454
+      "score": 0.213
     },
     {
-      "id": "ce0bcf2918b4",
-      "title": "AI Supply Chain Security: What Canary Tokens Found",
-      "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
-      "canonicalUrl": "https://dragos.com/blog/ai-supply-chain-security-canary-tokens",
-      "domain": "dragos.com",
-      "createdAt": "2026-11-22T05:11:43.000Z",
+      "id": "1a282256fd31",
+      "title": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
+      "url": "https://arxiv.org/abs/2611.26613",
+      "canonicalUrl": "https://arxiv.org/abs/2611.26613",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-23T00:00:00.000Z",
       "appearances": [
         {
-          "source": "hn",
-          "label": "HN",
-          "points": 93,
-          "comments": 21,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50596511"
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.26613"
         }
       ],
-      "normalized": 0.526,
-      "score": 0.371
+      "normalized": 0.083,
+      "score": 0.208
     },
     {
-      "id": "7bac73473e11",
-      "title": "Together.ai: Prompt Leakage for Requests",
-      "url": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
-      "canonicalUrl": "https://together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
-      "domain": "together.ai",
-      "createdAt": "2026-11-22T03:07:27.000Z",
+      "id": "c13bf7b0a74e",
+      "title": "Prune to Expand: Training Prompt Enhancers with Less to Imitate",
+      "url": "https://arxiv.org/abs/2611.27229",
+      "canonicalUrl": "https://arxiv.org/abs/2611.27229",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-23T00:00:00.000Z",
       "appearances": [
         {
-          "source": "hn",
-          "label": "HN",
-          "points": 43,
-          "comments": 10,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50595816"
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.27229"
         }
       ],
-      "normalized": 0.246,
-      "score": 0.138
-    },
-    {
-      "id": "4408e9de333f",
-      "title": "AI People Are Extremely Rich",
-      "url": "https://www.noahpinion.blog/p/ai-people-are-very-very-very-very",
-      "canonicalUrl": "https://noahpinion.blog/p/ai-people-are-very-very-very-very",
-      "domain": "noahpinion.blog",
-      "createdAt": "2026-11-22T10:35:49.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 21,
-          "comments": 3,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50598277"
-        }
-      ],
-      "normalized": 0.053,
-      "score": 0.079
-    },
-    {
-      "id": "351e2cbe4caa",
-      "title": "Current Efforts Aren't Enough to Slow the AI Cyber Virus",
-      "url": "https://www.bridgewater.com/research-and-insights/current-efforts-arent-enough-to-slow-the-ai-cyber-virus",
-      "canonicalUrl": "https://bridgewater.com/research-and-insights/current-efforts-arent-enough-to-slow-the-ai-cyber-virus",
-      "domain": "bridgewater.com",
-      "createdAt": "2026-11-22T03:28:48.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 22,
-          "comments": 7,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50595940"
-        }
-      ],
-      "normalized": 0.07,
-      "score": 0.041
-    },
-    {
-      "id": "604c32380442",
-      "title": "A Slinky on an Escalator Is a Weirdly Good Test of LLM Intelligence",
-      "url": "https://morethanamachine.com/posts/slinky-escalator-benchmark/",
-      "canonicalUrl": "https://morethanamachine.com/posts/slinky-escalator-benchmark",
-      "domain": "morethanamachine.com",
-      "createdAt": "2026-11-22T07:31:41.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 18,
-          "comments": 5,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50597156"
-        }
-      ],
-      "normalized": 0.035,
-      "score": 0.033
+      "normalized": 0.083,
+      "score": 0.208
     }
   ]
 }
