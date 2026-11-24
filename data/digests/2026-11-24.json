@@ -1,0 +1,291 @@
+{
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-24T08:24:24.447Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "f3349335f15c",
+      "title": "datasette-agent 0.7a1",
+      "url": "https://simonwillison.net/2026/Nov/24/datasette-agent/",
+      "canonicalUrl": "https://simonwillison.net/2026/Nov/24/datasette-agent",
+      "domain": "simonwillison.net",
+      "createdAt": "2026-11-24T03:45:57.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Simon Willison",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 1.656
+    },
+    {
+      "id": "9ca8a98aa26e",
+      "title": "Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control",
+      "url": "https://arxiv.org/abs/2611.29897",
+      "canonicalUrl": "https://arxiv.org/abs/2611.29897",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-24T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 86,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.29897"
+        }
+      ],
+      "normalized": 0.975,
+      "score": 1.438
+    },
+    {
+      "id": "dbca43068f5c",
+      "title": "3AGameFactory-Motion: Agentic Rigging and Reliable Complex Motion Generation for Diverse 3D Assets",
+      "url": "https://arxiv.org/abs/2611.30013",
+      "canonicalUrl": "https://arxiv.org/abs/2611.30013",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-24T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 39,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.30013"
+        }
+      ],
+      "normalized": 0.925,
+      "score": 1.364
+    },
+    {
+      "id": "50bbe0428a67",
+      "title": "AutoPILOT: A Visual Agent Harness for Real-Time Gameplay",
+      "url": "https://arxiv.org/abs/2611.28202",
+      "canonicalUrl": "https://arxiv.org/abs/2611.28202",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-24T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 26,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.28202"
+        }
+      ],
+      "normalized": 0.875,
+      "score": 1.291
+    },
+    {
+      "id": "6ec0e6bf1c37",
+      "title": "A Glimpse of Training VLMs as Foundation Models for Robotic Manipulation",
+      "url": "https://arxiv.org/abs/2611.29338",
+      "canonicalUrl": "https://arxiv.org/abs/2611.29338",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-24T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 23,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.29338"
+        }
+      ],
+      "normalized": 0.85,
+      "score": 1.254
+    },
+    {
+      "id": "c2c8b1496c55",
+      "title": "ViDecide: Teaching Video Diffusion Models to Reason and Plan Step by Step",
+      "url": "https://arxiv.org/abs/2611.26389",
+      "canonicalUrl": "https://arxiv.org/abs/2611.26389",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-24T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 16,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.26389"
+        }
+      ],
+      "normalized": 0.8,
+      "score": 1.18
+    },
+    {
+      "id": "9c0eb748448d",
+      "title": "RUIBench: What Makes a Good Robot-Use Interface?",
+      "url": "https://arxiv.org/abs/2611.31115",
+      "canonicalUrl": "https://arxiv.org/abs/2611.31115",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-24T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 14,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.31115"
+        }
+      ],
+      "normalized": 0.775,
+      "score": 1.143
+    },
+    {
+      "id": "267a773a2074",
+      "title": "Embo-Harness: Towards Understanding Frontier-Model-as-Policy Harness",
+      "url": "https://arxiv.org/abs/2611.31201",
+      "canonicalUrl": "https://arxiv.org/abs/2611.31201",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-24T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 12,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.31201"
+        }
+      ],
+      "normalized": 0.75,
+      "score": 1.106
+    },
+    {
+      "id": "22fa138dc240",
+      "title": "Self-WSP: Can Language Models Improve Themselves Through Weight-Space Programming?",
+      "url": "https://arxiv.org/abs/2611.28833",
+      "canonicalUrl": "https://arxiv.org/abs/2611.28833",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-24T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 9,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.28833"
+        }
+      ],
+      "normalized": 0.675,
+      "score": 0.996
+    },
+    {
+      "id": "e380e4009534",
+      "title": "WeightCode: Installing New Capabilities into Neural Networks via Weight-Space Programming",
+      "url": "https://arxiv.org/abs/2611.25476",
+      "canonicalUrl": "https://arxiv.org/abs/2611.25476",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-24T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 9,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.25476"
+        }
+      ],
+      "normalized": 0.675,
+      "score": 0.996
+    },
+    {
+      "id": "29ad0c457272",
+      "title": "HIVE-Bench: Evaluating Patch-Level Visual Representations for Egocentric Robot Manipulation",
+      "url": "https://arxiv.org/abs/2611.30813",
+      "canonicalUrl": "https://arxiv.org/abs/2611.30813",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-24T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 8,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.30813"
+        }
+      ],
+      "normalized": 0.625,
+      "score": 0.922
+    },
+    {
+      "id": "e7976616db7b",
+      "title": "Distilling Visual Agents from Limited Interaction Experience",
+      "url": "https://arxiv.org/abs/2611.28618",
+      "canonicalUrl": "https://arxiv.org/abs/2611.28618",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-24T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 8,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.28618"
+        }
+      ],
+      "normalized": 0.625,
+      "score": 0.922
+    },
+    {
+      "id": "ed464a1b3943",
+      "title": "Composable Soft-Prompt Distillation of RL Experts: Toward Continual Post-Training",
+      "url": "https://arxiv.org/abs/2611.27376",
+      "canonicalUrl": "https://arxiv.org/abs/2611.27376",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-24T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 7,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.27376"
+        }
+      ],
+      "normalized": 0.525,
+      "score": 0.774
+    },
+    {
+      "id": "c11f3075b5a7",
+      "title": "What Makes Good Data for Training Coding Agents? A Systematic Study on SWE-Gym",
+      "url": "https://arxiv.org/abs/2611.30207",
+      "canonicalUrl": "https://arxiv.org/abs/2611.30207",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-24T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 6,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.30207"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.738
+    },
+    {
+      "id": "1951d3d0aee3",
+      "title": "Declare is a UI language for you and your AI",
+      "url": "https://davidtemkin.github.io/declarelang/",
+      "canonicalUrl": "https://davidtemkin.github.io/declarelang",
+      "domain": "davidtemkin.github.io",
+      "createdAt": "2026-11-24T02:36:56.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 46,
+          "comments": 37,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50622854"
+        }
+      ],
+      "normalized": 0.296,
+      "score": 0.735
+    }
+  ]
+}
