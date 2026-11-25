@@ -1,290 +1,292 @@
 {
   "date": "2026-11-24",
-  "generatedAt": "2026-11-24T21:46:27.864Z",
+  "generatedAt": "2026-11-25T06:59:31.349Z",
   "windowHours": 36,
   "stories": [
     {
-      "id": "d2963dce727b",
-      "title": "OpenAI reveals they solved VP ≠ VNP before Anthropic",
-      "url": "https://github.com/openai/math/tree/main/preprints/VP-and-VNP-are-different-November-23-2026",
-      "canonicalUrl": "https://github.com/openai/math/tree/main/preprints/VP-and-VNP-are-different-November-23-2026",
-      "domain": "github.com",
-      "createdAt": "2026-11-24T18:55:12.000Z",
+      "id": "5f305d13d7da",
+      "title": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
+      "url": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
+      "canonicalUrl": "https://comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
+      "domain": "comentr.com",
+      "createdAt": "2026-11-25T04:03:33.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 81,
-          "comments": 87,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50632756"
+          "points": 115,
+          "comments": 79,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50638320"
         }
       ],
-      "normalized": 0.487,
-      "score": 2.833
+      "normalized": 0.612,
+      "score": 3.458
     },
     {
-      "id": "002bc4ff2409",
-      "title": "Anthropic Staff Openly Talk About ‘Taking Over the World’, Claims Max Tegmark",
-      "url": "https://novaramedia.com/2026/11/24/anthropic-staff-openly-talk-about-taking-over-the-world-claims-top-mit-physicist/",
-      "canonicalUrl": "https://novaramedia.com/2026/11/24/anthropic-staff-openly-talk-about-taking-over-the-world-claims-top-mit-physicist",
-      "domain": "novaramedia.com",
-      "createdAt": "2026-11-24T17:10:45.000Z",
+      "id": "c89d4bfb36a9",
+      "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
+      "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+      "canonicalUrl": "https://lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+      "domain": "lesswrong.com",
+      "createdAt": "2026-11-25T02:34:21.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 186,
-          "comments": 97,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50631210"
-        }
-      ],
-      "normalized": 0.681,
-      "score": 2.285
-    },
-    {
-      "id": "e213ef04a870",
-      "title": "Tidal bans AI-generated music",
-      "url": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
-      "canonicalUrl": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924",
-      "domain": "variety.com",
-      "createdAt": "2026-11-24T16:12:38.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 307,
-          "comments": 283,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50630309"
-        }
-      ],
-      "normalized": 0.823,
-      "score": 2.156
-    },
-    {
-      "id": "bbef1e94d167",
-      "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
-      "url": "https://news.ycombinator.com/item?id=50630809",
-      "canonicalUrl": "https://news.ycombinator.com/item?id=50630809",
-      "domain": "news.ycombinator.com",
-      "createdAt": "2026-11-24T16:45:44.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 191,
-          "comments": 143,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50630809"
-        }
-      ],
-      "normalized": 0.708,
-      "score": 2.126
-    },
-    {
-      "id": "f796e127a00b",
-      "title": "GPT 6.2 Astra Solves a Historical Mystery",
-      "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
-      "canonicalUrl": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery",
-      "domain": "simonwillison.net",
-      "createdAt": "2026-11-24T16:53:59.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "Simon Willison",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 1.556
-    },
-    {
-      "id": "b06fe44e5c27",
-      "title": "Ex-Nvidia partner Megaspeed hit with U.S. Commerce Department export ban",
-      "url": "https://www.upi.com/Top_News/US/2026/11/24/NVIDIA-partner-Megaspeed/1701795520063/",
-      "canonicalUrl": "https://upi.com/Top_News/US/2026/11/24/NVIDIA-partner-Megaspeed/1701795520063",
-      "domain": "upi.com",
-      "createdAt": "2026-11-24T16:08:29.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 106,
+          "points": 156,
           "comments": 60,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50630245"
+          "discussionUrl": "https://news.ycombinator.com/item?id=50637686"
         }
       ],
-      "normalized": 0.575,
-      "score": 1.482
+      "normalized": 0.719,
+      "score": 2.531
     },
     {
-      "id": "16565a3f5dc0",
-      "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
-      "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
-      "canonicalUrl": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
-      "domain": "huggingface.co",
-      "createdAt": "2026-11-24T16:34:13.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "Hugging Face",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 1.43
-    },
-    {
-      "id": "9b60f3c3da87",
-      "title": "From CUDA and Jax to TorchTPU: Lessons from a Cayley Graph Solver",
-      "url": "https://andlukyane.com/blog/cayley-graphs-and-torchtpu",
-      "canonicalUrl": "https://andlukyane.com/blog/cayley-graphs-and-torchtpu",
-      "domain": "andlukyane.com",
-      "createdAt": "2026-11-24T19:40:43.000Z",
+      "id": "fa8097569f7c",
+      "title": "Marginalia Search, Money, C++, Rust, AI, Stuff",
+      "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
+      "canonicalUrl": "https://marginalia.nu/log/a_141_marginalia_update",
+      "domain": "marginalia.nu",
+      "createdAt": "2026-11-25T03:47:42.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 30,
+          "points": 68,
+          "comments": 18,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50638220"
+        }
+      ],
+      "normalized": 0.438,
+      "score": 2.255
+    },
+    {
+      "id": "9a9294d39772",
+      "title": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
+      "url": "https://gpu-demo-gallery.pages.dev/",
+      "canonicalUrl": "https://gpu-demo-gallery.pages.dev/",
+      "domain": "gpu-demo-gallery.pages.dev",
+      "createdAt": "2026-11-25T04:31:48.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 45,
+          "comments": 9,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50638503"
+        }
+      ],
+      "normalized": 0.331,
+      "score": 2.239
+    },
+    {
+      "id": "ec2cbd010c71",
+      "title": "ACAP: Asynchronous Coding Agents for Efficient Robot Control",
+      "url": "https://arxiv.org/abs/2611.31205",
+      "canonicalUrl": "https://arxiv.org/abs/2611.31205",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-25T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 44,
           "comments": 0,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50633424"
+          "discussionUrl": "https://huggingface.co/papers/2611.31205"
         }
       ],
-      "normalized": 0.177,
-      "score": 1.399
+      "normalized": 0.975,
+      "score": 1.871
     },
     {
-      "id": "197dc8b3ac4d",
-      "title": "A training engine for your local model, using your idle compute",
-      "url": "https://github.com/sous-labs/songe",
-      "canonicalUrl": "https://github.com/sous-labs/songe",
-      "domain": "github.com",
-      "createdAt": "2026-11-24T15:03:40.000Z",
+      "id": "025f3cd20286",
+      "title": "Rewirable Circuits in Transformers with Loom Attention",
+      "url": "https://arxiv.org/abs/2611.30634",
+      "canonicalUrl": "https://arxiv.org/abs/2611.30634",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-25T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 31,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.30634"
+        }
+      ],
+      "normalized": 0.925,
+      "score": 1.775
+    },
+    {
+      "id": "a58808d0bc10",
+      "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+      "url": "https://greydanus.github.io/2026/11/12/pengpt/",
+      "canonicalUrl": "https://greydanus.github.io/2026/11/12/pengpt",
+      "domain": "greydanus.github.io",
+      "createdAt": "2026-11-25T00:54:49.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 130,
-          "comments": 37,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50629231"
+          "points": 190,
+          "comments": 32,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50637056"
         }
       ],
-      "normalized": 0.611,
-      "score": 1.24
+      "normalized": 0.744,
+      "score": 1.731
     },
     {
-      "id": "ef8096d74f5d",
-      "title": "LLM agents work for their parent companies, not for you",
-      "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
-      "canonicalUrl": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you",
-      "domain": "michaelharley.net",
-      "createdAt": "2026-11-24T12:40:15.000Z",
+      "id": "a7e535c8332e",
+      "title": "PartAgent: Agentic 3D Part Segmentation via Expert Integration and Closed-Loop Refinement",
+      "url": "https://arxiv.org/abs/2611.32554",
+      "canonicalUrl": "https://arxiv.org/abs/2611.32554",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-25T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 25,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.32554"
+        }
+      ],
+      "normalized": 0.875,
+      "score": 1.679
+    },
+    {
+      "id": "4e4690a77ae9",
+      "title": "Antom 3-in-1 Transformer: A Payment Foundation Model",
+      "url": "https://arxiv.org/abs/2611.25403",
+      "canonicalUrl": "https://arxiv.org/abs/2611.25403",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-25T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 21,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.25403"
+        }
+      ],
+      "normalized": 0.8,
+      "score": 1.535
+    },
+    {
+      "id": "e274ec7e3c9a",
+      "title": "Embodied AI Fails the Mirror Test: How a Simple Mirror Breaks Robot Policies",
+      "url": "https://arxiv.org/abs/2611.33010",
+      "canonicalUrl": "https://arxiv.org/abs/2611.33010",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-25T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 16,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.33010"
+        }
+      ],
+      "normalized": 0.75,
+      "score": 1.439
+    },
+    {
+      "id": "ebaf1c30665d",
+      "title": "Serving Qwen via AWS Lambdas for fun and 80x negative profit",
+      "url": "https://noahbuilt.it/writing/qwen-on-5600-lambdas",
+      "canonicalUrl": "https://noahbuilt.it/writing/qwen-on-5600-lambdas",
+      "domain": "noahbuilt.it",
+      "createdAt": "2026-11-25T03:28:06.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 826,
-          "comments": 344,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50627340"
-        }
-      ],
-      "normalized": 0.929,
-      "score": 1.22
-    },
-    {
-      "id": "5d4bdf4656aa",
-      "title": "Compiling web applications into verified operations for AI agents",
-      "url": "https://protocolis.co/paper/",
-      "canonicalUrl": "https://protocolis.co/paper",
-      "domain": "protocolis.co",
-      "createdAt": "2026-11-24T19:12:02.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 30,
+          "points": 43,
           "comments": 9,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50632998"
+          "discussionUrl": "https://news.ycombinator.com/item?id=50638070"
         }
       ],
-      "normalized": 0.177,
-      "score": 1.147
+      "normalized": 0.306,
+      "score": 1.411
     },
     {
-      "id": "86a92119212e",
-      "title": "Working with AI",
-      "url": "https://www.anthropic.com/research/working-with-ai",
-      "canonicalUrl": "https://anthropic.com/research/working-with-ai",
-      "domain": "anthropic.com",
-      "createdAt": "2026-11-24T21:07:38.000Z",
+      "id": "7ab15d97806c",
+      "title": "Self-Evolving Evaluation Environments for Computer-Use Agents",
+      "url": "https://arxiv.org/abs/2611.30962",
+      "canonicalUrl": "https://arxiv.org/abs/2611.30962",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-25T00:00:00.000Z",
       "appearances": [
         {
-          "source": "hn",
-          "label": "HN",
-          "points": 15,
-          "comments": 4,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50634734"
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 14,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.30962"
         }
       ],
-      "normalized": 0.062,
-      "score": 1.074
+      "normalized": 0.725,
+      "score": 1.391
     },
     {
-      "id": "8e9b94fee057",
-      "title": "Show HN: Mason – A lightweight Postgres read-replica, built on columnar storage",
-      "url": "https://masondata.ai/",
-      "canonicalUrl": "https://masondata.ai/",
-      "domain": "masondata.ai",
-      "createdAt": "2026-11-24T16:11:52.000Z",
+      "id": "f57db5985e19",
+      "title": "LeadVLA: Learning Follower-Aware Route Execution for Robot Leading",
+      "url": "https://arxiv.org/abs/2611.30149",
+      "canonicalUrl": "https://arxiv.org/abs/2611.30149",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-25T00:00:00.000Z",
       "appearances": [
         {
-          "source": "hn",
-          "label": "HN",
-          "points": 67,
-          "comments": 9,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50630294"
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 12,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.30149"
         }
       ],
-      "normalized": 0.398,
-      "score": 1.04
+      "normalized": 0.65,
+      "score": 1.247
     },
     {
-      "id": "d5db552c0933",
-      "title": "Who in Washington owns and trades Nvidia stock",
-      "url": "https://www.kadoa.com/congress/insights/trump-nvidia",
-      "canonicalUrl": "https://kadoa.com/congress/insights/trump-nvidia",
-      "domain": "kadoa.com",
-      "createdAt": "2026-11-24T11:51:05.000Z",
+      "id": "1b411de699fb",
+      "title": "MAGPIE: Agentic Multi-Reference Image Generation via Executable Scene Construction",
+      "url": "https://arxiv.org/abs/2611.32462",
+      "canonicalUrl": "https://arxiv.org/abs/2611.32462",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-25T00:00:00.000Z",
       "appearances": [
         {
-          "source": "hn",
-          "label": "HN",
-          "points": 277,
-          "comments": 161,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50626861"
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 10,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.32462"
         }
       ],
-      "normalized": 0.796,
-      "score": 0.92
+      "normalized": 0.625,
+      "score": 1.199
     },
     {
-      "id": "204a3b5c5043",
-      "title": "Anthropic is below its IPO price",
-      "url": "https://www.msn.com/en-us/money/top-stocks/anthropic-stock-sinks-below-ipo-price-why-that-s-happened-so-fast/ar-AA2i7rqa",
-      "canonicalUrl": "https://msn.com/en-us/money/top-stocks/anthropic-stock-sinks-below-ipo-price-why-that-s-happened-so-fast/ar-AA2i7rqa",
-      "domain": "msn.com",
-      "createdAt": "2026-11-24T13:23:47.000Z",
+      "id": "e2dd76685bd9",
+      "title": "Qwen-Image-HD: Autoregressive Diffusion for High Definition Image Generation",
+      "url": "https://arxiv.org/abs/2611.32736",
+      "canonicalUrl": "https://arxiv.org/abs/2611.32736",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-25T00:00:00.000Z",
       "appearances": [
         {
-          "source": "hn",
-          "label": "HN",
-          "points": 128,
-          "comments": 3,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50628932"
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 9,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.32736"
         }
       ],
-      "normalized": 0.602,
-      "score": 0.892
+      "normalized": 0.55,
+      "score": 1.055
     }
   ]
 }
