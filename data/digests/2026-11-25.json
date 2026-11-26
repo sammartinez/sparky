@@ -1,15 +1,15 @@
 {
   "date": "2026-11-25",
-  "generatedAt": "2026-11-25T20:53:40.247Z",
+  "generatedAt": "2026-11-26T06:52:00.529Z",
   "windowHours": 36,
   "stories": [
     {
-      "id": "37b5c9ba9326",
-      "title": "Where scientists draw the line on AI agents",
-      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
-      "canonicalUrl": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "id": "d3aa48daa62d",
+      "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "canonicalUrl": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
       "domain": "huggingface.co",
-      "createdAt": "2026-11-25T18:52:55.000Z",
+      "createdAt": "2026-11-26T05:05:36.000Z",
       "appearances": [
         {
           "source": "rss",
@@ -19,278 +19,273 @@
         }
       ],
       "normalized": 0.5,
-      "score": 4.1
+      "score": 4.58
     },
     {
-      "id": "a958e935c2c7",
-      "title": "Spending 35B Opus 5.5 Tokens to Write a Symphony",
-      "url": "https://danprice.ai/blog/opus-symphony",
-      "canonicalUrl": "https://danprice.ai/blog/opus-symphony",
-      "domain": "danprice.ai",
-      "createdAt": "2026-11-25T19:57:08.000Z",
+      "id": "244a3e8cb4f1",
+      "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+      "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+      "canonicalUrl": "https://twitter.com/thsottiaux/status/2125784147889393806",
+      "domain": "twitter.com",
+      "createdAt": "2026-11-26T03:36:58.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 20,
-          "comments": 4,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50646662"
-        }
-      ],
-      "normalized": 0.073,
-      "score": 1.042
-    },
-    {
-      "id": "88aef6d95408",
-      "title": "New York bans AI toys, including those using internet to talk to children",
-      "url": "https://www.theguardian.com/us-news/2026/nov/25/new-york-bans-ai-toys",
-      "canonicalUrl": "https://theguardian.com/us-news/2026/nov/25/new-york-bans-ai-toys",
-      "domain": "theguardian.com",
-      "createdAt": "2026-11-25T17:27:05.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 28,
-          "comments": 2,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50644909"
-        }
-      ],
-      "normalized": 0.118,
-      "score": 0.56
-    },
-    {
-      "id": "d0a3a7f662b5",
-      "title": "An Indic Voice Agent with CUGA",
-      "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
-      "canonicalUrl": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
-      "domain": "huggingface.co",
-      "createdAt": "2026-11-25T10:22:09.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "Hugging Face",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 0.528
-    },
-    {
-      "id": "3d12a70e8605",
-      "title": "Lazy Agents Answer Against Their Own Beliefs: Reinforcement Learning with Verifiable Beliefs Teaches Them to Act on What They Believe",
-      "url": "https://arxiv.org/abs/2611.32884",
-      "canonicalUrl": "https://arxiv.org/abs/2611.32884",
-      "domain": "arxiv.org",
-      "createdAt": "2026-11-25T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 87,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2611.32884"
-        }
-      ],
-      "normalized": 0.975,
-      "score": 0.348
-    },
-    {
-      "id": "6898dae445a6",
-      "title": "Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation",
-      "url": "https://arxiv.org/abs/2611.31358",
-      "canonicalUrl": "https://arxiv.org/abs/2611.31358",
-      "domain": "arxiv.org",
-      "createdAt": "2026-11-25T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 80,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2611.31358"
-        }
-      ],
-      "normalized": 0.95,
-      "score": 0.339
-    },
-    {
-      "id": "8fd5f0be76b9",
-      "title": "ICLWorld: Benchmarking In-Context Learning of Agents from Digital to Physical Worlds",
-      "url": "https://arxiv.org/abs/2611.32649",
-      "canonicalUrl": "https://arxiv.org/abs/2611.32649",
-      "domain": "arxiv.org",
-      "createdAt": "2026-11-25T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 19,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2611.32649"
-        }
-      ],
-      "normalized": 0.775,
-      "score": 0.277
-    },
-    {
-      "id": "0de40c3ad285",
-      "title": "Reinforcing Diffusion Models by Instantaneous Trajectory Distribution Matching",
-      "url": "https://arxiv.org/abs/2611.30986",
-      "canonicalUrl": "https://arxiv.org/abs/2611.30986",
-      "domain": "arxiv.org",
-      "createdAt": "2026-11-25T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 13,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2611.30986"
-        }
-      ],
-      "normalized": 0.7,
-      "score": 0.25
-    },
-    {
-      "id": "dc30af1becdb",
-      "title": "Top open problems in mathematics ranked by LLM-assessed importance",
-      "url": "https://www.proofatlas.ai/open-problems/",
-      "canonicalUrl": "https://proofatlas.ai/open-problems",
-      "domain": "proofatlas.ai",
-      "createdAt": "2026-11-25T03:01:36.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 98,
-          "comments": 49,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50637871"
-        }
-      ],
-      "normalized": 0.518,
-      "score": 0.239
-    },
-    {
-      "id": "5ef0c0aa6faa",
-      "title": "Coding4Games: Can Modern Coding Agents Play Modern Video Games?",
-      "url": "https://arxiv.org/abs/2611.31974",
-      "canonicalUrl": "https://arxiv.org/abs/2611.31974",
-      "domain": "arxiv.org",
-      "createdAt": "2026-11-25T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 10,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2611.31974"
+          "points": 139,
+          "comments": 75,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50651117"
         }
       ],
       "normalized": 0.65,
-      "score": 0.232
+      "score": 3.285
     },
     {
-      "id": "3c6728c1bfd1",
-      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
-      "canonicalUrl": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
-      "domain": "openai.com",
-      "createdAt": "2026-11-24T13:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 345,
-          "comments": 94,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50634658"
-        },
-        {
-          "source": "rss",
-          "label": "OpenAI",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.845,
-      "score": 0.223
-    },
-    {
-      "id": "2e24b076ea5b",
-      "title": "SpecEngineeringBench: Evaluating Coding Agents as Autonomous Specification Engineers",
-      "url": "https://arxiv.org/abs/2611.32973",
-      "canonicalUrl": "https://arxiv.org/abs/2611.32973",
+      "id": "32977c8fc78d",
+      "title": "PyRUA-Dex: Learning Programmatic Policies for Dexterous Bimanual Manipulation with Coding Agents",
+      "url": "https://arxiv.org/abs/2611.33144",
+      "canonicalUrl": "https://arxiv.org/abs/2611.33144",
       "domain": "arxiv.org",
-      "createdAt": "2026-11-25T00:00:00.000Z",
+      "createdAt": "2026-11-26T00:00:00.000Z",
       "appearances": [
         {
           "source": "hf",
           "label": "HF Papers",
-          "points": 9,
+          "points": 31,
           "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2611.32973"
+          "discussionUrl": "https://huggingface.co/papers/2611.33144"
         }
       ],
-      "normalized": 0.575,
-      "score": 0.205
+      "normalized": 0.975,
+      "score": 1.919
     },
     {
-      "id": "d48a6befd475",
-      "title": "LoopDVR: Looped Transformer for Efficient Dense Visual Recognition",
-      "url": "https://arxiv.org/abs/2611.32067",
-      "canonicalUrl": "https://arxiv.org/abs/2611.32067",
+      "id": "ce17b50be005",
+      "title": "DyLoMo-DiT: Dynamic Looped Mixture-of-Experts Diffusion Transformers",
+      "url": "https://arxiv.org/abs/2611.30844",
+      "canonicalUrl": "https://arxiv.org/abs/2611.30844",
       "domain": "arxiv.org",
-      "createdAt": "2026-11-25T00:00:00.000Z",
+      "createdAt": "2026-11-26T00:00:00.000Z",
       "appearances": [
         {
           "source": "hf",
           "label": "HF Papers",
-          "points": 9,
+          "points": 14,
           "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2611.32067"
+          "discussionUrl": "https://huggingface.co/papers/2611.30844"
         }
       ],
-      "normalized": 0.575,
-      "score": 0.205
+      "normalized": 0.825,
+      "score": 1.624
     },
     {
-      "id": "bbef1e94d167",
-      "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
-      "url": "https://news.ycombinator.com/item?id=50630809",
-      "canonicalUrl": "https://news.ycombinator.com/item?id=50630809",
-      "domain": "news.ycombinator.com",
-      "createdAt": "2026-11-24T16:45:44.000Z",
+      "id": "fb70fae50c8d",
+      "title": "Agentic LongLive: Asynchronous Agentic Memory for Long Video Generation",
+      "url": "https://arxiv.org/abs/2611.34907",
+      "canonicalUrl": "https://arxiv.org/abs/2611.34907",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-26T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 11,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.34907"
+        }
+      ],
+      "normalized": 0.75,
+      "score": 1.476
+    },
+    {
+      "id": "1fe009e897a3",
+      "title": "iMFPO: Improving Mean Flow Policy Optimization with Drift-Aware Velocity Alignment for Embodied Control",
+      "url": "https://arxiv.org/abs/2611.33922",
+      "canonicalUrl": "https://arxiv.org/abs/2611.33922",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-26T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 8,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.33922"
+        }
+      ],
+      "normalized": 0.625,
+      "score": 1.23
+    },
+    {
+      "id": "397e5bf7d9f5",
+      "title": "RoboEvo^2: Recursive Robot Self-Improvement via Harness-Policy Co-Evolution",
+      "url": "https://arxiv.org/abs/2611.34675",
+      "canonicalUrl": "https://arxiv.org/abs/2611.34675",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-26T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 8,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.34675"
+        }
+      ],
+      "normalized": 0.625,
+      "score": 1.23
+    },
+    {
+      "id": "f63f4cad1468",
+      "title": "Much shorter version of GRH Lean verification from Anthropic",
+      "url": "https://github.com/lsernau/grh-lean",
+      "canonicalUrl": "https://github.com/lsernau/grh-lean",
+      "domain": "github.com",
+      "createdAt": "2026-11-25T21:48:10.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 432,
-          "comments": 327,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50630809"
+          "points": 403,
+          "comments": 202,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50648050"
         }
       ],
-      "normalized": 0.927,
-      "score": 0.202
+      "normalized": 0.89,
+      "score": 1.176
     },
     {
-      "id": "0ef4cfc249ff",
-      "title": "PINE: Point, Instance and Normal Estimation in One-Step Diffusion Model",
-      "url": "https://arxiv.org/abs/2611.29389",
-      "canonicalUrl": "https://arxiv.org/abs/2611.29389",
+      "id": "6da70a697393",
+      "title": "High-Fidelity Image Matting with Pixel-Space Diffusion Transformers",
+      "url": "https://arxiv.org/abs/2611.34929",
+      "canonicalUrl": "https://arxiv.org/abs/2611.34929",
       "domain": "arxiv.org",
-      "createdAt": "2026-11-25T00:00:00.000Z",
+      "createdAt": "2026-11-26T00:00:00.000Z",
       "appearances": [
         {
           "source": "hf",
           "label": "HF Papers",
           "points": 6,
           "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2611.29389"
+          "discussionUrl": "https://huggingface.co/papers/2611.34929"
+        }
+      ],
+      "normalized": 0.525,
+      "score": 1.033
+    },
+    {
+      "id": "65d3675b8d1b",
+      "title": "Loupe: Reinforcing Knowledge-Intensive Video Generation Agents",
+      "url": "https://arxiv.org/abs/2611.31895",
+      "canonicalUrl": "https://arxiv.org/abs/2611.31895",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-26T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 6,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.31895"
+        }
+      ],
+      "normalized": 0.525,
+      "score": 1.033
+    },
+    {
+      "id": "19f2f984a80d",
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "canonicalUrl": "https://theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "domain": "theverge.com",
+      "createdAt": "2026-11-25T21:18:02.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 308,
+          "comments": 269,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50647673"
+        }
+      ],
+      "normalized": 0.83,
+      "score": 1.012
+    },
+    {
+      "id": "653fb27d2ecd",
+      "title": "EgoUseBench: Benchmarking Computer-Use Agents under Evolving First-Person Contexts",
+      "url": "https://arxiv.org/abs/2611.34466",
+      "canonicalUrl": "https://arxiv.org/abs/2611.34466",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-26T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 5,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.34466"
         }
       ],
       "normalized": 0.5,
-      "score": 0.178
+      "score": 0.984
+    },
+    {
+      "id": "ae0af256fde4",
+      "title": "SEEK: Self-Evolution through Execution Knowledge for Agentic Robot Manipulation",
+      "url": "https://arxiv.org/abs/2611.33915",
+      "canonicalUrl": "https://arxiv.org/abs/2611.33915",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-26T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 4,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.33915"
+        }
+      ],
+      "normalized": 0.475,
+      "score": 0.935
+    },
+    {
+      "id": "a1356d98cece",
+      "title": "Bare Metal Qwen",
+      "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
+      "canonicalUrl": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
+      "domain": "github.com",
+      "createdAt": "2026-11-25T22:15:34.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 116,
+          "comments": 25,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50648365"
+        }
+      ],
+      "normalized": 0.59,
+      "score": 0.841
+    },
+    {
+      "id": "f320574d45af",
+      "title": "Beyond the Happy Path: Generalizing Robot World Models from Simulated Failures",
+      "url": "https://arxiv.org/abs/2611.33925",
+      "canonicalUrl": "https://arxiv.org/abs/2611.33925",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-26T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.33925"
+        }
+      ],
+      "normalized": 0.225,
+      "score": 0.443
     }
   ]
 }
