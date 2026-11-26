@@ -1,0 +1,291 @@
+{
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-26T20:45:00.189Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "1cb3e1eb17f7",
+      "title": "The USA as a Civilizations-esque map",
+      "url": "https://karpathy.ai/usaciv/",
+      "canonicalUrl": "https://karpathy.ai/usaciv",
+      "domain": "karpathy.ai",
+      "createdAt": "2026-11-26T19:53:58.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 34,
+          "comments": 15,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50658997"
+        }
+      ],
+      "normalized": 0.267,
+      "score": 4.047
+    },
+    {
+      "id": "280fc6b8ee71",
+      "title": "Tracking Diseases Cured by AI",
+      "url": "https://diseasescuredbyai.com/",
+      "canonicalUrl": "https://diseasescuredbyai.com/",
+      "domain": "diseasescuredbyai.com",
+      "createdAt": "2026-11-26T17:16:41.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 281,
+          "comments": 170,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50657307"
+        }
+      ],
+      "normalized": 0.811,
+      "score": 3.806
+    },
+    {
+      "id": "1d45997e4997",
+      "title": "AMD Specific Patches for Llama.cpp",
+      "url": "https://devnull.land/amd-specific-llama-cpp",
+      "canonicalUrl": "https://devnull.land/amd-specific-llama-cpp",
+      "domain": "devnull.land",
+      "createdAt": "2026-11-26T17:11:29.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 178,
+          "comments": 47,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50657265"
+        }
+      ],
+      "normalized": 0.7,
+      "score": 3.193
+    },
+    {
+      "id": "4fdce5f029af",
+      "title": "One guy is doing a hunger strike outside Anthropic, currently in his 3rd day",
+      "url": "https://twitter.com/ElliotC1/status/2125689373337489419",
+      "canonicalUrl": "https://twitter.com/ElliotC1/status/2125689373337489419",
+      "domain": "twitter.com",
+      "createdAt": "2026-11-26T16:55:15.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 54,
+          "comments": 44,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50657110"
+        }
+      ],
+      "normalized": 0.389,
+      "score": 1.628
+    },
+    {
+      "id": "1e8d620dd91d",
+      "title": "'AI' might be the end of our careers",
+      "url": "https://www.baldurbjarnason.com/2026/08-ai-might-be-the-end-of-our-careers/",
+      "canonicalUrl": "https://baldurbjarnason.com/2026/08-ai-might-be-the-end-of-our-careers",
+      "domain": "baldurbjarnason.com",
+      "createdAt": "2026-11-26T17:29:28.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 22,
+          "comments": 28,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50657452"
+        }
+      ],
+      "normalized": 0.144,
+      "score": 0.728
+    },
+    {
+      "id": "02a088434703",
+      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "canonicalUrl": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "domain": "huggingface.co",
+      "createdAt": "2026-11-26T11:37:17.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.654
+    },
+    {
+      "id": "6f6a6b07f17a",
+      "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+      "canonicalUrl": "https://techstackups.com/articles/google-workspace-ai-agents-mcp",
+      "domain": "techstackups.com",
+      "createdAt": "2026-11-26T09:44:23.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 134,
+          "comments": 150,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50653477"
+        }
+      ],
+      "normalized": 0.633,
+      "score": 0.625
+    },
+    {
+      "id": "64a870b6a927",
+      "title": "Moat: OpenRouter replacement",
+      "url": "https://commandcode.ai/moat",
+      "canonicalUrl": "https://commandcode.ai/moat",
+      "domain": "commandcode.ai",
+      "createdAt": "2026-11-26T06:32:48.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 214,
+          "comments": 124,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50652184"
+        }
+      ],
+      "normalized": 0.733,
+      "score": 0.488
+    },
+    {
+      "id": "832ab4e47f91",
+      "title": "Z.ai clarifies GLM-5.5 has not been delayed, scheduled for December launch",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1y6260i/zai_clarifies_glm55_has_not_been_delayed/",
+      "canonicalUrl": "https://reddit.com/r/LocalLLaMA/comments/1y6260i/zai_clarifies_glm55_has_not_been_delayed",
+      "domain": "reddit.com",
+      "createdAt": "2026-11-26T17:55:10.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 16,
+          "comments": 1,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50657724"
+        }
+      ],
+      "normalized": 0.067,
+      "score": 0.391
+    },
+    {
+      "id": "82a13b62ffcb",
+      "title": "OpenAI may be in cost control mode",
+      "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
+      "canonicalUrl": "https://micjm.com/blog/openai-is-in-cost-control-mode",
+      "domain": "micjm.com",
+      "createdAt": "2026-11-26T07:33:12.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 79,
+          "comments": 56,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50652527"
+        }
+      ],
+      "normalized": 0.522,
+      "score": 0.39
+    },
+    {
+      "id": "0701b6365593",
+      "title": "Mixture-of-Loops Transformer",
+      "url": "https://arxiv.org/abs/2611.34923",
+      "canonicalUrl": "https://arxiv.org/abs/2611.34923",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-26T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 57,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.34923"
+        }
+      ],
+      "normalized": 0.95,
+      "score": 0.343
+    },
+    {
+      "id": "e0099f885462",
+      "title": "Let Vision-Language Models Generate Images through Their Representations",
+      "url": "https://arxiv.org/abs/2611.31237",
+      "canonicalUrl": "https://arxiv.org/abs/2611.31237",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-26T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 24,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.31237"
+        }
+      ],
+      "normalized": 0.875,
+      "score": 0.316
+    },
+    {
+      "id": "0d16ad717e3a",
+      "title": "DexEngine: Scaling Human Demonstrations into Physically Executable Whole-Robot Data",
+      "url": "https://arxiv.org/abs/2611.33579",
+      "canonicalUrl": "https://arxiv.org/abs/2611.33579",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-26T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 18,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.33579"
+        }
+      ],
+      "normalized": 0.775,
+      "score": 0.28
+    },
+    {
+      "id": "cd99025d7275",
+      "title": "Playfulness as Feedback for Agentic Game Development",
+      "url": "https://arxiv.org/abs/2611.33457",
+      "canonicalUrl": "https://arxiv.org/abs/2611.33457",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-26T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 18,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.33457"
+        }
+      ],
+      "normalized": 0.775,
+      "score": 0.28
+    },
+    {
+      "id": "5ddc80c89f83",
+      "title": "Letting Models Manage Their Own Context: Where We Stand",
+      "url": "https://arxiv.org/abs/2611.34147",
+      "canonicalUrl": "https://arxiv.org/abs/2611.34147",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-26T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 6,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.34147"
+        }
+      ],
+      "normalized": 0.625,
+      "score": 0.226
+    }
+  ]
+}
