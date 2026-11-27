@@ -1,26 +1,223 @@
 {
   "date": "2026-11-26",
-  "generatedAt": "2026-11-26T20:45:00.189Z",
+  "generatedAt": "2026-11-27T06:44:27.824Z",
   "windowHours": 36,
   "stories": [
     {
-      "id": "1cb3e1eb17f7",
-      "title": "The USA as a Civilizations-esque map",
-      "url": "https://karpathy.ai/usaciv/",
-      "canonicalUrl": "https://karpathy.ai/usaciv",
-      "domain": "karpathy.ai",
-      "createdAt": "2026-11-26T19:53:58.000Z",
+      "id": "0256b11e8366",
+      "title": "\"What's Claude's Fursona?\" and Other Questions",
+      "url": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona/",
+      "canonicalUrl": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona",
+      "domain": "herecomesthemoon.net",
+      "createdAt": "2026-11-27T04:56:18.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 34,
-          "comments": 15,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50658997"
+          "points": 61,
+          "comments": 27,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50662933"
         }
       ],
-      "normalized": 0.267,
-      "score": 4.047
+      "normalized": 0.419,
+      "score": 3.788
+    },
+    {
+      "id": "81c7402b92ff",
+      "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+      "url": "https://arxiv.org/abs/2611.34232",
+      "canonicalUrl": "https://arxiv.org/abs/2611.34232",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-27T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 64,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.34232"
+        }
+      ],
+      "normalized": 0.95,
+      "score": 1.918
+    },
+    {
+      "id": "19dd4641586d",
+      "title": "AI made self-hosting fun again",
+      "url": "https://janlukas.blog/posts/ai-self-hosting",
+      "canonicalUrl": "https://janlukas.blog/posts/ai-self-hosting",
+      "domain": "janlukas.blog",
+      "createdAt": "2026-11-26T21:47:45.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 533,
+          "comments": 273,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50660180"
+        },
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 4,
+          "comments": 1,
+          "discussionUrl": "https://lobste.rs/s/xsjwvi/ai_made_self_hosting_fun_again"
+        }
+      ],
+      "normalized": 0.946,
+      "score": 1.912
+    },
+    {
+      "id": "38d96de02cd0",
+      "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+      "url": "https://arxiv.org/abs/2611.34852",
+      "canonicalUrl": "https://arxiv.org/abs/2611.34852",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-27T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 22,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.34852"
+        }
+      ],
+      "normalized": 0.85,
+      "score": 1.716
+    },
+    {
+      "id": "b9a6b5b3831f",
+      "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
+      "url": "https://arxiv.org/abs/2611.34290",
+      "canonicalUrl": "https://arxiv.org/abs/2611.34290",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-27T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 21,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.34290"
+        }
+      ],
+      "normalized": 0.825,
+      "score": 1.666
+    },
+    {
+      "id": "18120ed8a3ce",
+      "title": "ShowNow: Fine-Grained Speculative Streaming for Responsive World Models",
+      "url": "https://arxiv.org/abs/2611.34693",
+      "canonicalUrl": "https://arxiv.org/abs/2611.34693",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-27T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 17,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.34693"
+        }
+      ],
+      "normalized": 0.75,
+      "score": 1.514
+    },
+    {
+      "id": "86b16d1b32dc",
+      "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+      "url": "https://arxiv.org/abs/2611.34813",
+      "canonicalUrl": "https://arxiv.org/abs/2611.34813",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-27T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 7,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.34813"
+        }
+      ],
+      "normalized": 0.7,
+      "score": 1.413
+    },
+    {
+      "id": "a8b12218dc53",
+      "title": "Boundary-Aware Policy Learning for Agent-Orchestrated Robot Manipulation",
+      "url": "https://arxiv.org/abs/2611.32238",
+      "canonicalUrl": "https://arxiv.org/abs/2611.32238",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-27T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 5,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.32238"
+        }
+      ],
+      "normalized": 0.6,
+      "score": 1.212
+    },
+    {
+      "id": "14978b04749d",
+      "title": "When an AI agent makes a mistake in a database, what decides the damage?",
+      "url": "https://arxiv.org/abs/2611.30483",
+      "canonicalUrl": "https://arxiv.org/abs/2611.30483",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-27T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 3,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.30483"
+        }
+      ],
+      "normalized": 0.375,
+      "score": 0.757
+    },
+    {
+      "id": "c32b53f8cb3b",
+      "title": "New AI research suggests AI bubble bursting and to expect major market collapse",
+      "url": "https://www.london.edu/think/ai-bubble-about-to-burst",
+      "canonicalUrl": "https://london.edu/think/ai-bubble-about-to-burst",
+      "domain": "london.edu",
+      "createdAt": "2026-11-27T02:44:12.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 31,
+          "comments": 15,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50662153"
+        }
+      ],
+      "normalized": 0.172,
+      "score": 0.683
+    },
+    {
+      "id": "6bac70b0e180",
+      "title": "AI agents now control part of DeepMind's compute for Gemini experiments",
+      "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+      "canonicalUrl": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant",
+      "domain": "the-decoder.com",
+      "createdAt": "2026-11-27T00:03:18.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 50,
+          "comments": 23,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50661218"
+        }
+      ],
+      "normalized": 0.333,
+      "score": 0.681
     },
     {
       "id": "280fc6b8ee71",
@@ -39,7 +236,7 @@
         }
       ],
       "normalized": 0.811,
-      "score": 3.806
+      "score": 0.587
     },
     {
       "id": "1d45997e4997",
@@ -58,234 +255,45 @@
         }
       ],
       "normalized": 0.7,
-      "score": 3.193
+      "score": 0.501
     },
     {
-      "id": "4fdce5f029af",
-      "title": "One guy is doing a hunger strike outside Anthropic, currently in his 3rd day",
-      "url": "https://twitter.com/ElliotC1/status/2125689373337489419",
-      "canonicalUrl": "https://twitter.com/ElliotC1/status/2125689373337489419",
-      "domain": "twitter.com",
-      "createdAt": "2026-11-26T16:55:15.000Z",
+      "id": "934d351a4512",
+      "title": "Reading, Not Adapting: Unlocking Frozen Visual Knowledge for AI-Generated Image Detection",
+      "url": "https://arxiv.org/abs/2611.34719",
+      "canonicalUrl": "https://arxiv.org/abs/2611.34719",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-27T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 2,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.34719"
+        }
+      ],
+      "normalized": 0.2,
+      "score": 0.404
+    },
+    {
+      "id": "82bab66344c7",
+      "title": "An introduction to uncertainty in machine learning",
+      "url": "https://chrhenning.com/blog/2026/introduction-to-uncertainty/",
+      "canonicalUrl": "https://chrhenning.com/blog/2026/introduction-to-uncertainty",
+      "domain": "chrhenning.com",
+      "createdAt": "2026-11-26T19:04:50.000Z",
       "appearances": [
         {
           "source": "hn",
           "label": "HN",
-          "points": 54,
-          "comments": 44,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50657110"
-        }
-      ],
-      "normalized": 0.389,
-      "score": 1.628
-    },
-    {
-      "id": "1e8d620dd91d",
-      "title": "'AI' might be the end of our careers",
-      "url": "https://www.baldurbjarnason.com/2026/08-ai-might-be-the-end-of-our-careers/",
-      "canonicalUrl": "https://baldurbjarnason.com/2026/08-ai-might-be-the-end-of-our-careers",
-      "domain": "baldurbjarnason.com",
-      "createdAt": "2026-11-26T17:29:28.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 22,
-          "comments": 28,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50657452"
-        }
-      ],
-      "normalized": 0.144,
-      "score": 0.728
-    },
-    {
-      "id": "02a088434703",
-      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
-      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
-      "canonicalUrl": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
-      "domain": "huggingface.co",
-      "createdAt": "2026-11-26T11:37:17.000Z",
-      "appearances": [
-        {
-          "source": "rss",
-          "label": "Hugging Face",
-          "points": null,
-          "comments": null
-        }
-      ],
-      "normalized": 0.5,
-      "score": 0.654
-    },
-    {
-      "id": "6f6a6b07f17a",
-      "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
-      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
-      "canonicalUrl": "https://techstackups.com/articles/google-workspace-ai-agents-mcp",
-      "domain": "techstackups.com",
-      "createdAt": "2026-11-26T09:44:23.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 134,
-          "comments": 150,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50653477"
-        }
-      ],
-      "normalized": 0.633,
-      "score": 0.625
-    },
-    {
-      "id": "64a870b6a927",
-      "title": "Moat: OpenRouter replacement",
-      "url": "https://commandcode.ai/moat",
-      "canonicalUrl": "https://commandcode.ai/moat",
-      "domain": "commandcode.ai",
-      "createdAt": "2026-11-26T06:32:48.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 214,
-          "comments": 124,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50652184"
-        }
-      ],
-      "normalized": 0.733,
-      "score": 0.488
-    },
-    {
-      "id": "832ab4e47f91",
-      "title": "Z.ai clarifies GLM-5.5 has not been delayed, scheduled for December launch",
-      "url": "https://reddit.com/r/LocalLLaMA/comments/1y6260i/zai_clarifies_glm55_has_not_been_delayed/",
-      "canonicalUrl": "https://reddit.com/r/LocalLLaMA/comments/1y6260i/zai_clarifies_glm55_has_not_been_delayed",
-      "domain": "reddit.com",
-      "createdAt": "2026-11-26T17:55:10.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 16,
+          "points": 53,
           "comments": 1,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50657724"
+          "discussionUrl": "https://news.ycombinator.com/item?id=50658498"
         }
       ],
-      "normalized": 0.067,
-      "score": 0.391
-    },
-    {
-      "id": "82a13b62ffcb",
-      "title": "OpenAI may be in cost control mode",
-      "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
-      "canonicalUrl": "https://micjm.com/blog/openai-is-in-cost-control-mode",
-      "domain": "micjm.com",
-      "createdAt": "2026-11-26T07:33:12.000Z",
-      "appearances": [
-        {
-          "source": "hn",
-          "label": "HN",
-          "points": 79,
-          "comments": 56,
-          "discussionUrl": "https://news.ycombinator.com/item?id=50652527"
-        }
-      ],
-      "normalized": 0.522,
-      "score": 0.39
-    },
-    {
-      "id": "0701b6365593",
-      "title": "Mixture-of-Loops Transformer",
-      "url": "https://arxiv.org/abs/2611.34923",
-      "canonicalUrl": "https://arxiv.org/abs/2611.34923",
-      "domain": "arxiv.org",
-      "createdAt": "2026-11-26T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 57,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2611.34923"
-        }
-      ],
-      "normalized": 0.95,
-      "score": 0.343
-    },
-    {
-      "id": "e0099f885462",
-      "title": "Let Vision-Language Models Generate Images through Their Representations",
-      "url": "https://arxiv.org/abs/2611.31237",
-      "canonicalUrl": "https://arxiv.org/abs/2611.31237",
-      "domain": "arxiv.org",
-      "createdAt": "2026-11-26T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 24,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2611.31237"
-        }
-      ],
-      "normalized": 0.875,
-      "score": 0.316
-    },
-    {
-      "id": "0d16ad717e3a",
-      "title": "DexEngine: Scaling Human Demonstrations into Physically Executable Whole-Robot Data",
-      "url": "https://arxiv.org/abs/2611.33579",
-      "canonicalUrl": "https://arxiv.org/abs/2611.33579",
-      "domain": "arxiv.org",
-      "createdAt": "2026-11-26T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 18,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2611.33579"
-        }
-      ],
-      "normalized": 0.775,
-      "score": 0.28
-    },
-    {
-      "id": "cd99025d7275",
-      "title": "Playfulness as Feedback for Agentic Game Development",
-      "url": "https://arxiv.org/abs/2611.33457",
-      "canonicalUrl": "https://arxiv.org/abs/2611.33457",
-      "domain": "arxiv.org",
-      "createdAt": "2026-11-26T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 18,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2611.33457"
-        }
-      ],
-      "normalized": 0.775,
-      "score": 0.28
-    },
-    {
-      "id": "5ddc80c89f83",
-      "title": "Letting Models Manage Their Own Context: Where We Stand",
-      "url": "https://arxiv.org/abs/2611.34147",
-      "canonicalUrl": "https://arxiv.org/abs/2611.34147",
-      "domain": "arxiv.org",
-      "createdAt": "2026-11-26T00:00:00.000Z",
-      "appearances": [
-        {
-          "source": "hf",
-          "label": "HF Papers",
-          "points": 6,
-          "comments": 0,
-          "discussionUrl": "https://huggingface.co/papers/2611.34147"
-        }
-      ],
-      "normalized": 0.625,
-      "score": 0.226
+      "normalized": 0.366,
+      "score": 0.33
     }
   ]
 }
