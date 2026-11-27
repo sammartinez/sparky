@@ -1,0 +1,291 @@
+{
+  "date": "2026-11-27",
+  "generatedAt": "2026-11-27T20:30:19.505Z",
+  "windowHours": 36,
+  "stories": [
+    {
+      "id": "1da91faa1cce",
+      "title": "Michael Nielsen took down his book on neural nets",
+      "url": "https://twitter.com/michael_nielsen/status/2126359767362748777",
+      "canonicalUrl": "https://twitter.com/michael_nielsen/status/2126359767362748777",
+      "domain": "twitter.com",
+      "createdAt": "2026-11-27T19:31:01.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 97,
+          "comments": 74,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50670757"
+        }
+      ],
+      "normalized": 0.506,
+      "score": 7.047
+    },
+    {
+      "id": "f21d90605390",
+      "title": "I'm Scared of AI",
+      "url": "https://thesoapbox.email/archive/3",
+      "canonicalUrl": "https://thesoapbox.email/archive/3",
+      "domain": "thesoapbox.email",
+      "createdAt": "2026-11-27T17:45:31.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 188,
+          "comments": 207,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50669561"
+        }
+      ],
+      "normalized": 0.73,
+      "score": 4.426
+    },
+    {
+      "id": "aa5274859672",
+      "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+      "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
+      "canonicalUrl": "https://oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
+      "domain": "oag.state.va.us",
+      "createdAt": "2026-11-27T19:42:25.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 32,
+          "comments": 5,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50670855"
+        }
+      ],
+      "normalized": 0.18,
+      "score": 2.82
+    },
+    {
+      "id": "01cdd83d3c55",
+      "title": "GPT 6.2 Astra solves a historical mystery",
+      "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+      "canonicalUrl": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+      "domain": "generativehistory.substack.com",
+      "createdAt": "2026-11-27T15:03:17.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 163,
+          "comments": 1,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50667744"
+        }
+      ],
+      "normalized": 0.674,
+      "score": 1.815
+    },
+    {
+      "id": "4c2310f3b8e4",
+      "title": "Kimi for Science: More scientific ideas, made possible",
+      "url": "https://www.kimi.ai/news/kimi-for-science-program",
+      "canonicalUrl": "https://kimi.ai/news/kimi-for-science-program",
+      "domain": "kimi.ai",
+      "createdAt": "2026-11-27T12:03:11.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 173,
+          "comments": 140,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50665920"
+        }
+      ],
+      "normalized": 0.719,
+      "score": 1.052
+    },
+    {
+      "id": "138e1e18872d",
+      "title": "Claude sabotaging ML research tasks?",
+      "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+      "canonicalUrl": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+      "domain": "twitter.com",
+      "createdAt": "2026-11-27T08:28:08.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 447,
+          "comments": 229,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50664325"
+        }
+      ],
+      "normalized": 0.888,
+      "score": 0.764
+    },
+    {
+      "id": "48b0d8d3f8ca",
+      "title": "Group chat where your AI talks behind your back",
+      "url": "https://construct22.com/",
+      "canonicalUrl": "https://construct22.com/",
+      "domain": "construct22.com",
+      "createdAt": "2026-11-27T06:44:34.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 629,
+          "comments": 266,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50663595"
+        }
+      ],
+      "normalized": 0.966,
+      "score": 0.675
+    },
+    {
+      "id": "55060e027bba",
+      "title": "AI on brink of making online security useless, mathematicians fear",
+      "url": "https://www.thetimes.com/uk/technology-uk/article/ai-making-online-security-useless-smr73d3n8",
+      "canonicalUrl": "https://thetimes.com/uk/technology-uk/article/ai-making-online-security-useless-smr73d3n8",
+      "domain": "thetimes.com",
+      "createdAt": "2026-11-27T11:09:04.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 109,
+          "comments": 144,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50665488"
+        }
+      ],
+      "normalized": 0.528,
+      "score": 0.666
+    },
+    {
+      "id": "809039bcfa7c",
+      "title": "Curb impacts of AI on programming to maintain EU sovereignty",
+      "url": "https://www.draketo.de/software/curb-ai-impact",
+      "canonicalUrl": "https://draketo.de/software/curb-ai-impact",
+      "domain": "draketo.de",
+      "createdAt": "2026-11-27T07:00:03.110Z",
+      "appearances": [
+        {
+          "source": "lobsters",
+          "label": "Lobsters",
+          "points": 8,
+          "comments": 3,
+          "discussionUrl": "https://lobste.rs/s/lmxpfo/curb_impacts_ai_on_programming_maintain"
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.36
+    },
+    {
+      "id": "d0382bcd0188",
+      "title": "What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models",
+      "url": "https://arxiv.org/abs/2611.31619",
+      "canonicalUrl": "https://arxiv.org/abs/2611.31619",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-27T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 57,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.31619"
+        }
+      ],
+      "normalized": 0.857,
+      "score": 0.315
+    },
+    {
+      "id": "1799f4d1d7a5",
+      "title": "Stanford Physicist Uses AI to Tackle Quantum Gravity Problem",
+      "url": "https://thequantuminsider.com/2026/11/26/stanford-physicist-uses-ai-to-tackle-quantum-gravity-problem/",
+      "canonicalUrl": "https://thequantuminsider.com/2026/11/26/stanford-physicist-uses-ai-to-tackle-quantum-gravity-problem",
+      "domain": "thequantuminsider.com",
+      "createdAt": "2026-11-27T14:55:57.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 23,
+          "comments": 10,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50667664"
+        }
+      ],
+      "normalized": 0.079,
+      "score": 0.206
+    },
+    {
+      "id": "2d7f8b4f8454",
+      "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+      "url": "https://huggingface.co/blog/video-trainium3",
+      "canonicalUrl": "https://huggingface.co/blog/video-trainium3",
+      "domain": "huggingface.co",
+      "createdAt": "2026-11-27T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "rss",
+          "label": "Hugging Face",
+          "points": null,
+          "comments": null
+        }
+      ],
+      "normalized": 0.5,
+      "score": 0.184
+    },
+    {
+      "id": "6533ae596c96",
+      "title": "Revisiting LLMs as Context Engineers",
+      "url": "https://arxiv.org/abs/2611.30494",
+      "canonicalUrl": "https://arxiv.org/abs/2611.30494",
+      "domain": "arxiv.org",
+      "createdAt": "2026-11-27T00:00:00.000Z",
+      "appearances": [
+        {
+          "source": "hf",
+          "label": "HF Papers",
+          "points": 4,
+          "comments": 0,
+          "discussionUrl": "https://huggingface.co/papers/2611.30494"
+        }
+      ],
+      "normalized": 0.476,
+      "score": 0.175
+    },
+    {
+      "id": "6f6a6b07f17a",
+      "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+      "canonicalUrl": "https://techstackups.com/articles/google-workspace-ai-agents-mcp",
+      "domain": "techstackups.com",
+      "createdAt": "2026-11-26T09:44:23.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 416,
+          "comments": 329,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50653477"
+        }
+      ],
+      "normalized": 0.865,
+      "score": 0.132
+    },
+    {
+      "id": "1cb3e1eb17f7",
+      "title": "The USA as a Civilizations-esque map",
+      "url": "https://karpathy.ai/usaciv/",
+      "canonicalUrl": "https://karpathy.ai/usaciv",
+      "domain": "karpathy.ai",
+      "createdAt": "2026-11-26T19:53:58.000Z",
+      "appearances": [
+        {
+          "source": "hn",
+          "label": "HN",
+          "points": 73,
+          "comments": 59,
+          "discussionUrl": "https://news.ycombinator.com/item?id=50658997"
+        }
+      ],
+      "normalized": 0.438,
+      "score": 0.119
+    }
+  ]
+}
